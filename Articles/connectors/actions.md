@@ -3,15 +3,14 @@ title: /Actions
 description: Referenzartikel für API zum Senden/Action-Instanzen abrufen
 topic: Reference
 author: nitinjms
-ms.openlocfilehash: 6f58e45b9eb5d4a4987c3aeb36ff8fe1862fe7bc
-ms.sourcegitcommit: 3a6a13cc885faf1bbc9ee8498f5183f414395aac
+ms.openlocfilehash: da96b8dc40d10a8ff2a6ca05e493677bf236fd84
+ms.sourcegitcommit: 523ff9067dc81712d7da2b103a3a1a0f0236b8e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19905326"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20399369"
 ---
-# <a name="api-to-sendretrieve-action-instances"></a>API zum Senden/Action-Instanzen abrufen
-## <a name="actions"></a>/Actions
+# <a name="actions"></a>/Actions
 API-Endpunkt zu senden oder Instanzen von Kaizala Aktionen zu/aus der Unterhaltungsgruppen innerhalb Kaizala abgerufen. Aktuellen Bereich besteht darin, folgende Aktivitätstypen unterstützen:
 
 | Aktion | ERSTE unterstützt | POST unterstützt. | Id |

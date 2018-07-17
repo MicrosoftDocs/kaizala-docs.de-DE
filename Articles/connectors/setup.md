@@ -3,12 +3,12 @@ title: Einrichten von Kaizala Connectors
 description: In diesem Artikel beschreiben die Schritte zum Erstellen Kaizala Connectors und zum Generieren der Permission-Token
 topic: get-started-article
 author: nitinjms
-ms.openlocfilehash: f55d09c4619d6d17a997935ff937ae82cc560ceb
-ms.sourcegitcommit: 3a6a13cc885faf1bbc9ee8498f5183f414395aac
+ms.openlocfilehash: e9f6551f4ae824a6da0ee4ee39f32cd2237486b6
+ms.sourcegitcommit: 523ff9067dc81712d7da2b103a3a1a0f0236b8e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19905235"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20399363"
 ---
 # <a name="setup-for-using-the-kaizala-connectors"></a>Setup für die Verwendung der Kaizala-Connectors
 
@@ -52,7 +52,7 @@ Es gibt vier wichtigsten Infrastrukturkomponenten Arbeitens mit Kaizala Platform
     *   Tippen Sie auf "Connector hinzufügen"
     *   Registrieren Sie einen Connector für das 3. Partei-System, das die API verwenden
         *   Geben Sie den Namen des Connectors und andere Details. Tippen Sie auf Weiter.
-        *   Wählen Sie Berechtigungen, mit denen bestimmt ist für den Zugriff auf den Connector
+        *   Wählen Sie [Berechtigungen](permission.md) , die für den Zugriff auf den Connector vorgesehen ist
         *   Tippen Sie auf Connector erstellen
     *   Beachten Sie die ID & geheimen Schlüssel, die generiert abrufen und auf dem Portal angezeigt
 

@@ -3,12 +3,12 @@ title: Kaizala-APIs
 description: Liste der APIs, Kaizala verfügbar macht, um die Integration mit 3. Partei Systemen ermöglichen
 topic: Reference
 author: nitinjms
-ms.openlocfilehash: 06cb4b8d4883d0d9a50479cf9c9da048cc42e3a7
-ms.sourcegitcommit: 3a6a13cc885faf1bbc9ee8498f5183f414395aac
+ms.openlocfilehash: 7060588be558a16c83f275ea9e8be6bcf926fd54
+ms.sourcegitcommit: 523ff9067dc81712d7da2b103a3a1a0f0236b8e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19905303"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20399379"
 ---
 # <a name="kaizala-api-documentation"></a>Kaizala API-Dokumentation
 
@@ -38,6 +38,7 @@ Die API funktioniert mit den folgenden Kaizala Ressourcen:
 *   [/Media](media.md)
 *   [/Actions](actions.md)
 *   [/Subscribers](subscribers.md)
+*    [/Reaction](reactions.md)
 
 ### <a name="webhooks"></a>WebHooks
 

@@ -3,15 +3,14 @@ title: /Media
 description: Referenzartikel für API zum Senden von Anlagen von Medien zu Gruppen
 topic: Reference
 author: nitinjms
-ms.openlocfilehash: 0b74ce931344407b6e2962f447a0b2c8e721275e
-ms.sourcegitcommit: 3a6a13cc885faf1bbc9ee8498f5183f414395aac
+ms.openlocfilehash: 3cf1e6b235d6bf324011f0b054408eb418eb0871
+ms.sourcegitcommit: 523ff9067dc81712d7da2b103a3a1a0f0236b8e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19905348"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20399377"
 ---
-# <a name="apis-to-query-media-resources"></a>APIs für die Abfrage Media-Ressourcen
-## <a name="media"></a>/Media
+# <a name="media"></a>/Media
 API-Endpunkt zu Unterhaltungsgruppen innerhalb Kaizala Media Dateianhänge.
 
 Dateiformate werden unterstützt:
@@ -28,36 +27,36 @@ Dateianhängen Medien zu Kaizala erfolgt in zwei Schritten. Zunächst müssen Si
 
 Entsprechende Inhalte-Type(mime type) muss in der Kopfzeile der Mediendatei festgelegt werden soll. Ohne diese api wird nicht unterstützte Media(415) Fehler ausgelöst. 
 
-### <a name="post-media"></a>POST-/media
+## <a name="post-media"></a>POST-/media
 
     POST {endpoint-url}/v1/media
 
-##### <a name="request-parameters"></a>Anforderungsparameter
+### <a name="request-parameters"></a>Anforderungsparameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
 | HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
 | HTTP-Header | Content-Type | String | Nein | Um anzugeben, dass eine Datei hochgeladen wird. Wert: Multipart/Formulardaten |
 
-##### <a name="request-body"></a>Anforderungstext
+### <a name="request-body"></a>Anforderungstext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
 | POST-Text | files | Media-Datei in einem Format Multipart/Formulardaten hochgeladen werden |
 
-##### <a name="response-body"></a>Antworttext
+### <a name="response-body"></a>Antworttext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| mediaResource | String | Codierte Media-Daten in den nachfolgenden Send-Aktion Anrufe verwendet werden |
+| mediaResource | Zeichenfolge | Codierte Media-Daten in den nachfolgenden Send-Aktion Anrufe verwendet werden |
 
-### <a name="post-groupsgroupidactions"></a>POST-/groups/ {GroupId} / Aktionen
+## <a name="post-groupsgroupidactions"></a>POST-/groups/ {GroupId} / Aktionen
 
 Nachdem Sie die Mediendatei hochgeladen haben, können Sie eine Mediendatei in einer Gruppe veröffentlichen, mithilfe von unten API
 
     POST {endpoint-url}/v1/groups/{groupId}/actions
 
-##### <a name="request-parameters"></a>Anforderungsparameter
+### <a name="request-parameters"></a>Anforderungsparameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
@@ -65,14 +64,14 @@ Nachdem Sie die Mediendatei hochgeladen haben, können Sie eine Mediendatei in e
 | HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
 | HTTP-Header | Content-Type | String | Nein | Wert: Application/Json |
 
-##### <a name="request-body"></a>Anforderungstext
+### <a name="request-body"></a>Anforderungstext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| actionType | String | ID der Kaizala Aktion senden. Finden Sie in der Tabelle oben unterstützten Dateiformaten und ihren jeweiligen ActionType. |
+| actionType | Zeichenfolge | ID der Kaizala Aktion senden. Finden Sie in der Tabelle oben unterstützten Dateiformaten und ihren jeweiligen ActionType. |
 | actionBody | JSON-Objekt | Ein Objekt, für die entsprechende Aktion erforderliche Daten darstellt. Für jede der unterstützten MediaType nachstehend definierten Parameter. |
 
-###### <a name="actionbody-for-media-files"></a>ActionBody für Media-Dateien
+#### <a name="actionbody-for-media-files"></a>ActionBody für Media-Dateien
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
@@ -80,7 +79,7 @@ Nachdem Sie die Mediendatei hochgeladen haben, können Sie eine Mediendatei in e
 | Beschriftung | String | Ja | Text Zeichenfolge, die die Mediendatei als Teil der Nachricht dargestellt mit |
 
 
-###### <a name="sample-json-request-for-a-media-action"></a>Beispiel für eine Anforderung für eine Aktion Media JSON
+#### <a name="sample-json-request-for-a-media-action"></a>Beispiel für eine Anforderung für eine Aktion Media JSON
 
 ```javascript
 {
@@ -93,7 +92,7 @@ Nachdem Sie die Mediendatei hochgeladen haben, können Sie eine Mediendatei in e
 
 ```
 
-###### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
+#### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
 
 ```javascript
 {

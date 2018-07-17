@@ -3,19 +3,19 @@ title: /Responses
 description: Referenzartikel für API zum Abrufen von Daten für Kaizala Aktionen
 topic: Reference
 author: nitinjms
-ms.openlocfilehash: f22c65a754c3b86cf59991c33a43d0ef83a5472c
-ms.sourcegitcommit: 3a6a13cc885faf1bbc9ee8498f5183f414395aac
+ms.openlocfilehash: 7eee4d159fa932bec1e949ea6fd2b558d2154e7b
+ms.sourcegitcommit: 523ff9067dc81712d7da2b103a3a1a0f0236b8e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19905324"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20399371"
 ---
 # <a name="post-response-to-an-action"></a>POST-Antwort auf eine Aktivität
-### <a name="post-responses"></a>POST-/responses
+## <a name="post-responses"></a>POST-/responses
 
     POST {endpoint-url}/groups/{groupId}/actions/{actionId}/responses
 
-##### <a name="request-parameters"></a>Anforderungsparameter
+### <a name="request-parameters"></a>Anforderungsparameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
@@ -24,23 +24,23 @@ ms.locfileid: "19905324"
 | HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
 | HTTP-Header | Content-Type | String | Nein | Wert: Application/Json |
 
-##### <a name="request-body"></a>Anforderungstext
+### <a name="request-body"></a>Anforderungstext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| id | String | ID des Pakets Kaizala Aktion. Entweder ActionType oder Id muss angegeben werden |
-| actionType | String | Enumeration "Umfrage" / "Job". Entweder ActionType oder Id muss angegeben werden |
-| responseId | String | Zum Aktualisieren der vorhandenen Antwort |
+| id | Zeichenfolge | ID des Pakets Kaizala Aktion. Entweder ActionType oder Id muss angegeben werden |
+| actionType | Zeichenfolge | Enumeration "Umfrage" / "Job". Entweder ActionType oder Id muss angegeben werden |
+| responseId | Zeichenfolge | Zum Aktualisieren der vorhandenen Antwort |
 | actionBody | JSON-Objekt | Ein Objekt, für die entsprechende Aktion erforderliche Daten darstellt. Parameter für die einzelnen unterstützten Aktionen beschrieben. |
 
-###### <a name="actionbody-for-a-job-action"></a>ActionBody für eine Auftrags-Aktion
+#### <a name="actionbody-for-a-job-action"></a>ActionBody für eine Auftrags-Aktion
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
 | isCompleted | Bool | Nein | Markieren Sie den Auftrag als erledigt |
 
 
-###### <a name="sample-json-request-for-a-job-action"></a>Beispiel für eine Anforderung für eine Aktion Auftrag JSON
+##### <a name="sample-json-request-for-a-job-action"></a>Beispiel für eine Anforderung für eine Aktion Auftrag JSON
 
 ```javascript
 {
@@ -51,7 +51,7 @@ ms.locfileid: "19905324"
 }
 ```
 
-###### <a name="actionbody-for-a-survey-action-or-action-package-instanceid-"></a>ActionBody für eine Umfrage oder-Aktion Paket instance(id):
+#### <a name="actionbody-for-a-survey-action-or-action-package-instanceid-"></a>ActionBody für eine Umfrage oder-Aktion Paket instance(id):
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
@@ -59,7 +59,7 @@ ms.locfileid: "19905324"
 | responseLocation | Objekt "Location" | Ja | Für die Antwort des Speicherorts |
 | Antworten | object[] | Nein | Antwort von jede Frage (basierend auf Index). Objekt wird vom Typ String für Fragetyp sein: SingleOption/Text/Image-Objekt wird vom Typ String [] für Fragetyp sein: MultiOption/AttachmentList,-Objekt wird vom Typ double für Fragetyp sein: numerische/Datum |
 
-###### <a name="structure-for-location-object"></a>Struktur für Location-Objekt
+##### <a name="structure-for-location-object"></a>Struktur für Location-Objekt
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
@@ -67,7 +67,7 @@ ms.locfileid: "19905324"
 | longitude | Double | Nein | Länge des Speicherorts |
 | name | String | Nein | Name des Speicherorts |
 
-###### <a name="sample-json-request-for-a-survey-action"></a>Beispiel für eine Anforderung für eine Aktion Umfrage JSON
+##### <a name="sample-json-request-for-a-survey-action"></a>Beispiel für eine Anforderung für eine Aktion Umfrage JSON
 
 ```javascript
 {
@@ -87,11 +87,11 @@ ms.locfileid: "19905324"
 ```
 Sie müssen Bild hochladen (v1-Media api) und dann als Antwort auf Bild Typ Frage MediaResource der Antwort verwenden.
 
-###### <a name="response-body"></a>Antworttext
+#### <a name="response-body"></a>Antworttext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| responseId | String | Antwort-Bezeichner. Sie dienen zum Aktualisieren der Antwort |
+| responseId | Zeichenfolge | Antwort-Bezeichner. Sie dienen zum Aktualisieren der Antwort |
 
 ```javascript
 {

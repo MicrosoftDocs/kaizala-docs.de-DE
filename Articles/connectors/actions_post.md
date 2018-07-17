@@ -3,19 +3,19 @@ title: / Actions_post
 description: Referenzartikel für API-Aktion auf einer Gruppe Kaizala bereitstellen
 topic: Reference
 author: nitinjms
-ms.openlocfilehash: 015a60bbef7be7108cc0edc10e81cc1f8b5636e2
-ms.sourcegitcommit: 3a6a13cc885faf1bbc9ee8498f5183f414395aac
+ms.openlocfilehash: 5ca7c92f76a0e0e18025dda2526b53515a003e90
+ms.sourcegitcommit: 523ff9067dc81712d7da2b103a3a1a0f0236b8e4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19905329"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20399375"
 ---
 # <a name="post-a-action-in-a-group"></a>Eine Aktion nach der in einer Gruppe
-### <a name="post-actions"></a>POST-/actions
+## <a name="post-actions"></a>POST-/actions
 
     POST {endpoint-url}/groups/{groupId}/actions
 
-##### <a name="request-parameters"></a>Anforderungsparameter
+### <a name="request-parameters"></a>Anforderungsparameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
@@ -23,16 +23,16 @@ ms.locfileid: "19905329"
 | HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
 | HTTP-Header | Content-Type | String | Nein | Wert: Application/Json |
 
-##### <a name="request-body"></a>Anforderungstext
+### <a name="request-body"></a>Anforderungstext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| id | String | ID des Pakets Kaizala Aktion. Entweder ActionType oder Id muss angegeben werden |
-| actionType | String | Enumeration "Umfrage" / "Job". Entweder ActionType oder Id muss angegeben werden |
+| id | Zeichenfolge | ID des Pakets Kaizala Aktion. Entweder ActionType oder Id muss angegeben werden |
+| actionType | Zeichenfolge | Enumeration "Umfrage" / "Job". Entweder ActionType oder Id muss angegeben werden |
 | actionBody | JSON-Objekt | Ein Objekt, für die entsprechende Aktion erforderliche Daten darstellt. Parameter für die einzelnen unterstützten Aktionen beschrieben. |
 
 
-###### <a name="actionbody-for-an-announcement-action"></a>ActionBody für eine Ankündigung-Aktion
+#### <a name="actionbody-for-an-announcement-action"></a>ActionBody für eine Ankündigung-Aktion
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
@@ -40,7 +40,7 @@ ms.locfileid: "19905329"
 | MediaResources | String] | Ja | Array von Medienressourcen |
 | Nachricht | String | Nein | Nachrichtentext |
 
-###### <a name="sample-json-request-for-an-announcement-action"></a>Beispiel für eine Anforderung für eine Aktion Ankündigung JSON
+#### <a name="sample-json-request-for-an-announcement-action"></a>Beispiel für eine Anforderung für eine Aktion Ankündigung JSON
 
 ```javascript
 {
@@ -58,7 +58,7 @@ ms.locfileid: "19905329"
 
 ```
 
-###### <a name="actionbody-for-a-job-action"></a>ActionBody für eine Auftrags-Aktion
+#### <a name="actionbody-for-a-job-action"></a>ActionBody für eine Auftrags-Aktion
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
@@ -66,7 +66,7 @@ ms.locfileid: "19905329"
 | assignedTo | String] | Nein | Titel des Auftrags |
 | dueDate | long | Ja | Standard: 24 Stunden. Anzahl der Stunden, die vor denen Auftrag ausgeführt werden soll |
 
-###### <a name="sample-json-request-for-a-job-action"></a>Beispiel für eine Anforderung für eine Aktion Auftrag JSON
+##### <a name="sample-json-request-for-a-job-action"></a>Beispiel für eine Anforderung für eine Aktion Auftrag JSON
 
 ```javascript
 {
@@ -80,15 +80,15 @@ ms.locfileid: "19905329"
 
 ```
 
-###### <a name="actionbody-for-a-poll-action"></a>ActionBody für eine Aktion eines Abrufs
+#### <a name="actionbody-for-a-poll-action"></a>ActionBody für eine Aktion eines Abrufs
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
 | question | String | Nein | Abstimmungsfrage |
 | Choices | JSON-Array | Nein | Optionen für die Umfrage zur Verfügung. Jede Auswahl werden unter Komponente: <ol><li>Titel (obligatorisch & im Zeichenformat) </li><li>Bild (optional)</li></ol> |
-| expiryInHours | Ganzzahl | Ja | Standard: 720. Anzahl der Stunden, in denen eine Umfrage Gven abläuft |
+| expiryInHours | Ganze Zahl | Ja | Standard: 720. Anzahl der Stunden, in denen eine Umfrage Gven abläuft |
 
-###### <a name="sample-json-request-for-a-poll-action"></a>Beispiel für eine Anforderung für eine Aktion Umfrage JSON
+##### <a name="sample-json-request-for-a-poll-action"></a>Beispiel für eine Anforderung für eine Aktion Umfrage JSON
 
 ```javascript
 {actionType:"Poll", actionBody:{question:"Do you find Kaizala extensibility easy to use?", 
@@ -100,25 +100,25 @@ ms.locfileid: "19905329"
         ],
     expiryInHours:10}}
 ```
-###### <a name="actionbody-for-a-lets-meet-action"></a>ActionBody für eine wir erfüllen Aktion
+#### <a name="actionbody-for-a-lets-meet-action"></a>ActionBody für eine wir erfüllen Aktion
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
 | title | String | Nein | Titel der Besprechungsanfrage  |
 | startingTime | DateTime | Nein | Die Startzeit für die Besprechung |
-| DurationInMins | Ganzzahl | Nein | Standard: 30 Minuten. Anzahl der Minuten für die eine Besprechung durchgeführt werden würde |
+| DurationInMins | Ganze Zahl | Nein | Standard: 30 Minuten. Anzahl der Minuten für die eine Besprechung durchgeführt werden würde |
 | Platzieren | JSON-Objekt | Ja | Speicherort der Besprechung. 3-Komponenten enthält: Breitengrad, Längengrad, Name  |
 | Tagesordnung | String | Ja | Tagesordnung für die Besprechung / Beschreibung für die Besprechung |
 | isSenderOnly | Bool | Ja | Für das Zulassen nur Absender treffen wir uns Zusammenfassung anzeigen. Standard: false |
 
-###### <a name="sample-json-request-for-a-lets-meet-action"></a>Beispiel von JSON-Anforderung für eine treffen wir uns Aktion
+##### <a name="sample-json-request-for-a-lets-meet-action"></a>Beispiel von JSON-Anforderung für eine treffen wir uns Aktion
 
 ```javascript
 {actionType:"LetsMeet", actionBody:{title:"lets catch up?", startingTime:"2018-01-01T00:00:00Z", duration:45, place:{"latitude":15.0,"longitude":96.0,"name":"MS Building 3"}, agenda:"no agenda", isSenderOnly:false}}
 
 ```
 
-###### <a name="actionbody-for-a-survey-action-or-action-package-instanceid-"></a>ActionBody für eine Umfrage oder-Aktion Paket instance(id):
+#### <a name="actionbody-for-a-survey-action-or-action-package-instanceid-"></a>ActionBody für eine Umfrage oder-Aktion Paket instance(id):
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
@@ -130,13 +130,13 @@ ms.locfileid: "19905329"
 | Fragen | object[] | Nein | Jedes Element des Object [] wird als Objekt "Question" unten erläutert. |
 | properties | object[] | Nein | Jedes Element des Object [] wird als Property-Objekt unten beschrieben. Nur gültig für das Paket Aktionsinstanz erstellen |
 
-###### <a name="structure-for-question-object"></a>Struktur für Objekt "Question"
+##### <a name="structure-for-question-object"></a>Struktur für Objekt "Question"
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
 | title | String | Nein | Titel der Frage |
-| Typ | String | Nein | Typ der Frage. Enum: SingleOption/MultiOption/Text/Image/numerischen/Datum/Speicherort/AttachmentList |
-| isInvisible | Bool | Ja | Standard: false. Um die Sichtbarkeit der Frage steuern |
+| type | String | Nein | Typ der Frage. Enum: SingleOption/MultiOption/Text/Image/numerischen/Datum/Speicherort/AttachmentList |
+| isInvisible | Bool | Ja | Standard: False. Um die Sichtbarkeit der Frage steuern |
 | options | object[] | Ja | Obligatorisch für SingleOption und MultiOption Frage. jedes Element des Object [] wird als Optionsobjekt unten beschrieben. |
 
 ###### <a name="structure-for-option-object"></a>Struktur für Option-Objekt
@@ -150,10 +150,10 @@ ms.locfileid: "19905329"
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
 | name | String | Nein | Name der Eigenschaft |
-| Typ | String | Nein | Typ der Eigenschaft. Enum: Text, Numeric, Position, DateTime, StringList, Attachment, StringSet, AttachmentList |
-| Wert | String | Nein | Wert der Eigenschaft |
+| type | String | Nein | Typ der Eigenschaft. Enum: Text, Numeric, Position, DateTime, StringList, Attachment, StringSet, AttachmentList |
+| Wert | Zeichenfolge | Nein | Wert der Eigenschaft |
 
-###### <a name="sample-json-request-for-a-survey-action"></a>Beispiel für eine Anforderung für eine Aktion Umfrage JSON
+##### <a name="sample-json-request-for-a-survey-action"></a>Beispiel für eine Anforderung für eine Aktion Umfrage JSON
 
 ```javascript
 {
@@ -200,12 +200,12 @@ ms.locfileid: "19905329"
 }
 ```
 
-###### <a name="response-body"></a>Antworttext
+##### <a name="response-body"></a>Antworttext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| referenceId | String | Anforderungsbezeichner |
-| actionId | String | Aktionsbezeichner |
+| referenceId | Zeichenfolge | Anforderungsbezeichner |
+| actionId | Zeichenfolge | Aktionsbezeichner |
 
 ```javascript
 {
