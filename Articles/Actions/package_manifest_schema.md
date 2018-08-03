@@ -1,4 +1,4 @@
-# <a name="package-manifest-schema"></a><span data-ttu-id="d2ae1-101">Paket-Manifestschema</span><span class="sxs-lookup"><span data-stu-id="d2ae1-101">Package manifest schema</span></span>
+# <a name="package-manifest-schema"></a><span data-ttu-id="bd215-101">Paket-Manifestschema</span><span class="sxs-lookup"><span data-stu-id="bd215-101">Package manifest schema</span></span>
 `````json-schema
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
@@ -43,7 +43,7 @@
             "maxLength": 64
         },
         "externalUrls": {
-            "type": "object",
+            "type": "array",
             "properties": {
                 "url": {
                     "type": "string",
@@ -226,12 +226,7 @@
                         "sourceLocation"
                     ]
                 }
-            },
-            "required": [
-                "CreationView",
-                "ResponseView",
-                "ResponseResultsView"
-            ]
+            }
         }
     },
     "required": [
