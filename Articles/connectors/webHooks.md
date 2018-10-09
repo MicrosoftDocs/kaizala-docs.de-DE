@@ -3,12 +3,12 @@ title: /webhooks
 description: Referenzartikel für API zum Verwalten von Kaizala-Abonnements
 topic: Reference
 author: nitinjms
-ms.openlocfilehash: 8b78449ba41042de262bed7e3317771ef33c8031
-ms.sourcegitcommit: 3a6a13cc885faf1bbc9ee8498f5183f414395aac
+ms.openlocfilehash: 00cbca686e8948d61425f067356e8c7eadb1892c
+ms.sourcegitcommit: 27dd3ded71b4a77258961a2fc93c1ec0d02f2980
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19905388"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25450928"
 ---
 # <a name="apis-to-register--manage-webhooks"></a>APIs für das registrieren & Webhooks verwalten
 ## <a name="webhook"></a>/webhook
@@ -25,13 +25,13 @@ WebHooks verwenden, können Sie verschiedene Abonnieren von Ereignissen, die inn
 
 Um sicherzustellen, dass Ihr Dienstendpunkt Webhook authentisch und betriebsbereit ist wird wir Ihr Callback-URL überprüfen, bevor Abonnement erstellen. Zur Überprüfung werden wir Sie ein Token Validation senden, die Sie uns wieder innerhalb von 5 Sekunden senden müssen. [Erfahren Sie mehr](WebHookValidaton.md)
 
-##### <a name="request-parameters"></a>Anforderungsparameter
+#### <a name="request-parameters"></a>Anforderungsparameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
 | HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt || HTTP-Header | Content-Type | String | Nein | "Application/Json" |
 
-##### <a name="request-body"></a>Anforderungstext
+#### <a name="request-body"></a>Anforderungstext
 
 |  Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
@@ -44,12 +44,12 @@ Um sicherzustellen, dass Ihr Dienstendpunkt Webhook authentisch und betriebsbere
 | Gültigkeit | String | Ja | Gültigkeitsdauer für die WebHook im Format EPOCHE aktiv sein. Der Standardwert lautet 2 Jahre |
 
 
-##### <a name="response-body"></a>Antworttext
+#### <a name="response-body"></a>Antworttext
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| webhookId | String | Bezeichner für die WebHook erstellt |
+| webhookId | Zeichenfolge | Bezeichner für die WebHook erstellt |
 
-##### <a name="request-body---subscribe-to-all-events-at-group-level"></a>Anforderungstextkörper - alle Ereignisse auf Gruppenebene abonnieren
+#### <a name="request-body---subscribe-to-all-events-at-group-level"></a>Anforderungstextkörper - alle Ereignisse auf Gruppenebene abonnieren
 
 ```javascript
 {  
@@ -84,7 +84,7 @@ Finden Sie Webhook Antwortschema für registrierte Ereignisse in Kaizala [**hier
 
     GET {endpoint-url}/v1/webhook
 
-##### <a name="request-parameters"></a>Anforderungsparameter
+#### <a name="request-parameters"></a>Anforderungsparameter
 
 
 |  | Parameter | Typ | Optional? | Beschreibung |
@@ -93,26 +93,27 @@ Finden Sie Webhook Antwortschema für registrierte Ereignisse in Kaizala [**hier
 | Abfrageparameter | objectId | String | Nein | Bezeichner, die für das Objekt, in welchen, das Kontext die Webhooks erstellt werden müssen. Für ObjectType = Gruppe, dessen Gruppenbezeichner für ObjectType = Action, dessen ActionId für ObjectType = ActionPackage, dessen Action-Paket-Id |
 | Abfrageparameter | objectType | String | Nein | Enum: "Group" / "Aktion" / "ActionPackage" |
 
-##### <a name="response-body"></a>Antworttext
+#### <a name="response-body"></a>Antworttext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
 | webhooks | JSON-Objekt-Array | Array von Webhooks auf ObjectId abonniert |
 
-######  <a name="json-structure-for-each-individual-webhook-in-the-array-webhooks"></a>JSON-Struktur für jede einzelne Webhook in das Array Webhooks []:
+#####  <a name="json-structure-for-each-individual-webhook-in-the-array-webhooks"></a>JSON-Struktur für jede einzelne Webhook in das Array Webhooks []:
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| id | String | Webhook-Bezeichner |
-| objectId | String | Objekt-ID |
-| objectType | String | Enum: "Group" / "Aktion" / "ActionPackage" |
+| id | Zeichenfolge | Webhook-Bezeichner |
+| objectId | Zeichenfolge | Objekt-ID |
+| objectType | Zeichenfolge | Enum: "Group" / "Aktion" / "ActionPackage" |
 | events | String] | Ereignisliste mit jedem Wert als eines der "ActionCreated", "ActionResponse", "SurveyCreated", "JobCreated", "SurveyResponse", "JobResponse", "TextMessageCreated", "AttachmentCreated", "Ankündigung", "MemberAdded", "MemberRemoved", "GroupAdded" " GroupRemoved" |
-| callBackUrl | String | Callback-URL an die die abonnierten Ereignisse, gemeldet werden müssen |
-| callBackToken | String | Parameter der im HTTP-Header 'Kz-rückruftoken' mit jedem Rückruf, die durch die WebHook gesendet wird |
-| callBackContext | String | Parameter, die in der Nutzlast JSON als "Kontext" mit jedem Rückruf, die durch die WebHook gesendet |
-| Gültigkeit | String | Gültigkeitsdauer für die WebHook im Format EPOCHE aktiv sein. |
+| callBackUrl | Zeichenfolge | Callback-URL an die die abonnierten Ereignisse, gemeldet werden müssen |
+| callBackToken | Zeichenfolge | Parameter der im HTTP-Header 'Kz-rückruftoken' mit jedem Rückruf, die durch die WebHook gesendet wird |
+| callBackContext | Zeichenfolge | Parameter, die in der Nutzlast JSON als "Kontext" mit jedem Rückruf, die durch die WebHook gesendet |
+| Gültigkeit | Zeichenfolge | Gültigkeitsdauer für die WebHook im Format EPOCHE aktiv sein. |
+| aktive | Boolean | True, wenn der Status der Webhook aktiv ist. |
 
-###### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
+##### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
 
 ```javascript
 {
@@ -141,6 +142,7 @@ Finden Sie Webhook Antwortschema für registrierte Ereignisse in Kaizala [**hier
             "callbackToken": "tokenToBeVerifiedByCallback",
             "ts": 1505491564677,
             "validity": 1568605416677
+            "active": true
         }
     ]
 }
@@ -150,8 +152,79 @@ Finden Sie Webhook Antwortschema für registrierte Ereignisse in Kaizala [**hier
 
     DELETE {endpoint-url}/v1/webhook
 
-##### <a name="request-parameters"></a>Anforderungsparameter
+#### <a name="request-parameters"></a>Anforderungsparameter
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
 | HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
 | Pfadparameter | webhookId | String | Nein | Webhook-Bezeichner |
+
+### <a name="put-webhook"></a>PLATZIEREN Sie /webhook
+
+    PUT {endpoint-url}/v1/webhook/{webhookId}
+
+Parameter für die Webhook kann aktualisiert werden. Anforderungstext kann 1 oder mehrere Parameter enthalten, je nach Bedarf.
+
+#### <a name="request-parameters"></a>Anforderungsparameter
+
+|  | Parameter | Typ | Optional? | Beschreibung |
+| :---: | :---: | :---: | :---: | :--- |
+| HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
+| Pfadparameter | webhookId | String | Nein | Webhook-Bezeichner |
+
+#### <a name="request-body"></a>Anforderungstext
+
+|  Parameter | Typ | Optional? | Beschreibung |
+| :---: | :---: | :---: | :--- |
+| objectId | String | Ja | Bezeichner, die für das Objekt, in welchen, das Kontext die Webhooks erstellt werden müssen. Für ObjectType = Gruppe, dessen Gruppenbezeichner für ObjectType = Action, dessen ActionId für ObjectType = ActionPackage, dessen Action-Paket-Id |
+| objectType | String | Ja | Enum: "Group" / "Aktion" / "ActionPackage" |
+| eventTypes | Array | Ja | Array von verschiedenen Arten von Ereignissen, denen Sie die Webhook zu abonnieren müssen. Supported events are: "ActionCreated","ActionResponse","SurveyCreated","JobCreated","SurveyResponse","JobResponse","TextMessageCreated","AttachmentCreated","Announcement","MemberAdded","MemberRemoved","GroupAdded","GroupRemoved" |
+| callBackUrl | String | Ja | HTTPS-URL, an die die abonnierten Ereignisse, gemeldet werden müssen |
+| callBackToken | String | Ja | Ein optionaler Parameter können Sie festlegen, die im HTTP-Header 'Kz-rückruftoken' mit jedem Rückruf, die durch die WebHook gesendet wird |
+| callBackContext | String | Ja | Ein optionaler Parameter können Sie festlegen, die in der Nutzlast JSON als "Kontext" mit jedem Rückruf, die durch die WebHook gesendet wird |
+| Gültigkeit | String | Ja | Gültigkeitsdauer für die WebHook im Format EPOCHE aktiv sein. Der Standardwert lautet 2 Jahre |
+| Aktiv | Boolean | Ja | Ändern Sie den Status der Webhook aktiv, wenn der Wert true ist |
+
+
+#### <a name="sample-request-body"></a>Beispiel-Anforderungstext
+
+````javascript
+    { 
+       "objectId":"74943849802190eaea3810",
+       "objectType":"Group",
+       "eventTypes":[
+          "ActionCreated",
+          "ActionResponse",
+          "SurveyCreated",
+          "JobCreated",
+          "SurveyResponse",
+          "JobResponse",
+          "TextMessageCreated",
+          "AttachmentCreated",
+          "Announcement",
+          "MemberAdded",
+          "MemberRemoved",
+          "GroupAdded",
+          "GroupRemoved"
+       ],
+       "callBackUrl":"https://requestb.in/123",
+       "callBackToken":"tokenToBeVerifiedByCallback",
+      "Active": "true" 
+    } 
+
+````
+
+## <a name="auto-disable-of-webhooks"></a>Auto-Deaktivieren des Webhooks
+
+Um die Zuverlässigkeit der unsere Webhooks zu verbessern, haben wir kürzlich die "Wiederholen" und deaktivieren Logik hinzugefügt. Url der Callback-/ Endpunkt mit einer Webhook registriert, wenn nicht erreichbar oder reagiert nicht mit dem Statuscode als 2xx (> = 3xx), und klicken Sie dann unseren Dienst versucht, Reichweite/es für 6 Zeiten auf exponentielle Weise innerhalb eines Textabschnitts 2 Tage wiederholen. 
+
+Wenn sie weiterhin für 2 Tage fehlschlägt, wird der entsprechende Webhook deaktiviert, und der Besitzer muss mit der Put-/webhook API aktualisieren, bevor er beginnt erneut arbeiten. Für diese Vorgaben unter
+
+    
+    PUT {endpoint-url}/v1/webhook/{subscriptionId}
+
+### <a name="request-body"></a>Anforderungstext:
+````javascript
+{ 
+  "Active": "true" 
+} 
+````
