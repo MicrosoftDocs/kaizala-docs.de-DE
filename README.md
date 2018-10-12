@@ -13,7 +13,8 @@ Wir arbeiten ständig um der Plattform für Entwickler zu optimieren. Wenn Sie s
 
 
 
-##<a name="legal-notices"></a>Rechtliche Hinweise
+## <a name="legal-notices"></a>Rechtliche Hinweise
+
 Microsoft und alle Mitarbeiter Sie keine Lizenz für die Microsoft-Dokumentation und andere Inhalte in dieses Repository unter der [Creative Commons Zuweisung 4.0 International öffentliche Lizenz](https://creativecommons.org/licenses/by/4.0/legalcode)finden Sie in [der Datei](LICENSE) , und gewähren Sie eine Lizenz für ein beliebiges im Repository unter der [Lizenz MIT](https://opensource.org/licenses/MIT)Code, finden Sie unter der [Lizenz -](LICENSE-CODE) Codedatei.
 
 Microsoft, Windows, Microsoft Azure und/oder anderen Microsoft-Produkte und Dienste in der Dokumentation verwiesen wird möglicherweise Marken oder Marken der Microsoft in den USA und/oder anderen Ländern.
@@ -24,5 +25,6 @@ Informationen zum Datenschutz finden Sie unterhttps://privacy.microsoft.com/en-u
 
 Microsoft und alle Autoren Reserve alle anderen Rechte, ob unter ihren jeweiligen Urheberrechte, Patente, oder Marken, durch Verwirkung, Verwirkung noch anderweitig.
 
-##<a name="code-of-conduct"></a>Code der Verbindung
+## <a name="code-of-conduct"></a>Code der Verbindung
+
 In diesem Projekt wurden die [Microsoft Open Source-Verhaltensregeln](https://opensource.microsoft.com/codeofconduct/) übernommen. Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Verhaltensregeln](https://opensource.microsoft.com/codeofconduct/faq/), oder richten Sie Ihre Fragen oder Kommentare an [opencode@microsoft.com](mailto:opencode@microsoft.com).
