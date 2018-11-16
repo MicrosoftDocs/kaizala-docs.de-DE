@@ -21,7 +21,7 @@ Alle Kaizala Aktionen sind derzeit Formular basiert – d. h. ist das Datenmodel
 
    **Schritt 3: Entwerfen und implementieren die Benutzer wünschen und die Benutzeroberfläche für das Add-in.**
 
-Entwerfen Sie ein schnelles und flüssiges Zusammenspiel Benutzererlebnis, der konsistente, leicht zu, mit häufig vorkommenden Szenarien erlernen, die nur einige Schritte erforderlich ist. Remeber, die eine Aktion Kaizala auf externen Quellen - verweisen kann nicht so praktikabel im Hinblick auf was Sie innerhalb der Aktion implementieren möchten.
+Entwerfen Sie ein schnelles und flüssiges Zusammenspiel Benutzererlebnis, der konsistente, leicht zu, mit häufig vorkommenden Szenarien erlernen, die nur einige Schritte erforderlich ist. Denken Sie daran, dass eine Aktion Kaizala also auf externen Quellen - verweisen kann nicht praktikabel im Hinblick auf was Sie innerhalb der Aktion implementieren möchten.
 
 Sie können aus einer Vielzahl von Webentwicklungstools auswählen und HTML und JavaScript verwenden, um die Benutzeroberfläche zu implementieren.
 
