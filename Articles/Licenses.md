@@ -6,7 +6,7 @@ Wir arbeiten ständig um der Plattform für Entwickler zu optimieren. Wenn Sie s
 
 
 ## <a name="apis"></a>APIs
-Microsoft Kaizala APIs werden von [Microsoft-API-Lizenz und rechtliche Hinweise](https://msdn.microsoft.com/en-us/mt825045) gesteuert.
+Microsoft Kaizala APIs werden von [Microsoft-API-Lizenz und rechtliche Hinweise](https://docs.microsoft.com/en-us/outlook/rest/terms-of-use) gesteuert.
 
 ## <a name="actions"></a>Aktionen
 
