@@ -58,6 +58,9 @@
 ## [Kaizala Office Addin](PartnerDocs/ExcelAddinforKaizala.md)
 
 # Business-Lösungen mithilfe von Kaizala
+## [Unternehmenskommunikation](BusinessSolutions/CorporateCommunications/CorporateCommunications.md)
+### [Anzeigen von RSS-Feeds in Kaizala Gruppen](BusinessSolutions/CorporateCommunications/GetRSSFeedsonKaizala/DisplayRSSFeedsinKaizalagroups.md)
+### [Anzeigen von SharePoint-Ankündigungen in Kaizala Gruppen](BusinessSolutions/CorporateCommunications/SharepointAnnouncementsonKaizala/DisplaySharepointAnnouncements.md)
 ## [Mitgearbeitet](PartnerDocs/Customerticketingsolution.md)
 ## [Integrieren von Daten zu Ihrer benutzerdefinierten Dashboards Kaizala](PartnerDocs/IntegratingKaizalaData.md)
 
