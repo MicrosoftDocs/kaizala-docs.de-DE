@@ -28,7 +28,7 @@ Wenn Sie die Gruppe "Sales" Head Office-Gruppe (Gruppe A in Bildern) hinzufügen
 
 Bei der Gruppe "Sales" North Sales (Gruppe D in Bildern) hinzugefügt wird, finden Sie auf ähnliche Weise zu verstehen, die Beziehung in der folgenden Tabelle.
 
-|Gruppe von Nachricht senden|Nachricht mit Strom Gruppe|
+|Gruppe von Nachricht senden|Nachricht empfangen-Gruppe|
 |--------|--------|
 |Gesendete Nachrichten im Head Office|Mitglieder der Gruppe "Sales" und Gruppe "Sales" North empfängt die Nachricht in der Gruppe mit dem Namen Head Office in der Liste chat|
 |In der Gruppe "Sales" Gesendete Nachrichten|Mitglieder der North Sales Gruppe empfängt die Nachricht in der Gruppe "Sales" in der Liste chat|

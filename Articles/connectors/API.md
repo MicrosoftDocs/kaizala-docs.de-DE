@@ -3,12 +3,12 @@ title: Kaizala-APIs
 description: Liste der APIs, Kaizala verfügbar macht, um die Integration mit 3. Partei Systemen ermöglichen
 topic: Reference
 author: nitinjms
-ms.openlocfilehash: 7060588be558a16c83f275ea9e8be6bcf926fd54
-ms.sourcegitcommit: 523ff9067dc81712d7da2b103a3a1a0f0236b8e4
+ms.openlocfilehash: abedf063f7af73190dd3d5c2c748bc41d253a590
+ms.sourcegitcommit: 58839035fca768f92eda40974029208eb31dda7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20399379"
+ms.lasthandoff: 12/31/2018
+ms.locfileid: "27465703"
 ---
 # <a name="kaizala-api-documentation"></a>Kaizala API-Dokumentation
 
@@ -37,7 +37,7 @@ Die API funktioniert mit den folgenden Kaizala Ressourcen:
 *   [/Messages](messages.md)
 *   [/Media](media.md)
 *   [/Actions](actions.md)
-*   [/Subscribers](subscribers.md)
+*   [/Subscribers](subscribers.md)
 *    [/Reaction](reactions.md)
 
 ### <a name="webhooks"></a>WebHooks
@@ -62,4 +62,4 @@ Andere Umgebungsvariablen werden automatisch aufgefüllt beim Versuch der apis i
 
 ### <a name="getting-started-with-kaizala-rest-apis"></a>Erste Schritte mit Kaizala REST-APIs 
 
-[C#-Beispiel (freigegeben)](https://github.com/MicrosoftDocs/kaizala-docs/blob/master/Articles/Samples/Getting%20started%20with%20Kaizala%20REST%20APIs%20-%20C%23%20sample%20(shared).docx)
+[C#-Beispiel (freigegeben)](https://github.com/MicrosoftDocs/kaizala-docs/blob/master/Articles/Samples/Gettingstartedwith.docx)

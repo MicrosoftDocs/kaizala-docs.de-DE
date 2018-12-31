@@ -3,12 +3,12 @@ title: /Messages
 description: Referenzartikel für API auf Abfragenachrichten gesendet, einer Gruppe
 topic: Reference
 author: nitinjms
-ms.openlocfilehash: 30a0164208bf025b59ad08049225e872f68c67f9
-ms.sourcegitcommit: 523ff9067dc81712d7da2b103a3a1a0f0236b8e4
+ms.openlocfilehash: 8efad3236e852276e11c3052f98ac6f1d5541b0a
+ms.sourcegitcommit: 58839035fca768f92eda40974029208eb31dda7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20399361"
+ms.lasthandoff: 12/31/2018
+ms.locfileid: "27465701"
 ---
 # <a name="messages"></a>/Messages
 
@@ -31,7 +31,7 @@ Zum Senden von Nachrichten an Unterhaltungsgruppen innerhalb Kaizala API-Endpunk
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :--- | :--- |
 | message | String | Nein | Textnachricht (Max 1.000 Zeichen begrenzt) gesendet werden |
-| sendToAllSubscribers | Bool | Ja | Standard: False. Gültige nur im Fall der GroupId öffentliche Gruppe gehört. True, um die Text-Nachricht an alle Abonnenten senden bewirkt, dass die das Token Benutzer Admin der Gruppe der öffentlich sein |
+| sendToAllSubscribers | Boolescher Wert | Ja | Standard: False. Gültige nur im Fall der GroupId öffentliche Gruppe gehört. True, um die Text-Nachricht an alle Abonnenten senden bewirkt, dass die das Token Benutzer Admin der Gruppe der öffentlich sein |
 | Abonnenten | String] | Ja | Jedes Element entspricht einer Mobiltelefonnummer (mit Ländercode. EG. +911999999999). Textnachricht wird nur für die ausgewählten Abonnenten gesendet werden. Für selektive Kommunikation für Abonnenten im Kontext eines öffentliche Gruppe verwendet werden soll |
 
 #### <a name="sample-json-request"></a>Beispiel für JSON-Anforderung
@@ -47,7 +47,7 @@ Zum Senden von Nachrichten an Unterhaltungsgruppen innerhalb Kaizala API-Endpunk
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| referenceId | Zeichenfolge | GUID, die nach erfolgreicher Abschluss der Anforderung darstellt. |
+| referenceId | String | GUID, die den erfolgreichen Abschluss der Anforderung darstellt. |
 
 #### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
 
