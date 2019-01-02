@@ -8,16 +8,16 @@ Wenige Anwendungsfälle von RSS-Feeds:
 2. Nachrichten von internen Websites
 3. Füllen Sie die Informationen aus externen Websites
 4. Produktupdates
-5. Gruppe bestimmte feeds, Ex - Finance, Entwurf und Tech 
-6. Tipps und Tricks, Ex-DIY, Sportliga und Fotos
+5. Gruppe bestimmte feeds, z. B. Finanzen, Entwurf und Tech 
+6. Tipps und Tricks, z. B., DIY, Sportliga und Fotos
 
-In diesem Beispiel hilft Ihnen, ein Administrator die Aktivierung RSS-Feeds zu Kaizala Gruppen hinzufügen.  Diese Karte enthält 3 Felder in Chat Karte anzeigen-Karte Titel (Ex - Unternehmensnachrichten), Bild, Feed Titel (Titel des der Newsfeed). Tippen Sie auf der Karte gelangen Sie zur Webansicht innerhalb Kaizala. 
+In diesem Beispiel hilft Ihnen, ein Administrator die Aktivierung RSS-Feeds zu Kaizala Gruppen hinzufügen. Diese Karte enthält 3 Felder im Chat Karte anzeigen-Karte Titel (z. B., Unternehmensnachrichten), Bild und Feed Titel. Tippen Sie auf der Karte würde der Benutzer auf Webansicht in Kaizala ausführen. 
  
  >Hinweis: Nur White RSS-feed URL öffnen in Kaizala, falls nicht, würde der Inhalt in einem Browser umgeleitet werden.
 
 <img src="GetRSSFeedsOnKaizalaImages/1.png" alt="Chat card view Logo" width="400" />
 
-Hierbei handelt es sich um eine Ankündigung in Form einer Karte und Microsoft Flow wird verwendet, um diese benutzerdefinierte Aktion Karte Kaizala Gruppe zu senden.
+Hierbei handelt es sich um eine Ankündigung in Form einer Karte und Ablauf wird verwendet, um diese benutzerdefinierte Aktion Karte Kaizala Gruppe zu senden.
 
 <img src="GetRSSFeedsOnKaizalaImages/2.png" width="450" />
 
@@ -36,13 +36,17 @@ Hierbei handelt es sich um eine Ankündigung in Form einer Karte und Microsoft F
       ]  
       ```
    5. ZIP-alle Inhalte in diesen Ordner (*dieser Ordner ist Ihr geänderte Aktion-Paket die Kaizala Management Portal importiert werden soll*)
- > Hinweis: Wählen Sie alle Dateien in Ihrem Arbeitsverzeichnis und erstellen Sie eine neue Zip-Datei für Ihr Paket. Stellen Sie sicher, dass alle Dateien im Stammverzeichnis des Pakets vorhanden sind. Dazu zählen u. a. KASClient.js package.json mit neuen "Id", "ProviderName" und White URL   
+   
+ > Hinweis: Wählen Sie alle Dateien in Ihrem Arbeitsverzeichnis und erstellen Sie eine neue Zip-Datei für Ihr Paket. Stellen Sie sicher, dass alle Dateien im Stammverzeichnis des Pakets vorhanden sind. Dazu zählen u. a. KASClient.js package.json mit neuen "Id", "ProviderName" und White URL
+ 
 4. [Importieren](https://docs.microsoft.com/en-us/kaizala/actions/publish#import-kaizala-action) des Pakets bearbeiteten Aktion Kaizala-Verwaltungsportal (*vom aufrufenden API diese Karte gesendet wird, also besteht keine Notwendigkeit, um die Visitenkarte zu einer Gruppe hinzufügen*)
 5. [Importieren](https://flow.microsoft.com/en-us/blog/import-export-bap-packages/) der "RSS-Feed-Flowpackage.zip" Flow Microsoft-Konto
-> Hinweis-Wenn Sie RSS- oder Kaizala-Verbindungen, erste [Verbindungen hinzufügen](https://docs.microsoft.com/en-us/flow/add-manage-connections) noch nie verwendet haben    
+
+> Hinweis: Wenn Sie RSS- oder Kaizala Verbindungen mit der ersten [Hinzufügen von Verbindungen](https://docs.microsoft.com/en-us/flow/add-manage-connections) noch nie verwendet haben    
+
 6. Bearbeiten der Details in importiert Flow (*wie im folgenden beschrieben*) 
    1. Geben Sie in der erste Block den RSS-feed-URL <img src= "GetRSSFeedsOnKaizalaImages/3.1.PNG" width="600" />
-   2. Geben Sie in der zweite Block den Titel der Karte im Feld "Wert" aus. Der Titel der Visitenkarte werden für Benutzer in einer Kartenansicht Chat angezeigt. Ex-"Unternehmensnachrichten"
+   2. Geben Sie in der zweite Block den Titel der Karte im Feld "Wert" aus. Der Titel der Visitenkarte werden für Benutzer in einer Kartenansicht Chat angezeigt. Z. B. "Unternehmensnachrichten"
    
       <img src= "GetRSSFeedsOnKaizalaImages/3.2.PNG" width="600" />
    3. Geben Sie in der dritte Block die Aktion "Id" im Feld "Wert", die Sie in package.json zugewiesen haben
@@ -52,6 +56,7 @@ Hierbei handelt es sich um eine Ankündigung in Form einer Karte und Microsoft F
         2. Wenn Sie die Gruppen-Id erhalten möchten, wechseln Sie an Ihre Gruppe auf https://manage.kaiza.la und wählen Sie die Kennung am Ende der URL.
         
             <img src="GetRSSFeedsOnKaizalaImages/6.PNG" width="600" />
+            
         3. Klicken Sie auf Aktion, Aktionstyp als "benutzerdefinierter Wert" aus der Dropdownliste auswählen
         4. Zuordnen von Stelle "ActionBodyJson"
        
