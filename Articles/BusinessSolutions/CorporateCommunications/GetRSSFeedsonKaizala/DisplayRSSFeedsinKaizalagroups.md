@@ -2,7 +2,7 @@
 
 Organisationen verwenden RSS-Feeds zu ergänzen ihre e-Mail-Systeme und verbessern die Art und Weise, in der sie Informationen für Mitarbeiter bereitstellen. Organisationen können diese Feeds mit der ersten Zeile und mobile Mitarbeiter jetzt durch Senden der Formularvorlagen als Ankündigungen Kaizala Gruppen nutzen.
 
-Wenige Anwendungsfälle von RSS-feeds
+Wenige Anwendungsfälle von RSS-Feeds:
 
 1. Neuigkeiten aus der Branche aus externen Websites
 2. Nachrichten von internen Websites
@@ -51,10 +51,9 @@ Hierbei handelt es sich um eine Ankündigung in Form einer Karte und Microsoft F
         1. Wählen Sie den Namen der Gruppe aus, oder geben Sie die Gruppen-Id, wo die Karte gesendet werden soll
         2. Wenn Sie die Gruppen-Id erhalten möchten, wechseln Sie an Ihre Gruppe auf https://manage.kaiza.la und wählen Sie die Kennung am Ende der URL.
         
-      <img src="GetRSSFeedsOnKaizalaImages/6.PNG" width="600" />
-      
-       3. Klicken Sie auf Aktion, Aktionstyp als "benutzerdefinierter Wert" aus der Dropdownliste auswählen
-       4. Zuordnen der Aktion Stelle "ActionBodyJson"
+            <img src="GetRSSFeedsOnKaizalaImages/6.PNG" width="600" />
+        3. Klicken Sie auf Aktion, Aktionstyp als "benutzerdefinierter Wert" aus der Dropdownliste auswählen
+        4. Zuordnen von Stelle "ActionBodyJson"
        
        <img src="GetRSSFeedsOnKaizalaImages/5.png" width="600" />
 7.  Speichern der RSS-Fluss werden Feeds der ausgewählten Kaizala Gruppe jedes Mal versendet Auslösung Fluss. 
