@@ -15,15 +15,15 @@ In diesem Beispiel hilft Ihnen, ein Administrator die Aktivierung RSS-Feeds zu K
  
  >Hinweis: Nur White RSS-feed URL öffnen in Kaizala, falls nicht, würde der Inhalt in einem Browser umgeleitet werden.
 
-<img src="/Articles/BusinessSolutions/CorporateCommunications/GetRSSFeedsonKaizala/GetRSSFeedsOnKaizalaImages/1.png" alt="Chat card view Logo" width="400" />
+<img src="GetRSSFeedsOnKaizalaImages/1.png" alt="Chat card view Logo" width="400" />
 
 Hierbei handelt es sich um eine Ankündigung in Form einer Karte und Microsoft Flow wird verwendet, um diese benutzerdefinierte Aktion Karte Kaizala Gruppe zu senden.
 
-<img src="/Articles/BusinessSolutions/CorporateCommunications/GetRSSFeedsonKaizala/GetRSSFeedsOnKaizalaImages/2.png" width="450" />
+<img src="GetRSSFeedsOnKaizalaImages/2.png" width="450" />
 
 ## <a name="implementation-steps"></a>Implementierungsschritte
 
-1. Laden Sie die ["GetRSSFeedsOnKaizala SolutionPackage.zip"](/Articles/BusinessSolutions/CorporateCommunications/GetRSSFeedsonKaizala/GetRssFeedsonKaizala-SolutionPackage.zip) (*Dieses Paket enthalten, "RSS-Feed-ActionPackage.zip" und "RSS-Feed-FlowPackage.zip"*)
+1. Laden Sie die ["GetRSSFeedsOnKaizala SolutionPackage.zip"](https://github.com/MicrosoftDocs/kaizala-docs/blob/master/Articles/BusinessSolutions/CorporateCommunications/GetRSSFeedsonKaizala/GetRssFeedsonKaizala-SolutionPackage.zip) (*Dieses Paket enthalten, "RSS-Feed-ActionPackage.zip" und "RSS-Feed-FlowPackage.zip"*)
 2. Laden Sie die neueste Version von Kaizala ["ActionSDK.Zip"](https://manage.kaiza.la/MiniApps/DownloadSDK)(*Dies enthält die KASClient.js-Datei*)
 3. Bearbeiten der "RSS-Feed-ActionPackage.zip" (*wie unten*)
    1. Entzippen Sie Aktion Paket "RSS-Feed-ActionPackage.zip" in einen Ordner
@@ -31,56 +31,38 @@ Hierbei handelt es sich um eine Ankündigung in Form einer Karte und Microsoft F
    3. Fügen Sie diesen Ordner KASClient.js-Datei hinzu 
    4. Fügen Sie RSS in Package.json(as below) White-Liste die URL-feed-URL. In diesem Beispiel ist die URL der digitalen Trends White.    
          ```
-      
       "externalUrls": [
       { "url": "https://www.digitaltrends.com" }
-      ]        
-           
-   5. Zip all the contents in this folder (*This folder is your modified Action package which should be imported to kaizala management portal*)
+      ]  
+      ```
+   5. ZIP-alle Inhalte in diesen Ordner (*dieser Ordner ist Ihr geänderte Aktion-Paket die Kaizala Management Portal importiert werden soll*)
+ > Hinweis: Wählen Sie alle Dateien in Ihrem Arbeitsverzeichnis und erstellen Sie eine neue Zip-Datei für Ihr Paket. Stellen Sie sicher, dass alle Dateien im Stammverzeichnis des Pakets vorhanden sind. Dazu zählen u. a. KASClient.js package.json mit neuen "Id", "ProviderName" und White URL   
+4. [Importieren](https://docs.microsoft.com/en-us/kaizala/actions/publish#import-kaizala-action) des Pakets bearbeiteten Aktion Kaizala-Verwaltungsportal (*vom aufrufenden API diese Karte gesendet wird, also besteht keine Notwendigkeit, um die Visitenkarte zu einer Gruppe hinzufügen*)
+5. [Importieren](https://flow.microsoft.com/en-us/blog/import-export-bap-packages/) der "RSS-Feed-Flowpackage.zip" Flow Microsoft-Konto
+> Hinweis-Wenn Sie RSS- oder Kaizala-Verbindungen, erste [Verbindungen hinzufügen](https://docs.microsoft.com/en-us/flow/add-manage-connections) noch nie verwendet haben    
+6. Bearbeiten der Details in importiert Flow (*wie im folgenden beschrieben*) 
+   1. Geben Sie in der erste Block den RSS-feed-URL <img src= "GetRSSFeedsOnKaizalaImages/3.1.PNG" width="600" />
+   2. Geben Sie in der zweite Block den Titel der Karte im Feld "Wert" aus. Der Titel der Visitenkarte werden für Benutzer in einer Kartenansicht Chat angezeigt. Ex-"Unternehmensnachrichten"
    
- > Note: Select all the files in your working directory and create a new zip file for your package. Ensure that all files are present in the root directory of the package. This should include KASClient.js, package.json with new "id", "provider name" and whitelisted URL
-    
-4. [Import](https://docs.microsoft.com/en-us/kaizala/actions/publish#import-kaizala-action) the edited action package to kaizala management portal (*This card is sent by calling API, so there is no need to add the card to a group*)
-
-5. [Import](https://flow.microsoft.com/en-us/blog/import-export-bap-packages/) the "RSS-feed-Flowpackage.zip" to your Microsoft Flow account
-
-> Note- If you have never used RSS or Kaizala connections, first [add connections](https://docs.microsoft.com/en-us/flow/add-manage-connections)
-    
-6. Edit details in Imported Flow (*See steps below*) 
-   1. In the First block , enter the RSS feed URL
-  
-       <img src= "/Articles/BusinessSolutions/CorporateCommunications/GetRSSFeedsonKaizala/GetRSSFeedsOnKaizalaImages/3.1.PNG" width="600" />
-   
-   2. In the second block, enter the card title in "value" field. The card title will be visible to users in chat card view. Ex- "Business News"
-
-      <img src= "/Articles/BusinessSolutions/CorporateCommunications/GetRSSFeedsonKaizala/GetRSSFeedsOnKaizalaImages/3.2.PNG" width="600" />
-
-   3. In the third block, enter the Action "id" in "value" field, that you have given in package.json
-   
-      <img src="/Articles/BusinessSolutions/CorporateCommunications/GetRSSFeedsonKaizala/GetRSSFeedsOnKaizalaImages/4.png" width="600" />
-   
-   4. In the Last block of the Flow
-        1. Select the group name or enter the group id where you want to send the card
-        2. To get the group id, go to your group on https://manage.kaiza.la and select the identifier at the end of the URL.
-
-      <img src="/Articles/BusinessSolutions/CorporateCommunications/GetRSSFeedsonKaizala/GetRSSFeedsOnKaizalaImages/6.PNG" width="600" />
-   
-       3. Click on action, to select action type as "custom value" from the dropdown
-       4. Map action body to "ActionBodyJson"
+      <img src= "GetRSSFeedsOnKaizalaImages/3.2.PNG" width="600" />
+   3. Geben Sie in der dritte Block die Aktion "Id" im Feld "Wert", die Sie in package.json zugewiesen haben
+      <img src="GetRSSFeedsOnKaizalaImages/4.png" width="600" />
+   4. In den letzten Block mit den Ablauf
+        1. Wählen Sie den Namen der Gruppe aus, oder geben Sie die Gruppen-Id, wo die Karte gesendet werden soll
+        2. Wenn Sie die Gruppen-Id erhalten möchten, wechseln Sie an Ihre Gruppe auf https://manage.kaiza.la und wählen Sie die Kennung am Ende der URL.
+        
+      <img src="GetRSSFeedsOnKaizalaImages/6.PNG" width="600" />
+      
+       3. Klicken Sie auf Aktion, Aktionstyp als "benutzerdefinierter Wert" aus der Dropdownliste auswählen
+       4. Zuordnen der Aktion Stelle "ActionBodyJson"
        
-       <img src="/Articles/BusinessSolutions/CorporateCommunications/GetRSSFeedsonKaizala/GetRSSFeedsOnKaizalaImages/5.png" width="600" />
+       <img src="GetRSSFeedsOnKaizalaImages/5.png" width="600" />
+7.  Speichern der RSS-Fluss werden Feeds der ausgewählten Kaizala Gruppe jedes Mal versendet Auslösung Fluss. 
 
-7.  Save the Flow
+> Hinweis: Sie können nur eine RSS-feed-URL in den Ablauf festlegen. Um mehrere Feeds, demselben zu leiten, müssen verschiedene Abläufe für jeden Feed erstellt werden soll
 
-RSS feeds will be sent to the selected Kaizala group, each time flow is triggered. 
+> Bekanntes Problem: auf iOS, übernehmen die anzeigen den Benutzer aus der Webansicht, da sie nicht weißen Liste enthalten sind
 
-
-
-> Note: You can only set one RSS feed URL in the Flow. To direct multiple feeds to same group, different Flows have to be created for each feed
-
-> Known issue: On iOS, the ads take the user out of the webview since they are not whitelisted
-
-### Useful links
-
-1. [How to create Kaizala Groups](https://docs.microsoft.com/en-us/office365/kaizala/groups)
-2. [Configure RSS Feed to SharePoint site](https://support.office.com/en-us/article/create-or-subscribe-to-an-rss-feed-fb35047d-8dbd-412a-a5f3-f1712af14dcb)
+### <a name="useful-links"></a>Hilfreiche links
+1. [Gewusst wie: Kaizala Gruppen erstellen](https://docs.microsoft.com/en-us/office365/kaizala/groups)
+2. [Konfigurieren der RSS-Feed für die SharePoint-Website](https://support.office.com/en-us/article/create-or-subscribe-to-an-rss-feed-fb35047d-8dbd-412a-a5f3-f1712af14dcb)

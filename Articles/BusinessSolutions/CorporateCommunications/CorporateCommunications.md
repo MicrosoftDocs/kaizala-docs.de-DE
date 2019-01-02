@@ -7,7 +7,7 @@ Kaizala kann Organisationen dieses Netzwerk verbundenen Mitarbeiter wider, da es
 Vereinfachung der Kommunikation und die Nutzung der aktuellen Investitionen in Kommunikationskanäle, können Organisationen benutzerdefinierte Aktionen zum Anzeigen von Internet und Intranet-feeds in Kaizala Gruppen.
 
 Im folgenden finden Sie die beispiellösungen, mit denen Organisationen mit mobilen Mitarbeiter effektiv kommunizieren möchten
- 1. [Anzeigen von RSS-Feeds in Kaizala Gruppen](/Articles/BusinessSolutions/CorporateCommunications/GetRSSFeedsonKaizala/DisplayRSSFeedsinKaizalagroups.md)
- 2. [Anzeigen von SharePoint-Ankündigungen in Kaizala Gruppen](/Articles/BusinessSolutions/CorporateCommunications/SharepointAnnouncementsonKaizala/DisplaySharepointAnnouncements.md)
+ 1. [Anzeigen von RSS-Feeds in Kaizala Gruppen](GetRSSFeedsonKaizala/DisplayRSSFeedsinKaizalagroups.md)
+ 2. [Anzeigen von SharePoint-Ankündigungen in Kaizala Gruppen](SharepointAnnouncementsonKaizala/DisplaySharepointAnnouncements.md)
 
 Hilfreiche Links- [Kaizala Aktionen](https://docs.microsoft.com/en-us/kaizala/actions/readme)
