@@ -42,7 +42,7 @@ Hierbei handelt es sich um eine Ankündigung in Form einer Karte und Ablauf wird
 4. [Importieren](https://docs.microsoft.com/en-us/kaizala/actions/publish#import-kaizala-action) des Pakets bearbeiteten Aktion Kaizala-Verwaltungsportal (*vom aufrufenden API diese Karte gesendet wird, also besteht keine Notwendigkeit, um die Visitenkarte zu einer Gruppe hinzufügen*)
 5. [Importieren](https://flow.microsoft.com/en-us/blog/import-export-bap-packages/) der "RSS-Feed-Flowpackage.zip" Flow Microsoft-Konto
 
-> Hinweis: Wenn Sie RSS- oder Kaizala Verbindungen mit der ersten [Hinzufügen von Verbindungen](https://docs.microsoft.com/en-us/flow/add-manage-connections) noch nie verwendet haben    
+    > Hinweis: Wenn Sie RSS- oder Kaizala Verbindungen mit der ersten [Hinzufügen von Verbindungen](https://docs.microsoft.com/en-us/flow/add-manage-connections) noch nie verwendet haben    
 
 6. Bearbeiten der Details in importiert Flow (*wie im folgenden beschrieben*) 
    1. Geben Sie in der erste Block den RSS-feed-URL <img src= "GetRSSFeedsOnKaizalaImages/3.1.PNG" width="600" />
@@ -61,7 +61,9 @@ Hierbei handelt es sich um eine Ankündigung in Form einer Karte und Ablauf wird
         4. Zuordnen von Stelle "ActionBodyJson"
        
        <img src="GetRSSFeedsOnKaizalaImages/5.png" width="600" />
-7.  Speichern der RSS-Fluss werden Feeds der ausgewählten Kaizala Gruppe jedes Mal versendet Auslösung Fluss. 
+7.  Speichern Sie den Ablauf
+
+ RSS-Feeds an der markierten Gruppe Kaizala gesendet, jedes Mal Flow ausgelöst wird. 
 
 > Hinweis: Sie können nur eine RSS-feed-URL in den Ablauf festlegen. Um mehrere Feeds, demselben zu leiten, müssen verschiedene Abläufe für jeden Feed erstellt werden soll
 
