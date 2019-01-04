@@ -1,5 +1,5 @@
 # <a name="display-sharepoint-announcements-in-kaizala-groups"></a>Anzeigen von SharePoint-Ankündigungen in Kaizala Gruppen 
-Organisationen verwenden SharePoint Ankündigung app Neuigkeiten, Status und andere kurze Informationen zu Mitarbeitern gemeinsam. Ankündigung der SharePoint-app, die mit einer Liste stammen, ist eine spezielle Art von Liste, die Sie einer Ankündigungen erstellen kann.
+Organisationen verwenden SharePoint Ankündigung app Neuigkeiten, Status und andere kurze Informationen zu Mitarbeitern gemeinsam. Ankündigung der SharePoint-app, die mit einer Liste stammen, ist eine spezielle Art von Liste, die Sie Ankündigungen erstellen kann.
 
 In diesem Beispiel verwenden, können Organisationen SharePoint Ankündigungen für die erste Zeile und mobile Mitarbeiter auf Kaizala freigeben. Diese Karte hat 3 Felder in Chat Karte-Anlagen anzeigen (In diesem Beispiel Fotostory mit Bildern), Titel und die Ankündigung Body (Beschreibung). Dies wird als eine Karte Out-of-Box-Ankündigung an eine Gruppe Kaizala gesendet.
 
@@ -32,7 +32,9 @@ In diesem Szenario kann sich grob in 2 Schritte unterteilt werden:
 2. Verwenden Sie das [hervorgehobene Content-Webpart](https://support.office.com/en-us/article/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd) (*bei Bedarf für Visualisierung*)
 3. Laden Sie die [SharepointAnnouncementOnKaizala SolutionPackage.zip](https://github.com/MicrosoftDocs/kaizala-docs/blob/master/Articles/BusinessSolutions/CorporateCommunications/SharepointAnnouncementsonKaizala/SharepointAnnouncementOnKaizala-SolutionPackage.zip) (*Dies ist ein Flow-Paket*)
 4. [Import](https://flow.microsoft.com/en-us/blog/import-export-bap-packages/) SharepointAnnouncementOnKaizala-SolutionPackage.zip Flow Microsoft-Konto
-    > Hinweis: Wenn Sie noch nie, Sharepoint oder Kaizala Verbindung mit der ersten [Hinzufügen von Verbindungen verwendet haben](https://docs.microsoft.com/en-us/flow/add-manage-connections)
+   
+   > Hinweis: Wenn Sie noch nie, Sharepoint oder Kaizala Verbindung mit der ersten [Hinzufügen von Verbindungen verwendet haben](https://docs.microsoft.com/en-us/flow/add-manage-connections)
+   
 5. Bearbeiten Sie den Ablauf (*wie unten*)
     1. In der erste Block des Datenflusses
     
