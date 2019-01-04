@@ -74,7 +74,8 @@ Nehmen wir an, dass wir die Kartenansicht anders als dessen Empfängern Absender
                   } 
 ```
 
-Hier können Sie diesen Operator beobachten "Conditional_value" Abrufen Boolean-Wert aus geschachtelten Operator "Is_it_me" Weiter mit Operator "Property_value" geschachtelt. In ähnlicher Weise kann dies auf einfache Weise auf eines dieser Szenarien, sogar komplexe eine erweitert werden. 
+Hier können Sie diesen Operator beobachten "Conditional_value" Abrufen Boolean-Wert aus geschachtelten Operator "Is_it_me" Weiter mit Operator "Property_value" geschachtelt. In ähnlicher Weise kann dies auf einfache Weise auf eines dieser Szenarien, sogar komplexe eine erweitert werden. Darüber hinaus muss der folgende Eintrag hinzugefügt werden, um das Paketmanifest: ActionStoreSchema: "<name of the action store schema definition file>". Weitere Informationen finden Sie in [JSON Manifestschema Paket](package_manifest_schema.md) .
+
 
  
 ## <a name="list-of-supported-operators"></a>Liste der unterstützten Operatoren: 
