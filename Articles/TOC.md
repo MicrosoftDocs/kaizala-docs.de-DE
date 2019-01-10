@@ -61,6 +61,9 @@
 ## [Unternehmenskommunikation](BusinessSolutions/CorporateCommunications/CorporateCommunications.md)
 ### [Anzeigen von RSS-Feeds in Kaizala Gruppen](BusinessSolutions/CorporateCommunications/GetRSSFeedsonKaizala/DisplayRSSFeedsinKaizalagroups.md)
 ### [Anzeigen von SharePoint-Ankündigungen in Kaizala Gruppen](BusinessSolutions/CorporateCommunications/SharepointAnnouncementsonKaizala/DisplaySharepointAnnouncements.md)
+### [Updates in Kaizala Auto-Post Twitter (engl.)](BusinessSolutions/CorporateCommunications/AutoPostTwitterUpdatesToKaizala/AutoPostTwitterUpdatesToKaizala.md)
+## [Life@Work](BusinessSolutions/Life@Work/Life@Work.md)
+### [Freigeben von inspirierendes Anführungszeichen @ Jahrestag](BusinessSolutions/Life@Work/InspirationalQuotes@Workplace/InspirationalQuotes@Workplace.md)
 ## [Mitgearbeitet](PartnerDocs/Customerticketingsolution.md)
 ## [Integrieren von Daten zu Ihrer benutzerdefinierten Dashboards Kaizala](PartnerDocs/IntegratingKaizalaData.md)
 

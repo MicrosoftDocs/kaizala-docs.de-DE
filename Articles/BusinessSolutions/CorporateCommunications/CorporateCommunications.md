@@ -9,5 +9,6 @@ Vereinfachung der Kommunikation und die Nutzung der aktuellen Investitionen in K
 Im folgenden finden Sie die beispiellösungen, mit denen Organisationen mit mobilen Mitarbeiter effektiv kommunizieren möchten
  1. [Anzeigen von RSS-Feeds in Kaizala Gruppen](GetRSSFeedsonKaizala/DisplayRSSFeedsinKaizalagroups.md)
  2. [Anzeigen von SharePoint-Ankündigungen in Kaizala Gruppen](SharepointAnnouncementsonKaizala/DisplaySharepointAnnouncements.md)
+ 3. [Twitter-Auto-Post-Updates auf Kaizala](AutoPostTwitterUpdatesToKaizala.md)
 
 Hilfreiche Links- [Kaizala Aktionen](https://docs.microsoft.com/en-us/kaizala/actions/readme)
