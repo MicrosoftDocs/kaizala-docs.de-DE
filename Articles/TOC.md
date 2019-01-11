@@ -61,7 +61,7 @@
 ## [Unternehmenskommunikation](BusinessSolutions/CorporateCommunications/CorporateCommunications.md)
 ### [Anzeigen von RSS-Feeds in Kaizala Gruppen](BusinessSolutions/CorporateCommunications/GetRSSFeedsonKaizala/DisplayRSSFeedsinKaizalagroups.md)
 ### [Anzeigen von SharePoint-Ankündigungen in Kaizala Gruppen](BusinessSolutions/CorporateCommunications/SharepointAnnouncementsonKaizala/DisplaySharepointAnnouncements.md)
-### [Updates in Kaizala Auto-Post Twitter (engl.)](BusinessSolutions/CorporateCommunications/AutoPostTwitterUpdatesToKaizala/AutoPostTwitterUpdatesToKaizala.md)
+### [Updates zu Kaizala Auto-Post Twitter (engl.)](BusinessSolutions/CorporateCommunications/AutoPostTwitterUpdatesToKaizala/AutoPostTwitterUpdatesToKaizala.md)
 ## [Mitgearbeitet](PartnerDocs/Customerticketingsolution.md)
 ## [Integrieren von Daten zu Ihrer benutzerdefinierten Dashboards Kaizala](PartnerDocs/IntegratingKaizalaData.md)
 

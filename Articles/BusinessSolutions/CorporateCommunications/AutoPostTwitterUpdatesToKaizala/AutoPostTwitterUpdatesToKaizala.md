@@ -2,9 +2,9 @@
 
 Buchen, um Mitarbeiter Seiten Twitter ist Teil der Geschäftsalltag, jedoch müssen die gleiche Informationen mehrmals buchen ist ziemlich komplex. Förderung der Mitarbeiter soziale Medien-Updates gemeinsam nutzen, wenn keine weiteren ordnungsgemäß kann erheblich des Unternehmens Folgendes erweitern. 
 
-In diesem beispiellösung speichert Ihrer Termine durch die automatische-Veröffentlichung der Statusupdates von Ihrem Konto offizielle Twitter auf Kaizala Gruppen. Eine Ankündigung Karte werden gesendet, um die Gruppe aus, wenn eine oder alle der unten Trigger auftreten
+In diesem beispiellösung speichert Ihrer Termine durch die automatische-Veröffentlichung Tweets von Ihrem offizielle Twitter-Konto auf Kaizala Gruppen. Eine Ankündigung Karte werden gesendet, um die Gruppe aus, wenn eine oder alle der unten Trigger auftreten
 
-1. Ein neuer Tweet wird auf einen bestimmten Twitter Ziehpunkt E.g.,"@InsideFabrikam gebucht"
+1. Ein neuer Tweet wird auf eine bestimmte Twitter gebucht behandeln E.g.,"@InsideFabrikam"
 
 2. Ein Beitrag ist neu in diesem Twitter Handle tweeted 
     
@@ -12,7 +12,7 @@ In diesem beispiellösung speichert Ihrer Termine durch die automatische-Veröff
 
 <img src="AutoPostTwitterUpdatesToKaizalaImages/6.png" alt="Tweet" width="400" />
 
-Diese Karte verfügt über drei Felder-Karte Titel Anlagen (Bilder, Videos und GIF) und den Text (Beschreibung). Die Ankündigung Nachrichtentext enthält die Twitter-URL und auf diese URL tippen, würde an Statusseite auf Twitter Benutzer weitergeleitet werden.
+Diese Karte verfügt über drei Felder-Karte Titel Anlagen (Bilder, Videos und GIF) und den Text (Beschreibung). Die Ankündigung Nachrichtentext enthält die URL Twitter (engl.), und auf diese URL tippen, würde Benutzer auf Statusseite auf Twitter umgeleitet werden.
 
 > Hinweis: Im Fall eines WAN-Video oder GIF, wird in der Miniaturansicht in Kartenansicht Chat angezeigt.
 
