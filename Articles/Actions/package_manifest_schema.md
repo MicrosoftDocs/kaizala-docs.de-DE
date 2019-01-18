@@ -1,4 +1,259 @@
-<span data-ttu-id="3bebc-101">{"$schema": "http://json-schema.org/draft-04/schema#", "Typ": "Objekt", "Eigenschaften": {"SchemaVersion": {"Typ": "number", "Beschreibung": "die Version des zurzeit dieses Manifest verwendet.</span><span class="sxs-lookup"><span data-stu-id="3bebc-101">{ "$schema": "http://json-schema.org/draft-04/schema#", "type": "object", "properties": { "schemaVersion": { "type": "number", "description": "The version of the manifest schema this manifest is using.</span></span> <span data-ttu-id="3bebc-102">Die entsprechenden Schemaversion ist 1."</span><span class="sxs-lookup"><span data-stu-id="3bebc-102">The corresponding schema version is 1."</span></span>
-<span data-ttu-id="3bebc-103">}, "Id": {"Typ": "string", "Beschreibung": "ein eindeutiger Bezeichner für diese Aktion.</span><span class="sxs-lookup"><span data-stu-id="3bebc-103">}, "id": { "type": "string", "description": "A unique identifier for this Action.</span></span> <span data-ttu-id="3bebc-104">Die Id muss verwenden reverse Domain Name Notation. ","MaxLength": 64},"Version": {"Typ":"string","Beschreibung":"die Version dieser Aktion.</span><span class="sxs-lookup"><span data-stu-id="3bebc-104">The id must use reverse domain name notation.", "maxLength": 64 }, "version": { "type": "string", "description": "The version of this Action.</span></span> <span data-ttu-id="3bebc-105">Änderungen an der Aktion sollte eine Änderung Version verursachen.</span><span class="sxs-lookup"><span data-stu-id="3bebc-105">Changes to the Action should cause a version change.</span></span> <span data-ttu-id="3bebc-106">Diese Versionszeichenfolge muss den Semver Standard folgen."</span><span class="sxs-lookup"><span data-stu-id="3bebc-106">This version string must follow the semver standard."</span></span>
-<span data-ttu-id="3bebc-107">}, "DisplayName": {"Typ": "string", "Beschreibung": "Anzeigename für die Aktion.</span><span class="sxs-lookup"><span data-stu-id="3bebc-107">}, "displayName": { "type": "string", "description": "Display name for the Action.</span></span> <span data-ttu-id="3bebc-108">Dieser Name wird verwendet, wenn die Aktion in Kaizalas auf der Registerkarte Discover und Aktion Palette. wird ","MaxLength": 64},"Beschreibung": {"Typ":"string","Beschreibung":"Beschreibung für die Aktion.</span><span class="sxs-lookup"><span data-stu-id="3bebc-108">This name will be used when your Action shows up in Kaizala's Discover tab and Action palette.", "maxLength": 64 }, "description": { "type": "string", "description": "Description for the Action.</span></span> <span data-ttu-id="3bebc-109">Diese Beschreibung wird verwendet, wenn die Aktion in Kaizalas Discover Registerkarte angezeigt wird, wird ","MaxLength": 128},"ProviderName": {"Typ":"string","Beschreibung":"Anzeigename für den Entwickler/Herausgeber.</span><span class="sxs-lookup"><span data-stu-id="3bebc-109">This description will be used when your Action shows up in Kaizala's Discover tab.", "maxLength": 128 }, "providerName": { "type": "string", "description": "Display name for the developer/publisher.</span></span> <span data-ttu-id="3bebc-110">Dieser Name wird verwendet, wenn die Aktion in Kaizalas auf der Registerkarte Discover und Aktion Palette. wird ","MaxLength": 64},"Symbol": {"Typ":"string","Beschreibung":"Dateinamen des Symbols für die Aktion Größe 36 \* 36.</span><span class="sxs-lookup"><span data-stu-id="3bebc-110">This name will be used when your Action shows up in Kaizala's Discover tab and Action palette.", "maxLength": 64 }, "icon": { "type": "string", "description": "File name of the Action's icon sized 36\*36.</span></span> <span data-ttu-id="3bebc-111">Jede Symbolbilddatei muss eine transparente PNG-Datei mit einem weißen oder hellen Hintergrund ","MaxLength": 64},"AppModel": {"Typ":"string","Beschreibung":"Dateiname des app-Modell für die Aktion.</span><span class="sxs-lookup"><span data-stu-id="3bebc-111">Each icon image file must be a transparent PNG, with a white or light-colored background.", "maxLength": 64 }, "appModel": { "type": "string", "description": "File name of the Action's app model.</span></span> <span data-ttu-id="3bebc-112">Verweisen auf das app-Modell JSON-Schema, und vergewissern Sie sich Compliance. ","MaxLength": 64},"ExternalUrls": {"Typ":"Objekt","Eigenschaften": {"Url": {"Typ":"string","Beschreibung":"die Url der White für externe Inhalte angezeigt werden muss.</span><span class="sxs-lookup"><span data-stu-id="3bebc-112">Refer to the app Model JSON schema and ensure compliance.", "maxLength": 64 }, "externalUrls": { "type": "object", "properties": { "url": { "type": "string", "description": "The url which needs to be whitelisted for showing external content.</span></span> <span data-ttu-id="3bebc-113">Alle URLs müssen Https-Protokoll entsprechen."</span><span class="sxs-lookup"><span data-stu-id="3bebc-113">All of these URLs must conform to https protocol."</span></span>
-<span data-ttu-id="3bebc-114">{}} "required": "" [Url]}, "ActionStoreSchema": {"Typ": "string", "Beschreibung": "Dateiname der Schemadatei Aktion Store.</span><span class="sxs-lookup"><span data-stu-id="3bebc-114">} }, "required": [ "url" ] }, "ActionStoreSchema": { "type": "string", "description": "File name of the action store schema file.</span></span> <span data-ttu-id="3bebc-115">Dieser Schlüssel wird nur bei Verwendung der benutzerdefinierte Operatoren in Chatcardview Json hinzugefügt.</span><span class="sxs-lookup"><span data-stu-id="3bebc-115">This key is added only while using custom operators in chatcardview json.</span></span> <span data-ttu-id="3bebc-116">Der Inhalt dieser neuen Datei wird standardmäßig eine leere Json-Objekt: {}"},"Ansichten": {"Typ":"Objekt","Eigenschaften": {"ChatCanvasCardView": {"Typ":"Objekt","Eigenschaften": {"LabelRespondToForm": {"Typ":"string","Beschreibung":"die Call-to-Action-Zeichenfolge für Endbenutzer auf die Aktion Antworten auf Fragen.</span><span class="sxs-lookup"><span data-stu-id="3bebc-116">By default, the contents of this new file is an empty json object: {}" }, "views": { "type": "object", "properties": { "ChatCanvasCardView": { "type": "object", "properties": { "labelRespondToForm": { "type": "string", "description": "The call-to-action string asking for an end user to respond to the Action.</span></span> <span data-ttu-id="3bebc-117">EG/Default: an Umfrage teilnehmen ","MaxLength": 32},"LabelResponded": {"Typ":"string","Beschreibung":"Zeichenfolge angezeigt, wenn ein Benutzer auf eine bestimmte Instanz der Aktion Kaizala geantwortet hat.</span><span class="sxs-lookup"><span data-stu-id="3bebc-117">eg/Default: Respond to Survey", "maxLength": 32 }, "labelResponded": { "type": "string", "description": "String to show when a user has responded to a specific instance of the Kaizala Action.</span></span> <span data-ttu-id="3bebc-118">EG/Default: Sie haben geantwortet. ","MaxLength": 32},"LabelUpdateResponse": {"Typ":"string","Beschreibung":"die Zeichenfolge Call-to-Action für Endbenutzer so aktualisieren Sie ihre Antwort auf die Aktion aufgefordert werden.</span><span class="sxs-lookup"><span data-stu-id="3bebc-118">eg/Default: You have responded.", "maxLength": 32 }, "labelUpdateResponse": { "type": "string", "description": "The call-to-action string asking for an end user to update their response to the Action.</span></span> <span data-ttu-id="3bebc-119">EG/Default: Update Meine Antwort ","MaxLength": 32},"LabelAnotherResponse": {"Typ":"string","Beschreibung":"die Zeichenfolge Call-to-Action Fragen für Endbenutzer zu einem anderen als Antwort auf die Aktion hinzufügen.</span><span class="sxs-lookup"><span data-stu-id="3bebc-119">eg/Default: Update My Response", "maxLength": 32 }, "labelAnotherResponse": { "type": "string", "description": "The call-to-action string asking for an end user to add another response to the Action.</span></span> <span data-ttu-id="3bebc-120">EG/Default: Hinzufügen einer anderen Antwort ","MaxLength": 32},"LabelExpiryMsg": {"Typ":"string","Beschreibung":"Zeichenfolge angezeigt, wenn eine bestimmte Instanz der Aktion Kaizala abgelaufen ist.</span><span class="sxs-lookup"><span data-stu-id="3bebc-120">eg/Default: Add Another Response", "maxLength": 32 }, "labelExpiryMsg": { "type": "string", "description": "String to show when a specific instance of the Kaizala Action has expired.</span></span> <span data-ttu-id="3bebc-121">EG/Default: Umfrage geschlossen ","MaxLength": 32},"ShowExpiry": {"Typ":"boolean","Beschreibung":"Wenn auf True festgelegt, die Karte auf den Zeichenbereich Chat Ablaufdatum und Uhrzeit. angezeigt werden","Default": true},"ShowResponseCount": {"Typ":"boolean","Beschreibung": "Wenn auf True festgelegt, die Karte auf den Zeichenbereich Chat Antwort Count. angezeigt werden", "Default": true}, "ShowHeader": {"Typ": "boolean", "Beschreibung": "Wenn auf True festgelegt, die Karte auf den Zeichenbereich Chat Header. angezeigt werden", "Default": true}, "ShowFooter": {"Typ": "boolean", "Beschreibung": "Wenn auf True festgelegt, die Karte auf den Zeichenbereich Chat Fußzeile. angezeigt werden", "Default": true}, "IsResponseEditable": {"Typ": "boolean", "Beschreibung": "bei Festlegung auf" true "Antworten auf die Kaizala Aktion eines Benutzers können später bearbeitet werden weiter unten. ","Default": true}}},"CreationView": {"Typ":"Objekt","Eigenschaften": {"LabelHeader": {"Typ":"string","Beschreibung":"String zum Anzeigen in der Kopfzeile für die fesselnden anzeigen.","MaxLength": 32},"SourceLocation": {"Typ":"string","Beschreibung ":"Dateiname für die fesselnden Ansicht angezeigt, wenn die Aktion aufgerufen wird, aus der Palette und eine neue Instanz wird erstellt.","MaxLength": 32},"ShowNativeToolbar": {"Typ":"boolean","Beschreibung":" Wenn auf True festgelegt, die fesselnden Ansicht ist die systemeigene Symbolleiste sichtbar." "Default": true}, "BackDialogVisibility": {"Typ": "boolean", "Beschreibung": "Wenn hat auf True festgelegt, die fesselnden Ansicht die zurück-Schaltfläche sichtbar.", "Default": true}, "BackDialogTitle": {"Typ": "string", "Beschreibung": "Titel der Warnung angezeigt wird, wenn die Zurück-Schaltfläche ist gedrückt, in der fesselnden Ansicht systemeigene Symbolleiste. ","MaxLength": 16},"BackDialogDescription": {"Typ":"string","Beschreibung":"Beschreibung der Warnung angezeigt, wenn die zurück-Schaltfläche in der fesselnden Ansicht systemeigene Symbolleiste. gedrückt wird,""MaxLength ": 32}},"required": ["SourceLocation"]},"ResponseView": {"Typ":"Objekt","Eigenschaften": {"LabelHeader": {"Typ":"string","Beschreibung":"String zum Anzeigen in der Kopfzeile für die fesselnden anzeigen.","MaxLength": 32},"SourceLocation": {"Typ":"String", "Beschreibung": "Dateiname für die fesselnden Ansicht angezeigt, wenn die Aktion aufgerufen wird, aus der Palette und eine neue Instanz wird erstellt.", "MaxLength": 32}, "ShowNativeToolbar": {"Typ": "boolean", "Beschreibung": "Wenn auf True festgelegt, die fesselnden Ansicht ist das systemeigene Symbolleiste sichtbar. ","Default": true},"BackDialogVisibility": {"Typ":"boolean","Beschreibung":"Wenn hat auf True festgelegt, die fesselnden Ansicht die zurück-Schaltfläche sichtbar.","Default": true},"BackDialogTitle": {"Typ":"string","Beschreibung":" Titel des der Warnung angezeigt, wenn die zurück-Schaltfläche in der fesselnden Ansicht systemeigene Symbolleiste. gedrückt wird ","MaxLength": 16},"BackDialogDescription": {"Typ":"string","Beschreibung":"Beschreibung der Warnung angezeigt, wenn die zurück-Schaltfläche in der Ansicht fesselnden gedrückt wird die systemeigene Symbolleiste. ","MaxLength": 32}},"required": ["SourceLocation"]},"ResponseResultsView": {"Typ":"Objekt","Eigenschaften": {"LabelHeader": {"Typ":"string","Beschreibung":"String zum Anzeigen in der Kopfzeile für die fesselnden anzeigen.","MaxLength": 32}," SourceLocation": {"Typ":"string","Beschreibung":"Dateiname für die fesselnden Ansicht angezeigt, wenn die Aktion aufgerufen wird, aus der Palette und eine neue Instanz wird erstellt.","MaxLength": 32},"ShowNativeToolbar": {"Typ":"boolean","Beschreibung":"bei Festlegung auf "true" hat die fesselnde Ansicht die systemeigene Symbolleiste sichtbar. ","Default": true},"BackDialogVisibility": {"Typ":"boolean","Beschreibung":"Wenn hat auf True festgelegt, die fesselnden Ansicht die zurück-Schaltfläche sichtbar.","Default": true},"BackDialogTitle": {"Typ":" Zeichenfolge","Beschreibung":"Titel der Warnung angezeigt, wenn die zurück-Schaltfläche in der fesselnden Ansicht systemeigene Symbolleiste. gedrückt wird","MaxLength": 16},"BackDialogDescription": {"Typ":"string","Beschreibung":"Beschreibung der Warnung angezeigt, wenn die zurück-Schaltfläche ist in der fesselnden Ansicht systemeigene Symbolleiste. gedrückt ","MaxLength": 32}},"required": ["SourceLocation"]}},"required": ["CreationView","ResponseView","ResponseResultsView"]}},"required": ["SchemaVersion","Id","Version","DisplayName"," Beschreibung","ProviderName","Symbol","AppModel"]}</span><span class="sxs-lookup"><span data-stu-id="3bebc-121">eg/Default: Survey Closed", "maxLength": 32 }, "showExpiry": { "type": "boolean", "description": "When set to true, the card on the chat canvas will display the expiry date and time.", "default": true }, "showResponseCount": { "type": "boolean", "description": "When set to true, the card on the chat canvas will display the response count.", "default": true }, "showHeader": { "type": "boolean", "description": "When set to true, the card on the chat canvas will display the header.", "default": true }, "showFooter": { "type": "boolean", "description": "When set to true, the card on the chat canvas will display the footer.", "default": true }, "isResponseEditable": { "type": "boolean", "description": "When set to true, responses to the Kaizala Action by a user are subsequently editable later.", "default": true } } }, "CreationView": { "type": "object", "properties": { "labelHeader": { "type": "string", "description": "String to show in the header for the immersive view.", "maxLength": 32 }, "sourceLocation": { "type": "string", "description": "Filename for the immersive view to show when the Action is invoked from the palette and a new instance is created.", "maxLength": 32 }, "showNativeToolbar": { "type": "boolean", "description": "When set to true, the immersive view has the native toolbar visible.", "default": true }, "backDialogVisibility": { "type": "boolean", "description": "When set to true, the immersive view has the back button visible.", "default": true }, "backDialogTitle": { "type": "string", "description": "Title of the alert shown when the back button is pressed in the immersive view's native toolbar.", "maxLength": 16 }, "backDialogDescription": { "type": "string", "description": "Description of the alert shown when the back button is pressed in the immersive view's native toolbar.", "maxLength": 32 } }, "required": [ "sourceLocation" ] }, "ResponseView": { "type": "object", "properties": { "labelHeader": { "type": "string", "description": "String to show in the header for the immersive view.", "maxLength": 32 }, "sourceLocation": { "type": "string", "description": "Filename for the immersive view to show when the Action is invoked from the palette and a new instance is created.", "maxLength": 32 }, "showNativeToolbar": { "type": "boolean", "description": "When set to true, the immersive view has the native toolbar visible.", "default": true }, "backDialogVisibility": { "type": "boolean", "description": "When set to true, the immersive view has the back button visible.", "default": true }, "backDialogTitle": { "type": "string", "description": "Title of the alert shown when the back button is pressed in the immersive view's native toolbar.", "maxLength": 16 }, "backDialogDescription": { "type": "string", "description": "Description of the alert shown when the back button is pressed in the immersive view's native toolbar.", "maxLength": 32 } }, "required": [ "sourceLocation" ] }, "ResponseResultsView": { "type": "object", "properties": { "labelHeader": { "type": "string", "description": "String to show in the header for the immersive view.", "maxLength": 32 }, "sourceLocation": { "type": "string", "description": "Filename for the immersive view to show when the Action is invoked from the palette and a new instance is created.", "maxLength": 32 }, "showNativeToolbar": { "type": "boolean", "description": "When set to true, the immersive view has the native toolbar visible.", "default": true }, "backDialogVisibility": { "type": "boolean", "description": "When set to true, the immersive view has the back button visible.", "default": true }, "backDialogTitle": { "type": "string", "description": "Title of the alert shown when the back button is pressed in the immersive view's native toolbar.", "maxLength": 16 }, "backDialogDescription": { "type": "string", "description": "Description of the alert shown when the back button is pressed in the immersive view's native toolbar.", "maxLength": 32 } }, "required": [ "sourceLocation" ] } }, "required": [ "CreationView", "ResponseView", "ResponseResultsView" ] } }, "required": [ "schemaVersion", "id", "version", "displayName", "description", "providerName", "icon", "appModel" ] }</span></span>
+---
+ms.openlocfilehash: 65f66e554aaaa69957d16a115a5cf7529314c4ac
+ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28727717"
+---
+`````
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "schemaVersion": {
+            "type": "number",
+            "description": "The version of the manifest schema this manifest is using. The corresponding schema version is 1."
+        },
+        "id": {
+            "type": "string",
+            "description": "A unique identifier for this Action. The id must use reverse domain name notation.",
+            "maxLength": 64
+        },
+        "version": {
+            "type": "string",
+            "description": "The version of this Action. Changes to the Action should cause a version change. This version string must follow the semver standard."
+        },
+        "displayName": {
+            "type": "string",
+            "description": "Display name for the Action. This name will be used when your Action shows up in Kaizala's Discover tab and Action palette.",
+            "maxLength": 64
+        },
+        "description": {
+            "type": "string",
+            "description": "Description for the Action. This description will be used when your Action shows up in Kaizala's Discover tab.",
+            "maxLength": 128
+        },
+        "providerName": {
+            "type": "string",
+            "description": "Display name for the developer/publisher. This name will be used when your Action shows up in Kaizala's Discover tab and Action palette.",
+            "maxLength": 64
+        },
+        "icon": {
+            "type": "string",
+            "description": "File name of the Action's icon sized 36*36. Each icon image file must be a transparent PNG, with a white or light-colored background.",
+            "maxLength": 64
+        },
+        "appModel": {
+            "type": "string",
+            "description": "File name of the Action's app model. Refer to the app Model JSON schema and ensure compliance.",
+            "maxLength": 64
+        },
+        "externalUrls": {
+            "type": "object",
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "description": "The url which needs to be whitelisted for showing external content. All of these URLs must conform to https protocol."
+                }
+            },
+            "required": [
+                "url"
+            ]
+        },
+        "ActionStoreSchema": {
+            "type": "string",
+            "description": "File name of the action store schema file. This key is added only while using custom operators in chatcardview json. By default, the contents of this new file is an empty json object: {}"
+        },
+        "views": {
+            "type": "object",
+            "properties": {
+                "ChatCanvasCardView": {
+                    "type": "object",
+                    "properties": {
+                        "labelRespondToForm": {
+                            "type": "string",
+                            "description": "The call-to-action string asking for an end user to respond to the Action. eg/Default: Respond to Survey",
+                            "maxLength": 32
+                        },
+                        "labelResponded": {
+                            "type": "string",
+                            "description": "String to show when a user has responded to a specific instance of the Kaizala Action. eg/Default: You have responded.",
+                            "maxLength": 32
+                        },
+                        "labelUpdateResponse": {
+                            "type": "string",
+                            "description": "The call-to-action string asking for an end user to update their response to the Action. eg/Default: Update My Response",
+                            "maxLength": 32
+                        },
+                        "labelAnotherResponse": {
+                            "type": "string",
+                            "description": "The call-to-action string asking for an end user to add another response to the Action. eg/Default: Add Another Response",
+                            "maxLength": 32
+                        },
+                        "labelExpiryMsg": {
+                            "type": "string",
+                            "description": "String to show when a specific instance of the Kaizala Action has expired. eg/Default: Survey Closed",
+                            "maxLength": 32
+                        },
+                        "showExpiry": {
+                            "type": "boolean",
+                            "description": "When set to true, the card on the chat canvas will display the expiry date and time.",
+                            "default": true
+                        },
+                        "showResponseCount": {
+                            "type": "boolean",
+                            "description": "When set to true, the card on the chat canvas will display the response count.",
+                            "default": true
+                        },
+                        "showHeader": {
+                            "type": "boolean",
+                            "description": "When set to true, the card on the chat canvas will display the header.",
+                            "default": true
+                        },
+                        "showFooter": {
+                            "type": "boolean",
+                            "description": "When set to true, the card on the chat canvas will display the footer.",
+                            "default": true
+                        },
+                        "isResponseEditable": {
+                            "type": "boolean",
+                            "description": "When set to true, responses to the Kaizala Action by a user are subsequently editable later.",
+                            "default": true
+                        }
+                    }
+                },
+                "CreationView": {
+                    "type": "object",
+                    "properties": {
+                        "labelHeader": {
+                            "type": "string",
+                            "description": "String to show in the header for the immersive view.",
+                            "maxLength": 32
+                        },
+                        "sourceLocation": {
+                            "type": "string",
+                            "description": "Filename for the immersive view to show when the Action is invoked from the palette and a new instance is created.",
+                            "maxLength": 32
+                        },
+                        "showNativeToolbar": {
+                            "type": "boolean",
+                            "description": "When set to true, the immersive view has the native toolbar visible.",
+                            "default": true
+                        },
+                        "backDialogVisibility": {
+                            "type": "boolean",
+                            "description": "When set to true, the immersive view has the back button visible.",
+                            "default": true
+                        },
+                        "backDialogTitle": {
+                            "type": "string",
+                            "description": "Title of the alert shown when the back button is pressed in the immersive view's native toolbar.",
+                            "maxLength": 16
+                        },
+                        "backDialogDescription": {
+                            "type": "string",
+                            "description": "Description of the alert shown when the back button is pressed in the immersive view's native toolbar.",
+                            "maxLength": 32
+                        }
+                    },
+                    "required": [
+                        "sourceLocation"
+                    ]
+                },
+                "ResponseView": {
+                    "type": "object",
+                    "properties": {
+                        "labelHeader": {
+                            "type": "string",
+                            "description": "String to show in the header for the immersive view.",
+                            "maxLength": 32
+                        },
+                        "sourceLocation": {
+                            "type": "string",
+                            "description": "Filename for the immersive view to show when the Action is invoked from the palette and a new instance is created.",
+                            "maxLength": 32
+                        },
+                        "showNativeToolbar": {
+                            "type": "boolean",
+                            "description": "When set to true, the immersive view has the native toolbar visible.",
+                            "default": true
+                        },
+                        "backDialogVisibility": {
+                            "type": "boolean",
+                            "description": "When set to true, the immersive view has the back button visible.",
+                            "default": true
+                        },
+                        "backDialogTitle": {
+                            "type": "string",
+                            "description": "Title of the alert shown when the back button is pressed in the immersive view's native toolbar.",
+                            "maxLength": 16
+                        },
+                        "backDialogDescription": {
+                            "type": "string",
+                            "description": "Description of the alert shown when the back button is pressed in the immersive view's native toolbar.",
+                            "maxLength": 32
+                        }
+                    },
+                    "required": [
+                        "sourceLocation"
+                    ]
+                },
+                "ResponseResultsView": {
+                    "type": "object",
+                    "properties": {
+                        "labelHeader": {
+                            "type": "string",
+                            "description": "String to show in the header for the immersive view.",
+                            "maxLength": 32
+                        },
+                        "sourceLocation": {
+                            "type": "string",
+                            "description": "Filename for the immersive view to show when the Action is invoked from the palette and a new instance is created.",
+                            "maxLength": 32
+                        },
+                        "showNativeToolbar": {
+                            "type": "boolean",
+                            "description": "When set to true, the immersive view has the native toolbar visible.",
+                            "default": true
+                        },
+                        "backDialogVisibility": {
+                            "type": "boolean",
+                            "description": "When set to true, the immersive view has the back button visible.",
+                            "default": true
+                        },
+                        "backDialogTitle": {
+                            "type": "string",
+                            "description": "Title of the alert shown when the back button is pressed in the immersive view's native toolbar.",
+                            "maxLength": 16
+                        },
+                        "backDialogDescription": {
+                            "type": "string",
+                            "description": "Description of the alert shown when the back button is pressed in the immersive view's native toolbar.",
+                            "maxLength": 32
+                        }
+                    },
+                    "required": [
+                        "sourceLocation"
+                    ]
+                }
+            },
+            "required": [
+                "CreationView",
+                "ResponseView",
+                "ResponseResultsView"
+            ]
+        }
+    },
+    "required": [
+        "schemaVersion",
+        "id",
+        "version",
+        "displayName",
+        "description",
+        "providerName",
+        "icon",
+        "appModel"
+    ]
+}
+`````
