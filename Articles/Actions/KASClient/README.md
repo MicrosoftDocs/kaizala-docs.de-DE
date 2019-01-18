@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: de0df75d7a62fda9ea6ff5625fbef94774069cfd
+ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28727719"
+---
 ## <a name="kas-client"></a>KAS Client
 
 KAS Client-SDK stellt eine Brücke zwischen der Kaizala app native-Schnittstelle (Objective-C für iOS, Java für Android) und die Kaizala Aktion Javascript.
@@ -14,11 +22,11 @@ Sie können [hier](https://manage.kaiza.la/MiniApps/DownloadSDK) die aktuelle KA
 
 ## <a name="api-reference"></a>API-Referenz
 
-*   [Formular Erstellung Fluss APIs](form_creation.md)
-*   [Formular Antwort Fluss APIs](form_response.md)
-*   [Formular Zusammenfassung flow APIs](form_summary.md)
-*   [App-APIs](app.md)
+*   [Formular Erstellung Fluss APIs](generated/modules/kasclient.form.md#creation)
+*   [Formular Antwort Fluss APIs](generated/modules/kasclient.form.md#response)
+*   [Formular Zusammenfassung flow APIs](generated/modules/kasclient.form.md#summary)
+*   [App-APIs](generated/modules/kasclient.app.md)
 
 ## <a name="object-reference"></a>Objektverweis
 
-Verweise auf alle Objekte im SDK werden Firmenmaster [hier](objects.md).
+Verweise auf alle Objekte im SDK stehen [hier](objects.md).
