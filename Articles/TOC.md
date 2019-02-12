@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: b628240633ebba23110071e7b5cb2281fb000f79
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28727721"
----
 
 
     
@@ -79,7 +71,7 @@ ms.locfileid: "28727721"
 ## [Sicherheit für End Kunden](PartnerDocs/SecurityFeaturesforendcustomers.md)
 ## [Sicherheit](PartnerDocs/Security.md)
 ## [Datenschutz](PartnerDocs/Privacy.md)
-## [Compliance](PartnerDocs/Compliance.md)
+## [Beachtung](PartnerDocs/Compliance.md)
 
 
 # Schulung und Support
