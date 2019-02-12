@@ -2,9 +2,9 @@
 
 Ein Paket Kaizala-Aktion ist eine Zip-Datei, die alle benötigte Manifest und Resource-Dateien im Stammverzeichnis enthält.
 
-Erstellen Sie zunächst einen neuen Ordner auf Ihrem PC zu vereinfachen Ihre Arbeit Dorectory.
+Erstellen Sie zunächst einen neuen Ordner auf Ihrem PC zu vereinfachen Arbeitsverzeichnis.
 
-Sie benötigen einen Code-Editor zum Arbeiten mit verschiedenen Arten von Webressourcen & Manifestdateien.
+Sie benötigen einen Code-Editor arbeiten mit verschiedenen Arten von Ressourcen & manifest-Dateien.
 
 >   Es wird empfohlen, den Visual Studio-Code-Editor. Sie können es [hier](https://code.visualstudio.com/) herunterladen.
 
@@ -41,7 +41,7 @@ Verweisen auf Ihre Erstellung Ansicht HTML-Datei in der Paketmanifest-, und ordn
 Wenn eine neue Instanz einer Aktion Kaizala erstellt und in einer Unterhaltung gebucht, wird eine Aktion Karte auf den Zeichenbereich für andere Benutzer in der Unterhaltung anzeigen und senden ihre Antworten angezeigt.
 
 Um die Kartenansicht Chat anpassen, finden Sie unter [Anpassen von ChatCardView](ChatCanvasCardView.md) 
-## <a name="define-the-response--summary-views"></a>Definieren der Antwort & Übersichten
+## <a name="define-the-response--summary-views"></a>Definieren Sie die Antwort & Zusammenfassung Ansichten
 
 Wenn Benutzer versuchen, Details anzeigen und reagieren auf eine Instanz der Kaizala-Aktion in einer Unterhaltung gebucht, können sie zwei Arten von Ansichten anzeigen.
 *   Antwort Ansicht beim Tippen Sie auf die primäre Taste Call-to-Action und eine Antwort bereitstellen möchten
