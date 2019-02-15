@@ -1,14 +1,14 @@
 
-# <a name="submit-your-questions-bugs-and-feature-requests"></a>Senden Sie Ihre Fragen, Fehlern und Feature-Anforderungen
+# <a name="submit-your-questions-bugs-and-feature-requests"></a>ÜberMitteln von Fragen, Fehlern und Feature-Anfragen
 
-Das Produktteam Kaizala reagiert auf die Entwicklercommunity über mehrere Kanäle. Teilen Sie uns bitte Ihre:
+Das Kaizala-Produktteam antwortet der Entwicklercommunity über mehrere Kanäle. Informieren Sie uns über:
 
-- **Allgemeine Fragen:** Stellen Sie Fragen auf [Stapelüberlauf](https://stackoverflow.com/questions/tagged/Kaizala) , mit Tag **Kaizala**. Sie können auch e-Mails zur [Unterstützung von Kaizala Developer](mailto:kaizalaDev@microsoft.com)senden. Wir sind entsprechend reagieren innerhalb von 2 Arbeitstagen.
+- **Allgemeine Fragen:** Fragen zum [Stapelüberlauf](https://stackoverflow.com/questions/tagged/Kaizala) mit Tag **Kaizala**. Sie können auch e-Mails an den [Kaizala-Entwickler](mailto:kaizalaDev@microsoft.com)senden. Wir werden innerhalb von 2 Werktagen entsprechend reagieren.
 
-- **Dokumentation Bugs:** Wenn Sie einen Fehler in der Kaizala SDK-Dokumentation finden, öffnen Sie ein [Problem](https://github.com/microsoft/kaizala-docs/issues) auf GitHub. Achten Sie darauf, um uns mitzuteilen, welche Thema sachlich falsch oder nicht klar ist. Helfen Sie uns schneller, das Problem zu beheben, quote des Texts, der geändert werden. 
+- **Dokumentationsfehler:** Wenn Sie einen Fehler in der Kaizala SDK-Dokumentation finden, öffnen Sie ein [Problem](https://github.com/microsoft/kaizala-docs/issues) auf GitHub. Stellen Sie sicher, dass Sie uns mitteilen, welches Thema sachlich falsch oder unklar ist. Damit wir das Problem schneller beheben können, zitieren Sie den zu ändernden Text. 
 
-- **Anwendungsfehler sample:** Wenn Sie einen Fehler in einem unserer Beispiele suchen, öffnen Sie ein Problem auf GitHub. Achten Sie darauf, dass Sie den Schritten zum Reproduzieren des Fehlers.
+- **Beispiel Anwendungsfehler:** Wenn Sie einen Fehler in einem unserer Beispiele finden, öffnen Sie ein Problem auf GitHub. Beschreiben Sie unbedingt die Schritte zum Reproduzieren des Fehlers.
 
-- **Feature Anforderungen:** Wenn unsere Plattform nicht Ihnen helfen, was Sie benötigen, stellen Sie Ihre Features Vorschläge auf der [Kaizala auf UserVoice](https://kaizala.uservoice.com/).
+- **Funktionsanforderungen:** Wenn unsere Plattform Sie nicht dazu ermächtigt, Ihre Anforderungen zu übermitteln, senden Sie uns eine e-Mail zu Ihren Features-Vorschlägen zu [Kaizala-Feedback](mailto:kaizalafeedback@microsoft.com) .
 
-- **Folgen Sie uns:** Abonnieren Sie [Kaizala Developer verbinden](https://join.kaiza.la/g/jwoUnTyHR_Kgrd_GuDDc1w) aus Ihrer Kaizala mobilen app und halten Sie sich selbst abreast mit der neuesten Support, Updates und Änderungen in Kaizala Developer-Plattform
+- **Folgen Sie uns:** Abonnieren Sie [Kaizala Developer Connect](https://join.kaiza.la/g/jwoUnTyHR_Kgrd_GuDDc1w) von ihrer Kaizala Mobile-App, und halten Sie sich auf dem laufenden mit dem aktuellen Support, Updates & Änderungen in der Kaizala-Entwicklerplattform
