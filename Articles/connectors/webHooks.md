@@ -1,55 +1,55 @@
 ---
 title: /webhooks
-description: Referenzartikel für API zum Verwalten von Kaizala-Abonnements
+description: Referenzartikel zur API zum Verwalten von Kaizala-Abonnements
 topic: Reference
 author: nitinjms
-ms.openlocfilehash: 00cbca686e8948d61425f067356e8c7eadb1892c
-ms.sourcegitcommit: 27dd3ded71b4a77258961a2fc93c1ec0d02f2980
+ms.openlocfilehash: a2cdb74284f6980644366cf3b61740ea46389512
+ms.sourcegitcommit: 6014f31329a438ea02de677673049dc0d036bed9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25450928"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30405801"
 ---
-# <a name="apis-to-register--manage-webhooks"></a>APIs für das registrieren & Webhooks verwalten
+# <a name="apis-to-register--manage-webhooks"></a>APIs zum Registrieren von & Manage webhooks
 ## <a name="webhook"></a>/webhook
-Zum Verwalten von Abonnements auf Ereignisse innerhalb Kaizala API-Endpunkt.
+API-Endpunkt zum Verwalten von Abonnements für Ereignisse in Kaizala.
 
-WebHooks besteht aus einem kompakten HTTP-Muster ein einfachen Publisher-Abonnent-Modells für Verdrahtung zusammen Web-APIs und SaaS Services bereitstellen. Wenn ein Ereignis in Kaizala passiert, wird eine Benachrichtigung in Form von HTTP POST-Anforderung an die registrierten Abonnenten gesendet. Die POST-Anforderung enthält Informationen über das Ereignis für den Empfänger an, entsprechend agieren kann.
+WebHooks ist ein leichtes HTTP-Muster, das ein einfaches Publisher/Subscriber-Modell für die Verbindung von Web-APIs und SaaS-Diensten bereitstellt. Wenn in Kaizala ein Ereignis auftritt, wird eine Benachrichtigung in Form einer HTTP-POST-Anforderung an registrierte Abonnenten gesendet. Die POST-Anforderung enthält Informationen über das Ereignis, mit denen der Empfänger entsprechend handeln kann.
 
 
-WebHooks verwenden, können Sie verschiedene Abonnieren von Ereignissen, die innerhalb einer Unterhaltung Gruppe in Kaizala Kontext auftreten.
+Mit webHooks können Sie verschiedene Ereignisse abonnieren, die innerhalb eines unterhaltungsgruppen Kontexts in Kaizala auftreten.
 
-### <a name="post-webhook"></a>/Webhook buchen
+### <a name="post-webhook"></a>POST/webhook
 
     POST {endpoint-url}/v1/webhook
 
-Um sicherzustellen, dass Ihr Dienstendpunkt Webhook authentisch und betriebsbereit ist wird wir Ihr Callback-URL überprüfen, bevor Abonnement erstellen. Zur Überprüfung werden wir Sie ein Token Validation senden, die Sie uns wieder innerhalb von 5 Sekunden senden müssen. [Erfahren Sie mehr](WebHookValidaton.md)
+Um sicherzustellen, dass Ihr webhook-Dienstendpunkt authentisch ist und funktioniert, überprüfen wir Ihre Rückruf-URL, bevor Sie ein Abonnement erstellen. Zur Überprüfung senden wir Ihnen ein Validierungs Token zu, das Sie innerhalb von 5 Sekunden zurücksenden müssen. [Weitere Informationen](WebHookValidaton.md)
 
-#### <a name="request-parameters"></a>Anforderungsparameter
+#### <a name="request-parameters"></a>AnforderungsParameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt || HTTP-Header | Content-Type | String | Nein | "Application/Json" |
+| HTTP-Header | Access Token | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token || HTTP-Header | Content-Type | String | Nein | "application/json" |
 
 #### <a name="request-body"></a>Anforderungstext
 
 |  Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
-| objectId | String | Nein | Bezeichner, die für das Objekt, in welchen, das Kontext die Webhooks erstellt werden müssen. Für ObjectType = Gruppe, dessen Gruppenbezeichner für ObjectType = Action, dessen ActionId für ObjectType = ActionPackage, dessen Action-Paket-Id |
-| objectType | String | Nein | Enum: "Group" / "Aktion" / "ActionPackage" |
-| eventTypes | Array | Nein | Array von verschiedenen Arten von Ereignissen, denen Sie die Webhook zu abonnieren müssen. Supported events are: "ActionCreated","ActionResponse","SurveyCreated","JobCreated","SurveyResponse","JobResponse","TextMessageCreated","AttachmentCreated","Announcement","MemberAdded","MemberRemoved","GroupAdded","GroupRemoved" |
-| callBackUrl | String | Nein | HTTPS-URL, an die die abonnierten Ereignisse, gemeldet werden müssen |
-| callBackToken | String | Ja | Ein optionaler Parameter können Sie festlegen, die im HTTP-Header 'Kz-rückruftoken' mit jedem Rückruf, die durch die WebHook gesendet wird |
-| callBackContext | String | Ja | Ein optionaler Parameter können Sie festlegen, die in der Nutzlast JSON als "Kontext" mit jedem Rückruf, die durch die WebHook gesendet wird |
-| Gültigkeit | String | Ja | Gültigkeitsdauer für die WebHook im Format EPOCHE aktiv sein. Der Standardwert lautet 2 Jahre |
+| objectId | String | Nein | Bezeichner, der das Objekt darstellt, in dem der Kontext der webhooks erstellt werden muss. Für Objekttyp = Gruppe, ID der Gruppe, für ObjectType = Action, its Action-ID, für ObjectType = ActionPackage, its Action-Package-Identifier |
+| objectType | String | Nein | Enum: "Group"/"action"/"ActionPackage" |
+| eventTypes | Array | Nein | Array unterschiedlicher Ereignistypen, für die Sie den webhook abonnieren müssen. Unterstützte Ereignisse sind folgende: "ActionCreated", "ActionResponse", "SurveyCreated", "JobCreated", "SurveyResponse", "JobResponse", "TextMessageCreated", "AttachmentCreated", "Ansage", "MemberAdded", "MemberRemoved", "GroupAdded", "GroupRemoved" |
+| callBackUrl | String | Nein | HTTPS-URL, an die die abonnierten Ereignisse benachrichtigt werden müssen |
+| callBackToken | Zeichenfolge | Ja | Optionaler Parameter, den Sie festlegen können, der im HTTP-Header "KZ-Callback-Token" mit jedem Rückruf des webHooks gesendet wird. |
+| callBackcontext | Zeichenfolge | Ja | Optionaler Parameter, den Sie festlegen können, der in der JSON-Nutzlast als ' context ' gesendet wird, bei jedem Rückruf, der vom webHook ausgeführt wird. |
+| Gültigkeit | Zeichenfolge | Ja | Gültigkeit für die webHook-Aktivität im EPOCH-Format. Standardwert ist 2 Jahre |
 
 
 #### <a name="response-body"></a>Antworttext
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| webhookId | Zeichenfolge | Bezeichner für die WebHook erstellt |
+| webhook-Nr. | String | Bezeichner, der den erstellten webHook darstellt |
 
-#### <a name="request-body---subscribe-to-all-events-at-group-level"></a>Anforderungstextkörper - alle Ereignisse auf Gruppenebene abonnieren
+#### <a name="request-body---subscribe-to-all-events-at-group-level"></a>AnforderungsText – abonnieren aller Ereignisse auf Gruppenebene
 
 ```javascript
 {  
@@ -78,42 +78,44 @@ Um sicherzustellen, dass Ihr Dienstendpunkt Webhook authentisch und betriebsbere
 ```
 
 
-Finden Sie Webhook Antwortschema für registrierte Ereignisse in Kaizala [**hier**](EventSchema.md).
+Das webhook-Antwortschema für registrierte Ereignisse in Kaizala finden Sie [**hier**](EventSchema.md).
 
-### <a name="get-webhook"></a>Abrufen von /webhook
+> **Hinweis:** Kaizala garantiert, dass die webhook-Antwort mindestens einmal bereitgestellt wird. In bestimmten Fällen kann es vorkommen, dass Kaizala doppelte webhook-Antwort für dasselbe Ereignis sendet.
 
-    GET {endpoint-url}/v1/webhook
+### <a name="get-webhook"></a>/Webhook abrufen
 
-#### <a name="request-parameters"></a>Anforderungsparameter
+    GET {Endpoint-URL}/v1/webhook
+
+#### <a name="request-parameters"></a>AnforderungsParameter
 
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
-| Abfrageparameter | objectId | String | Nein | Bezeichner, die für das Objekt, in welchen, das Kontext die Webhooks erstellt werden müssen. Für ObjectType = Gruppe, dessen Gruppenbezeichner für ObjectType = Action, dessen ActionId für ObjectType = ActionPackage, dessen Action-Paket-Id |
-| Abfrageparameter | objectType | String | Nein | Enum: "Group" / "Aktion" / "ActionPackage" |
+| HTTP-Header | Access Token | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| Abfrageparameter | objectId | String | Nein | Bezeichner, der das Objekt darstellt, in dem der Kontext der webhooks erstellt werden muss. Für Objekttyp = Gruppe, ID der Gruppe, für ObjectType = Action, its Action-ID, für ObjectType = ActionPackage, its Action-Package-Identifier |
+| Abfrageparameter | objectType | String | Nein | Enum: "Group"/"action"/"ActionPackage" |
 
 #### <a name="response-body"></a>Antworttext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| webhooks | JSON-Objekt-Array | Array von Webhooks auf ObjectId abonniert |
+| webhooks | JSON-Objekt Array | Array von webhooks, die für die objectId abonniert wurden |
 
-#####  <a name="json-structure-for-each-individual-webhook-in-the-array-webhooks"></a>JSON-Struktur für jede einzelne Webhook in das Array Webhooks []:
+#####  <a name="json-structure-for-each-individual-webhook-in-the-array-webhooks"></a>JSON-Struktur für jeden einzelnen webhook im Array webhooks []:
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| id | Zeichenfolge | Webhook-Bezeichner |
-| objectId | Zeichenfolge | Objekt-ID |
-| objectType | Zeichenfolge | Enum: "Group" / "Aktion" / "ActionPackage" |
-| events | String] | Ereignisliste mit jedem Wert als eines der "ActionCreated", "ActionResponse", "SurveyCreated", "JobCreated", "SurveyResponse", "JobResponse", "TextMessageCreated", "AttachmentCreated", "Ankündigung", "MemberAdded", "MemberRemoved", "GroupAdded" " GroupRemoved" |
-| callBackUrl | Zeichenfolge | Callback-URL an die die abonnierten Ereignisse, gemeldet werden müssen |
-| callBackToken | Zeichenfolge | Parameter der im HTTP-Header 'Kz-rückruftoken' mit jedem Rückruf, die durch die WebHook gesendet wird |
-| callBackContext | Zeichenfolge | Parameter, die in der Nutzlast JSON als "Kontext" mit jedem Rückruf, die durch die WebHook gesendet |
-| Gültigkeit | Zeichenfolge | Gültigkeitsdauer für die WebHook im Format EPOCHE aktiv sein. |
-| aktive | Boolean | True, wenn der Status der Webhook aktiv ist. |
+| id | Zeichenfolge | Webhook-ID |
+| objectId | String | Objektbezeichner |
+| objectType | Zeichenfolge | Enum: "Group"/"action"/"ActionPackage" |
+| Ereignisse | String [] | Ereignisliste mit jedem Wert von "ActionCreated", "ActionResponse", "SurveyCreated", "JobCreated", "SurveyResponse", "JobResponse", "TextMessageCreated", "AttachmentCreated", "Ansage", "MemberAdded", "MemberRemoved", "GroupAdded"; " GroupRemoved " |
+| callBackUrl | String | Rückruf-URL, an die die abonnierten Ereignisse benachrichtigt werden müssen |
+| callBackToken | String | Parameter, der im HTTP-Header "KZ-Callback-Token" mit jedem Rückruf des webHooks gesendet wird. |
+| callBackcontext | String | Parameter, der in der JSON-Nutzlast als "Context" gesendet wird und jeder Rückruf durch den webHook erfolgt. |
+| Gültigkeit | String | Gültigkeit für die webHook-Aktivität im EPOCH-Format. |
+| Active | Boolesch | True, wenn der Status von webhook aktiv ist |
 
-##### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
+##### <a name="sample-json-response"></a>JSON-Beispielantwort
 
 ```javascript
 {
@@ -150,42 +152,42 @@ Finden Sie Webhook Antwortschema für registrierte Ereignisse in Kaizala [**hier
 
 ### <a name="delete-webhook"></a>/Webhook löschen
 
-    DELETE {endpoint-url}/v1/webhook
+    DELETE {Endpoint-URL}/v1/webhook
 
-#### <a name="request-parameters"></a>Anforderungsparameter
+#### <a name="request-parameters"></a>AnforderungsParameter
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
-| Pfadparameter | webhookId | String | Nein | Webhook-Bezeichner |
+| HTTP-Header | Access Token | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| Path-Parameter | webhook-Nr. | String | Nein | Webhook-ID |
 
-### <a name="put-webhook"></a>PLATZIEREN Sie /webhook
+### <a name="put-webhook"></a>PUT/webhook
 
     PUT {endpoint-url}/v1/webhook/{webhookId}
 
-Parameter für die Webhook kann aktualisiert werden. Anforderungstext kann 1 oder mehrere Parameter enthalten, je nach Bedarf.
+Jeder Parameter für den webhook kann aktualisiert werden. Der AnforderungsText kann je nach Bedarf 1 oder mehr Parameter enthalten.
 
-#### <a name="request-parameters"></a>Anforderungsparameter
+#### <a name="request-parameters"></a>AnforderungsParameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
-| Pfadparameter | webhookId | String | Nein | Webhook-Bezeichner |
+| HTTP-Header | Access Token | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| Path-Parameter | webhook-Nr. | String | Nein | Webhook-ID |
 
 #### <a name="request-body"></a>Anforderungstext
 
 |  Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
-| objectId | String | Ja | Bezeichner, die für das Objekt, in welchen, das Kontext die Webhooks erstellt werden müssen. Für ObjectType = Gruppe, dessen Gruppenbezeichner für ObjectType = Action, dessen ActionId für ObjectType = ActionPackage, dessen Action-Paket-Id |
-| objectType | String | Ja | Enum: "Group" / "Aktion" / "ActionPackage" |
-| eventTypes | Array | Ja | Array von verschiedenen Arten von Ereignissen, denen Sie die Webhook zu abonnieren müssen. Supported events are: "ActionCreated","ActionResponse","SurveyCreated","JobCreated","SurveyResponse","JobResponse","TextMessageCreated","AttachmentCreated","Announcement","MemberAdded","MemberRemoved","GroupAdded","GroupRemoved" |
-| callBackUrl | String | Ja | HTTPS-URL, an die die abonnierten Ereignisse, gemeldet werden müssen |
-| callBackToken | String | Ja | Ein optionaler Parameter können Sie festlegen, die im HTTP-Header 'Kz-rückruftoken' mit jedem Rückruf, die durch die WebHook gesendet wird |
-| callBackContext | String | Ja | Ein optionaler Parameter können Sie festlegen, die in der Nutzlast JSON als "Kontext" mit jedem Rückruf, die durch die WebHook gesendet wird |
-| Gültigkeit | String | Ja | Gültigkeitsdauer für die WebHook im Format EPOCHE aktiv sein. Der Standardwert lautet 2 Jahre |
-| Aktiv | Boolean | Ja | Ändern Sie den Status der Webhook aktiv, wenn der Wert true ist |
+| objectId | Zeichenfolge | Ja | Bezeichner, der das Objekt darstellt, in dem der Kontext der webhooks erstellt werden muss. Für Objekttyp = Gruppe, ID der Gruppe, für ObjectType = Action, its Action-ID, für ObjectType = ActionPackage, its Action-Package-Identifier |
+| objectType | Zeichenfolge | Ja | Enum: "Group"/"action"/"ActionPackage" |
+| eventTypes | Array | Ja | Array unterschiedlicher Ereignistypen, für die Sie den webhook abonnieren müssen. Unterstützte Ereignisse sind folgende: "ActionCreated", "ActionResponse", "SurveyCreated", "JobCreated", "SurveyResponse", "JobResponse", "TextMessageCreated", "AttachmentCreated", "Ansage", "MemberAdded", "MemberRemoved", "GroupAdded", "GroupRemoved" |
+| callBackUrl | Zeichenfolge | Ja | HTTPS-URL, an die die abonnierten Ereignisse benachrichtigt werden müssen |
+| callBackToken | Zeichenfolge | Ja | Optionaler Parameter, den Sie festlegen können, der im HTTP-Header "KZ-Callback-Token" mit jedem Rückruf des webHooks gesendet wird. |
+| callBackcontext | Zeichenfolge | Ja | Optionaler Parameter, den Sie festlegen können, der in der JSON-Nutzlast als ' context ' gesendet wird, bei jedem Rückruf, der vom webHook ausgeführt wird. |
+| Gültigkeit | String | Ja | Gültigkeit für die webHook-Aktivität im EPOCH-Format. Standardwert ist 2 Jahre |
+| Aktiv | Boolesch | Ja | Ändern Sie den Zustand der webhook in aktiv, wenn der Wert true ist |
 
 
-#### <a name="sample-request-body"></a>Beispiel-Anforderungstext
+#### <a name="sample-request-body"></a>Beispiel für AnforderungsText
 
 ````javascript
     { 
@@ -213,16 +215,16 @@ Parameter für die Webhook kann aktualisiert werden. Anforderungstext kann 1 ode
 
 ````
 
-## <a name="auto-disable-of-webhooks"></a>Auto-Deaktivieren des Webhooks
+## <a name="auto-disable-of-webhooks"></a>Automatische deAktivierung von webhooks
 
-Um die Zuverlässigkeit der unsere Webhooks zu verbessern, haben wir kürzlich die "Wiederholen" und deaktivieren Logik hinzugefügt. Url der Callback-/ Endpunkt mit einer Webhook registriert, wenn nicht erreichbar oder reagiert nicht mit dem Statuscode als 2xx (> = 3xx), und klicken Sie dann unseren Dienst versucht, Reichweite/es für 6 Zeiten auf exponentielle Weise innerhalb eines Textabschnitts 2 Tage wiederholen. 
+Zur Verbesserung der Zuverlässigkeit unserer webhooks haben wir vor kurzem die Wiederholungs-und deAktivierungs Logik hinzugefügt. Die mit einem webhook registrierte Callback-URL/-Endpunkt, wenn Sie nicht erreichbar ist oder nicht mit einem anderen Statuscode als 2xx (> = 3xx) antwortet, dann versucht unser Dienst, es sechs Mal exponentiell innerhalb einer Spanne von 2 Tagen zu erreichen. 
 
-Wenn sie weiterhin für 2 Tage fehlschlägt, wird der entsprechende Webhook deaktiviert, und der Besitzer muss mit der Put-/webhook API aktualisieren, bevor er beginnt erneut arbeiten. Für diese Vorgaben unter
+Wenn es noch 2 Tage fehlschlägt, wird der entsprechende webhook deaktiviert, und der Besitzer muss es mit der Put-/webhook-API aktualisieren, bevor es wieder beginnt zu arbeiten. Beispielsweise
 
     
     PUT {endpoint-url}/v1/webhook/{subscriptionId}
 
-### <a name="request-body"></a>Anforderungstext:
+### <a name="request-body"></a>AnforderungsText:
 ````javascript
 { 
   "Active": "true" 
