@@ -1,7 +1,14 @@
 
-# <a name="submit-your-questions-bugs-and-feature-requests"></a>ÜberMitteln von Fragen, Fehlern und Feature-Anfragen
+# <a name="submit-support-requests-questions-bugs-and-feature-requests"></a>Senden von Supportanfragen, Fragen, Fehlern und Feature-Anfragen
 
-Das Kaizala-Produktteam antwortet der Entwicklercommunity über mehrere Kanäle. Informieren Sie uns über:
+Der Microsoft-Support steht Kaizala-Kunden weltweit für technische Probleme zur Verfügung. Autorisierte Administratoren können das Office 365-Portal verwenden, um Serviceanfragen online zu übermitteln, Telefonnummern des Supports einzusehen sowie alle offenen und kürzlich geschlossenen Serviceanfragen anzuzeigen. 
+
+Über das Office 365-Portal übermittelte Serviceanfragen können während einer Frist von bis zu 14 Tagen nach Abschluss erneut geöffnet werden. Weitere Informationen finden Sie unter [Kontaktieren des Office 365 Business-Supports - Administratorhilfe](https://go.microsoft.com/fwlink/p/?LinkID=279815). Darüber hinaus können Serviceanfragen auch über das Kaizala- [Verwaltungs Portal](http://manage.kaiza.la)geöffnet werden.
+
+Beachten Sie, dass die Unterstützung nur auf Englisch verfügbar ist und es keine lokale Sprachunterstützung für Kaizala gibt.
+
+
+Darüber hinaus reagiert das Kaizala-Produktteam über mehrere Kanäle hinweg auf die Entwicklercommunity. Informieren Sie uns über:
 
 - **Allgemeine Fragen:** Fragen zum [Stapelüberlauf](https://stackoverflow.com/questions/tagged/Kaizala) mit Tag **Kaizala**. Sie können auch e-Mails an den [Kaizala-Entwickler](mailto:kaizalaDev@microsoft.com)senden. Wir werden innerhalb von 2 Werktagen entsprechend reagieren.
 

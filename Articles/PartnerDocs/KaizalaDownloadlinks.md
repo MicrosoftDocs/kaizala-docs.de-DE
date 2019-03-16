@@ -1,5 +1,5 @@
-# <a name="kaizala-availability"></a>Kaizala Verfügbarkeit 
-Kaizala wird in folgenden Ländern wirtschaftlich gestartet, obwohl es auf alle Android steht und iOS weltweit als kostenlose App gespeichert. 
+# <a name="kaizala-availability"></a>Kaizala-Verfügbarkeit 
+Kaizala pro ist in den folgenden 28 Ländern kommerziell verfügbar, obwohl es in allen Android-und iOS-Stores weltweit als ﻿kostenlose App verfügbar ist. 
 
 • Indien
 <br>
@@ -11,7 +11,7 @@ Kaizala wird in folgenden Ländern wirtschaftlich gestartet, obwohl es auf alle 
 <br>
 • Mexiko
 <br>
-• Kolumbien
+• Columbia
 <br>
 • Argentinien
 <br>
@@ -57,5 +57,8 @@ Kaizala wird in folgenden Ländern wirtschaftlich gestartet, obwohl es auf alle 
 <br>
 • Kambodscha
 
-### <a name="download-links"></a>Herunterladen von links
-Wenn ein anderer benötigten Informationen zu wechseln.[https://products.office.com/en-in/business/microsoft-kaizala](https://products.office.com/en-in/business/microsoft-kaizala)
+## <a name="download-links"></a>Download-Links
+
+Kaizala ist in allen Android-und iOS-Stores weltweit als ﻿kostenlose App verfügbar.
+
+Weitere Informationen finden Sie unter:[https://products.office.com/en-in/business/microsoft-kaizala](https://products.office.com/en-in/business/microsoft-kaizala)
