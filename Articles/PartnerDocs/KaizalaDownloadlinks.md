@@ -57,6 +57,27 @@ Kaizala pro ist in den folgenden 28 Ländern kommerziell verfügbar, obwohl es i
 <br>
 • Kambodscha
 
+## <a name="upcoming-worldwide-release"></a>Bevorstehende weltweite Freigabe
+
+Ab Mai 2019 ist Kaizala pro weltweit kommerziell verfügbar, mit Ausnahme der folgenden Länder oder Regionen:
+
+• Kuba
+<br>
+• Iran
+<br>
+• Nordkorea
+<br>
+• Volksrepublik China
+<br>
+• Sudan
+<br>
+• Syrien
+<br>
+• Region Krim
+<br>
+• Russland
+<br>
+
 ## <a name="download-links"></a>Download-Links
 
 Kaizala ist in allen Android-und iOS-Stores weltweit als ﻿kostenlose App verfügbar.
