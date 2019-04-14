@@ -24,7 +24,7 @@
 #### [Anatomie des Kaizala-Aktionspakets](Actions/anatomy.md)
 #### [Erste Schritte](Actions/get_started.md)
 #### [Entwickeln](Actions/develop.md)
-#### [Veröffentlichen](Actions/publish.md)
+#### [Publish](Actions/publish.md)
 
 ## API-Verweise
 
@@ -43,7 +43,7 @@
 
 ## Beispiele
 ### [API-Sammlung](https://app.getpostman.com/run-collection/f68a8abec784cc00b0b9#?env%5BKaizala-APIs-environment%5D=W3siZW5hYmxlZCI6dHJ1ZSwia2V5IjoibW9iaWxlLW51bWJlciIsInZhbHVlIjoiIiwidHlwZSI6InRleHQifSx7ImVuYWJsZWQiOnRydWUsImtleSI6ImFjY2Vzcy10b2tlbiIsInZhbHVlIjoiIiwidHlwZSI6InRleHQifSx7ImVuYWJsZWQiOnRydWUsImtleSI6InRlc3QtZ3JvdXAtaWQiLCJ2YWx1ZSI6IiIsInR5cGUiOiJ0ZXh0In0seyJlbmFibGVkIjp0cnVlLCJrZXkiOiJtb2JpbGUtbnVtYmVyLTIiLCJ2YWx1ZSI6Iis5MTExOTk5OTk5OTkiLCJ0eXBlIjoidGV4dCJ9LHsiZW5hYmxlZCI6dHJ1ZSwia2V5IjoiYXBpLXJvb3QiLCJ2YWx1ZSI6Imh0dHBzOi8vYXBpLmthaXphLmxhIiwidHlwZSI6InRleHQifSx7ImVuYWJsZWQiOnRydWUsImtleSI6ImFwcGxpY2F0aW9uLWlkIiwidmFsdWUiOiIiLCJ0eXBlIjoidGV4dCJ9LHsiZW5hYmxlZCI6dHJ1ZSwia2V5IjoiYXBwbGljYXRpb24tc2VjcmV0IiwidmFsdWUiOiIiLCJ0eXBlIjoidGV4dCJ9LHsiZW5hYmxlZCI6dHJ1ZSwia2V5IjoiZW5kcG9pbnQtdXJsIiwidmFsdWUiOiJodHRwczovL2luYy0wMDEuS2FpemFsYU1lc3NhZ2luZy5vc2kub2ZmaWNlLm5ldCIsInR5cGUiOiJ0ZXh0In0seyJlbmFibGVkIjp0cnVlLCJrZXkiOiJyZWZyZXNoLXRva2VuIiwidmFsdWUiOiIiLCJ0eXBlIjoidGV4dCJ9LHsiZW5hYmxlZCI6dHJ1ZSwia2V5IjoidGVzdC1wdWJsaWMtZ3JvdXAtaWQiLCJ2YWx1ZSI6IiIsInR5cGUiOiJ0ZXh0In0seyJlbmFibGVkIjp0cnVlLCJrZXkiOiJ0ZXN0LXN1Yi1ncm91cC1pZCIsInZhbHVlIjoiIiwidHlwZSI6InRleHQifSx7ImVuYWJsZWQiOnRydWUsImtleSI6Im1vYmlsZS1udW1iZXItMyIsInZhbHVlIjoiKzkxMTA5OTk5OTk5IiwidHlwZSI6InRleHQifSx7ImVuYWJsZWQiOnRydWUsImtleSI6InRlc3QtYWN0aW9uLWlkIiwidmFsdWUiOiIiLCJ0eXBlIjoidGV4dCJ9LHsiZW5hYmxlZCI6dHJ1ZSwia2V5IjoidGVzdC1zdXJ2ZXktaWQiLCJ2YWx1ZSI6IiIsInR5cGUiOiJ0ZXh0In0seyJlbmFibGVkIjp0cnVlLCJrZXkiOiJ0ZXN0LXdlYmhvb2staWQiLCJ2YWx1ZSI6IiIsInR5cGUiOiJ0ZXh0In1d)
-### [Beispielcode](Samples/sample.md)
+### [Codebeispiele](Samples/sample.md)
 
 ## Anleitungen
 
@@ -62,6 +62,7 @@
 ### [Anzeigen von RSS-Feeds in Kaizala-Gruppen](BusinessSolutions/CorporateCommunications/GetRSSFeedsonKaizala/DisplayRSSFeedsinKaizalagroups.md)
 ### [Anzeigen von SharePoint-Ansagen in Kaizala-Gruppen](BusinessSolutions/CorporateCommunications/SharepointAnnouncementsonKaizala/DisplaySharepointAnnouncements.md)
 ### [Automatisches Veröffentlichen von Twitter-Updates für Kaizala](BusinessSolutions/CorporateCommunications/AutoPostTwitterUpdatesToKaizala/AutoPostTwitterUpdatesToKaizala.md)
+## [Leistungssteigerung mit Leaderboard](BusinessSolutions/Leaderboard/Leaderboard.md)
 ## [Ticket System](PartnerDocs/Customerticketingsolution.md)
 ## [Integrieren von Kaizala-Daten in Ihre benutzerdefinierten Dashboards](PartnerDocs/IntegratingKaizalaData.md)
 
