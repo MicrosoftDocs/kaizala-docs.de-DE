@@ -28,7 +28,7 @@ Dies kann grob in drei Schritte unterteilt werden:
 3. Konfigurieren von Microsoft Flow
 
 ### <a name="upload-action-package"></a>Paket zum Hochladen von Aktionen
-1. Laden Sie die Datei ["Leaderboard-SolutionPackage. zip](https://github.com/MicrosoftDocs/kaizala-docs/blob/master/Articles/BusinessSolutions/Leaderboard/Leaderboard-SolutionPackage.zip)" herunter (*dieses* *enthält* *"Leaderboard_ActionPackage. zip* " *und* *"Leaderboard_FlowPackage. zip"* - *Paket*).
+1. Laden Sie die Datei ["Leaderboard-SolutionPackage. zip](https://aka.ms/Leaderboard-SolutionPackage.zip)" herunter (*dieses* *enthält* *"Leaderboard_ActionPackage. zip* " *und* *"Leaderboard_FlowPackage. zip"* - *Paket*).
 2. Laden Sie die neueste Version von Kaizala ["ActionSDK. zip"](https://manage.kaiza.la/MiniApps/DownloadSDK) (*Diese enthält KASClient. js*)
 3. Bearbeiten Sie "Leaderboard_ActionPackage. zip"
    1. Unzip "Leaderboard_ActionPackage. zip" in einen Ordner
