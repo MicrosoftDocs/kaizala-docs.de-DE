@@ -1,4 +1,4 @@
-# <a name="app-model-schema"></a><span data-ttu-id="afaec-101">Schema der App-Modell</span><span class="sxs-lookup"><span data-stu-id="afaec-101">App Model schema</span></span>
+# <a name="app-model-schema"></a><span data-ttu-id="b0c31-101">App-Modell Schema</span><span class="sxs-lookup"><span data-stu-id="b0c31-101">App Model schema</span></span>
 `````json-schema
 {
     "$schema": "http://json-schema.org/draft-04/schema#",

@@ -1,4 +1,4 @@
-# <a name="kasquestionoption"></a><span data-ttu-id="601ce-101">KASQuestionOption</span><span class="sxs-lookup"><span data-stu-id="601ce-101">KASQuestionOption</span></span>
+# <a name="kasquestionoption"></a><span data-ttu-id="8df2c-101">KASQuestionOption</span><span class="sxs-lookup"><span data-stu-id="8df2c-101">KASQuestionOption</span></span>
 ```typescript
 class KASQuestionOption {
   // Index of the option, starts with 0

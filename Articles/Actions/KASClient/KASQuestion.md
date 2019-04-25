@@ -1,4 +1,4 @@
-# <a name="kasquestion"></a><span data-ttu-id="2c22c-101">KASQuestion</span><span class="sxs-lookup"><span data-stu-id="2c22c-101">KASQuestion</span></span>
+# <a name="kasquestion"></a><span data-ttu-id="89e5f-101">KASQuestion</span><span class="sxs-lookup"><span data-stu-id="89e5f-101">KASQuestion</span></span>
 ```typescript
 class KASQuestion {
   // Index of the question, starts with 0

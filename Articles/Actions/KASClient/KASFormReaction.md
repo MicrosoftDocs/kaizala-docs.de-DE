@@ -1,4 +1,4 @@
-# <a name="kasformreaction"></a><span data-ttu-id="aa18b-101">KASFormReaction</span><span class="sxs-lookup"><span data-stu-id="aa18b-101">KASFormReaction</span></span>
+# <a name="kasformreaction"></a><span data-ttu-id="6d6f9-101">KASFormReaction</span><span class="sxs-lookup"><span data-stu-id="6d6f9-101">KASFormReaction</span></span>
 ```typescript
 class KASFormReaction {
   // Number of likes received for the form

@@ -1,4 +1,4 @@
-# <a name="kasformproperty"></a><span data-ttu-id="6f8b0-101">KASFormProperty</span><span class="sxs-lookup"><span data-stu-id="6f8b0-101">KASFormProperty</span></span>
+# <a name="kasformproperty"></a><span data-ttu-id="56bd8-101">KASFormProperty</span><span class="sxs-lookup"><span data-stu-id="56bd8-101">KASFormProperty</span></span>
 ```typescript
 class KASFormProperty {
   // Name of the metadata

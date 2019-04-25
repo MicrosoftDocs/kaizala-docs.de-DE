@@ -1,4 +1,4 @@
-# <a name="kasformflatsummary"></a><span data-ttu-id="a98f0-101">KASFormFlatSummary</span><span class="sxs-lookup"><span data-stu-id="a98f0-101">KASFormFlatSummary</span></span>
+# <a name="kasformflatsummary"></a><span data-ttu-id="a2793-101">KASFormFlatSummary</span><span class="sxs-lookup"><span data-stu-id="a2793-101">KASFormFlatSummary</span></span>
 ```typescript
 class KASFormFlatSummary {
   // The id of the associated form, shouldn't be changed

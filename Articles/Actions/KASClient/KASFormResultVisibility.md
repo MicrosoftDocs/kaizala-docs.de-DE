@@ -1,4 +1,4 @@
-# <a name="kasformresultvisibility"></a><span data-ttu-id="01ad1-101">KASFormResultVisibility</span><span class="sxs-lookup"><span data-stu-id="01ad1-101">KASFormResultVisibility</span></span>
+# <a name="kasformresultvisibility"></a><span data-ttu-id="c0f33-101">KASFormResultVisibility</span><span class="sxs-lookup"><span data-stu-id="c0f33-101">KASFormResultVisibility</span></span>
 ```typescript
 enum KASFormResultVisibility {
   // Form summary is visible to everyone in the conversation

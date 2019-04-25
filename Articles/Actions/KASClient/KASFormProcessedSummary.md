@@ -1,4 +1,4 @@
-# <a name="kasformprocessedsummary"></a><span data-ttu-id="ce6af-101">KASFormProcessedSummary</span><span class="sxs-lookup"><span data-stu-id="ce6af-101">KASFormProcessedSummary</span></span>
+# <a name="kasformprocessedsummary"></a><span data-ttu-id="3b8fc-101">KASFormProcessedSummary</span><span class="sxs-lookup"><span data-stu-id="3b8fc-101">KASFormProcessedSummary</span></span>
 ```typescript
 class KASFormProcessedSummary {
   // How many in the conversation did not respond

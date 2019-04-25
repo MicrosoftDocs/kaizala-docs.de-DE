@@ -1,4 +1,4 @@
-# <a name="kasformpropertytype"></a><span data-ttu-id="2c970-101">KASFormPropertyType</span><span class="sxs-lookup"><span data-stu-id="2c970-101">KASFormPropertyType</span></span>
+# <a name="kasformpropertytype"></a><span data-ttu-id="1aa7f-101">KASFormPropertyType</span><span class="sxs-lookup"><span data-stu-id="1aa7f-101">KASFormPropertyType</span></span>
 ```typescript
 enum KASFormPropertyType {
   // Any text is allowed as the metadata value

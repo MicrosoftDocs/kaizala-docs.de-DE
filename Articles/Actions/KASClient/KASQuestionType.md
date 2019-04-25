@@ -1,4 +1,4 @@
-# <a name="kasquestiontype"></a><span data-ttu-id="31447-101">KASQuestionType</span><span class="sxs-lookup"><span data-stu-id="31447-101">KASQuestionType</span></span>
+# <a name="kasquestiontype"></a><span data-ttu-id="a1ada-101">KASQuestionType</span><span class="sxs-lookup"><span data-stu-id="a1ada-101">KASQuestionType</span></span>
 ```typescript
 enum KASQuestionType {
   // Default type

@@ -1,4 +1,4 @@
-# <a name="kasquestionresult"></a><span data-ttu-id="a5e60-101">KASQuestionResult</span><span class="sxs-lookup"><span data-stu-id="a5e60-101">KASQuestionResult</span></span>
+# <a name="kasquestionresult"></a><span data-ttu-id="378e8-101">KASQuestionResult</span><span class="sxs-lookup"><span data-stu-id="378e8-101">KASQuestionResult</span></span>
 ```typescript
 class KASQuestionResult {
   // Title of the question

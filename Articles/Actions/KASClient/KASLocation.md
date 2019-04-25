@@ -1,4 +1,4 @@
-# <a name="kaslocation"></a><span data-ttu-id="6694e-101">KASLocation</span><span class="sxs-lookup"><span data-stu-id="6694e-101">KASLocation</span></span>
+# <a name="kaslocation"></a><span data-ttu-id="7ca51-101">KASLocation</span><span class="sxs-lookup"><span data-stu-id="7ca51-101">KASLocation</span></span>
 ```typescript
 class KASLocation{
   // Latitude of the location
