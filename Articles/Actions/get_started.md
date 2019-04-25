@@ -1,10 +1,10 @@
-# <a name="get-started-with-custom-kaizala-actions"></a>Erste Schritte mit benutzerdefinierten Kaizala Aktionen
+# <a name="get-started-with-custom-kaizala-actions"></a>Erste Schritte mit benutzerdefinierten Kaizala-Aktionen
 
-## <a name="kaizala-action-development-lifecycle"></a>Kaizala Aktion Entwicklungslebenszyklus
+## <a name="kaizala-action-development-lifecycle"></a>Kaizala-Aktions Entwicklungslebenszyklus
 
-Der normalen Entwicklungszyklus einer Aktion Kaizala umfasst die folgenden Schritte aus:
+Der typische Entwicklungslebenszyklus einer Kaizala-Aktion umfasst die folgenden Schritte:
 
-  **Schritt 1: entscheiden Sie sich für den Zweck der Aktion Kaizala**
+  **Schritt 1: Bestimmen des Zwecks der Kaizala-Aktion**
     
     Ask the following questions:
     
@@ -15,37 +15,37 @@ Der normalen Entwicklungszyklus einer Aktion Kaizala umfasst die folgenden Schri
     
 Überlegen Sie sich, was die wichtigsten Features und Szenarios sind, und konstruieren Sie Ihr Design um diese herum.
 
-   **Schritt 2: Identifizieren Sie das Datenmodell für die Aktion Kaizala**
+   **Schritt 2: Identifizieren des Datenmodells für die Kaizala-Aktion**
 
-Alle Kaizala Aktionen sind derzeit Formular basiert – d. h. ist das Datenmodell das Aggregieren Informationen anfordert, erfassen und eine Reihe von Frage und Antworttypen, die von der Plattform Kaizala Aggregation Services (KAS) unterstützt werden. Stellen Sie sich wie die Daten für die Aktion erforderlich Levergage können der Formular-Infrastruktur effektiv funktioniert.
+Alle Kaizala-Aktionen sind derzeit Formular basiert, d.h. das Datenmodell zum anfordern, sammeln und Aggregieren von Informationen ist eine Reihe von Frage-und Antworttypen, die von der Kaizala-Aggregations Dienste-Plattform (KAS) unterstützt werden. Stellen Sie sich vor, wie die für Ihre Aktion erforderlichen Daten levergage können, damit die formularinfrastruktur effektiv funktioniert.
 
-   **Schritt 3: Entwerfen und implementieren die Benutzer wünschen und die Benutzeroberfläche für das Add-in.**
+   **Schritt 3: Entwerfen und Implementieren der Benutzerumgebung und der Benutzeroberfläche für das Add-in.**
 
-Entwerfen Sie ein schnelles und flüssiges Zusammenspiel Benutzererlebnis, der konsistente, leicht zu, mit häufig vorkommenden Szenarien erlernen, die nur einige Schritte erforderlich ist. Denken Sie daran, dass eine Aktion Kaizala also auf externen Quellen - verweisen kann nicht praktikabel im Hinblick auf was Sie innerhalb der Aktion implementieren möchten.
+Entwerfen Sie eine schnelle und flüssige Benutzererfahrung, die konsistent und leicht zu erlernen ist, und für deren primäre Szenarien nur wenige Schritte erforderlich sind. Denken Sie daran, dass eine Kaizala-Aktion nicht auf externe Quellen verweisen kann – also im Hinblick darauf, was Sie in ihrer Aktion implementieren möchten.
 
 Sie können aus einer Vielzahl von Webentwicklungstools auswählen und HTML und JavaScript verwenden, um die Benutzeroberfläche zu implementieren.
 
-KAS Client JS-SDK können Sie mit der Kaizala Aggregation Dienste und die systemeigene Kaizala Client interagieren. 
+Sie können das KAS-Client-JS-SDK verwenden, um mit den Kaizala-Aggregations Diensten und dem systemeigenen Kaizala-Client zu interagieren. 
 
-   **Schritt 4 – erstellen eine Manifestdatei für die Aktion auf die Paket-Manifestschema basierte**
+   **Schritt 4: Erstellen einer Manifestdatei für die Aktion basierend auf dem Paketmanifest-Schema**
 
-Erstellen einer Manifestdatei im JSON-Schreibweise zu identifizieren, die Aktion und die zugehörigen Komponenten, und geben Sie die Namen der Dateien anzeigen.
+Erstellen Sie eine Manifestdatei in JSON-Notation, um die Aktion und ihre Komponenten zu identifizieren und die Namen der Ansichtsdateien anzugeben.
 
-**Schritt 5 – eine ZIP-Datei des Pakets erstellen und auf das Portal hochladen**
+**Schritt 5: Erstellen einer ZIP-Datei des Pakets und hochladen im Portal**
 
-Erstellen Sie eine ZIP-Datei des Pakets mit aller die Ressourcen im Stammverzeichnis des Pakets.
+Erstellen Sie eine ZIP-Datei des Pakets mit allen Ressourcen im Stammverzeichnis des Pakets.
 
-Laden Sie das Paket auf dem Kaizala-Verwaltungsportal. Nach dem Hochladen ist Aktion im Zustand Entwurf
+Laden Sie das Paket im Kaizala-Verwaltungs Portal hoch. Nach dem Hochladen befindet sich die Aktion im Entwurfsstatus.
 
-**Schritt 6: Phase die Aktion Entwurf**
+**Schritt 6-Phase der Entwurfs Aktion**
 
-Tippen Sie auf der Detailseite der Aktion Version sich im Entwurf Zustand befindet, auf die Schaltfläche "Stufe". Nachdem eine Aktion bereitgestellt wird, können testen und Debuggen die Aktion 
+Tippen Sie auf der Detailseite der Aktions Version, die sich im Entwurfszustand befindet, auf die Schaltfläche "Stufe". Nachdem eine Aktion ausgeführt wurde, können Sie & testen, um die Aktion zu debuggen. 
 
- **Schritt 7: Aktivieren der mehrstufigen Aktion**
+ **Schritt 7 – Aktivieren der stufenweisen Aktion**
 
-Sobald eine Aktivität befindet sich in mehrstufigen Zustand und erfolgreich getestet wurde, können Sie die Aktion in Ihrer Organisation aktivieren. Aktion verschiebt in aktiven Zustand. Andere Mitglieder in Ihrer Organisation können diese Aktion auch ihren jeweiligen Gruppen hinzufügen.
+Sobald sich eine Aktion im Status "Staging" befindet und erfolgreich getestet wurde, können Sie die Aktion in Ihrer Organisation aktivieren. Aktion wechselt in den aktiven Zustand. Andere Mitglieder in Ihrer Organisation können diese Aktion auch zu ihren jeweiligen Gruppen hinzufügen.
 
-  **Schritt 8: Fügen Sie den jeweiligen Gruppen**
+  **Schritt 8: Hinzufügen der Aktion zu den entsprechenden Gruppen**
 
-Sobald Aktion aktiv ist, können Sie die Aktion zu Gruppen zugeordnet Ihrer Organisation bereitstellen. 
+Sobald sich die Aktion im aktiven Zustand befindet, können Sie die Aktion für Gruppen bereitstellen, die Ihrer Organisation zugeordnet sind. 
 

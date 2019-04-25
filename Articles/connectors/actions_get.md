@@ -1,54 +1,54 @@
 ---
 title: /Actions
-description: Referenzartikel für API zum Abrufen der Liste der Aktionen in einer Gruppe
+description: Referenzartikel zur API zum Abrufen einer Liste von Aktionen in einer Gruppe
 topic: Reference
 author: nitinjms
 ms.openlocfilehash: 717b91d38ed43c85c3511de84538bb357e799f9b
-ms.sourcegitcommit: 3a6a13cc885faf1bbc9ee8498f5183f414395aac
+ms.sourcegitcommit: 973f754fdb7c93381f808632f47fe66a46cc069e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19905331"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "33190720"
 ---
-# <a name="get-list-of-actions-in-a-group"></a>Hier finden Sie die Liste der Aktionen in einer Gruppe
-## <a name="get-actions"></a>Abrufen von /actions
+# <a name="get-list-of-actions-in-a-group"></a>Liste der Aktionen in einer Gruppe abrufen
+## <a name="get-actions"></a>/Actions abrufen
 
     GET {endpoint-url}/v1/groups/{groupId}/actions?actionType={action_Type}
 
-### <a name="request-parameters"></a>Anforderungsparameter
+### <a name="request-parameters"></a>AnforderungsParameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| URL-Pfad-Parameter | groupId | String | Nein | GUID, die die GroupId der Ressource bestimmte Gruppe darstellt. |
-| HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
-| URL-Abfrageparameter | actionType | String | Nein | Typ der abzurufenden Aktion |
-| URL-Abfrageparameter | fromDate | DateTime (Epoche Zeit) | Ja | Zeit aus der die Aktionen benötigte abgerufen werden sollen |
-| URL-Abfrageparameter | count | number | Ja | Die Anzahl der einzelnen Aktionen zu zurückgegeben werden soll; Default = 30 |
+| URL-Pfad Parameter | groupId | String | Nein | GUID, die die Gruppen-ID der bestimmten Gruppenressource darstellt |
+| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| URL-Abfrage Parameter | actionType | String | Nein | Typ der abzurufenden Aktion |
+| URL-Abfrage Parameter | fromDate | DateTime (Epoche Zeit) | Ja | Zeitpunkt, zu dem die Aktionen abgerufen werden müssen |
+| URL-Abfrage Parameter | count | number | Ja | Anzahl der zurückzugebenden einzelnen Aktionen; Standard = 30 |
 
 ### <a name="response-body"></a>Antworttext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| Aktionen | JSON-Objekt-Array | Array von Action-Objekten |
-| hasMore | Boolean | Wenn die maximale Anzahl von Aktionen pro Antwort erreicht hat, wird diese Variable festlegen auf "true" |
+| Aktionen | JSON-Objekt Array | Array von Action-Objekten |
+| hasMore | Boolescher Wert | Wenn die maximale Anzahl von Aktionen pro Antwort erreicht wurde, wird diese Variable auf true festgelegt. |
 
-JSON-Struktur für jede einzelne Aktion in das Array Aktionen []:
+JSON-Struktur für jede einzelne Aktion im Array Actions []:
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| referenceId | String | ReferenceID für die Nachricht |
-| actionType | String | Typ der Aktion zurückgegeben wird |
-| actionBody | JSON-Objekt-Array speziell für die actiontype | Array mit Objekten, die speziell für die actiontype |
-| sender | String | Telefonnummer des Benutzers, der die Aktion an die Gruppe gesendet |
-| sentAt | DateTime | Wenn die Aktion in der Gruppe veröffentlicht wurde Zeit |
+| referenceId | String | Referenznummer für die Nachricht |
+| actionType | String | Typ der zurückgegebenen Aktion |
+| actionBody | Spezifisches JSON-Objektarray für Action Type | Array mit spezifisch für den ActionType-Objekt |
+| sender | String | Telefonnummer des Benutzers, der die Aktion an die Gruppe gesendet hat |
+| sentAt | DateTime | Zeitpunkt, zu dem die Aktion in der Gruppe veröffentlicht wurde |
 
-####  <a name="actionbody-object-structure-for-imagepicture-attachment"></a>ActionBody Objektstruktur für Bild/Bild Anlage:
+####  <a name="actionbody-object-structure-for-imagepicture-attachment"></a>actionBody-Objektstruktur für Bild/Bild-Anlage:
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
 | imageURL | String | URL-Zeichenfolge für das Bild |
 
-##### <a name="sample-json-response"></a>Beispiel JSON-Antwort:
+##### <a name="sample-json-response"></a>JSON-Beispielantwort:
 
 ```javascript
 {
@@ -66,14 +66,14 @@ JSON-Struktur für jede einzelne Aktion in das Array Aktionen []:
 }
 ```
 
-####  <a name="actionbody-object-structure-for-the-action-share-location"></a>ActionBody Objektstruktur für die Aktion "Speicherort freigeben":
+####  <a name="actionbody-object-structure-for-the-action-share-location"></a>actionBody-Objektstruktur für die Aktion "Freigabespeicherort":
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| latitude | Double | Breitengradkoordinaten für den Speicherort |
-| longitude | Double | Längengradkoordinaten für den Speicherort |
+| latitude | Gleitkommawert mit doppelter Genauigkeit | Latitude-Koordinaten für den Standort |
+| longitude | Gleitkommawert mit doppelter Genauigkeit | Längenkoordinaten für den Standort |
 
-##### <a name="sample-json-response"></a>Beispiel JSON-Antwort:
+##### <a name="sample-json-response"></a>JSON-Beispielantwort:
 
 ```javascript
 {
@@ -92,15 +92,15 @@ JSON-Struktur für jede einzelne Aktion in das Array Aktionen []:
 }
 ```
 
-#### <a name="actionbody-object-structure-for-the-action-photo-with-location"></a>ActionBody Objektstruktur für die Aktion 'Foto mit Speicherort':
+#### <a name="actionbody-object-structure-for-the-action-photo-with-location"></a>actionBody-Objektstruktur für die Aktion "Foto mit Speicherort":
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
 | imageURL | String | URL-Zeichenfolge für das Bild |
-| latitude | Double | Breitengradkoordinaten für den Speicherort |
-| longitude | Double | Längengradkoordinaten für den Speicherort |
+| latitude | Gleitkommawert mit doppelter Genauigkeit | Latitude-Koordinaten für den Standort |
+| longitude | Gleitkommawert mit doppelter Genauigkeit | Längenkoordinaten für den Standort |
 
-##### <a name="sample-json-response"></a>Beispiel JSON-Antwort:
+##### <a name="sample-json-response"></a>JSON-Beispielantwort:
 
 ```javascript
 {
@@ -120,17 +120,17 @@ JSON-Struktur für jede einzelne Aktion in das Array Aktionen []:
 }
 ```
 
-####  <a name="actionbody-object-structure-for-the-action-job"></a>ActionBody Objektstruktur für die Aktion "Job":
+####  <a name="actionbody-object-structure-for-the-action-job"></a>actionBody-Objektstruktur für die Aktion ' Job ':
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| actionId | String | GUID, die bestimmte Aktionsinstanz darstellt. |
+| actionId | String | GUID, die die spezifische Aktionsinstanz darstellt |
 | title | String | Titel des Auftrags |
-| assigneeCount | Numerisch | Anzahl der "assignees" |
-| responseCount | Numerisch | Anzahl der "assignees", die den Auftrag abgeschlossen gekennzeichnet haben |
-| isCompleted | Boolean | True, wenn alle "assignees" den Auftrag abgeschlossen haben |
+| assigneeCount | Numeric | Anzahl der Empfänger |
+| responseCount | Numeric | Anzahl der Empfänger, die den Auftrag markiert haben |
+| isCompleted | Boolean | True, wenn alle Empfänger den Auftrag abgeschlossen haben |
 
-##### <a name="sample-json-response"></a>Beispiel JSON-Antwort:
+##### <a name="sample-json-response"></a>JSON-Beispielantwort:
 
 ```javascript
 {
@@ -151,17 +151,17 @@ JSON-Struktur für jede einzelne Aktion in das Array Aktionen []:
   ]
 }
 ```
-####  <a name="actionbody-object-structure-for-the-action-poll"></a>ActionBody Objektstruktur für die Aktion "Umfrage":
+####  <a name="actionbody-object-structure-for-the-action-poll"></a>actionBody-Objektstruktur für die Aktion "Umfrage":
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| actionId | String | GUID, die bestimmte Aktionsinstanz darstellt. |
-| question | String | Abstimmungsfrage |
-| isSenderOnly | Boolean | True, wenn die Umfrage Zusammenfassung nur Absender angezeigt wird. |
-| ExpiryDate. | DateTime | DateTime der Ablaufzeit der Umfrage |
-| Choices | JSON-Array | Liste der Json-Objekte mit folgenden-Komponente <ol><li>Titel - Option Text</li><li>Bild - Option</li></ol> |
+| actionId | String | GUID, die die spezifische Aktionsinstanz darstellt |
+| Frage | String | Umfrage Frage |
+| isSenderOnly | Boolean | True, wenn die Abstimmungs Zusammenfassung nur für Absender sichtbar ist |
+| Ablaufdatum | DateTime | DateTime der Umfrage Ablaufzeit |
+| Auswahlmöglichkeiten | JSON-Array | Liste der JSON-Objekte mit folgender Komponente <ol><li>Titel-Options Text</li><li>Image-Optionsbild</li></ol> |
 
-##### <a name="sample-json-response"></a>Beispiel JSON-Antwort:
+##### <a name="sample-json-response"></a>JSON-Beispielantwort:
 
 ```javascript
 {
@@ -193,19 +193,19 @@ JSON-Struktur für jede einzelne Aktion in das Array Aktionen []:
   ]
 }
 ```
-####  <a name="actionbody-object-structure-for-the-action-lets-meet"></a>ActionBody Objektstruktur für die Aktion 'Treffen wir uns':
+####  <a name="actionbody-object-structure-for-the-action-lets-meet"></a>actionBody-Objektstruktur für die Aktion ' Let es Meet ':
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| actionId | String | GUID, die bestimmte Aktionsinstanz darstellt. |
+| actionId | String | GUID, die die spezifische Aktionsinstanz darstellt |
 | title | String | Titel der Besprechungsanfrage |
-| isSenderOnly | Boolean | True, wenn die Umfrage Zusammenfassung nur Absender angezeigt wird. |
-| duration | Ganzzahl | Dauer der Besprechung (in Minuten) |
-| Tagesordnung | String | Legen Sie für die Besprechung Tagesordnung |
-| startingTime | DateTime | DateTime der Ablaufzeit der Umfrage |
-| Ort | JSON-Objekt | Standortdaten mit folgenden-Komponente <ol><li>Latitude</li><li>Longitude</li><li>name</li></ol> |
+| isSenderOnly | Boolean | True, wenn die Abstimmungs Zusammenfassung nur für Absender sichtbar ist |
+| duration | Ganze Zahl | Dauer der Besprechung (in Minuten) |
+| Agendas | String | TagesOrdnungs Satz für die Besprechung |
+| Startzeit | DateTime | DateTime der Umfrage Ablaufzeit |
+| Compliance | JSON-Objekt | Standortdaten mit folgender Komponente <ol><li>Latitude</li><li>Längengrad</li><li>name</li></ol> |
 
-##### <a name="sample-json-response"></a>Beispiel JSON-Antwort:
+##### <a name="sample-json-response"></a>JSON-Beispielantwort:
 
 ```javascript
 {
@@ -234,16 +234,16 @@ JSON-Struktur für jede einzelne Aktion in das Array Aktionen []:
 ```
 
 
-####  <a name="actionbody-object-structure-for-the-action-survey"></a>ActionBody Objektstruktur für die Aktion "Umfrage":
+####  <a name="actionbody-object-structure-for-the-action-survey"></a>actionBody-Objektstruktur für die Aktion "Survey":
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| actionId | String | GUID, die bestimmte Aktionsinstanz darstellt. |
+| actionId | String | GUID, die die spezifische Aktionsinstanz darstellt |
 | title | String | Titel der Umfrage |
-| responseCount | Numerisch | Anzahl der Personen, die auf die Umfrage geantwortet |
-| ExpiryDate. | DateTime | DateTime der Ablaufzeit der Umfrage |
+| responseCount | Numeric | Anzahl der Personen, die auf die Umfrage geantwortet haben |
+| Ablaufdatum | DateTime | DateTime der Umfrage Ablaufzeit |
 
-##### <a name="sample-json-response"></a>Beispiel JSON-Antwort:
+##### <a name="sample-json-response"></a>JSON-Beispielantwort:
 
 ```javascript
 {
@@ -263,4 +263,4 @@ JSON-Struktur für jede einzelne Aktion in das Array Aktionen []:
 }
 ```
 
-Als Nächstes folgt: Sie können weitere Details jeder Aktion-Instanz mit den entsprechenden ActionId abrufen. [API zum Abrufen von Action Instanzdetails](actionDetails.md)
+Als nächstes: Sie können weitere Details der einzelnen Aktionsinstanzen mit der entsprechenden Aktions-Nr. abrufen. [API zum Abrufen von Details zur Aktionsinstanz](actionDetails.md)

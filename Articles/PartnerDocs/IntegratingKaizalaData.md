@@ -1,104 +1,104 @@
-## <a name="integrating-kaizala-data-to-your-existing-dashboards"></a>Integrieren von Kaizala Daten an die vorhandenen dashboards
+## <a name="integrating-kaizala-data-to-your-existing-dashboards"></a>Integrieren von Kaizala-Daten in vorhandene Dashboards
 
-Erstellen Sie benutzerdefinierten Bericht, oder schließen Sie Daten aus dem Kaizala der vorhandenen Dashboards mithilfe von Kaizala-APIs. 
-<br>Als Organisation Drittanbieter - Sie Kaizala Daten zum vorhandenen Dashboard schließen möchten, und führen Sie mithilfe der folgenden Methoden:
-<br>1. abzurufen Sie Kaizala Daten über Power BI-Inhalten Pack und erstellen Sie einen benutzerdefinierten Bericht PowerBI
-<br>2.Wählen Datenzugriff Kaizala über Connectors, und übergeben Sie auf vorhandenen Dashboard im Format, das ihn versteht. Sie können Daten mithilfe von Kaizala Connecters zugreifen:  
-<br>a.[APIs](https://docs.microsoft.com/en-us/kaizala/connectors/api) - Kaizala Connectors aktivieren 3. Partei Entwickler Kaizala in ihre Geschäftsprozesse durch bereitstellen, dass die Möglichkeit zum Ausführen einer curated Reihe von Aktionen in Kaizala mithilfe von REST-API-Aufrufe basierend integrieren. Der Bereich der API ist für externe Systeme zum Aufrufen des Endpunkt und Ausführen von Aktionen auf Abruf. D. h., wird dies eine PULL-Modell sein, in denen einzelne Endpunkte aufgerufen werden, um bestimmte Aktionen mit Kaizala-API ausführen müssen. 
-<br>B.[Webhooks](https://docs.microsoft.com/en-us/kaizala/connectors/webhooks) - der PUSH-Modell, in dem Kaizala-Plattform von Aktionen ausgelöst werden kann, können mithilfe von Webhooks konfiguriert werden.  
-<br> Kaizala Connectors ermöglichen es 3. Partei Entwicklern integrieren Kaizala in ihre Geschäftsprozesse durch bereitstellen, dass die Möglichkeit zum Ausführen einer curated Reihe von Aktionen in Kaizala mithilfe von REST-API-Aufrufe basiert. Der Bereich der API ist für externe Systeme zum Aufrufen des Endpunkt und Ausführen von Aktionen auf Abruf. D. h., wird dies eine PULL-Modell – sein, in denen einzelne Endpunkte aufgerufen werden, um bestimmte Aktionen Kaizala [APIs](https://docs.microsoft.com/en-us/kaizala/connectors/api)ausführen müssen. Das PUSH-Modell, in dem Kaizala Plattform Aktionen auslösen kann, kann mithilfe von [Webhooks](https://docs.microsoft.com/en-us/kaizala/connectors/webhooks)konfiguriert werden. 
+Erstellen Sie einen benutzerdefinierten Bericht, oder schließen Sie die Kaizala-Daten mithilfe von Kaizala-APIs an vorhandene Dashboards an. 
+<br>Als Drittanbieterorganisation-Sie möchten Kaizala-Daten mit Ihrem vorhandenen Dashboard verbinden, können Sie dies auf folgende Weise tun:
+<br>1. Abrufen von Kaizala-Daten über Power BI-Content Pack und Erstellen eines benutzerdefinierten Berichts auf PowerBI
+<br>2. greifen Sie auf Kaizala-Daten über Connectors zu, und führen Sie das vorhandene Dashboard in dem Format aus, das es versteht. Sie können mit Kaizala Connecters auf Daten zugreifen:  
+<br>a.[APIs](https://docs.microsoft.com/en-us/kaizala/connectors/api) -Kaizala Connectors ermöglichen Drittanbieterentwicklern, Kaizala in Ihre Geschäftsprozesse zu integrieren, indem Sie die Möglichkeit bieten, eine kuratierte Reihe von Aktionen in Kaizala mithilfe von Rest-basierten API-aufrufen durchzuführen. Der Anwendungsbereich der API ist für externe Systeme zum Aufrufen des Endpunkts und zum Ausführen von Aktionen bei Bedarf. Das heißt, es handelt sich dabei um ein PULL-Modell, bei dem einzelne Endpunkte aufgerufen werden müssen, um bestimmte Aktionen mithilfe der Kaizala-API auszuführen. 
+<br>b.[](https://docs.microsoft.com/en-us/kaizala/connectors/webhooks) webhooks – das Push-Modell, mit dem die Kaizala-Plattform Aktionen auslösen kann, können Sie mit webhooks konfigurieren.  
+<br> Kaizala-Connectors ermöglichen Drittanbieterentwicklern, Kaizala in Ihre Geschäftsprozesse zu integrieren, indem Sie die Möglichkeit bieten, eine kuratierte Reihe von Aktionen in Kaizala mithilfe von REST-basierten API-aufrufen durchzuführen. Der Anwendungsbereich der API ist für externe Systeme zum Aufrufen des Endpunkts und zum Ausführen von Aktionen bei Bedarf. Das heißt, es handelt sich dabei um ein PULL-Modell, bei dem einzelne Endpunkte aufgerufen werden müssen, um bestimmte Aktionen mithilfe von Kaizala- [APIs](https://docs.microsoft.com/en-us/kaizala/connectors/api)auszuführen. Das PUSH-Modell, mit dem die Kaizala-Plattform Aktionen auslösen [](https://docs.microsoft.com/en-us/kaizala/connectors/webhooks)kann, kann mit webhooks konfiguriert werden. 
 ![](Images/GetImage.png)
-### <a name="integration-using-webhooks"></a>Integration mit Webhooks: 
-<br>Dies ist eine Grundlage PUSH-Mechanismus. Sobald Webhook auf bestimmten Aktion registriert ist, wenn der Benutzer Daten von dieser Aktion auf Kaizala-Anwendung – übermittelt sendet Kaizala Server eine Benachrichtigung (Nachricht HTTP POST) mit Antwort Nutzlast (JSON-Format) an den konfigurierten URL-Endpunkt. Nachdem Daten für Kunden Endpunkt informiert werden, Logik für die Analyse der Antwort Nutzlast sollte auslösen und Einfügen von Daten in den jeweiligen Tabellen im Speicher (Datenbank oder Sharepoint...), und Visualisierungen von Abfragen von Daten aus dem Speicher erstellt werden können. Vorteil besteht darin, dass jede Organisation Kaizala für ihre benutzerdefinierte Dashboards Abrufen von Daten kann ohne Beeinträchtigung ihrer vorhandenen Arbeitsabläufe. 
-### <a name="lets-drill-down-in-to-the-above-process-and-see-it-in-detail"></a>Können an den oben beschriebenen Prozess Ausführen eines Drilldowns und im Detail angezeigt: 
-#### <a name="how-to-register-a-webhook-on-endpoint"></a>Wie Sie eine Webhook für Endpunkt registrieren? 
-<br> Nachdem Sie einen URL-Endpunkt konfigurieren, auf dem die Kaizala Ereignisse benachrichtigt werden möchten, können Sie für eine Benachrichtigung auf die Gruppe oder eine bestimmte Aktion abonnieren. Sie können die 3. Partei Rest-API-Clients wie Postman / erweiterter Rest Client usw., eine Webhook zu abonnieren. Signatur der Registrierung einer Webhook auf bestimmte Aktion wird unten angezeigt:![](Images/GetImage_2.png)
-<br>Wechseln Sie zu [Kaizala API-Dokumentation!](https://docs.microsoft.com/en-us/kaizala/connectors/api) und klicken Sie auf der![](Images/GetImage%20_1.png)
-<br>Durchlaufen Sie die Schritte zum Abrufen der AccessToken und eine Wekbhook registrieren. 
+### <a name="integration-using-webhooks"></a>Integration mit webhooks: 
+<br>Dies ist ein PUSH-basierter Mechanismus. Sobald webhook bei einer bestimmten Aktion registriert ist, sendet der Benutzer bei jeder Übermittlung von Daten zu dieser Aktion auf Kaizala Application-Kaizala Server eine Ereignisbenachrichtigung (HTTP-POST-Nachricht) mit der Antwort Nutzlast (JSON-Format) an den konfigurierten URL-Endpunkt. Sobald Daten am Kunden Endpunkt benachrichtigt werden, sollte die Logik zum Analysieren der Antwort Nutzlast Daten in die entsprechenden Tabellen im Speicher (Datenbank-oder SharePoint-,..) auslösen und in diese einfügen, und Visualisierungen können durch Abfragen von Daten aus dem Speicher erstellt werden. Vorteil ist, dass jede Organisation Kaizala-Daten in Ihre benutzerdefinierten Dashboards einbinden kann, ohne die vorhandenen Arbeitsabläufe zu unterbrechen. 
+### <a name="lets-drill-down-in-to-the-above-process-and-see-it-in-detail"></a>Mit dieser Schaltfläche können Sie den oben beschriebenen Prozess einsehen und im Detail anzeigen: 
+#### <a name="how-to-register-a-webhook-on-endpoint"></a>Wie kann ich einen webhook am Endpunkt registrieren? 
+<br> Nachdem Sie einen URL-Endpunkt konfiguriert haben, auf dem die Kaizala-Ereignisse benachrichtigt werden sollen, können Sie eine Benachrichtigung für die Gruppe oder eine bestimmte Aktion abonnieren. Sie können die Drittanbieter-Rest-API-Clients wie Postman/Advanced Rest-Client verwenden, um einen webhook zu abonnieren. UnterZeichnung der Registrierung eines webhooks für eine bestimmte Aktion ist unten angegeben:![](Images/GetImage_2.png)
+<br>Gehen Sie zu [KAIZALA-API-Dokumentation!](https://docs.microsoft.com/en-us/kaizala/connectors/api) und klicken Sie auf![](Images/GetImage%20_1.png)
+<br>Gehen Sie die Schritte durch, um die Access Token zu erhalten und eine wekbhook zu registrieren. 
  
-<br>Wie Sie jetzt eine Webhook registriert haben, wird Kaizala Server benachrichtigen lassen Sie die Ereignisse auf der registrierten URL jedem Ereignis tritt auf. Ereignis Antwort befindet sich in der folgenden JSON-Format: 
+<br>Da Sie jetzt einen webhook registriert haben, wird Kaizala-Server weiterhin die Ereignisse auf die registrierte URL jedes Mal, wenn Ereignis auftritt. Die Ereignis Antwort befindet sich im folgenden JSON-Format: 
  
-<br> Beispiel-Ereignis Antwort im JSON:
+<br> Beispiel Ereignis Antwort in JSON:
 <br> {   
-<br> "objectId":"com.microsoft.kaizala.OrderFormDemo",
+<br> "objectId": "com. Microsoft. kaizala. OrderFormDemo",
 <br> "ObjectType": "ActionPackage",
 <br> "EventType": "ActionResponse",
-<br> "EventId": "75609730-f5d2-4f07-XXXX-ccca96dd9e76,"
-<br>"Daten": {   
-<br> "ActionId": "eb40446b-3dc7-4e8e-XXXX-44ccc5ae760c,"
-<br> "actionPackageId":"com.microsoft.kaizala.OrderFormDemo",
-<br> "packageId":"com.microsoft.kaizala.OrderFormDemo",
-<br> "GroupId": "af461a3c-49cf-47cf-XXXX-83b5d348318d,"
-<br> "ResponseId": "75609730-f5d2-4f07-XXXX-ccca96dd9e76,"
-<br> "IsUpdateResponse": false
-<br> "Responder": "+911234567890",
-<br> "ResponderName": "FooName",
-<br> "ResponderProfilePic": "",
-<br> "IsAnonymous": false
-<br> "ResponseDetails": {   
-<br> "ResponseWithQuestions": [   
+<br> "Abend": "75609730-f5d2-4f07-XXXX-ccca96dd9e76",
+<br>"Data": {   
+<br> "action-Nr": "eb40446b-3dc7-4e8e-XXXX-44ccc5ae760c",
+<br> "actionPackageId": "com. Microsoft. kaizala. OrderFormDemo",
+<br> "Package-Nr": "com. Microsoft. kaizala. OrderFormDemo",
+<br> "Group-Nr": "af461a3c-49cf-47cf-XXXX-83b5d348318d",
+<br> "Antwort-Nr.": "75609730-f5d2-4f07-XXXX-ccca96dd9e76",
+<br> "isUpdateResponse": false,
+<br> "Responder": "+ 911234567890",
+<br> "responderName": "FooName",
+<br> "responderProfilePic": ""
+<br> "isAnonymous": false,
+<br> "responseDetails": {   
+<br> "responseWithQuestions": [   
 <br> {   
-<br>"Title": "Händler Steckdose",
+<br>"Title": "Händler-Outlet",
 <br>"Typ": "SingleOption",
 <br> "Optionen": [   
 <br>{   
-<br> "Title": "ABC Traders"
+<br> "Title": "ABC Trader"
 <br>},
 <br> {   
-<br>"Title": "BCD Händler"
+<br>"Title": "BCD-Distributoren"
 <br>},
 <br>{   
-<br>"Title": "EFG groß-"
+<br>"Title": "EFG Wholesale"
 <br>}
 <br>],
-<br> "Antwort": [   
-<br>"ABC Traders"
+<br> "Answer": [   
+<br>"ABC Trader"
 <br>]
 <br> },
 <br> {   
-<br> "Title": "Reis 1KG",
-<br> "Typ": "Numerische"
+<br> "Title": "Rice 1KG",
+<br> "Typ": "Numerisch",
 <br>"Optionen": [   
 <br> ],
-<br> "Antworten Sie":1.0
+<br> "Answer": 1.0
 <br>},
 <br> {   
-<br>"Title": "Reis 5KG",
-<br> "Typ": "Numerische"
+<br>"Title": "Rice 5KG",
+<br> "Typ": "Numerisch",
 <br>"Optionen": [   
 <br>],
-<br> "Antworten Sie":2.0
+<br> "Answer": 2.0
 <br> },
 <br> {   
-<br> "Title": "Gemischten Fruchtsaft 250ml",
-<br> "Typ": "Numerische"
+<br> "Title": "gemischter Fruchtsaft 250ml",
+<br> "Typ": "Numerisch",
 <br> "Optionen": [   
 <br> ],
-<br> "Antworten Sie":4.0
+<br> "Answer": 4.0
 <br> },
 <br> {   
-<br> "Title": "Speicherort"
-<br> "Typ": "Speicherort"
+<br> "Title": "Location",
+<br> "Type": "Location",
 <br>"Optionen": [   
  
 <br> ],
-<br> "Antwort": {   
-<br> "Lt":99.1234567,
-<br>"Lg":88.1234567,
+<br> "Answer": {   
+<br> "lt": 99.1234567,
+<br>"LG": 88.1234567,
 <br> "n": "FooAddress"
 <br>}
 <br>}
 <br> ]
 <br> }
 <br> },
-<br> "Kontext": "alle Daten der Rückruf zurückgegeben werden sollen, erforderlich ist.Aktuellen Webhook Daten durch Aktualisieren angezeigt werden können:[: https://requestb.in/12786un1?inspect!](https://requestb.in/12786un1?inspect)
-<br> "FromUser": "+911234567890",
-<br> "FromUserName": "FooName",
-<br>"FromUserProfilePic": ""
+<br> "Context": "alle Daten, die in Callback zurückgegeben werden müssen.Aktuelle webhook-Daten können durch Aktualisieren angezeigt werden[: https://requestb.in/12786un1?inspect:!](https://requestb.in/12786un1?inspect)
+<br> "fromUser": "+ 911234567890",
+<br> "fromUserName": "FooName",
+<br>"fromUserProfilePic": ""
 <br> }
-<br> **Klicken Sie auf der registrierten Endpunkt** - Geschäftslogik zu analysieren, die Antwort Ereignis einfügen von Daten in den jeweiligen Speicher Tabellen haben. Wie Daten jetzt an Ihrem Ende verfügbar sind, Abfragen von Daten aus dem Speicher und Visualisierungen auf der vorhandenen Dashboards anzeigen. Bei diesem Ansatz - können Sie die Visualisierungen Kaizala Daten auf vorhandene Dashboards erstellen. Bei diesem Ansatz werden Sie die Daten in Echtzeit benachrichtigt abrufen werden mithilfe der Webhook-Endpunkt.  
-#### <a name="how-to-pull-data-using-kaizala-apis"></a>Wie kann ich PULL-Daten mit Kaizala-API? 
-Wenn Sie, Pull-Daten aus Kaizala in regelmäßigen Abständen möchten und Aktualisieren von Daten in Dashboard - Sie aufrufen können Kaizala API mit dem Verbinder und nicht ausgewählte Pull Daten für das gewünschte Aktion Paket aktualisieren von Daten in den Speicher und Dashboard zu aktualisieren. 
+<br> **Auf dem registrierten Endpunkt** : Geschäftslogik zum Analysieren der Ereignis Antwort und Einfügen von Daten in die entsprechenden Speichertabellen. Da Daten jetzt am Ende zur Verfügung stehen, werden Daten aus dem Speicher abgefragt und Visualisierungen auf Ihren vorhandenen Dashboards angezeigt. Mit diesem Ansatz können Sie die Visualisierungen von Kaizala-Daten in vorhandenen Dashboards erstellen. Bei diesem Ansatz werden die Daten mithilfe des webhook-Endpunkts in Echtzeit benachrichtigt.  
+#### <a name="how-to-pull-data-using-kaizala-apis"></a>Wie kann ich Daten mithilfe der Kaizala-API abrufen? 
+Wenn Sie Daten aus Kaizala in regelmäßigen Abständen abrufen und Daten im Dashboard aktualisieren möchten, können Sie die Kaizala-API mithilfe von Connectors aufrufen und Daten für das erforderliche Aktionspaket abrufen, um die Daten in das Speicher-und Aktualisierungs Dashboard zu aktualisieren. 
 <br><br>
-**Für das Abfragen eines Pakets Aktion der Antworten**- können Sie finden die Signatur API und die Antwort durch das Aufrufen der oben genannten Postman-Auflistung und Content-Abfrage-API--> Fetch Aktion Antworten in einer Gruppe, und Ersetzen Sie mit Ihrer Aktion-Gruppe Details zum Lösungspaket <br>
+**Zum Abfragen der Antworten eines Aktionspakets**-Sie können die API-Signatur und die Antwort sehen, indem Sie zur oben erwähnten Postman-Auflistung wechseln und zur Inhaltsabfrage-API--> FETCH Action Response in a Group und replace with your Group, Action Paketdetails <br>
 ![](Images/GetImage_3.png)

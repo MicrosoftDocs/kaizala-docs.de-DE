@@ -1,45 +1,45 @@
-# <a name="practice-tutorial-creating-a-new-kaizala-action"></a>Praxis-Lernprogramm: Erstellen einer neuen Kaizala-Aktion 
+# <a name="practice-tutorial-creating-a-new-kaizala-action"></a>Übungs Lernprogramm: Erstellen einer neuen Kaizala-Aktion 
 
 ## <a name="overview"></a>Übersicht 
-In diesem Lernprogramm erstellen wir eine benutzerdefinierte Kaizala-Aktion mit dem extensible Aktion Framework der Kaizala-Plattform.
+In diesem Lernprogramm erstellen wir eine benutzerdefinierte Kaizala-Aktion unter Verwendung des erweiterbaren Aktions Frameworks, das von der Kaizala-Plattform bereitgestellt wird.
 
-Es wird eine Aktion "Bitten Sie Feedback" erstellt, die zulässig, Kaizala Benutzer des Clientcomputers fordern Feedback von anderen Benutzern im Hinblick auf Stern Bewertungen von 1 bis 5 auf Fragen – Kommentare, die sie bereitstellen möchten.  
+Wir erstellen eine "Ask Feedback"-Aktion, die es Kaizala-Benutzern ermöglicht, Feedback von anderen Benutzern im Hinblick auf die 1-zu-5-Sterne-Bewertungen zu Fragen zu stellen – zusammen mit allen Kommentaren, die Sie bereitstellen möchten.  
 
-Sie können Beispiel Kaizala Aktion Pakete [hier](https://manage.kaiza.la/MiniApps/DownloadSDK)heruntergeladen werden.
+Sie können Beispiel-Kaizala-Aktionspakete von [hier](https://manage.kaiza.la/MiniApps/DownloadSDK)herunterladen.
 
 ## <a name="pre-requisites"></a>Voraussetzungen 
-* Einem Smartphone (Android/iOS) mit Kaizala app installiert 
+* Ein Smartphone (Android/iOS) mit installierter Kaizala-App 
 * Ein Office365-Konto 
-* Zugriff auf eine HTML/JS-Editor (Studio Code/Etc Editor/visuelle.) 
+* Zugriff auf einen HTML/JS-Editor (Notepad/Visual Studio Code/etc.) 
 
-## <a name="steps-to-create-a-sample-action"></a>Schritte zum Erstellen einer Stichprobe Aktion
+## <a name="steps-to-create-a-sample-action"></a>Schritte zum Erstellen einer Beispielaktion
 
-*   **Schritt 1:** Erstellen Sie ein neues Verzeichnis für Ihr Paket Aktion  
-    * Erstellen Sie ein neues Verzeichnis auf Ihrem Desktop, und nennen Sie sie "SampleAction" 
-    * Speichern Sie alle nachfolgenden Dateien in diesem Verzeichnis
+*   **Schritt 1:** Erstellen eines neuen Verzeichnisses für Ihr Aktionspaket  
+    * Erstellen eines neuen Verzeichnisses auf dem Desktop & Name "Sample-Funktion" 
+    * Platzieren Sie alle nachfolgenden Dateien in diesem Verzeichnis.
 
-*   **Schritt 2:** Ein Datenmodell für die Aktion definieren 
-    * Erstens müssen definieren das Datenmodell der verwendet wird, in unserer benutzerdefinierten Aktion 
-    * Die Kaizala Aktionen sind derzeit Datenmodelle Formular basiert. Wir müssen also zuerst die wir in unseren Formular einschließen müssen Fragen definieren. 
-    * Da hierbei handelt es sich um eine Aktion "Bitten Sie Feedback" – Es werden zwei Datenelemente verwenden möchten 
+*   **Schritt 2:** Definieren eines Datenmodells für Ihre Aktion 
+    * Zunächst müssen wir das Datenmodell definieren, das in der benutzerdefinierten Aktion verwendet wird. 
+    * Die Kaizala-Aktionen sind derzeit formularbasierte Datenmodelle. Daher müssen wir zunächst die "Fragen" definieren, die in unserem Formular eingeschlossen werden müssen. 
+    * Da es sich um eine "Ask Feedback"-Aktion handelt, planen wir die Verwendung von zwei Daten teilen. 
         * Numerische Bewertung (Wert 1 bis 5) 
-        * Kommentar/Verbatim Feedback, falls vorhanden  
+        * Kommentar/Verbatim-Feedback, falls vorhanden  
 
-    *   Kaizala Forms-Infrastruktur unter Fragetypen werden unterstützt:
+    *   Die Kaizala-formularinfrastruktur unterstützt folgende Fragetypen:
 
-        | Art der Frage | Beschreibung |
+        | Fragetyp | Beschreibung |
         | :---: | :---: | 
-        | SingleSelect | Einzelwertoption Frage mit Optionen |
-        | MultiSelect | Mehrere Choice-Frage mit Optionen | 
-        | Text | Frage und Antwort wird eine nur-text |
-        | Numerisch | Mit einem numerischen Antwort Frage | 
-        | Standort | Frage mit einer Antwort Speicherort | 
+        | SingleSelect | Einzelne Auswahlfrage mit Optionen |
+        | MultiSelect | Multiple Choice-Frage mit Optionen | 
+        | Text | Frage mit nur-Text-Antwort |
+        | Numeric | Frage mit einer numerischen Antwort | 
+        | Ort | Frage mit Standort Antwort | 
         | DateTime | Frage mit DateTime-Antwort | 
         | Image | Frage mit einem Bild als Antwort | 
     
 
-    * Für unsere zwei Fragen verwenden Fragetyp 'Numeric' und 'Text' wir zur Bewertung von Anzahl & Kommentare 
-        * Erstellen Sie eine neue Datei mit dem Namen "appModel.json", und legen Sie den folgenden Inhalt in der Datei. Die Datei enthält die beiden Fragen in der Reihenfolge aufgeführt 
+    * Für unsere beiden Fragen verwenden wir den Fragetyp "numerischer" & ' Text ' für die Bewertung der &-Kommentare. 
+        * Erstellen Sie eine neue Datei mit dem Namen "appModel. JSON", und platzieren Sie den folgenden Inhalt in der Datei. Die Datei enthält die beiden in der Reihenfolge aufgeführten Fragen. 
         `````
         { 
             "questions": [{ 
@@ -57,13 +57,13 @@ Sie können Beispiel Kaizala Aktion Pakete [hier](https://manage.kaiza.la/MiniAp
             "isResponseAppended": false 
         } 
         `````
-        * Hinweis: Über Code enthält außerdem zusätzlichen Metadaten wir kennen zu einem späteren Zeitpunkt (außerhalb des Gültigkeitsbereichs für diese Sitzung) 
-        * Speichern Sie die Datei
+        * Hinweis: der obige Code enthält auch zusätzliche Metadaten, die wir später erfahren werden (außerhalb des Bereichs für diese Sitzung). 
+        * Speichern der Datei
         
-*   **Schritt 3:** Definieren einer Ansicht für das Erstellen der Anforderung für feedback  
-    *   Es wird jetzt eine neue HTML-Datei erstellt, die zum Erstellen neuer Instanzen von unseren Kaizala-Aktion verwendet wird 
-    *   Dies ist die Ansicht, die aufgerufen wird, wenn das Symbol aus der Palette getippt wird. In dieser Ansicht möchten wir sie bitten, was sie Feedback wünschen. 
-    * Erstellen Sie eine neue Datei namens "CreationView.html" und Ort der unter HTML in der Datei 
+*   **Schritt 3:** Definieren einer Ansicht zum Erstellen der Anforderung für Feedback  
+    *   Jetzt erstellen wir eine neue HTML-Datei, die zum Erstellen neuer Instanzen der Kaizala-Aktion verwendet wird. 
+    *   Dies ist die Ansicht, die aufgerufen wird, wenn das Symbol von der Palette aus getappt wird. In dieser Ansicht möchten wir Sie Fragen, was Sie Feedback zu wünschen. 
+    * Erstellen Sie eine neue Datei mit dem Namen "CreationView. html", und platzieren Sie den folgenden HTML-Code in der Datei. 
         `````
         <html> 
          
@@ -85,24 +85,24 @@ Sie können Beispiel Kaizala Aktion Pakete [hier](https://manage.kaiza.la/MiniAp
          
         </html> 
         `````
-    *   Speichern Sie die Datei 
-*   **Schritt 4:** Enthalten Sie die Kaizala Forms JS-SDK 
-    * Um Entwicklern die Nutzung der Forms-Infrastruktur zu erleichtern, bietet Kaizala eine JavaScript-Wrapper-Bibliothek, die Sie in Ihre benutzerdefinierten Aktionen hinzufügen können 
-    * Laden Sie die folgende Datei & platzieren Sie diese im gleichen Verzeichnis befindet wie die datamodel.json und CreationView.html 
-      *   [Kaizala Forms JS-SDK ](https://manage.kaiza.la/MiniApps/downloadSDK). [Erfahren Sie mehr](KASClient/README.md)
+    *   Speichern der Datei 
+*   **Schritt 4:** Schließen Sie das Kaizala Forms JS SDK ein. 
+    * Um Entwicklern die Nutzung der Formularinfrastruktur zu erleichtern, stellt Kaizala eine JavaScript-Wrapperbibliothek bereit, die Sie in Ihre benutzerdefinierten Aktionen aufnehmen können. 
+    * Laden Sie die Datei unten & in demselben Verzeichnis wie Ihre Datenmodell. JSON und CreationView. html 
+      *   [Kaizala Forms js SDK ](https://manage.kaiza.la/MiniApps/downloadSDK). [Weitere Informationen](KASClient/README.md)
  
  
  
  
-*   **Schritt 5:** Verwenden Sie das Kaizala Forms JS-SDK Formular senden   
-    * Hinzufügen den folgende Codeausschnitt in das <head> Bestandteil Ihrer "CreationView.html" verweisen auf die Kaizala Forms JS-SDK 
+*   **Schritt 5:** Verwenden des Kaizala Forms JS-SDK zum Senden eines Formulars   
+    * Fügen Sie den folgenden Codeausschnitt im <head> Element des "CreationView. html" hinzu, um auf das KAIZALA Forms js SDK zu verweisen. 
         `````
         <head> 
             <script type="text/javascript" src="KASClient.js"></script> 
         </head> 
         `````
-    * Nun, wenn der Benutzer auf Absenden klickt, müssen wir stellen Sie sicher, dass er eine Frage, um Feedback auf – Fragen und erstellen Sie die Formularinstanz eingegeben hat  
-    * Wir müssen auch das Formular beim Laden der Seite zu instanziieren. Fügen Sie den folgenden JavaScript-Codeausschnitt an Ihre "CreationView.html" innerhalb der <head> Element 
+    * Wenn der Benutzer jetzt auf Senden klickt, müssen wir überprüfen, ob er eine Frage eingegeben hat, um Feedback zu stellen – und die Formularinstanz erstellen.  
+    * Außerdem müssen wir das Formular beim Laden der Seite instanziieren. Fügen Sie den folgenden JavaScript-Codeausschnitt zu Ihrem "CreationView. HTML <head> " innerhalb des-Elements hinzu. 
         `````
             <script type="text/javascript"> 
                 var _form; // type: KASForm
@@ -133,19 +133,19 @@ Sie können Beispiel Kaizala Aktion Pakete [hier](https://manage.kaiza.la/MiniAp
             </script>
         `````
 
-    *   Speichern Sie die Datei
+    *   Speichern der Datei
 
-*   **Schritt 6:** Erstellen Sie das Manifest der Aktion-Paket   
-    *   Nun, da wir haben einen Semblance was wir erreichen möchten und erfolgreich erstellt eine Ansicht – es wird jetzt Erstellen der Paketmanifestdatei, bezieht sich auf diese Dateien. 
-    * Paket-Manifestdatei enthält wichtige Informationen für die Plattform Kaizala dafür zu erkennen und die benutzerdefinierte Kaizala-Aktion ausführen. 
-    * Erstellen Sie ein Paketmanifest und geben Sie Folgendes: 
-        * Anzeigename für die Aktion Kaizala 
-        * Benutzerdefinierte Id für die Aktion 
-        * Zuordnen der Erstellung Ansicht zu unserer CreationView.html-Seite 
+*   **Schritt 6:** Erstellen des Aktionspaket Manifests   
+    *   Nun, da wir einen Anschein dessen haben, was wir erreichen und erfolgreich eine Ansicht erstellen möchten, wird nun die Paket Manifestdatei erstellt, die auf diese Dateien verweist. 
+    * Die Paket Manifestdatei enthält wichtige Informationen für die Kaizala-Plattform, damit Sie Ihre benutzerdefinierte Kaizala-Aktion erkennen und ausführen kann. 
+    * Wir erstellen ein Paketmanifest und geben Folgendes an: 
+        * Anzeigename für Ihre Kaizala-Aktion 
+        * Benutzerdefinierte ID für die Aktion 
+        * Zuordnung der Erstellungsansicht zu unserer CreationView. HTML-Seite 
 
-    * Vor dem Ausführen der benötigen wir ein Symbol für das Paket Aktion. Laden Sie die [Symboldatei](https://github.com/Microsoft/kaizala-docs-preview/blob/master/kaizala/platform/v1/docs/actions/icon.png) & icon.png im selben Ordner wie die anderen Dateien speichern.
+    * Zuvor benötigen wir ein Symbol für das Aktionspaket. Laden Sie die [Symboldatei](https://github.com/Microsoft/kaizala-docs-preview/blob/master/kaizala/platform/v1/docs/actions/icon.png) & speichern Sie Sie als Icon. png im gleichen Ordner wie die anderen Dateien.
 
-    * Erstellen Sie eine neue Datei mit dem Namen "package.json", und fügen Sie Sie der Datei folgenden Codeausschnitt. Stellen Sie sicher, dass Sie die Id, um Ihre Aktion eindeutige/unterschiedlichen Stellen bearbeiten 
+    * Erstellen Sie eine neue Datei mit dem Namen "Package. JSON", und fügen Sie der Datei den folgenden Codeausschnitt hinzu. Stellen Sie sicher, dass Sie die ID bearbeiten, damit Ihre Aktion eindeutig ist. 
         `````
         { 
             "id": "com.microsoft.mobile.kaizala.swads.FeedbackSample", 
@@ -165,8 +165,8 @@ Sie können Beispiel Kaizala Aktion Pakete [hier](https://manage.kaiza.la/MiniAp
             } 
         }
         `````
-    * Sie können die Karte, die angezeigt wird auf Kaizala Chat Zeichenbereich konfigurieren, durch die Zeichenfolgen im Paketmanifest angeben.  
-    * Ändern Sie das Objekt "Ansichten" in Ihrem Paketmanifest entsprechend der unter Snippet:
+    * Sie können die Karte konfigurieren, die auf Kaizala Chat Canvas angezeigt wird, indem Sie die Zeichenfolgen im Paketmanifest angeben.  
+    * Ändern Sie das Objekt "Views" in Ihrem Paketmanifest so, dass es mit dem folgenden Codeausschnitt übereinstimmt:
         `````
         "views": { 
                     "CreationView": { 
@@ -180,14 +180,14 @@ Sie können Beispiel Kaizala Aktion Pakete [hier](https://manage.kaiza.la/MiniAp
                     } 
         }   
         `````
-    * Speichern Sie die Datei
+    * Speichern der Datei
 
-*   **Schritt 7:** Erstellen Sie die Antwort-Ansicht   
-    * Jetzt erstellen die Ansicht wir, die Kaizala Benutzer zu einer Instanz von unseren Aktion reagiert 
-    * Erstellen einen neuen Datei Anruf ResponseView.html, und fügen Sie die unten Ausschnitt in der Datei 
-    * Wir die folgenden Schritte aus. 
-        * Radio Schaltfläche Auswahl für die Bewertung hinzufügen 
-        * Vorbereiten einer Form Response-Objekt und den Code zum Senden des Formulars 
+*   **Schritt 7:** Erstellen der Antwort Ansicht   
+    * Jetzt erstellen wir die Ansicht, die angezeigt wird, wenn Benutzer auf eine Instanz unserer Aktion reagieren Kaizala 
+    * Erstellen Sie einen neuen Datei Aufruf ResponseView. html, und fügen Sie den folgenden Codeausschnitt in die Datei ein. 
+    * Wir gehen wie folgt vor: 
+        * Hinzufügen einer Optionsfeldauswahl für die Bewertung 
+        * Vorbereiten eines Formular Antwortobjekts und des Codes zum Senden des Formulars 
         ````` 
             <html> 
              
@@ -413,41 +413,41 @@ Sie können Beispiel Kaizala Aktion Pakete [hier](https://manage.kaiza.la/MiniAp
 
     * Edit the Views object in your package manifest to the following: 
         `````
-           "Ansichten": {              "CreationView": {                  "LabelHeader": "Feedback angefordert",                  "SourceLocation": "CreationView.html"                        },              "ChatCanvasCardView": {                 " LabelResponded":"Sie haben angegeben Feedback.",                  "LabelRespondToForm":"Geben Sie FEEDBACK"                  "IsResponseEditable": true              },              "ResponseView": {  " LabelHeader":"Provide Feedback",                 "SourceLocation":"ResponseView.html"              },              "ResponseResultsView": {  "LabelPageHeader":"Feedback Summary",                 "SourceLocation":" SummaryView.html"              }     }        `````
+           "Views": {              "CreationView": {                  "labelHeader": "Feedback angefordert",                  "SourceLocation": "CreationView. html"                        },              "ChatCanvasCardView": {                 " labelResponded ":" Sie haben Feedback zur Verfügung gestellt                  . "," labelRespondToForm ":" Feedback                  senden "," isResponseEditable              ":              true}," ResponseView  ": {" labelHeader ":" Feedback senden ",                 " SourceLocation ":" ResponseView. html "              },              " ResponseResultsView ": {  " labelPageHeader ":" Feedback Zusammenfassung ",                 " SourceLocation ":" SummaryView. html "              }     }        `````
  
  
-*   **Schritt 9:** Erstellen Sie das Paket Kaizala Aktion 
-    * ZIP-alle Dateien in einer einzigen Zip-Datei 
-    * Stellen Sie sicher, dass die Zip nicht ein anderes Verzeichnis darin umfasst – jedoch die Dateien im Stammverzeichnis der Zip vorhanden sind
+*   **Schritt 9:** Erstellen des Kaizala-Aktionspakets 
+    * ZIP alle Dateien in einer einzigen ZIP-Datei 
+    * Stellen Sie sicher, dass der ZIP kein anderes Verzeichnis enthält, aber die Dateien befinden sich im Stammverzeichnis des ZIP-Verzeichnisses.
 
-*   **Schritt 10:** Melden Sie sich bei dem Kaizala-Verwaltungsportal  
+*   **Schritt 10:** Melden Sie sich beim Kaizala-Verwaltungs Portal an.  
     * Öffnen Sie ein Browserfenster, und navigieren Sie zuhttps://manage.kaiza.la/ 
-    * Klicken Sie auf der linken oberen Ecke auf "Anmelden" 
-    * Geben Sie Ihre Anmeldeinformationen Office365-Portal anmelden. Wenn angefordert, Gewähren von Berechtigungen für die Verwaltungsportal greifen Sie auf Ihre Profilinformationen (nur zum ersten Mal erforderlich) 
-    * Tippen Sie auf "Add Rufnummer" auf der oberen rechten Ecke, und überprüfen Sie Ihre Telefonnummer ein. 
+    * Klicken Sie in der oberen linken Ecke auf "Anmelden". 
+    * Geben Sie Ihre Office365-Anmeldeinformationen ein, um sich beim Portal anzumelden. Erteilen Sie auf Anforderung Berechtigungen für das Verwaltungsportal, um auf Ihre Profilinformationen zuzugreifen (nur zum ersten Mal erforderlich). 
+    * Tippen Sie auf "Telefonnummer hinzufügen" in der oberen rechten Ecke & überprüfen Sie Ihre Telefonnummer 
 
-*   **Schritt 11:** Hochladen des Pakets Aktion  
-    * Navigieren Sie zu "Aktionen" mit der linken Navigationsleiste 
-    * Wählen Sie in der Dropdown-Liste auf der rechten Seite – "Import-Aktion", und klicken Sie auf Start 
-    * Klicken Sie auf Hochladen –, und wählen Sie die Zip-Datei, die Sie erstellt haben. 
-    * Klicken Sie auf import
-    * Nachdem das Paket erfolgreich importiert wurde, bestätigen Sie, indem Sie erneut, die Aktionen durchsuchen. Sie sollte angezeigt werden, dass die Aktion unter "erstellt mithilfe dieser Id" aufgeführt
-    * Sie können diese Aktion testen, indem Schritte [hier](test.md)
+*   **Schritt 11:** Hochladen des Aktionspakets  
+    * Navigieren Sie zu "Aktionen" mit dem linken navbar 
+    * Klicken Sie in der Dropdownliste auf der rechten Seite auf "Aktion importieren" und dann auf Start. 
+    * Klicken Sie auf Hochladen und wählen Sie die ZIP-Datei aus, die Sie erstellt haben. 
+    * Klicken Sie auf Importieren
+    * Nachdem das Paket erfolgreich importiert wurde, bestätigen Sie, dass Sie erneut nach Aktionen navigieren. Die Aktion sollte unter "mit dieser ID erstellt" aufgeführt sein.
+    * Sie können diese Aktion testen, indem Sie [](test.md) die folgenden Schritte ausführen.
 
-*   **Schritt 12:** Erstellen einer neuen Gruppe Kaizala  
-    * Kaizala-Verwaltungsportal navigieren Sie zu "Gruppen" mit der linken Navigationsleiste 
-    * Tippen Sie auf "Gruppe erstellen" 
-    * Name der Gruppe "Kaizala testen Aktionen" 
-    * Stellen Sie sicher, dass die Gruppe auf Ihre app Kaizala angezeigt wird
+*   **Schritt 12:** Erstellen einer neuen Kaizala-Gruppe  
+    * Navigieren Sie im Kaizala-Verwaltungsportal zu "Gruppen", indem Sie den linken navbar 
+    * Tippen Sie auf "Gruppe erstellen". 
+    * Name der Gruppe "Kaizala Actions testing" 
+    * Sicherstellen, dass die Gruppe in der Kaizala-App angezeigt wird
 
-*   **Schritt 13:** Veröffentlichen Sie die Aktion in der Gruppe  
-    * Navigieren Sie zu "Gruppen" mit der linken Navigationsleiste 
-    * Tippen Sie auf den Gruppennamen, den Sie in Schritt 13 erstellt haben 
-    * Tippen Sie auf der Registerkarte "Aktionen" 
-    * Wählen Sie die Aktion, die Sie in Schritt 12 erstellt haben, und klicken Sie auf "Aktion hinzufügen". Die benutzerdefinierte Kaizala Aktion angezeigt wird, klicken Sie auf der Registerkarte Discover sollten nun angezeigt.
+*   **Schritt 13:** Veröffentlichen der Aktion in der Gruppe  
+    * Navigieren Sie zu "Gruppen" mithilfe der linken navbar 
+    * Tippen Sie auf den Gruppennamen, den Sie in Schritt 13 erstellt haben. 
+    * Tippen Sie auf die Registerkarte "Aktionen" 
+    * Wählen Sie die in Schritt 12 erstellte Aktion & klicken Sie auf Aktion hinzufügen. Die benutzerdefinierte Kaizala-Aktion sollte jetzt auf der Registerkarte Discover angezeigt werden.
 
-*   **Schritt 14:** Verwenden von benutzerdefinierten Kaizala-Aktion  
-    * Der Palette die benutzerdefinierte Aktion hinzugefügt werden und in der Gruppe verwenden. 
+*   **Schritt 14:** Benutzerdefinierte Kaizala-Aktion verwenden  
+    * Fügen Sie die benutzerdefinierte Aktion zu Ihrer Palette hinzu, und verwenden Sie Sie in Ihrer Gruppe. 
 
  
  

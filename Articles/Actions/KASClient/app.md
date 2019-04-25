@@ -1,40 +1,40 @@
 #   <a name="app-apis"></a>App-APIs:
 
-| **API** | Beschreibung | Anforderungsparameter | Antwort-Ausgabe |
+| **API** | Beschreibung | Anforderungs Parameter | Antwort Ausgabe |
 | :---: | :---: | :---: | :--- |
-| **getUsersDetailsAsync** | Ruft den Benutzer Details (Name, Pic, Telefonnummer usw.) vor deren ids | Benutzer-IDs Array von Benutzer-ids | *JSON von Benutzerinformationen* |
-| **showContactPickerAsync** | Zeigt eine systemeigene kontaktauswahlfunktion und gibt ein Array von Details für alle ausgewählten Benutzer | <ul><li>*Titel des Kontakts Personenauswahl*</li><li>*SelectedMutableUser* - Array mit den ausgewählten Benutzer-IDs</li><li>*SelectedImmutableUser* - Array mit fester ausgewählten Benutzer-IDs</li><li>*IsSingleSelection* - Einfachauswahl in Kontakt Personenauswahl</li></ul> | Array von alle ausgewählten Benutzer Details (*Array von JSON*) |
-| **showImagePickerAsync** | Zeigt eine systemeigene Bildauswahl und gibt den Pfad des ausgewählten Bildes | | *Ausgewähltes Bildspeicherort* |
-| **showAttachmentPickerAsync** | Zeigt eine Anlage Personenauswahl in der systemeigenen Ebene | <ul><li>*SupportedTypes* - Array von Anlagen in unterstützten Typen der Auswahl</li><li>zusätzliche Eigenschaften zum Konfigurieren der Personenauswahl</li></ul> | |
-| **downloadAttachmentAsync** | Laden Sie das angegebene Attachment-Objekt | <ul><li>*Anlage mit einem gültigen Serverpfad zum Herunterladen*</li><li>Rückruf Download nach Abschluss</li></ul> | |
-| **cancelAttachmentDownloadAsync** | Abbrechen eines Downloadvorgangs in der Warteschlange für eine Anlage | Anlage | |
-| **showPlacePickerAsync** | Zeigt eine systemeigene Place Personenauswahl und gibt die ausgewählte Stelle (Lt, Lg, n) | Ausgewählten Speicherort | Breitengrad/Längengrad |
-| **showLocationOnMap** | Öffnet systemeigene Karten mit angegebenen Speicherort | [KASLocation](KASLocation.md) -Typ | |
-| **showDurationPickerAsync** | Zeigt eine systemeigene Dauer Personenauswahl mit Tag, Stunde, minute | Standardmäßig über die Dauer, für die Personenauswahl angezeigt werden soll | |
-| **isTalkBackEnabledAsync** | Ruft ab, ob Talkback oder nicht aktiviert ist | | Boolean |
-| **generateUUIDAsync** | Ruft die neue UUID | | Neu generierte uuid |
-| **getCurrentDeviceLocationAsync** | Ruft den aktuellen Speicherort des Geräts | | |
-| **getAppLocaleAsync** | Ruft das aktuelle Gebietsschema der app-Sprache, in der die app gerendert wird, hilfreich für die Lokalisierung von Zeichenfolgen der Aktivität, | | Locale |
-| **getConversationParticipantsCountAsync** | Ruft alle Teilnehmer-Ids der aktuellen Unterhaltung | | Anzahl der Teilnehmer |
-| **getConversationNameAsync** | Ruft den Namen des aktuellen Unterhaltung | | Name der Unterhaltung |
-| **dismissCurrentScreen** | Schließen Sie den aktuellen Bildschirm (Erstellung,-Antwort oder Zusammenfassung) | | |
-| **showProgressBar** | Zeigt eine systemeigene vollständige Sreen Statusanzeige mit dem angegebenen text | Anzuzeigender Text | |
-| **hideProgressBar** | Die aktuellen Statusanzeige ausgeblendet, sofern vorhanden | | |
-| **getCurrentUserIdAsync** | Ruft die aktuellen Benutzer-Id, die die Aktion geöffnet. | | User ID |
-| **showImageImmersiveView** | Bild in fesselnden Ansicht zeigt | Array von Bildern-url | |
-| **openAttachmentImmersiveView** | Anlage in fesselnden Ansicht öffnen | Attachment-Objekt | |
-| **hasStorageAccessForAttachmentType** | überprüft, ob die app Lese-Schreib-Zugriff auf den Speicher besitzt. | Anlagetyp | |
-| **generateBase64ThumbnailAsync** | Generiert Base64-Miniaturansicht für ein Bild | LocalPath für die ImageAttachment, deren Miniaturansicht generiert werden muss | |
-| **getFontSizeMultiplierAsync** | Dient zum Abrufen des Schriftart Größe Multiplikator für große Text – aktuelle nur von iOS erforderlich | | |
-| **getLocalizedStringsAsync** | Ruft die lokalisierten Zeichenfolgen Wörterbuch basierend auf aktuellen Gebietsschema der app ab | Zeichenfolgen müssen in das Paket mit dem Namen wie angegeben werden: strings_en.json, strings_hi.json usw..    | Zeichenfolgen JSON |
-| **logToReport** | Meldet einen Fehler für "Senden Bericht" | Anlagetyp | |
-| **isCurrentUserO365SubscribedAsync** | Überprüft, ob der aktuelle Benutzer ein O365-Abonnenten | | Boolean |
-| **registerHardwareBackPressCallback** | Registriert einen Rückruf in Hardware drücken Sie die zurück-Schaltfläche (für Android) ausgeführt werden | | |
-| **initLocalizationStringsAsync** | Initialisiert Map der Lokalisierung Zeichenfolgen | Dictionary - Zuordnung der Zeichenfolgen | Success(Boolean) steht für den Erfolg/Fehlschlag der Initialisierung |
-| **getString** |   Gibt eine Zeichenfolge zurück, aus der lokalisierten Zeichenfolgen-Datei |stringId ||
+| **getUsersDetailsAsync** | Ruft Benutzer Details (Name, PIC, Telefonnummer usw.) gegen ihre IDs ab. | userIds-Array von Benutzer-IDs | *JSON der Benutzerinformationen* |
+| **showContactPickerAsync** | Zeigt eine systemeigene Kontaktauswahl an und gibt ein Array mit allen Details der ausgewählten Benutzer zurück. | <ul><li>*Titel der Kontaktauswahl*</li><li>*selectedMutableUser* -Array ausgewählter userids</li><li>*selectedImmutableUser* -Array fester ausgewählter Benutzer-IDs</li><li>*isSingleSelection* -Einzelauswahl in der Kontaktauswahl</li></ul> | Array aller Details der ausgewählten Benutzer (*Array von JSON*) |
+| **showImagePickerAsync** | Zeigt eine systemeigene Bildauswahl an und gibt den ausgewählten Bild Pfad zurück. | | *Ausgewählte Bildposition* |
+| **showAttachmentPickerAsync** | Zeigt eine Anlagenauswahl in der systemeigenen Ebene an. | <ul><li>*supportedTypes* -Array unterstützter Anlagentypen für die Auswahl</li><li>zusätzliche Requisiten zum Konfigurieren der Auswahl</li></ul> | |
+| **downloadAttachmentAsync** | Herunterladen der angegebenen Anlage | <ul><li>*Anlage mit einem gültigen Serverpfad zum herunterladen*</li><li>Rückruf beim Herunterladen des Downloads</li></ul> | |
+| **cancelAttachmentDownloadAsync** | Abbrechen eines in der Warteschlange befindlichen Downloadvorgangs für eine Anlage | attachment | |
+| **showPlacePickerAsync** | Zeigt eine systemeigene Ortsauswahl an und gibt die ausgewählte Stelle zurück (lt, LG, n) | Ausgewählter Speicherort | Breite/Länge |
+| **showLocationOnMap** | Öffnet Native Maps mit vorgegebenem Speicherort | [KASLocation](KASLocation.md) -Typ | |
+| **showDurationPickerAsync** | Zeigt eine systemeigene Dauer Auswahl mit Tag/Stunde/Minute an. | Standarddauer für die Auswahl | |
+| **isTalkBackEnabledAsync** | Ruft ab, ob die Kommandofunktion aktiviert ist oder nicht | | Boolean |
+| **generateUUIDAsync** | Ruft die neue UUID ab. | | Neu generierte UUID |
+| **getCurrentDeviceLocationAsync** | Ruft den aktuellen Geräte Speicherort ab. | | |
+| **getAppLocaleAsync** | Ruft die aktuelle App-Gebietsschema Sprache ab, in der die APP gerendert wird, nützlich für die Lokalisierung von Aktions Zeichenfolgen. | | Locale |
+| **getConversationParticipantsCountAsync** | Ruft alle Teilnehmer-IDs der aktuellen Unterhaltung ab. | | Anzahl der Teilnehmer |
+| **getConversationNameAsync** | Ruft den aktuellen Unterhaltungs Namen ab. | | Name der Unterhaltung |
+| **dismissCurrentScreen** | Schließen des aktuellen Bildschirms (Erstellung, Antwort oder Zusammenfassung) | | |
+| **showProgressBar** | Zeigt eine systemeigene vollständige Sreen-Statusanzeige mit dem angegebenen Text an. | Anzuzeigender Text | |
+| **hideProgressBar** | Blendet die aktuelle Statusanzeige aus, falls vorhanden. | | |
+| **getCurrentUserIdAsync** | Ruft die aktuelle Benutzer-ID ab, die die Aktion geöffnet hat. | | Benutzer-ID |
+| **showImageImmersiveView** | Zeigt das Bild in der immersiven Ansicht | Array der Bild-URL | |
+| **openAttachmentImmersiveView** | Anlage in immersiver Ansicht öffnen | Attachment-Objekt | |
+| **hasStorageAccessForAttachmentType** | überprüft, ob die APP Lese-/Schreibzugriff auf den Speicher hat | Anlagentyp | |
+| **generateBase64ThumbnailAsync** | Erstellt eine Base64-Miniaturansicht für ein Bild | localPath für die imageAttachment, deren Miniaturansicht generiert werden muss | |
+| **getFontSizeMultiplierAsync** | Ruft den Schriftgrad Multiplikator für große Text-Current nur für iOS erforderlich ist. | | |
+| **getLocalizedStringsAsync** | Ruft das Wörterbuch der lokalisierten Zeichenfolgen basierend auf dem aktuellen App-Gebietsschema ab. | Zeichenfolgen müssen innerhalb des Pakets mit Namen wie: strings_en. JSON, strings_hi. JSON, etc. bereitgestellt werden.    | Zeichenfolgen JSON |
+| **logToReport** | Protokolliert einen Fehler für "Bericht senden". | Anlagentyp | |
+| **isCurrentUserO365SubscribedAsync** | Überprüft, ob der aktuelle Benutzer ein O365-Abonnent ist | | Boolean |
+| **registerHardwareBackPressCallback** | Registriert einen Rückruf, der auf Hardware-Schaltflächen drücken (für Android) ausgeführt werden soll | | |
+| **initLocalizationStringsAsync** | Initialisiert die Zuordnung der Lokalisierungs Zeichenfolgen | Wörterbuch-die Zeichenfolgen Karte | Success (Boolean) gibt den Erfolg/Misserfolg der Initialisierung an |
+| **getString** |   Gibt eine Zeichenfolge aus der lokalisierten Zeichenfolgen Datei zurück. |stringId ||
 
 
-##  <a name="get-user-info"></a>Benutzerinformationen
+##  <a name="get-user-info"></a>Benutzerinformationen abrufen
 
 ```typescript
 /**
@@ -47,7 +47,7 @@
   function getUsersDetailsAsync(userIds: string[], callback: function(userIdToInfoMap: {}, error: string))
 ```
 
-##  <a name="show-contact-picker"></a>Anzeigen der kontaktauswahlfunktion
+##  <a name="show-contact-picker"></a>Kontaktauswahl anzeigen
 
 ```typescript
 /**
@@ -71,7 +71,7 @@
   function showImagePickerAsync(callback: function(selectedImagePath: string, error: string))
 ```
 
-##  <a name="get-current-device-location"></a>Pfad für aktuellen abrufen
+##  <a name="get-current-device-location"></a>Abrufen des aktuellen Gerätespeicher Orts
 
 ```typescript
 /**
@@ -83,7 +83,7 @@
   function getCurrentDeviceLocationAsync(callback: function(location: string, error: string))
 ```
 
-##  <a name="place-picker"></a>Ort Personenauswahl
+##  <a name="place-picker"></a>Platzieren der Auswahl
 
 ```typescript
 /**
@@ -95,7 +95,7 @@
   function showPlacePickerAsync(callback: (selectedLocation: KASLocation, error: string))
 ```
 
-##  <a name="show-location-on-maps"></a>Speicherort auf Karten anzeigen
+##  <a name="show-location-on-maps"></a>Standort auf Karten anzeigen
 
 ```typescript
 /**
@@ -105,7 +105,7 @@
   function showLocationOnMap(selectedLocation: KASLocation)
 ```
 
-##  <a name="show-error-message-alert-or-toast"></a>Anzeigen der Fehlermeldung (Warnung oder Toast)
+##  <a name="show-error-message-alert-or-toast"></a>Fehlermeldung anzeigen (Warnung oder Toast)
 
 ```typescript
 /**
@@ -115,7 +115,7 @@
   function showNativeErrorMessage(message: string)
 ```
 
-##  <a name="get-current-language-used-by-the-app"></a>Abrufen der aktuellen Sprache wird von der app
+##  <a name="get-current-language-used-by-the-app"></a>Aktuelle Sprache abrufen, die von der APP verwendet wird
 
 ```typescript
 /**
@@ -127,7 +127,7 @@
   function getAppLocaleAsync(callback: function(locale: string, error: string))
 ```
 
-##  <a name="get-the-name-of-the-current-conversation"></a>Ruft den Namen der aktuellen Unterhaltung
+##  <a name="get-the-name-of-the-current-conversation"></a>Abrufen des Namens der aktuellen Unterhaltung
 
 ```typescript
 /**
@@ -139,7 +139,7 @@
   function getConversationNameAsync(callback: function(name: string, error: string))
 ```
 
-##  <a name="dismiss-the-currently-opened-actions-screen"></a>Schließen Sie die aktuell geöffneten Aktion Bildschirm
+##  <a name="dismiss-the-currently-opened-actions-screen"></a>Ausblenden des Bildschirms der aktuell geöffneten Aktion
 
 ```typescript
 /**
@@ -148,7 +148,7 @@
   function dismissCurrentScreen()
 ```
 
-##  <a name="show-native-progress-bar"></a>Systemeigene Statusanzeige einblenden
+##  <a name="show-native-progress-bar"></a>Systemeigene Statusanzeige anzeigen
 
 ```typescript
 /**
@@ -167,7 +167,7 @@
   function hideProgressBar()
 ```
 
-##  <a name="get-current-user-id"></a>Abrufen der aktuellen Benutzer-id
+##  <a name="get-current-user-id"></a>Aktuelle Benutzer-ID abrufen
 
 ```typescript
 /**
@@ -179,7 +179,7 @@
   function getCurrentUserIdAsync(callback: function(userId: string, error: string))
 ```
 
-##  <a name="register-for-hardware-back-button-press-android"></a>Registrieren Sie sich für die Hardware zurück-Schaltfläche drücken (Android)
+##  <a name="register-for-hardware-back-button-press-android"></a>Register für Hardware-zurück-Tastendruck (Android)
 
 ```typescript
 /**
@@ -202,7 +202,7 @@
   function getLocalizedStringsAsync(callback: (strings: JSON, error: string))
 ```
 
-##  <a name="printf-for-action"></a>printf() für Aktion
+##  <a name="printf-for-action"></a>printf () für Aktion
 
 ```typescript
 /**

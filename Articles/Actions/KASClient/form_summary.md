@@ -1,26 +1,26 @@
-#   <a name="form-summary-flow-apis"></a>Bilden Sie Zusammenfassung Fluss APIs:
+#   <a name="form-summary-flow-apis"></a>Fluss-APIs für formularzusammenfassung:
 
-| **API** | Beschreibung | Anforderungsparameter | Antwort-Ausgabe |
+| **API** | Beschreibung | Anforderungs Parameter | Antwort Ausgabe |
 | :---: | :---: | :---: | :--- |
-| **shouldSeeFormSummaryAsync** | Ruft ab, ob das Formular Zusammenfassung für den aktuellen Benutzer sichtbar ist |  | *ShouldSeeSummary ((boolesch))* - True, wenn der aktuelle Benutzer berechtigt ist, finden in Zusammenfassung |
-| **getFormSummaryAsync** | Ruft alle Benutzer und verarbeiteten Zusammenfassung von alle Antworten, die dem Formular zugeordneten Antworten | Flaches Formular Zusammenfassung Rückruf umfasst und verarbeitet Formular Zusammenfassung Rückruf | Zusammenfassung-Objekte |
-| **getFlatFormSummaryAsync** | Ruft die flache Antworten von allen Benutzern, die dem Formular (es wird empfohlen, getFormSummary() anstelle von dies verwenden) zugeordneten | | *FlatSummary* – Zusammenfassung-Objekt |
-| **getProcessedFormSummaryAsync** | Ruft verarbeitet Übersicht über alle dem Formular (es wird empfohlen, getFormSummary() anstelle von dies verwenden) zugeordneten Antworten | | *ProcessedSummary* – Zusammenfassung-Objekt |
-| **getAggregatedFormSummaryAsync** | Ruft zusammenfassende aus allen Antworten, die dem Formular zugeordneten zusammengefasster | | *AggregatedSummary* – Zusammenfassung-Objekt |
-| **getFormURLAsync** | Ruft die Url der Datei vom Server, die mit dem Formular zugeordnete flache Antworten enthält | | Url |
-| **shareFormURL** | Startet systemeigene Bildschirmfreigabe für die Formular-url | URL, die gemeinsam genutzt werden | |
-| **getFormReactionAsync** | Dient zum Abrufen der konsolidierten Reaktion der dem Formular zugeordneten Unterhaltung Karte ("gefällt mir" und Kommentare) | | Reaktion-Objekt |
-| **showAllReactions** | Zeigt alle den Reaktion Bildschirm ("gefällt mir" und Kommentare) für das Formular | | |
-| **likeForm** | Anfragen eines Formulars, die Anzahl der like Anzahl hinzuzufügende können sinken, wenn der aktuelle Benutzer das Formular bereits gefallen hat | | |
-| **addCommentOnForm** | Anforderungen an einen Kommentar zu einem Formular hinzufügen | | |
-| **respondToForm** | Anforderungen an eine Antwort zu einem Formular hinzufügen, indem Sie Antwort Bildschirm starten | | |
-| **sendRemindersToRespond** | Sendet eine Erinnerung (eine neue Unterhaltung Karte) gegen die vorhandene Karte | | |
-| **copyFormAndForward** | Startet die Unterhaltung Auswahl um eine Kopie des Formulars als eine neue Unterhaltung Karte weiterzuleiten | | |
-| **updateFormPropertiesAsync** | Buchen Sie eine Anforderung zum Aktualisieren der dem Formular zugeordneten Eigenschaften |  <ul><li>*PropertyUpdates* – ein Array mit allen Update Ereignisinfos hinzu, die erforderlich sind, ausgeführt werden – *Array von KASFormPropertyUpdateInfo*</li><li>*NotifyUsers* - Pushbenachrichtigungen senden an diese Benutzer-Ids zu diesem Update – *Array von Zeichenfolgen*</li><li>*NotificationMessage* - Push Notification wird die *Zeichenfolge*</li></ul> | *Success(Boolean)* - gibt den Erfolg/Fehler des Updates|
+| **shouldSeeFormSummaryAsync** | Ruft ab, ob die formularzusammenfassung für den aktuellen Benutzer sichtbar ist. |  | *shouldSeeSummary (Boolean)* -true, wenn der aktuelle Benutzer eine Zusammenfassung anzeigen darf |
+| **getFormSummaryAsync** | Ruft Antworten aller Benutzer ab und verarbeitet eine Zusammenfassung aller Antworten, die dem Formular zugeordnet sind. | Beinhaltet einen zusammenfassenden Rückruf und einen zusammenfassenden Rückruf | Sammelobjekte |
+| **getFlatFormSummaryAsync** | Ruft flache Antworten aller Benutzer ab, die dem Formular zugeordnet sind (es wird empfohlen, getFormSummary () anstelle davon zu verwenden). | | *flatSummary* – Summary-Objekt |
+| **getProcessedFormSummaryAsync** | Ruft die verarbeitete Zusammenfassung aller Antworten ab, die dem Formular zugeordnet sind (es wird empfohlen, getFormSummary () anstelle davon zu verwenden). | | *processedSummary* – Summary-Objekt |
+| **getAggregatedFormSummaryAsync** | Ruft aggregierte Zusammenfassung aller Antworten ab, die dem Formular zugeordnet sind. | | *aggregatedSummary* – Summary-Objekt |
+| **getFormURLAsync** | Ruft die Datei-URL vom Server ab, die flache Antworten enthält, die dem Formular zugeordnet sind. | | Url |
+| **shareFormURL** | Startet systemeigene Freigabe Bildschirm für die Formular-URL | Gemeinsame URL | |
+| **getFormReactionAsync** | Ruft die konsolidierte Reaktion (likes und comments) der Unterhaltungs Karte ab, die dem Formular zugeordnet ist. | | Reaktions Objekt |
+| **showAllReactions** | Zeigt den gesamten Reaktions Bildschirm (likes und comments) für das Formular an. | | |
+| **likeForm** | Anforderungen zum Hinzufügen einer like-Anzahl zu einem Formular kann die Anzahl verringert werden, wenn der aktuelle Benutzer das Formular bereits gemocht hat. | | |
+| **addCommentOnForm** | Anforderungen zum Hinzufügen eines Kommentars zu einem Formular | | |
+| **respondToForm** | Anforderungen zum Hinzufügen einer Antwort zu einem Formular durch Starten des Antwort Bildschirms | | |
+| **sendRemindersToRespond** | Sendet eine Erinnerung (eine neue Unterhaltungs Karte) an die vorhandene Karte | | |
+| **copyFormAndForward** | Startet die Unterhaltungs Auswahl, um eine Kopie des vorhandenen Formulars als neue Unterhaltungs Karte weiterzuleiten. | | |
+| **updateFormPropertiesAsync** | Bereitstelleneiner Anforderung zum Aktualisieren der dem Formular zugeordneten Eigenschaften |  <ul><li>*propertyUpdates* – ein Array aller Aktualisierungsinformationen, die durchgeführt werden müssen – *Array von KASFormPropertyUpdateInfo*</li><li>*notifyUsers* -Senden von Push-Benachrichtigungen an diese Benutzer-IDs zu diesem Update – *Array von Zeichenfolgen*</li><li>*notificationMessage* -Push-Benachrichtigungs *Zeichenfolge*</li></ul> | *Success (Boolean)* – der Erfolg/Fehler des Updates|
 
-##   <a name="get-the-summary-associated-with-the-form"></a>Hier finden Sie die dem Formular zugeordnete Übersicht
+##   <a name="get-the-summary-associated-with-the-form"></a>Abrufen der dem Formular zugeordneten Zusammenfassung
 
-```typescript 
+```typescript 
 /**
   * Gets flat responses by all the users, and processed summary from all the responses associated
   * with the form. It requires two callbacks:
@@ -43,7 +43,7 @@
                    notifyCallback: function(flatSummary: KASFormFlatSummary, processedSummary: KASFormProcessedSummary, error: string))
 ```
 
-##   <a name="get-the-flat-summary-all-responses-associated-with-the-form"></a>Hier finden Sie dem Formular zugeordnete flache-Übersicht (alle Antworten)
+##   <a name="get-the-flat-summary-all-responses-associated-with-the-form"></a>Abrufen der flachen Zusammenfassung (alle Antworten), die dem Formular zugeordnet sind
 
 ```typescript
 /**
@@ -55,7 +55,7 @@
   function getFlatFormSummaryAsync(callback: function(flatSummary: KASFormFlatSummary, error: string))
 ```
 
-##   <a name="get-the-processed-summary-aggregated-responses-associated-with-the-form"></a>Hier finden Sie dem Formular zugeordnete verarbeitete-Übersicht (aggregierten Antworten)
+##   <a name="get-the-processed-summary-aggregated-responses-associated-with-the-form"></a>Abrufen der verarbeiteten Zusammenfassung (aggregierte Antworten), die dem Formular zugeordnet sind
 
 ```typescript
 /**
@@ -67,7 +67,7 @@
   function getProcessedFormSummaryAsync(callback: function(processedSummary: KASFormProcessedSummary, error: string))
 ```
 
-##   <a name="fetch-from-server-and-get-the-result-url-all-responses-associated-with-the-form"></a>(Vom Server) abgerufen Sie, und erhalten Sie die Ergebnis-Url (alle Antworten), die dem Formular zugeordneten
+##   <a name="fetch-from-server-and-get-the-result-url-all-responses-associated-with-the-form"></a>FETCH (vom Server) und Abrufen der Ergebnis-URL (alle Antworten), die dem Formular zugeordnet sind
 
 ```typescript
 /**
@@ -79,7 +79,7 @@
   function getFormURLAsync(callback: function(url: string, error: string))
 ```
 
-##   <a name="share-the-result-url-fetched-from-server"></a>Freigeben Sie das Ergebnis, das vom Server Url abgerufen
+##   <a name="share-the-result-url-fetched-from-server"></a>Freigeben der vom Server abgerufenen Ergebnis-URL
 
 ```typescript
 /**
@@ -89,7 +89,7 @@
   function shareFormURL(url: string)
 ```
 
-##   <a name="get-all-the-reactions-associated-with-the-form"></a>Abrufen Sie alle dem Formular zugeordneten Reaktionen
+##   <a name="get-all-the-reactions-associated-with-the-form"></a>Alle dem Formular zugeordneten Reaktionen abrufen
 
 ```typescript
 /**
@@ -101,7 +101,7 @@
   function getFormReactionAsync(callback: function(reaction: KASFormReaction, error: string))
 ```
 
-##   <a name="show-all-the-reactions-associated-with-the-form"></a>Zeigen Sie alle dem Formular zugeordneten Reaktionen an
+##   <a name="show-all-the-reactions-associated-with-the-form"></a>Alle dem Formular zugeordneten Reaktionen anzeigen
 
 ```typescript
 /**
@@ -110,7 +110,7 @@
   function showAllReactions()
 ```
 
-##   <a name="put-a-like-on-the-form-in-turn-the-associated-conversation-card"></a>Platzieren auf dem Formular ein ähnliches (die Karte zugeordneten Unterhaltung aktivieren)
+##   <a name="put-a-like-on-the-form-in-turn-the-associated-conversation-card"></a>Setzen Sie ein like auf dem Formular (im Gegenzug die zugehörige Unterhaltungs Karte)
 
 ```typescript
 /**
@@ -119,7 +119,7 @@
   function likeForm()
 ```
 
-##   <a name="show-response-view-for-the-form"></a>Antwort-Ansicht für das Formular anzeigen
+##   <a name="show-response-view-for-the-form"></a>Anzeigen der Antwort Ansicht für das Formular
 
 ```typescript
 /**
@@ -128,7 +128,7 @@
   function respondToForm()
 ```
 
-##   <a name="remind-other-people-to-respond"></a>Erinnern Sie andere Personen zu reagieren
+##   <a name="remind-other-people-to-respond"></a>Andere Personen daran erinnern, zu Antworten
 
 ```typescript
 /**
@@ -137,7 +137,7 @@
   function sendRemindersToRespond()
 ```
 
-##   <a name="forward-a-new-form-duplicated-from-the-associated-one"></a>Weiterleiten Sie ein neues Formular, das von der zugehörigen dupliziert
+##   <a name="forward-a-new-form-duplicated-from-the-associated-one"></a>Weiterleiten eines neuen Formulars, das aus dem verknüpften Formular dupliziert wurde
 
 ```typescript
 /**
@@ -146,7 +146,7 @@
   function copyFormAndForward() 
 ```
 
-##   <a name="close-the-form-in-turn-responses-to-it"></a>Schließen Sie das Formular (in Turn Antworten darauf)
+##   <a name="close-the-form-in-turn-responses-to-it"></a>Das Formular geschlossen (im Gegenzug Antworten)
 
 ```typescript
 /**

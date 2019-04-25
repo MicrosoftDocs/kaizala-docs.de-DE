@@ -1,18 +1,18 @@
-# <a name="security--compliance---overview"></a>Sicherheit und Compliance - Übersicht
+# <a name="security--compliance---overview"></a>Sicherheit & Compliance-Übersicht
 
-Sicherheit und Richtlinientreue gehört zu die wichtigsten Säulen für Microsoft Kaizala, die entwickelt wurde, wird über die Office 365-Trust Grundsätze unten beschriebenen basierend –
+Sicherheit und Compliance sind eine der wichtigsten Säulen für Microsoft Kaizala, die basierend auf den unten beschriebenen Office 365 Trust Principles entwickelt wurde –
 
 ![](Images/SecurityOverview.png)
 
-  * Kaizala bietet Kunden für die Organisationsgruppen vollständige Besitz der Daten. 
-  * Kaizala folgt standard Security Development Lifecycle (SDL) Methoden für alle Phasen der Produktentwicklung, einschließlich Entwurf, Entwicklung, Bereitstellung und Betrieb. Die bewährten Methoden wie usw. Verteidigung Verteidigung, geringsten Berechtigungen werden angewendet.
-  * Kaizala entspricht den Office Trustworthy computing (OTwC) Methoden der Organisation und Daten für die einzelnen behandelt werden sollen 
-  * Kaizala folgt Office 365 Compliance Framework für die Datenverarbeitung Standards für Speicherung, Archivierung und Übertragung.
-  * Kaizala wird auf erstklassige Office 365 / Azure-Daten gehostet Centre-Infrastruktur, die mit dem Vorgang transparent Service ausgeführt werden
+  * Kaizala bietet Kunden vollständigen Besitz für Ihre Organisationsgruppen. 
+  * Kaizala folgt den standardmäßigen SDL-Methoden (Security Development Lifecycle) für alle Phasen der Produktentwicklung, einschließlich Design, Entwicklung, Bereitstellung und Betrieb. Die bewährten Vorgehensweisen wie Verteidigungs Tiefe, Zugriff mit geringsten Rechten usw. werden angewendet.
+  * Kaizala-Methoden für die Verwaltung von Office Trustworthy Computing (OTwC) zur Verarbeitung der Organisation und der einzelnen Daten 
+  * Kaizala folgt Office 365 Compliance Framework für Datenverarbeitungs Standards für Speicherung, Aufbewahrung und Übertragung.
+  * Kaizala wird auf der weltweiten Office 365/Azure Data Center-Infrastruktur gehostet, die mit dem transparenten Dienstbetrieb ausgeführt wird.
   
-In diesem Abschnitt Artikel für Microsoft Kaizala, die nicht nur markiert Microsoft verpflichtet, verweist dies jedoch auch hilft technische und geschäftliche Entscheidungsträger zum besseren Verständnis der Ansatz für Sicherheit, Datenschutz und Compliances Methoden wie Microsoft Kundendaten mit größter Vorsicht behandelt.
+Dieser Abschnitt befasst sich mit den Vorgehensweisen für Sicherheits-, Datenschutz-und Compliance-Verfahren für Microsoft Kaizala, was nicht nur das Engagement von Microsoft für diese Punkte hervorhebt, sondern auch dazu beiträgt, dass technische und geschäftliche Entscheidungsträger besser verstehen, wie Microsoft verarbeitet Kundendaten mit größter Sorgfalt.
 
-* [Sicherheit für End Kunden](SecurityFeaturesforendcustomers.md)
+* [Sicherheit für endKunden](SecurityFeaturesforendcustomers.md)
 * [Sicherheit](Security.md)
 * [Datenschutz](Privacy.md)
 * [Compliance](Compliance.md)

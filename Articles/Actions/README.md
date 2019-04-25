@@ -1,37 +1,37 @@
-# <a name="kaizala-actions"></a>Kaizala Aktionen
+# <a name="kaizala-actions"></a>Kaizala-Aktionen
 
 ## <a name="overview"></a>Übersicht
-Kaizala Aktionen sind grundlegende 'Arbeitseinheiten', mit denen Benutzer in einem Unterhaltungskontext innerhalb Kaizala Arbeit vermitteln. Einige dieser Aktionen wie Auftrag, Umfrage, Umfrage usw. sind gelieferten Out-of-the-Box und verfügen über dieselbe Funktionalität bereichsbezogenen. Diese Aktionen innerhalb der app Kaizala ermittelt werden können und in einem Unterhaltungskontext aus der Palette Aktion aufgerufen werden können. 
+Kaizala-Aktionen sind einfache "Arbeitseinheiten", die Benutzern bei der Arbeit innerhalb eines Unterhaltungs Kontexts innerhalb von Kaizala helfen. Einige dieser Aktionen wie Job, Umfrage, Umfrage usw. werden in der Box ausgeliefert und bieten eine umfangreichere Funktionalität. Diese Aktionen können innerhalb der Kaizala-App ermittelt werden und können in einem Unterhaltungs Kontext aus der Aktions Palette aufgerufen werden. 
 
-[Kaizala-Verwaltungsportal](https://manage.kaiza.la) ist das Gateway für die Entwicklung, testen, Genehmigung oder beim Veröffentlichen der neuen Kaizala Aktionen.
+[Kaizala-Verwaltungs Portal](https://manage.kaiza.la) ist das Gateway für alle Entwicklungen, Tests, Genehmigungen oder Veröffentlichung neuer Kaizala-Aktionen.
 
-Die Möglichkeit, aufzurufen, oder erstellen Sie eine neue Instanz einer Aktion kann derzeit nur eine bestimmte Gruppe Mitglieder zugewiesen werden. Unterstützung für die Veröffentlichung in Mitglied aller Gruppen, die mit einer Organisation über die Kaizala-Verwaltungsportal zugeordnet wird in Kürze bereitgestellt.
+Die Möglichkeit, eine neue Instanz einer Aktion aufzurufen oder zu erstellen, kann derzeit nur auf Mitglieder einer bestimmten Gruppe beschränkt werden. Die Unterstützung für die Veröffentlichung von Mitgliedern aller Gruppen, die über das Kaizala-Verwaltungs Portal einer Organisation zugeordnet sind, wird in Kürze verfügbar sein.
 
-Alle Aktionen, die in einer Gruppe von Benutzern veröffentlicht werden können von ihnen auf allen Unterhaltungen aufgerufen werden, den, denen Sie gehören. Dazu gehören die 1:1-Unterhaltungen, private Gruppen oder Gruppen, die zu einer Organisation zugeordnet.
+Alle Aktionen, die in einer Gruppe von Benutzern veröffentlicht werden, können von Ihnen für alle Unterhaltungen aufgerufen werden, zu denen Sie gehören. Dazu gehört die 1:1-Unterhaltungen, private Gruppen oder Gruppen, die einer Organisation zugeordnet sind.
 
-Aktuell enthält eine Kaizala-Aktion vier verschiedene Ansichten, die definiert werden können:
+Eine Kaizala-Aktion enthält derzeit vier verschiedene Ansichten, die definiert werden können:
 
-* Eine Ansicht erstellen, wenn eine Aktion aus der Palette aufgerufen wird.
-* Eine Kartenansicht, die auf die Zeichenbereich Chat, wenn eine Instanz der Aktion angezeigt wird, wird gesendet.
-* Eine Ansicht Responder für Benutzer an die Kaizala-Aktion
-* Eine Zusammenfassung zusammengefasster zum Anzeigen Antworten
+* Eine Erstellungsansicht, wenn eine Aktion aus der Palette aufgerufen wird
+* Eine Kartenansicht, die im Chatbereich angezeigt wird, wenn eine Instanz der Aktion gesendet wird
+* Eine responderansicht für Benutzer zur Reaktion auf die Kaizala-Aktion
+* Eine Zusammenfassungsansicht zum Anzeigen von aggregierten Antworten
 
-Neue Kaizala Aktionen, die Kaizalas Personen Netzwerk nutzen können erstellt und Mobilfunktionen überzeugende Erstellen guter auf folgende Weise:
+Sie können neue Kaizala-Aktionen erstellen, die das Kaizala-Netzwerk und die mobilen Funktionen nutzen, um überzeugende Erfahrungen auf folgende Weise zu erstellen:
 
-* **Design eine neue Kaizala-Aktion durch den Kaizala-Verwaltungsportal** – Sie können eine benutzerdefinierte Aktion Kaizala über die Aktion Designer-Schnittstelle auf Grundlage der vorhandenen Vorlagen Aktion entwerfen.
-* **Entwickeln Sie ein neues Paket Kaizala Aktion** - komplexe neue Kaizala Aktionen, die benutzerdefinierte Funktionen von webtechnologien wie HTML-, CSS- und JavaScript bereitstellen können erstellt werden. Führen Sie die unten aufgeführten Links, über die verschiedenen Phasen der Entwicklung einer Aktion Kaizala zu informieren.
-    *   [Anatomie einer Aktion Kaizala-Paket](anatomy.md)
+* **Entwerfen einer neuen Kaizala-Aktion über das Kaizala-Verwaltungs Portal** – Sie können eine benutzerdefinierte Kaizala-Aktion über die Aktions-Designer-Schnittstelle entwerfen, indem Sie auf den vorhandenen Aktions Vorlagen aufbauen.
+* **Entwickeln eines neuen Kaizala-Aktionspakets** – Sie können komplexe neue Kaizala-Aktionen erstellen, die benutzerdefinierte Funktionen mithilfe von Webtechnologien wie HTML, CSS und JavaScript bereitstellen. Folgen Sie den Links unten, um mehr über die verschiedenen Phasen der Entwicklung einer Kaizala-Aktion zu erfahren.
+    *   [Anatomie eines Kaizala-Aktionspakets](anatomy.md)
     *   [Erste Schritte](get_started.md)
     *   [Entwickeln](develop.md)
     *   [Testen und Debuggen](test.md)
     *   [Publish](publish.md)
 
-Alle Kaizala Aktionen müssen [Validierungsrichtlinien](validation.md) qualifiziert Kaizala Clients veröffentlicht werden soll, zu bestätigen.
+Alle Kaizala-Aktionen müssen den [Validierungsrichtlinien](validation.md) bestätigen, dass Sie für Kaizala-Clients veröffentlicht werden können.
 
-## <a name="build-your-first-kaizala-action"></a>Erstellen Sie Ihre erste Kaizala-Aktion
+## <a name="build-your-first-kaizala-action"></a>Erstellen Ihrer ersten Kaizala-Aktion
 
-Sie können die erste Kaizala Aktion erstellen, indem Sie unsere einfache [Lernprogramm](tutorial.md) ausprobieren
+Sie können Ihre erste Kaizala-Aktion erstellen, indem Sie unserem einfachen [Tutorial](tutorial.md) folgen.
 
-## <a name="download-sample-action-packages"></a>Beispiel-Aktion Pakete herunterladen
+## <a name="download-sample-action-packages"></a>Beispiel Aktionspakete zum herunterladen
 
-Sie können Beispiel-Aktion Pakete von [hier](https://manage.kaiza.la/MiniApps/DownloadSDK) herunterladen.
+Sie können Beispiel-Aktionspakete von [hier](https://manage.kaiza.la/MiniApps/DownloadSDK) herunterladen.

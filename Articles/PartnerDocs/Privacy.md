@@ -1,13 +1,13 @@
 # <a name="privacy-in-kaizala"></a>Datenschutz in Kaizala
 ## <a name="approach"></a>Ansatz 
 
-Microsoft weiß, dass unsere Kunden unsere Business Cloud Services zu verwenden, uns mit ihrer wichtigsten Anlage Entrust – Daten. Kunden vertrauen, dass seine Privatsphäre geschützt werden und nur auf eine Weise verwendet werden, die Erwartungen entspricht. 
+Microsoft ist sich bewusst, dass unsere Kunden, die unsere Business Cloud-Dienste nutzen, uns Ihr wertvolles Anlagegut anvertrauen – Daten. Kunden Vertrauen darauf, dass der Datenschutz geschützt und nur auf eine Weise verwendet wird, die Ihren Erwartungen entspricht. 
 
-Microsoft Kaizala folgt Privacy-Prozesse, um sicherzustellen, dass es Kunden versprechen entspricht. [Private-Anweisung](https://privacy.microsoft.com/en-us/privacystatement) enthält weitere Details zum wie Microsoft sammelt Daten und Verwendung von Daten für die effektive Ausführung der Dienste. 
+Microsoft Kaizala folgt Datenschutzverfahren, um sicherzustellen, dass es den Kunden Zusagen entspricht. Die Daten [Schutz Erklärung](https://privacy.microsoft.com/en-us/privacystatement) enthält weitere Informationen dazu, wie Microsoft Daten sammelt und Ihre Daten für die effiziente Durchführung der Dienste verwendet. 
 
-Kaizala mobile app implementiert auch bestimmte für die Privatsphäre wie Telefonnummer des Benutzers nie an andere Personen in der Gruppe sichtbar ist, es sei denn, die andere Person bereits der Benutzer der Telefonbuch Liste hinzugefügt hat. Ein unerwünschten Weitergabe von Telefonnummern in einem großen Setup legt eine Beschränkung auf. 
+Kaizala Mobile App implementiert auch bestimmte Datenschutzkontrollen wie die Telefonnummer eines Benutzers ist für andere Personen in der Gruppe nur dann sichtbar, wenn der Benutzer bereits der Telefonbuchliste hinzugefügt wurde. Dies schränkt eine unerwünschte Offenlegung von Telefonnummern in einer umfangreichen Einrichtung ein. 
 
-## <a name="logging-telemetry-and-diagnostic-data"></a>Protokollierung, Telemetrie und Diagnosedaten
+## <a name="logging-telemetry-and-diagnostic-data"></a>Protokollierungs-, teleMetrie-und Diagnosedaten
 
-Alle Daten für Telemetrie gesammelt und Diagnose Zweck schließt keine personenbezogene Informationen (PII) wie Telefonnummer, Kunden IP-Adressen, Namen, Nachrichten usw. oder Organisation identifizierbare Informationen (OII) wie Organisation Name usw.. Wenn einem beliebigen Grund, die Funktionalität und wünschen, zu verbessern solche Daten gesammelt werden müssen, wird eine Zustimmung des Benutzers in der app gesucht. 
+Alle für Telemetrie-und Diagnosezwecke gesammelten Daten beziehen sich nicht auf personenbezogene Informationen (PII) wie Telefonnummer, Kunden-IP-Adressen, Namen, Nachrichten usw. oder Organisationen identifizierbare Informationen (OII) wie Organisation Name usw. Wenn aus irgendeinem Grund, wie die Funktionalität oder die Benutzerfreundlichkeit zu verbessern, solche Daten gesammelt werden müssen, wird eine Einwilligung des Benutzers in der APP gesucht. 
  

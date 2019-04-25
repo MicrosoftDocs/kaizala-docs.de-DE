@@ -1,45 +1,45 @@
 ---
 title: /subGroups
-description: Referenzartikel für Abfragen Untergruppe von Daten-API
+description: Referenzartikel zur API zum Abfragen von Untergruppen Daten
 topic: Reference
 author: nitinjms
 ms.openlocfilehash: 195088d1eb665498407224b89c63521c24a5c63a
-ms.sourcegitcommit: 523ff9067dc81712d7da2b103a3a1a0f0236b8e4
+ms.sourcegitcommit: 973f754fdb7c93381f808632f47fe66a46cc069e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20399367"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "33190688"
 ---
 # <a name="subgroups"></a>/subGroups
-API-Endpunkt zur Interaktion mit der Unterhaltung Unterseite innerhalb Kaizala gruppiert.
+API-Endpunkt für die Interaktion mit den Unterhaltungs-Untergruppen innerhalb von Kaizala.
 
-## <a name="get-subgroups"></a>Abrufen von /subGroups
+## <a name="get-subgroups"></a>/SubGroups abrufen
 
     GET {endpoint-url}/v1/groups/{groupId}/subGroups
 
-### <a name="request-parameters"></a>Anforderungsparameter
+### <a name="request-parameters"></a>AnforderungsParameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
-| URL-Pfad-Parameter | groupId | String | Nein | GUID, die die GroupId der Ressource bestimmte Gruppe darstellt. |
-| URL-Abfrageparameter | fetchAllGroups | Boolean | Ja | Parameter, um anzugeben, wenn alle Untergruppen in der Hierarchie abgerufen werden soll. |
+| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| URL-Pfad Parameter | groupId | String | Nein | GUID, die die Gruppen-ID der bestimmten Gruppenressource darstellt |
+| URL-Abfrage Parameter | fetchAllGroups | Boolean | Ja | Parameter, mit dem angegeben wird, ob alle Untergruppen in der Hierarchie abgerufen werden sollen |
 
 ### <a name="response-body"></a>Antworttext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| Gruppen | JSON-Objekt-Array | Array von Gruppen mit der Liste der Untergruppen, falls vorhanden |
+| groups | JSON-Objekt Array | Array von Gruppen mit der Liste der Untergruppen, falls vorhanden |
 
-####  <a name="json-structure-for-each-individual-group-in-the-array-groups"></a>JSON-Struktur für jede einzelne Gruppe im Array gruppiert []:
+####  <a name="json-structure-for-each-individual-group-in-the-array-groups"></a>JSON-Struktur für jede einzelne Gruppe in den Array Gruppen []:
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| groupId | Zeichenfolge | GUID der Gruppe zugeordnete |
-| groupName | Zeichenfolge | Der Name der Gruppe |
-| groupImageURL | Zeichenfolge | Zeichenfolge, die die URL des Bilds Profil Gruppe angibt. |
+| groupId | Zeichenfolge | Der Gruppe zugeordnete GUID |
+| groupName | String | Der Name der Gruppe |
+| groupImageURL | String | Zeichenfolge, die die URL des Gruppenprofil Bilds angibt |
 
-#### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
+#### <a name="sample-json-response"></a>JSON-Beispielantwort
 
 ```javascript
 {
@@ -60,29 +60,29 @@ API-Endpunkt zur Interaktion mit der Unterhaltung Unterseite innerhalb Kaizala g
 }
 ```
 
-## <a name="post-subgroups"></a>POST-/subGroups
+## <a name="post-subgroups"></a>POST/subGroups
 
     POST {endpoint-url}/v1/groups/{groupId}/subGroups
 
-### <a name="request-parameters"></a>Anforderungsparameter
+### <a name="request-parameters"></a>AnforderungsParameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
-| URL-Pfad-Parameter | groupId | String | Nein | GUID, die die GroupId der Ressource bestimmte Gruppe darstellt. |
+| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| URL-Pfad Parameter | groupId | String | Nein | GUID, die die Gruppen-ID der bestimmten Gruppenressource darstellt |
 
 ### <a name="request-body"></a>Anforderungstext
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| groupName | String | Nein | Der Name der Gruppe "Sub" |
-| groupImageURL | String | Ja | Media-URL des Bilds Gruppe; Bild muss durch den Pfad /media hochgeladen werden |
-| Elemente | Array | Ja | Zeichenfolgenarray gut formatierte Telefonnummern |
-| welcomeMessage | Array | Nein | Zeichenfolgenarray gut formatierte Telefonnummern  |
-| addUserToGroup | Boolean | Ja | Auf False festgelegt, wenn der Benutzer standardmäßig nicht der Gruppe hinzugefügt werden soll  |
+| groupName | String | Nein | Name der Untergruppe |
+| groupImageURL | Zeichenfolge | Ja | Medien-URL des Gruppen Bilds; Das Bild muss über den/Media-Pfad hochgeladen werden. |
+| members | Array | Ja | Zeichenfolgenarray von formatierten Telefonnummern |
+| welcomeMessage | Array | Nein | Zeichenfolgenarray von formatierten Telefonnummern  |
+| addUserToGroup | Boolean | Ja | Wird auf false festgelegt, wenn der aufrufende Benutzer standardmäßig nicht der Gruppe hinzugefügt werden soll.  |
 
 
-#### <a name="sample-json-request"></a>Beispiel für JSON-Anforderung
+#### <a name="sample-json-request"></a>JSON-Beispielanforderung
 
 ```javascript
 {
@@ -98,11 +98,11 @@ API-Endpunkt zur Interaktion mit der Unterhaltung Unterseite innerhalb Kaizala g
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| groupId | Zeichenfolge | Gruppen-ID. |
-| groupName | Zeichenfolge | Name der Gruppe erstellt |
+| groupId | Zeichenfolge | Gruppenbezeichner |
+| groupName | String | Name der erstellten Gruppe |
 
 
-#### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
+#### <a name="sample-json-response"></a>JSON-Beispielantwort
 
 ```javascript
 {

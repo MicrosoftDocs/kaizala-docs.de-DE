@@ -1,36 +1,36 @@
 ---
 title: /Members
-description: Referenzartikel für Abfragen Gruppe Mitglieder von Daten-API
+description: Referenzartikel für API zum Abfragen von Gruppenmitglieder Daten
 topic: Reference
 author: nitinjms
 ms.openlocfilehash: a2bbbc19e74140737e768b55f296f2463004d2fa
-ms.sourcegitcommit: 3a6a13cc885faf1bbc9ee8498f5183f414395aac
+ms.sourcegitcommit: 973f754fdb7c93381f808632f47fe66a46cc069e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19905351"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "33190792"
 ---
 # <a name="members"></a>/Members
-Hinzufügen oder Löschen von Mitgliedern aus Unterhaltungsgruppen innerhalb Kaizala API-Endpunkt.
+API-Endpunkt zum Hinzufügen oder Löschen von Mitgliedern aus Konversationsgruppen innerhalb von Kaizala.
 
-## <a name="get-members"></a>Abrufen von /members
+## <a name="get-members"></a>/Members abrufen
 
     GET {endpoint-url}/v1/groups/{groupId}/members
 
-### <a name="request-parameters"></a>Anforderungsparameter
+### <a name="request-parameters"></a>AnforderungsParameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| URL-Pfad-Parameter | groupId | String | Nein | GUID, die die GroupId der Ressource bestimmte Gruppe darstellt. |
-| HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
+| URL-Pfad Parameter | groupId | String | Nein | GUID, die die Gruppen-ID der bestimmten Gruppenressource darstellt |
+| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
 
 ### <a name="response-body"></a>Antworttext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| Elemente | JSON-Array | Array von JSON-Objekten jedes, ein Mitglied der Gruppe darstellt. |
+| members | JSON-Array | Array von JSON-Objekten, die jeweils ein Mitglied der Gruppe darstellen |
 
-#### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
+#### <a name="sample-json-response"></a>JSON-Beispielantwort
 
 ```javascript
 {
@@ -51,25 +51,25 @@ Hinzufügen oder Löschen von Mitgliedern aus Unterhaltungsgruppen innerhalb Kai
 }
 ```
 
-## <a name="put-members"></a>PLATZIEREN Sie /members
+## <a name="put-members"></a>PUT/Members
 
     PUT {endpoint-url}/v1/groups/{groupId}/members
 
-### <a name="request-parameters"></a>Anforderungsparameter
+### <a name="request-parameters"></a>AnforderungsParameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| URL-Pfad-Parameter | groupId | String | Nein | GUID, die die GroupId der Ressource bestimmte Gruppe darstellt. |
-| HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
-| HTTP-Header | Content-Type | String | Nein | Wert: Application/Json |
+| URL-Pfad Parameter | groupId | String | Nein | GUID, die die Gruppen-ID der bestimmten Gruppenressource darstellt |
+| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| HTTP-Header | Content-Type | String | Nein | Wert: Application/JSON |
 
 ### <a name="request-body"></a>Anforderungstext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| Elemente | Zeichenfolgenarray | Array von gut formatierte Telefonnummern der neuen Elemente hinzugefügt werden soll |
+| members | Zeichenfolgenarray | Array von formatierten Telefonnummern neuer Mitglieder, die hinzugefügt werden sollen |
 
-#### <a name="sample-json-request"></a>Beispiel für JSON-Anforderung
+#### <a name="sample-json-request"></a>JSON-Beispielanforderung
 
 ```javascript
 {
@@ -84,9 +84,9 @@ Hinzufügen oder Löschen von Mitgliedern aus Unterhaltungsgruppen innerhalb Kai
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| result | Boolean | True, wenn alle Rufnummer erfolgreich an die Gruppe hinzugefügt wurden |
+| result | Boolean | True, wenn alle Telefonnummern erfolgreich der Gruppe hinzugefügt wurden |
 
-#### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
+#### <a name="sample-json-response"></a>JSON-Beispielantwort
 
 ```javascript
 {
@@ -98,21 +98,21 @@ Hinzufügen oder Löschen von Mitgliedern aus Unterhaltungsgruppen innerhalb Kai
 
     DELETE {endpoint-url}/v1/groups/{groupId}/members/{memberId}
 
-### <a name="request-parameters"></a>Anforderungsparameter
+### <a name="request-parameters"></a>AnforderungsParameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| URL-Pfad-Parameter | groupId | String | Nein | GUID, die die GroupId der Ressource bestimmte Gruppe darstellt. |
-| URL-Pfad-Parameter | memberId | String | Nein | GUID, die die MemberId des bestimmten Elements darstellt. |
-| HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
+| URL-Pfad Parameter | groupId | String | Nein | GUID, die die Gruppen-ID der bestimmten Gruppenressource darstellt |
+| URL-Pfad Parameter | memberId | String | Nein | GUID, die die Member-ID des bestimmten Members darstellt |
+| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
 
 ### <a name="response-body"></a>Antworttext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| result | Boolean | True, wenn das angegebene Element wurde erfolgreich aus der Gruppe entfernt |
+| result | Boolean | True, wenn das angegebene Element erfolgreich aus der Gruppe entfernt wurde |
 
-#### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
+#### <a name="sample-json-response"></a>JSON-Beispielantwort
 
 ```javascript
 {

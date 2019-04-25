@@ -1,61 +1,61 @@
-# <a name="kaizala-action-cards"></a>Kaizala Aktion Karten
+# <a name="kaizala-action-cards"></a>Kaizala-Aktionskarten
 
-Kaizala bietet Ihnen die Vielzahl von Aktion Karten "oder" Minisymbolleiste apps, die einfache und effiziente Verwaltung Ihrer täglichen Arbeit zu beeinträchtigen. Sie können die Karten Out-of-box(OOB)-Aktion verwenden oder Ihre eigenen benutzerdefinierten Kaizala Aktionen erstellen.
+Kaizala bietet Ihnen eine große Auswahl an Aktionskarten oder Mini-apps, die Ihre tägliche Arbeitsverwaltung einfach und effizient gestalten. Sie können die Out-of-Box (OOB)-Aktionskarten verwenden oder eigene angepasste Kaizala-Aktionen erstellen.
 
-Einige der Aktion OOB-Karten lauten wie folgt:
+Folgende OOB-Aktionskarten sind verfügbar:
 - Announcements
-- Schnelle Umfragen & Umfragen
-- Job-Aufgaben
-- Meeting-Einladung
-- Anwesenheit-Karte
-- Schulung-Karte
-- Standort-Karte
-- Ermittlung von weitere Aktionen 
+- Schnell Umfragen & Umfragen
+- Auftrag/Aufgaben
+- Besprechungseinladung
+- Anwesenheits Karte
+- Traning-Karte
+- Standort Karte
+- Weitere Aktionen 
 
 ## <a name="announcements"></a>Announcements
 
-Kaizala können Sie Informationen für die gesamte Organisation in eine Gehe über Ankündigung Karte freizugeben. Sie können Grafiken, Audio- oder Videodatei Nachrichten sowie Dokumente in Kaizala Ankündigungen hinzufügen.
+Kaizala ermöglicht es Ihnen, Informationen über die Ansage Karte mit ihrer gesamten Organisation zu teilen. Sie können Bilder, Tondokumente oder Videonachrichten sowie Dokumente in Kaizala-anSagen hinzufügen.
 
-Ereignisempfänger Ansagen können auf diese Ankündigungen über das Feature "gefällt mir" und Kommentare beteiligen.
+Empfänger der Ankündigungen können diese Ankündigungen über likes and comments Feature einbinden.
 
-![Ansagen] (Images/Actions1.png "Ansagen")
+![Ankündigungen] (Images/Actions1.png "Ankündigungen")
 
-## <a name="quick-polls--surveys"></a>Schnelle Umfragen & Umfragen
+## <a name="quick-polls--surveys"></a>Schnell Umfragen & Umfragen
 
-Kaizala enthält vordefinierte-Aktion für Umfragen und Umfragen, um Daten aus dem Feld schnell zu erfassen. Datenaggregation steht rechts vorhanden, ohne zu kompilieren.<p>Umfragen unterstützt Umfragen Unterstützung der einzelnen Frage mehrere Fragen und Fragetypen wie Mehrfachauswahl, Date-Typ, numerisch, Text usw..
+Kaizala bietet vordefinierte Aktionen für Umfragen und Umfragen, um schnell Daten aus dem Feld zu erfassen. Die Datenaggregation ist direkt verfügbar, ohne dass etwas kompiliert werden muss.<p>Während Umfragen einzelne Fragen unterstützen, unterstützen Umfragen mehrere Fragen und Fragetypen wie Multi-Choice, Date Type, numeric, Text etc.
 
-![Schnelle Umfragen & Umfragen] (Images/Actions2.png "Schnelle Umfragen & Umfragen")
+![Schnell Umfragen _AMP_ Umfragen] (Images/Actions2.png "Schnell Umfragen _AMP_ Umfragen")
 
-## <a name="jobtasks"></a>Job-Aufgaben 
-Kaizala können Sie eine oder mehrere Personen Aufträge oder Aufgaben zuweisen. Wenn Ihre Benutzer die Aufgaben ausführen, erhalten Sie eine Benachrichtigung. Darüber hinaus können Sie den Status der Ihnen zugeordneten Aufgaben unter **Ausstehende Aktionen** im Profil nachverfolgen.
+## <a name="jobtasks"></a>Auftrag/Aufgaben 
+Kaizala ermöglicht es Ihnen, einem oder mehreren Einzelpersonen Aufträge oder Aufgaben zuzuweisen. Wenn Ihre Benutzer die Aufgaben ausführen, erhalten Sie eine Benachrichtigung. Außerdem können Sie den Status aller zugewiesenen Vorgänge unter ausStehende Aktionen im Profil **nach** verfolgen.
 
 ![Auftrag oder Aufgaben] (Images/Actions3.png "Auftrag oder Aufgaben")
 
- ## <a name="attendance-card"></a>Anwesenheit-Karte
+ ## <a name="attendance-card"></a>Anwesenheits Karte
 
-Anwesenheit Karte ermöglicht Ihnen das Sammeln von Speicherort Koordinaten, mit oder ohne Foto von Mitgliedern der Gruppe. Dadurch wird sichergestellt, dass eine Person an bestimmten Position zu einem bestimmten Zeitpunkt vorhanden ist. Sie können den Bericht für den gleichen im Kaizala-Verwaltungsportal anzeigen.
+Anwesenheits Karte ermöglicht das Sammeln von Standortkoordinaten mit oder ohne Foto von Mitgliedern Ihrer Gruppe. Dadurch wird sichergestellt, dass eine Person zu einem bestimmten Zeitpunkt an einem bestimmten Ort anwesend ist. Sie können den Bericht für dasselbe in Kaizala-Verwaltungsportal anzeigen.
 
-![Anwesenheit-Karte] (Images/ActionsAttendance.PNG "Anwesenheit-Karte")
+![Anwesenheits Karte] (Images/ActionsAttendance.PNG "Anwesenheits Karte")
   
-## <a name="training-card"></a>Schulung-Karte
-Kaizala können Sie zusammen mit der Schulung Fragen/Quizfragen an Ihr Team Schulung Content senden. Bericht für den gleichen ist auf Kaizala Management Portal verfügbar. Wenn die Schulungsinhalte und Fragen bereit sind, können Sie schnell Schulungen zu Kaizala einrichten.
+## <a name="training-card"></a>Trainings Karte
+Kaizala ermöglicht es Ihnen, Schulungsinhalte zusammen mit Schulungsfragen/-Tests an Ihr Team zu senden. Bericht für das gleiche ist auf Kaizala-Verwaltungs Portal verfügbar. Sie können Schulungen auf Kaizala schnell einrichten, wenn Schulungsinhalte und-Fragen bereit sind.
 
-![Schulung-Karte] (Images/ActionsTraining.PNG "Schulung-Karte")
+![Trainings Karte] (Images/ActionsTraining.PNG "Trainings Karte")
 
-## <a name="location-card"></a>Standort-Karte
+## <a name="location-card"></a>Standort Karte
 
-Kaizala bietet verschiedene Speicherort basierend Karten, die lauten wie folgt:
+Kaizala bietet verschiedene standortbasierte Karten, die wie folgt aussehen:
 
-1. Auf einzelne Zuordnung aktuellen Speicherort des Ihre gesamte Gruppe verfolgen.
-2. Live Speicherort Koordinaten von einem oder mehreren Elementen zu verfolgen.
-3. Foto mit Speicherort einer Person, um sicherzustellen, dass Anwesenheitsinformationen an einem Standort zu verfolgen.
+1. Zum Nachverfolgen der aktuellen Position der gesamten Gruppe auf einer einzelnen Karte.
+2. , Um die Live-Standortkoordinaten eines oder mehrerer Mitglieder nachzuverfolgen.
+3. Zum Nachverfolgen des Fotos mit dem Ort einer Person, um die Anwesenheit an einem Ort sicherzustellen.
 
-![Standort-Karte] (Images/ActionsLocation.PNG "Standort-Karte")
+![Standort Karte] (Images/ActionsLocation.PNG "Standort Karte")
 
-## <a name="discover-more-actions"></a>Ermittlung von weitere Aktionen
+## <a name="discover-more-actions"></a>Weitere Aktionen
 
-Finden Sie unter Übersicht über die Ermittlung viele weitere Kaizala-Aktionen. Wenn Sie Ihre eigenen benutzerdefinierten Aktionen in Kaizala erstellen möchten, können Sie, die auch tun. 
+Weitere Kaizala-Aktionen finden Sie unter Discover. Wenn Sie in Kaizala eigene angepasste Aktionen erstellen möchten, können Sie dies auch tun. 
 
-![Ermittlung von weitere Aktionen] (Images/ActionsDiscoverMore.PNG "Ermittlung von weitere Aktionen")
+![Weitere Aktionen] (Images/ActionsDiscoverMore.PNG "Weitere Aktionen")
 
-Finden Sie ausführliche Informationen zum Anpassen und Erstellen eigener Aktion Karten [in diesem](../developer-platform.md) Abschnitt.
+In [diesem](../developer-platform.md) Abschnitt finden Sie weitere Informationen zum Anpassen und Erstellen Ihrer eigenen Aktionskarten.

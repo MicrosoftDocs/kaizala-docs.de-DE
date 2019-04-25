@@ -1,40 +1,40 @@
 ---
 title: /Messages
-description: Referenzartikel für API auf Abfragenachrichten gesendet, einer Gruppe
+description: Referenzartikel zur API zum Abfragen von Nachrichten, die an Ina Group gesendet wurden
 topic: Reference
 author: nitinjms
 ms.openlocfilehash: 8efad3236e852276e11c3052f98ac6f1d5541b0a
-ms.sourcegitcommit: 58839035fca768f92eda40974029208eb31dda7f
+ms.sourcegitcommit: 973f754fdb7c93381f808632f47fe66a46cc069e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/31/2018
-ms.locfileid: "27465701"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "33190712"
 ---
 # <a name="messages"></a>/Messages
 
-Zum Senden von Nachrichten an Unterhaltungsgruppen innerhalb Kaizala API-Endpunkt.
+API-Endpunkt zum Senden von Nachrichten an unterhaltungsgruppen innerhalb von Kaizala.
 
-## <a name="post-messages"></a>POST-/messages
+## <a name="post-messages"></a>POST/Messages
 
     POST {endpoint-url}/v1/groups/{groupId}/messages
 
-### <a name="request-parameters"></a>Anforderungsparameter
+### <a name="request-parameters"></a>AnforderungsParameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| URL-Pfad-Parameter | groupId | String | Nein | GUID, die die GroupId der Ressource bestimmte Gruppe darstellt. |
-| HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
-| HTTP-Header | Content-Type | String | Nein | Wert: Application/Json |
+| URL-Pfad Parameter | groupId | String | Nein | GUID, die die Gruppen-ID der bestimmten Gruppenressource darstellt |
+| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| HTTP-Header | Content-Type | String | Nein | Wert: Application/JSON |
 
 ### <a name="request-body"></a>Anforderungstext
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :--- | :--- |
-| message | String | Nein | Textnachricht (Max 1.000 Zeichen begrenzt) gesendet werden |
-| sendToAllSubscribers | Boolescher Wert | Ja | Standard: False. Gültige nur im Fall der GroupId öffentliche Gruppe gehört. True, um die Text-Nachricht an alle Abonnenten senden bewirkt, dass die das Token Benutzer Admin der Gruppe der öffentlich sein |
-| Abonnenten | String] | Ja | Jedes Element entspricht einer Mobiltelefonnummer (mit Ländercode. EG. +911999999999). Textnachricht wird nur für die ausgewählten Abonnenten gesendet werden. Für selektive Kommunikation für Abonnenten im Kontext eines öffentliche Gruppe verwendet werden soll |
+| message | String | Nein | Zu sendende Text Nachricht (maximale Grenze von 1000 Zeichen) |
+| sendToAllSubscribers | Boolescher Wert | Ja | Standard: false. Gilt nur für den Fall, dass die Gruppen-zu einer öffentlichen Gruppe gehört. True, um die Textnachricht an alle Abonnenten zu senden, für die der Benutzer des Tokens als Administrator der öffentlichen Gruppe erforderlich ist. |
+| Abonnenten | String [] | Ja | Jedes Element entspricht einer Mobiltelefonnummer (mit Landesvorwahl. EG. + 911999999999). Text Nachricht wird nur an die ausgewählten Abonnenten gesendet. Zur selektiven Kommunikation mit Abonnenten im Kontext einer öffentlichen Gruppe |
 
-#### <a name="sample-json-request"></a>Beispiel für JSON-Anforderung
+#### <a name="sample-json-request"></a>JSON-Beispielanforderung
 
 ```javascript
 {
@@ -47,9 +47,9 @@ Zum Senden von Nachrichten an Unterhaltungsgruppen innerhalb Kaizala API-Endpunk
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| referenceId | String | GUID, die den erfolgreichen Abschluss der Anforderung darstellt. |
+| referenceId | String | GUID, die den erfolgreichen Abschluss der Anforderung darstellt |
 
-#### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
+#### <a name="sample-json-response"></a>JSON-Beispielantwort
 
 ```javascript
 {

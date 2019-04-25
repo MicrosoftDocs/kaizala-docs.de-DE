@@ -4,11 +4,11 @@ description: Referenzartikel zur API zum Verwalten von Kaizala-Abonnements
 topic: Reference
 author: nitinjms
 ms.openlocfilehash: a2cdb74284f6980644366cf3b61740ea46389512
-ms.sourcegitcommit: 6014f31329a438ea02de677673049dc0d036bed9
+ms.sourcegitcommit: 973f754fdb7c93381f808632f47fe66a46cc069e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30405801"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "33190732"
 ---
 # <a name="apis-to-register--manage-webhooks"></a>APIs zum Registrieren von & Manage webhooks
 ## <a name="webhook"></a>/webhook
@@ -29,7 +29,7 @@ Um sicherzustellen, dass Ihr webhook-Dienstendpunkt authentisch ist und funktion
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| HTTP-Header | Access Token | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token || HTTP-Header | Content-Type | String | Nein | "application/json" |
+| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token || HTTP-Header | Content-Type | String | Nein | "application/json" |
 
 #### <a name="request-body"></a>Anforderungstext
 
@@ -91,7 +91,7 @@ Das webhook-Antwortschema für registrierte Ereignisse in Kaizala finden Sie [**
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| HTTP-Header | Access Token | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
 | Abfrageparameter | objectId | String | Nein | Bezeichner, der das Objekt darstellt, in dem der Kontext der webhooks erstellt werden muss. Für Objekttyp = Gruppe, ID der Gruppe, für ObjectType = Action, its Action-ID, für ObjectType = ActionPackage, its Action-Package-Identifier |
 | Abfrageparameter | objectType | String | Nein | Enum: "Group"/"action"/"ActionPackage" |
 
@@ -105,15 +105,15 @@ Das webhook-Antwortschema für registrierte Ereignisse in Kaizala finden Sie [**
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| id | Zeichenfolge | Webhook-ID |
+| id | String | Webhook-ID |
 | objectId | String | Objektbezeichner |
 | objectType | Zeichenfolge | Enum: "Group"/"action"/"ActionPackage" |
-| Ereignisse | String [] | Ereignisliste mit jedem Wert von "ActionCreated", "ActionResponse", "SurveyCreated", "JobCreated", "SurveyResponse", "JobResponse", "TextMessageCreated", "AttachmentCreated", "Ansage", "MemberAdded", "MemberRemoved", "GroupAdded"; " GroupRemoved " |
+| events | String [] | Ereignisliste mit jedem Wert von "ActionCreated", "ActionResponse", "SurveyCreated", "JobCreated", "SurveyResponse", "JobResponse", "TextMessageCreated", "AttachmentCreated", "Ansage", "MemberAdded", "MemberRemoved", "GroupAdded"; " GroupRemoved " |
 | callBackUrl | String | Rückruf-URL, an die die abonnierten Ereignisse benachrichtigt werden müssen |
 | callBackToken | String | Parameter, der im HTTP-Header "KZ-Callback-Token" mit jedem Rückruf des webHooks gesendet wird. |
 | callBackcontext | String | Parameter, der in der JSON-Nutzlast als "Context" gesendet wird und jeder Rückruf durch den webHook erfolgt. |
 | Gültigkeit | String | Gültigkeit für die webHook-Aktivität im EPOCH-Format. |
-| Active | Boolesch | True, wenn der Status von webhook aktiv ist |
+| Active | Boolean | True, wenn der Status von webhook aktiv ist |
 
 ##### <a name="sample-json-response"></a>JSON-Beispielantwort
 
@@ -157,7 +157,7 @@ Das webhook-Antwortschema für registrierte Ereignisse in Kaizala finden Sie [**
 #### <a name="request-parameters"></a>AnforderungsParameter
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| HTTP-Header | Access Token | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
 | Path-Parameter | webhook-Nr. | String | Nein | Webhook-ID |
 
 ### <a name="put-webhook"></a>PUT/webhook
@@ -170,7 +170,7 @@ Jeder Parameter für den webhook kann aktualisiert werden. Der AnforderungsText 
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| HTTP-Header | Access Token | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
 | Path-Parameter | webhook-Nr. | String | Nein | Webhook-ID |
 
 #### <a name="request-body"></a>Anforderungstext
@@ -184,7 +184,7 @@ Jeder Parameter für den webhook kann aktualisiert werden. Der AnforderungsText 
 | callBackToken | Zeichenfolge | Ja | Optionaler Parameter, den Sie festlegen können, der im HTTP-Header "KZ-Callback-Token" mit jedem Rückruf des webHooks gesendet wird. |
 | callBackcontext | Zeichenfolge | Ja | Optionaler Parameter, den Sie festlegen können, der in der JSON-Nutzlast als ' context ' gesendet wird, bei jedem Rückruf, der vom webHook ausgeführt wird. |
 | Gültigkeit | String | Ja | Gültigkeit für die webHook-Aktivität im EPOCH-Format. Standardwert ist 2 Jahre |
-| Aktiv | Boolesch | Ja | Ändern Sie den Zustand der webhook in aktiv, wenn der Wert true ist |
+| Aktiv | Boolean | Ja | Ändern Sie den Zustand der webhook in aktiv, wenn der Wert true ist |
 
 
 #### <a name="sample-request-body"></a>Beispiel für AnforderungsText

@@ -1,47 +1,47 @@
 # <a name="security-for-end-users"></a>Sicherheit für Endbenutzer
-## <a name="client-data-protection"></a>Client-Datenschutz
+## <a name="client-data-protection"></a>Client Datenschutz
 
-Alle Daten speichern auf Android-, IOS- und Windows-Clients sind auf interne Speichern ausgeführt, die Sandbox der Anwendung angeben, die Ihre app-Daten und Code-Ausführung von anderen apps isoliert. Berechtigungen zum Einschränken des Zugriffs auf Systemfeatures und Benutzerdaten dem Benutzer erteilt werden nur verwendet werden. Kaizala richtet alle die Plattform Standards Zugriff einschränken auf Clients Ressourcen basierend auf Berechtigungen gewährt. Keine externer Speicher World Lese- und Schreibzugriff, wodurch wird verwendet. MODE_WORLD_READABLE oder MODE_WORLD_WRITEABLE sind nicht aktiviert. 
+Alle Datenspeicher auf Android-, iOS-und Windows-Clients werden auf internen Speichern ausgeführt, die Anwendungs-Sandbox bereitstellen, die Ihre APP-Daten und die Codeausführung von anderen apps isoliert. Benutzer erteilte Berechtigungen zum Einschränken des Zugriffs auf System Features und Benutzerdaten werden nur verwendet. Kaizala folgt allen Plattformstandards, um den Zugriff auf Clientressourcen basierend auf den zulässigen Berechtigungen einzuschränken. Kein externer Speicher, der Lese-und Schreibzugriff auf Welt ermöglicht, wird verwendet. MODE_WORLD_READABLE oder MODE_WORLD_WRITEABLE sind nicht aktiviert. 
 
 ## <a name="authentication-and-authorization"></a>Authentifizierung und Autorisierung
 
-Microsoft Kaizala mobile app authentifiziert Benutzer auf Geräten mit Telefonnummer und eine Uhrzeit Password (OTP) für einfacher Anmeldung und Onboarding wünschen.  
+Microsoft Kaizala Mobile App authentifiziert die Benutzer auf Geräten, die Telefonnummer und einmaliges Kennwort (OTP) verwenden, um die Anmelde-und Onboarding-Erfahrung zu vereinfachen.  
 
-Aus Sicherheitsgründen gilt Kaizala auch mehrere Sicherheitsrichtlinien, um eine Telefonnummer an einem Gerät zu einer Zeit und die Anzahl der OTP Anforderungen pro Tag einschränken.  
+Aus Sicherheitsgründen wendet Kaizala auch mehrere Sicherheitsrichtlinien an, um eine Telefonnummer auf ein Gerät zu begrenzen und die Anzahl von OTP-Anforderungen an einem Tag.  
 
-Zugriff auf alle Kundendaten, wie Nachrichten, Dokumente, Medien usw. ist auf die relevanten Endbenutzer und Mitglieder der Gruppe Organisations-Administratoren beschränkt. 
+Der Zugriff auf alle Kundendaten wie Nachrichten, Dokumente, Medien usw. ist auf die relevanten Endbenutzer, Gruppenmitglieder und Organisationsadministratoren beschränkt. 
 
-Mehrstufige Authentifizierung für die Kaizala app-Benutzer kann mithilfe von Gruppenrichtlinien aktiviert werden. Ein Gruppe oder des Mandanten Admin erzwingen möglicherweise zusätzliche Anmeldung für Office 365 (AAD) um eine Gruppe Kaizala öffnen können. Dies bedeutet, dass einen Benutzer darüber hinaus müssen sich anmelden AAD verknüpft Konto in der mobilen app Kaizala, Telefonnummer & OTP. Erst nach der Anmeldung mit AAD Konto verknüpft, können vom Benutzer für den konfigurierten Gruppe die Nachrichten in der Gruppe angezeigt werden. 
+Die mehrstufige Authentifizierung für die Benutzer der Kaizala-App kann über Gruppenrichtlinien aktiviert werden. Ein Gruppen-oder mandantenadministrator kann zusätzliche Office 365-Kontonamen (AAD) erzwingen, um eine Kaizala-Gruppe öffnen zu können. Dies hat zur Folge, dass ein Benutzer sich zusätzlich zur Telefonnummer & OTP bei AAD-verknüpften Konto in Kaizala Mobile-App anmelden muss. Bis der Benutzer sich mit AAD verknüpften Konto anmeldet, können die Nachrichten in der Gruppe vom Benutzer für die konfigurierte Gruppe nicht angezeigt werden. 
 
-Kaizala-Verwaltungsportal verwendet Azure Active Directory Services-Authentifizierung für sicheren Zugriff und Verwaltung von Unternehmensdaten. Dieser Dienst wird von Millionen von Kunden weltweit verwendet zum Hosten ihrer Geschäftsdaten sicher in Office 365. 
+Das Kaizala-Verwaltungs Portal verwendet die Azure Active Directory Services-Authentifizierung für den sicheren Zugriff und die Verwaltung von Organisationsdaten. Dieser Dienst wird von Millionen Kunden weltweit verwendet, um Ihre Geschäftsdaten sicher in Office 365 zu hosten. 
 
-In Kaizala ist die vollständige Kontrolle über die Verwaltung und Mitgliedschaften nur die Gruppe und die entsprechenden Organisations-Administratoren beschränkt. 
+In Kaizala ist die vollständige Steuerung der Gruppenverwaltung und Mitgliedschaften nur für Gruppen-und Organisationsadministratoren zulässig. 
 
-## <a name="kaizala-group-policies"></a>Kaizala von Gruppenrichtlinien
+## <a name="kaizala-group-policies"></a>Kaizala-Gruppenrichtlinien
 
-Kaizala bietet die Möglichkeit für Gruppe und Mandanten Administratoren, die den Datenfluss und Verhalten in eine einzelne oder alle Organisationsgruppen steuern. Dies sind die verschiedenen Gruppenrichtlinien, die von Gruppen- und Mandanten Administratoren zur Verbesserung der Sicherheit konfiguriert werden können: 
+Kaizala bietet Gruppen-und mandantenadministratoren die Möglichkeit, den Datenfluss und das Verhalten innerhalb einer einzelnen oder aller Organisationsgruppen zu steuern. Nachfolgend finden Sie die verschiedenen Gruppenrichtlinien, die von Gruppen-und mandantenadministratoren konfiguriert werden können, um die Datensicherheit zu verbessern: 
 
   
-- Einschränken Sie Weiterleiten von Nachrichten, Anlagen und Kaizala Aktionen aus der aktuellen Gruppe oder seine Organisationseinheit 
-- Einschränken Sie kopieren von Inhalt für Nachrichten, Anlagen und Kaizala Aktionen 
-- Einschränken Sie gemeinsame Nutzung von Inhalten für Nachrichten, Anlagen und Kaizala Aktionen 
-- Aktivieren der mehrstufigen Authentifizierung für Mitglieder über solche AAD muss der Benutzer melden Sie sich mit ihrer Organisation AAD Konto Nachrichten innerhalb der Gruppe anzeigen. 
-- Aktivieren Sie Microsoft Intune für erweiterte Richtlinien diese Vorgaben unter PIN-Nummer nach der Leerlaufzeit. Wenn Benutzer Intune aktiviert, kann die Gruppe nicht vom Benutzer geöffnet sein. 
+- Einschränken der Weiterleitung von Nachrichten-, Anlage-und Kaizala-Aktionen aus der aktuellen Gruppe oder deren Organisationsgruppen 
+- Einschränken des Kopierens von Inhalten für Nachrichten, Anlagen und Kaizala-Aktionen 
+- Einschränken der Freigabe von Inhalten für Nachrichten, Anlagen und Kaizala-Aktionen 
+- Aktivieren Sie mehrstufige Authentifizierung für Mitglieder über AAD, sodass der Benutzer sich mit seinem Organisations AAD-Konto anmelden muss, um Nachrichten innerhalb der Gruppe anzuzeigen. 
+- Aktivieren Sie Microsoft InTune für Erweiterte Richtlinien, beispielsweise PIN nach der Leerlaufdauer. Wenn der Benutzer InTune nicht aktiviert hat, wird die Gruppe möglicherweise nicht vom Benutzer geöffnet. 
 
-## <a name="mobile-application-management-with-microsoft-intune"></a>Verwaltung von mobilen mit Microsoft Intune
+## <a name="mobile-application-management-with-microsoft-intune"></a>Mobile Anwendungsverwaltung mit Microsoft InTune
 
-Erweiterte anwendungsverwaltung kann die mobile app Kaizala mit Microsoft Intune Containern werden. Microsoft Kaizala Intune SDK systemintern integriert ist und bietet Unterstützung für erste Anbieter für bestimmte erweiterte Intune-Richtlinien, die unten aufgeführten:
-    - Benötigen Sie PIN-Zugriff in der mobilen app für erweiterte Clientsicherheit (engl.) 
-    - Block verwaltete apps Ausführung auf Jailbroken oder Stamm-Geräten 
-    - Einschränken Ausschneiden, kopieren, fügen Sie ihn mit anderen verwalteten apps • Restrict-app zum Übertragen von Daten und andere verwaltete apps 
-    - Bildschirmaufnahme blockieren oder Bildschirmfreigabe 
-    - Android OS Mindestversion erzwingen 
-    - Einschränken von Webinhalten in verwalteten Browser anzeigen
-    - Offline Intervall, bevor die Daten gelöscht wird 
+Für die Erweiterte Anwendungsverwaltung kann die Mobile Kaizala-App mit Microsoft InTune Containern werden. Microsoft Kaizala ist nativ in das InTune SDK integriert und bietet Erstanbieter Support für erweiterte InTune-spezifische Richtlinien, die nachfolgend aufgeführt sind:
+    - PIN-Zugriff auf Mobile App für verbesserte Clientsicherheit erforderlich 
+    - Blockieren der Ausführung von verwalteten Apps auf per Jailbreak oder Rooting manipulierten Geräten 
+    - Cut, Copy, Paste mit anderen verwalteten apps einschränken • Einschränken der APP zum Übertragen von Daten zu/von anderen verwalteten apps 
+    - Blockieren der Bildschirmaufzeichnung oder Bildschirmfreigabe 
+    - Erzwingen einer minimalen Android-Betriebssystemversion 
+    - Anzeige von Webinhalten auf den Managed Browser beschränken
+    - Offline Intervall vor dem Löschen der Daten 
 
-Die Richtlinien Intune können auf einfache Weise zentral über Intune Portal, verwaltet werden, wie unten dargestellt:  
+Die Intune-Richtlinien können auf einfache Weise zentral über das InTune-Portal verwaltet werden, wie im folgenden dargestellt:  
 
-![Intune.PNG](Images/Intune.png)
+![InTune. PNG](Images/Intune.png)
 
 
 

@@ -1,27 +1,27 @@
-# <a name="office-365-compliance-framework-and-microsoft-kaizala"></a>Office 365 Compliance-Framework und Microsoft Kaizala
+# <a name="office-365-compliance-framework-and-microsoft-kaizala"></a>Office 365 Compliance Framework und Microsoft Kaizala
 
-Office 365 Compliance-Framework Dokument werden die Einhaltung von Bestimmungen Klassifizierung Berechtigungsstufen mit erforderlichen Steuerelemente für verschiedene Microsoft online Services beschrieben. Microsoft Kaizala folgt den gleichen Compliance Rahmen zum Verwalten und Betrieb des Diensts sowie um Kundendaten behandeln. Derzeit ist Microsoft Kaizala zertifiziert für Compliance-Kategorie eine interne Teams für Microsoft Office 365 Compliance, die für die Verwaltung dieses Frameworks verantwortlich ist. Dies bedeutet im Wesentlichen, dass Microsoft Kaizala starken Datenschutz und Sicherheit Zusagen mit umfassende hat-
+Office 365 Compliance Framework-Dokument beschreibt die Konformitäts Einstufungs Stufen mit den erforderlichen Steuerelementen für verschiedene Microsoft Online Services. Microsoft Kaizala folgt dem gleichen Compliance-Framework, um & zu verwalten, den Dienst zu betreiben, sowie um Kundendaten zu verarbeiten. Derzeit ist Microsoft Kaizala für die Compliance-Kategorie A durch ein internes Microsoft Office 365 Compliance-Team zertifiziert, das für die Verwaltung dieses Frameworks zuständig ist. Dies bedeutet im Wesentlichen, dass Microsoft Kaizala starke Datenschutz-und Sicherheitszusagen mit Promise-
 
-* Keine Mining von Kundendaten für Werbung 
-* Keine freiwillig zur Offenlegung für Behörden 
+* Kein Mining von Kundendaten für Werbung 
+* Keine freiwillige Offenlegung an Strafverfolgungsbehörden 
 
-## <a name="employee-training"></a>Schulung für Mitarbeiter
+## <a name="employee-training"></a>Mitarbeiterschulung
 
-Zwar sehr minimaler Benutzerinteraktion beibehalten den Dienst ausgeführt, sind alle Ingenieure, die auf das Produkt arbeiten erforderlich, um die Sicherheit und Datenschutz zur Förderung des Bekanntheitsgrads Schulung unterzogen werden. Microsoft stellt außerdem sicher, dass alle Mitarbeiter, die Annahme der Verantwortung für private Anforderungen Zertifizierung. 
+Während es nur sehr wenige menschliche Eingriffe gibt, um den Dienst zu halten, müssen alle Techniker, die an dem Produkt arbeiten, die Sicherheits-und Datenschutz Schulung durchlaufen. Microsoft stellt außerdem sicher, dass alle Mitarbeiter die Akzeptanz der Zuständigkeiten für Datenschutzanforderungen zertifizieren. 
 
-## <a name="kaizala-compliance-features-for-customers"></a>Kaizala Compliance-Funktionen für Kunden
+## <a name="kaizala-compliance-features-for-customers"></a>Kaizala-Compliance-Funktionen für Kunden
 
-Microsoft Kaizala Dienste und Daten werden auf lokalen Microsoft Azure Rechenzentren für Indien Kunden gehostet. Alle Nachrichten, Anlagen und Aktionen auf Kaizala Gruppen für Indien Mobiltelefonnummern freigegeben werden nur in der Rechenzentren befindet sich in Indien gespeichert.  
-Kaizala bietet auch Funktionen, die Kunden ihre eigenen Auflagen zu helfen. Folgen oberen Compliance verwandte Features, die derzeit im Produkt verfügbar: 
+Microsoft Kaizala-Dienste und-Daten werden in lokalen Microsoft Azure-Rechenzentren für indische Kunden gehostet. Alle Nachrichten, Anlagen und Aktionen, die für Kaizala-Gruppen für indische Mobiltelefonnummern freigegeben sind, werden nur in den Rechenzentren in Indien gespeichert.  
+Kaizala bietet außerdem Funktionen, mit denen Kunden ihre eigenen Compliance-Anforderungen erfüllen können. Im folgenden finden Sie die wichtigsten kompatibilitätsbezogenen Features, die derzeit im Produkt verfügbar sind: 
 
-**1. zeigen Sie an und verwalten Sie alle Kaizala Benutzer mit dem Datenzugriff**
+**1. anzeigen und Verwalten aller Kaizala-Benutzer mit Datenzugriff**
 
-Kaizala verwaltet eine Organisation bestimmte Kaizala Benutzer Liste (KUL), das wie ein Telefon-Verzeichnis für alle seiner Kaizala Benutzer, für die Administratoren für die zentrale Verwaltung ist. Jeder Benutzer, der Mitglied der Organisationsgruppe in Kaizala, wird wird automatisch Mitglied KUL. Dies bedeutet, dass es sich um eine Liste aller Benutzer mit Kaizala ist mit potenziellen Zugriff auf Daten Organisationen d. h. alle Member ihrer Organisation Gruppen. Administratoren können zusätzliche benutzerdefinierte Attribute speziell für ihre Organisation wie Aadhar No, Position, Bezeichnung, usw. zur leichteren Identifikation zuordnen. Es ist auch möglich, einen Benutzer aus den KUL, löschen, die automatisch die Gruppenmitgliedschaften für den Benutzer entzieht.  
+Kaizala verwaltet eine organisationsspezifische Kaizala-Benutzerliste (KUL), die wie ein telefonbasiertes Verzeichnis für alle Ihre Kaizala-Benutzer ist, für die Administratoren für die zentrale Verwaltung. Jeder Benutzer, der Mitglied der Organisationsgruppe in Kaizala wird, wird automatisch Mitglied von KUL. Dies bedeutet, dass es sich um eine Liste aller Kaizala-Benutzer handelt, die potenziellen Zugriff auf Organisationen-Daten haben, also allen Mitgliedern ihrer Organisationsgruppen. Administratoren können zusätzliche benutzerdefinierte Attribute zuordnen, die für Ihre Organisation spezifisch sind, beispielsweise Aadhar Nein, Standort, Bezeichnung usw. zur leichteren Identifizierung. Es ist auch möglich, einen Benutzer aus KUL zu löschen, wodurch die Gruppenmitgliedschaften für den Benutzer automatisch aufgehoben werden.  
 
 **2. Entfernen eines Benutzers aus allen Organisationsgruppen** 
 
-Kaizala-Verwaltungsportal bietet Advance-Benutzer und Gruppe Management-Funktionen, die für Administratoren zu integrierten und Exit-Mitarbeitern und Partnern vereinfacht. Durch Suchen des Telefonnummer des Benutzers, listet Portal alle Gruppen, denen ein Benutzer Mitglied ist. Administrator kann auswählen, um einen Benutzer aus einigen entfernen oder alle Gruppen in einem wechseln. 
+Das Kaizala-Verwaltungsportal bietet erweiterte Benutzer-und Gruppenverwaltungsfunktionen, die Administratoren das Onboarding und den Ausstieg von Mitarbeitern und Partnern erleichtern. Bei der Suche nach der Telefonnummer eines Benutzers listet Portal alle Gruppen auf, denen ein Benutzer angehört. Der Administrator kann einen Benutzer aus einer oder mehreren Gruppen entfernen. 
 
-**3. Löschung von Daten aus der Client-Gerät**
+**3. Daten vom Clientgerät löschen**
 
-Wenn ein Benutzer verlässt oder wird von einer Organisationsgruppe entfernt, Kaizala automatisch löscht alle Nachrichten, Kaizala Aktionen und Anlagen aus dem Client-Gerät. Dies ist ein einzigartiges Merkmal in Kaizala die macht es möglich für Organisationen, Benutzer aus die Organisationsdaten zu stehlen und eignet sich insbesondere in schädlichen Mitarbeiter oder Partner-Beendigung Szenarien. Kaizala auch bietet sichere und Öffnen von REST-APIs, um eine solche Szenarien in erweiterten geschäftlichen Abläufe aus externen Systemen programmgesteuert zu behandeln. Es wird weiterhin zusätzliche Sicherheit und Compliance-Funktionen in das Produkt basierend auf Feedback von Kunden zu erstellen.
+Wenn ein Benutzer eine Organisationsgruppe verlässt oder aus dieser entfernt, löscht Kaizala automatisch alle Nachrichten, Kaizala-Aktionen und-Anlagen vom Clientgerät. Dies ist eine einzigartige Funktion in Kaizala, die es Organisationen ermöglicht, Benutzer daran zu steuern, die Organisationsdaten zu stehlen, und insbesondere in feindlichen Szenarien für Mitarbeiter oder Partner Kündigungen nützlich ist. Kaizala bietet auch sichere und geöffnete REST-APIs, um solche Szenarien in erweiterten Geschäfts Strömen von externen Systemen programmgesteuert zu behandeln. Basierend auf dem Feedback unserer Kunden werden wir weiterhin zusätzliche Sicherheits-und Compliance-Funktionen in das Produkt integrieren.

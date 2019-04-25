@@ -1,42 +1,42 @@
-# <a name="generate-tenant-level-user-token"></a>Benutzertoken auf Mandantenebene generieren
+# <a name="generate-tenant-level-user-token"></a>Generieren eines Benutzertokens auf Mandantenebene
 
-Aktualisierungstoken auf Mandantenebene Benutzer kann verwendet werden, gewähren Zugriff zu Gruppen des Benutzers, in dem Benutzer Administrator ist Für einen Benutzer Mandanten gewährt dieses Token Zugriff auf alle Gruppen für eine Organisation.
+Ein Benutzer Aktualisierungstoken auf Mandantenebene kann verwendet werden, um Zugriff auf alle Gruppen des Benutzers zu gewähren, in denen der Benutzer ein Administrator ist. Für einen Mandanten Benutzer gewährt dieses Token Zugriff auf alle Gruppen für eine Organisation.
 
-## <a name="steps-to-generate-tenant-level-user-token"></a>Schritte zum Generieren von Benutzertoken auf Mandantenebene
-*   **Schritt 1: Entwickler registriert einen Connector**
+## <a name="steps-to-generate-tenant-level-user-token"></a>Schritte zum Generieren des Benutzertokens auf Mandantenebene
+*   **Schritt 1: Registrieren eines Connectors für Entwickler**
 
-    *   Entwickler navigiert zu Kaizala-Verwaltungsportal @https://manage.kaiza.la/
-    *   Melden Sie sich mit einem vorhandenen Office365-Konto
-    *   Registrieren Sie, indem Sie durch Tippen auf "Hinzufügen einer Telefonnummer" eine Rufnummer im Portal
-        *   Geben Sie Telefonnummer
-        *   Tippen Sie auf "PIN generieren"
-        *   Überprüfen Sie die PIN über eine SMS auf die angegebene Telefonnummer an empfangen
-    *   Tippen Sie auf "Connectors" im linken Menü
-    *   Tippen Sie auf "Connector hinzufügen"
-    *   Registrieren Sie einen Connector für das 3. Partei-System, das die API verwenden
-        *   Geben Sie den Namen des Connectors und andere Details. Tippen Sie auf Weiter.
-        *   Wählen Sie Berechtigungen, mit denen bestimmt ist für den Zugriff auf den Connector
-        *   Tippen Sie auf Connector erstellen
-    *   Beachten Sie die ID & geheimen Schlüssel, die generiert abrufen und auf dem Portal angezeigt
+    *   Entwickler navigiert zu Kaizala Management Portal @https://manage.kaiza.la/
+    *   Anmelden mit einem vorhandenen Office365-Konto
+    *   Registrieren Sie eine Telefonnummer im Portal, indem Sie auf "Telefonnummer hinzufügen" tippen.
+        *   Telefonnummer eingeben
+        *   Tippen Sie auf "PIN generieren".
+        *   ÜberPrüfen der empfangenen PIN über eine SMS unter der angegebenen Telefonnummer
+    *   Tippen Sie im linken Menü auf "Connectors".
+    *   Tippen Sie auf "Connector hinzufügen".
+    *   Registrieren eines Connectors für das Drittanbietersystem, das die API verwendet
+        *   Geben Sie den Namen des Connectors und weitere Details ein. Tippen Sie auf weiter
+        *   Wählen Sie Berechtigungen aus, die für den Connector vorgesehen sind, um Zugriff auf
+        *   Tippen Sie auf Verbinder erstellen.
+    *   Beachten Sie die ID & Secret, die generiert und im Portal angezeigt werden.
 
-*   **Schritt 2: Benutzer Mandanten "gewährt" den Connector Zugriff auf alle Gruppen, denen er Administrator ist**
+*   **Schritt 2: Mandanten Benutzer "erteilt" den Connector-Zugriff auf alle Gruppen, für die er Administrator ist**
 
-    *   Benutzer navigiert zu Kaizala-Verwaltungsportal @https://manage.kaiza.la/
-    *   Melden Sie sich mit einer vorhandenen Office365 Konto (SKU TBD)
-    *   Registrieren Sie, indem Sie durch Tippen auf "Hinzufügen einer Telefonnummer" eine Rufnummer im Portal
-        *   Geben Sie Telefonnummer
-        *   Tippen Sie auf "PIN generieren"
-        *   Überprüfen Sie die PIN über eine SMS auf die angegebene Telefonnummer an empfangen
-    *   Tippen Sie auf "Connectors" im linken Menü
-    *   Tippen Sie auf den Namen des Connectors ein, die vom Connector zugegriffen werden muss
-    *   Tippen Sie auf "Benutzertoken generieren"
-    *   Beachten Sie die Refresh Token, die generiert dient zum Abrufen und auf dem Portal angezeigt
+    *   Benutzer navigiert zu Kaizala Management Portal @https://manage.kaiza.la/
+    *   Anmelden mit einem vorhandenen Office365-Konto (SKU-festgelegt)
+    *   Registrieren Sie eine Telefonnummer im Portal, indem Sie auf "Telefonnummer hinzufügen" tippen.
+        *   Telefonnummer eingeben
+        *   Tippen Sie auf "PIN generieren".
+        *   ÜberPrüfen der empfangenen PIN über eine SMS unter der angegebenen Telefonnummer
+    *   Tippen Sie im linken Menü auf "Connectors".
+    *   Tippen Sie auf den Namen des Connectors, auf den der Connector zugreifen muss.
+    *   Tippen Sie auf "Benutzertoken generieren".
+    *   Hinweis das Aktualisierungs Token, das generiert und im Portal angezeigt wird
 
-*   **Schritt 3: Benutzer teilt Token aktualisieren, mit der App-Entwickler**
+*   **Schritt 3: Benutzer Freigabe des Aktualisierungs Tokens mit dem App-Entwickler**
 
-    *   Admin muss manuell freigeben der Aktualisierungstoken erhalten in Schritt2 mit dem app-Entwickler
+    *   Der Administrator muss das in Schritt 2 erhaltene Aktualisierungstoken manuell mit dem App-Entwickler freigeben.
 
-*   **Schritt 4: App-Entwickler ruft der Kaizala Plattform Rest-API zum Generieren von Access-Token**
+*   **Schritt 4: App-Entwickler Ruft die Kaizala-Plattform-Rest-API zum Generieren von Zugriffs Token**
 
-    *   Entwickler kann nun die Aktualisierungstoken verwenden. eine Connector-ID und geheimen Schlüssel Connector aufrufen, die REST-API Bankkontodaten zum Generieren von Access Token (Weitere Informationen weiter unten)
+    *   Entwickler können nun das Aktualisierungstoken verwenden. eine Connector-ID und ein Connector Secret, um die REST-API aufzurufen, um Zugriffs Token zu generieren (Weitere Informationen finden Sie weiter unten)
 

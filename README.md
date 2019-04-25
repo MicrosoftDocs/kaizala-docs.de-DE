@@ -1,30 +1,30 @@
-# <a name="readme"></a>INFODATEI
+# <a name="readme"></a>README
 
-Vielen Dank für Ihr Interesse an [Microsoft Kaizala Entwicklerdokumentation](Articles/index.md).
+Vielen Dank für Ihr Interesse an der [Microsoft Kaizala-Entwicklerdokumentation](Articles/index.md).
 
-> **Sie haben keinen Kaizala? Jetzt herunterladen der app für Windows Phone, Android & iOS. [Sieht wie](Articles/install.md).**
+> **Sie haben keine Kaizala? Laden Sie die APP jetzt für Windows Phone, Android & iOS. [So wird es gemacht](Articles/install.md).**
 
-Beachten Sie, dass Entwickler-Plattform von Microsoft Kaizala ein gültiges Kaizala Pro oder Office365 Organisationseinheit Abonnement erfordert.
+Beachten Sie, dass die Microsoft Kaizala-Entwicklerplattform ein gültiges Kaizala pro-oder Office365-Organisations Abonnement erfordert.
 
-> **[Microsoft Kaizala Developer-Dokumentation](Articles/index.md)**
+> **[Microsoft Kaizala-Entwicklerdokumentation](Articles/index.md)**
 
-Wir arbeiten ständig um der Plattform für Entwickler zu optimieren. Wenn Sie sich auf die Änderungen aktualisiert beibehalten möchten, geben Sie eine e-Mail an kaizalaDev@microsoft.com drop und wir bleiben Sie darüber informiert.
+Wir arbeiten ständig an der Verbesserung der Entwickler plattformumgebung. Wenn Sie sich über die Änderungen auf dem laufenden halten möchten, senden Sie eine e-Mail an kaizalaDev@microsoft.com, und wir werden Sie auf dem laufenden halten.
 
 
 
 
 ## <a name="legal-notices"></a>Rechtliche Hinweise
 
-Microsoft und alle Mitarbeiter Sie keine Lizenz für die Microsoft-Dokumentation und andere Inhalte in dieses Repository unter der [Creative Commons Zuweisung 4.0 International öffentliche Lizenz](https://creativecommons.org/licenses/by/4.0/legalcode)finden Sie in [der Datei](LICENSE) , und gewähren Sie eine Lizenz für ein beliebiges im Repository unter der [Lizenz MIT](https://opensource.org/licenses/MIT)Code, finden Sie unter der [Lizenz -](LICENSE-CODE) Codedatei.
+Microsoft und alle Mitwirkenden gewähren Ihnen eine Lizenz für die Microsoft-Dokumentation und andere Inhalte in diesem Repository unter der [Creative Commons attribution 4,0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode), finden Sie in der [Lizenz](LICENSE) Datei, und gewähren Sie eine Lizenz für alle Code im Repository unter der [mit-Lizenz](https://opensource.org/licenses/MIT)finden Sie in der [Lizenzcode](LICENSE-CODE) Datei.
 
-Microsoft, Windows, Microsoft Azure und/oder anderen Microsoft-Produkte und Dienste in der Dokumentation verwiesen wird möglicherweise Marken oder Marken der Microsoft in den USA und/oder anderen Ländern.
-Die Lizenzen für dieses Projekt erteilen Sie keine Rechte für alle Microsoft-Namen, Logos oder Marken verwendet werden.
-Microsofts allgemeinen Richtlinien der Marke finden Sie unter http://go.microsoft.com/fwlink/?LinkID=254653.
+Microsoft, Windows, Microsoft Azure und/oder andere Microsoft-Produkte und-Dienste, auf die in der Dokumentation verwiesen wird, sind möglicherweise Marken oder eingetragene Marken von Microsoft in den USA und/oder anderen Ländern.
+Die Lizenzen für dieses Projekt gewähren Ihnen keine Rechte zur Verwendung von Microsoft-Namen,-Logos oder-Marken.
+Die allgemeinen Markenrichtlinien von Microsoft finden Sie unter http://go.microsoft.com/fwlink/?LinkID=254653.
 
-Informationen zum Datenschutz finden Sie unterhttps://privacy.microsoft.com/en-us/
+Datenschutzinformationen finden Sie unterhttps://privacy.microsoft.com/en-us/
 
-Microsoft und alle Autoren Reserve alle anderen Rechte, ob unter ihren jeweiligen Urheberrechte, Patente, oder Marken, durch Verwirkung, Verwirkung noch anderweitig.
+Microsoft und alle Mitwirkenden behalten alle anderen Rechte, sei es unter ihren jeweiligen Urheberrechten, Patenten oder Marken, ob implizit, Estoppel oder anderweitig.
 
-## <a name="code-of-conduct"></a>Code der Verbindung
+## <a name="code-of-conduct"></a>Verhaltensregeln
 
 In diesem Projekt wurden die [Microsoft Open Source-Verhaltensregeln](https://opensource.microsoft.com/codeofconduct/) übernommen. Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Verhaltensregeln](https://opensource.microsoft.com/codeofconduct/faq/), oder richten Sie Ihre Fragen oder Kommentare an [opencode@microsoft.com](mailto:opencode@microsoft.com).

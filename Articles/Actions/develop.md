@@ -1,59 +1,59 @@
-# <a name="developing-a-new-kaizala-action"></a>Entwickeln eine neue Kaizala-Aktion
+# <a name="developing-a-new-kaizala-action"></a>Entwickeln einer neuen Kaizala-Aktion
 
-Ein Paket Kaizala-Aktion ist eine Zip-Datei, die alle benötigte Manifest und Resource-Dateien im Stammverzeichnis enthält.
+Ein Kaizala-Aktionspaket ist eine ZIP-Datei, die alle requried-Manifest-und-Ressourcendateien im Stammverzeichnis enthält.
 
-Erstellen Sie zunächst einen neuen Ordner auf Ihrem PC zu vereinfachen Arbeitsverzeichnis.
+Erstellen Sie zunächst einen neuen Ordner auf Ihrem PC, um ihn zu Ihrem Arbeitsverzeichnis zu machen.
 
-Sie benötigen einen Code-Editor arbeiten mit verschiedenen Arten von Ressourcen & manifest-Dateien.
+Sie benötigen einen Code-Editor, um mit verschiedenen Arten von Webressourcen & Manifestdateien arbeiten.
 
->   Es wird empfohlen, den Visual Studio-Code-Editor. Sie können es [hier](https://code.visualstudio.com/) herunterladen.
+>   Wir empfehlen den Code-Editor von Visual Studio. Sie können es von [hier](https://code.visualstudio.com/) herunterladen.
 
-## <a name="defining-the-app-model"></a>Definieren das App-Modell
+## <a name="defining-the-app-model"></a>Definieren des App-Modells
 
-Die Kaizala Aktionen unterstützt derzeit Formular basiert von Datenmodellen, die zum Erstellen, erfassen und das Aggregieren von Daten mithilfe der Kaizala Aggregation Dienste verwendet werden können.
+Die Kaizala-Aktionen unterstützen derzeit formularbasierte Datenmodelle, die zum Erstellen, sammeln und Aggregieren von Daten mithilfe der Kaizala-Aggregations Dienste verwendet werden können.
 
-Daher müssen Sie zunächst die müssen Sie ein Form-Objekt erstellen, um Fragen zu definieren.
+Daher müssen Sie zunächst die "Fragen" definieren, die Sie zum Erstellen eines Form-Objekts hinzufügen müssen.
 
-Verweisen Sie auf die [app Modellschema JSON](appModel_schema.md) , um Ihre Aktion app-Modell erstellen.
+Verwenden Sie das [JSON-Schema des App-Modells](appModel_schema.md) , um das App-Modell Ihrer Aktion zu erstellen.
 
-## <a name="define-the-creation-view"></a>Definieren der Ansicht erstellen
+## <a name="define-the-creation-view"></a>Definieren der ErstellungsAnsicht
 
-Wenn eine neue Instanz der Kaizala Aktion aus der app-Aktion Palette aufgerufen wird, die HTML-Ressource gekennzeichnet, wie die CreationView gerendert wird. Das Ziel dieser Ansicht erstellen ist, erstellen Sie eine neue Instanz des Form-Objekts wie in der app-Modell definiert. 
+Wenn eine neue Instanz der Kaizala-Aktion aus der Aktions Palette der app aufgerufen wird, wird die als CreationView gekennzeichnete HTML-Ressource gerendert. Das Ziel dieser Erstellungsansicht besteht darin, eine neue Instanz des Form-Objekts zu erstellen, wie im App-Modell definiert. 
 
-Zur Interaktion mit der Kaizala Aggregation-Dienste und erstellen neue Formularinstanz, können Sie auf die APIs im [KASClient JS SDK](KASClient/README.md)verweisen. Sie müssen die [KASClient JS-Datei](https://manage.kaiza.la/MiniApps/DownloadSDK) herunterladen und es in Ihr Paket aufnehmen.
+Um mit den Kaizala-Aggregations Diensten zu interagieren und die neue Formularinstanz zu erstellen, können Sie auf die APIs im [KASCLIENT js SDK](KASClient/README.md)verweisen. Sie müssen die [KASCLIENT JS-Datei](https://manage.kaiza.la/MiniApps/DownloadSDK) herunterladen und in Ihr Paket aufnehmen.
 
-Erstellen Sie eine neue HTML-Datei, die in dieser Ansicht Erstellung darstellt. In der entsprechenden Javascript-Datei Aufrufen des KASClient JS-SDK, und erstellen Sie ein Form-Objekt.
+Erstellen Sie eine neue HTML-Datei, die diese Erstellungsansicht darstellt. Rufen Sie in der entsprechenden JavaScript-Datei das KASClient JS-SDK auf, und erstellen Sie ein Form-Objekt.
 
-## <a name="create-the-package-manifest-file"></a>Erstellen Sie die Paket-Manifestdatei
+## <a name="create-the-package-manifest-file"></a>Erstellen der Paket Manifestdatei
 
-Nun, Sie haben eine Semblance der verfügbare zu erreichen und eine Ansicht – erfolgreich erstellt haben können Sie mit dem Erstellen Ihrer Paket-Manifestdatei.
+Nachdem Sie nun einen Anschein haben, was Sie erreichen möchten und eine Ansicht erfolgreich erstellt haben, können Sie mit dem Erstellen Ihrer Paket Manifestdatei beginnen.
 
-Die Manifestdatei Kaizala Paket enthält wichtige Informationen für die Plattform Kaizala dafür zu erkennen und die benutzerdefinierte Kaizala-Aktion ausführen.
+Die Kaizala-Paket Manifestdatei enthält wichtige Informationen für die Kaizala-Plattform, damit Sie Ihre benutzerdefinierte Kaizala-Aktion erkennen und ausführen kann.
 
-Verweisen Sie auf das [Paket JSON-Manifestschemas](package_manifest_schema.md) Manifest für Ihre Aktion-Paket zu erstellen.
+Weitere Informationen finden Sie unter [JSON-Schema des paketmanifests](package_manifest_schema.md) , um das Paketmanifest ihrer Aktion zu erstellen.
 
-Zu diesem Zeitpunkt sollten Sie auch eine Symboldatei für die benutzerdefinierte Aktion im Paket einschließen.
+An diesem Punkt sollten Sie auch eine Symboldatei für die benutzerdefinierte Aktion in das Paket einbeziehen.
 
-Verweisen auf Ihre Erstellung Ansicht HTML-Datei in der Paketmanifest-, und ordnen sie die entsprechenden Parameter-Objekt.
+Verweisen Sie im Paketmanifest auf die HTML-Datei für die Erstellungsansicht, und ordnen Sie Sie dem entsprechenden Parameter-Objekt zu.
 
-## <a name="configure-the-card-that-appears-on-the-conversation-canvas"></a>Konfigurieren Sie die Karte, die angezeigt wird, klicken Sie auf die Unterhaltung Zeichenbereich
+## <a name="configure-the-card-that-appears-on-the-conversation-canvas"></a>Konfigurieren der Karte, die auf der Unterhaltungs Leinwand angezeigt wird
 
-Wenn eine neue Instanz einer Aktion Kaizala erstellt und in einer Unterhaltung gebucht, wird eine Aktion Karte auf den Zeichenbereich für andere Benutzer in der Unterhaltung anzeigen und senden ihre Antworten angezeigt.
+Wenn eine neue Instanz einer Kaizala-Aktion erstellt und in einer Unterhaltung bereitgestellt wird, wird eine Aktionskarte auf dem Arbeitsbereich angezeigt, damit andere Benutzer in der Unterhaltung ihre Antworten anzeigen und senden können.
 
-Um die Kartenansicht Chat anpassen, finden Sie unter [Anpassen von ChatCardView](ChatCanvasCardView.md) 
-## <a name="define-the-response--summary-views"></a>Definieren Sie die Antwort & Zusammenfassung Ansichten
+Informationen zum Anpassen der Chat Kartenansicht finden Sie unter [Customizing ChatCardView](ChatCanvasCardView.md) 
+## <a name="define-the-response--summary-views"></a>Definieren der Reaktions-&-ZusammenfassungsAnsichten
 
-Wenn Benutzer versuchen, Details anzeigen und reagieren auf eine Instanz der Kaizala-Aktion in einer Unterhaltung gebucht, können sie zwei Arten von Ansichten anzeigen.
-*   Antwort Ansicht beim Tippen Sie auf die primäre Taste Call-to-Action und eine Antwort bereitstellen möchten
-*   Ansicht "Zusammenfassung" beim Tippen Sie auf der Karte Kopfzeile und die Aggregierte Ansicht der alle gebucht Reesponses anzeigen möchten
+Wenn Benutzer versuchen, Details anzuzeigen und auf eine Instanz der Kaizala-Aktion zu antworten, die in einer Unterhaltung veröffentlicht wurde, können zwei Arten von Ansichten angezeigt werden.
+*   Antwort Ansicht, wenn Sie auf die primäre Schaltfläche "Call-to-Action" tippen und eine reponsse veröffentlichen möchten
+*   Zusammenfassungsansicht, wenn Sie auf den Karten Kopf tippen und die aggregierte Ansicht aller gebuchten reesponses anzeigen möchten
 
-Erstellen Sie eine oder mehrere HTML-Dateien nach Bedarf, definieren Sie die Aktion, und ordnen sie Sie in der Manifestdatei Paket die Grundlage-Parameter.
+Erstellen Sie mindestens eine HTML-Datei, die Sie zum Definieren der Aktion benötigen, und ordnen Sie Sie den relevante-Parametern in der Paket Manifestdatei zu.
 
-Zur Interaktion mit der Kaizala Aggregation Dienste und die Kaizala Native Client zum Abrufen von Informationen, senden eine Antwort oder aggregierte Antworten erhalten möchten, können Sie auf die APIs im [JS-SDK KASClient](KASClient/README.md)verweisen.
+Wenn Sie mit den Kaizala-Aggregations Diensten und dem nativen Client von Kaizala interagieren möchten, um Informationen abzurufen, eine Antwort zu senden oder aggregierte Antworten abzurufen, können Sie sich auf die APIs im [KASCLIENT js SDK](KASClient/README.md)beziehen.
 
 
-## <a name="create-the-zip-file"></a>Erstellen Sie die ZIP-Datei
+## <a name="create-the-zip-file"></a>Erstellen der ZIP-Datei
 
-Wählen Sie alle Dateien im Arbeitsverzeichnis, und erstellen Sie eine neue Zip-Datei für Ihr Paket. Stellen Sie sicher, dass alle Dateien im Stammverzeichnis des Pakets vorhanden sind.
+Wählen Sie alle Dateien in Ihrem Arbeitsverzeichnis aus, und erstellen Sie eine neue ZIP-Datei für Ihr Paket. Stellen Sie sicher, dass alle Dateien im Stammverzeichnis des Pakets vorhanden sind.
 
-*   Weiter: [Veröffentlichen](publish.md)
+*   Weiter: [Publish](publish.md)

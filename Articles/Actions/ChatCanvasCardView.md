@@ -1,110 +1,110 @@
 # <a name="customizing-chatcanvascardview"></a>Anpassen von ChatCanvasCardView
 
-Im Gegensatz zur Erstellung, Antwort und Zusammenfassung Ansichten, die html sind, sind Chat Ansichten systemeigenen Ansichten. Informationen zum Anpassen der Kartenansicht Chat, müssen Sie ein Json das Kartenlayout als auch die Werte in der Ansicht bereitzustellen. Ohne eine angepasste Chat Leinen Kartenansicht, der Standardwert Chat Kartenansicht mit dem Text der app-Titel. 
+Im Gegensatz zu den Erstellungs-, Antwort-und zusammenfassungsansichten, die HTML sind, sind Chat Ansichten systemeigene Ansichten. Zum Anpassen der Chat Kartenansicht müssen Sie eine JSON des Kartenlayouts sowie die Werte in der Ansicht angeben. Fehlt eine angepasste Chat Canvas-Kartenansicht, lautet die standardmäßige Chat Kartenansicht mit dem Text des App-Titels. 
 
-## <a name="views-and-their-supported-properties"></a>Ansichten und deren unterstützten Eigenschaften
-Im folgenden sind verschiedene Arten von sub-views/Widgets zusammen mit ihren anpassbaren Eigenschaften. Einige Eigenschaften sind mit <sup>iOS</sup> zurück, der angibt, dass sie nur auf iOS _(und hat keine Auswirkung auf Android)_ anwendbar sind gekennzeichnet.
+## <a name="views-and-their-supported-properties"></a>Ansichten und ihre unterstützten Eigenschaften
+Nachfolgend finden Sie verschiedene Arten von unter Ansichten/Widgets zusammen mit ihren anpassbaren Eigenschaften. Nur wenige Eigenschaften sind mit <sup>IOS</sup> gekennzeichnet, was darauf hinweist, dass Sie nur für IOS gelten _(und keine Auswirkungen auf Android haben)_.
 
-### <a name="container--view"></a>Container / anzeigen
+### <a name="container--view"></a>Container/Ansicht
 
 <ol>
-<li>ID (optional, jedoch muss eindeutig sein)</li>
-<li>sichtbar<sup>iOS</sup></li>
-<li>Geben Sie _(beliebige der untergeordneten Ansichtstypen, den, die wir hier Erwähnung sind)_</li>
-<li>Rand / MarginTop / MarginRight / MarginBottom / MarginLeft</li>
-<li>Abstand / PaddingTop / PaddingRight / PaddingBottom / PaddingLeft</li>
+<li>ID (optional, muss jedoch eindeutig sein)</li>
+<li>Visible<sup>IOS</sup></li>
+<li>Typ _(einer der unter Ansichtstypen, die wir hier erwähnen)_</li>
+<li>Margin/marginTop/marginRight/marginBottom/marginLeft</li>
+<li>Padding/paddingTop/paddingRight/paddingBottom/paddingLeft</li>
 <li>width</li>
 <li>height</li>
-<li>Weight _(% Anteil der Ansicht Breite/Höhe im Fall eines WAN-Layouts Horizontal/vertikal jeweils parent)_</li>
-<li>BackgroundColor _(nur hex Code hier zulässig)_</li>
+<li>Gewichtung _(Prozentsatz der Breite/Höhe der übergeordneten Ansicht bei horizontalen/vertikalen Layouts)_</li>
+<li>Background Color _(nur Hexadezimalcode hier zulässig)_</li>
 <li>cornerRadius</li>
-<li>BorderWidthiOS / BorderColoriOS</li>
-<li>untergeordnete Elemente _(Array von untergeordneten Ansichten)_</li>
-<li>Layout _(vertikale / horizontale When nicht angegeben, wird standardmäßig auf vertikal)_</li>
-<li>VerticalAlignment _(oben / unten / zentriert / StretchiOS - wie untergeordnete Elemente vertikal ausgerichtet werden)_</li>
-<li>HorizontalAlignment _ (von links/rechts/zentriert/SpaceBetween<sup></sup> iOS/SpaceAround<sup>iOS</sup>) – wie untergeordnete Elemente horizontal ausgerichtet werden. _</li>
-<li>InitialHeight<sup>iOS</sup> _eine einzige iOS-Eigenschaft verwendet, in der obersten Container, mit dem die Karte rendern, damit die genaue Dimension worden ist. Es wird dringend empfohlen, diese Eigenschaft für einen reibungsloseren verwenden!_</li>
+<li>borderWidthiOS/borderColoriOS</li>
+<li>Children _(Array der untergeordneten Ansichten)_</li>
+<li>Layout _(vertikal/horizontal, wenn nicht angegeben, standardmäßig vertikal)_</li>
+<li>verticalAlignment _(oben/unten/Mitte/stretchiOS – wie untergeordnete Elemente vertikal ausgerichtet werden)_</li>
+<li>horizontalAlignment _ (Left/Right/Center/spaceBetween<sup>IOS</sup> /spaceAround<sup>IOS</sup>)-wie untergeordnete Elemente horizontal ausgerichtet werden. _</li>
+<li>initialHeight<sup>IOS</sup> _eine nur-IOS-Eigenschaft, die im obersten Container verwendet wird, die zum Rendern der Karte verwendet wird, bevor die genaue Dimension ermittelt wird. Es wird dringend empfohlen, diese Eigenschaft für eine reibungslosere Erfahrung zu verwenden!_</li>
 </ol>
 
 ### <a name="text"></a>Text
 
 <ol>
-<li>ID (optional, jedoch muss eindeutig sein)</li>
-<li>sichtbar<sup>iOS</sup></li>
-<li>Geben Sie _(beliebige der untergeordneten Ansichtstypen, den, die wir hier Erwähnung sind)_</li>
-<li>Rand / MarginTop / MarginRight / MarginBottom / MarginLeft</li>
-<li>Abstand / PaddingTop / PaddingRight / PaddingBottom / PaddingLeft</li>
+<li>ID (optional, muss jedoch eindeutig sein)</li>
+<li>Visible<sup>IOS</sup></li>
+<li>Typ _(einer der unter Ansichtstypen, die wir hier erwähnen)_</li>
+<li>Margin/marginTop/marginRight/marginBottom/marginLeft</li>
+<li>Padding/paddingTop/paddingRight/paddingBottom/paddingLeft</li>
 <li>width</li>
 <li>height</li>
-<li>Weight _(% Anteil der Ansicht Breite/Höhe im Fall eines WAN-Layouts Horizontal/vertikal jeweils parent)_</li>
-<li>BackgroundColor _(nur hex Code hier zulässig)_</li>
+<li>Gewichtung _(Prozentsatz der Breite/Höhe der übergeordneten Ansicht bei horizontalen/vertikalen Layouts)_</li>
+<li>Background Color _(nur Hexadezimalcode hier zulässig)_</li>
 <li>cornerRadius</li>
-<li>BorderWidthiOS / BorderColoriOS</li>
+<li>borderWidthiOS/borderColoriOS</li>
 <li>string</li>
-<li>FontSize _(Schriftartfamilie ist immer des Systems Standard, um Probleme beim Rendern zu vermeiden)_</li>
-<li>TextColor _(nur hex Code hier zulässig)_</li>
-<li>EllipsizeMode _(Head / mittlere / Endezeigern)_</li>
-<li>MaxNumberOfLines _(0 für keine Begrenzung, sonst noch Text werden gemäß den Anweisungen in EllipsizeMode abgeschnitten)_</li>
+<li>fontSize _(Schriftfamilie ist immer System Standard, um Probleme beim Rendern zu vermeiden)_</li>
+<li>TextColor _(nur Hexadezimalcode hier zulässig)_</li>
+<li>ellipsizeMode _(Head/Middle/Tail)_</li>
+<li>maxNumberOfLines _(0 für keine Begrenzung, andernfalls wird der Text nach ellipsizeMode abgeschnitten)_</li>
 </ol>
 
 
 ### <a name="image"></a>Image
 
 <ol>
-<li>ID (optional, jedoch muss eindeutig sein)</li>
-<li>sichtbar<sup>iOS</sup></li>
-<li>Geben Sie _(beliebige der untergeordneten Ansichtstypen, den, die wir hier Erwähnung sind)_</li>
-<li>Rand / MarginTop / MarginRight / MarginBottom / MarginLeft</li>
-<li>Abstand / PaddingTop / PaddingRight / PaddingBottom / PaddingLeft</li>
+<li>ID (optional, muss jedoch eindeutig sein)</li>
+<li>Visible<sup>IOS</sup></li>
+<li>Typ _(einer der unter Ansichtstypen, die wir hier erwähnen)_</li>
+<li>Margin/marginTop/marginRight/marginBottom/marginLeft</li>
+<li>Padding/paddingTop/paddingRight/paddingBottom/paddingLeft</li>
 <li>width</li>
 <li>height</li>
-<li>Weight _(% Anteil der Ansicht Breite/Höhe im Fall eines WAN-Layouts Horizontal/vertikal jeweils parent)_</li>
-<li>BackgroundColor _(nur hex Code hier zulässig)_</li>
+<li>Gewichtung _(Prozentsatz der Breite/Höhe der übergeordneten Ansicht bei horizontalen/vertikalen Layouts)_</li>
+<li>Background Color _(nur Hexadezimalcode hier zulässig)_</li>
 <li>cornerRadius</li>
-<li>BorderWidthiOS / BorderColoriOS</li>
+<li>borderWidthiOS/borderColoriOS</li>
 <li>source</li>
-<li>ContentMode _ (AspectFit/AspectFill/Dehnen/wiederholen Sie die<sup>iOS</sup>) _</li>
+<li>contentMode _ (aspectFit/aspectFill/Stretch/Repeat<sup>IOS</sup>) _</li>
 </ol>
 
 
 
 ## <a name="binding-data-with-views"></a>Binden von Daten mit Ansichten
 * __Form__
-  * $\{Form.Title}
-  * $\{Form.Expiry} - _Ausgabe ist eine Datum-Uhrzeit-Zeichenfolge_
-  * $\{Form.Questions}
-  * $\{Form.Questions.Length}
-  * $\{Form.Questions[questionId].Title}
-  * $\{Form.Questions[questionId].Options}
-  * $\{Form.Questions[questionId].Options.Length}
-  * $\{Form.Questions[questionId].Options[optionId].Text}
-  * $\{Form.Questions[questionId].Options[optionId].pictureUrl}
-  * $\{Form.Properties}
-  * $\{Form.Properties.Length}
-  * $\{Form.Properties[PropertyName]}
-  * $\{Form.Properties[PropertyName].Value}
-  * $\{Form.Properties[PropertyName].length} - _für Array/Set Type-Eigenschaft_
+  * $\{Form. Title}
+  * $\{Form. expire} – _die Ausgabe ist eine Zeichenfolge mit Datum und Uhrzeit_ .
+  * $\{Formular. questions}
+  * $\{Form. questions. length}
+  * $\{Formular. Fragen [Question-Nr]. Title}
+  * $\{Formular. Fragen [Question-Nr]. Optionen}
+  * $\{Formular. Fragen [Question-Nr]. Options. length}
+  * $\{Formular. Fragen [Question-Nr]. options [options-Nr.]. Text}
+  * $\{Formular. Fragen [Question-Nr]. options [options-Nr.]. pictureUrl}
+  * $\{Form. Properties}
+  * $\{Form. Properties. length}
+  * $\{Form. Properties [propertyName]}
+  * $\{Form. Properties [propertyName]. Value}
+  * $\{Form. Properties [propertyName]. Length}- _für Array/Set Type-Eigenschaft_
 * __MyLatestResponse__
-  * $\{MyLatestResponse.sendTime} - _Ausgabe ist eine Datum-Uhrzeit-Zeichenfolge_
-  * $\{MyLatestResponse.questionToAnswerMap[questionId]}
+  * $\{MyLatestResponse. Send Time}- _Output ist eine Zeichenfolge mit Datum und Uhrzeit_
+  * $\{MyLatestResponse. questionToAnswerMap [Question-out]}
 * __Zusammenfassung__
-  * $\{Summary.totalResponseCount}
-  * $\{Summary.totalParticipantsCount}
-  * $\{Summary.targetResponderCount}
+  * $\{Summary. totalResponseCount}
+  * $\{Summary. totalParticipantsCount}
+  * $\{Summary. targetResponderCount}
 
-Außerdem können eine diese Variablen als Platzhalter, wie folgt verwenden:  
-_"Vielen Dank für Ihre News-Bericht: ${Form.properties[newsDescription].value}"_
+Außerdem können diese Variablen als Platzhalter verwendet werden, wie etwa:  
+_"Vielen Dank für Ihren Nachrichten Bericht: $ {Form. Properties [newsDescription]. Value}"_
 
 ## <a name="operations"></a>Vorgänge
 
-In einigen Szenarien auftreten gibt es muss, in denen möglicherweise unterschiedliche Benutzer müssen verschiedene Chat-Karte anzeigen, die basiert auf einige Attribute. Um diese Szenarien zu ermöglichen, bietet Kaizala [Operatoren](Operator.md), mit dem Ersteller der Aktion auf Chat Kartenansichten für die gleiche Aktionsinstanz unterschiedlich für verschiedene Szenarien/Benutzer personalisieren können.
+In einigen Szenarien kann es erforderlich sein, dass andere Benutzer möglicherweise andere Chat Karten anzeigen müssen, die möglicherweise auf einigen Attributen basieren. Um solche Szenarien zu ermöglichen, stellt Kaizala [Operatoren](Operator.md)bereit, die es Aktions Erstellern ermöglichen, die Ansichten von Chat Karten für die gleiche Aktionsinstanz für unterschiedliche Szenarien/Benutzer anders zu gestalten.
 
-Sie können beispielsweise Anzeigen einer anderen Kartenansicht für Benutzer, die nicht den Auftrag abgeschlossen haben, und eine andere Kartenansicht für Benutzer, die den Auftrag abgeschlossen haben. Dies kann für jede Art von Szenarien erweitert werden, die auftreten können.
+Sie können beispielsweise eine andere Kartenansicht für Benutzer anzeigen, die den Auftrag nicht abgeschlossen haben, und eine andere Kartenansicht für Benutzer, die den Auftrag abgeschlossen haben. Dies kann auf alle Arten von Szenarien ausgedehnt werden, die möglicherweise auftreten.
 
-## <a name="how-to-provide-the-json-schema"></a>Zum Bereitstellen des Json-Schemas
-In der Datei manifest _(package.json)_ eines Pakets, platzieren Sie den Namen der JSON **SourceLocation** ist Schlüssel in **ChatCanvasCardView** unten einen Beispielsnapshot package.json:
+## <a name="how-to-provide-the-json-schema"></a>VorGehensWeise Bereitstellen des JSON-Schemas
+Legen Sie in der Manifestdatei _(Package. Json)_ eines Pakets den JSON-Dateinamen unter **SourceLocation** -Schlüssel in **ChatCanvasCardView** unten ist ein Beispiel-Snapshot aus Package. JSON:
 
-![Momentaufnahme der package.json](./chatcardviewjson.png)
+![Momentaufnahme von Package. JSON](./chatcardviewjson.png)
 
 ## <a name="example-chatcanvascardview-source-file"></a>Beispiel ChatCanvasCardView-Quelldatei
 ```json

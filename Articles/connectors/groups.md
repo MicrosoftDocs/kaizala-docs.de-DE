@@ -1,39 +1,39 @@
 ---
-title: Locations
-description: Referenzartikel für API zum Abfrage Gruppieren von Daten
+title: /Groups
+description: Referenzartikel für API zum Abfragen von Gruppendaten
 topic: Reference
 author: nitinjms
 ms.openlocfilehash: 6a0b56d36aef458b5a3d302235499f445ed134e6
-ms.sourcegitcommit: 523ff9067dc81712d7da2b103a3a1a0f0236b8e4
+ms.sourcegitcommit: 973f754fdb7c93381f808632f47fe66a46cc069e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20399373"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "33190716"
 ---
-# <a name="groups"></a>Locations
-Interaktion mit der Unterhaltungsgruppen innerhalb Kaizala API-Endpunkt.
+# <a name="groups"></a>/Groups
+API-Endpunkt für die Interaktion mit den unterhaltungsgruppen in Kaizala.
 
-## <a name="post-groups"></a>POST-Locations
+## <a name="post-groups"></a>POST/Groups
 
     Post {endpoint-url}/v1/groups
 
-### <a name="request-parameters"></a>Anforderungsparameter
+### <a name="request-parameters"></a>AnforderungsParameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
-| HTTP-Header | Content-Type | String | Nein | "Application/Json" |
+| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| HTTP-Header | Content-Type | String | Nein | "application/json" |
 
 ### <a name="request-body"></a>Anforderungstext
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :--- | :--- |
-| name | String | Nein | Gruppenname |
-| welcomeMessage | String | Nein | Willkommensnachricht das neue Mitglied der Gruppe angezeigt wird |
-| Elemente | String] | Ja | Die Mobiltelefonnummer (mit Ländercode) Mitglieder hinzugefügt werden soll. Standard: Zugangs-Token Benutzer wird als Administrator der Gruppe hinzugefügt werden |
-| groupType | String | Ja | Enum: Gruppe/ConnectGroup. ConnectGroup werden verwaltete öffentliche Gruppe erstellen. Standard: Gruppe |
+| name | String | Nein | Name der Gruppe |
+| welcomeMessage | String | Nein | Willkommensnachricht, die dem neuen Gruppenmitglied angezeigt wird |
+| members | String [] | Ja | Mobiltelefonnummer (mit Landesvorwahl) der hinzuzufügenden Mitglieder. Standard: der Benutzer des Zugriffstokens wird als Administrator der Gruppe hinzugefügt. |
+| groupType | Zeichenfolge | Ja | Enum: Group/Connectgroup. Connectgroup erstellt eine verwaltete öffentliche Gruppe. Standard: Gruppe |
 
-#### <a name="sample-json-request-for-create-group"></a>Beispiel für eine Anforderung für JSON Gruppe erstellen
+#### <a name="sample-json-request-for-create-group"></a>JSON-Beispielanforderung für Create Group
 
 ```javascript
 {
@@ -48,11 +48,11 @@ Interaktion mit der Unterhaltungsgruppen innerhalb Kaizala API-Endpunkt.
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| groupName | Zeichenfolge | Gruppenname |
-| groupId | Zeichenfolge | Gruppen-ID, die im weiteren API-Aufrufe verwendet werden können |
-| membersAdded | bool | True, wenn alle Mitglieder sind erfolgreich hinzugefügt. |
+| groupName | String | Name der Gruppe |
+| groupId | Zeichenfolge | Gruppenbezeichner, der bei nachfolgenden API-Aufrufen verwendet werden kann |
+| membersAdded | bool | True, wenn alle Elemente erfolgreich hinzugefügt werden |
 
-#### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
+#### <a name="sample-json-response"></a>JSON-Beispielantwort
 
 ```javascript
 {
@@ -63,39 +63,39 @@ Interaktion mit der Unterhaltungsgruppen innerhalb Kaizala API-Endpunkt.
 ```
 
 
-## <a name="get-groups"></a>Abrufen von Locations
+## <a name="get-groups"></a>/Groups abrufen
 
     GET {endpoint-url}/v1/groups
 
-### <a name="request-parameters"></a>Anforderungsparameter
+### <a name="request-parameters"></a>AnforderungsParameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
-| Abfrageparameter | showDetail | bool | Ja | Standard: False. True, wenn Return Gruppe alle details |
-| Abfrageparameter | fetchAllGroups | bool | Ja | Standard: False. True zurück, um alle übergeordneten und sub-Gruppen |
+| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| Abfrageparameter | showDetail | bool | Ja | Standard: false. True, um alle Gruppendetails zurückzugeben |
+| Abfrageparameter | fetchAllGroups | bool | Ja | Standard: false. True, um alle über-und Untergruppen zurückzugeben |
 
 ### <a name="response-body"></a>Antworttext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| Gruppen | JSON-Objekt-Array | Array von Gruppen, dass der Benutzer Zugriff auf mit der AccessToken hat. |
+| groups | JSON-Objekt Array | Array von Gruppen, auf die der Benutzer mit der Access Token zugreifen kann |
 
-####  <a name="json-structure-for-each-individual-group-in-the-array-groups"></a>JSON-Struktur für jede einzelne Gruppe im Array gruppiert []:
+####  <a name="json-structure-for-each-individual-group-in-the-array-groups"></a>JSON-Struktur für jede einzelne Gruppe in den Array Gruppen []:
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| groupId | Zeichenfolge | Gruppen-ID. |
-| groupName | Zeichenfolge | Der Name der Gruppe |
-| groupImageURL | Zeichenfolge | Zeichenfolge, die die URL des Bilds Profil Gruppe angibt. |
-| hasSubGroups | bool | True, wenn die Gruppe Untergruppen besitzt. |
-| hasParentGroups | bool | True, wenn die Gruppe verfügt über die übergeordneten Gruppen |
-| isMappedToTenant | bool | True, wenn die Gruppe Organisation Gruppe ist |
-| groupType | Zeichenfolge | Gruppe/ConnectGroup. ConnectGroup Wenn die Gruppe in der Gruppe Public verwaltet |
-| userCount | Numerisch | Gesamtzahl der Benutzer unter dieser Gruppe in der Hierarchie |
-| currentLevelUserCount | Numerisch | Gesamtzahl der einzelnen Mitglieder der Gruppe auf der aktuellen Ebene |
+| groupId | Zeichenfolge | Gruppenbezeichner |
+| groupName | String | Der Name der Gruppe |
+| groupImageURL | String | Zeichenfolge, die die URL des Gruppenprofil Bilds angibt |
+| hasSubGroups | bool | True, wenn die Gruppe Untergruppen hat |
+| hasParentGroups | bool | True, wenn die Gruppe übergeordnete Gruppen hat |
+| isMappedToTenant | bool | True, wenn die Gruppe Organisationsgruppe ist |
+| groupType | String | Group/Connectgroup. Connectgroup wenn die Gruppe in verwalteter öffentlicher Gruppe |
+| userCount | Numeric | Gesamtzahl der Benutzer unter dieser Gruppe in der Hierarchie |
+| currentLevelUserCount | Numeric | Gesamtzahl der einzelnen Mitglieder der Gruppe auf der aktuellen Ebene |
 
-#### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
+#### <a name="sample-json-response"></a>JSON-Beispielantwort
 
 ```javascript
 {
@@ -124,40 +124,40 @@ Interaktion mit der Unterhaltungsgruppen innerhalb Kaizala API-Endpunkt.
 }
 ```
 
-## <a name="get-groupsgroupid"></a>Abrufen von /groups/ {GroupId}
+## <a name="get-groupsgroupid"></a>/Groups/{groupId} abrufen
 
-Sie können die Details zu einer bestimmten Ressource Member (hier eine Gruppe) abrufen, indem der Bezeichner als URL Path-Parameter angeben
+Sie können Details zu einem bestimmten Resource-Element (eine Gruppe hier) abrufen, indem Sie den Bezeichner als URL-Pfadparameter angeben.
 
     GET {endpoint-url}/groups/{groupId}
 
-### <a name="request-parameters"></a>Anforderungsparameter
+### <a name="request-parameters"></a>AnforderungsParameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| URL-Pfad-Parameter | groupId | String | Nein | GUID, die die GroupId der Ressource bestimmte Gruppe darstellt. |
-| HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
+| URL-Pfad Parameter | groupId | String | Nein | GUID, die die Gruppen-ID der bestimmten Gruppenressource darstellt |
+| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
 
 ### <a name="response-body"></a>Antworttext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| Gruppen | JSON-Objekt-Array | Array von Gruppen, dass der Benutzer Zugriff auf mit der AccessToken hat. |
+| groups | JSON-Objekt Array | Array von Gruppen, auf die der Benutzer mit der Access Token zugreifen kann |
 
-JSON-Struktur für jede einzelne Gruppe im Array gruppiert []:
+JSON-Struktur für jede einzelne Gruppe in den Array Gruppen []:
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| groupId | Zeichenfolge | Gruppen-ID. |
-| groupName | Zeichenfolge | Der Name der Gruppe |
-| groupImageURL | Zeichenfolge | Zeichenfolge, die die URL des Bilds Profil Gruppe angibt. |
-| hasSubGroups | bool | True, wenn die Gruppe Untergruppen besitzt. |
-| hasParentGroups | bool | True, wenn die Gruppe verfügt über die übergeordneten Gruppen |
-| isMappedToTenant | bool | True, wenn die Gruppe Organisation Gruppe ist |
-| groupType | Zeichenfolge | Gruppe/ConnectGroup. ConnectGroup Wenn die Gruppe in der Gruppe Public verwaltet |
-| userCount | Numerisch | Gesamtzahl der Benutzer unter dieser Gruppe in der Hierarchie |
-| currentLevelUserCount | Numerisch | Gesamtzahl der einzelnen Mitglieder der Gruppe auf der aktuellen Ebene |
+| groupId | Zeichenfolge | Gruppenbezeichner |
+| groupName | String | Der Name der Gruppe |
+| groupImageURL | String | Zeichenfolge, die die URL des Gruppenprofil Bilds angibt |
+| hasSubGroups | bool | True, wenn die Gruppe Untergruppen hat |
+| hasParentGroups | bool | True, wenn die Gruppe übergeordnete Gruppen hat |
+| isMappedToTenant | bool | True, wenn die Gruppe Organisationsgruppe ist |
+| groupType | String | Group/Connectgroup. Connectgroup wenn die Gruppe in verwalteter öffentlicher Gruppe |
+| userCount | Numeric | Gesamtzahl der Benutzer unter dieser Gruppe in der Hierarchie |
+| currentLevelUserCount | Numeric | Gesamtzahl der einzelnen Mitglieder der Gruppe auf der aktuellen Ebene |
 
-#### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
+#### <a name="sample-json-response"></a>JSON-Beispielantwort
 
 ```javascript
 {

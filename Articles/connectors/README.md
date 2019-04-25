@@ -1,21 +1,21 @@
 ---
 title: Connectors
-description: Artikel zum Bereitstellen von Übersicht über Kaizala connectors
+description: Artikel zur Bereitstellung der Übersicht über Kaizala-Connectors
 topic: Overview
 author: nitinjms
 ms.openlocfilehash: 94c6844cfa8f5a85da26c3ab27dc38a366fbc97e
-ms.sourcegitcommit: 3a6a13cc885faf1bbc9ee8498f5183f414395aac
+ms.sourcegitcommit: 973f754fdb7c93381f808632f47fe66a46cc069e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19905314"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "33190796"
 ---
 # <a name="connectors"></a>Connectors
 
 ## <a name="overview"></a>Übersicht
-Kaizala Connectors ermöglichen es 3. Partei Entwicklern integrieren Kaizala in ihre Geschäftsprozesse durch bereitstellen, dass die Möglichkeit zum Ausführen einer curated Reihe von Aktionen in Kaizala mithilfe von REST-API-Aufrufe basiert. Der Bereich der API ist für externe Systeme zum Aufrufen des Endpunkt und Ausführen von Aktionen auf Abruf. D. h., wird dies eine PULL-Modell – sein, in denen einzelne Endpunkte aufgerufen werden, um bestimmte Aktionen Kaizala **[APIs](API.md)** ausführen müssen. Das PUSH-Modell, in dem Kaizala Plattform Aktionen auslösen kann, kann mithilfe von **[Webhooks](webHooks.md)** konfiguriert werden.
+Kaizala-Connectors ermöglichen Drittanbieterentwicklern, Kaizala in Ihre Geschäftsprozesse zu integrieren, indem Sie die Möglichkeit bieten, eine kuratierte Reihe von Aktionen in Kaizala mithilfe von REST-basierten API-aufrufen durchzuführen. Der Anwendungsbereich der API ist für externe Systeme zum Aufrufen des Endpunkts und zum Ausführen von Aktionen bei Bedarf. Das heißt, es handelt sich dabei um ein PULL-Modell, bei dem einzelne Endpunkte aufgerufen werden müssen, um bestimmte Aktionen mithilfe von Kaizala- **[APIs](API.md)** auszuführen. Das PUSH-Modell, mit dem die Kaizala-Plattform Aktionen auslösen **[](webHooks.md)** kann, kann mit webhooks konfiguriert werden.
 
-Kaizala Verbinder sind derzeit Gruppe-bezogenen – d. h. jeder Kaizala Connector muss explizit Berechtigungen erteilt werden, zu einer Unterhaltung Gruppe - und Aktionen über die API-Endpunkte nur im Kontext der Gruppe dann ausführen können. Jedoch kann jedes Kaizala Connector Zugriff zu mehreren Gruppen gewährt werden.
+Kaizala-Connectors sind derzeit Gruppen bezogen, d. h., jeder Kaizala-Connector muss explizit Berechtigungen für eine Konversationsgruppe erhalten und kann dann nur innerhalb des Kontexts der Gruppe Aktionen über die Endpunkte der API ausführen. Jedem Kaizala-Connector kann jedoch der Zugriff auf mehrere Gruppen gewährt werden.
 
 * [Setup für die Verwendung der Kaizala-Connectors](setup.md)
 * [API-Dokumentation](API.md)

@@ -1,76 +1,76 @@
 # <a name="groups-in-kaizala"></a>Gruppen in Kaizala
-Sie können in Kaizala hinzufügen oder Einladen von Personen zu der Gruppe beitreten, auch wenn sie noch nicht auf Kaizala sind. Sobald sie Kaizala installiert haben, sehen sie sich, dass sie bereits an die Gruppe hinzugefügt werden. 
+In Kaizala können Sie Personen hinzufügen oder einladen, der Gruppe beizutreten, auch wenn Sie noch nicht auf Kaizala sind. Sobald Sie Kaizala installieren, werden Sie feststellen, dass Sie bereits der Gruppe hinzugefügt wurden. 
 
-Kaizala besteht aus drei Arten von Gruppen, um verschiedene Arten von organisationsanforderungen abzudecken:
+Kaizala verfügt über drei Arten von Gruppen, die verschiedenen Arten organisatorischer Anforderungen gerecht werden:
 - Flache Gruppen
 - Hierarchische Gruppen
 - Öffentliche Gruppen
 
 ## <a name="flat-groups"></a>**Flache Gruppen**
 
-Flache Gruppen in der Regel kleine Teams, Projektteams, führende Team und Arbeit-Produktfamilie Teamgruppen geeignet ist. 
+Flache Gruppen sind in der Regel für kleine Teams, Projektteams, Führungsteams und Arbeits-/Familien Teams geeignet. 
 
-Einige Haupteigenschaften flache Gruppe enthält:
+Zu den wichtigsten Eigenschaften einer flachen Gruppe gehören:
 
-- Standard messaging Gruppen, in dem Sie Tausende von Benutzern hinzufügen können.
-- Sie können die Benutzer verwenden, Rufnummer zunächst Speichern eines Kontakts nicht zwingend erforderlich ist, hinzufügen.
-- Sie können erstellt und alle Teilnehmer der Gruppe Kaizala Aktionen wie (Auftrag, Umfrage, Umfrage usw.) zugewiesen. 
-- Telefonnummern von Gruppenmitgliedern sind nur für Admin sichtbar. es sei denn, bereits in den Kontakten gehört <br/>
+- Standard-Messaging Gruppen, in denen Sie Tausende von Benutzern hinzufügen können.
+- Sie können Benutzer mithilfe von Telefonnummern hinzufügen, wobei der erste Kontakt nicht zwingend erforderlich ist.
+- Sie können jedem Teilnehmer der Gruppe Kaizala-Aktionen wie (Job, Umfrage, Umfrage usw.) erstellen und zuweisen. 
+- Telefonnummern von Gruppenmitgliedern sind nur für Administratoren sichtbar. es sei denn, der Member ist bereits in den Kontakten <br/>
 <br/>![](Images/Groups_NothZoneSales.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![](Images/Groups_NothZoneSales2.png)
 
 ## <a name="hierarchical-groups"></a>**Hierarchische Gruppen**
 
-Die meisten Organisationen in der Praxis sind nicht flachen jedoch hierarchische, und daher Kaizala bietet die Möglichkeit zum Chat Plattform Ihrer Organisationshierarchie zuordnen.
+Die meisten Organisationen in der realen Welt sind nicht flach, sondern hierarchisch, und daher bietet Kaizala eine Möglichkeit, ihre Organisationshierarchie der Chat Plattform zuzuordnen.
 
-Im Gegensatz zu einer flachen Gruppe, in dem alle freigegebene Informationen in hierarchische Gruppe für alle Benutzer in der Gruppe angezeigt wird, fließt von Informationen von oben nach unten. Es ist eine hierarchische Beziehung zwischen Gruppen vorhanden. 
+Im Gegensatz zu einer flachen Gruppe, in der alle freigegebenen Informationen für alle in der Gruppe sichtbar sind, fließt in der hierarchischen Gruppe Informationen von oben nach unten. Es besteht eine Beziehung zwischen über-und untergeordneten Elementen zwischen den Gruppen. 
 
-Wenn Sie die Gruppe "Sales" Head Office-Gruppe (Gruppe A in Bildern) hinzufügen, wird Gruppe "Sales" (Gruppe B in Bildern) beispielsweise die Untergruppe der Head Office-Gruppe. Mitglieder der Gruppe "Sales" startet eine Head Office in ihrer Liste der Kaizala Client Chat anzeigen. In der Gruppe Head Office sie können nur anzeigen/Aktionen im Head Office gesendet reagieren. Sie würden nicht zum Senden von Nachrichten in dieser Gruppe sein.
+Wenn Sie beispielsweise die Gruppe "Sales Group to Head Office" (Gruppe A in Images) hinzufügen, wird die Gruppe "Sales" (Gruppe B in Images) zur Untergruppe der Gruppe "Head Office". Mitglieder der Vertriebsgruppe beginnen mit der Anzeige einer Hauptniederlassung in ihrer Kaizala-Client Chat Liste. In der Gruppe Head Office können Sie nur Aktionen anzeigen/beantworten, die in der Zentrale gesendet werden. Sie können keine Nachrichten in dieser Gruppe senden.
 
-Bei der Gruppe "Sales" North Sales (Gruppe D in Bildern) hinzugefügt wird, finden Sie auf ähnliche Weise zu verstehen, die Beziehung in der folgenden Tabelle.
+Entsprechend wird die Beziehung in der folgenden Tabelle beschrieben, wenn North Sales (Gruppe D in Images) zur Vertriebsgruppe hinzugefügt wird.
 
-|Gruppe von Nachricht senden|Nachricht empfangen-Gruppe|
+|Nachrichten Sende Gruppe|Nachrichtenempfänger Gruppe|
 |--------|--------|
-|Gesendete Nachrichten im Head Office|Mitglieder der Gruppe "Sales" und Gruppe "Sales" North empfängt die Nachricht in der Gruppe mit dem Namen Head Office in der Liste chat|
-|In der Gruppe "Sales" Gesendete Nachrichten|Mitglieder der North Sales Gruppe empfängt die Nachricht in der Gruppe "Sales" in der Liste chat|
-|In der Gruppe "Sales" North gesendete Nachrichten |Nur North Sales Gruppe empfängt die Nachricht|
+|Nachrichten, die in der Zentrale gesendet werden|Mitglieder der Gruppe "Sales Group" und "North Sales Group" erhalten die Nachricht in der Gruppe "Head Office" in der Chat Liste.|
+|Nachrichten, die in der Vertriebsgruppe gesendet werden|Mitglieder der Nord-Vertriebsgruppe erhalten die Nachricht in der Gruppe "Sales" in der Chat Liste|
+|Nachrichten, die in der Nord Vertriebsgruppe gesendet werden |Nur Nord-Vertriebsgruppe erhält die Nachricht|
 
 <br/> ![](Images/Hierarchical1.png)
 
-Hierarchische Gruppen dienen hauptsächlich zum Freigeben von Informationen für die gesamte Organisation oder zu sammeln Daten von Ihrer Organisation. 
+Hierarchische Gruppen werden hauptsächlich zum Freigeben von Informationen für Ihre gesamte Organisation oder zum Sammeln von Daten aus Ihrer Organisation verwendet. 
 
-Berücksichtigen Sie die folgenden Beispiele.
+Betrachten Sie die folgenden Beispiele.
 
-- In einer öffentlichen Sektor Organisation verteilt tief in einem Zustand können Sie geografische zuordnen zu Bezirken, Mandals/Abschnitte und Zustand Ebene Organisation Einheiten Gruppen erstellen.
--   In einer Organisation Business können Sie durch die übergeordnete Gruppe für CEO oder HR, Finanzen, Vorgänge fasst Spitze Geschäftsbereichen erstellen. Jede dieser Gruppen kann regionale untergeordneten Gruppen, wie z. B. wie North Sales Department, South Sales Department usw. haben.
--   In Bildungseinrichtungen können Sie Gruppen mit Gruppen auf Abteilungsebene als untergeordnetes Element Gruppen müssen jedes Jahr Student Batch als untergeordnete Gruppen erstellen.
--   In einer Community des Apartmentthreading können Sie mit jeder zum Erstellen von/Tower Darstellung einer Gruppe von untergeordneten Gruppen erstellen.
+- In einer öffentlichen Organisation, die sich tief in einem Staat befindet, können Sie geographische Gruppen für Distrikte, Mandals/Wahlkreise und Organisationseinheiten auf Status Ebene erstellen.
+-   In einer Unternehmensorganisation können Sie Geschäftsgruppen erstellen, die von der übergeordneten Gruppe für CEO oder HR, Finance, Operations Heads geleitet werden. Jede dieser Gruppen kann regionale untergeordnete Gruppen haben, wie beispielsweise Nord-Vertriebsabteilung, Süd-Vertriebsabteilung usw.
+-   In Bildungseinrichtungen können Sie Gruppen mit Abteilungsgruppen als untergeordnete Gruppen erstellen, die die Studien Batches jedes Jahr als untergeordnete Gruppen aufweisen.
+-   In einer Apartment-Community können Sie Gruppen erstellen, wobei jedes Gebäude/jeder Turm eine untergeordnete Gruppe darstellt.
 
-Einige Haupteigenschaften dieses Typs der Gruppe gehören: 
-- Gruppen können direkte Mitglieder sowie Untergruppen als Mitglieder enthalten.
-- Auf jeder Ebene gesendete Nachricht wird an alle Mitglieder der Gruppe und nach unten zu allen untergeordneten Gruppen. Folglich Chat ist in der übergeordneten Gruppen deaktiviert, aber alle Kaizala Aktionen sind aktiviert. Mitglieder der übergeordneten Gruppen können also senden Ankündigungen oder Umfragen die gesamte Organisation gesendet werden.
-- Ein beliebiges Gruppenmitglied kann erstellt und alle Benutzer in der gleichen Gruppe oder darunter Kaizala Aktionen wie (Auftrag, Umfrage, Umfrage usw.) zugewiesen.
-- Untergeordneten Gruppen können nicht senden die Nachricht an eine übergeordnete Gruppe oder Peer-Gruppen, jedoch können sie ihre Ansichten präsentieren bis "gefällt mir" und Kommentare auf jeder Aktion Kaizala an Sie gesendet.
-- Unten Gruppen (Endknoten) der hierarchischen Gruppen sind regulären flache Gruppen.
+Zu den Haupteigenschaften dieses Gruppentyps gehört Folgendes: 
+- Gruppen können sowohl direkte Mitglieder als auch Untergruppen als Mitglieder haben.
+- NachRichten, die auf einer beliebigen Ebene gesendet werden, werden an alle Mitglieder dieser Gruppe und nach unten auf alle untergeordneten Gruppen geleitet. Daher ist der Chat in den Elterngruppen deaktiviert, aber alle Kaizala-Aktionen sind aktiviert. Daher können Mitglieder von übergeordneten Gruppen Ankündigungen oder Umfragen senden, die an die gesamte Organisation gesendet werden.
+- Jedes Gruppenmitglied kann Kaizala-Aktionen wie (Job, Umfrage, Umfrage usw.) für alle Benutzer in der gleichen Gruppe oder darunter erstellen und zuweisen.
+- Untergeordnete Gruppen können die Nachricht nicht an eine übergeordnete Gruppe oder Peergruppen senden, aber Sie können Ihre Ansichten über likes und Kommentare zu jeder an Sie gesendeten Kaizala-Aktion darstellen.
+- Untere Gruppen (Blattknoten) der hierarchischen Gruppen sind reguläre flache Gruppen.
 <br/> ![](Images/Hierarchical2.PNG)
 
 ## <a name="public-groups"></a>**Öffentliche Gruppen** 
 
-Öffentliche Gruppe in Kaizala ist eine eindeutige Gruppe Mitglieder der Gruppe mit dem Admin der Gruppe zu eins interagieren können, wobei ein die Interaktionen können von Mitgliedern der Gruppe angezeigt werden. 
+Eine öffentliche Gruppe in Kaizala ist eine eindeutige Gruppe, in der Mitglieder der Gruppe mit dem Administrator der Gruppe 1:1 interagieren können, die Interaktionen können jedoch nicht von anderen Gruppenmitgliedern angezeigt werden. 
 
 Öffentliche Gruppen werden in der Regel in den folgenden Szenarien bevorzugt:
 
-- Behörden, die mit der Bürger eine Verbindung herstellen möchten.
-- Unternehmen können mit Kunden eine Verbindung herstellen.
-- Unternehmen können auch verwaltete öffentliche Gruppe für die Verbindung mit ihren Lieferanten, Lieferanten, Einzelhandelsunternehmen usw. erstellen.
+- Behörden, die sich mit Bürgern verbinden möchten.
+- Unternehmen können sich mit Kunden verbinden.
+- Unternehmen können auch eine verwaltete öffentliche Gruppe erstellen, um eine Verbindung mit ihren Lieferanten, Anbietern, Händlern usw. herzustellen.
 
-In öffentlichen Gruppen können nur vordefinierte Mitglieder die Gruppe teilnehmen.
+In öffentlichen Gruppen können nur vordefinierte Mitglieder der Gruppe beitreten.
 
-Einige Haupteigenschaften dieser Art von Gruppe gehören: <img align="right" src="Images/Public1.PNG">
+Einige Haupteigenschaften dieser Art von Gruppe sind: <img align="right" src="Images/Public1.PNG">
 
-- Admin kann Verbinden mit einer beliebigen Anzahl von Elementen und senden und Informationen zu suchen.
-- Die Member nicht finden Sie unter miteinander oder miteinander interagieren.
-- Die Mitglieder können miteinander Admin nur über Admin definiert benutzerdefinierte Karten wie Erteilen von Feedback, Ihre Anforderung usw. freigeben.
-- Mitglieder können an eine öffentliche Gruppe über einen Link abonnieren.
+- Der Administrator kann eine Verbindung mit einer beliebigen Anzahl von Mitgliedern herstellen und Informationen senden und suchen.
+- Die Mitglieder können sich nicht gegenseitig sehen oder miteinander interagieren.
+- Die Mitglieder können mit admin nur über Administratoren definierte benutzerdefinierte Karten wie Feedback geben, teilen Sie Ihre Anforderungen usw.
+- Mitglieder können eine öffentliche Gruppe über einen Link abonnieren.
 <br/> <br/> 
 ![](Images/Public4.PNG)
 

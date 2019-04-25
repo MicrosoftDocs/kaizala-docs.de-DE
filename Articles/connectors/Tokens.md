@@ -1,88 +1,88 @@
 ---
-title: Authentifizierungsmethode
-description: Artikel zum Abrufen von Access-Token für die Abfrage Kaizala Ressourcen
+title: AuthentifizierungsMechanismus
+description: Artikel zum Abrufen von Zugriffstoken zum Abfragen von Kaizala-Ressourcen
 topic: Article
 author: nitinjms
 ms.openlocfilehash: e46d5ec6e6af4d125c9aef3dead5bc7a8e7e257c
-ms.sourcegitcommit: 3a6a13cc885faf1bbc9ee8498f5183f414395aac
+ms.sourcegitcommit: 973f754fdb7c93381f808632f47fe66a46cc069e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19905313"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "33190808"
 ---
-# <a name="authentication-mechanism"></a>Authentifizierungsmethode
+# <a name="authentication-mechanism"></a>AuthentifizierungsMechanismus
 
-Bevor Sie beginnen, finden Sie in [Setup für die Verwendung der Kaizala-Connectors](setup.md)
+Bevor Sie beginnen, lesen Sie [Setup für die Verwendung der Kaizala](setup.md) -Connectors
 
-## <a name="authentication-for-kaizala-connectors"></a>Authentifizierung für Kaizala Connectors
+## <a name="authentication-for-kaizala-connectors"></a>Authentifizierung für Kaizala-Connectors
  
-Wir haben einen benutzerdefinierten token basierend Autorisierungsmechanismus implementiert. Dieser Mechanismus wird das Konzept der Aktualisierung und Zugriffstoken zum Verwalten der Autorisierung für die Kaizala-Plattform-APIs verwendet.
-*   Aktualisieren von Token sind die erforderlichen Informationen für ein neues Zugriffstoken abzurufen. Sie müssen an den Sicherheitstokendienst übergeben werden, wenn ein Zugriffstoken läuft ab oder ein Zugriffstoken zum ersten Mal generiert werden muss. Aktualisierungstoken für Kaizala Verbinder haben Ablaufzeit 365 Tage. 
+Wir haben einen benutzerdefinierten Token-basierten Autorisierungsmechanismus implementiert. Dieser Mechanismus verwendet das Konzept der Aktualisierungs-und Zugriffstoken, um die Zugriffsautorisierung für die Kaizala-Platt Form-APIs zu verwalten.
+*   Aktualisierungstoken enthalten die erforderlichen Informationen, um ein neues Zugriffstoken zu erhalten. Sie müssen an den Tokendienst übergeben werden, wenn ein Zugriffstoken abläuft oder wenn zum ersten Mal ein Zugriffstoken generiert werden muss. Aktualisierungstoken für Kaizala-Connectors weisen eine Ablaufzeit von 365 Tagen auf. 
 
-*   Zugriffstoken führen die erforderliche Informationen, um eine Ressource Kaizala zuzugreifen. Eine 3rd Partei Clients muss ein Zugriffstoken an der Plattform Kaizala mit jeder API-Anforderung übergeben. Zugriffstoken für Kaizala Verbinder haben Ablaufzeit von 24 Stunden.
+*   Zugriffstoken tragen die erforderlichen Informationen für den Zugriff auf eine Kaizala-Ressource. Ein Drittanbieter-Client muss mit jeder API-Anforderung ein Zugriffstoken an die Kaizala-Plattform weiterleiten. Zugriffstoken für Kaizala-Connectors haben eine Ablaufzeit von 24 Stunden.
 
 
-|              | Details           | Gewusst wie: Generieren   | Ablaufzeit    |
+|              | Details           | So generieren Sie   | Ablaufzeit    |
 | :---: | :---: | :---: | :---: |
-| Aktualisieren von Token  | Führen Sie die erforderlichen Informationen für ein neues Zugriffstoken abzurufen.     | Im nächsten Abschnitt unten sind unterschiedliche Möglichkeiten zum Generieren von Aktualisierungstoken dokumentiert. | 365 Tage           |
-| Zugangs-Token   | Führen Sie die erforderliche Informationen zum Zugriff auf eine Ressource Kaizala  | Entwickler verwendet aktualisieren Token & andere Connector Details zum Abfragen von Kaizala API-Endpunkt um Access Token zu generieren    | 24 Stunden            |
+| Aktualisierungs Token  | Übertragen der erforderlichen Informationen zum Abrufen eines neuen Zugriffstokens     | Unterschiedliche Methoden zum Generieren des Aktualisierungs Tokens werden im nächsten Abschnitt beschrieben. | 365 Tage           |
+| Zugangs-Token   | Übertragen der erforderlichen Informationen für den Zugriff auf eine Kaizala-Ressource  | Der Entwickler verwendet das Aktualisierungstoken & anderen Connector Details zum Abfragen des Kaizala-API-Endpunkts, um Zugriffstoken zu generieren.    | 24 Stunden            |
 
-*   Aktualisierungstoken können ungültig vom Server auf zwei Arten – durch Generieren neuer aktualisieren Token für den gleichen Kaizala Connector oder den entsprechenden Kaizala Connector vollständig gelöscht werden.
-## <a name="different-types-of-refresh-tokens"></a>Unterschiedliche Typen von Token aktualisieren
+*   Aktualisierungstoken können vom Server auf zweierlei Weise für ungültig erklärt werden: durch Generieren neuer Aktualisierungstoken für den gleichen Kaizala-Konnektor oder durch Löschen des entsprechenden Kaizala-Konnektors.
+## <a name="different-types-of-refresh-tokens"></a>Verschiedene Typen von Aktualisierungstoken
 
-Kaizala Connectors ermöglichen die Optionen zum Generieren von zwei verschiedene Types von Token aktualisieren. Benutzertoken kann entweder über Kaizala-Verwaltungsportal oder oAuth generiert werden.
+Kaizala-Connectors ermöglichen es, zwei verschiedene Typen von Aktualisierungs Token zu generieren. Benutzertoken können entweder über Kaizala-Verwaltungs Portal oder oAuth generiert werden.
 
-|              |   Tools zum Generieren von  | Umfang des Zugriffs   | Die generiert werden können | Details |
+|              |   Zu generierende Tools  | Zugriffsbereich   | Wer generieren kann | Details |
 | :---: | :---: | :---: | :---: | :---: |
-| Gruppieren von Token  | Kaizala-Verwaltungsportal     | Ausgewählte Gruppe   | Gruppe/Admin-Mandanten |Dieses Token kann Entwickler Vorgänge ausführen, dass ein Gruppe Admin in dieser Gruppe Berechtigungen für verfügt |
-| Benutzertoken   | Kaizala-Verwaltungsportal  | Alle Gruppen, bei denen ein Benutzer Mitglied ist | Jeder Benutzer | Wenn Benutzer Administrator ist, wird dieses Token auf Mandantenebene Access ausgeführt. Für andere kann das Token verwendet werden für den Zugriff von Gruppen gemäß seinen Zugriff auf |
-| Benutzertoken   | Verwenden von OAuth 2.0 mithilfe von APIs | Alle Gruppen, bei denen ein Benutzer Mitglied ist | Jeder Benutzer |Bei Verwendung dieses Tokens kann Entwickler Vorgänge in allen Gruppen ausführen.|
+| Gruppen Token  | Kaizala-Verwaltungs Portal     | Ausgewählte Gruppe   | Gruppen-/MandantenAdministrator |Mithilfe dieses Tokens können Entwickler Vorgänge ausführen, für die ein Gruppenadministrator über Berechtigungen in dieser Gruppe verfügt. |
+| Benutzer Token   | Kaizala-Verwaltungs Portal  | Alle Gruppen, bei denen ein Benutzer Mitglied ist | Beliebiger Benutzer | Wenn der Benutzer MandantenAdministrator ist, hat dieses Token Zugriff auf Mandantenebene. Für andere Benutzer kann das Token für den Zugriff auf Gruppen gemäß seinem Zugriff verwendet werden. |
+| Benutzer Token   | Verwenden von OAuth 2,0, verwenden von APIs | Alle Gruppen, bei denen ein Benutzer Mitglied ist | Beliebiger Benutzer |Mithilfe dieses Tokens können Entwickler Vorgänge für alle Gruppen ausführen.|
 
-*   Im Fall eines WAN-Benutzertoken bietet einzelnes Token Zugriff auf alle Gruppen, die, denen ein Benutzer gehört
+*   Im Fall von Benutzertoken ermöglicht ein einzelnes Token den Zugriff auf alle Gruppen, zu denen ein Benutzer gehört
 *   Für einen einzelnen Connector können Entwickler Token für mehrere Gruppen generieren.
 
-Kaizala bietet zwei weitere Methoden zum Aktualisierungstoken Programmgesteuertes generieren
-* Verwenden-API (wird bald hinzufügen)
-* Verwenden von OAuth (wird bald hinzufügen)
+Kaizala bietet zwei weitere Methoden zum Generieren von Aktualisierungstoken programatically
+* Using API (wird bald hinzugefügt)
+* Verwenden von OAuth (wird bald hinzugefügt)
 
-Nachdem Token Aktualisieren von Group-Administrator oder Benutzer dem Entwickler bereitgestellt wird, sollte es zum Generieren von Access-Token verwendet werden.
-## <a name="methods-to-generate-access-token"></a>Methoden zum Generieren von Access-Token
+Sobald das Aktualisierungstoken entweder vom Gruppenadministrator oder vom Benutzer für den Entwickler bereitgestellt wird, sollte es zum Generieren des Zugriffstokens verwendet werden.
+## <a name="methods-to-generate-access-token"></a>Methoden zum Generieren von Zugriffs Token
 
-Als Entwickler müssen Sie jetzt ein Connector-ID, geheimen Schlüssel und eine Refresh Token, die an Sie weitergeleitet werden sollen. Mit diesem, können Sie ein Zugriffstoken generieren.
+Als Entwickler haben Sie jetzt eine Connector-ID, einen geHeimen Schlüssel und ein Aktualisierungs Token, die an Sie weitergeleitet werden sollen. Mithilfe dieses können Sie ein Zugriffstoken generieren.
 
-Kaizala bietet zwei-Methode, um das Zugriffstoken generieren
-* Verwenden von API
+Kaizala bietet zwei Methoden zum Generieren von Zugriffstoken
+* Verwenden der API
 * Verwenden von OAuth
 
-### <a name="generate-access-token-using-api"></a>Generieren Sie Access Token mit-API
+### <a name="generate-access-token-using-api"></a>Generieren eines Zugriffstokens mithilfe der API
 
-Die Stammdomäne für das Aufrufen der Kazaila-APIs ist:
+Die Stammdomäne zum Aufrufen der Kazaila-APIs lautet:
 
     https://api.kaiza.la/v1/
 
-Sie müssen den folgenden Endpunkt zu verwenden, um ein Zugriffstoken (sowohl zuerst Zeit & höher nach Ablauf das Zugriffstoken) abzurufen:
+Sie müssen den folgenden Endpunkt verwenden, um ein Zugriffstoken zu erhalten (sowohl beim ersten & später, wenn das Zugriffstoken abläuft):
 
     GET https://{api_root}/accessToken
 
-##### <a name="request-parameters"></a>Anforderungsparameter
+##### <a name="request-parameters"></a>AnforderungsParameter
 
 |               | Parameter             | Typ      | Optional?     | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| HTTP-Header   | `applicationId`       | String    | Nein            | ID der Connector zugeordnet  |
-| HTTP-Header   | `applicationSecret`   | String    | Nein            | Der Connector zugeordneten geheimen Schlüssel |
-| HTTP-Header   | `refreshToken`        | String    | Nein            | Wenn der jeweilige Connector Zugriff auf die Gruppe gewährt wurde durch die Kaizala Gruppe Admin freigegeben refreshToken 
+| HTTP-Header   | `applicationId`       | String    | Nein            | Der Verbindung zugeordnete ID  |
+| HTTP-Header   | `applicationSecret`   | String    | Nein            | Dem Verbinder zugeordneter Schlüssel |
+| HTTP-Header   | `refreshToken`        | String    | Nein            | refreshToken, die vom Kaizala-Gruppenadministrator freigegeben wurden, wenn dem jeweiligen Connector der Zugriff auf die Gruppe gewährt wurde 
 
 ##### <a name="response-body"></a>Antworttext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| `accessToken` | String | Erfolgreich Auth ist ein Token Anwendung zurückgegeben, die zum Beschleunigen des weiteren API-Aufrufe verwendet werden können |
-| `endpointUrl` | String | Erfolgreiche Auth ist eine Endpunkt-Url zurückgegeben, für nachfolgende API-Aufrufe, die als api-Basis-Url verwendet werden sollten |
-| `accessTokenExpiry` | Long | Es gibt die Ablaufzeit für AccessToken in Epoche time(milliseconds) an. |
-| `refreshToken` | String | Nach Abschluss der 328 Tage (90 % der Gültigkeit des Tokens aktualisieren) würden sie die neue RefreshToken zurück, die zum Generieren von AccessToken verwendet werden soll. Andernfalls nach Ablauf die Gültigkeit der aktuellen Aktualisierungstoken würde Connector funktionieren. Der Wert ist Null, bis 90 % der Gültigkeit der aktuellen RefreshToken läuft ab |
-| `scope` | String | Festlegen von Berechtigungen, denen mit der Connector bereitgestellt wird |
+| `accessToken` | String | Bei erfolgreicher Authentifizierung wird ein Anwendungs Token zurückgegeben, das für nachfolgende API-Aufrufe verwendet werden kann. |
+| `endpointUrl` | String | Bei erfolgreicher Authentifizierung wird eine Endpunkt-URL zurückgegeben, die als API-base-URL für nachfolgende API-Aufrufe verwendet werden sollte. |
+| `accessTokenExpiry` | Long | Es gibt die Ablaufzeit für Access Token in Epoch time (Millisekunden) an. |
+| `refreshToken` | String | Nach Abschluss von 328 Tagen (90% der Gültigkeit des Aktualisierungs Tokens) würde die neue refreshToken zurückgegeben, die zum Generieren von Access Token verwendet werden soll. Andernfalls würde Connector nicht mehr funktionieren, nachdem die Gültigkeit des aktuellen Aktualisierungs Tokens abgelaufen ist. Der Wert ist NULL, bis 90% der Gültigkeit des aktuellen refreshToken abgelaufen ist. |
+| `scope` | String | Berechtigungssatz, mit dem der Connector bereitgestellt wird |
 
-##### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
+##### <a name="sample-json-response"></a>JSON-Beispielantwort
 
 ```javascript
 {
@@ -93,65 +93,65 @@ Sie müssen den folgenden Endpunkt zu verwenden, um ein Zugriffstoken (sowohl zu
     "scope": "token.write"
 }
 ```
-### <a name="generate-access-token-using-oauth-20"></a>Generieren Sie Access Token mit oAuth 2.0
+### <a name="generate-access-token-using-oauth-20"></a>Generieren eines Zugriffstokens mit oAuth 2,0
 
-#### <a name="steps-to-generate-access-token-using-oauth-20"></a>Schritte zum Generieren von Access Token mit oAuth 2.0
-*    **Schritt 1:** Erstellen/Aktualisieren eines Verbinders Kaizala-Verwaltungsportal Einbeziehung umleitungs-url
-     *    In der Verbindung, die Sie verwenden, stellen Sie sicher, dass Sie eine Umleitung eingegeben haben Url beim Erstellen der Verbindung. Wenn dies nicht der Fall ist, bitte Update umleitungs-url
-     *    Für Testzwecke können Sie die unten Postman Callback-URL, einfach und so erhalten Sie eine Seite mit dem Code. 
+#### <a name="steps-to-generate-access-token-using-oauth-20"></a>Schritte zum Generieren eines Zugriffstokens mit oAuth 2,0
+*    **Schritt 1:** Erstellen/Aktualisieren eines Connectors im Kaizala-Verwaltungs Portal mit Umleitungs-URL
+     *    Stellen Sie sicher, dass Sie im Connector, den Sie verwenden, beim Erstellen des Connectors eine Umleitungs-URL eingegeben haben. Falls nicht, aktualisieren Sie die Umleitungs-URL
+     *    Zu Testzwecken können Sie die below Postman-Rückruf-URL verwenden, die Ihnen nur eine Seite mit dem Code gibt. 
         
           `https://www.getpostman.com/oauth2/callback`
  
-*    **Schritt 2:** Geben Sie unter Url im Browser, und drücken Sie die EINGABETASTE
+*    **Schritt 2:** Geben Sie unter URL im Browser ein, und drücken Sie die EINGABETASTE.
 
           `https://ds.kaiza.la/api/Oauth/Authorize?client_id={{ConnectorID}}&redirect_uri={{re-directURL}}`
       
-      *   Stellen Sie sicher, dass Sie 'Client_id' und 'Redirect_uri' richtig eingegeben haben
-       ##### <a name="request-parameters"></a>Anforderungsparameter
+      *   Stellen Sie sicher, dass Sie ' client_id ' & ' redirect_uri ' richtig eingegeben haben.
+       ##### <a name="request-parameters"></a>AnforderungsParameter
 
        |                | Parameter             | Typ      | Optional?     | Beschreibung |
        | :---: | :---: | :---: | :---:  | :--- |
-       | URL-parameter  | `client_id`       | String    | Nein            | ID der Connector zugeordnet  |
-       | URL-parameter  | `redirect_uri`    | String    | Nein            | Der Connector zugeordneten geheimen Schlüssel |
+       | URL-Parameter  | `client_id`       | String    | Nein            | Der Verbindung zugeordnete ID  |
+       | URL-Parameter  | `redirect_uri`    | String    | Nein            | Dem Verbinder zugeordneter Schlüssel |
 
-     *    Beispielsweise wäre Beispiel-url
+     *    Beispiel-URL wäre beispielsweise
      
             `https://ds.kaiza.la/api/Oauth/Authorize?client_id=2AB9B82044683484EE9D958E7&redirect_uri=https://www.getpostman.com/oauth2/callback`
 
 
-*    **Schritt 3:** Melden Sie sich Kaizala und generieren "Code"
-     *   Sobald Sie drücken, geben Sie in Schritt2, Sie werden sichergestellt, dass Kaizala-Anmeldeseite
-     *   Authentifizieren Sie verwenden Sie die Nummer Ihres registrierte Kaizala
-     *   Nach der erfolgreichen Anmeldung werden Sie zu dem Url umgeleitet mit "Code" als Abfragezeichenfolgen-Parameter in der Callback-Url umgeleitet werden
-     *   Notieren Sie den zurückgegebenen code 
+*    **Schritt 3:** Melden Sie sich bei Kaizala an, und generieren Sie "Code"
+     *   Sobald Sie in Schritt 2 die EINGABETASTE drücken, werden Sie zur Kaizala-Anmeldeseite weitergeleitet.
+     *   Authentifizieren Sie sich mit Ihrer registrierten Kaizala-Nummer
+     *   Nachdem Sie sich erfolgreich angemeldet haben, werden Sie an die Re-Direct-URL mit "Code" als Abfrageparameter in der Rückruf-URL umgeleitet.
+     *   NoTieren Sie sich den zurückgegebenen "Code" 
      
-*    **Schritt 4:** Verwenden Sie Code zum Generieren von Access Token
-     *   Stellen Sie unter API-Aufruf Access Token generieren
+*    **Schritt 4:** Verwenden von Code zum Generieren eines Zugriffstokens
+     *   Make below API-Aufruf zum Generieren von Zugriffs Token
      
-         `POST https://ds.kaiza.la/api/oauth/token `
+         `POST https://ds.kaiza.la/api/oauth/token `
      
-     ##### <a name="request-parameters"></a>Anforderungsparameter
+     ##### <a name="request-parameters"></a>AnforderungsParameter
 
        |                | Parameter             | Typ      | Optional?     | Beschreibung |
        | :---: | :---: | :---: | :---:  | :--- |
-       | HTTP-Header    | `Content-Type`        | String    | Nein            | Zulässige Wert: Application/X-www-form-urlencoded  |
-       | Body-Parameter     | `client_id`       | String    | Nein            | ID der Connector zugeordnet  |
-       | Body-Parameter     | `client_secret`   | String    | Nein            | Der Connector zugeordneten geheimen Schlüssel |
-       | Body-Parameter     | `code`    | String    | Nein            | Code, der die umgeleitet Url-Abfragezeichenfolgen-Parameter zurückgegeben wurden |
+       | HTTP-Header    | `Content-Type`        | String    | Nein            | Zulässiger Wert: Application/x-www-form-urlencoded  |
+       | Body-Parameter     | `client_id`       | String    | Nein            | Der Verbindung zugeordnete ID  |
+       | Body-Parameter     | `client_secret`   | String    | Nein            | Dem Verbinder zugeordneter Schlüssel |
+       | Body-Parameter     | `code`    | String    | Nein            | Code, der im Abfrageparameter der Umleitungs-URL zurückgegeben wurde |
      
-Sie erhalten AccessToken, EndpointUrl, AccessToken Ablauf als Teil der Antwort.
+Sie erhalten Access Token, endpointUrl, Access Token Ablaufdatum als Teil der Antwort.
 
 ##### <a name="response-body"></a>Antworttext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| `accessToken` | String | Erfolgreich Auth ist ein Token Anwendung zurückgegeben, die zum Beschleunigen des weiteren API-Aufrufe verwendet werden können |
-| `endpointUrl` | String | Erfolgreiche Auth ist eine Endpunkt-Url zurückgegeben, für nachfolgende API-Aufrufe, die als api-Basis-Url verwendet werden sollten |
-| `accessTokenExpiry` | Long | Es gibt die Ablaufzeit für AccessToken in Epoche time(milliseconds) an. |
-| `refreshToken` | String | Nach Abschluss der 328 Tage (90 % der Gültigkeit des Tokens aktualisieren) würden sie die neue RefreshToken zurück, die zum Generieren von AccessToken verwendet werden soll. Andernfalls nach Ablauf die Gültigkeit der aktuellen Aktualisierungstoken würde Connector funktionieren. Der Wert ist Null, bis 90 % der Gültigkeit der aktuellen RefreshToken läuft ab |
-| `scope` | String | Festlegen von Berechtigungen, denen mit der Connector bereitgestellt wird |
+| `accessToken` | String | Bei erfolgreicher Authentifizierung wird ein Anwendungs Token zurückgegeben, das für nachfolgende API-Aufrufe verwendet werden kann. |
+| `endpointUrl` | String | Bei erfolgreicher Authentifizierung wird eine Endpunkt-URL zurückgegeben, die als API-base-URL für nachfolgende API-Aufrufe verwendet werden sollte. |
+| `accessTokenExpiry` | Long | Es gibt die Ablaufzeit für Access Token in Epoch time (Millisekunden) an. |
+| `refreshToken` | String | Nach Abschluss von 328 Tagen (90% der Gültigkeit des Aktualisierungs Tokens) würde die neue refreshToken zurückgegeben, die zum Generieren von Access Token verwendet werden soll. Andernfalls würde Connector nicht mehr funktionieren, nachdem die Gültigkeit des aktuellen Aktualisierungs Tokens abgelaufen ist. Der Wert ist NULL, bis 90% der Gültigkeit des aktuellen refreshToken abgelaufen ist. |
+| `scope` | String | Berechtigungssatz, mit dem der Connector bereitgestellt wird |
 
-##### <a name="sample-json-response"></a>Beispiel von JSON-Antwort
+##### <a name="sample-json-response"></a>JSON-Beispielantwort
 
 ```javascript
 {
@@ -163,4 +163,4 @@ Sie erhalten AccessToken, EndpointUrl, AccessToken Ablauf als Teil der Antwort.
 }
 ```
 
-Weiter: [API-Dokumentation](API.md)
+Weiter: [API Documentation](API.md)

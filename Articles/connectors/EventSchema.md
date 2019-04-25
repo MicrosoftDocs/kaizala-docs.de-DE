@@ -1,29 +1,29 @@
-# <a name="webhook-response-schema-for-registered-events"></a>Webhook Antwortschema für registrierte Ereignisse
+# <a name="webhook-response-schema-for-registered-events"></a>Webhook-Antwortschema für registrierte Ereignisse
 
-Wenn eine Webhook registriert ist, wird eine Antwort WebHook für jedes Ereignis Kaizala auf die registrierten ObjectId für registrierte Ereignisse gefiltert zurückgegeben. Hier finden Sie Informationen über Schemas für verschiedene Webhook Antwort für verschiedene Ereignisse.
+Wenn ein webhook registriert ist, gibt Kaizala für jedes Ereignis in der registrierten objectId, gefiltert nach registrierten Ereignissen, eine webHook-Antwort zurück. NachFolgend finden Sie Schema Details für verschiedene webhook-Antworten für verschiedene Ereignisse.
 
 ## <a name="response-body"></a>Antworttext
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| objectId | String | Bezeichner, die für das Objekt, in welchen, das Kontext der Webhook erstellt wurde. Für ObjectType = Gruppe, dessen Gruppenbezeichner für ObjectType = Action, dessen ActionId für ObjectType = ActionPackage, dessen Action-Paket-Id |
-| objectType | String | Enum: "Group" / "Aktion" / "ActionPackage" |
-| eventType | String | Registrierte Ereignis, das aufgerufen wurde |
-| eventId | String | Bezeichner für das Ereignis |
-| data | JSON-Objekt | Ein Objekt, Daten, die spezifisch für dieses Ereignis darstellt. Parameter für jeden unterstützten Ereignisempfänger beschrieben. |
-| context | String | Gibt-Wert, der bei der Registrierung einer Webhook unter Parameter 'CallbackContext' festgelegt wurde|
-| fromUser | String | Telefonnummer des Absenders |
-| fromUserId | String | Benutzer-ID des Absenders |
-| fromUserName | String | Registrierte Namen mit Kaizala des Absenders |
-| fromUserProfilePic | url | Des Absenders Profil Pic |
+| objectId | String | Bezeichner, der das Objekt darstellt, in dem der webhook erstellt wurde. Für Objekttyp = Gruppe, ID der Gruppe, für ObjectType = Action, its Action-ID, für ObjectType = ActionPackage, its Action-Package-Identifier |
+| objectType | String | Enum: "Group"/"action"/"ActionPackage" |
+| eventType | String | Registriertes Ereignis, das aufgerufen wurde |
+| eventId | String | Bezeichner, der das Ereignis darstellt |
+| data | JSON-Objekt | Objekt, das die für dieses ereignisspezifischen Daten darstellt. Für jedes unterstützte Ereignis definierte Parameter. |
+| context | String | Gibt den Wert zurück, der bei der Registrierung eines webhooks unter dem Parameter "callbackcontext" festgelegt wurde.|
+| fromUser | String | Telefonnummer des abSenders |
+| fromUserId | String | Absender-ID |
+| fromUserName | String | Registrierter Name des abSenders mit Kaizala |
+| fromUserProfilePic | url | Profilbild des abSenders |
 
-Der Parameter 'Daten' würde je nach Ereignis WebHook variieren. Schema finden Sie für jedes Ereignis unten.
+Der Parameter "Data" würde je nach webHook-Ereignis variieren. Nachfolgend finden Sie ein Schema für jedes Ereignis.
 
-### <a name="data-for-event-textmessagecreated"></a>Daten für 'TextMessageCreated'-Ereignis
+### <a name="data-for-event-textmessagecreated"></a>Daten für das Ereignis ' TextMessageCreated '
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| text | String | Textnachricht, die gesendet wurde |
+| text | String | Text Nachricht, die gesendet wurde |
 
-#### <a name="sample-webhook-response-for-textmessagecreated"></a>Beispiel WebHook Antwort für 'TextMessageCreated'
+#### <a name="sample-webhook-response-for-textmessagecreated"></a>Beispiel-webHook-Antwort für ' TextMessageCreated '
 ```javascript
 {
   "objectId": "8c2050-9be8-45d6-97f5-bb7013930027",
@@ -41,16 +41,16 @@ Der Parameter 'Daten' würde je nach Ereignis WebHook variieren. Schema finden S
 }
 ```
 
-### <a name="data-for-event-attachmentcreated"></a>Daten für 'AttachmentCreated'-Ereignis
+### <a name="data-for-event-attachmentcreated"></a>Daten für das Ereignis ' AttachmentCreated '
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| Medien | Array | Jedes Element enthält, MediaUrl und mediaFileName|
+| Medien | Array | Jedes Element enthält mediaUrl und mediaFileName|
 | mediaUrl | url | URL des Bilds |
-| mediaFileName | String | Dateiname |
-| actionType | String | Enum-Wert: 'Image' |
-| Beschriftung | String | Beschriftung mit dem Bild zugeordnet ist |
+| mediaFileName | String | Filename |
+| actionType | String | Enumerationswert: ' Image ' |
+| Beschriftung | String | mit dem Bild verknüpfte Beschriftung |
 
-#### <a name="sample-webhook-response-for-attachmentcreated"></a>Beispiel WebHook Antwort für 'AttachmentCreated'
+#### <a name="sample-webhook-response-for-attachmentcreated"></a>Beispiel-webHook-Antwort für ' AttachmentCreated '
 ```javascript
 {
   "objectId": "8c291050-9be8-45d6-97f5-bb7013930027",
@@ -74,17 +74,17 @@ Der Parameter 'Daten' würde je nach Ereignis WebHook variieren. Schema finden S
   "fromUserProfilePic": "https://mobileonlyapps.blob.core.windows.net/72e29591-4e7b-84eb-4e228406fb9b/c34afc0d53614ae29285d08e6409e416.jpg"
 }
 ```
-### <a name="data-for-event-announcement"></a>Daten für das Ereignis 'Ankündigung'
+### <a name="data-for-event-announcement"></a>Daten für Ereignis Ansage
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| title | String | Titel der Ankündigung Aktion |
-| text | String | Nachrichtentext der Ankündigung Aktion |
-| Medien | Array | Jedes Element enthält, MediaUrl und mediaFileName|
+| title | String | Titel der Ansage Aktion |
+| text | String | Nachrichtentext der Ansage Aktion |
+| Medien | Array | Jedes Element enthält mediaUrl und mediaFileName|
 | mediaUrl | url | URL des Bilds |
-| mediaFileName | String | Dateiname |
+| mediaFileName | String | Filename |
 
 
-#### <a name="sample-webhook-response-for-announcement"></a>Beispiel WebHook Antwort für 'Ankündigung'
+#### <a name="sample-webhook-response-for-announcement"></a>Beispiel-webHook-Antwort für "Ansage"
 ```javascript
 {
   "objectId": "8c291050-9be8-45d6-97f5-bb7013930027",
@@ -109,17 +109,17 @@ Der Parameter 'Daten' würde je nach Ereignis WebHook variieren. Schema finden S
 }
 ```
 
-### <a name="data-for-event-jobcreated"></a>Daten für 'JobCreated'-Ereignis
+### <a name="data-for-event-jobcreated"></a>Daten für das Ereignis ' JobCreated '
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| title | String | Titel der Ankündigung Aktion |
-| text | String | Nachrichtentext der Ankündigung Aktion |
-| actionId | Id | Bezeichner für die betreffende Instanz des Auftrags-Aktion |
-| dueDate | Date | Datum nach dem Auftrag abläuft |
+| title | String | Titel der Ansage Aktion |
+| text | String | Nachrichtentext der Ansage Aktion |
+| actionId | Id | Bezeichner für diese bestimmte Instanz von Job-Aktion |
+| dueDate | Date | Datum, an dem der Auftrag ablaufen würde |
 | assignedTo | Zeichenfolgenarray | Array von Telefonnummern |
 
 
-#### <a name="sample-webhook-response-for-jobcreated"></a>Beispiel WebHook Antwort für 'JobCreated'
+#### <a name="sample-webhook-response-for-jobcreated"></a>Beispiel-webHook-Antwort für ' JobCreated '
 ```javascript
 {
   "objectId": "8c2950-9be8-45d6-97f5-bb7013930027",
@@ -143,24 +143,24 @@ Der Parameter 'Daten' würde je nach Ereignis WebHook variieren. Schema finden S
 }
 ```
 
-### <a name="data-for-event-jobresponse"></a>Daten für 'JobResponse'-Ereignis
+### <a name="data-for-event-jobresponse"></a>Daten für das Ereignis ' JobResponse '
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| title | String | Titel der Ankündigung Aktion |
-| text | String | Nachrichtentext der Ankündigung Aktion |
-| actionId | Id | Bezeichner für die betreffende Instanz des Auftrags-Aktion |
-| groupId | String | Gruppen-ID. |
-| responseId | String | GUID zum Identifizieren dieser Antwort |
-| responseDetails | Zeichenfolgenarray | Array von Antwortobjekte |
-| Benutzer, dem | String | Telefonnummer der zugewiesenen Person |
-| assigneeName | String | Benutzer, die dem Namen |
-| assigneeProfilePic | url | URL von der zugewiesenen Profil pic |
-| isCompleted | Boolean | Ist der Auftrag werden abgeschlossen? |
+| title | String | Titel der Ansage Aktion |
+| text | String | Nachrichtentext der Ansage Aktion |
+| actionId | Id | Bezeichner für diese bestimmte Instanz von Job-Aktion |
+| groupId | String | Gruppenbezeichner |
+| Antwort-Nr. | String | GUID zum Identifizieren dieser Antwort |
+| responseDetails | Zeichenfolgenarray | Array von Response-Objekten |
+| Empfänger | String | Telefonnummer des Empfängers |
+| assigneeName | String | Name des Empfängers |
+| assigneeProfilePic | url | URL des Profils des Empfängers PIC |
+| isCompleted | Boolean | Ist der Auftrag abgeschlossen? |
 
 
 
 
-#### <a name="sample-webhook-response-for-jobresponse"></a>Beispiel WebHook Antwort für 'JobResponse'
+#### <a name="sample-webhook-response-for-jobresponse"></a>Beispiel-webHook-Antwort für ' JobResponse '
 ```javascript
 {
   "objectId": "8c2950-9be8-45d6-97f5-bb7013930027",
@@ -188,31 +188,31 @@ Der Parameter 'Daten' würde je nach Ereignis WebHook variieren. Schema finden S
 }
 ```
 
-### <a name="data-for-event-actioncreated--surveycreated"></a>Daten für das Ereignis 'ActionCreated' / 'SurveyCreated'
+### <a name="data-for-event-actioncreated--surveycreated"></a>Daten für das Ereignis ' ActionCreated '/' SurveyCreated '
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| actionId | Id | Bezeichner für die betreffende Instanz des Auftrags-Aktion |
-| groupId | String | Gruppen-ID. |
-| responseId | String | GUID zum Identifizieren dieser Antwort |
+| actionId | Id | Bezeichner für diese bestimmte Instanz von Job-Aktion |
+| groupId | Zeichenfolge | Gruppenbezeichner |
+| Antwort-Nr. | String | GUID zum Identifizieren dieser Antwort |
 | Fragen | Zeichenfolgenarray | Array von Objekten |
 | Responder | String | Telefonnummer des Responders |
 | responderName | String | Name des Responders |
-| responderProfilePic | url | URL der Responder Profil pic |
-| isAnonymous | Boolean | Die Antwort Umfrage ist anonym gesendet wurde |
-| isUpdateResponse | Boolean | Die Antwort aktualisiert wurde, vom Responder, nachdem die Antwort zuvor übermittelt wurde |
+| responderProfilePic | url | URL des Profils des Responders PIC |
+| isAnonymous | Boolean | Wurde die Umfrageantwort anonym übermittelt |
+| isUpdateResponse | Boolean | Wurde die Antwort von Responder aktualisiert, da die Antwort zuvor übermittelt wurde |
 
 
-#### <a name="schema-details-for-responsewithquestions-object"></a>Schemadetails für 'ResponseWithQuestions'-Objekt
+#### <a name="schema-details-for-responsewithquestions-object"></a>Schema Details für ' responseWithQuestions '-Objekt
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
 | title | String | Frage Titel |
-| Typ | String | QuestionType |
-| options | Array | Liste der Optionen (Schlüssel / Wert-Paar) für mit mehreren choice Fragen |
-| isInvisible | Boolean | Die Frage wird von der Benutzeroberfläche ausgeblendet werden |
+| type | Zeichenfolge | Questiontype |
+| options | Array | Liste der Optionen (Schlüssel-Wert-Paar), die für Fragen mit mehreren Auswahlen gelten |
+| isUnsichtbar | Boolean | Ist die Frage von der Benutzeroberfläche ausgeblendet |
 
 
 
-#### <a name="sample-webhook-response-for-actioncreated--surveycreated"></a>Beispiel-WebHook Antwort für 'ActionCreated' / 'SurveyCreated'
+#### <a name="sample-webhook-response-for-actioncreated--surveycreated"></a>Beispiel-webHook-Antwort für ' ActionCreated '/' SurveyCreated '
 ```javascript
 {
   "objectId": "8c2950-9be8-45d6-97f5-bb7013930027",
@@ -267,32 +267,32 @@ Der Parameter 'Daten' würde je nach Ereignis WebHook variieren. Schema finden S
 
 
 
-### <a name="data-for-event-surveyresponse-actionresponse"></a>Daten für das Ereignis 'SurveyResponse' / 'ActionResponse'
+### <a name="data-for-event-surveyresponse-actionresponse"></a>Daten für das Ereignis ' SurveyResponse '/' ActionResponse '
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| actionId | Id | Bezeichner für die betreffende Instanz des Auftrags-Aktion |
-| groupId | String | Gruppen-ID. |
-| responseId | String | GUID zum Identifizieren dieser Antwort |
-| responseDetails | Zeichenfolgenarray | Array von 'ResponseWithQuestions'-Objekten |
+| actionId | Id | Bezeichner für diese bestimmte Instanz von Job-Aktion |
+| groupId | Zeichenfolge | Gruppenbezeichner |
+| Antwort-Nr. | String | GUID zum Identifizieren dieser Antwort |
+| responseDetails | Zeichenfolgenarray | Array von ' responseWithQuestions '-Objekten |
 | Responder | String | Telefonnummer des Responders |
 | responderName | String | Name des Responders |
-| responderProfilePic | url | URL der Responder Profil pic |
-| isAnonymous | Boolean | Die Antwort Umfrage ist anonym gesendet wurde |
-| isUpdateResponse | Boolean | Die Antwort aktualisiert wurde, vom Responder, nachdem die Antwort zuvor übermittelt wurde |
+| responderProfilePic | url | URL des Profils des Responders PIC |
+| isAnonymous | Boolean | Wurde die Umfrageantwort anonym übermittelt |
+| isUpdateResponse | Boolean | Wurde die Antwort von Responder aktualisiert, da die Antwort zuvor übermittelt wurde |
 
 
-#### <a name="schema-details-for-responsewithquestions-object"></a>Schemadetails für 'ResponseWithQuestions'-Objekt
+#### <a name="schema-details-for-responsewithquestions-object"></a>Schema Details für ' responseWithQuestions '-Objekt
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
 | title | String | Frage Titel |
-| Typ | String | QuestionType |
-| options | Array | Liste der Optionen für mit mehreren choice Fragen |
-| answer | Array von Json-Objekt | Antworten |
-| isInvisible | Boolean | Die Frage wird von der Benutzeroberfläche ausgeblendet werden |
+| type | Zeichenfolge | Questiontype |
+| options | Array | Liste der Optionen, die für Fragen mit mehreren Auswahlen gelten |
+| Antwort | Array des JSON-Objekts | Antworten |
+| isUnsichtbar | Boolean | Ist die Frage von der Benutzeroberfläche ausgeblendet |
 
 
 
-#### <a name="sample-webhook-response-for-surveyresponse-actionresponse"></a>Beispiel WebHook Antwort für 'SurveyResponse' 'ActionResponse'
+#### <a name="sample-webhook-response-for-surveyresponse-actionresponse"></a>Beispiel-webHook-Antwort für ' SurveyResponse ' ' ActionResponse '
 ```javascript
 {
   "objectId": "8c2950-9be8-45d6-97f5-bb7013930027",
@@ -346,19 +346,19 @@ Der Parameter 'Daten' würde je nach Ereignis WebHook variieren. Schema finden S
 ```
 
 
-### <a name="data-for-event-memberadded--memberremoved"></a>Daten für das Ereignis 'MemberAdded' / 'MemberRemoved'
+### <a name="data-for-event-memberadded--memberremoved"></a>Daten für das Ereignis ' MemberAdded '/' MemberRemoved '
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| Mitglied | String | Telefonnummer des Elements hinzugefügt |
-| memberName | String | Name des Elements hinzugefügt |
-| Typ | String | Rolle des Elements hinzugefügt Membership |
-| memberProfilePic | url | URL von der zugewiesenen Profil pic |
+| Element | String | Telefonnummer des hinzugefügten Members |
+| memberName | String | Name des hinzugefügten Members |
+| type | Zeichenfolge | Mitgliedschafts Rolle des hinzugefügten Members |
+| memberProfilePic | url | URL des Profils des Empfängers PIC |
 
 
 
 
 
-#### <a name="sample-webhook-response-for-memberadded-memberremoved"></a>Beispiel-WebHook Antwort für 'MemberAdded' / 'MemberRemoved'
+#### <a name="sample-webhook-response-for-memberadded-memberremoved"></a>Beispiel-webHook-Antwort für ' MemberAdded '/' MemberRemoved '
 ```javascript
 {
   "objectId": "8c2950-9be8-45d6-97f5-bb7013930027",

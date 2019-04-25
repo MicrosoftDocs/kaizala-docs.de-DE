@@ -1,43 +1,43 @@
-# <a name="anatomy-of-a-kaizala-action-package"></a>Anatomie einer Aktion Kaizala-Paket
+# <a name="anatomy-of-a-kaizala-action-package"></a>Anatomie eines Kaizala-Aktionspakets
 
-Ein Paket Kaizala-Aktion ist eine regulären Zipdatei, die nicht mit Kennwortschutz versehen ist und weist eine maximale Größe von 1MB. Die Ressourcen im Paket werden im Stammverzeichnis der Zip-Datei und nicht in eine beliebige Verzeichnisstruktur. Die Ressourcen können nicht auch alle externen Ressourcen anwesenden im Paket verweisen.
+Ein Kaizala-Aktionspaket ist eine reguläre ZIP-Datei, die nicht kennwortgeschützt ist und eine maximale Größe von 1MB hat. Die Ressourcen im Paket befinden sich im Stamm der ZIP-Datei und nicht in einer Verzeichnisstruktur. Die Ressourcen können auch nicht auf externe Ressourcen verweisen, die nicht im Paket enthalten sind.
 
-Sind die grundlegenden Komponenten eines Pakets Kaizala Aktion 
-*   Eine Manifestdatei im JSON-format
-*   Eine app-Modell für die Aktion Kaizala im JSON-format
-*   Webressourcen, die Ihre Aktion Kaizala - HTML, JS, CSS bilden und Bilddateien
+Die grundlegenden Komponenten eines Kaizala-Aktionspakets sind 
+*   Eine Manifestdatei im JSON-Format
+*   Ein App-Modell für Ihre Kaizala-Aktion im JSON-Format
+*   Webressourcen, die ihre Kaizala-Aktion darstellen-HTML-, JS-, CSS-und Bilddateien
 
-## <a name="package-manifest"></a>Paketmanifest
+## <a name="package-manifest"></a>Paket Manifest
 
-Mit dem Manifest werden Einstellungen der Aktion Kaizala wie die folgenden:
-*   Der Aktion angezeigter Name, Beschreibung, ID, Version und Aktionssymbol.
-*   Verschiedene Ansichten, die die Aktion und ihre jeweiligen Invokation Punkt zuordnen definieren
-    * Eine Ansicht erstellen, wenn eine Aktion aus der Palette aufgerufen wird.
-    * Eine Kartenansicht, die auf die Zeichenbereich Chat, wenn eine Instanz der Aktion angezeigt wird, wird gesendet.
-    * Eine Ansicht Responder für Benutzer an die Kaizala-Aktion
-    * Eine Zusammenfassung zusammengefasster zum Anzeigen Antworten
-*   Über die systemeigenen Ansichten verwendet werden, die Ihre benutzerdefinierten Ansichten kapseln Etiketten
+Das Manifest gibt die Einstellungen der Kaizala-Aktion an, wie beispielsweise die folgenden:
+*   Der Anzeigename, die Beschreibung, die ID, die Version und das Aktionssymbol der Aktion.
+*   Verschiedene Ansichten, die ihre Aktion definieren und ihre jeweiligen Aufruf gibt zurück-Punkte zuordnen
+    * Eine Erstellungsansicht, wenn eine Aktion aus der Palette aufgerufen wird
+    * Eine Kartenansicht, die im Chatbereich angezeigt wird, wenn eine Instanz der Aktion gesendet wird
+    * Eine responderansicht für Benutzer zur Reaktion auf die Kaizala-Aktion
+    * Eine Zusammenfassungsansicht zum Anzeigen von aggregierten Antworten
+*   Bezeichnungen, die in den systemeigenen Ansichten verwendet werden, die Ihre benutzerdefinierten Ansichten Kapseln
 
-Weitere Informationen finden Sie unter [Package-Manifestschema im JSON-Format](package_manifest_schema.md).
+Weitere Informationen finden Sie unter [Paket Manifest-Schema im JSON-Format](package_manifest_schema.md).
 
 ## <a name="app-model"></a>App-Modell
 
-Das App-Modell gibt an, das die Funktionen des die Kaizala Aktion, einschließlich:
-*   Das Datenmodell für das Form-Objekt verwendet werden, um die Kaizala Aggregation Dienste nutzen
+Das App-Modell gibt die Funktionen der Kaizala-Aktion an, einschließlich:
+*   Das Datenmodell für das Form-Objekt, das verwendet werden soll, um die Kaizala-Aggregations Dienste zu nutzen
 *   Eigenschaften für das Form-Objekt
-*   Einstellungen für das Form-Objekt
+*   Dem Form-Objekt zugeordnete Einstellungen
 
-Weitere Informationen finden Sie unter [App Modellschema im JSON-Format](appModel_schema.md).
+Weitere Informationen finden Sie unter [App-Modell Schema im JSON-Format](appModel_schema.md).
 
-## <a name="web-resources"></a>Webressourcen
+## <a name="web-resources"></a>WebRessourcen
 
-Wie bereits erwähnt, muss das Paket Kaizala alle Ressourcen im Paket referenzierten enthalten. Dazu gehören alle HTML, JavaScript, CSS- und Bild-Ressourcen.
+Wie oben erwähnt, muss das Kaizala-Paket alle Ressourcen enthalten, auf die innerhalb des Pakets verwiesen wird. Dies umfasst alle HTML-, JavaScript-, CSS-und Bildressourcen.
 
-Grundlegende Kaizala Aktion besteht aus drei HTML-Seiten, die angezeigt wird, wenn
-*   Die Kaizal-Aktion wird aus der Palette-Aktion in der Client-app - Erstellung Ansicht aufgerufen.
-*   Ein Benutzer versucht, eine Aktion Karte-Instanz auf die Chat Zeichenbereich in der Client-app - Antwort Ansicht gebucht beantworten
-*   Ein Benutzer versucht, die Zusammenfassung aller Antworten für eine bestimmte Aktion Instanz - Zusammenfassungsansicht veröffentlicht anzeigen
+Die einfachste Kaizala-Aktion besteht aus drei HTML-Seiten, die angezeigt werden, wenn
+*   Die Kaizal-Aktion wird aus der Aktions Palette in der Client-App-Erstellungsansicht aufgerufen.
+*   Ein Benutzer versucht, auf eine auf der Chat-Canvas in der Client-App-Antwort Ansicht veröffentlichte Aktionskarten Instanz zu Antworten
+*   Ein Benutzer versucht, die Zusammenfassung aller Antworten anzuzeigen, die für eine bestimmte Aktion veröffentlicht wurden Instanz-Zusammenfassungsansicht
 
-Zur Interaktion mit der Kaizala-Client-app können Sie die [KASClient.js JavaScript-API](KASClient/README.md) verwenden, die wir bereitstellen.
+Um mit der Kaizala-Client-App zu interagieren, können Sie die von uns bereitgestellten [JavaScript-API von KASClient. js](KASClient/README.md) verwenden.
 
 

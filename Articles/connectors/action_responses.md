@@ -1,46 +1,46 @@
 ---
 title: /Responses
-description: Referenzartikel für API zum Abrufen von Daten für Kaizala Aktionen
+description: Referenzartikel zur API zum Abrufen von Antwortdaten für Kaizala-Aktionen
 topic: Reference
 author: nitinjms
 ms.openlocfilehash: 7eee4d159fa932bec1e949ea6fd2b558d2154e7b
-ms.sourcegitcommit: 523ff9067dc81712d7da2b103a3a1a0f0236b8e4
+ms.sourcegitcommit: 973f754fdb7c93381f808632f47fe66a46cc069e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20399371"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "33190726"
 ---
-# <a name="post-response-to-an-action"></a>POST-Antwort auf eine Aktivität
-## <a name="post-responses"></a>POST-/responses
+# <a name="post-response-to-an-action"></a>Post-Antwort auf eine Aktion
+## <a name="post-responses"></a>POST/Responses
 
     POST {endpoint-url}/groups/{groupId}/actions/{actionId}/responses
 
-### <a name="request-parameters"></a>Anforderungsparameter
+### <a name="request-parameters"></a>AnforderungsParameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| URL-Pfad-Parameter | groupId | String | Nein | Gruppen-ID. |
-| URL-Pfad-Parameter | actionId | String | Nein | Aktionsbezeichner |
-| HTTP-Header | accessToken | String | Nein | Access Token vom Auth Endpunkt |
-| HTTP-Header | Content-Type | String | Nein | Wert: Application/Json |
+| URL-Pfad Parameter | groupId | String | Nein | Gruppenbezeichner |
+| URL-Pfad Parameter | actionId | String | Nein | Aktionsbezeichner |
+| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| HTTP-Header | Content-Type | String | Nein | Wert: Application/JSON |
 
 ### <a name="request-body"></a>Anforderungstext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| id | Zeichenfolge | ID des Pakets Kaizala Aktion. Entweder ActionType oder Id muss angegeben werden |
-| actionType | Zeichenfolge | Enumeration "Umfrage" / "Job". Entweder ActionType oder Id muss angegeben werden |
-| responseId | Zeichenfolge | Zum Aktualisieren der vorhandenen Antwort |
-| actionBody | JSON-Objekt | Ein Objekt, für die entsprechende Aktion erforderliche Daten darstellt. Parameter für die einzelnen unterstützten Aktionen beschrieben. |
+| id | Zeichenfolge | ID des Kaizala-Aktionspakets. Entweder von ActionType oder ID sollte angegeben werden |
+| actionType | String | Enum "Survey"/"Job". Entweder von ActionType oder ID sollte angegeben werden |
+| Antwort-Nr. | String | Zum Aktualisieren vorhandener Antwort |
+| actionBody | JSON-Objekt | Objekt, das die für die jeweilige Aktion erforderlichen Daten darstellt. Die unten definierten Parameter für jede der unterstützten Aktionen. |
 
-#### <a name="actionbody-for-a-job-action"></a>ActionBody für eine Auftrags-Aktion
+#### <a name="actionbody-for-a-job-action"></a>actionBody für eine Auftragsaktion
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
-| isCompleted | Bool | Nein | Markieren Sie den Auftrag als erledigt |
+| isCompleted | Boolescher Wert | Nein | Markieren des Auftrags als abgeschlossen |
 
 
-##### <a name="sample-json-request-for-a-job-action"></a>Beispiel für eine Anforderung für eine Aktion Auftrag JSON
+##### <a name="sample-json-request-for-a-job-action"></a>JSON-Beispielanforderung für eine Auftragsaktion
 
 ```javascript
 {
@@ -51,23 +51,23 @@ ms.locfileid: "20399371"
 }
 ```
 
-#### <a name="actionbody-for-a-survey-action-or-action-package-instanceid-"></a>ActionBody für eine Umfrage oder-Aktion Paket instance(id):
+#### <a name="actionbody-for-a-survey-action-or-action-package-instanceid-"></a>actionBody für eine Umfrageaktion oder eine Aktionspaket Instanz (ID):
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
-| responseName | String | Ja | Zur eindeutigen Identifizierung einer Antwort |
-| responseLocation | Objekt "Location" | Ja | Für die Antwort des Speicherorts |
-| Antworten | object[] | Nein | Antwort von jede Frage (basierend auf Index). Objekt wird vom Typ String für Fragetyp sein: SingleOption/Text/Image-Objekt wird vom Typ String [] für Fragetyp sein: MultiOption/AttachmentList,-Objekt wird vom Typ double für Fragetyp sein: numerische/Datum |
+| Antwortname | Zeichenfolge | Ja | Zur eindeutigen Identifizierung einer Antwort |
+| responseLocation | Objekt "Location" | Ja | Zur Identifizierung des Standorts der Antwort |
+| Antworten | object[] | Nein | Antwort der einzelnen Fragen (basierend auf Index). Objekt wird vom Typ String für Fragentyp: SingleOption/Text/Image, Object vom Typ String [] für Fragentyp: multiOption/Attachmentlist, Objekt vom Typ Double für Fragentyp: numerisch/Datum |
 
 ##### <a name="structure-for-location-object"></a>Struktur für Location-Objekt
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
-| latitude | Double | Nein | Breite des Speicherorts |
-| longitude | Double | Nein | Länge des Speicherorts |
-| name | String | Nein | Name des Speicherorts |
+| latitude | Gleitkommawert mit doppelter Genauigkeit | Nein | Breitengrad des Standorts |
+| longitude | Gleitkommawert mit doppelter Genauigkeit | Nein | Länge des Standorts |
+| name | String | Nein | Name des Standorts |
 
-##### <a name="sample-json-request-for-a-survey-action"></a>Beispiel für eine Anforderung für eine Aktion Umfrage JSON
+##### <a name="sample-json-request-for-a-survey-action"></a>JSON-Beispielanforderung für eine Umfrageaktion
 
 ```javascript
 {
@@ -85,13 +85,13 @@ ms.locfileid: "20399371"
   }
 }
 ```
-Sie müssen Bild hochladen (v1-Media api) und dann als Antwort auf Bild Typ Frage MediaResource der Antwort verwenden.
+Sie müssen Image (v1/Media-API) hochladen und dann mediaResource der Antwort als Antwort auf Bildtyp Frage verwenden.
 
 #### <a name="response-body"></a>Antworttext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| responseId | Zeichenfolge | Antwort-Bezeichner. Sie dienen zum Aktualisieren der Antwort |
+| Antwort-Nr. | String | Antwort-ID. Können Sie für die Aktualisierung der Antwort verwendet werden |
 
 ```javascript
 {

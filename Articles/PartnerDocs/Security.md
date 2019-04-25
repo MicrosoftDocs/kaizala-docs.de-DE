@@ -1,98 +1,98 @@
 # <a name="security"></a>Sicherheit
 ## <a name="approach"></a>Ansatz
 
-Microsoft Kaizala Dienste und Daten werden auf Office 365 & Microsoft Azure-Cloud-Plattform gehostet. Microsoft ist als Branchenführer im Cloud-Sicherheit erkannt. Mit Jahrzehnte Erfahrung im Erstellen von Enterprise-Software und Ausführung von online-Diensten, unser Team ist ständig erlernen und fortlaufend aktualisiert unsere Dienste und Anwendungen, um eine sichere Produktivität Clouddienst übermitteln, die strengen Branchenstandards erfüllt für die Einhaltung der.  
+Microsoft Kaizala-Dienste und-Daten werden auf der Microsoft Azure Cloud-Plattform von Office 365 & gehostet. Microsoft wird als Branchenführer in der Cloud-Sicherheit anerkannt. Mit jahrzehntelanger Erfahrung bei der Erstellung von Enterprise-Software und der Ausführung von Onlinediensten wird unser Team ständig unsere Dienste und Anwendungen aktualisieren, um einen sicheren Cloud-Produktivitäts Dienst bereitzustellen, der strenge Branchenstandards erfüllt. für Compliance.  
 
-Security Development Lifecycle (SDL) Adressen Sicherheit in jeder Entwicklungsphase rechts von der anfänglichen Planung zu starten. Beispiel – in den Entwurf für phase Detaildaten Fluss Diagramme (DFD), Bedrohungsmodellen erstellt und für die verschiedenen Komponenten zu identifizieren und Beheben von Sicherheitsrisiken gründlich überprüft werden. Zusätzlich zu den Peer-Bewertungen werden Tools für die automatische Erkennung und Überprüfung des Sicherheitsprobleme, wenn verwendet.  
+Security Development Lifecycle (SDL) bezieht sich auf die Sicherheit in jeder Entwicklungsphase, von der anfänglichen Planung bis hin zum Start. In der Entwurfsphase werden beispielsweise detaillierte Datenfluss Diagramme (DFD), Bedrohungsmodelle erstellt und sorgfältig für die verschiedenen Komponenten überprüft, um Sicherheitsrisiken zu identifizieren und zu beheben. Zusätzlich zu den Peer Reviews werden Tools zur automatisierten Erkennung und Überprüfung von Sicherheitsproblemen verwendet.  
 
-Physische Industriestandard und Netzwerkprotokolle werden unterstützt, um die höchste Sicherheit erfüllen muss einer Lösung. Diese Rechenzentren sind mit branchenüblichen standard Zertifizierungen zertifiziert.  Weitere Informationen zur Sicherheit von Azure finden Sie auf dieser [Website](https://www.microsoft.com/en-us/trustcenter/security/azure-security).
+Branchenstandard-und Netzwerkprotokolle werden unterstützt, um die höchsten Sicherheitsanforderungen jeder Lösung zu erfüllen. Diese Rechenzentren sind zertifiziert nach Branchenstandard Zertifizierungen.  Weitere Informationen zur Azure-Sicherheit finden Sie auf dieser [Website](https://www.microsoft.com/en-us/trustcenter/security/azure-security).
 
 
-## <a name="service-level-security"></a>Dienst Sicherheit auf Elementebene
+## <a name="service-level-security"></a>Sicherheit auf Dienstebene
 
- Auf Dienstebene verwenden wir eine Verteidigung Strategie, die Ihre Daten über mehrere Sicherheitsebenen schützt, wie im folgenden Diagramm dargestellt:
+ Auf Dienstebene wird eine mehrstufige Verteidigungsstrategie verwendet, die Ihre Daten über mehrere Sicherheitsebenen schützt, wie im folgenden Diagramm dargestellt:
 
 ![](Images/Defence%20in%20Depth.PNG)
  
-Eine Verteidigung Strategie wird sichergestellt, dass Sicherheitssteuerelemente auf verschiedenen Ebenen des Dienstes und, vorhanden sind, sollten alle Fehler ein Bereich, es sind Steuerelemente zum Verwalten der Sicherheit jederzeit kompensieren. Die Strategie umfasst auch Taktiken erkennen und zu verhindern, dass Abwehren von Sicherheitsrisiken, bevor sie auftreten. Dieser Schritt umfasst das kontinuierliche Verbesserungen an Servicelevel-Sicherheitsfeatures, einschließlich:
-    - Physische Steuerelemente, video-Überwachung, Steuerung des Zugriffs, Smart-Karten Brandschutz usw.. 
-    - Edge-Router, Firewalls, unbefugten, Sicherheitsrisiko Überprüfung 
-    - Steuerung des Zugriffs und Überwachung, Management Anti-Malware, Patch und Konfiguration 
-    - Sichere Engineering (SDL), Steuerung des Zugriffs und Überwachung, Anti-malware 
-    - Kontenverwaltung, Schulung und Förderung des Bekanntheitsgrads, Prüfung 
-    - Zugriff auf Bedrohung und Sicherheitsrisiko Management, Überwachung von Sicherheit und Antwort-Steuerelement und Überwachung, Datei/Datenintegrität Verschlüsselung 
+Eine mehrstufige Verteidigungsstrategie stellt sicher, dass in verschiedenen Schichten des Diensts Sicherheitskontrollen vorhanden sind und dass bei einem Ausfall eines Bereichs kompensierende Steuerelemente zur Wahrung der Sicherheit zur Verfügung stehen. Die Strategie umfasst auch Taktiken, um Sicherheitsverstöße zu identifizieren, zu verhindern und zu mindern, bevor Sie auftreten. Dies umfasst kontinuierliche Verbesserungen der Sicherheitsfunktionen auf Dienstebene, einschließlich:
+    - Physikalische Steuerungen, Videoüberwachung, Zugriffssteuerung, Smartcards, Brandschutz usw. 
+    - Edge-Router, Firewalls, Intrusionserkennung, Schwachstellenüberprüfung 
+    - Zugriffssteuerung und-Überwachung, Antischadsoftware, Patch-und Konfigurationsverwaltung 
+    - Secure Engineering (SDL), Zugriffssteuerung und-Überwachung, Antischadsoftware 
+    - Kontoverwaltung, Schulung und Sensibilisierung, Screening 
+    - Bedrohungs-und Sicherheitsrisikoverwaltung, Sicherheitsüberwachung und-Antwort, Zugriffssteuerung und-Überwachung, Datei-/Datenintegrität, Verschlüsselung 
 
-Wir weiterhin in Systemautomation investieren, mit deren ungewöhnliche und verdächtige Verhalten zu identifizieren und Abwehren von Sicherheitsrisiken schnell Antworten auf. Wir werden ebenfalls kontinuierlich entwickelt, ein hoch effizientes System automatisierte Patch-Bereitstellung, die generiert und Lösungen für Probleme, die durch die Überwachung Systeme bereitgestellt – alle ohne Eingreifen. Dies kann erheblich verbessert die Sicherheit und Flexibilität des Diensts. Wir führen Sie regelmäßig Penetration-Tests, um zur fortlaufenden Verbesserung des Verfahrens zur Reaktion auf Vorfälle zu aktivieren. Diese interne Tests helfen unsere Sicherheitsexperten Erstellen einer methodisch, wiederholbare und optimierte schrittweise Antworten auf Besprechungsanfragen und Automatisierung.
+Wir investieren weiterhin in die Systemautomatisierung, um anormale und verdächtige Verhaltensweisen zu identifizieren und schnell auf Sicherheitsrisiken zu reagieren. Außerdem entwickeln wir ein hoch effektives System automatisierter Patch-Bereitstellung, das Lösungen für Probleme generiert und bereitstellt, die von den Überwachungssystemen identifiziert werden – und das alles ohne menschliches Zutun. Dadurch werden die Sicherheit und die Agilität des Diensts erheblich verbessert. Wir führen regelmäßig Penetrationstests durch, um eine kontinuierliche Verbesserung der Vorfälle zu ermöglichen. Diese internen Tests unterstützen unsere Sicherheitsexperten bei der Erstellung eines methodischen, wiederholbaren und optimierten schrittweisen Reaktionsprozesses und der Automatisierung.
 
-## <a name="anti-malware-patching-and-configuration-management"></a>Anti-Malware, Patchen und Konfigurationsverwaltung
+## <a name="anti-malware-patching-and-configuration-management"></a>Antischadsoftware, Patching und Konfigurationsverwaltung
 
- Die Verwendung von Anti-Malware-Software ist ein principal Mechanismus für den Schutz Ihrer Anlagen von Schadsoftware. Die Software erkennt und verhindert, dass die Einführung von Viren und Würmer in die Dienst-Systeme. Außerdem isoliert infizierte Systeme und verhindert, dass weitere Schäden bis Maßnahmen ergriffen werden. Anti-Malware-Software bietet einen und Sache Steuerung Schadsoftware. 
+ Die Verwendung von Antischadsoftware ist ein Hauptmechanismus für den Schutz Ihrer Ressourcen vor Schadsoftware. Die Software erkennt und verhindert die Einführung von Computerviren und Würmern in die Dienst Systeme. Außerdem werden infizierte Systeme in Quarantäne verschoben und weitere Schäden verhindert, bis korrekturschritte ausgeführt werden. Antischadsoftware bietet sowohl eine vorbeugende als auch eine Kriminal Kontrolle über Schadsoftware. 
 
-Unsere standard geplante konfigurationsanforderungen für Server, Netzwerkgeräten und andere Microsoft-Programme sind dokumentiert, in dem die Standards für die Verwendung des standard-Pakets beschreiben. Diese Pakete werden getestet und mit Sicherheitssteuerelemente konfiguriert. 
+Unsere standardmäßigen Basis Konfigurationsanforderungen für Server, Netzwerkgeräte und andere Microsoft-Anwendungen werden dokumentiert, wenn in den Standards die Verwendung eines Standardpakets erläutert wird. Diese Pakete werden mit Sicherheitskontrollen vorgetestet und konfiguriert. 
 
-Änderungen, wie Updates, Updates und Patches, die in der produktionsumgebung vorgenommen führen Sie die gleichen standard Änderungsmanagementprozesses. Patches werden innerhalb des Zeitraums angegeben, die von der ausstellenden Unternehmen implementiert. Änderungen werden sowohl geprüft und ausgewertet, indem unsere Teams überprüfen und dem Change Advisory Board für Anwendungsmöglichkeiten, Risiken und Ausführen von Pulls vor, die implementiert
+Änderungen wie Updates, Hotfixes und Patches, die für die Produktionsumgebung vorgenommen wurden, entsprechen dem standardmäßigen Change Management-Prozess. Patches werden innerhalb des vom ausstellenden Unternehmen angegebenen Zeitrahmens implementiert. Änderungen werden sowohl von unseren Review Teams als auch vom Change Advisory Board für Anwendbarkeit, Risiko und Ressourcenzuweisung vor der Implementierung überprüft und ausgewertet.
 
-## <a name="protection-from-security-threats"></a>Schutz vor Sicherheitsrisiken
+## <a name="protection-from-security-threats"></a>Schutz vor Sicherheitsbedrohungen
 
-Die allgemeine im Internet Bedrohung wurde aus traditionell opportunistischen Bedrohungen für beständigen und zielgerichteten Angreifer auch enthalten weiterentwickelt. Wir brauchen Sie mit einem Verteidigung Ansatz behandeln kontinuierlich mit der Bedrohungen von allgemeinen "Hacktivists" bis hin zu Internetkriminelle, Akteure gesinnte Nation zu übergeben.   
+Die gesamte Cyber-Bedrohungslandschaft hat sich von herkömmlichen opportunistischen Bedrohungen entwickelt, um auch persistente und entschlossene Gegner einzubeziehen. Wir rüsten Sie mit einem Tiefenverteidigungsansatz aus, um das Kontinuum der Bedrohungen zu bewältigen, die von gängigen "Hacktivisten" zu Cyber-Kriminellen bis hin zu nationalstaatlichen Akteuren reichen.   
 
-Unsere Strategie für die Office 365 ist bei einer Strategie für die dynamische mit vier Säulen Gedanken basieren. Die Einstellung Verbreitung wir unsere Verteidigung effektiver vorgenommen und jemals weiterentwickelt wird im Allgemeinen als "Wird davon ausgegangen Verletzung" bezeichnet und wird davon ausgegangen, dass eine Verletzung bereits in der Umgebung passiert ist und einfach nicht bekannt ist. Mit dieser Einstellung die Sicherheitsteams kontinuierlich versuchen, die Erkennung von und zur Abwehr von Sicherheitsrisiken, die nicht in großem Maß bekannt sind. Eine Gruppe von Übungen wird künstlich weitergegeben ein Sicherheitsrisiko darstellen und haben eine andere Gruppe reagieren und die Bedrohung zu mindern. Die Hauptaufgabe des späteren ist Office 365 ausfallsichere vornehmen, sodass die neuen Sicherheitslücken schnell erkannt und verringert werden.  
+Unsere Office 365-Sicherheitsstrategie basiert auf einer dynamischen Strategie mit vier Gedanken Säulen. Die Mentalitäts Verlagerung, die wir vorgenommen haben, um unsere Verteidigung effektiver und immer weiter entwickelnder zu machen, wird gemeinhin als "Übernehmen einer Verletzung" bezeichnet und geht davon aus, dass in der Umgebung bereits eine Verletzung geschehen ist und einfach nicht bekannt ist. Mit dieser Denkweise versuchen die Sicherheitsteams ständig, Sicherheitsbedrohungen zu identifizieren und zu verringern, die nicht weithin bekannt sind. Eine Reihe von Übungen besteht darin, eine Sicherheitsbedrohung künstlich zu propagieren und eine andere Gruppe zu beantworten und die Bedrohung zu mindern. Das primäre Ziel dieser Übungen besteht darin, Office 365 als belastbar zu machen, damit die neuen Sicherheitsanfälligkeiten schnell erkannt und abgemildert werden.  
 
-![SecurityThreat.PNG](Images/SecurityThreat.PNG)
+![SecurityThreat. PNG](Images/SecurityThreat.PNG)
 
-Der erste Säule einer Sicherheitsstrategie wird als "Verhindert, dass Verletzung." bezeichnet Unsere Investitionen in diese Säule umfasst kontinuierliche Verbesserungen an integrierte Sicherheitsfeatures.
-    - Dazu gehören Ports scannen und-Wartung, Umkreisnetzwerk Sicherheitsrisiken, Betriebssystem-Patches, Ebene Isolation/Verletzung Netzwerkgrenzen, DDoS-Erkennung und Prevention, Just-in-Time-Access, Livewebsite Durchdringungstests und mehrstufige Authentifizierung für den Zugriff. 
-    - Der zweite Säule wird als "Erkennen Verletzung." bezeichnet In diesem Säule sind unsere System und Sicherheit Warnungen gesammelte und über eine große interne Analysesystem korreliert. Die Signale analysieren Warnungen, die internen System als auch externe Signale (beispielsweise von Kundenanfragen bald) sind. Basierend auf dem Computer lernen, können wir schnell integrieren neue Muster Trigger Benachrichtigungen als auch automatisch im System auslösen Benachrichtigungen auf Bildschirmdarstellung auftreten.
-    - Die dritte Säule wird als "Reagieren auf Verletzung." bezeichnet Diese Säule wird verwendet, um die Effekte zu verringern, wenn eine Komponente gefährdet ist. Ein Prozess sorgfältig Vorfällen, Standardverfahren bei einem Vorfall, Möglichkeit zum Zugriff auf vertrauliche Daten und die Kennung Tools zum Identifizieren der beteiligten umgehend beenden oder verweigert wird sichergestellt, dass die Minderung erfolgreich angezeigt werden kann.
-    - Die vierte Säule genannt wird "Wiederherstellen von Verletzung," die enthält die Standardverfahren, um den Dienst in Vorgänge zurück. Der Säule bietet die Möglichkeit, die Sicherheitsprinzipale in der Umgebung ändern, automatisch aktualisieren die betroffenen Systeme und überwacht den Status der Bereitstellung zum Identifizieren alle Bildschirmdarstellung auftreten. 
+Die erste Säule der Sicherheitsstrategie wird als "verHinderung von Verstößen" bezeichnet. Unsere Investition in diese Säule beinhaltet kontinuierliche Verbesserung der integrierten Sicherheitsfunktionen.
+    - Hierzu gehört die Portüberprüfung und-Korrektur, die Überwachung von Grenz Wert Angriffen, Betriebssystem-Patches, Isolierungs-und Verletzungs Grenzen auf Netzwerkebene, DDoS-Erkennung und-Vermeidung, Just-in-Time-Zugriff, Live Site Penetrationstests und mehrstufige Authentifizierung für Dienst Zugriff. 
+    - Die zweite Säule wird als "Entdeckungs Verletzung" bezeichnet. In dieser Säule werden unsere System-und Sicherheitswarnungen über ein massives internes Analysesystem geerntet und korreliert. Die Signale analysieren Warnungen, die im systemintern sind, sowie externe Signale (beispielsweise aus Kunden Vorfällen). Basierend auf dem maschinellen lernen können wir schnell neue Muster einbinden, um Warnungen auszulösen, sowie Warnungen zu Anomalien im System automatisch auslösen.
+    - Die dritte Säule wird als "Antwort auf einen Verstoß" bezeichnet. Diese Säule wird verwendet, um die Auswirkungen zu verringern, wenn eine Komponente kompromittiert wird. Ein sorgfältiger Vorfall Reaktionsprozess, standardmäßige Betriebsverfahren bei einem Vorfall, die Möglichkeit, den Zugriff auf vertrauliche Daten zu verweigern oder zu beenden und Identifizierungs Tools zur sofortigen Identifizierung beteiligter Personen zu unterstützen, stellt sicher, dass die Minderung erfolgreich ist.
+    - Die vierte Säule wird als "Recover from Bresche" bezeichnet, die die Standardbetriebsverfahren enthält, um den Dienst an Operationen zurückzugeben. Die Säule beinhaltet die Möglichkeit, die Sicherheitsprinzipale in der Umgebung zu ändern, die betroffenen Systeme automatisch zu aktualisieren und den Status der Bereitstellung zu überwachen, um Anomalien zu identifizieren. 
 
-## <a name="least-privilege-access-control"></a>Geringste Rechte Steuerung des Zugriffs
+## <a name="least-privilege-access-control"></a>Zugriffssteuerung für die geRingste Berechtigung
 
-Kein Microsoft-Supportmitarbeiter hat eine ständige-Zugriff in der produktionsumgebung. Die regulären Bereitstellung, Verwaltung und Wartung Aufgaben werden mittels Automatisierung behandelt. Dadurch wird die Möglichkeit, eine Rouge Microsoft individuellen erste Zugriff auf Kundendaten angehalten. 
+Kein Microsoft-Techniker hat einen ständigen Zugriff auf die Produktionsumgebung. Die regulären Bereitstellungs-, Verwaltungs-und Wartungsaufgaben werden über Automatisierung durchgeführt. Dadurch wird verhindert, dass ein Microsoft-Benutzer mit Rouge Zugriff auf Kundendaten hat. 
 
-Wir durchführen regulären Sicherheitslücke, Risiken und andere Bedrohung Bewertung für alle gehosteten Komponenten einschließlich Betriebssysteme, Infrastruktur, Datenbanken, Webdiensten, Netzwerkgeräten, installiert ist und ausgeführt Applications zusammen mit der Konfiguration auf allen Systemkomponenten Informationen identifiziert. Eine regelmäßige Überwachung vorhandene Berechtigungen für die Benutzer und Dienstkonten wird durchgeführt, um die geringsten Berechtigung Zugriffsrichtlinie entsprechen. 
+Für alle gehosteten Komponenten, einschließlich Betriebssystemen, Infrastruktur, Datenbanken, Webdiensten, Netzwerkgeräten, installierten und laufenden Anwendungen sowie der Konfiguration für alle, führen wir regelmäßige Gefährdungs-, Risiko-und andere Bedrohungsbewertungen durch. identifizierte Komponenten des Informationssystems. Eine regelmäßige Überprüfung vorhandener Berechtigungen für die Benutzer und Dienstkonten wird durchgeführt, um die Richtlinie mit den geringsten Rechten zu befolgen. 
 
 ## <a name="data-encryption-at-rest"></a>Datenverschlüsselung im Ruhezustand
 
-Server-Side-Verschlüsselung aller Ressourcen ist mit verwalteten Service-Schlüssel aktiviert. Verschlüsselung im Ruhezustand schützt Daten für den Fall, dass Angreifer die Hände auf einem Datenträger abzurufen. Folgenden Azure Verschlüsselung-Entschlüsselung Features werden aktiviert, um sicherzustellen, dass datenverschlüsselung im Ruhezustand:  
+Die Server seitige Verschlüsselung aller Ressourcen wird mit Dienst verwalteten Schlüsseln aktiviert. Bei Rest-Verschlüsselung werden Daten geschützt, falls Angreifer physische Medien abrufen. Folgende Azure-Verschlüsselungsfunktionen sind aktiviert, um die Datenverschlüsselung in Ruhe sicherzustellen:  
 
-- Verschlüsselung der Azure-Speicher-Dienst (SSE) für Azure Blob-Speicher. Alle Daten werden mit 256-Bit-AES-Verschlüsselung, eines der stärksten Block-Chiffre verschlüsselt. Verschlüsselung von klassischen Speicherkonten daher, die alle Speicher auf Ressource verschoben werden, verwaltete speichern. 
+- Azure Storage Service Encryption (SSE) für Azure-BLOB-Speicher. Alle Daten werden mit der 256bit AES-Verschlüsselung verschlüsselt, eine der stärksten Blockchiffren, die verfügbar sind. Verschlüsselung von klassischen Speicherkonten daher werden alle Speicher in Ressourcen verwaltete Speicher verschoben. 
  
  
-- Transparente datenverschlüsselung (TDE) wird verwendet, um in Echtzeit e/a-Verschlüsselung und Entschlüsselung der Daten- und Protokolldateien Dateien bereitstellen datenverschlüsselung auf Rest-ausführen. Darüber hinaus kann TDE Verschlüsselung in Übertragung für gespiegelte oder mittels Protokollversand Daten bereitstellen. Alle Replikate von Daten sind auch für die Verschlüsselung aktiviert.
+- Die transparente Datenverschlüsselung (transparent Data Encryption, DSA) wird verwendet, um die Echtzeit-e/A-Verschlüsselung und-Entschlüsselung der Daten-und Protokolldateien durchzuführen, um die Datenverschlüsselung zu gewährleisten. Außerdem kann die DSA-Verschlüsselung in Transit für gespiegelte oder vom Protokoll versendete Daten bereitgestellt werden. Alle Replikate von Daten sind auch für die Verschlüsselung aktiviert.
 
 ## <a name="cryptography-and-encryption"></a>Kryptografie und Verschlüsselung
 
-Kryptografie verwendet datenverschlüsselung, Verwaltung von kryptografischen Schlüssel und sichere Generierung von Zufallszahlen. Nur Microsoft Kryptografie Board genehmigt Kryptografie verwendeten Algorithmen. Wir sind nur FIPS 140-2(Federal Information Processing Standard) kompatible Hashalgorithmen verwenden. Keines der gesperrten Hashalgorithmus, gesperrten symmetrischen Block Herstellungsbetrieb, gesperrten zufällige Funktionen, asymmetrische Algorithmen oder kryptografischen primitive dienen, und regelmäßige Überprüfung des Quellcodes um zukünftige proofing sicherzustellen erfolgt. 
+Kryptografie verwendet Datenverschlüsselung, Kryptografieschlüssel und sichere Zufallszahlengenerierung. Es werden nur Microsoft Crypto Board Approved Cryptography Algorithms verwendet. Wir verwenden nur FIPS 140-2 (Federal Information Processing Standard)-kompatible Hashalgorithmen. Keines der verbotenen Hashalgorithmen, gesperrte symmetrische Block-Cyphers, verbotene Zufallsfunktionen, asymmetrische oder kryptographische primitive werden verwendet, und das regelmäßige Überprüfen des Quellcodes wird durchgeführt, um eine spätere Korrektur sicherzustellen. 
 
 ## <a name="secure-access"></a>Sicherer Zugriff
 
-Die gesamte Kommunikation über HTTPS-Protokoll nur, aktiviert Kaizala die sicheren Kommunikation über das öffentliche Internet sichergestellt wird. TLS 1.2 ist aktiviert, und alle anderen Versionen von TLS/SSL sind deaktiviert. (erhältlich über Juni-Version). TLS-Konfiguration erfüllen und sicherheitsanforderungen von Microsoft. Es unterstützt keine schwachen Schlüssel und Signaturalgorithmus nur SHA256withRSA verwendet. 
+Kaizala aktiviert alle Kommunikation über HTTPS-Protokoll, das eine sichere Kommunikation über das öffentliche Internet sicherstellt. TLS 1,2 ist aktiviert, und alle anderen Versionen von TLS/SSL sind deaktiviert. (ab Juni verfügbar). Die TLS-Konfiguration erfüllt oder überschreitet die Microsoft-Sicherheitsanforderungen. Sie unterstützt keinen schwach Schlüssel und verwendet nur SHA256withRSA-Signaturalgorithmus. 
 
-Nur folgende Verschlüsselungsanbieter-Suites aktiviert sind: 
-- TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028) ECDH secp384r1 (EQ. FS 7680 Bits RSA) 
-- TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027) ECDH secp256r1 (EQ. FS 3072 Bits RSA) 
-- TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014) ECDH secp384r1 (EQ. FS 7680 Bits RSA) 
-- TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013) ECDH secp256r1 (EQ. FS 3072 Bits RSA) 
-- TLS_RSA_WITH_AES_256_GCM_SHA384 (0X9D)  
-- TLS_RSA_WITH_AES_128_GCM_SHA256 (0X9C MACHINE_CHECK_EXCEPTION) 
-- TLS_RSA_WITH_AES_256_CBC_SHA256 (0X3D) 
-- TLS_RSA_WITH_AES_128_CBC_SHA256 (0X3C) 
-- TLS_RSA_WITH_AES_256_CBC_SHA (0X35)  
-- TLS_RSA_WITH_AES_128_CBC_SHA (0X2F)  
-- TLS_RSA_WITH_3DES_EDE_CBC_SHA (0XA) 
+Nur die folgenden Verschlüsselungs Pakete sind aktiviert: 
+- TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xc028) ECDH secp384r1 (EQ. 7680 Bits RSA) FS 
+- TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xc027) ECDH secp256r1 (EQ. 3072 Bits RSA) FS 
+- TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014) ECDH secp384r1 (EQ. 7680 Bits RSA) FS 
+- TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013) ECDH secp256r1 (EQ. 3072 Bits RSA) FS 
+- TLS_RSA_WITH_AES_256_GCM_SHA384 (0x9d)  
+- TLS_RSA_WITH_AES_128_GCM_SHA256 (0x9C) 
+- TLS_RSA_WITH_AES_256_CBC_SHA256 (0x3D) 
+- TLS_RSA_WITH_AES_128_CBC_SHA256 (0x3C) 
+- TLS_RSA_WITH_AES_256_CBC_SHA (0x35)  
+- TLS_RSA_WITH_AES_128_CBC_SHA (0x2F)  
+- TLS_RSA_WITH_3DES_EDE_CBC_SHA (0xa) 
  
-TLS-Konfiguration ist mit setup  
-- Unsichere erneute Aushandlung muss deaktiviert werden. 
-- TLS-Komprimierung muss deaktiviert werden. 
+Die TLS-Konfiguration wird mit  
+- Unsichere erneute Aushandlung muss deaktiviert sein. 
+- TLS-Komprimierung muss deaktiviert sein. 
 
-TLS-Sitzung Ticket Wiederaufnahme ist für schnellere Verbindungen aktiviert. Token Authentifizierung wird für die Authentifizierung und Autorisierung Benutzerzugriff verwendet. 
+Die Wiederaufnahme des TLS-Sitzungstickets ist für schnellere Konnektivität aktiviert. Die Token-basierte Authentifizierung wird für die Authentifizierung und Autorisierung des Benutzerzugriffs verwendet. 
 
-## <a name="secret-storage-and-management"></a>Geheimen Speicherung und Verwaltung
+## <a name="secret-storage-and-management"></a>GeHeimer Speicher und Verwaltung
 
-Das grundlegende Ziel des Secrets Management ist, um die Daten der Kunden zu schützen, die wir in einer Weise konsistent mit der höchsten Prinzipien in dieser Branche betreuen und, nutzen Sie automatisierte Prozesse zur Reduzierung von human Zugriff auf Kundendaten, die uns helfen in diesem alles daran erfolgreich.  
+Die grundlegende Aufgabe von Secrets Management besteht darin, die Daten der Kunden zu schützen, die wir in einer Weise erfüllen, die mit den höchsten idealen in unserer Branche konsistent ist, und um automatisierte Prozesse zu nutzen, um den menschlichen Zugriff auf Kundendaten zu reduzieren, was uns helfen wird erfolgreich sein.  
 
 
-Alle HBI Daten wie Service-Schlüssel, Kennwörter, Schlüssel, Zertifikate, und andere sicherungsfähigen, die erforderlich sind, um den Dienst ausgeführt werden im Schlüssel sicheren Ort, ohne alle human Zugriff darauf gespeichert sind. Nur erforderlichen Service-Komponenten, die Zugriff auf den Dienst, der hochverfügbar und zuverlässige Weise behalten eine erfordern haben Zugriff. 
+Alle HBI-Daten wie Dienstschlüssel, Kennwörter, Schlüssel, Zertifikate und andere sicherungsfähige Elemente, die zum Betrieb des Diensts benötigt werden, werden in Secure Key Vault gespeichert, ohne dass ein Benutzer Zugriff darauf hat. Nur erforderliche Dienstkomponenten, die Zugriff benötigen, um den Dienst auf Hochverfügbarkeit und zuverlässige Weise zu halten, haben Zugriff. 
 
-Kaizala zur Sicherstellung geheimen Management verwendet definierten geheimen Exchange-Prozess, mithilfe der Unterstützung für einmaliges Anmelden geheimen und bietet geheimen Zugriff zu beschränken, um die Steuerung des Zugriffs. Wir geheimen Schlüssels, um Freigaben oder andere externe Kommunikation oder Speichern der Datei nicht kopieren und/oder keine Ressourcen außerhalb von sicheren Dienstinfrastruktur Office-Umgebung erstellen. Darüber hinaus auditing Layer. Zentralisierte Secrets Verwaltungsprogramme bieten Konsistenz, Isolation, Redundanz und Betriebsausfälle ablaufende geheime vermeiden.
+Zur Sicherstellung der geheimen Verwaltung verwendet Kaizala definierten geheimen Exchange-Prozess, verwendet den Secure Secret Store-Support und bietet Zugriffssteuerung zur Einschränkung des geheimen Zugriffs. Wir kopieren keine vertraulichen Daten in Dateifreigaben oder andere externe Kommunikationen oder Speicher und/oder schaffen keine Ressourcen außerhalb der Infrastrukturumgebung der Secure Office-Dienste. Außerdem wird die Überwachungsebene bereitgestellt. Zentrale Secrets-Verwaltungstools, die Konsistenz, Isolierung, Redundanz und Ausfallzeiten aufgrund von ablaufenden geheimen Schlüsseln vermeiden.

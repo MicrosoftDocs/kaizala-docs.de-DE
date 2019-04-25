@@ -1,37 +1,37 @@
-# <a name="guidelines-for-kaizala-actions"></a>Richtlinien für Kaizala Aktionen
+# <a name="guidelines-for-kaizala-actions"></a>Richtlinien für Kaizala-Aktionen
 
-Dieses Dokument beschreibt die Kriterien, die zum Entwickeln von Kaizala Aktionen while eingehalten werden müssen. Darüber hinaus müssen Sie die [Rechtlichen Hinweise]() für Client-SDK Kaizala stimmen. Suchen Sie die Richtlinie Richtlinie:
+In diesem Dokument werden die Kriterien beschrieben, die beim Entwickeln von Kaizala-Aktionen eingehaltenwerden müssen. Darüber hinaus müssen Sie die [Nutzungsbedingungen]() für das Kaizala-Client-SDK einwilligen. Die Richtlinie finden Sie hier:
 
-1.  Kaizala Aktionen bereitstellen Wert Clientbenutzer Kaizala
-
-| Richtliniennummer | Beschreibung |
-| :---: | :--- |
-|1.1|Ihre Aktion Kaizala müssen anbieten, oder einzigartige, die Client-Funktionalität für Benutzer Kaizala erweitert.|
-|1.2|Ihre Aktion Kaizala muss Ihrer Beschreibung gemäß funktionieren und darf nicht unausgereift sein.|
-
-2.  Kaizala Aktionen können keine anzeigen angezeigt.
+1.  Kaizala-Aktionen bieten den Kaizala-Client Benutzern einen Mehrwert
 
 | Richtliniennummer | Beschreibung |
 | :---: | :--- |
-|2.1|Die Kaizala-Aktion kann nicht anzeigen in jeder Form enthalten.|
+|1.1|Ihre Kaizala-Aktion muss einen eindeutigen Wert oder ein Dienstprogramm bieten, das die Kaizala-Clientfunktionalität für Benutzer erweitert.|
+|1.2|Ihre Kaizala-Aktion muss gemäß ihrer Beschreibung funktionieren und darf nicht unvollständig sein.|
 
-3.  Kaizala Aktionen Verhalten vorhersehbar
-
-| Richtliniennummer | Beschreibung |
-| :---: | :--- |
-|3.1|Ihre Aktion Kaizala muss nicht reagiert, unerwartet beendet oder Programmierungsfehler enthalten.|
-|3.2|Ihre Aktion Kaizala Beschreibung, Bilder, Dokumentation und andere zugehörige Metadaten müssen mit der Funktionalität der Aktion konsistent sein.|
-|3.3|Ihre Aktion Kaizala muss nicht gefährden oder die Sicherheit und Funktionen von Microsoft oder von Drittanbieterprodukten|
-|3.4|Ihre Aktion Kaizala muss frei von Viren und Schadsoftware bösartige Software.|
-
-4. Kaizala Aktionen bestätigen, um das Paket größeneinschränkungen 
+2.  Kaizala-Aktionen können keine anzeigen anzeigen
 
 | Richtliniennummer | Beschreibung |
 | :---: | :--- |
-|4.1|Die Größe Ihrer Kaizala Aktion Paket darf nicht mehr als 1 MB sein.|
+|2.1|Ihre Kaizala-Aktion kann keine Form von anzeigen enthalten.|
 
-5. Kaizala Aktionen Paket muss nicht 'Microsoft'-Schlüsselwort in der Paketdefinition verwenden
+3.  Kaizala-Aktionen Verhalten sich vorhersagbar
 
 | Richtliniennummer | Beschreibung |
 | :---: | :--- |
-|5.1|Ihre Aktion Kaizala Paket-Id-Namespace darf keine Microsoft enthalten.|
+|3.1|Ihre Kaizala-Aktion darf nicht mehr reagiert, unerwartet beendet werden oder Programmierfehler enthalten.|
+|3.2|Ihre Kaizala-Aktionsbeschreibung, Bilder, Dokumentation und alle anderen zugehörigen Metadaten müssen mit der Funktionalität der Aktion übereinstimmen.|
+|3.3|Ihre Kaizala-Aktion darf die Sicherheit oder Funktionalität von Microsoft oder Drittanbieterprodukten nicht gefährden oder gefährden.|
+|3.4|Ihre Kaizala-Aktion muss frei von Viren, Schadsoftware und Schadsoftware sein.|
+
+4. Kaizala-Aktionen bestätigen die Paketgrößen Einschränkungen 
+
+| Richtliniennummer | Beschreibung |
+| :---: | :--- |
+|4.1|Die Größe des Kaizala-Aktionspakets darf nicht mehr als 1MB belassen.|
+
+5. Kaizala-Aktionspaket darf das Schlüsselwort "Microsoft" nicht in der Paketdefinition verwenden.
+
+| Richtliniennummer | Beschreibung |
+| :---: | :--- |
+|5.1|Ihr Kaizala-Aktionspaket-ID-Namespace darf Microsoft nicht enthalten|

@@ -1,108 +1,108 @@
-# <a name="customer-ticketing-solution-on-kaizala"></a>Kunden, die Lösung auf Kaizala Tickets
+# <a name="customer-ticketing-solution-on-kaizala"></a>Kundenticket Lösung auf Kaizala
 ![](Images/Customer%20ticketing%20solution.PNG)
 <br>
-<br> Verwenden Sie in diesem, wollen wir uns zum Abrufen eines Kunden Ticket Managementsystem auf Kaizala unterstützen. Anstelle von mehreren Textnachrichten an geben Sie ein Update auf dem Ticket Status senden, konnten wir nur eine rich installiert sein, die den Status Ticket bereitstellt. Und wenn eine Änderung im Status vorhanden ist, konnte die Karte entsprechend den aktuellen Status aktualisiert werden.
-<br><br>Um dies zu erreichen, sehen Sie die Schritte, die erforderlich wäre unter:
-<br>1. erstellen Sie eine Karte mit benutzerdefinierten Chat Karte basierend auf definierten Eigenschaften
-<br>2. Aufrufen einer API zum Senden von der Karte (Szenario, in dem Ticket ausgelöst wird)
-<br>3. einen Aufruf an eine API zum Aktualisieren der Karte (Szenario, in dem Ticket Status ändert sich)
-## <a name="building-card-with-custom-chat-card-view"></a>Erstellen von Karte mit benutzerdefinierten Chat Kartenansicht
-[Kaizala ermöglicht das clientseitige Erweiterung mit benutzerdefinierten Aktionen Funktionen / Karten. Microsoft-Dokumentation für das Entwickeln einer benutzerdefinierten Aktion finden Sie [hier](https://github.com/MicrosoftDocs/kaizala-docs/blob/master/Articles/Actions/develop.md).]
-<br><br>Zum Erstellen von Karten mit benutzerdefinierten Chat Karte, müssen wir die SourceLocation der Chat Zeichenbereich Kartenansicht in package.json definieren. Im Gegensatz zu der Antwort-Ansicht, Erstellung Ansicht oder Ergebnisse / Zusammenfassungsansicht – sind html / JS basiert, die Karte Chat wird eine deklarative Schema [mehr darüber [hier](https://github.com/MicrosoftDocs/kaizala-docs/blob/master/Articles/Actions/ChatCanvasCardView.md)].
-### <a name="packagejson"></a>package.json
-{  <br>"Id": "com.gls.xyz.care", <br>"SchemaVersion": 1; <br>"DisplayName": "Customer Support" <br>"ProviderName": "GLS-Test" <br>"Symbol": "AppIcon.png", <br>"Version": "1" <br>"MinorVersion": "1" <br>"AppModel": "AppModel.json", <br>"Beschreibung": "Paket für das Senden von Kunden Ticket [Test]" <br>"wählt": { <br>"IsLocalised": false <br>"IsPinned": false <br>},  <br>"Ansichten": { <br>"ChatCanvasCardView": { <br>"SourceLocation": "ChatCardView.json", <br>"ShowReceipts": "true" <br>"ShowLikes": false <br>"ShowComments": false <br>"ShowExpiry": false <br>"ShowFooter": "true" <br>"ShowHeader": false <br>"ShowFooter": false <br>"IsResponseEditable": false <br>}
+<br> Hier erfahren Sie, wie Sie ein Kundensupport-Ticket Verwaltungssystem auf Kaizala erhalten. Anstatt mehrere Textnachrichten zu senden, um eine Aktualisierung des Ticket Status zu erhalten, können wir nur eine Rich-Card haben, die den Status des Tickets bereitstellt. Bei einer Änderung des Status kann die Karte entsprechend dem aktuellen Status aktualisiert werden.
+<br><br>Um dies zu erreichen, sind die folgenden Schritte erforderlich:
+<br>1. Erstellen einer Karte mit benutzerdefinierter chatkarte basierend auf definierten Eigenschaften
+<br>2. Aufrufen einer API zum Senden der Karte (Szenario, in dem Ticket ausgelöst wird)
+<br>3. Aufrufen einer API zum Aktualisieren der Karte (Szenario, in dem sich der Ticket Status ändert)
+## <a name="building-card-with-custom-chat-card-view"></a>Gebäude Karte mit benutzerdefinierter Chat Kartenansicht
+[Kaizala ermöglicht das Erweitern der clientseitigen Funktionalität mithilfe von benutzerdefinierten Aktionen/Karten. Die Microsoft-Dokumentation zum Entwickeln einer benutzerdefinierten Aktion finden Sie [hier](https://github.com/MicrosoftDocs/kaizala-docs/blob/master/Articles/Actions/develop.md).]
+<br><br>Zum Erstellen einer Karte mit benutzerdefinierter Chat Karte müssen wir die sourceLocation der Ansicht der Chat Leinwand Karte in Package. JSON definieren. Im Gegensatz zur Antwort Ansicht, Erstellungsansicht oder Ergebnis-/Zusammenfassungsansicht, die auf HTML/JS basiert, nimmt die Chat Karte ein deklaratives Schema [mehr darüber [hier](https://github.com/MicrosoftDocs/kaizala-docs/blob/master/Articles/Actions/ChatCanvasCardView.md)].
+### <a name="packagejson"></a>Package. JSON
+{  <br>"ID": "com. GLS. xyz. Care", <br>"schemaVersion": 1, <br>"displayName": "Kunden Support", <br>"providerName": "GLS-Test", <br>"Icon": "AppIcon. png", <br>"Version": "1", <br>"minorVersion": "1", <br>"appModel": "AppModel. JSON", <br>"Description": "Paket zum Senden eines Kunden Tickets [Test]", <br>"Dials": { <br>"isLocalized": false, <br>"isAngeheftet": falsch <br>},  <br>"Views": { <br>"ChatCanvasCardView": { <br>"sourceLocation": "ChatCardView. JSON", <br>"showReceipts": true, <br>"showLikes": false, <br>"showComments": false, <br>"showExpiry": false, <br>"showFooter": true, <br>"Zeilenbereich": false, <br>"showFooter": false, <br>"isResponseEditable": falsch <br>}
 <br> }
 <br>}
-### <a name="chatcardviewjson"></a>ChatCardView.json
-Die Chat-Karte verfügt über vier Felder: eine hartcodiert und auf "Kundenbetreuung XYZ" und die anderen 3 Felder aus Eigenschaften zugeführt: Customername, Ticketnumber und Ticketstatus.
+### <a name="chatcardviewjson"></a>ChatCardView. JSON
+Die Chat Karte hat vier Felder: eine, die auf "XYZ CUSTOMER CARE" fest codiert ist, und die anderen 3 Felder, die von Eigenschaften gespeist werden: CustomerName, ticketnumber und Ticketstatus.
 <br>{
-<br> "SchemaVersion": 2, <br>"Schema": {
-<br> "Typ": "Container",
-<br> "InitialHeight": 300,
-<br> "Layout": "vertical"
+<br> "schemaVersion": 2, <br>"Schema": {
+<br> "Type": "Container",
+<br> "initialHeight": 300,
+<br> "Layout": "vertikal",
 <br> "Children": [
-<br> {  <br>"Typ": "Text", <br>"PaddingLeft": 10; <br>"PaddingRight": 10;
-<br> "PaddingTop": 10;
-<br> "PaddingBottom": 10;
-<br> "String": "XYZ Kundenbetreuung"
-<br> "FontSize": 18;
-<br> "FontStyle": "Fett"
+<br> {  <br>"Typ": "Text", <br>"paddingLeft": 10, <br>"paddingRight": 10,
+<br> "paddingTop": 10,
+<br> "paddingBottom": 10,
+<br> "String": "XYZ-Kundendienst",
+<br> "fontSize": 18,
+<br> "fontStyle": "Bold",
 <br> "TextColor": "#ffffff",
-<br> "BackgroundColor": "#fcb72d",
-<br> "TextAlignment": "zentrieren",
-<br> "MaxNumberOfLines": 1;
-<br> "MarginBottom": 10
+<br> "Background Color": "#fcb72d",
+<br> "textAlignment": "Center",
+<br> "maxNumberOfLines": 1,
+<br> "marginBottom": 10
 <br> },
 <br> {
 <br> "Typ": "Text",
-<br> "PaddingLeft": 10;
-<br> "PaddingRight": 10;
-<br> "string":"${Form.properties[customername].value}"
-<br> "FontSize": 18;
-<br> "FontStyle": "Normal"
+<br> "paddingLeft": 10,
+<br> "paddingRight": 10,
+<br> "String": "$ {Form. Properties [Kundenname]. Value}",
+<br> "fontSize": 18,
+<br> "fontStyle": "Regular",
 <br> "TextColor": "#000000",
-<br> "BackgroundColor": "#ffffff",
-<br> "TextAlignment": "left",
-<br> "MaxNumberOfLines": 5,
-<br> "MarginBottom": 10
+<br> "Background Color": "#ffffff",
+<br> "textAlignment": "Left",
+<br> "maxNumberOfLines": 5,
+<br> "marginBottom": 10
 <br> },
 <br> {
 <br> "Typ": "Text",
-<br> "PaddingLeft": 10;
-<br> "PaddingRight": 10;
-<br> "string":"${Form.properties[ticketnumber].value}"
-<br> "FontSize": 18;
-<br> "FontStyle": "Normal"
+<br> "paddingLeft": 10,
+<br> "paddingRight": 10,
+<br> "String": "$ {Form. Properties [ticketnumber]. Value}",
+<br> "fontSize": 18,
+<br> "fontStyle": "Regular",
 <br> "TextColor": "#000000",
-<br> "BackgroundColor": "#ffffff",
-<br> "TextAlignment": "left",
-<br> "MaxNumberOfLines": 2,
-<br> "MarginBottom": 10
+<br> "Background Color": "#ffffff",
+<br> "textAlignment": "Left",
+<br> "maxNumberOfLines": 2,
+<br> "marginBottom": 10
 <br> },
 <br> {
 <br> "Typ": "Text",
-<br> "PaddingLeft": 10;
-<br> "PaddingRight": 10;
-<br> "string":"${Form.properties[ticketstatus].value}"
-<br> "FontSize": 18;
-<br> "FontStyle": "Normal"
+<br> "paddingLeft": 10,
+<br> "paddingRight": 10,
+<br> "String": "$ {Form. Properties [Ticketstatus]. Value}",
+<br> "fontSize": 18,
+<br> "fontStyle": "Regular",
 <br> "TextColor": "#000000",
-<br> "BackgroundColor": "#ffffff",
-<br> "TextAlignment": "left",
-<br> "MaxNumberOfLines": 2,
-<br> "MarginBottom": 10
+<br> "Background Color": "#ffffff",
+<br> "textAlignment": "Left",
+<br> "maxNumberOfLines": 2,
+<br> "marginBottom": 10
 <br> }
 <br> ]
 <br> }
 <br>}
-### <a name="appmodeljson"></a>AppModel.json
-Erstellen Sie einfach eine AppModel mit dem Titel und leere Fragen Array.
+### <a name="appmodeljson"></a>AppModel. JSON
+Erstellen Sie einfach ein AppModel-Array mit den Themen Title und Empty Questions.
 <br> {
-<br> "Title": "XYZ Customer Support"
-<br> "Fragen":]
+<br> "Title": "XYZ-Kunden Support",
+<br> "Fragen": []
 <br>}
-## <a name="sending-ticket-from-api"></a>Senden von Ticket von API
-Damit das Ticket über API gesendet werden, würde den Endpunkt Aktionen wie folgt verwenden. Beachten Sie das Abonnenten-Array – da wir diese gezielt an bestimmten Abonnenten senden müssen (für Weitere Informationen finden Sie im Beitrag [zu Kaizala verschieben SMS-Benachrichtigungen](https://kaizala007.wordpress.com/2018/02/07/kaizala-subscriber-message/)verweisen).
-<br>Diese API ausführen würden Sie die ReferenceId und ActionId fest. Nutzen Sie diese ActionId wie wir im nächsten Schritt noch benötigt wird. In der unten Beispiel haben wir Kundenname, Eigenschaften Ticketnumber und Ticketstatus auf "NAME: John Thomas" festzulegen "TICKET #: 907050", "STATUS: aktiv" fest.
+## <a name="sending-ticket-from-api"></a>Senden von Tickets von der API
+Um das Ticket über die API zu senden, verwenden wir den Endpunkt "Aktionen" wie unten gezeigt. Beachten Sie das subscribers-Array – da wir dieses Ziel an den jeweiligen Teilnehmer senden müssen (Weitere Informationen finden Sie in den Post- [Move-SMS-Benachrichtigungen an Kaizala](https://kaizala007.wordpress.com/2018/02/07/kaizala-subscriber-message/)).
+<br>Beim Ausführen dieser API würden Sie die Referenz-und Aktions-Nr. Cachen Sie diese Aktions-Nr, wie wir Sie im nächsten Schritt benötigen. Im folgenden Beispiel haben wir die Eigenschaften CustomerName, ticketnumber und Ticketstatus auf "NAME: John Thomas", "TICKET #: 907050", "STATUS: ACTIVE" festgelegt.
 
-| Methode  |      Bereitstellen    |
+| Methode  |      POST    |
 |----------|-------------|
-|**URL**|{{Endpunkt-Url}} / v1/Gruppen / {{Test-Gruppen-Id}} / Aktionen|
-|**Anforderungstext**|{<br>ID:"com.GLS.xyz.Care",<br>Abonnenten: ["{{-Mobile-Teilnehmernummer}}"],<br>SendToAllSubscribers:false,<br>ActionBody: {<br>Eigenschaften: [<br>{<br>Name: "Customername",<br>Wert: "NAME: John Thomas",<br>Typ: "Text"<br>},<br>{<br>Name: "Ticketnumber",<br>Wert: "TICKET #: 907050″,<br>Typ: "Text"<br>},<br>{<br>Name: "Ticketstatus",<br>Wert: "STATUS: aktiv",<br>Typ: "Text"<br>}<br>]<br>}<br>}|
+|**URL**|{{Endpunkt-URL}}/v1/Groups/{{Test-Group-ID}}/Actions|
+|**AnforderungsText**|{<br>ID: "com. GLS. xyz. Care",<br>Abonnenten: ["{{Subscriber-Mobile-Number}}"],<br>sendToAllSubscribers: false,<br>actionBody: {<br>Eigenschaften: [<br>{<br>Name: "CustomerName",<br>Wert: "NAME: John Thomas",<br>Typ: "Text"<br>},<br>{<br>Name: "ticketnumber",<br>Wert: "TICKET #: 907050",<br>Typ: "Text"<br>},<br>{<br>Name: "Ticketstatus",<br>Wert: "STATUS: ACTIVE",<br>Typ: "Text"<br>}<br>]<br>}<br>}|
 ## <a name="updating-the-ticket-status-using-api"></a>Aktualisieren des Ticket Status mithilfe der API
-Wie der Ticket Status ändert, müssen wir den Status auf der Karte zu aktualisieren, die gesendet wurde. Für diese wir wäre die Verwendung der Aktionen / << Aktions-Id >> / Eigenschaften-Endpunkt. In dem folgenden Beispiel wir würden werden Aktualisieren des Ticket Status in gelöst. Beachten Sie, dass die ActionId die ID der Aktion, die in früheren Schritt gesendet wird.
+Wenn sich der Ticket Status ändert, müssen wir den Status der gesendeten Karte aktualisieren. Dafür verwenden wir den Endpunkt Actions/<<action-id>>/Properties. Im folgenden Beispiel wird der Ticket Status auf "AUFGELÖST" aktualisiert. Beachten Sie, dass die Aktions Kennung die ID der im vorherigen Schritt gesendeten Aktion ist.
 
 | Methode  |      PPUT    |
 |----------|-------------|
-|**URL**|{{Endpunkt-Url}} / v1/Gruppen / {{Test-Gruppen-Id}} /actions/ {{ActionId}}|
-|**Anforderungstext**|{<br>{<br>"Version": 1,<br>"UpdateProperties":<br>[<br>{<br>"Name": "Ticketstatus",<br>"Typ": "Text",<br>"Wert": "STATUS: AUFGELÖST"<br>}<br>]<br>}|
+|**URL**|{{Endpunkt-URL}}/v1/groups/{{test-group-id}}/actions/{{actionId}}|
+|**AnforderungsText**|{<br>{<br>"Version":-1,<br>"updateProperties":<br>[<br>{<br>"Name": "Ticketstatus",<br>"Typ": "Text",<br>"Wert": "STATUS: AUFGELÖST"<br>}<br>]<br>}|
 
-## <a name="screenshots-of-the-demo"></a>Screenshots der demo
-### <a name="ticket-sent-from-api"></a>Ticket von API gesendet
+## <a name="screenshots-of-the-demo"></a>Screenshots der Demo
+### <a name="ticket-sent-from-api"></a>Von der API gesendetes Ticket
 ![](Images/Ticket%20sent%20from%20API.PNG)
-### <a name="ticket-after-updating-the-status-from-api"></a>Ticket nach dem Aktualisieren des Status von API
+### <a name="ticket-after-updating-the-status-from-api"></a>Ticket nach der Aktualisierung des Status von der API
 ![](Images/Ticket%20after%20updating%20the%20status%20from%20API.PNG)
-<br>Freigabe des Pakets über die [hier](https://drive.google.com/file/d/1gQb1CpYVd8SLnOOH4PCZWPsUeYhdWehB/view)für den Fall, dass er einer Aufnahme erhalten soll. (vergessen Sie nicht so ändern Sie die Paket-Id vor dem Hochladen auf Kaizala Konflikte zu vermeiden)
+<br>Teilen Sie das Paket [hier](https://drive.google.com/file/d/1gQb1CpYVd8SLnOOH4PCZWPsUeYhdWehB/view), falls Sie es einen Versuch geben möchten. (vergessen Sie nicht, die Paket-ID vor dem Hochladen in Kaizala zu ändern, um Konflikte zu vermeiden).
 
 
 

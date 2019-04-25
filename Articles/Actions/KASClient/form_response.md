@@ -1,13 +1,13 @@
-#   <a name="form-response-flow-apis"></a>Bilden Sie Antwort Fluss APIs:
+#   <a name="form-response-flow-apis"></a>Formular Antwort Fluss-APIs:
 
-| **API** | Beschreibung | Anforderungsparameter | Antwort-Ausgabe |
+| **API** | Beschreibung | Anforderungs Parameter | Antwort Ausgabe |
 | :---: | :---: | :---: | :--- |
-| **canRespondToFormAsync** | Ruft ab, ob der aktuelle Benutzer beantwortet werden können |  | True, wenn der aktuelle Benutzer berechtigt ist, reagieren CanRespond (boolesch)- |
+| **canRespondToFormAsync** | Ruft ab, ob der aktuelle Benutzer auf das Formularantworten kann. |  | canRespond (Boolean)-true, wenn der aktuelle Benutzer antwortet |
 | **getFormAsync** | | | Form-Objekt |
-| **getFormStatusAsync** | Ruft den Status des Formulars der Unterhaltung Karte zugeordnete ab | | True, wenn das Formular noch nicht abgelaufen ist IsActive (boolesch)- |
-| **getMyFormResponsesAsync** | Dient zum Abrufen aller Antworten des aktuellen Benutzers für das Formular | | Array von Antwortobjekte |
-| **sumbitFormResponse** | Sendet eine neue Antwort für das Formular der Unterhaltung Karte zugeordnete – schließt den aktuellen Bildschirm |  <ul><li>QuestionToAnswerMap (JSON) - Frage Id Zuordnung zu beantworten.</li><li>responseId(string) gefüllt werden soll, wenn die aktuelle Antwort ein bearbeiten/Update mit einer früheren ist</li><li>IsEdit (boolesch) gibt an, ob die aktuelle Antwort ein bearbeiten/Update mit einer früheren ist</li><li>showInChatCanvas(Boolean) gibt an, ob eine separate Chat Karte für diese Antwort oder nicht erstellt werden soll</li><li>isAnonymous(boolean) gibt an, ob die Antwort als anonym erfasst werden sollen</li></ul> | |
-| **sumbitFormResponseWithoutDismiss** | Sendet eine neue Antwort für das Formular für die Unterhaltung Karte ohne Schließen des aktuellen Bildschirms zugeordneten |  <ul><li>QuestionToAnswerMap (JSON) - Frage Id Zuordnung zu beantworten.</li><li>responseId(string) gefüllt werden soll, wenn die aktuelle Antwort ein bearbeiten/Update mit einer früheren ist</li><li>IsEdit (boolesch) gibt an, ob die aktuelle Antwort ein bearbeiten/Update mit einer früheren ist</li><li>showInChatCanvas(Boolean) gibt an, ob eine separate Chat Karte für diese Antwort oder nicht erstellt werden soll</li><li>isAnonymous(boolean) gibt an, ob die Antwort als anonym erfasst werden sollen</li></ul> | |
+| **getFormStatusAsync** | Ruft den Status des Formulars ab, das der Unterhaltungs Karte zugeordnet ist. | | IsActive (Boolean)-true, wenn das Formular noch nicht abgelaufen ist |
+| **getMyFormResponsesAsync** | Ruft alle Antworten des aktuellen Benutzers anhand des Formulars ab. | | Array von Response-Objekten |
+| **sumbitFormResponse** | Übermittelt eine neue Antwort auf das Formular, das der Unterhaltungs Karte zugeordnet ist – weist den aktuellen Bildschirm ab. |  <ul><li>questionToAnswerMap (JSON) – Frage-ID für die Antwort Zuordnung</li><li>Antwort-Nr. (Zeichenfolge), die ausgefüllt werden soll, wenn die aktuelle Antwort eine Bearbeitung/Aktualisierung auf eine frühere ist.</li><li>isEdit (Boolean) gibt an, ob es sich bei der aktuellen Antwort um eine Bearbeitung/Aktualisierung auf eine frühere handelt.</li><li>showInChatCanvas (Boolean) gibt an, ob für diese Antwort eine separate Chat Karte erstellt werden muss oder nicht.</li><li>isAnonymous (Boolean) gibt an, ob die Antwort als anonym oder nicht registriert werden soll.</li></ul> | |
+| **sumbitFormResponseWithoutDismiss** | Übermittelt eine neue Antwort für das Formular, das der Unterhaltungs Karte zugeordnet ist, ohne den aktuellen Bildschirm zu verWerfen. |  <ul><li>questionToAnswerMap (JSON) – Frage-ID für die Antwort Zuordnung</li><li>Antwort-Nr. (Zeichenfolge), die ausgefüllt werden soll, wenn die aktuelle Antwort eine Bearbeitung/Aktualisierung auf eine frühere ist.</li><li>isEdit (Boolean) gibt an, ob es sich bei der aktuellen Antwort um eine Bearbeitung/Aktualisierung auf eine frühere handelt.</li><li>showInChatCanvas (Boolean) gibt an, ob für diese Antwort eine separate Chat Karte erstellt werden muss oder nicht.</li><li>isAnonymous (Boolean) gibt an, ob die Antwort als anonym oder nicht registriert werden soll.</li></ul> | |
 
 
 ##  <a name="get-the-associated-form"></a>Abrufen des zugeordneten Formulars
@@ -22,7 +22,7 @@
   function getFormAsync(callback: function(form: KASForm, error: string))
 ```
 
-##  <a name="check-if-the-associated-form-is-expired-or-not"></a>Überprüfen Sie, ob das Formular zugeordnete oder nicht abgelaufen ist
+##  <a name="check-if-the-associated-form-is-expired-or-not"></a>Überprüfen, ob das zugehörige Formular abgelaufen ist oder nicht
 
 ```typescript
 /**
@@ -34,7 +34,7 @@
   function getFormStatusAsync(callback: function(isActive: boolean, error: string))
 ```
 
-##  <a name="get-all-the-responses-of-the-current-user"></a>Abrufen Sie aller Antworten des aktuellen Benutzers
+##  <a name="get-all-the-responses-of-the-current-user"></a>Abrufen aller Antworten des aktuellen Benutzers
 
 ```typescript
 /**
@@ -46,7 +46,7 @@
   function getMyFormResponsesAsync(callback: function(responses: KASFormResponse[], error: string))
 ```
 
-##  <a name="submit-a-new-response-for-the-associated-form"></a>Senden Sie eine neue Antwort für das zugeordnete Formular
+##  <a name="submit-a-new-response-for-the-associated-form"></a>Senden einer neuen Antwort für das zugeordnete Formular
 
 ```typescript
 /**

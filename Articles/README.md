@@ -1,24 +1,24 @@
 # <a name="microsoft-kaizala-developer-documentation"></a>Microsoft Kaizala-Entwicklerdokumentation
 
-Kaizala ist eine messaging und Produktivität app, mit denen mobile Benutzer mehr erreichen können. Mit Kaizala können Sie 1:1 chatten mit Personen, mit Ihren Teams Gruppenchat haben und sogar Hinzufügen von Gruppen zu Ihrer vorhandenen Gruppen in großen Organisationen oder Communitys kommunizieren.
+Kaizala ist eine APP für Messaging und Produktivität, mit deren Hilfe Mobile Benutzer mehr erreichen können. Mit Kaizala können Sie 1:1 Chat mit Einzelpersonen, Gruppenchat mit ihren Teams und sogar Gruppen zu Ihren vorhandenen Gruppen hinzufügen, um in größeren Organisationen oder Gemeinden zu kommunizieren.
 
-> **Sie haben keinen Kaizala? Jetzt herunterladen der app für Windows Phone, Android & iOS. [Sieht wie](install.md).**
+> **Sie haben keine Kaizala? Laden Sie die APP jetzt für Windows Phone, Android & iOS. [So wird es gemacht](install.md).**
 
-## <a name="microsoft-kaizala-developer-platform"></a>Blog des Microsoft Kaizala-Plattform 
-Die Kaizala Developer-Plattform bietet mehrere Methoden zum integrieren und Kaizala, um den Bedürfnissen Ihrer Organisation zu erweitern. Mit der Preview für Entwickler können Sie Connectors zum Integrieren von Kaizala in Ihre Geschäftsprozesse und Entwerfen benutzerdefinierte Aktionen über dem Kaizala-Verwaltungsportal.
+## <a name="microsoft-kaizala-developer-platform"></a>Microsoft Kaizala-Entwicklerplattform 
+Die Kaizala-Entwicklerplattform bietet mehrere Möglichkeiten zum integrieren und Erweitern von Kaizala für die Anforderungen Ihrer Organisation. Mit der Entwicklervorschau können Sie Connectors verwenden, um Kaizala in Ihre Geschäftsprozesse zu integrieren und benutzerdefinierte Aktionen über das Kaizala-Verwaltungs Portal zu entwerfen.
 
 ## <a name="connectors"></a>Connectors
 
-Kaizala Connectors ermöglichen es 3. Partei Entwicklern integrieren Kaizala in ihre Geschäftsprozesse durch bereitstellen, dass die Möglichkeit zum Ausführen einer curated Reihe von Aktionen in Kaizala mithilfe von REST-API-Aufrufe basiert. Der Bereich der API ist für externe Systeme zum Aufrufen des Endpunkt und Ausführen von Aktionen auf Abruf. D. h., wird dies eine PULL-Modell – sein, in denen einzelne Endpunkte aufgerufen werden, um bestimmte Aktionen Kaizala **[APIs](connectors/API.md)** ausführen müssen. Das PUSH-Modell, in dem Kaizala Plattform Aktionen auslösen kann, kann mithilfe von **[Webhooks](connectors/webHooks.md)** konfiguriert werden.
+Kaizala-Connectors ermöglichen Drittanbieterentwicklern, Kaizala in Ihre Geschäftsprozesse zu integrieren, indem Sie die Möglichkeit bieten, eine kuratierte Reihe von Aktionen in Kaizala mithilfe von REST-basierten API-aufrufen durchzuführen. Der Anwendungsbereich der API ist für externe Systeme zum Aufrufen des Endpunkts und zum Ausführen von Aktionen bei Bedarf. Das heißt, es handelt sich dabei um ein PULL-Modell, bei dem einzelne Endpunkte aufgerufen werden müssen, um bestimmte Aktionen mithilfe von Kaizala- **[APIs](connectors/API.md)** auszuführen. Das PUSH-Modell, mit dem die Kaizala-Plattform Aktionen auslösen **[](connectors/webHooks.md)** kann, kann mit webhooks konfiguriert werden.
 
 [Erste Schritte mit Connectors](connectors/README.md)
 
-## <a name="kaizala-actions"></a>Kaizala Aktionen
+## <a name="kaizala-actions"></a>Kaizala-Aktionen
 
-Kaizala Aktionen sind grundlegende 'Arbeitseinheiten', mit denen Benutzer in einem Unterhaltungskontext innerhalb Kaizala Arbeit vermitteln. Einige dieser Aktionen wie Auftrag, Umfrage, Umfrage usw. sind gelieferten Out-of-the-Box und verfügen über dieselbe Funktionalität bereichsbezogenen. Diese Aktionen innerhalb der app Kaizala ermittelt werden können und in einem Unterhaltungskontext aus der Palette Aktion aufgerufen werden können.
+Kaizala-Aktionen sind einfache "Arbeitseinheiten", die Benutzern bei der Arbeit innerhalb eines Unterhaltungs Kontexts innerhalb von Kaizala helfen. Einige dieser Aktionen wie Job, Umfrage, Umfrage usw. werden in der Box ausgeliefert und bieten eine umfangreichere Funktionalität. Diese Aktionen können innerhalb der Kaizala-App ermittelt werden und können in einem Unterhaltungs Kontext aus der Aktions Palette aufgerufen werden.
 
-[Erste Schritte mit Kaizala Aktionen](Actions/README.md)
+[Erste Schritte mit Kaizala-Aktionen](Actions/README.md)
 
-## <a name="submit-your-questions-bugs-feature-requests-and-contributions"></a>Senden Sie Ihre Fragen, Fehlern, Anfragen zu Features und Beiträge
+## <a name="submit-your-questions-bugs-feature-requests-and-contributions"></a>ÜberMitteln von Fragen, Bugs, Feature-Anfragen und Beiträgen
 
-Wir hören über [mehrere Kanäle](feedback.md)für die Entwicklercommunity.
+Wir hören der Entwicklercommunity über [mehrere Kanäle](feedback.md)zu.

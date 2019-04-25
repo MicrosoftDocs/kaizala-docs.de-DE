@@ -1,9 +1,9 @@
-# <a name="action-lifecycle"></a>Aktion Lebenszyklus
+# <a name="action-lifecycle"></a>Aktions Lebenszyklus
 
 Eine Aktion kann 5 Status aufweisen:
 
-* **Draft** - Aktion ist erfolgreich hochgeladen. Diese Nummer wird nur für Aktion Ersteller und Organisation Admin(s) auf Kaizala-Verwaltungsportal. Es kann nicht zu Gruppen hinzugefügt werden
-* **Mehrstufige** - Aktion in phasenweise Zustand kann (vor der Bereitstellung) in Gruppen getestet werden für die Aktion "Creator" Administrator ist Diese Nummer wird nur für Aktion Ersteller und Organisation Admin(s) auf Kaizala-Verwaltungsportal
-* **Active** - nach einer Version einer Aktion wird bereitgestellt, die aktiviert werden kann. Status "aktiv" steht er für alle Mitglieder der Organisation es in ihren Gruppen auf Kaizala-Verwaltungsportal hinzufügen
-* **Inaktiv** - Aktion aktiv können inaktiv vorgenommen werden. In diesem Status ist die betreffende Aktion Paket nicht verfügbar an andere Mitglieder in der Organisation noch zu ihren Gruppen hinzugefügt. Auf Kaizala-app können sie weiterhin von Benutzern in den Gruppen verwendet werden in der bereits dieser Aktion hinzugefügt wird
-* **Entfernt** – Wenn eine Version einer Aktion ist explizit entfernt oder durch andere Version ersetzt, verschiebt sie in Zustand entfernt. Klicken Sie auf Kaizala-apps sind diese Pakete nicht verfügbar für Benutzer für die Verwendung
+* **Entwurf** -Aktion wurde erfolgreich hochgeladen. Sie ist nur für Aktions Entwickler und Organisations-Admins im Kaizala-Verwaltungs Portal sichtbar. Es kann nicht zu Gruppen hinzugefügt werden
+* **Staging** -Action in einem stufenweisen Zustand kann (vor der Bereitstellung) in Gruppen getestet werden, für die die Aktion Creator ein Administrator ist. Sie ist nur für Aktions Entwickler und Organisations-Admins auf dem Kaizala-Verwaltungs Portal sichtbar.
+* **Aktiv** – nachdem eine Version einer Aktion bereitgestellt wurde, kann Sie aktiviert werden. Im aktiven Zustand ist es für alle Mitglieder der Organisation verfügbar, es in ihren Gruppen im Kaizala-Verwaltungs Portal hinzuzufügen.
+* **Inaktiv** -Aktion im aktiven Zustand kann deaktiviert werden. In diesem Zustand ist das betreffende Aktionspaket anderen Mitgliedern in der Organisation nicht zur Verfügung, um es Ihren Gruppen hinzuzufügen. In der Kaizala-App kann Sie weiterhin von Benutzern in den Gruppen verwendet werden, in denen diese Aktion bereits hinzugefügt wurde.
+* **Removed** – wenn eine Version einer Aktion explizit entfernt oder durch eine andere Version ersetzt wird, wird Sie in den Zustand "entfernt" verschoben. In Kaizala-Apps stehen diese Pakete nicht für Benutzer zur Verfügung.
