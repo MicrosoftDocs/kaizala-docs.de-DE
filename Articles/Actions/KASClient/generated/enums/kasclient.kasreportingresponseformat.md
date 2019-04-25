@@ -1,31 +1,23 @@
----
-ms.openlocfilehash: 22251be814f1611c37a516d23ab72360d806807d
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728081"
----
-<span data-ttu-id="d68a2-101">[](../README.md) > [KASClient](../modules/kasclient.md) > [KASReportingResponseFormat](../enums/kasclient.kasreportingresponseformat.md)</span><span class="sxs-lookup"><span data-stu-id="d68a2-101">[](../README.md) > [KASClient](../modules/kasclient.md) > [KASReportingResponseFormat](../enums/kasclient.kasreportingresponseformat.md)</span></span>
+<span data-ttu-id="6b8db-101">[](../README.md) > [KASClient](../modules/kasclient.md) > [KASReportingResponseFormat](../enums/kasclient.kasreportingresponseformat.md)</span><span class="sxs-lookup"><span data-stu-id="6b8db-101">[](../README.md) > [KASClient](../modules/kasclient.md) > [KASReportingResponseFormat](../enums/kasclient.kasreportingresponseformat.md)</span></span>
 
-# <a name="enumeration-kasreportingresponseformat"></a><span data-ttu-id="d68a2-102">Enumeration: KASReportingResponseFormat</span><span class="sxs-lookup"><span data-stu-id="d68a2-102">Enumeration: KASReportingResponseFormat</span></span>
+# <a name="enumeration-kasreportingresponseformat"></a><span data-ttu-id="6b8db-102">Enumeration: KASReportingResponseFormat</span><span class="sxs-lookup"><span data-stu-id="6b8db-102">Enumeration: KASReportingResponseFormat</span></span>
 
-<span data-ttu-id="d68a2-103">Reporting Typ Enum in KASClient.Form.getFormReportingDataAsync API verwendet</span><span class="sxs-lookup"><span data-stu-id="d68a2-103">Reporting type enum used in KASClient.Form.getFormReportingDataAsync API</span></span>
-## <a name="index"></a><span data-ttu-id="d68a2-104">Index </span><span class="sxs-lookup"><span data-stu-id="d68a2-104">Index</span></span>
+<span data-ttu-id="6b8db-103">Berichtstyp-Enumeration, die in der KASClient. Form. getFormReportingDataAsync-API verwendet wird</span><span class="sxs-lookup"><span data-stu-id="6b8db-103">Reporting type enum used in KASClient.Form.getFormReportingDataAsync API</span></span>
+## <a name="index"></a><span data-ttu-id="6b8db-104">Index </span><span class="sxs-lookup"><span data-stu-id="6b8db-104">Index</span></span>
 
-### <a name="enumeration-members"></a><span data-ttu-id="d68a2-105">Enumerationsmember</span><span class="sxs-lookup"><span data-stu-id="d68a2-105">Enumeration members</span></span>
+### <a name="enumeration-members"></a><span data-ttu-id="6b8db-105">Enumerationsmember</span><span class="sxs-lookup"><span data-stu-id="6b8db-105">Enumeration members</span></span>
 
-* [<span data-ttu-id="d68a2-106">Json</span><span class="sxs-lookup"><span data-stu-id="d68a2-106">Json</span></span>](kasclient.kasreportingresponseformat.md#json)
+* [<span data-ttu-id="6b8db-106">Json</span><span class="sxs-lookup"><span data-stu-id="6b8db-106">Json</span></span>](kasclient.kasreportingresponseformat.md#json)
 
 ---
 
-## <a name="enumeration-members"></a><span data-ttu-id="d68a2-107">Enumerationsmember</span><span class="sxs-lookup"><span data-stu-id="d68a2-107">Enumeration members</span></span>
+## <a name="enumeration-members"></a><span data-ttu-id="6b8db-107">Enumerationsmember</span><span class="sxs-lookup"><span data-stu-id="6b8db-107">Enumeration members</span></span>
 
 <a id="json"></a>
 
-###  <a name="json"></a><span data-ttu-id="d68a2-108">Json</span><span class="sxs-lookup"><span data-stu-id="d68a2-108">Json</span></span>
+###  <a name="json"></a><span data-ttu-id="6b8db-108">Json</span><span class="sxs-lookup"><span data-stu-id="6b8db-108">Json</span></span>
 
-<span data-ttu-id="d68a2-109">**JSON**: = 1</span><span class="sxs-lookup"><span data-stu-id="d68a2-109">**Json**:  = 1</span></span>
+<span data-ttu-id="6b8db-109">**JSON**: = 1</span><span class="sxs-lookup"><span data-stu-id="6b8db-109">**Json**:  = 1</span></span>
 
 ___
 
