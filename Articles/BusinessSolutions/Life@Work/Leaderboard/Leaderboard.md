@@ -39,7 +39,7 @@ Dies kann grob in drei Schritte unterteilt werden:
 
 ### <a name="format-excel-sheet"></a>Excel-Blatt formatieren
 
-1. Herunterladen der [Excel-Vorlage](https://github.com/MicrosoftDocs/kaizala-docs/blob/master/Articles/BusinessSolutions/Leaderboard/Leaderboard.csv)
+1. Herunterladen der [Excel-Vorlage](https://github.com/MicrosoftDocs/kaizala-docs/blob/master/Articles/BusinessSolutions/Life%40Work/Leaderboard/Leaderboard.csv)
 
 2. Füllen Sie alle Pflichtfelder-Name, PhoneNo und Score aus. Neben diesen drei obligatorischen Feldern sind die restlichen KPIs (optional) und werden auf der Registerkarte meine Leistung angezeigt.
 

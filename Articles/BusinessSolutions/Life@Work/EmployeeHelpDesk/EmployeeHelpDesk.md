@@ -18,7 +18,7 @@ Wenn der Benutzer mit der vorgeschlagenen Lösung zufrieden ist, hat der Benutze
 
   <img src="EmployeeHelpdesk-Images/1.jpg" width="350">
 
-   Anzeigen der Aktualisierung des Status auf "zugewiesen" in SharePoint und der entsprechenden Karte, die an den Benutzer gesendet wird
+   Ansicht des Status, der auf "zugewiesen" in SharePoint aktualisiert wird, und die entsprechende Karte, die an den Benutzer gesendet wird
 
    <img src="EmployeeHelpdesk-Images/2.jpg" width="600">
 
@@ -55,7 +55,7 @@ Dies ist im Wesentlichen in drei Schritte unterteilt:
     3. So aktualisieren Sie die SharePoint-Liste, wenn der Benutzer das Schließen, erneutes Öffnen oder Hinzufügen von Feedback Kommentaren von der Karte auswählt (*TicketReopenFlow. zip*)
 
 ### <a name="upload-action-packages"></a>Aktionspakete hochladen
-1. Laden Sie die Datei ["EmployeeHelpDesk-SolutionPackage. zip"](https://github.com/MicrosoftDocs/kaizala-docs/blob/master/Articles/BusinessSolutions/Life%40Work/EmployeeHelpDesk/EmployeeHelpdesk-SolutionPackage.zip) (*Diese enthält 2 Aktionspakete und 3 Flows*).
+1. Laden Sie die Datei ["EmployeeHelpDesk-SolutionPackage. zip"](https://aka.ms/EmployeeHelpdesk-SolutionPackage.zip)(*Diese enthält 2 Aktionspakete und 3 Flows*).
 
 2. Laden Sie die neueste Version von Kaizala ["ActionSDK. zip"](https://manage.kaiza.la/MiniApps/DownloadSDK) (*Diese enthält KASClient. js*)
 
@@ -100,7 +100,25 @@ Dies ist im Wesentlichen in drei Schritte unterteilt:
 2. [Hinzufügen](https://support.office.com/en-us/article/create-a-column-in-a-sharepoint-list-or-library-2b0361ae-1bd3-41a3-8329-269e5f81cfa2) von Spalten und [Bearbeiten](https://support.office.com/en-us/article/Edit-list-settings-in-SharePoint-Online-4d35793b-246e-42a3-990c-563a83795b7f) (*wie unten in der gleichen Reihenfolge und im Format*) Spalteneinstellungen für diese Liste
 
 
-    Spalten Empfohlene Einstellungen--------|---Department | Einzelne Textzeile | Einzelne Textzeile Kategorie | Einzelne Textzeile Beschreibung | Mehrere Textzeilen Fotos | Mehrere Textzeilen Creatorname | Einzelne Textzeile CreatorContact | Einzelne Textzeile ReportedAt | Einzelne Textzeile ZugewiesenAn | Einzelne Textzeile AssignedBy | Einzelne Zeile des Text Status | Auswahl mit Optionen als neu, zugewiesen, aufgelöst, geschlossen und erneut geöffnet (*diese Ticket Phasen sind obligatorisch*) HelpdeskComments | Mehrere Textzeilen UserFeedback | Mehrere Textzeilen ReasonsToReopen | Mehrere Textzeilen CreatorKaizalaName | Einzelne Textzeile CreatorKaizalaContact | Einzelne Textzeile User Rating | Einzelne Textzeile
+    |Spalte|Empfohlene Einstellungen|
+    |-------- |---|
+    |Abteilung|Eine Textzeile|
+    |Ort|Eine Textzeile|
+    |Kategorie|Eine Textzeile|
+    |Beschreibung |Mehrere Textzeilen|
+    |Fotos|Mehrere Textzeilen|
+    |Creatorname|Eine Textzeile|
+    |CreatorContact|Eine Textzeile|
+    |ReportedAt|Eine Textzeile|
+    |AssignedTo|Eine Textzeile|
+    |AssignedBy|Eine Textzeile|
+    |Status|Auswahl mit Optionen als neu, zugewiesen, aufgelöst, geschlossen und erneut geöffnet (*diese Ticket Phasen sind obligatorisch*)|
+    |HelpdeskComments|Mehrere Textzeilen|
+    |UserFeedback|Mehrere Textzeilen|
+    |ReasonsToReopen|Mehrere Textzeilen|
+    |CreatorKaizalaName|Eine Textzeile|
+    |CreatorKaizalaContact|Eine Textzeile|
+    |User Rating|Eine Textzeile|
  
 
 4. [Bearbeiten Sie die Listenansicht](https://support.office.com/en-gb/article/edit-a-list-view-in-sharepoint-online-15916903-e79a-423f-b4e2-02d37e1ff372) , um die ID an erster Stelle zu positionieren. Dies ist die eindeutige Ticket-ID, die auf der Karte angezeigt wird, nachdem das Ticket zugewiesen wurde.
