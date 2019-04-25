@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 83bf0eada0674bea5a6cbe1e346a5f6aefac8121
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728054"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASPhoneNumber](../classes/kasclient.kasphonenumber.md)
 
 # <a name="class-kasphonenumber"></a>Klasse: KASPhoneNumber
@@ -22,7 +14,7 @@ ms.locfileid: "28728054"
 ### <a name="properties"></a>Eigenschaften
 
 * [countryPhoneCode](kasclient.kasphonenumber.md#countryphonecode)
-* ["PhoneNumber"](kasclient.kasphonenumber.md#phonenumber)
+* [phoneNumber](kasclient.kasphonenumber.md#phonenumber)
 ### <a name="methods"></a>Methoden
 
 * [toJSON](kasclient.kasphonenumber.md#tojson)
@@ -37,16 +29,16 @@ ms.locfileid: "28728054"
 
 ###  <a name="constructor"></a>constructor
 
-⊕ **neue KASPhoneNumber**(CountryPhoneCode?: *`number`*, PhoneNumber?: *`string`*): [KASPhoneNumber](kasclient.kasphonenumber.md)
+⊕ **New KASPhoneNumber**(countryPhoneCode?: *`number`*, phoneNumber?: *`string`*): [KASPhoneNumber](kasclient.kasphonenumber.md)
 
 **Parameter:**
 
 | Name | Typ | Standardwert |
 | ------ | ------ | ------ |
 | `Default value`countryPhoneCode | `number` | 0 |
-| `Default value`"PhoneNumber" | `string` | &quot;&quot; |
+| `Default value`phoneNumber | `string` | &quot;&quot; |
 
-**Gibt:** [KASPhoneNumber](kasclient.kasphonenumber.md)
+**Gibt Folgendes zurück:** [KASPhoneNumber](kasclient.kasphonenumber.md)
 
 ___
 
@@ -56,7 +48,7 @@ ___
 
 ###  <a name="countryphonecode"></a>countryPhoneCode
 
-**● CountryPhoneCode**: *`number`* = 0
+**● countryPhoneCode**: *`number`* = 0
 
 ___
 
@@ -64,7 +56,7 @@ ___
 
 ###  <a name="phonenumber"></a>PhoneNumber
 
-**● PhoneNumber**: *`string`* = ""
+**●**Telefonnummer *`string`* : = ""
 
 ___
 
@@ -74,9 +66,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -84,9 +76,9 @@ ___
 
 ###  <a name="tostring"></a>toString
 
-▸ **ToString**():`string`
+▸- **ToString**():`string`
 
-**Gibt:**`string`
+**Gibt Folgendes zurück:**`string`
 
 ___
 
@@ -94,7 +86,7 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(PhoneNumberReponseJSON: *`any`*): [KASPhoneNumber](kasclient.kasphonenumber.md)
+▸ **fromJSON**(phoneNumberReponseJSON: *`any`*): [KASPhoneNumber](kasclient.kasphonenumber.md)
 
 **Parameter:**
 
@@ -102,7 +94,7 @@ ___
 | ------ | ------ |
 | phoneNumberReponseJSON | `any` |
 
-**Gibt:** [KASPhoneNumber](kasclient.kasphonenumber.md)
+**Gibt Folgendes zurück:** [KASPhoneNumber](kasclient.kasphonenumber.md)
 
 ___
 

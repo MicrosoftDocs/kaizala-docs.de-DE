@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: bc61700c2fa0bee9377e226e1346448f0c36cfb8
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728062"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormMessageSendStatus](../enums/kasclient.kasformmessagesendstatus.md)
 
 # <a name="enumeration-kasformmessagesendstatus"></a>Enumeration: KASFormMessageSendStatus
@@ -14,7 +6,7 @@ ms.locfileid: "28728062"
 
 ### <a name="enumeration-members"></a>Enumerationsmember
 
-* [Fehler](kasclient.kasformmessagesendstatus.md#error)
+* [Error](kasclient.kasformmessagesendstatus.md#error)
 * [InProgress](kasclient.kasformmessagesendstatus.md#inprogress)
 * [Success](kasclient.kasformmessagesendstatus.md#success)
 * [Unknown](kasclient.kasformmessagesendstatus.md#unknown)
@@ -35,7 +27,7 @@ ___
 
 ###  <a name="inprogress"></a>InProgress
 
-**In Bearbeitung**: = 1
+**InProgress**: = 1
 
 ___
 
@@ -51,7 +43,7 @@ ___
 
 ###  <a name="unknown"></a>Unbekannt
 
-**Unbekannte**: 0 =
+**Unbekannt**: = 0
 
 ___
 

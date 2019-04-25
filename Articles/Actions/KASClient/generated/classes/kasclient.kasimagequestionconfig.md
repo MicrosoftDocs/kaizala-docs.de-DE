@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 09c4d04d850198f957d919149327b0cf910e2a6d
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728096"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASImageQuestionConfig](../classes/kasclient.kasimagequestionconfig.md)
 
 # <a name="class-kasimagequestionconfig"></a>Klasse: KASImageQuestionConfig
@@ -38,7 +30,7 @@ ms.locfileid: "28728096"
 
 ###  <a name="defaultcamerafiltermode"></a>defaultCameraFilterMode
 
-**● DefaultCameraFilterMode**: *[CameraFilterMode](../enums/kasclient.camerafiltermode.md)* = CameraFilterMode.Photo
+**● defaultCameraFilterMode**: *[CameraFilterMode](../enums/kasclient.camerafiltermode.md)* = CameraFilterMode. Photo
 
 ___
 
@@ -46,7 +38,7 @@ ___
 
 ###  <a name="imagesource"></a>imageSource
 
-**● ImageSource**: *[ImagePickerSource](../enums/kasclient.imagepickersource.md)* = ImagePickerSource.All
+**● ImageSource**: *[ImagePickerSource](../enums/kasclient.imagepickersource.md)* = ImagePickerSource. all
 
 ___
 
@@ -54,7 +46,7 @@ ___
 
 ###  <a name="pagebreakenabled"></a>pageBreakEnabled
 
-**● PageBreakEnabled**: *`boolean`* = True
+**● pageBreakEnabled**: *`boolean`* = true
 
 ___
 
@@ -62,7 +54,7 @@ ___
 
 ### <a name="static-defaultcamerafiltermode"></a>`<Static>`DEFAULT_CAMERA_FILTER_MODE
 
-**● DEFAULT_CAMERA_FILTER_MODE**: *`string`* = "Dcfm"
+**● DEFAULT_CAMERA_FILTER_MODE**: *`string`* = "dcfm"
 
 ___
 
@@ -80,9 +72,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -90,15 +82,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*): [KASImageQuestionConfig](kasclient.kasimagequestionconfig.md)
+▸ **fromJSON**(Object: *`any`*): [KASImageQuestionConfig](kasclient.kasimagequestionconfig.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 
-**Gibt:** [KASImageQuestionConfig](kasclient.kasimagequestionconfig.md)
+**Gibt Folgendes zurück:** [KASImageQuestionConfig](kasclient.kasimagequestionconfig.md)
 
 ___
 

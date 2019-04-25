@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 6433ecb385d38db201ec8e2733768e9fc095ae8e
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728073"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormProperty](../classes/kasclient.kasformproperty.md)
 
 # <a name="class-kasformproperty"></a>Klasse: KASFormProperty
@@ -45,9 +37,9 @@ ___
 
 <a id="type"></a>
 
-###  <a name="type"></a>type
+###  <a name="type"></a>Typ
 
-**● Typ**: *[KASFormPropertyType](../enums/kasclient.kasformpropertytype.md)* = KASFormPropertyType.Text
+**● Typ**: *[KASFormPropertyType](../enums/kasclient.kasformpropertytype.md)* = KASFormPropertyType. Text
 
 Typ der Metadaten
 
@@ -69,7 +61,7 @@ ___
 
 ###  <a name="getapicompatiblepropertytype"></a>getAPICompatiblePropertyType
 
-▸ **GetAPICompatiblePropertyType**(Typ: *`string`*):`string`
+▸ **getAPICompatiblePropertyType**(Typ: *`string`*):`string`
 
 **Parameter:**
 
@@ -77,7 +69,7 @@ ___
 | ------ | ------ |
 | Typ | `string` |
 
-**Gibt:**`string`
+**Gibt Folgendes zurück:**`string`
 
 ___
 
@@ -85,9 +77,9 @@ ___
 
 ###  <a name="toapicompatiblejson"></a>toAPICompatibleJSON
 
-▸ **ToAPICompatibleJSON**():`JSON`
+▸ **toAPICompatibleJSON**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -95,9 +87,9 @@ ___
 
 ###  <a name="toclientjson"></a>toClientJSON
 
-▸ **ToClientJSON**():`JSON`
+▸ **toClientJSON**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -105,9 +97,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -115,15 +107,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`JSON`*): [KASFormProperty](kasclient.kasformproperty.md)
+▸ **fromJSON**(Object: *`JSON`*): [KASFormProperty](kasclient.kasformproperty.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `JSON` |
+| Objekt | `JSON` |
 
-**Gibt:** [KASFormProperty](kasclient.kasformproperty.md)
+**Gibt Folgendes zurück:** [KASFormProperty](kasclient.kasformproperty.md)
 
 ___
 

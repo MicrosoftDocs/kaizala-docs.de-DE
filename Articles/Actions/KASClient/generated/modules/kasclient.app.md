@@ -1,12 +1,4 @@
----
-ms.openlocfilehash: f725f55c2e7e0c8c75d71275c7217497090b4f1a
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728163"
----
-[](../README.md) > [KASClient](../modules/kasclient.md) > [App](../modules/kasclient.app.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > -[App](../modules/kasclient.app.md)
 
 # <a name="module-app"></a>Modul: App
 
@@ -71,11 +63,11 @@ ms.locfileid: "28728163"
 
 ###  <a name="cancelattachmentdownloadasync"></a>cancelAttachmentDownloadAsync
 
-▸ **CancelAttachmentDownloadAsync**(Anlage: *[KASAttachment](../classes/kasclient.kasattachment.md)*, Rückruf: *`function`*):`void`
+▸ **cancelAttachmentDownloadAsync**(Attachment: *[KASAttachment](../classes/kasclient.kasattachment.md)*, Callback: *`function`*):`void`
 
-Abbrechen eines Downloadvorgangs in der Warteschlange für eine Anlage
+Abbrechen eines in der Warteschlange befindlichen Downloadvorgangs für eine Anlage
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
  var attachmentsList = JSON.parse(form.properties[0].value);
@@ -91,10 +83,10 @@ Abbrechen eines Downloadvorgangs in der Warteschlange für eine Anlage
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| Anlage | [KASAttachment](../classes/kasclient.kasattachment.md) |  \- |
-| callback | `function` |  mit Fehler Param - Fehlerzeichenfolge bei einem Fehler; andernfalls NULL |
+| attachment | [KASAttachment](../classes/kasclient.kasattachment.md) |  \- |
+| callback | `function` |  mit Fehler-param-Error-Zeichenfolge im Fehlerfall; andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -102,11 +94,11 @@ ___
 
 ###  <a name="dismisscurrentscreen"></a>dismissCurrentScreen
 
-▸ **DismissCurrentScreen**():`void`
+▸ **dismissCurrentScreen**():`void`
 
-Schließen Sie die aktuelle geöffnete Aktion Bildschirm (Erstellung,-Antwort oder Zusammenfassung)
+Schließen des Bildschirms der aktuell geöffneten Aktion (Erstellung, Antwort oder Zusammenfassung)
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -114,11 +106,11 @@ ___
 
 ###  <a name="downloadattachmentasync"></a>downloadAttachmentAsync
 
-▸ **DownloadAttachmentAsync**(Anlage: *[KASAttachment](../classes/kasclient.kasattachment.md)*, Rückruf: *`function`*):`void`
+▸ **downloadAttachmentAsync**(Attachment: *[KASAttachment](../classes/kasclient.kasattachment.md)*, Callback: *`function`*):`void`
 
-Laden Sie das angegebene Attachment-Objekt
+Herunterladen der angegebenen Anlage
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 var imageAttachment =  new KASClient.KASAttachment();
@@ -136,10 +128,10 @@ KASClient.App.downloadAttachmentAsync(imageAttachment, function(downloadedAttach
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| Anlage | [KASAttachment](../classes/kasclient.kasattachment.md) |  Anlage mit einem gültigen Serverpfad zum Herunterladen |
-| callback | `function` |  Rückruf Download nach Abschluss mit unter params<br><br>\*{KASAttachment} @param DownloadedAttachment die Anlage, die heruntergeladen haben<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| attachment | [KASAttachment](../classes/kasclient.kasattachment.md) |  Anlage mit einem gültigen Serverpfad zum herunterladen |
+| callback | `function` |  Rückruf beim Herunterladen mit unter params<br><br>\*@param {KASAttachment} downloadedAttachment die heruntergeladene Anlage<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -147,11 +139,11 @@ ___
 
 ###  <a name="generatebase64thumbnailasync"></a>generateBase64ThumbnailAsync
 
-▸ **generateBase64ThumbnailAsync**(LocalPath: *`string`*, Rückruf: *`function`*):`void`
+▸ **generateBase64ThumbnailAsync**(LocalPath: *`string`*, Callback: *`function`*):`void`
 
-Generiert Base64-Miniaturansicht für ein Bild, dessen LocalPath erfolgt ist
+Erstellt eine Base64-Miniaturansicht für ein Bild, dessen localPath angegeben ist.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 KASClient.App.generateBase64ThumbnailAsync(localPath, function (thumbnail, error) {
@@ -165,10 +157,10 @@ KASClient.App.generateBase64ThumbnailAsync(localPath, function (thumbnail, error
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| localPath | `string` |  LocalPath für die ImageAttachment, deren Miniaturansicht generiert werden muss |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Zeichenfolge} @param Miniaturansicht base64-Wert<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| localPath | `string` |  localPath für die imageAttachment, deren Miniaturansicht generiert werden muss |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {string} Thumbnail der Base64-Wert<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -176,11 +168,11 @@ ___
 
 ###  <a name="generateuuidasync"></a>generateUUIDAsync
 
-▸ **GenerateUUIDAsync**(Rückruf: *`function`*):`void`
+▸ **generateUUIDAsync**(Callback: *`function`*):`void`
 
-Ruft die neue UUID
+Ruft die neue UUID ab.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
  KASClient.App.generateUUIDAsync(function (uuid, error) {
@@ -193,9 +185,9 @@ Ruft die neue UUID
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Zeichenfolge} @param Uuid neu generiert uuid<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {string} UUID neu generierte UUID<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -203,17 +195,17 @@ ___
 
 ###  <a name="getapplocaleasync"></a>getAppLocaleAsync
 
-▸ **GetAppLocaleAsync**(Rückruf: *`function`*):`void`
+▸ **getAppLocaleAsync**(Callback: *`function`*):`void`
 
-Ruft das aktuelle Gebietsschema der app, die Sprache aus, in dem die app gerenderten, hilfreich für die Lokalisierung von Zeichenfolgen MiniApp des
+Ruft das aktuelle App-Gebietsschema, die Sprache, in der die APP gerendert wird, zur Lokalisierung von MiniApp-Zeichenfolgen ab.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Zeichenfolge} @param Gebietsschema kann bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {string}-Gebietsschema kann im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -221,17 +213,17 @@ ___
 
 ###  <a name="getcalendarnameasync"></a>getCalendarNameAsync
 
-▸ **GetCalendarNameAsync**(Rückruf: *`function`*):`void`
+▸ **getCalendarNameAsync**(Callback: *`function`*):`void`
 
-Ruft die aktuelle Einstellung der System Calendar ab. Dies ist vor allem für iOS identifiziert den Namen des Kalenders in Telefon Einstellung wie gregorianischen oder Japanisch oder Buddhists festgelegt.
+Ruft die aktuelle Systemkalender Einstellung ab. Dies ist hauptsächlich für iOS, um den in der Telefoneinstellung festgelegten Kalendernamen wie gregorianisches oder japanisches oder Buddhisten zu identifizieren.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Zeichenfolge} @param CalendarName kann bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {string} calendarname kann im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -239,17 +231,17 @@ ___
 
 ###  <a name="getconversationdetailsasync"></a>getConversationDetailsAsync
 
-▸ **GetConversationDetailsAsync**(Rückruf: *`function`*):`void`
+▸ **getConversationDetailsAsync**(Callback: *`function`*):`void`
 
-Ruft Unterhaltung bezogenen Eigenschaften
+Ruft Konversations bezogene Eigenschaften ab.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{KASConversationDetails} @param Ergebniseigenschaften Unterhaltung<br><br>\*{Zeichenfolge} @param Json Fehlerzeichenfolge für das KASError-Objekt, das mit Fehlercode und/oder Beschreibung. |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {KASConversationDetails} Ergebnis Unterhaltung-Eigenschaften<br><br>\*@param {String}-Fehler-JSON-Zeichenfolge für das KASError-Objekt mit Fehlercode und/oder Beschreibung. |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -257,11 +249,11 @@ ___
 
 ###  <a name="getcurrentdevicelocationasync"></a>getCurrentDeviceLocationAsync
 
-▸ **GetCurrentDeviceLocationAsync**(Rückruf: *`function`*):`void`
+▸ **getCurrentDeviceLocationAsync**(Callback: *`function`*):`void`
 
-Ruft den aktuellen Speicherort des Geräts
+Ruft den aktuellen Geräte Speicherort ab.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
  KASClient.App.getCurrentDeviceLocationAsync(function (location, error){
@@ -276,9 +268,9 @@ Ruft den aktuellen Speicherort des Geräts
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Zeichenfolge} @param Speicherort kann bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {string} Speicherort kann im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -286,9 +278,9 @@ ___
 
 ###  <a name="getcurrentlocale"></a>getCurrentLocale
 
-▸ **GetCurrentLocale**():`string`
+▸ **getCurrentLocale**():`string`
 
-**Gibt:**`string`
+**Gibt Folgendes zurück:**`string`
 
 ___
 
@@ -296,17 +288,17 @@ ___
 
 ###  <a name="getdeviceidasync"></a>getDeviceIdAsync
 
-▸ **GetDeviceIdAsync**(Rückruf: *`function`*):`void`
+▸ **getDeviceIdAsync**(Callback: *`function`*):`void`
 
-Ruft die Geräte-ID
+Ruft die Geräte-Nr ab.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*haben Sie @param {Zeichenfolge} Geräte-ID aus Integeration-Dienst<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {string}-Geräte-Nr. vom ganzzahligen Dienst<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -314,17 +306,17 @@ ___
 
 ###  <a name="getdevicelocationasync"></a>getDeviceLocationAsync
 
-▸ **GetDeviceLocationAsync**(Rückruf: *`function`*):`void`
+▸ **getDeviceLocationAsync**(Callback: *`function`*):`void`
 
-Ruft den Ort für die zuvor gespeicherte Geräte ab
+Ruft den Speicherort des zuvor gespeicherten Geräts ab.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Zeichenfolge} @param Speicherort kann bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {string} Speicherort kann im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -332,17 +324,17 @@ ___
 
 ###  <a name="getfontsizemultiplierasync"></a>getFontSizeMultiplierAsync
 
-▸ **GetFontSizeMultiplierAsync**(Rückruf: *`function`*):`void`
+▸ **getFontSizeMultiplierAsync**(Callback: *`function`*):`void`
 
-Ruft die Schriftart Größe Multiplikator für große Text ab. Aktuelle nur von iOS erforderlich.
+Ruft den Schriftgrad Multiplikator für großen Text ab. Current nur für iOS erforderlich.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit unten Params<br><br>\*Multiplikator für @param {Zeichenfolge}<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit unter params<br><br>\*@param {string} Multiplikator<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -350,17 +342,17 @@ ___
 
 ###  <a name="getforwardcontextasync"></a>getForwardContextAsync
 
-▸ **GetForwardContextAsync**(Rückruf: *`function`*):`void`
+▸ **getForwardContextAsync**(Callback: *`function`*):`void`
 
-Ruft vorwärts Kontext Details wie etwa: Karte Erstellung befindet sich im weitergeleitete Modus
+Ruft vorwärts Kontext Details wie: Kartenerstellung befindet sich im weitergeleiteten Modus
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Json} @param gibt die Kontext-Details im Json-Struktur |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {JSON} gibt die Kontext Details in der JSON-Struktur zurück. |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -368,17 +360,17 @@ ___
 
 ###  <a name="getisapptimeformat24hoursasync"></a>getIsAppTimeFormat24HoursAsync
 
-▸ **getIsAppTimeFormat24HoursAsync**(Rückruf: *`function`*):`void`
+▸ **getIsAppTimeFormat24HoursAsync**(Callback: *`function`*):`void`
 
-Dient zum Abrufen des aktuellen app Mal Format 24hours oder nicht ist, das vom Benutzer, für die Formatierung von Datum-Uhrzeit-Zeichenfolgen ordnungsgemäß nützlich ausgewählten Zeitformat
+Ruft das aktuelle App-Zeitformat ist 24 Stunden oder nicht, das vom Benutzer ausgewählte Zeitformat, nützlich für die Formatierung von Datum Zeichenfolgen ordnungsgemäß
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Zeichenfolge} @param isAppTimeFormat24Hours kann bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {string} isAppTimeFormat24Hours kann im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -386,11 +378,11 @@ ___
 
 ###  <a name="getlocalizedstringsasync"></a>getLocalizedStringsAsync
 
-▸ **GetLocalizedStringsAsync**(Rückruf: *`function`*):`void`
+▸ **getLocalizedStringsAsync**(Callback: *`function`*):`void`
 
-Ruft die lokalisierten Zeichenfolgen Wörterbuch basierend auf aktuellen Gebietsschema der app ab. Zeichenfolgen müssen in das Paket mit dem Namen wie bereitgestellt werden: Zeichenfolgen\_en.json, Zeichenfolgen\_hi.json usw..
+Ruft das Wörterbuch der lokalisierten Zeichenfolgen basierend auf dem aktuellen App-Gebietsschema ab. Zeichenfolgen müssen innerhalb des Pakets mit Namen wie: Strings\_en. JSON, Strings\_Hi. JSON usw. angegeben werden.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 KASClient.App.getLocalizedStringsAsync(function (strings, error) {
@@ -405,9 +397,9 @@ KASClient.App.getLocalizedStringsAsync(function (strings, error) {
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{JSON} @param Zeichenfolgen können bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {JSON}-Zeichenfolgen können im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -415,11 +407,11 @@ ___
 
 ###  <a name="getlocationaddressasync"></a>getLocationAddressAsync
 
-▸ **GetLocationAddressAsync**(Params: *[KASLocationAddressParams](../classes/kasclient.kaslocationaddressparams.md)*, Rückruf: *`function`*):`void`
+▸ **getLocationAddressAsync**(params: *[KASLocationAddressParams](../classes/kasclient.kaslocationaddressparams.md)*, Callback: *`function`*):`void`
 
-Get-Adresszeichenfolge für den angegebenen Koordinaten
+Adresszeichenfolge für angegebene Koordinaten abrufen
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 var params = new KASClient.KASLocationAddressParams();
@@ -439,9 +431,9 @@ KASClient.App.getLocationAddressAsync(params,
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
 | params | [KASLocationAddressParams](../classes/kasclient.kaslocationaddressparams.md) |  KASLocationAddressParams |
-| callback | `function` |  Rückruf für Adresse Abruf mit unter params<br><br>\*{JSON} @param Speicherort eine Json mit Latitute Längengrad und andere informaion<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  Callback on Address FETCH with below params<br><br>\*@param {JSON} Speicherort eine JSON mit latitute Längen-und anderen Informaion<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -449,11 +441,11 @@ ___
 
 ###  <a name="getmapimageasbase64async"></a>getMapImageAsBase64Async
 
-▸ **getMapImageAsBase64Async**(Params: *[KASLocationStaticMapImageParams](../classes/kasclient.kaslocationstaticmapimageparams.md)*, Rückruf: *`function`*):`void`
+▸ **getMapImageAsBase64Async**(params: *[KASLocationStaticMapImageParams](../classes/kasclient.kaslocationstaticmapimageparams.md)*, Callback: *`function`*):`void`
 
-Laden Sie die Basis-64 Image der Zuordnung für den angegebenen Koordinaten
+Herunterladen des Basis 64-Bild der Karte für die angegebenen Koordinaten
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 KASClient.App.getMapImageAsBase64Async(params, function (attachmentString, error) {
@@ -469,9 +461,9 @@ KASClient.App.getMapImageAsBase64Async(params, function (attachmentString, error
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
 | params | [KASLocationStaticMapImageParams](../classes/kasclient.kaslocationstaticmapimageparams.md) |  KASLocationStaticMapImageParams |
-| callback | `function` |  nach Abschluss der Download mit unter params<br><br>\*{Zeichenfolge} @param AttachmentString base64-Wert der Anlage<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  beim Herunterladen mit unter params<br><br>\*@param {string} AttachmentType Base64-Wert der Anlage<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -479,17 +471,17 @@ ___
 
 ###  <a name="geto365userdetailsasync"></a>getO365UserDetailsAsync
 
-▸ **getO365UserDetailsAsync**(Rückruf: *`function`*):`void`
+▸ **getO365UserDetailsAsync**(Callback: *`function`*):`void`
 
-Ruft die Details des aktuellen angemeldeten Office 365-Benutzers
+Ruft Details des aktuellen angemeldeten O365-Benutzers ab.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Json} @param gibt die UserDetails im Json-Struktur |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {JSON} gibt die UserDetails in der JSON-Struktur zurück. |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -497,11 +489,11 @@ ___
 
 ###  <a name="getpackagecustomsettingsasync"></a>getPackageCustomSettingsAsync
 
-▸ **GetPackageCustomSettingsAsync**(Rückruf: *`function`*):`void`
+▸ **getPackageCustomSettingsAsync**(Callback: *`function`*):`void`
 
-Ruft die Anpassung der Einstellungen für ein Paket (im Fall eines WAN-Typ-4-Paketen und deren Base Used) ab.
+Ruft alle Anpassungseinstellungen für ein Paket ab (wird bei Type-4-Paketen und deren Basis verwendet).
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 KASClient.App.getPackageCustomSettingsAsync(function (settings, error) {
@@ -516,9 +508,9 @@ KASClient.App.getPackageCustomSettingsAsync(function (settings, error) {
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{JSON} @param Einstellungen können bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {JSON}-Einstellungen können im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -526,11 +518,11 @@ ___
 
 ###  <a name="getusersdetailsasync"></a>getUsersDetailsAsync
 
-▸ **GetUsersDetailsAsync**(Benutzer-IDs: * `string`[]*, Rückruf: *`function`*):`void`
+▸- **getUsersDetailsAsync**(userids: * `string`[]*, Callback *`function`*:):`void`
 
-Ruft den Benutzer Details (Name, Pic, Telefonnummer usw.) vor deren ids
+Ruft Benutzer Details (Name, PIC, Telefonnummer usw.) gegen ihre IDs ab.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 var userIds = ["<uid1>", "<uid2>",...];
@@ -548,10 +540,10 @@ KASClient.App.getUsersDetailsAsync(userIds, function (users, error) {
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| Benutzer-IDs | `string`[] |  Array von Benutzer-ids |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*@param {Dictionary<UserId: string, UserInfo: KASUser>} UserIdToInfoMap (Benutzer Details vor deren Ids) kann bei einem Fehler null sein<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| UserIds | `string`[] |  Array von Benutzer-IDs |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {Dictionary<UserId: String, Infor: KASUser>} userIdToInfoMap (Benutzer Details gegen ihre IDs) können im Fehlerfall NULL sein.<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -559,11 +551,11 @@ ___
 
 ###  <a name="hideprogressbar"></a>hideProgressBar
 
-▸ **HideProgressBar**():`void`
+▸ **hideProgressBar**():`void`
 
-Die aktuellen Statusanzeige ausgeblendet, sofern vorhanden
+Blendet die aktuelle Statusanzeige aus, falls vorhanden.
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -571,11 +563,11 @@ ___
 
 ###  <a name="isattachmentdownloadingasync"></a>isAttachmentDownloadingAsync
 
-▸ **IsAttachmentDownloadingAsync**(Anlage: *[KASAttachment](../classes/kasclient.kasattachment.md)*, Rückruf: *`function`*):`void`
+▸ **isAttachmentDownloadingAsync**(Attachment: *[KASAttachment](../classes/kasclient.kasattachment.md)*, Callback: *`function`*):`void`
 
-Laden Sie das angegebene Attachment-Objekt
+Herunterladen der angegebenen Anlage
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 var attachmentJson = {
@@ -598,10 +590,10 @@ KASClient.App.isAttachmentDownloadingAsync(attachment, function(isAttachmentDown
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| Anlage | [KASAttachment](../classes/kasclient.kasattachment.md) |  Anlage mit einem gültigen Serverpfad zum Herunterladen |
-| callback | `function` |  Rückruf Download nach Abschluss mit unter params<br><br>\*@param {Boolean} IsAttachmentDownloadingOrDownLoaded Kennzeichnung, darstellt, wenn Anlage herunterladen/heruntergeladen wird.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| attachment | [KASAttachment](../classes/kasclient.kasattachment.md) |  Anlage mit einem gültigen Serverpfad zum herunterladen |
+| callback | `function` |  Rückruf beim Herunterladen mit unter params<br><br>\*@param {Boolean} isAttachmentDownloadingOrDownLoaded-Flag, das angibt, ob die Anlage heruntergeladen<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -609,18 +601,18 @@ ___
 
 ###  <a name="isauthenticationtyepsupportedasync"></a>isAuthenticationTyepSupportedAsync
 
-▸ **IsAuthenticationTyepSupportedAsync**(AuthenticationType?: *[KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md)*, Rückruf: *`function`*):`void`
+▸ **isAuthenticationTyepSupportedAsync**(AuthenticationType?: *[KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md)*, Callback: *`function`*):`void`
 
-Überprüft, ob die Authentifizierung des Typs möglich ist.
+Überprüft, ob die Authentifizierung vom Typ möglich ist oder nicht.
 
 **Parameter:**
 
 | Name | Typ | Standardwert | Beschreibung |
 | ------ | ------ | ------ | ------ |
-| `Default value`authenticationType | [KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md) |  KASAuthenticationType.None |  die Art der Authentifizierung. |
-| callback | `function` | - |  mit folgenden Parameter:<br><br>\*@param {Boolean} IsSuccessful true zurück, wenn mit dem Finger Drucken möglich ist.<br><br>\*{Zeichenfolge} @param Ursachencode Grund Code Warum Finger print nicht möglich ist |
+| `Default value`authenticationType | [KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md) |  KASAuthenticationType. None |  Typ der Authentifizierung. |
+| callback | `function` | - |  mit folgenden Parametern:<br><br>\*@param {Boolean} isSuccessable true, wenn Fingerdruck möglich ist<br><br>\*@param {string} reasonCode Reason Code Why Fingerprint is not possible |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -628,17 +620,17 @@ ___
 
 ###  <a name="istalkbackenabledasync"></a>isTalkBackEnabledAsync
 
-▸ **IsTalkBackEnabledAsync**(Rückruf: *`function`*):`void`
+▸ **isTalkBackEnabledAsync**(Callback: *`function`*):`void`
 
-Ruft ab, ob Talkback oder nicht aktiviert ist
+Ruft ab, ob die Kommandofunktion aktiviert ist oder nicht
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Boolean} @param TalkBackEnabled true zurück, wenn Talkback aktiviert ist |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {Boolean} talkBackEnabled true, wenn die Kommandos aktiviert ist |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -646,9 +638,9 @@ ___
 
 ###  <a name="logtoreport"></a>logToReport
 
-▸ **LogToReport**(Daten: *`string`*):`void`
+▸ **logToReport**(Data: *`string`*):`void`
 
-Protokolliert die Daten für "Senden Bericht"
+Protokolliert Daten für "Bericht senden".
 
 **Parameter:**
 
@@ -656,7 +648,7 @@ Protokolliert die Daten für "Senden Bericht"
 | ------ | ------ | ------ |
 | data | `string` |  string |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -664,9 +656,9 @@ ___
 
 ###  <a name="openattachmentimmersiveview"></a>openAttachmentImmersiveView
 
-▸ **OpenAttachmentImmersiveView**(AttachmentObj: *[KASAttachment](../classes/kasclient.kasattachment.md)*):`void`
+▸ **openAttachmentImmersiveView**(AttachmentObj: *[KASAttachment](../classes/kasclient.kasattachment.md)*):`void`
 
-Die Anlage in fesselnden Ansicht öffnen.
+Anlage in immersiver Ansicht öffnen.
 
 **Parameter:**
 
@@ -674,7 +666,7 @@ Die Anlage in fesselnden Ansicht öffnen.
 | ------ | ------ | ------ |
 | attachmentObj | [KASAttachment](../classes/kasclient.kasattachment.md) |   |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -682,18 +674,18 @@ ___
 
 ###  <a name="openimmersiveviewforattachmentlist"></a>openImmersiveViewForAttachmentList
 
-▸ **OpenImmersiveViewForAttachmentList**(AttachmentList: * [KASAttachment](../classes/kasclient.kasattachment.md)[]*, AtIndex?: *`number`*):`void`
+▸ **openImmersiveViewForAttachmentList**(attachmentlist: * [KASAttachment](../classes/kasclient.kasattachment.md)[]*, atIndex?: *`number`*):`void`
 
-Die Anlage in fesselnden Ansicht öffnen.
+Anlage in immersiver Ansicht öffnen.
 
 **Parameter:**
 
 | Name | Typ | Standardwert |
 | ------ | ------ | ------ |
-| attachmentList | [KASAttachment](../classes/kasclient.kasattachment.md) [] | - |
+| attachmentlist | [KASAttachment](../classes/kasclient.kasattachment.md) [] | - |
 | `Default value`atIndex | `number` | 0 |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -701,11 +693,11 @@ ___
 
 ###  <a name="performauthenticationasync"></a>performAuthenticationAsync
 
-▸ **PerformAuthenticationAsync**(AuthenticationType?: *[KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md)*, Rückruf: *`function`*):`void`
+▸ **performAuthenticationAsync**(AuthenticationType?: *[KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md)*, Callback: *`function`*):`void`
 
-Wenn Authentifizierungstyp zulässig ist, wird diese API führt die Authentifizierung und Status Erfolg/False zurückgegeben else gibt eine Fehlerzeichenfolge mit Grund, warum Authentifizierung nicht möglich ist.
+Wenn der Authentifizierungstyp zulässig ist, führt diese API die Authentifizierung durch und gibt Success/false Status else zurück, wobei eine Fehlerzeichenfolge mit der Ursache für die Authentifizierung nicht möglich ist.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 KASClient.App.performAuthenticationAsync(KASAuthenticationType.Password, function (isSuccessful, reasonCode) {
@@ -719,10 +711,10 @@ KASClient.App.performAuthenticationAsync(KASAuthenticationType.Password, functio
 
 | Name | Typ | Standardwert | Beschreibung |
 | ------ | ------ | ------ | ------ |
-| `Default value`authenticationType | [KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md) |  KASAuthenticationType.None |  die Art der Authentifizierung. |
-| callback | `function` | - |  mit folgenden Parameter:<br><br>\*{Boolean} @param IsSuccessful true zurück, wenn das Formular noch nicht abgelaufen ist<br><br>\*{Zeichenfolge} @param Ursachencode Grund Code bei einem Fehler, null, andernfalls |
+| `Default value`authenticationType | [KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md) |  KASAuthenticationType. None |  Typ der Authentifizierung. |
+| callback | `function` | - |  mit folgenden Parametern:<br><br>\*@param {Boolean} isSuccessable true, wenn das Formular noch nicht abgelaufen ist<br><br>\*@param {string} reasonCode-Grund Code im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -730,11 +722,11 @@ ___
 
 ###  <a name="performhttprequest"></a>performHTTPRequest
 
-▸ **PerformHTTPRequest**(Url: *`string`*, ParametersJSON: *`string`*, Rückruf: *`function`*):`void`
+▸ **performHTTPRequest**(URL: *`string`*, parametersJSON: *`string`*, Callback: *`function`*):`void`
 
-führt eine http-Anforderung aus und gibt die Antwort als unten angegeben:
+führt eine HTTP-Anforderung aus und gibt die Antwort wie folgt zurück:
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 var url = "<url>";
@@ -750,11 +742,11 @@ KASClient.App.performHTTPRequest(url, parametersJson, function (response, error)
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| url | `string` |  Basis-Url zum Öffnen |
-| parametersJSON | `string` |  Jsonstring mit Parametern kann als null angegeben werden.<br><br> Wenn Sie als Null wird eine Anforderung an den oben angegebenen Url hergestellt werden. Parameter umfassen Anforderungsheaders, Abfrageparametern (Standard leer), fordern-Methode (GET Standard) und Anforderungstext (der Nachrichtentext gebucht, wenn die Anforderungsmethode POST ist. Standardmäßig leer.) Die Schlüssel für Parameter sind:<br><br> a.) "Methode": request-Methode. Beispiel: "POST". Der Standardwert ist "GET".<br><br> b) "RequestBody": Text der Anforderung im Fall eines WAN-"POST". Der Standardwert ist leer.<br><br> c.) "RequestHeaders": Kopfzeilen mit Anforderung gesendet werden. soll ein Json mit<br> der Schlüssel als Anforderungsheader und den Wert als den gewünschten Wert. Der Standardwert ist leer.<br><br> d.) "QueryParameters": Abfrageparametern. wird in der Url codiert werden. soll ein Json mit<br> der Schlüssel als Parametername und als Wert Value. Der Standardwert ist leer.<br><br> e.) "RequestResourcePath": Basis-Url angefügt werden soll. Standardeinstellung ist leer. |
-| callback | `function` |  Rückruf mit folgenden Parameter:<br><br>\*{Zeichenfolge} @param Antwort Antworttext zurückgegeben<br><br> Dies kann zwei mögliche Config verfügen:<br><br> Wenn die Anforderung erfolgreich war gibt Jsonstring mit folgenden Schlüssel zurück:<br><br> a.) "HttpResponseCode": der Antwortcode der Anforderung.<br><br> b) "HttpResponseHeader": die HTTP-Antwortheader<br><br> c.) "HttpResponseBody": der Antworttext für Anforderung zurückgegeben.<br><br> Wenn es ein Fehler wurde zurückgegeben:<br><br> a.) "Das Format HttpErrorCode": der Fehlercode<br><br> b) "HttpErrorMessage": die Fehlermeldung eg. Fehlerhafte URL ist, kann keine Verbindung zum Hosten von usw. herstellen.<br><br>\*{Zeichenfolge} @param Fehler Fehler, wenn: Dies umfasst den Standardfehler Code KASClient-Dokumentation. |
+| url | `string` |  zu öffnende Basis-URL |
+| parametersJSON | `string` |  JSON String mit Parametern kann als NULL angegeben werden.<br><br> Bei Angabe von NULL wird eine Anforderung an die oben angegebene URL gestellt. Zu den Parametern gehört der Anforderungsheader, die Abfrageparameter (standardmäßig leer), die Request-Methode (Standard Abruf) und der Anforderungstext (der Text, der bereitgestellt wird, wenn die Request-Methode POST ist. Standard leer.) Die Schlüssel für Parameter sind:<br><br> a.) "Methode": Request-Methode. Beispiel: "POST". Standardwert ist "GET".<br><br> b.) "requestBody": Text der Anforderung im Fall von "POST". Standardwert ist leer.<br><br> c.) "requestHeaders": Kopfzeilen, die mit der Anforderung gesendet werden sollen. sollte eine JSON mit<br> Schlüssel als Anforderungsheader und-Wert als den gewünschten Wert. Standardwert ist leer.<br><br> d.) "queryParameters": Abfrageparameter. wird in der URL codiert. sollte eine JSON mit<br> Schlüssel als Parameter Name und Wert als Wert. Standardwert ist leer.<br><br> e.) "requestResourcePath": wird der Basis-URL angefügt. der Standardwert ist leer. |
+| callback | `function` |  Callback mit folgenden Parametern:<br><br>\*@param {string} Antworttext zurückgegeben<br><br> Dies kann zwei mögliche Konfigurationsmöglichkeiten haben:<br><br> Wenn die Anforderung erfolgreich war, wird JSON mit den folgenden Schlüsseln zurückgegeben:<br><br> a.) "HttpResponseCode": der Antwortcode der Anforderung.<br><br> b.) "HttpResponseHeader": die Antwort-HTTP-Header<br><br> c.) "HttpResponseBody": der für die Anforderung zurückgegebene Antworttext.<br><br> Wenn ein Netzwerkfehler vorliegt, wird Folgendes zurückgegeben:<br><br> a.) "HttpErrorCode": der Fehlercode<br><br> b.) "HttpErrorMessage": die Fehlermeldung EG. Ungültige URL, keine Verbindung zum Host etc.<br><br>\*@param {string} Error Error if any: Dies umfasst den standardmäßigen Fehlercode, der in der KASClient-Dokumentation definiert ist. |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -762,7 +754,7 @@ ___
 
 ###  <a name="printf"></a>printf
 
-▸ **Printf**(Hauptfenster: *`string`*,... Args: * `any`[]*):`string`
+▸ **printf**(Main: *`string`*,... args: * `any`[]*):`string`
 
 Gibt eine Zeichenfolge zurück.
 
@@ -770,10 +762,10 @@ Gibt eine Zeichenfolge zurück.
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| Hauptfenster | `string` |
+| Haupt | `string` |
 | `Rest`args | `any`[] |  Array von Argumenten. |
 
-**Gibt:**`string`
+**Gibt Folgendes zurück:**`string`
 
 ___
 
@@ -781,9 +773,9 @@ ___
 
 ###  <a name="readtalkbackmessage"></a>readTalkBackMessage
 
-▸ **ReadTalkBackMessage**(TalkBackMessage: *`string`*):`void`
+▸ **readTalkBackMessage**(talkBackMessage: *`string`*):`void`
 
-Liest den Text, wenn TalkBack/VoiceOver aktiviert
+Liest den Text, wenn die Kommandozeile/VoiceOver aktiviert ist.
 
 **Parameter:**
 
@@ -791,7 +783,7 @@ Liest den Text, wenn TalkBack/VoiceOver aktiviert
 | ------ | ------ |
 | talkBackMessage | `string` |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -799,17 +791,17 @@ ___
 
 ###  <a name="registerhardwarebackpresscallback"></a>registerHardwareBackPressCallback
 
-▸ **RegisterHardwareBackPressCallback**(Callback?: *`function`*):`void`
+▸ **registerHardwareBackPressCallback**(callback?: *`function`*):`void`
 
-Registriert einen Rückruf in Hardware drücken Sie die zurück-Schaltfläche (für Android) ausgeführt werden
+Registriert einen Rückruf, der auf Hardware-Schaltflächen drücken (für Android) ausgeführt werden soll
 
 **Parameter:**
 
 | Name | Typ | Standardwert | Beschreibung |
 | ------ | ------ | ------ | ------ |
-| `Default value`Rückruf | `function` |  null |  Methode ausführen |
+| `Default value`Rückruf | `function` |  null |  auszuführende Methode |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -817,11 +809,11 @@ ___
 
 ###  <a name="setnativetoolbarproperties"></a>setNativeToolbarProperties
 
-▸ **SetNativeToolbarProperties**(Eigenschaften: *[KASNativeToolbarProperties](../classes/kasclient.kasnativetoolbarproperties.md)*):`void`
+▸ **setNativeToolbarProperties**(Properties: *[KASNativeToolbarProperties](../classes/kasclient.kasnativetoolbarproperties.md)*):`void`
 
-Einige Eigenschaften festgelegt, wenn Sie mithilfe von systemeigenen Symbolleiste
+Legt wenige Eigenschaften fest, wenn die systemeigene Symbolleiste verwendet wird
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 var nativeToolbarProps = new KASClient.KASNativeToolbarProperties();
@@ -837,7 +829,7 @@ KASClient.App.setNativeToolbarProperties(nativeToolbarProps);
 | ------ | ------ | ------ |
 | properties | [KASNativeToolbarProperties](../classes/kasclient.kasnativetoolbarproperties.md) |   |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -845,15 +837,15 @@ ___
 
 ###  <a name="setuserstrings"></a>setUserStrings
 
-▸ **SetUserStrings**(Strings?: *`JSON`*):`void`
+▸ **setUserStrings**(strings?: *`JSON`*):`void`
 
 **Parameter:**
 
 | Name | Typ | Standardwert |
 | ------ | ------ | ------ |
-| `Default value`Zeichenfolgen | `JSON` |  null |
+| `Default value`Strings | `JSON` |  null |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -861,11 +853,11 @@ ___
 
 ###  <a name="showattachmentpickerasync"></a>showAttachmentPickerAsync
 
-▸ **ShowAttachmentPickerAsync**(SupportedTypes: * [KASAttachmentType](../enums/kasclient.kasattachmenttype.md)[]*, Eigenschaften: *`JSON`*, Rückruf: *`function`*):`void`
+▸ **showAttachmentPickerAsync**(SupportedTypes: * [KASAttachmentType](../enums/kasclient.kasattachmenttype.md)[]*, Props *`JSON`*:, Callback *`function`*:):`void`
 
-Zeigt eine Anlage Personenauswahl in der systemeigenen Ebene
+Zeigt eine Anlagenauswahl in der systemeigenen Ebene an.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 var attachmentsTypesToShow = [];
@@ -891,11 +883,11 @@ KASClient.App.showAttachmentPickerAsync(attachmentsTypesToShow, null, function (
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| supportedTypes | [KASAttachmentType](../enums/kasclient.kasattachmenttype.md) [] |  Array von Anlagen in unterstützten Typen der Auswahl. |
-| Eigenschaften | `JSON` |  zusätzliche Eigenschaften zum Konfigurieren der Personenauswahl |
-| callback | `function` |  mit folgenden Parametern<br><br>\*@param {KASAttachment\[\]} SelectedAttachments Zeichenfolge des ausgewählten Anlagen<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| supportedTypes | [KASAttachmentType](../enums/kasclient.kasattachmenttype.md) [] |  Array unterstützter Anlagentypen für die Auswahl. |
+| Eigenschaften | `JSON` |  zusätzliche Requisiten zum Konfigurieren der Auswahl |
+| callback | `function` |  mit den folgenden Parametern<br><br>\*@param {KASAttachment\[\]} selectedAttachments-zeichenfolge ausgewählter anlagen<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -903,17 +895,17 @@ ___
 
 ###  <a name="showbarcodescannerasync"></a>showBarcodeScannerAsync
 
-▸ **ShowBarcodeScannerAsync**(Rückruf: *`function`*):`void`
+▸ **showBarcodeScannerAsync**(Callback: *`function`*):`void`
 
-Startet den Barcode Scanner und gibt das Objekt überprüften zurück
+Starten des Barcodescanners und Zurückgeben des gescannten Objekts
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Zeichenfolge} @param BarcodeInfo kann bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {string} barcodeInfo kann im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -921,22 +913,22 @@ ___
 
 ###  <a name="showcontactpickerasync"></a>showContactPickerAsync
 
-▸ **ShowContactPickerAsync**(Titel: *`string`*, SelectedMutableUser: * `string`[]*, SelectedImmutableUser: * `string`[]*, IsSingleSelection: *`boolean`*, Rückruf: *`function`*):`void`
+▸ **showContactPickerAsync**(Title: *`string`*, selectedMutableUser: * `string`[]*, selectedImmutableUser: * `string`[]*, isSingleSelection: *`boolean`*, Callback: *`function`*):`void`
 
-Zeigt eine systemeigene kontaktauswahlfunktion und gibt ein Array von Details für alle ausgewählten Benutzer
+Zeigt eine systemeigene Kontaktauswahl an und gibt ein Array mit allen Details der ausgewählten Benutzer zurück.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| title | `string` |  der Kontaktauswahlfunktion |
-| selectedMutableUser | `string`[] |  Array von ausgewählten Benutzer-IDs |
-| selectedImmutableUser | `string`[] |  Array mit fester ausgewählten Benutzer-IDs |
-| isSingleSelection | `boolean` |  Einfachauswahl in Kontakt Personenauswahl |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*@param {KASUser\[\]} SelectedUsers (Array von Benutzerdetails) kann bei einem Fehler null sein<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| title | `string` |  der Kontaktauswahl |
+| selectedMutableUser | `string`[] |  Array ausgewählter Benutzer-IDs |
+| selectedImmutableUser | `string`[] |  Array fester ausgewählter Benutzer-IDs |
+| isSingleSelection | `boolean` |  einzelne Auswahl in der Kontaktauswahl |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {KASUser\[\]} selectedUsers (array von benutzer details) kann im fehlerfall null sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:** `void` Array von alle ausgewählten Benutzer Details (Array von JSON)
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+**Gibt Folgendes zurück:** `void` Array aller Details der ausgewählten Benutzer (Array von JSON)
+#### <a name="sample-usage"></a>Beispiel Verwendung
 ```
 var alreadySelectedUserIds = [];
 KASClient.App.showContactPickerAsync("<picker title>", alreadySelectedUserIds, [], true, function (selectedUsers, error) {
@@ -953,18 +945,18 @@ ___
 
 ###  <a name="showdurationpickerasync"></a>showDurationPickerAsync
 
-▸ **ShowDurationPickerAsync**(DefaultDurationInMinutes: *`number`*, Rückruf: *`function`*):`void`
+▸ **showDurationPickerAsync**(defaultDurationInMinutes: *`number`*, Callback: *`function`*):`void`
 
-Zeigt eine systemeigene Dauer Personenauswahl mit Tag, Stunde, minute
+Zeigt eine systemeigene Dauer Auswahl mit Tag/Stunde/Minute an.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| defaultDurationInMinutes | `number` |  die standardmäßige Dauer auf Personenauswahl angezeigt werden |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Anzahl} @param DurationInMinutes ausgewählt Dauer in Minuten<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| defaultDurationInMinutes | `number` |  die Standarddauer, die bei der Auswahl angezeigt werden soll. |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {Zahl} durationInMinutes ausgewählte Dauer in Minuten<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -972,11 +964,11 @@ ___
 
 ###  <a name="showimageimmersiveview"></a>showImageImmersiveView
 
-▸ **ShowImageImmersiveView**(Urls?: * `string`[]*, CurrentImageIndex?: *`number`*):`void`
+▸ **showImageImmersiveView**(urls?: * `string`[]*, currentImageIndex?: *`number`*):`void`
 
-Bild in fesselnden Ansicht zeigt.
+Zeigt das Bild in der immersiven Ansicht an.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 var urlArray = ["path1", "path2"];
@@ -987,10 +979,10 @@ KASClient.App.showImageImmersiveView(urlArray);
 
 | Name | Typ | Standardwert | Beschreibung |
 | ------ | ------ | ------ | ------ |
-| `Default value`URLs | `string`[] |  [] |  Array von Bildern Url: |
+| `Default value`URLs | `string`[] |  [] |  Array der Bild-URL: |
 | `Default value`currentImageIndex | `number` | 0 |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -998,17 +990,17 @@ ___
 
 ###  <a name="showimagepickerasync"></a>showImagePickerAsync
 
-▸ **ShowImagePickerAsync**(Rückruf: *`function`*):`void`
+▸ **showImagePickerAsync**(Callback: *`function`*):`void`
 
-Zeigt eine systemeigene Bildauswahl und gibt den Pfad des ausgewählten Bildes
+Zeigt eine systemeigene Bildauswahl an und gibt den ausgewählten Bild Pfad zurück.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Zeichenfolge} @param SelectedImagePath kann bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {string} selectedImagePath kann im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:** `void` Bildspeicherort ausgewählt
+**Gibt Folgendes zurück:** `void` Ausgewählte Bildposition
 
 ___
 
@@ -1016,9 +1008,9 @@ ___
 
 ###  <a name="showlocationonmap"></a>showLocationOnMap
 
-▸ **ShowLocationOnMap**(Speicherort: *[KASLocation](../classes/kasclient.kaslocation.md)*):`void`
+▸ **showLocationOnMap**(Location: *[KASLocation](../classes/kasclient.kaslocation.md)*):`void`
 
-Zeigt einen bestimmten Standort wie unter KASLocation
+zeigt einen bestimmten Speicherort an, wie in KASLocation
 
 **Parameter:**
 
@@ -1026,7 +1018,7 @@ Zeigt einen bestimmten Standort wie unter KASLocation
 | ------ | ------ | ------ |
 | location | [KASLocation](../classes/kasclient.kaslocation.md) |   |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -1034,9 +1026,9 @@ ___
 
 ###  <a name="shownativeerrormessage"></a>showNativeErrorMessage
 
-▸ **ShowNativeErrorMessage**(Nachricht: *`string`*):`void`
+▸ **showNativeErrorMessage**(Message: *`string`*):`void`
 
-Zeigt eine systemeigene Warnung (für iOS) oder ein Toast (für Android) mit der Meldung
+Zeigt eine systemeigene Warnung (für iOS) oder einen Toast (für Android) mit der Nachricht
 
 **Parameter:**
 
@@ -1044,7 +1036,7 @@ Zeigt eine systemeigene Warnung (für iOS) oder ein Toast (für Android) mit der
 | ------ | ------ | ------ |
 | message | `string` |   |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -1052,17 +1044,17 @@ ___
 
 ###  <a name="showplacepickerasync"></a>showPlacePickerAsync
 
-▸ **ShowPlacePickerAsync**(Rückruf: *`function`*):`void`
+▸ **showPlacePickerAsync**(Callback: *`function`*):`void`
 
-Zeigt eine systemeigene Place Personenauswahl und gibt die ausgewählte Stelle (Lt, Lg, n)
+Zeigt eine systemeigene Ortsauswahl an und gibt die ausgewählte Stelle zurück (lt, LG, n)
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{KASLocation} @param SelectedLocation kann bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {KASLocation} selectedLocation kann im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -1070,9 +1062,9 @@ ___
 
 ###  <a name="showprogressbar"></a>showProgressBar
 
-▸ **ShowProgressBar**(Text: *`string`*):`void`
+▸ **showProgressBar**(Text: *`string`*):`void`
 
-Zeigt eine systemeigene vollständige Sreen Statusanzeige mit dem angegebenen text
+Zeigt eine systemeigene vollständige Sreen-Statusanzeige mit dem angegebenen Text an.
 
 **Parameter:**
 
@@ -1080,7 +1072,7 @@ Zeigt eine systemeigene vollständige Sreen Statusanzeige mit dem angegebenen te
 | ------ | ------ | ------ |
 | text | `string` |   |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -1088,17 +1080,17 @@ ___
 
 ###  <a name="showqrcodescannerasync"></a>showQRcodeScannerAsync
 
-▸ **ShowQRcodeScannerAsync**(Rückruf: *`function`*):`void`
+▸ **showQRcodeScannerAsync**(Callback: *`function`*):`void`
 
-Startet den QR Code Scanner und gibt das Objekt überprüften zurück
+Startet den QR-Code Scanner und gibt das gescannte Objekt zurück.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Zeichenfolge} @param QrCodeInfo kann bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {string} qrCodeInfo kann im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -1106,19 +1098,19 @@ ___
 
 ###  <a name="showuserprofileasync"></a>showUserProfileAsync
 
-▸ **ShowUserProfileAsync**(Benutzer-ID: *`string`*, IsMiniProfile: *`boolean`*, Rückruf: *`function`*):`void`
+▸ **showUserProfileAsync**(UserID: *`string`*, isMiniProfile: *`boolean`*, Callback: *`function`*):`void`
 
-Zeigt Profil Seite/Details eines Benutzers
+Zeigt die Profilseite/Details eines Benutzers
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
 | userId | `string` |  des Benutzers, dessen Profil angezeigt werden soll |
-| isMiniProfile | `boolean` |  ob Mini Profil ersten angezeigt |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Boolean} @param Erfolg true, wenn der Vorgang erfolgreich war, False andernfalls<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| isMiniProfile | `boolean` |  ob das Miniprofil zuerst angezeigt werden soll |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {Boolean} Erfolg true, wenn erfolgreich, andernfalls false<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -1126,18 +1118,18 @@ ___
 
 ###  <a name="startchatasync"></a>startChatAsync
 
-▸ **StartChatAsync**(Benutzer-ID: *`string`*, Rückruf: *`function`*):`void`
+▸ **startChatAsync**(UserID: *`string`*, Callback: *`function`*):`void`
 
-Startet Chat mit einem Benutzer
+Startet den Chat mit einem Benutzer
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
 | userId | `string` |  des Benutzers |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Boolean} @param Erfolg<br><br>\*{Zeichenfolge} @param Fehler |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {Boolean} Erfolg<br><br>\*@param {String}-Fehler |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 

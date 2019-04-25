@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 35a77307e603499ebf73881ff861b61cb7d41e76
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728097"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormFlatSummary](../classes/kasclient.kasformflatsummary.md)
 
 # <a name="class-kasformflatsummary"></a>Klasse: KASFormFlatSummary
@@ -38,9 +30,9 @@ ms.locfileid: "28728097"
 
 ###  <a name="conversationid"></a>conversationId
 
-**● ConversationId**: *`string`* = ""
+**● Konversations**- *`string`* Nr.: = ""
 
-Die Id des zugeordneten Unterhaltung sollte nicht geändert werden
+Die ID der zugeordneten Unterhaltung sollte nicht geändert werden.
 
 ___
 
@@ -48,9 +40,9 @@ ___
 
 ###  <a name="formid"></a>formId
 
-**● FormId**: *`string`* = ""
+**● Formular**-Nr *`string`* .: = ""
 
-Die Id des dem Formular zugeordneten sollte nicht geändert werden
+Die ID des zugeordneten Formulars sollte nicht geändert werden.
 
 ___
 
@@ -58,7 +50,7 @@ ___
 
 ###  <a name="json"></a>json
 
-**● Json**:*`JSON`*
+**● JSON**:*`JSON`*
 
 ___
 
@@ -68,11 +60,11 @@ ___
 
 ###  <a name="getallresponses"></a>getAllResponses
 
-▸ **GetAllResponses**():`__type`
+▸ **getAllResponses**():`__type`
 
-Dient zum Abrufen aller Antworten aller Benutzer
+Ruft alle Antworten aller Benutzer ab.
 
-**Gibt:**`__type`
+**Gibt Folgendes zurück:**`__type`
 
 ___
 
@@ -80,18 +72,18 @@ ___
 
 ###  <a name="getquestionresponsesforuserid"></a>getQuestionResponsesForUserId
 
-▸ **GetQuestionResponsesForUserId**(Benutzer-ID: *`string`*, QuestionId: *`number`*): `string`]
+▸ **getQuestionResponsesForUserId**(UserID: *`string`*, questionable: *`number`*): `string`[]
 
-Dient zum Abrufen aller Antworten eines Benutzers für eine bestimmte Frage
+Ruft alle Antworten eines Benutzers für eine bestimmte Frage ab.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| userId | `string` |  Die eindeutige Id des Benutzers |
-| questionId | `number` |  die Id der Frage |
+| userId | `string` |  die eindeutige ID des Benutzers |
+| Frag-Nr. | `number` |  die ID der Frage |
 
-**Gibt:** `string`Liste aller Antworten für die Frage vom Benutzer angegebener]
+**Gibt Folgendes zurück:** `string`[] Liste aller Antworten, die der Benutzer für diese Frage erteilt hat
 
 ___
 
@@ -99,11 +91,11 @@ ___
 
 ###  <a name="getrespondeduserids"></a>getRespondedUserIds
 
-▸ **GetRespondedUserIds**(): `string`]
+▸ **getRespondedUserIds**(): `string`[]
 
-Ruft die Benutzer-Ids, die auf dem Formular reagiert
+Ruft alle Benutzer-IDs ab, die auf das Formular geantwortet haben.
 
-**Gibt:** `string`[] Liste mit allen geantwortet haben Benutzer-Ids
+**Gibt Folgendes zurück:** `string`[] Liste aller geantwortten Benutzer-IDs
 
 ___
 
@@ -111,17 +103,17 @@ ___
 
 ###  <a name="getresponsesforuserid"></a>getResponsesForUserId
 
-▸ **GetResponsesForUserId**(Benutzer-ID: *`string`*):`__type`
+▸ **getResponsesForUserId**(UserID: *`string`*):`__type`
 
-Dient zum Abrufen aller Antworten eines Benutzers zu einem Formular
+Ruft alle Antworten eines Benutzers auf ein Formular ab.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| userId | `string` |  Die eindeutige Id des Benutzers |
+| userId | `string` |  die eindeutige ID des Benutzers |
 
-**Gibt:** `__type` Frage-Id an, die Liste der Antworten
+**Gibt Folgendes zurück:** `__type` Frage-ID zur Liste der Antworten
 
 ___
 
@@ -129,11 +121,11 @@ ___
 
 ###  <a name="gettotalresponsecount"></a>getTotalResponseCount
 
-▸ **GetTotalResponseCount**():`number`
+▸ **getTotalResponseCount**():`number`
 
-Ruft alle Antworten von allen Benutzern Anzahl
+Ruft die Anzahl aller Antworten aller Benutzer ab.
 
-**Gibt:** `number` Anzahl aller Antworten
+**Gibt Folgendes zurück:** `number` Anzahl aller Antworten
 
 ___
 
@@ -141,16 +133,16 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*, IsResponseAppended: *`boolean`*): [KASFormFlatSummary](kasclient.kasformflatsummary.md)
+▸ **fromJSON**(Object: *`any`*, isResponseAppended: *`boolean`*): [KASFormFlatSummary](kasclient.kasformflatsummary.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 | isResponseAppended | `boolean` |
 
-**Gibt:** [KASFormFlatSummary](kasclient.kasformflatsummary.md)
+**Gibt Folgendes zurück:** [KASFormFlatSummary](kasclient.kasformflatsummary.md)
 
 ___
 

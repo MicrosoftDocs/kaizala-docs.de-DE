@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: f9866ba870c065df049ffcde8b36feac23a3b3d0
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728091"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASLocation](../classes/kasclient.kaslocation.md)
 
 # <a name="class-kaslocation"></a>Klasse: KASLocation
@@ -21,7 +13,7 @@ ms.locfileid: "28728091"
 * [latitude](kasclient.kaslocation.md#latitude)
 * [longitude](kasclient.kaslocation.md#longitude)
 * [placeAddress](kasclient.kaslocation.md#placeaddress)
-* [placeName](kasclient.kaslocation.md#placename)
+* [Ortsname](kasclient.kaslocation.md#placename)
 ### <a name="methods"></a>Methoden
 
 * [toJSON](kasclient.kaslocation.md#tojson)
@@ -35,9 +27,9 @@ ms.locfileid: "28728091"
 
 ###  <a name="latitude"></a>latitude
 
-**● Breitengrad**: *`number`* = 0
+**● Latitude**: *`number`* = 0
 
-Breite des Speicherorts
+Breitengrad des Standorts
 
 ___
 
@@ -45,9 +37,9 @@ ___
 
 ###  <a name="longitude"></a>longitude
 
-**● Längengrad**: *`number`* = 0
+**● Länge**: *`number`* = 0
 
-Länge des Speicherorts
+Länge des Standorts
 
 ___
 
@@ -55,19 +47,19 @@ ___
 
 ###  <a name="placeaddress"></a>placeAddress
 
-**● PlaceAddress**: *`string`* = ""
+**● placeAddress**: *`string`* = ""
 
-Adresse des Speicherorts
+Adresse des Standorts
 
 ___
 
 <a id="placename"></a>
 
-###  <a name="placename"></a>placeName
+###  <a name="placename"></a>Ortsname
 
-**● PlaceName**: *`string`* = ""
+**● Ortsname**: *`string`* = ""
 
-Name des Speicherorts
+Name des Standorts
 
 ___
 
@@ -77,9 +69,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -87,15 +79,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`JSON`*): [KASLocation](kasclient.kaslocation.md)
+▸ **fromJSON**(Object: *`JSON`*): [KASLocation](kasclient.kaslocation.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `JSON` |
+| Objekt | `JSON` |
 
-**Gibt:** [KASLocation](kasclient.kaslocation.md)
+**Gibt Folgendes zurück:** [KASLocation](kasclient.kaslocation.md)
 
 ___
 

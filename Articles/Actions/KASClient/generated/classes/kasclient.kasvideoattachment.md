@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 7cdf9928a0c6bc5312d2a29a31190b9374664d09
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728060"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASVideoAttachment](../classes/kasclient.kasvideoattachment.md)
 
 # <a name="class-kasvideoattachment"></a>Klasse: KASVideoAttachment
@@ -26,7 +18,7 @@ ms.locfileid: "28728060"
 * [hasSetThumbnail](kasclient.kasvideoattachment.md#hassetthumbnail)
 * [localPath](kasclient.kasvideoattachment.md#localpath)
 * [requireHighResThumbnail](kasclient.kasvideoattachment.md#requirehighresthumbnail)
-* [serverPath](kasclient.kasvideoattachment.md#serverpath)
+* [Direktive ServerPath existiert](kasclient.kasvideoattachment.md#serverpath)
 * [size](kasclient.kasvideoattachment.md#size)
 * [streamingPath](kasclient.kasvideoattachment.md#streamingpath)
 * [thumbnail](kasclient.kasvideoattachment.md#thumbnail)
@@ -47,7 +39,7 @@ ms.locfileid: "28728060"
 
 ###  <a name="attachmentid"></a>attachmentId
 
-**● AttachmentId**: *`string`* = ""
+**● Attachment**-Nr *`string`* .: = ""
 
 ___
 
@@ -63,7 +55,7 @@ ___
 
 ###  <a name="filename"></a>fileName
 
-**● FileName**: *`string`* = ""
+**● filename**: *`string`* = ""
 
 ___
 
@@ -71,7 +63,7 @@ ___
 
 ###  <a name="hassetthumbnail"></a>hasSetThumbnail
 
-**● HasSetThumbnail**: *`boolean`* = False
+**● hasSetThumbnail**: *`boolean`* = false
 
 ___
 
@@ -87,15 +79,15 @@ ___
 
 ###  <a name="requirehighresthumbnail"></a>requireHighResThumbnail
 
-**● RequireHighResThumbnail**: *`boolean`* = False
+**● requireHighResThumbnail**: *`boolean`* = false
 
 ___
 
 <a id="serverpath"></a>
 
-###  <a name="serverpath"></a>serverPath
+###  <a name="serverpath"></a>Direktive ServerPath existiert
 
-**● ServerPath**: *`string`* = ""
+**● Direktive ServerPath existiert**: *`string`* = ""
 
 ___
 
@@ -111,7 +103,7 @@ ___
 
 ###  <a name="streamingpath"></a>streamingPath
 
-**● StreamingPath**: *`string`* = ""
+**● streamingPath**: *`string`* = ""
 
 ___
 
@@ -125,9 +117,9 @@ ___
 
 <a id="type"></a>
 
-###  <a name="type"></a>type
+###  <a name="type"></a>Typ
 
-**● Typ**: *[KASAttachmentType](../enums/kasclient.kasattachmenttype.md)* = KASAttachmentType.Image
+**● Typ**: *[KASAttachmentType](../enums/kasclient.kasattachmenttype.md)* = KASAttachmentType. Image
 
 ___
 
@@ -137,9 +129,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -147,15 +139,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*): [KASAttachment](kasclient.kasattachment.md)
+▸ **fromJSON**(Object: *`any`*): [KASAttachment](kasclient.kasattachment.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 
-**Gibt:** [KASAttachment](kasclient.kasattachment.md)
+**Gibt Folgendes zurück:** [KASAttachment](kasclient.kasattachment.md)
 
 ___
 
@@ -163,7 +155,7 @@ ___
 
 ### <a name="static-haslocalpath"></a>`<Static>`hasLocalPath
 
-▸ **HasLocalPath**(Obj: *[KASAttachment](kasclient.kasattachment.md)*):`boolean`
+▸ **hasLocalPath**(obj: *[KASAttachment](kasclient.kasattachment.md)*):`boolean`
 
 **Parameter:**
 
@@ -171,7 +163,7 @@ ___
 | ------ | ------ |
 | obj | [KASAttachment](kasclient.kasattachment.md) |
 
-**Gibt:**`boolean`
+**Gibt Folgendes zurück:**`boolean`
 
 ___
 
@@ -179,7 +171,7 @@ ___
 
 ### <a name="static-hasserverpath"></a>`<Static>`hasServerPath
 
-▸ **HasServerPath**(Obj: *[KASAttachment](kasclient.kasattachment.md)*):`boolean`
+▸ **hasServerPath**(obj: *[KASAttachment](kasclient.kasattachment.md)*):`boolean`
 
 **Parameter:**
 
@@ -187,7 +179,7 @@ ___
 | ------ | ------ |
 | obj | [KASAttachment](kasclient.kasattachment.md) |
 
-**Gibt:**`boolean`
+**Gibt Folgendes zurück:**`boolean`
 
 ___
 
@@ -195,16 +187,16 @@ ___
 
 ### <a name="static-populatemodelfromjson"></a>`<Static>`populateModelFromJSON
 
-▸ **PopulateModelFromJSON**(Anlage: *[KASVideoAttachment](kasclient.kasvideoattachment.md)*, Object: *`JSON`*):`void`
+▸ **populateModelFromJSON**(Attachment: *[KASVideoAttachment](kasclient.kasvideoattachment.md)*, Object: *`JSON`*):`void`
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| Anlage | [KASVideoAttachment](kasclient.kasvideoattachment.md) |
-| object | `JSON` |
+| attachment | [KASVideoAttachment](kasclient.kasvideoattachment.md) |
+| Objekt | `JSON` |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 

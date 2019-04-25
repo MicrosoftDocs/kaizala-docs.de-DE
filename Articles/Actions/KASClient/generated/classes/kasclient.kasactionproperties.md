@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: cd335f73c77cce6c08b45b04ed2f729a9e87d507
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728087"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASActionProperties](../classes/kasclient.kasactionproperties.md)
 
 # <a name="class-kasactionproperties"></a>Klasse: KASActionProperties
@@ -35,7 +27,7 @@ ms.locfileid: "28728087"
 
 ###  <a name="actionid"></a>actionId
 
-**● ActionId**: *`string`* = ""
+**● Action**-Nr *`string`* .: = ""
 
 ___
 
@@ -43,7 +35,7 @@ ___
 
 ###  <a name="actionpackageid"></a>actionPackageId
 
-**● ActionPackageId**: *`string`* = ""
+**● actionPackageId**: *`string`* = ""
 
 ___
 
@@ -51,7 +43,7 @@ ___
 
 ###  <a name="actionpropertytype"></a>actionPropertyType
 
-**● ActionPropertyType**: *[KASActionPropertyType](../enums/kasclient.kasactionpropertytype.md)* = KASActionPropertyType.Local
+**● actionPropertyType**: *[KASActionPropertyType](../enums/kasclient.kasactionpropertytype.md)* = KASActionPropertyType. local
 
 ___
 
@@ -59,7 +51,7 @@ ___
 
 ###  <a name="json"></a>json
 
-**● Json**:*`JSON`*
+**● JSON**:*`JSON`*
 
 ___
 
@@ -77,15 +69,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`JSON`*): [KASActionProperties](kasclient.kasactionproperties.md)
+▸ **fromJSON**(Object: *`JSON`*): [KASActionProperties](kasclient.kasactionproperties.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `JSON` |
+| Objekt | `JSON` |
 
-**Gibt:** [KASActionProperties](kasclient.kasactionproperties.md)
+**Gibt Folgendes zurück:** [KASActionProperties](kasclient.kasactionproperties.md)
 
 ___
 

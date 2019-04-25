@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 1e51f3aa34eb9a0a229cae1d4fd25be002447a1e
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728090"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASQuestionResult](../classes/kasclient.kasquestionresult.md)
 
 # <a name="class-kasquestionresult"></a>Klasse: KASQuestionResult
@@ -24,9 +16,9 @@ ms.locfileid: "28728090"
 
 ### <a name="properties"></a>Eigenschaften
 
-* [questionId](kasclient.kasquestionresult.md#questionid)
+* [Frag-Nr.](kasclient.kasquestionresult.md#questionid)
 * [questionTitle](kasclient.kasquestionresult.md#questiontitle)
-* [questionType](kasclient.kasquestionresult.md#questiontype)
+* [questiontype](kasclient.kasquestionresult.md#questiontype)
 ### <a name="methods"></a>Methoden
 
 * [fromJSON](kasclient.kasquestionresult.md#fromjson)
@@ -37,9 +29,9 @@ ms.locfileid: "28728090"
 
 <a id="questionid"></a>
 
-###  <a name="questionid"></a>questionId
+###  <a name="questionid"></a>Frag-Nr.
 
-**● QuestionId**: *`number`* = 0
+**● Frage**-Nr *`number`* .: = 0
 
 Index der Frage
 
@@ -49,17 +41,17 @@ ___
 
 ###  <a name="questiontitle"></a>questionTitle
 
-**● QuestionTitle**: *`string`* = ""
+**● questionTitle**: *`string`* = ""
 
-Titel der Frage
+Der Titel der Frage
 
 ___
 
 <a id="questiontype"></a>
 
-###  <a name="questiontype"></a>questionType
+###  <a name="questiontype"></a>questiontype
 
-**● QuestionType**: *[KASQuestionType](../enums/kasclient.kasquestiontype.md)* = KASQuestionType.None
+**● questiontype**: *[KASQuestionType](../enums/kasclient.kasquestiontype.md)* = KASQuestionType. None
 
 Typ der Frage
 
@@ -71,15 +63,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*): [KASQuestionResult](kasclient.kasquestionresult.md)
+▸ **fromJSON**(Object: *`any`*): [KASQuestionResult](kasclient.kasquestionresult.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 
-**Gibt:** [KASQuestionResult](kasclient.kasquestionresult.md)
+**Gibt Folgendes zurück:** [KASQuestionResult](kasclient.kasquestionresult.md)
 
 ___
 

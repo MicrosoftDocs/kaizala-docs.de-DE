@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 6c9a5adf289fa914f81afb5624430731a164c95a
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728095"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md)
 
 # <a name="enumeration-kasauthenticationtype"></a>Enumeration: KASAuthenticationType
@@ -19,7 +11,7 @@ ms.locfileid: "28728095"
 * [None](kasclient.kasauthenticationtype.md#none)
 * [Password](kasclient.kasauthenticationtype.md#password)
 * [Pattern](kasclient.kasauthenticationtype.md#pattern)
-* [PIN-Nummer](kasclient.kasauthenticationtype.md#pin)
+* [PIN](kasclient.kasauthenticationtype.md#pin)
 
 ---
 
@@ -43,7 +35,7 @@ ___
 
 <a id="none"></a>
 
-###  <a name="none"></a>Keines
+###  <a name="none"></a>Keine
 
 **None**: =-1
 
@@ -59,7 +51,7 @@ ___
 
 <a id="pattern"></a>
 
-###  <a name="pattern"></a>Pattern
+###  <a name="pattern"></a>Muster
 
 **Muster**: = 1
 
@@ -67,9 +59,9 @@ ___
 
 <a id="pin"></a>
 
-###  <a name="pin"></a>PIN-Nummer
+###  <a name="pin"></a>PIN
 
-**PIN**: = 2
+**Pin**: = 2
 
 ___
 

@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 6e7acc848399b99ebc6e382546e6b73cd535f420
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728063"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormPropertyType](../enums/kasclient.kasformpropertytype.md)
 
 # <a name="enumeration-kasformpropertytype"></a>Enumeration: KASFormPropertyType
@@ -16,9 +8,9 @@ ms.locfileid: "28728063"
 
 * [Array](kasclient.kasformpropertytype.md#array)
 * [Anlage](kasclient.kasformpropertytype.md#attachment)
-* [AttachmentList](kasclient.kasformpropertytype.md#attachmentlist)
+* [Attachmentlist](kasclient.kasformpropertytype.md#attachmentlist)
 * [DateTime](kasclient.kasformpropertytype.md#datetime)
-* [Location](kasclient.kasformpropertytype.md#location)
+* [Standort](kasclient.kasformpropertytype.md#location)
 * [Numeric](kasclient.kasformpropertytype.md#numeric)
 * [Set](kasclient.kasformpropertytype.md#set)
 * [Text](kasclient.kasformpropertytype.md#text)
@@ -29,11 +21,11 @@ ms.locfileid: "28728063"
 
 <a id="array"></a>
 
-###  <a name="array"></a>Bereich
+###  <a name="array"></a>Array
 
 **Array**: = 4
 
-Array von Zeichenfolgen als der Metadatenwert
+Array von Zeichenfolgen als Metadatenwert
 
 ___
 
@@ -41,17 +33,17 @@ ___
 
 ###  <a name="attachment"></a>Attachment
 
-**Anhang**: = 5
+**Anlage**: = 5
 
-Anlage Pfad als der Metadatenwert
+Anlagen Pfad als Metadatenwert
 
 ___
 
 <a id="attachmentlist"></a>
 
-###  <a name="attachmentlist"></a>AttachmentList
+###  <a name="attachmentlist"></a>Attachmentlist
 
-**AttachmentList**: = 7
+**Attachmentlist**: = 7
 
 Liste der KASAttachment als Metadatenwert
 
@@ -63,7 +55,7 @@ ___
 
 **DateTime**: = 3
 
-Datum-Uhrzeit, als der Metadatenwert
+Datum Uhrzeit als Metadatenwert
 
 ___
 
@@ -71,9 +63,9 @@ ___
 
 ###  <a name="location"></a>Ort
 
-**Speicherort**: = 2
+**Ort**: = 2
 
-Typ des Speicherorts als der Metadatenwert
+Speicherorttyp als Metadatenwert
 
 ___
 
@@ -81,19 +73,19 @@ ___
 
 ###  <a name="numeric"></a>Numeric
 
-**Numerische**: = 1
+**Numerisch**: = 1
 
-Nur Zahlen sind als der Metadatenwert zulässig.
+Nur Zahlen sind als Metadatenwert zulässig
 
 ___
 
 <a id="set"></a>
 
-###  <a name="set"></a>Satz
+###  <a name="set"></a>Set
 
-**Festlegen**: = 6
+**Set**: = 6
 
-Set (eindeutige Liste) von Zeichenfolgen als der Metadatenwert
+Festlegen (eindeutige Liste) von Zeichenfolgen als Metadatenwert
 
 ___
 
@@ -101,9 +93,9 @@ ___
 
 ###  <a name="text"></a>Text
 
-**Text**: 0 =
+**Text**: = 0
 
-Text ist als der Metadatenwert zulässig.
+Jeder Text ist als Metadatenwert zulässig.
 
 ___
 

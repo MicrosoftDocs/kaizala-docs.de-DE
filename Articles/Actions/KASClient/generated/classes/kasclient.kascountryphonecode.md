@@ -56,7 +56,7 @@ ___
 | countryPhoneCode | `any` | - |
 | `Default value`includeCountryName | `boolean` | true |
 
-**Gibt zurück:** `string`
+**Gibt Folgendes zurück:**`string`
 
 ___
 <a id="getformattedstring"></a>
@@ -72,7 +72,7 @@ ___
 | countryPhoneCode | `any` |
 | countryName | `any` |
 
-**Gibt zurück:** `any`
+**Gibt Folgendes zurück:**`any`
 
 ___
 

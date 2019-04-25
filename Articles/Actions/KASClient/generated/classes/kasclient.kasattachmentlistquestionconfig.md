@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: e2101c72f8bcbc3156b5322139bdea66df77add9
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728098"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASAttachmentListQuestionConfig](../classes/kasclient.kasattachmentlistquestionconfig.md)
 
 # <a name="class-kasattachmentlistquestionconfig"></a>Klasse: KASAttachmentListQuestionConfig
@@ -42,7 +34,7 @@ ms.locfileid: "28728098"
 
 ###  <a name="attachmentlisttype"></a>attachmentListType
 
-**● AttachmentListType**: *[AttachmentListResponseType](../enums/kasclient.attachmentlistresponsetype.md)* = AttachmentListResponseType.GENERIC
+**● attachmentListType**: *[AttachmentListResponseType](../enums/kasclient.attachmentlistresponsetype.md)* = AttachmentListResponseType. Generic
 
 ___
 
@@ -50,7 +42,7 @@ ___
 
 ###  <a name="defaultcamerafiltermode"></a>defaultCameraFilterMode
 
-**● DefaultCameraFilterMode**: *[CameraFilterMode](../enums/kasclient.camerafiltermode.md)* = CameraFilterMode.Photo
+**● defaultCameraFilterMode**: *[CameraFilterMode](../enums/kasclient.camerafiltermode.md)* = CameraFilterMode. Photo
 
 ___
 
@@ -58,7 +50,7 @@ ___
 
 ###  <a name="imagesource"></a>imageSource
 
-**● ImageSource**: *[ImagePickerSource](../enums/kasclient.imagepickersource.md)* = ImagePickerSource.All
+**● ImageSource**: *[ImagePickerSource](../enums/kasclient.imagepickersource.md)* = ImagePickerSource. all
 
 ___
 
@@ -66,7 +58,7 @@ ___
 
 ###  <a name="maximagecount"></a>maxImageCount
 
-**● MaxImageCount**: *`number`* = 10
+**● maxImageCount**: *`number`* = 10
 
 ___
 
@@ -74,7 +66,7 @@ ___
 
 ###  <a name="pagebreakenabled"></a>pageBreakEnabled
 
-**● PageBreakEnabled**: *`boolean`* = True
+**● pageBreakEnabled**: *`boolean`* = true
 
 ___
 
@@ -82,7 +74,7 @@ ___
 
 ### <a name="static-attachmentlisttype"></a>`<Static>`ATTACHMENT_LIST_TYPE
 
-**● ATTACHMENT_LIST_TYPE**: *`string`* = "Alt"
+**● ATTACHMENT_LIST_TYPE**: *`string`* = "alt"
 
 ___
 
@@ -90,7 +82,7 @@ ___
 
 ### <a name="static-defaultcamerafiltermode"></a>`<Static>`DEFAULT_CAMERA_FILTER_MODE
 
-**● DEFAULT_CAMERA_FILTER_MODE**: *`string`* = "Dcfm"
+**● DEFAULT_CAMERA_FILTER_MODE**: *`string`* = "dcfm"
 
 ___
 
@@ -106,7 +98,7 @@ ___
 
 ### <a name="static-maximagecountkey"></a>`<Static>`MAX_IMAGE_COUNT_KEY
 
-**● MAX_IMAGE_COUNT_KEY**: *`string`* = "Mikrofon"
+**● MAX_IMAGE_COUNT_KEY**: *`string`* = "MIC"
 
 ___
 
@@ -116,9 +108,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -126,15 +118,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*): [KASAttachmentListQuestionConfig](kasclient.kasattachmentlistquestionconfig.md)
+▸ **fromJSON**(Object: *`any`*): [KASAttachmentListQuestionConfig](kasclient.kasattachmentlistquestionconfig.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 
-**Gibt:** [KASAttachmentListQuestionConfig](kasclient.kasattachmentlistquestionconfig.md)
+**Gibt Folgendes zurück:** [KASAttachmentListQuestionConfig](kasclient.kasattachmentlistquestionconfig.md)
 
 ___
 

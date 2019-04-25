@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 1033173dfb8f71f7e8274740c10202ad75c24693
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728067"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASValidationRule](../classes/kasclient.kasvalidationrule.md)
 
 # <a name="class-kasvalidationrule"></a>Klasse: KASValidationRule
@@ -43,7 +35,7 @@ ___
 
 ###  <a name="errorstring"></a>errorString
 
-**● ErrorString**: *`string`* = Null
+**● Fehler**String: *`string`* = NULL
 
 ___
 
@@ -51,13 +43,13 @@ ___
 
 ###  <a name="helptext"></a>helpText
 
-**● HelpText**: *`string`* = Null
+**● HelpText**: *`string`* = NULL
 
 ___
 
 <a id="rule"></a>
 
-###  <a name="rule"></a>rule
+###  <a name="rule"></a>Regel
 
 **● Regel**:*`any`*
 
@@ -69,9 +61,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -79,15 +71,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*): [KASValidationRule](kasclient.kasvalidationrule.md)
+▸ **fromJSON**(Object: *`any`*): [KASValidationRule](kasclient.kasvalidationrule.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 
-**Gibt:** [KASValidationRule](kasclient.kasvalidationrule.md)
+**Gibt Folgendes zurück:** [KASValidationRule](kasclient.kasvalidationrule.md)
 
 ___
 

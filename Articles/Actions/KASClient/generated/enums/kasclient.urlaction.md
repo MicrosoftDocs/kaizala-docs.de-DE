@@ -1,12 +1,4 @@
----
-ms.openlocfilehash: e607ff371bcb84432d6ceb2a22949a248b460680
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728085"
----
-[](../README.md) > [KASClient](../modules/kasclient.md) > [UrlAction](../enums/kasclient.urlaction.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > [URLAction](../enums/kasclient.urlaction.md)
 
 # <a name="enumeration-urlaction"></a>Enumeration: UrlAction
 
@@ -16,7 +8,7 @@ ms.locfileid: "28728085"
 
 * [None](kasclient.urlaction.md#none)
 * [OpenInBrowser](kasclient.urlaction.md#openinbrowser)
-* [Share](kasclient.urlaction.md#share)
+* [Freigeben](kasclient.urlaction.md#share)
 
 ---
 
@@ -24,9 +16,9 @@ ms.locfileid: "28728085"
 
 <a id="none"></a>
 
-###  <a name="none"></a>Keines
+###  <a name="none"></a>Keine
 
-**None**: 0 =
+**None**: = 0
 
 ___
 

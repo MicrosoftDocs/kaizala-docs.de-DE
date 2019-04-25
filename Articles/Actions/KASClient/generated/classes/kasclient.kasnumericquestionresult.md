@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 9384cc245b6c5c3d8889e6c9025eae7f31802469
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728093"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASNumericQuestionResult](../classes/kasclient.kasnumericquestionresult.md)
 
 # <a name="class-kasnumericquestionresult"></a>Klasse: KASNumericQuestionResult
@@ -20,10 +12,10 @@ ms.locfileid: "28728093"
 
 ### <a name="properties"></a>Eigenschaften
 
-* [Durchschnitt](kasclient.kasnumericquestionresult.md#average)
-* [questionId](kasclient.kasnumericquestionresult.md#questionid)
+* [durchschnittliche](kasclient.kasnumericquestionresult.md#average)
+* [Frag-Nr.](kasclient.kasnumericquestionresult.md#questionid)
 * [questionTitle](kasclient.kasnumericquestionresult.md#questiontitle)
-* [questionType](kasclient.kasnumericquestionresult.md#questiontype)
+* [questiontype](kasclient.kasnumericquestionresult.md#questiontype)
 * [Summe](kasclient.kasnumericquestionresult.md#sum)
 ### <a name="methods"></a>Methoden
 
@@ -35,7 +27,7 @@ ms.locfileid: "28728093"
 
 <a id="average"></a>
 
-###  <a name="average"></a>average
+###  <a name="average"></a>durchschnittliche
 
 **● Durchschnitt**: *`number`* = 0
 
@@ -43,9 +35,9 @@ ___
 
 <a id="questionid"></a>
 
-###  <a name="questionid"></a>questionId
+###  <a name="questionid"></a>Frag-Nr.
 
-**● QuestionId**: *`number`* = 0
+**● Frage**-Nr *`number`* .: = 0
 
 Index der Frage
 
@@ -55,17 +47,17 @@ ___
 
 ###  <a name="questiontitle"></a>questionTitle
 
-**● QuestionTitle**: *`string`* = ""
+**● questionTitle**: *`string`* = ""
 
-Titel der Frage
+Der Titel der Frage
 
 ___
 
 <a id="questiontype"></a>
 
-###  <a name="questiontype"></a>questionType
+###  <a name="questiontype"></a>questiontype
 
-**● QuestionType**: *[KASQuestionType](../enums/kasclient.kasquestiontype.md)* = KASQuestionType.None
+**● questiontype**: *[KASQuestionType](../enums/kasclient.kasquestiontype.md)* = KASQuestionType. None
 
 Typ der Frage
 
@@ -73,11 +65,11 @@ ___
 
 <a id="sum"></a>
 
-###  <a name="sum"></a>sum
+###  <a name="sum"></a>Summe
 
-**● Summe**: *`number`* = 0
+**● Sum**: *`number`* = 0
 
-Für numerische Fragen werden das Ergebnis aggregierte Summe und Durchschnitt aller Antworten
+Für numerische Fragen ist das aggregierte Ergebnis Sum und der Mittelwert aller Antworten
 
 ___
 
@@ -87,15 +79,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*): [KASNumericQuestionResult](kasclient.kasnumericquestionresult.md)
+▸ **fromJSON**(Object: *`any`*): [KASNumericQuestionResult](kasclient.kasnumericquestionresult.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 
-**Gibt:** [KASNumericQuestionResult](kasclient.kasnumericquestionresult.md)
+**Gibt Folgendes zurück:** [KASNumericQuestionResult](kasclient.kasnumericquestionresult.md)
 
 ___
 

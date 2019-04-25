@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 01bf00e0a8aeca6f09a8243b297470606736d7ab
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728114"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormPropertyUpdateFactory](../classes/kasclient.kasformpropertyupdatefactory.md)
 
 # <a name="class-kasformpropertyupdatefactory"></a>Klasse: KASFormPropertyUpdateFactory
@@ -33,7 +25,7 @@ ms.locfileid: "28728114"
 
 ### <a name="static-addentriesinpropertyvalue"></a>`<Static>`addEntriesInPropertyValue
 
-▸ **AddEntriesInPropertyValue**(Einträge: * `string`[]*, Eigenschaft: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
+▸ **addEntriesInPropertyValue**(entries: * `string`[]*, Property: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 **Parameter:**
 
@@ -42,7 +34,7 @@ ms.locfileid: "28728114"
 | Einträge | `string`[] |
 | Eigenschaft | [KASFormProperty](kasclient.kasformproperty.md) |
 
-**Gibt:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
+**Gibt Folgendes zurück:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 ___
 
@@ -50,7 +42,7 @@ ___
 
 ### <a name="static-addproperty"></a>`<Static>`addProperty
 
-▸ **AddProperty**(Eigenschaft: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
+▸ **AddProperty**(Property: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 **Parameter:**
 
@@ -58,7 +50,7 @@ ___
 | ------ | ------ |
 | Eigenschaft | [KASFormProperty](kasclient.kasformproperty.md) |
 
-**Gibt:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
+**Gibt Folgendes zurück:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 ___
 
@@ -66,7 +58,7 @@ ___
 
 ### <a name="static-deleteentriesfrompropertyvalue"></a>`<Static>`deleteEntriesFromPropertyValue
 
-▸ **DeleteEntriesFromPropertyValue**(Einträge: * `string`[]*, Eigenschaft: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
+▸ **deleteEntriesFromPropertyValue**(entries: * `string`[]*, Property: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 **Parameter:**
 
@@ -75,7 +67,7 @@ ___
 | Einträge | `string`[] |
 | Eigenschaft | [KASFormProperty](kasclient.kasformproperty.md) |
 
-**Gibt:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
+**Gibt Folgendes zurück:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 ___
 
@@ -83,7 +75,7 @@ ___
 
 ### <a name="static-deleteproperty"></a>`<Static>`deleteProperty
 
-▸ **DeleteProperty**(Eigenschaft: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
+▸ **DeleteProperty**(Property: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 **Parameter:**
 
@@ -91,7 +83,7 @@ ___
 | ------ | ------ |
 | Eigenschaft | [KASFormProperty](kasclient.kasformproperty.md) |
 
-**Gibt:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
+**Gibt Folgendes zurück:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 ___
 
@@ -99,17 +91,17 @@ ___
 
 ### <a name="static-replaceentryinpropertyvalue"></a>`<Static>`replaceEntryInPropertyValue
 
-▸ **ReplaceEntryInPropertyValue**(OldEntry: *`string`*, NewEntry: *`string`*, Eigenschaft: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
+▸ **replaceEntryInPropertyValue**(oldEntry: *`string`*, uppost: *`string`*, Property: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
 | oldEntry | `string` |
-| newEntry | `string` |
+| neuEintrag | `string` |
 | Eigenschaft | [KASFormProperty](kasclient.kasformproperty.md) |
 
-**Gibt:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
+**Gibt Folgendes zurück:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 ___
 
@@ -117,7 +109,7 @@ ___
 
 ### <a name="static-updatevalueinproperty"></a>`<Static>`updateValueInProperty
 
-▸ **UpdateValueInProperty**(NewValue: *`string`*, Eigenschaft: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
+▸- **updateValueInProperty**(neuvalue *`string`*:, Eigenschaft: *[KASFormProperty](kasclient.kasformproperty.md)*): [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 **Parameter:**
 
@@ -126,7 +118,7 @@ ___
 | newValue | `string` |
 | Eigenschaft | [KASFormProperty](kasclient.kasformproperty.md) |
 
-**Gibt:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
+**Gibt Folgendes zurück:** [KASFormPropertyUpdateInfo](kasclient.kasformpropertyupdateinfo.md)
 
 ___
 

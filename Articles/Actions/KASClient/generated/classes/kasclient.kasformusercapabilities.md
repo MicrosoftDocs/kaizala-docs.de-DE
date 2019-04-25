@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 0e67052636bea702e0c6cd7207c265878b097065
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728069"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormUserCapabilities](../classes/kasclient.kasformusercapabilities.md)
 
 # <a name="class-kasformusercapabilities"></a>Klasse: KASFormUserCapabilities
@@ -37,7 +29,7 @@ ms.locfileid: "28728069"
 
 ###  <a name="canrespond"></a>canRespond
 
-**● CanRespond**: *`boolean`* = False
+**● canRespond**: *`boolean`* = false
 
 ___
 
@@ -45,7 +37,7 @@ ___
 
 ###  <a name="cansendreminder"></a>canSendReminder
 
-**● CanSendReminder**: *`boolean`* = False
+**● canSendReminder**: *`boolean`* = false
 
 ___
 
@@ -53,7 +45,7 @@ ___
 
 ###  <a name="json"></a>json
 
-**● Json**:*`JSON`*
+**● JSON**:*`JSON`*
 
 ___
 
@@ -61,7 +53,7 @@ ___
 
 ###  <a name="shouldseesummary"></a>shouldSeeSummary
 
-**● ShouldSeeSummary**: *`boolean`* = False
+**● shouldSeeSummary**: *`boolean`* = false
 
 ___
 
@@ -71,9 +63,9 @@ ___
 
 ###  <a name="toapicompatiblejson"></a>toAPICompatibleJSON
 
-▸ **ToAPICompatibleJSON**():`JSON`
+▸ **toAPICompatibleJSON**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -81,9 +73,9 @@ ___
 
 ###  <a name="toclientjson"></a>toClientJSON
 
-▸ **ToClientJSON**():`JSON`
+▸ **toClientJSON**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -91,9 +83,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -101,15 +93,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`JSON`*): [KASFormUserCapabilities](kasclient.kasformusercapabilities.md)
+▸ **fromJSON**(Object: *`JSON`*): [KASFormUserCapabilities](kasclient.kasformusercapabilities.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `JSON` |
+| Objekt | `JSON` |
 
-**Gibt:** [KASFormUserCapabilities](kasclient.kasformusercapabilities.md)
+**Gibt Folgendes zurück:** [KASFormUserCapabilities](kasclient.kasformusercapabilities.md)
 
 ___
 

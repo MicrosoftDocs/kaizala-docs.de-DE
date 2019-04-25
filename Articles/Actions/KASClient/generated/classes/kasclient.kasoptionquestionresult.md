@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 73491a2b9d73d311550fe14f32a34d5670e3f892
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728044"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASOptionQuestionResult](../classes/kasclient.kasoptionquestionresult.md)
 
 # <a name="class-kasoptionquestionresult"></a>Klasse: KASOptionQuestionResult
@@ -21,9 +13,9 @@ ms.locfileid: "28728044"
 ### <a name="properties"></a>Eigenschaften
 
 * [optionResults](kasclient.kasoptionquestionresult.md#optionresults)
-* [questionId](kasclient.kasoptionquestionresult.md#questionid)
+* [Frag-Nr.](kasclient.kasoptionquestionresult.md#questionid)
 * [questionTitle](kasclient.kasoptionquestionresult.md#questiontitle)
-* [questionType](kasclient.kasoptionquestionresult.md#questiontype)
+* [questiontype](kasclient.kasoptionquestionresult.md#questiontype)
 ### <a name="methods"></a>Methoden
 
 * [getResultsOrder](kasclient.kasoptionquestionresult.md#getresultsorder)
@@ -37,18 +29,18 @@ ms.locfileid: "28728044"
 
 ###  <a name="optionresults"></a>optionResults
 
-**● OptionResults**:*`object`*
+**● optionResults**:*`object`*
 
-Für SingleSelect/MultiSelect Frage, wird das Ergebnis Option Id im Vergleich zu ihren zählt Dictionary<OptionId sein: number, OptionResult: KASOptionResult>
+Für SingleSelect/multiSelect question ist das Ergebnis die Option ID im Vergleich zu ihren Anzahlen Dictionary<OptionId: Number, OptionResult: KASOptionResult>
 #### <a name="type-declaration"></a>Typdeklaration
 
 ___
 
 <a id="questionid"></a>
 
-###  <a name="questionid"></a>questionId
+###  <a name="questionid"></a>Frag-Nr.
 
-**● QuestionId**: *`number`* = 0
+**● Frage**-Nr *`number`* .: = 0
 
 Index der Frage
 
@@ -58,17 +50,17 @@ ___
 
 ###  <a name="questiontitle"></a>questionTitle
 
-**● QuestionTitle**: *`string`* = ""
+**● questionTitle**: *`string`* = ""
 
-Titel der Frage
+Der Titel der Frage
 
 ___
 
 <a id="questiontype"></a>
 
-###  <a name="questiontype"></a>questionType
+###  <a name="questiontype"></a>questiontype
 
-**● QuestionType**: *[KASQuestionType](../enums/kasclient.kasquestiontype.md)* = KASQuestionType.None
+**● questiontype**: *[KASQuestionType](../enums/kasclient.kasquestiontype.md)* = KASQuestionType. None
 
 Typ der Frage
 
@@ -80,11 +72,11 @@ ___
 
 ###  <a name="getresultsorder"></a>getResultsOrder
 
-▸ **GetResultsOrder**(): `number`]
+▸ **getResultsOrder**(): `number`[]
 
-Ruft alle in ihrer gesamtantworten Anzahl (absteigend) sortiert Option-ids
+Ruft alle Options-IDs ab, die in der Anzahl der Gesamt Antworten sortiert sind (absteigend)
 
-**Gibt:** `number`Liste mit der Option-Ids]
+**Gibt Folgendes zurück:** `number`[] Liste aller Options-IDs
 
 ___
 
@@ -92,15 +84,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*): [KASOptionQuestionResult](kasclient.kasoptionquestionresult.md)
+▸ **fromJSON**(Object: *`any`*): [KASOptionQuestionResult](kasclient.kasoptionquestionresult.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 
-**Gibt:** [KASOptionQuestionResult](kasclient.kasoptionquestionresult.md)
+**Gibt Folgendes zurück:** [KASOptionQuestionResult](kasclient.kasoptionquestionresult.md)
 
 ___
 

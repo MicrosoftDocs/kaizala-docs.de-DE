@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 3610992f374a5a54579faa97cea46a17d1889e85
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728042"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [AttachmentListResponseType](../enums/kasclient.attachmentlistresponsetype.md)
 
 # <a name="enumeration-attachmentlistresponsetype"></a>Enumeration: AttachmentListResponseType
@@ -14,7 +6,7 @@ ms.locfileid: "28728042"
 
 ### <a name="enumeration-members"></a>Enumerationsmember
 
-* [ALLGEMEINES](kasclient.attachmentlistresponsetype.md#generic)
+* [GENERISCHE](kasclient.attachmentlistresponsetype.md#generic)
 * [LIST_OF_IMAGES](kasclient.attachmentlistresponsetype.md#list_of_images)
 
 ---
@@ -23,9 +15,9 @@ ms.locfileid: "28728042"
 
 <a id="generic"></a>
 
-###  <a name="generic"></a>ALLGEMEINES
+###  <a name="generic"></a>GENERISCHE
 
-**Generische**: 0 =
+**Generisch**: = 0
 
 ___
 

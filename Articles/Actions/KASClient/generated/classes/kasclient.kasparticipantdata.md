@@ -1,16 +1,8 @@
----
-ms.openlocfilehash: bb410570ca61dd12bc05c9b5b2d9f0b154b2e7da
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728051"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASParticipantData](../classes/kasclient.kasparticipantdata.md)
 
 # <a name="class-kasparticipantdata"></a>Klasse: KASParticipantData
 
-Definiert die Eigenschaften eines Teilnehmers Unterhaltung
+Definiert die Eigenschaften eines Unterhaltungs Teilnehmers.
 ## <a name="hierarchy"></a>Hierarchie
 
 **KASParticipantData**
@@ -19,9 +11,9 @@ Definiert die Eigenschaften eines Teilnehmers Unterhaltung
 
 ### <a name="properties"></a>Eigenschaften
 
-* [participantId](kasclient.kasparticipantdata.md#participantid)
+* [Teilnehmer-Nr.](kasclient.kasparticipantdata.md#participantid)
 * [participantRole](kasclient.kasparticipantdata.md#participantrole)
-* [participantType](kasclient.kasparticipantdata.md#participanttype)
+* [Teilnehmertyp](kasclient.kasparticipantdata.md#participanttype)
 ### <a name="methods"></a>Methoden
 
 * [fromJSON](kasclient.kasparticipantdata.md#fromjson)
@@ -32,9 +24,9 @@ Definiert die Eigenschaften eines Teilnehmers Unterhaltung
 
 <a id="participantid"></a>
 
-###  <a name="participantid"></a>participantId
+###  <a name="participantid"></a>Teilnehmer-Nr.
 
-**● ParticipantId**: *`string`* = ""
+**● Teilnehmer**-Nr *`string`* .: = ""
 
 ___
 
@@ -42,15 +34,15 @@ ___
 
 ###  <a name="participantrole"></a>participantRole
 
-**● ParticipantRole**: *[KASParticipantRole](../enums/kasclient.kasparticipantrole.md)* = KASParticipantRole.NONE
+**● participantRole**: *[KASParticipantRole](../enums/kasclient.kasparticipantrole.md)* = KASParticipantRole. None
 
 ___
 
 <a id="participanttype"></a>
 
-###  <a name="participanttype"></a>participantType
+###  <a name="participanttype"></a>Teilnehmertyp
 
-**● ParticipantType**: *[KASParticipantType](../enums/kasclient.kasparticipanttype.md)* = KASParticipantType.NONE
+**● Teilnehmertyp**: *[KASParticipantType](../enums/kasclient.kasparticipanttype.md)* = KASParticipantType. None
 
 ___
 
@@ -60,15 +52,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*): [KASParticipantData](kasclient.kasparticipantdata.md)
+▸ **fromJSON**(Object: *`any`*): [KASParticipantData](kasclient.kasparticipantdata.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 
-**Gibt:** [KASParticipantData](kasclient.kasparticipantdata.md)
+**Gibt Folgendes zurück:** [KASParticipantData](kasclient.kasparticipantdata.md)
 
 ___
 

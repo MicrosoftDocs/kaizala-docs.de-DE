@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: c7cc393a1e7ac1130de374640d2380137a16072b
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728106"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASVisibilityRule](../classes/kasclient.kasvisibilityrule.md)
 
 # <a name="class-kasvisibilityrule"></a>Klasse: KASVisibilityRule
@@ -34,7 +26,7 @@ ms.locfileid: "28728106"
 
 ###  <a name="dependencyquestionid"></a>dependencyQuestionId
 
-**● DependencyQuestionId**: *`string`* = ""
+**● dependencyQuestionId**: *`string`* = ""
 
 ___
 
@@ -42,13 +34,13 @@ ___
 
 ###  <a name="optionid"></a>optionId
 
-**● OptionId**: *`string`* = ""
+**● options**-Nr *`string`* .: = ""
 
 ___
 
 <a id="rule"></a>
 
-###  <a name="rule"></a>rule
+###  <a name="rule"></a>Regel
 
 **● Regel**:*`any`*
 
@@ -60,9 +52,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -70,15 +62,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*): [KASVisibilityRule](kasclient.kasvisibilityrule.md)
+▸ **fromJSON**(Object: *`any`*): [KASVisibilityRule](kasclient.kasvisibilityrule.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 
-**Gibt:** [KASVisibilityRule](kasclient.kasvisibilityrule.md)
+**Gibt Folgendes zurück:** [KASVisibilityRule](kasclient.kasvisibilityrule.md)
 
 ___
 

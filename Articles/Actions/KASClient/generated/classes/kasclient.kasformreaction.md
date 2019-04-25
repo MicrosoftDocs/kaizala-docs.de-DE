@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 3b1a2cbce6762e7efcb4371db75d71596d651887
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728056"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormReaction](../classes/kasclient.kasformreaction.md)
 
 # <a name="class-kasformreaction"></a>Klasse: KASFormReaction
@@ -37,9 +29,9 @@ ms.locfileid: "28728056"
 
 ###  <a name="commentscount"></a>commentsCount
 
-**● CommentsCount**: *`number`* = 0
+**● commentsCount**: *`number`* = 0
 
-Anzahl von Kommentaren für das Formular empfangen
+Anzahl der empfangenen Kommentare für das Formular
 
 ___
 
@@ -47,9 +39,9 @@ ___
 
 ###  <a name="didicomment"></a>didIComment
 
-**● DidIComment**: *`boolean`* = False
+**●**didicomment: *`boolean`* = false
 
-Gibt an, ob der aktuelle Benutzer bereits gefallen hat
+Gibt an, ob der aktuelle Benutzer bereits gemocht hat oder nicht.
 
 ___
 
@@ -57,9 +49,9 @@ ___
 
 ###  <a name="didilike"></a>didILike
 
-**● DidILike**: *`boolean`* = False
+**● didILike**: *`boolean`* = false
 
-Gibt an, ob der aktuelle Benutzer bereits gefallen hat
+Gibt an, ob der aktuelle Benutzer bereits gemocht hat oder nicht.
 
 ___
 
@@ -67,9 +59,9 @@ ___
 
 ###  <a name="hidecomments"></a>hideComments
 
-**● HideComments**: *`boolean`* = False
+**● hideComments**: *`boolean`* = false
 
-Gibt an, ob Kommentare oder nicht angezeigt.
+Gibt an, ob Kommentare angezeigt werden sollen oder nicht.
 
 ___
 
@@ -77,9 +69,9 @@ ___
 
 ###  <a name="hidelikes"></a>hideLikes
 
-**● HideLikes**: *`boolean`* = False
+**● hideLikes**: *`boolean`* = false
 
-Gibt an, ob angezeigt oder nicht "gefällt mir"
+Gibt an, ob Vorlieben angezeigt werden sollen oder nicht.
 
 ___
 
@@ -87,9 +79,9 @@ ___
 
 ###  <a name="hidelikesdetails"></a>hideLikesDetails
 
-**● HideLikesDetails**: *`boolean`* = False
+**● hideLikesDetails**: *`boolean`* = false
 
-Gibt an, ob die anzuzeigenden Imeersive Ansicht oder nicht "gefällt mir"
+Zeigt an, ob likes imeersive-Ansicht angezeigt werden soll oder nicht
 
 ___
 
@@ -97,9 +89,9 @@ ___
 
 ###  <a name="likescount"></a>likesCount
 
-**● LikesCount**: *`number`* = 0
+**● likesCount**: *`number`* = 0
 
-Anzahl der "gefällt mir" für das Formular empfangen
+Anzahl der für das Formular erhaltenen Vorlieben
 
 ___
 
@@ -109,15 +101,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`JSON`*): [KASFormReaction](kasclient.kasformreaction.md)
+▸ **fromJSON**(Object: *`JSON`*): [KASFormReaction](kasclient.kasformreaction.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `JSON` |
+| Objekt | `JSON` |
 
-**Gibt:** [KASFormReaction](kasclient.kasformreaction.md)
+**Gibt Folgendes zurück:** [KASFormReaction](kasclient.kasformreaction.md)
 
 ___
 

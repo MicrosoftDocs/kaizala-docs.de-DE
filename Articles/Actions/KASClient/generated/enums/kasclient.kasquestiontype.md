@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: a5152921e55fdc6e66c39a51501e03079a5b38af
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728113"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASQuestionType](../enums/kasclient.kasquestiontype.md)
 
 # <a name="enumeration-kasquestiontype"></a>Enumeration: KASQuestionType
@@ -14,11 +6,11 @@ ms.locfileid: "28728113"
 
 ### <a name="enumeration-members"></a>Enumerationsmember
 
-* [AttachmentList](kasclient.kasquestiontype.md#attachmentlist)
+* [Attachmentlist](kasclient.kasquestiontype.md#attachmentlist)
 * [DateOnly](kasclient.kasquestiontype.md#dateonly)
 * [DateTime](kasclient.kasquestiontype.md#datetime)
 * [Image](kasclient.kasquestiontype.md#image)
-* [Location](kasclient.kasquestiontype.md#location)
+* [Standort](kasclient.kasquestiontype.md#location)
 * [MultiSelect](kasclient.kasquestiontype.md#multiselect)
 * [None](kasclient.kasquestiontype.md#none)
 * [Numeric](kasclient.kasquestiontype.md#numeric)
@@ -33,11 +25,11 @@ ms.locfileid: "28728113"
 
 <a id="attachmentlist"></a>
 
-###  <a name="attachmentlist"></a>AttachmentList
+###  <a name="attachmentlist"></a>Attachmentlist
 
-**AttachmentList**: = 8
+**Attachmentlist**: = 8
 
-Anlage Liste Typ Antwort
+Antwort für Anlagen Listentyp
 
 ___
 
@@ -57,7 +49,7 @@ ___
 
 **DateTime**: = 5
 
-Datum-Zeit Antwort eingeben
+Antwort "Datum Zeittyp"
 
 ___
 
@@ -67,7 +59,7 @@ ___
 
 **Bild**: = 6
 
-Antwort wird eine Anlage Bild sein.
+Antwort ist eine Bild Anlage
 
 ___
 
@@ -75,9 +67,9 @@ ___
 
 ###  <a name="location"></a>Ort
 
-**Speicherort**: = 4
+**Ort**: = 4
 
-Aktuelle Standort des Benutzers wird als Antwort angefügt werden soll
+Der aktuelle Standort des Benutzers wird als Antwort angefügt.
 
 ___
 
@@ -87,17 +79,17 @@ ___
 
 **MultiSelect**: = 1
 
-Mehrere Optionen können ausgewählt werden, aus der Liste der Optionen
+In der Liste der Optionen können mehrere Optionen ausgewählt werden.
 
 ___
 
 <a id="none"></a>
 
-###  <a name="none"></a>Keines
+###  <a name="none"></a>Keine
 
 **None**: =-1
 
-Standard-Typ
+Standardtyp
 
 ___
 
@@ -105,9 +97,9 @@ ___
 
 ###  <a name="numeric"></a>Numeric
 
-**Numerische**: = 3
+**Numerisch**: = 3
 
-Nur Zahlen können eine gültige Antwort auf die Frage entsprechen.
+Nur Zahlen können eine gültige Antwort auf die Frage sein
 
 ___
 
@@ -115,9 +107,9 @@ ___
 
 ###  <a name="phonenumber"></a>PhoneNumber
 
-**PhoneNumber**: = 9
+**** Telefonnummer: = 9
 
-Rufnummerntyp
+Telefonnummerntyp
 
 ___
 
@@ -125,9 +117,9 @@ ___
 
 ###  <a name="singleselect"></a>SingleSelect
 
-**SingleSelect**: 0 =
+**SingleSelect**: = 0
 
-Aus der Liste der Optionen kann nur eine Option ausgewählt werden
+In der Liste der Optionen kann nur eine Option ausgewählt werden.
 
 ___
 
@@ -137,7 +129,7 @@ ___
 
 **SingleSelectExternal**: = 7
 
-Einzelne Typ auswählen, aber jede Frage Optionen sind abhängig von der Auswahl der vorherigen
+Einzelne SELECT-Typ, aber die Optionen der einzelnen Fragen hängen von der Auswahl des vorherigen ab.
 
 ___
 
@@ -147,7 +139,7 @@ ___
 
 **Text**: = 2
 
-Text kann die Antwort auf die Frage entsprechen.
+Jeder Text kann die Antwort auf die Frage sein.
 
 ___
 

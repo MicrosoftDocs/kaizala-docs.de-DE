@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 9520800959a0ff479ccd0d87895c1e045fbbe24c
-ms.sourcegitcommit: 04ef38ff8e68cf1697371551aed1ffb254a69649
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2019
-ms.locfileid: "29379427"
----
 [](../README.md) > [KASClient](../modules/kasclient.md)
 
 # <a name="module-kasclient"></a>Modul: KASClient
@@ -107,7 +99,7 @@ ms.locfileid: "29379427"
 
 ###  <a name="getfilteredparticipantrole"></a>getFilteredParticipantRole
 
-▸ **GetFilteredParticipantRole**(Rolle: *`any`*): [KASParticipantRole](../enums/kasclient.kasparticipantrole.md)
+▸- **getFilteredParticipantRole**(role *`any`*:): [KASParticipantRole](../enums/kasclient.kasparticipantrole.md)
 
 **Parameter:**
 
@@ -115,7 +107,7 @@ ms.locfileid: "29379427"
 | ------ | ------ |
 | role | `any` |
 
-**Gibt:** [KASParticipantRole](../enums/kasclient.kasparticipantrole.md)
+**Gibt Folgendes zurück:** [KASParticipantRole](../enums/kasclient.kasparticipantrole.md)
 
 ___
 
@@ -123,7 +115,7 @@ ___
 
 ###  <a name="getfilteredparticipanttype"></a>getFilteredParticipantType
 
-▸ **GetFilteredParticipantType**(Typ: *`any`*): [KASParticipantType](../enums/kasclient.kasparticipanttype.md)
+▸ **getFilteredParticipantType**(Typ: *`any`*): [KASParticipantType](../enums/kasclient.kasparticipanttype.md)
 
 **Parameter:**
 
@@ -131,7 +123,7 @@ ___
 | ------ | ------ |
 | Typ | `any` |
 
-**Gibt:** [KASParticipantType](../enums/kasclient.kasparticipanttype.md)
+**Gibt Folgendes zurück:** [KASParticipantType](../enums/kasclient.kasparticipanttype.md)
 
 ___
 

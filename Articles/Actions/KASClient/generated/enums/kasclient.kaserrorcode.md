@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 96015f59a49752aab0708bead766e2c7de80308b
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728099"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASErrorCode](../enums/kasclient.kaserrorcode.md)
 
 # <a name="enumeration-kaserrorcode"></a>Enumeration: KASErrorCode
@@ -26,7 +18,7 @@ ms.locfileid: "28728099"
 * [INVALID_REQUEST_DATA](kasclient.kaserrorcode.md#invalid_request_data)
 * [LOCATION_ERROR](kasclient.kaserrorcode.md#location_error)
 * [NETWORK_ERROR](kasclient.kaserrorcode.md#network_error)
-* [NONE](kasclient.kaserrorcode.md#none)
+* [KEINE](kasclient.kaserrorcode.md#none)
 * [SERVER_GENERIC_ERROR](kasclient.kaserrorcode.md#server_generic_error)
 * [UNAUTHORIZED_USER_OPERATION](kasclient.kaserrorcode.md#unauthorized_user_operation)
 * [UNKNOWN_ERROR](kasclient.kaserrorcode.md#unknown_error)
@@ -134,9 +126,9 @@ ___
 
 <a id="none"></a>
 
-###  <a name="none"></a>NONE
+###  <a name="none"></a>KEINE
 
-**NONE**: =-1
+**None**: =-1
 
 ___
 
@@ -160,7 +152,7 @@ ___
 
 ###  <a name="unknownerror"></a>UNKNOWN_ERROR
 
-**UNKNOWN_ERROR**: = 10001 übersetzt
+**UNKNOWN_ERROR**: = 10001
 
 ___
 

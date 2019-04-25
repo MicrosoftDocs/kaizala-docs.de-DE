@@ -1,16 +1,16 @@
-# <a name="set-of-permissions"></a>Festlegen von Berechtigungen
+# <a name="set-of-permissions"></a>Berechtigungssatz
 
-Kaizala ermöglicht eine Sätze von Berechtigungen, mit denen Entwickler auswählen kann, haben Sie beim Einrichten von Connectors. Diese ausgewählte Reihe von Berechtigungen werden erteilt, wenn Admin(s) für eine Gruppe erteilen des Zugriffs auf einen bestimmten Verbinder.
+Kaizala ermöglicht eine Auswahl von Berechtigungen, die Entwickler beim Einrichten von Connectors haben können. Dieser ausgewählte Berechtigungssatz wird erteilt, wenn der Administrator (e) für eine Gruppe Zugriff auf einen bestimmten Connector gewährt.
 
-|   | Verfügbaren Berechtigungen  |
+|   | Verfügbare Berechtigungen  |
 | :---: | :---: |
-| Gruppeninformationen |  Zum Abrufen von Informationen Gruppierungsebene Suce als Gruppe Elementanzahl, Gruppennamen, usw. Alle Vorgänge sind zulässig. |
-| Liste der Gruppenmitglieder  | Zum Abrufen, hinzufügen, entfernen sowie Gruppenmitgliedschaft aktualisieren  |
-| Textnachricht | Bereitstellung eine Textnachricht auf eine Gruppe |
-| Aktion und -Antworten   |  Zum Abrufen von erstellen Sie und aktualisieren Sie der Aktion sowie die zugehörigen Antworten |
-| Benutzerprofil | Zum Abrufen des Benutzerprofils für sich selbst |
-| Medien   | Zum Senden von Anlagen in einer Gruppe  |
-| Ausgehende Webhooks | Erstellen, abrufen, aktualisieren und Entfernen von Webhook und seine Abonnementinformationen   |
-| Mandantendaten   | Um erhalten möchten, erstellen/aktualisieren und Entfernen von Mandanten verknüpften Daten, wie Benutzer, Gruppen Org usw.  |
-| Reaktionen | Zum Erstellen und Abrufen der Aktion verknüpften Daten |
+| Gruppeninformationen |  Zum Abrufen von Informationen auf Gruppenebene SUCE als Gruppenmitglieder Anzahl, Gruppenname usw. Alle Vorgänge sind zulässig |
+| Gruppenmitglieder Liste  | So können Sie Gruppenmitgliedschaften abrufen, hinzufügen, entfernen und aktualisieren  |
+| Text Nachricht | So veröffentlichen Sie eine Textnachricht in einer Gruppe |
+| Aktion & Antworten   |  So können Sie Aktion sowie ihre Antworten abrufen, erstellen und aktualisieren |
+| Benutzerprofil | So erhalten Sie ein Benutzerprofil für sich selbst |
+| Medien   | So senden Sie Medien Anlagen in einer Gruppe  |
+| Ausgehende webhooks | So können Sie webhook und die zugehörigen Abonnementdetails erstellen, abrufen, aktualisieren und entfernen   |
+| MandantenDaten   | So können Sie Mandanten bezogene Daten wie Benutzer, Organisationsgruppen usw. abrufen, erstellen/aktualisieren und entfernen  |
+| Reaktionen | So erstellen und rufen Sie Aktions bezogene Daten auf |
 

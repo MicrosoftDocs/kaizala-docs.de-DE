@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 461b6d9fe1a01d956f60550037eeaaf84719622b
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728048"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASLocationStaticMapImageParams](../classes/kasclient.kaslocationstaticmapimageparams.md)
 
 # <a name="class-kaslocationstaticmapimageparams"></a>Klasse: KASLocationStaticMapImageParams
@@ -18,14 +10,14 @@ ms.locfileid: "28728048"
 
 ### <a name="properties"></a>Eigenschaften
 
-* [Sprache](kasclient.kaslocationstaticmapimageparams.md#language)
+* [language](kasclient.kaslocationstaticmapimageparams.md#language)
 * [latitude](kasclient.kaslocationstaticmapimageparams.md#latitude)
 * [longitude](kasclient.kaslocationstaticmapimageparams.md#longitude)
 * [mapType](kasclient.kaslocationstaticmapimageparams.md#maptype)
 * [markerColor](kasclient.kaslocationstaticmapimageparams.md#markercolor)
 * [sizeX](kasclient.kaslocationstaticmapimageparams.md#sizex)
 * [sizeY](kasclient.kaslocationstaticmapimageparams.md#sizey)
-* [Zoom (engl.)](kasclient.kaslocationstaticmapimageparams.md#zoom)
+* [zoom](kasclient.kaslocationstaticmapimageparams.md#zoom)
 ### <a name="methods"></a>Methoden
 
 * [toJSON](kasclient.kaslocationstaticmapimageparams.md#tojson)
@@ -46,7 +38,7 @@ ___
 
 ###  <a name="latitude"></a>latitude
 
-**● Breitengrad**:*`number`*
+**● Latitude**:*`number`*
 
 ___
 
@@ -54,7 +46,7 @@ ___
 
 ###  <a name="longitude"></a>longitude
 
-**● Längengrad**:*`number`*
+**● Länge**:*`number`*
 
 ___
 
@@ -62,7 +54,7 @@ ___
 
 ###  <a name="maptype"></a>mapType
 
-**● MapType**:*`string`*
+**● maptype**:*`string`*
 
 ___
 
@@ -70,7 +62,7 @@ ___
 
 ###  <a name="markercolor"></a>markerColor
 
-**● MarkerColor**: *`string`* = "Red"
+**● markerColor**: *`string`* = "rot"
 
 ___
 
@@ -78,7 +70,7 @@ ___
 
 ###  <a name="sizex"></a>sizeX
 
-**● SizeX**: *`number`* = 360
+**● sizeX**: *`number`* = 360
 
 ___
 
@@ -86,7 +78,7 @@ ___
 
 ###  <a name="sizey"></a>sizeY
 
-**● sizeY**: *`number`* = 170
+**● sizey**: *`number`* = 170
 
 ___
 
@@ -94,7 +86,7 @@ ___
 
 ###  <a name="zoom"></a>Zoom
 
-**● zoom**:*`number`*
+**● Zoom**:*`number`*
 
 ___
 
@@ -104,9 +96,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 

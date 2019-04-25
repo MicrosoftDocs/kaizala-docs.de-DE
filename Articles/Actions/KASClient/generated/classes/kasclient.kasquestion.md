@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: cd7a7880b45a68ea4ac977487756c754a2291dd4
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728074"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASQuestion](../classes/kasclient.kasquestion.md)
 
 # <a name="class-kasquestion"></a>Klasse: KASQuestion
@@ -19,11 +11,11 @@ ms.locfileid: "28728074"
 ### <a name="properties"></a>Eigenschaften
 
 * [config](kasclient.kasquestion.md#config)
-* [displayType](kasclient.kasquestion.md#displaytype)
+* [Display Type](kasclient.kasquestion.md#displaytype)
 * [id](kasclient.kasquestion.md#id)
 * [isEditable](kasclient.kasquestion.md#iseditable)
 * [isExcludedFromReporting](kasclient.kasquestion.md#isexcludedfromreporting)
-* [isInvisible](kasclient.kasquestion.md#isinvisible)
+* [isUnsichtbar](kasclient.kasquestion.md#isinvisible)
 * [isResponseOptional](kasclient.kasquestion.md#isresponseoptional)
 * [options](kasclient.kasquestion.md#options)
 * [title](kasclient.kasquestion.md#title)
@@ -47,7 +39,7 @@ ms.locfileid: "28728074"
 
 ###  <a name="config"></a>config
 
-**● Config**: *[KASQuestionConfig](kasclient.kasquestionconfig.md)* = Null
+**● config**: *[KASQuestionConfig](kasclient.kasquestionconfig.md)* = NULL
 
 Konfiguration/Verhalten einer Frage
 
@@ -55,11 +47,11 @@ ___
 
 <a id="displaytype"></a>
 
-###  <a name="displaytype"></a>displayType
+###  <a name="displaytype"></a>Display Type
 
-**● DisplayType**: *[KASQuestionDisplayType](../enums/kasclient.kasquestiondisplaytype.md)* = KASQuestionDisplayType.None
+**● Display**Type: *[KASQuestionDisplayType](../enums/kasclient.kasquestiondisplaytype.md)* = KASQuestionDisplayType. None
 
-Typ der Optionen für die Frage anzeigen
+Anzeigetyp der Frageoptionen
 
 ___
 
@@ -67,7 +59,7 @@ ___
 
 ###  <a name="id"></a>id
 
-**●-Id**: *`number`* = 0
+**● ID**: *`number`* = 0
 
 Index der Frage, beginnt mit 0
 
@@ -77,9 +69,9 @@ ___
 
 ###  <a name="iseditable"></a>isEditable
 
-**● IsEditable**: *`boolean`* = True
+**●**IsEditable: *`boolean`* = true
 
-Kennzeichnet der Standardwert ist true, wenn die Frage vom Responder bearbeitet werden kann,
+Gibt an, ob die Frage vom Responder bearbeitet werden kann, der Standardwert ist true.
 
 ___
 
@@ -87,19 +79,19 @@ ___
 
 ###  <a name="isexcludedfromreporting"></a>isExcludedFromReporting
 
-**● IsExcludedFromReporting**: *`boolean`* = False
+**● isExcludedFromReporting**: *`boolean`* = false
 
-Gibt an, ob die Frage aus allen möglichen reporting übersprungen werden
+Gibt an, ob die Frage von allen Arten der Berichterstellung übersprungen wird.
 
 ___
 
 <a id="isinvisible"></a>
 
-###  <a name="isinvisible"></a>isInvisible
+###  <a name="isinvisible"></a>isUnsichtbar
 
-**● IsInvisible**: *`boolean`* = False
+**● isunsichtbar**: *`boolean`* = false
 
-Gibt an, wenn die Frage für den-Responder nicht sichtbar sein soll, standardmäßig false ist
+Gibt an, ob die Frage für den Responder unsichtbar sein soll, der Standardwert ist false.
 
 ___
 
@@ -107,9 +99,9 @@ ___
 
 ###  <a name="isresponseoptional"></a>isResponseOptional
 
-**● IsResponseOptional**: *`boolean`* = False
+**● isResponseOptional**: *`boolean`* = false
 
-Gibt an, ob es obligatorisch ist, diese Frage zu beantworten
+Gibt an, ob es erforderlich ist, auf diese Frage zu Antworten
 
 ___
 
@@ -117,7 +109,7 @@ ___
 
 ###  <a name="options"></a>options
 
-**● Optionen**: * [KASQuestionOption](kasclient.kasquestionoption.md)[]* =]
+**● Optionen**: * [KASQuestionOption](kasclient.kasquestionoption.md)[]* = []
 
 Liste der Optionen für die Frage
 
@@ -127,17 +119,17 @@ ___
 
 ###  <a name="title"></a>title
 
-**● Titel**: *`string`* = ""
+**● Title**: *`string`* = ""
 
-Titel der Frage
+Der Titel der Frage
 
 ___
 
 <a id="type"></a>
 
-###  <a name="type"></a>type
+###  <a name="type"></a>Typ
 
-**● Typ**: *[KASQuestionType](../enums/kasclient.kasquestiontype.md)* = KASQuestionType.None
+**● Typ**: *[KASQuestionType](../enums/kasclient.kasquestiontype.md)* = KASQuestionType. None
 
 Typ der Frage
 
@@ -147,9 +139,9 @@ ___
 
 ###  <a name="valif"></a>valif
 
-**● Valif**: *[KASValidationRule](kasclient.kasvalidationrule.md)* = Null
+**● valif**: *[KASValidationRule](kasclient.kasvalidationrule.md)* = NULL
 
-Eine Frage - JSON von Regeln, Fehlerzeichenfolge und Hilfezeichenfolge Validierungsregeln
+Validierungsregeln einer Frage-JSON der Regel (n), Fehlerzeichenfolge und Hilfezeichenfolge
 
 ___
 
@@ -157,9 +149,9 @@ ___
 
 ###  <a name="visif"></a>visif
 
-**● Visif**: *[KASVisibilityRule](kasclient.kasvisibilityrule.md)* = Null
+**● visif**: *[KASVisibilityRule](kasclient.kasvisibilityrule.md)* = NULL
 
-Regeln für die Sichtbarkeit der eine Frage - Regelzeichenfolge
+Sichtbarkeitsregeln einer Frage Regel Zeichenfolge
 
 ___
 
@@ -169,7 +161,7 @@ ___
 
 ###  <a name="getapicompatiblequestiontype"></a>getAPICompatibleQuestionType
 
-▸ **GetAPICompatibleQuestionType**(Typ: *`string`*):`string`
+▸ **getAPICompatibleQuestionType**(Typ: *`string`*):`string`
 
 **Parameter:**
 
@@ -177,7 +169,7 @@ ___
 | ------ | ------ |
 | Typ | `string` |
 
-**Gibt:**`string`
+**Gibt Folgendes zurück:**`string`
 
 ___
 
@@ -185,9 +177,9 @@ ___
 
 ###  <a name="toapicompatiblejson"></a>toAPICompatibleJSON
 
-▸ **ToAPICompatibleJSON**():`JSON`
+▸ **toAPICompatibleJSON**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -195,9 +187,9 @@ ___
 
 ###  <a name="toclientjson"></a>toClientJSON
 
-▸ **ToClientJSON**():`JSON`
+▸ **toClientJSON**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -205,9 +197,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -215,7 +207,7 @@ ___
 
 ###  <a name="validateresponse"></a>validateResponse
 
-▸ **ValidateResponse**(Antwort: *`string`*): [KASQuestionValidationResponse](kasclient.kasquestionvalidationresponse.md)
+▸ **validateResponse**(Response: *`string`*): [KASQuestionValidationResponse](kasclient.kasquestionvalidationresponse.md)
 
 **Parameter:**
 
@@ -223,7 +215,7 @@ ___
 | ------ | ------ |
 | Antwort | `string` |
 
-**Gibt:** [KASQuestionValidationResponse](kasclient.kasquestionvalidationresponse.md)
+**Gibt Folgendes zurück:** [KASQuestionValidationResponse](kasclient.kasquestionvalidationresponse.md)
 
 ___
 
@@ -231,15 +223,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*): [KASQuestion](kasclient.kasquestion.md)
+▸ **fromJSON**(Object: *`any`*): [KASQuestion](kasclient.kasquestion.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 
-**Gibt:** [KASQuestion](kasclient.kasquestion.md)
+**Gibt Folgendes zurück:** [KASQuestion](kasclient.kasquestion.md)
 
 ___
 

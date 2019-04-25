@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: c52e672a7e3356171388692054fcd1dc3cee5365
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728058"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASOptionResult](../classes/kasclient.kasoptionresult.md)
 
 # <a name="class-kasoptionresult"></a>Klasse: KASOptionResult
@@ -34,9 +26,9 @@ ms.locfileid: "28728058"
 
 ###  <a name="optionid"></a>optionId
 
-**● OptionId**: *`number`* = 0
+**● options**-Nr *`number`* .: = 0
 
-Index der option
+Index der Option
 
 ___
 
@@ -44,9 +36,9 @@ ___
 
 ###  <a name="optiontitle"></a>optionTitle
 
-**● OptionTitle**: *`string`* = ""
+**● optionTitle**: *`string`* = ""
 
-Titel der option
+Titel der Option
 
 ___
 
@@ -54,9 +46,9 @@ ___
 
 ###  <a name="respondertoresponsecount"></a>responderToResponseCount
 
-**● ResponderToResponseCount**:*`object`*
+**● responderToResponseCount**:*`object`*
 
-Eine Übersicht über die Benutzer-Ids für ihre Antwort Count Dictionary<UserId: string, ResponseCount: Number>
+Eine Zuordnung von Benutzer-IDs mit ihrer Antwort Anzahl Dictionary<UserId: String, ResponseCount: number>
 #### <a name="type-declaration"></a>Typdeklaration
 
 ___
@@ -65,9 +57,9 @@ ___
 
 ###  <a name="totalresponsescount"></a>totalResponsesCount
 
-**● TotalResponsesCount**: *`number`* = 0
+**● totalResponsesCount**: *`number`* = 0
 
-Wie viele diese Option ausgewählt haben
+Wie viele haben diese Option gewählt?
 
 ___
 
@@ -77,15 +69,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*): [KASOptionResult](kasclient.kasoptionresult.md)
+▸ **fromJSON**(Object: *`any`*): [KASOptionResult](kasclient.kasoptionresult.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 
-**Gibt:** [KASOptionResult](kasclient.kasoptionresult.md)
+**Gibt Folgendes zurück:** [KASOptionResult](kasclient.kasoptionresult.md)
 
 ___
 

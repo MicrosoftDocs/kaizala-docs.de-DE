@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: b8822979ed885b9c91968f4bcd84c85a9fad52a7
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728035"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [CameraFilterMode](../enums/kasclient.camerafiltermode.md)
 
 # <a name="enumeration-camerafiltermode"></a>Enumeration: CameraFilterMode
@@ -14,9 +6,9 @@ ms.locfileid: "28728035"
 
 ### <a name="enumeration-members"></a>Enumerationsmember
 
-* [BusinessCard](kasclient.camerafiltermode.md#businesscard)
-* [Document](kasclient.camerafiltermode.md#document)
-* [Foto](kasclient.camerafiltermode.md#photo)
+* [Visitenkarten](kasclient.camerafiltermode.md#businesscard)
+* [Dokument](kasclient.camerafiltermode.md#document)
+* [Photo](kasclient.camerafiltermode.md#photo)
 * [WhiteBoard](kasclient.camerafiltermode.md#whiteboard)
 
 ---
@@ -25,9 +17,9 @@ ms.locfileid: "28728035"
 
 <a id="businesscard"></a>
 
-###  <a name="businesscard"></a>BusinessCard
+###  <a name="businesscard"></a>Visitenkarten
 
-**BusinessCard**: = "BusinessCard"
+**Visitenkarten**: = "Visitenkarten"
 
 ___
 
@@ -35,7 +27,7 @@ ___
 
 ###  <a name="document"></a>Dokument
 
-**Dokument**: = "Document"
+**Document**: = "Document"
 
 ___
 
@@ -43,7 +35,7 @@ ___
 
 ###  <a name="photo"></a>Foto
 
-**Foto**: = "Photo"
+**Foto**: = "Foto"
 
 ___
 
@@ -51,7 +43,7 @@ ___
 
 ###  <a name="whiteboard"></a>WhiteBoard
 
-**WhiteBoard**: = "WhiteBoard"
+**Whiteboard**: = "Whiteboard"
 
 ___
 

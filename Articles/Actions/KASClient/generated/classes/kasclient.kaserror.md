@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: fb1ab90d11725ffb657738e090e9e83baee6b886
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728086"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASError](../classes/kasclient.kaserror.md)
 
 # <a name="class-kaserror"></a>Klasse: KASError
@@ -32,7 +24,7 @@ ms.locfileid: "28728086"
 
 ###  <a name="description"></a>description
 
-**● Beschreibung**: *`String`* = ""
+**● Description**: *`String`* = ""
 
 ___
 
@@ -40,7 +32,7 @@ ___
 
 ###  <a name="errorcode"></a>errorCode
 
-**● ErrorCode**: *[KASErrorCode](../enums/kasclient.kaserrorcode.md)* = KASErrorCode.NONE
+**● errorCode**: *[KASErrorCode](../enums/kasclient.kaserrorcode.md)* = KASErrorCode. None
 
 ___
 
@@ -50,7 +42,7 @@ ___
 
 ### <a name="static-fromstring"></a>`<Static>`fromString
 
-▸ **FromString**(StringifyError: *`string`*): [KASError](kasclient.kaserror.md)
+▸ **from**(stringifyError: *`string`*): [KASError](kasclient.kaserror.md)
 
 **Parameter:**
 
@@ -58,7 +50,7 @@ ___
 | ------ | ------ |
 | stringifyError | `string` |
 
-**Gibt:** [KASError](kasclient.kaserror.md)
+**Gibt Folgendes zurück:** [KASError](kasclient.kaserror.md)
 
 ___
 

@@ -35,7 +35,7 @@ Contoso hat sein Office 365-Abrechnungs Land in der EU. Contoso hat sich auf Kai
 - Onboarding auf der Seite für die **Datenspeicherort** -für Unternehmen ist der Datenspeicherort für unterschiedliche Arbeitsauslastungen von Office 365 unter dem Office 365-Administratorportal unter Home\Organizational-Profil sichtbar. Die Möglichkeit zur Onboarding-Kaizala auf der Seite Datenspeicherort im Administratorportal wird angezeigt. In diesem Abschnitt finden Sie Updates.
 - **Neue Rechenzentren** – das Kaizala-Team beruht ständig auf der Erweiterung der Benutzerfreundlichkeit. Wenn Sie einen geschäftlichen Fall haben, veröffentlichen Sie Ihre Fragen in unserer [TechNet-Community](https://techcommunity.microsoft.com/t5/Microsoft-Kaizala/ct-p/MicrosoftKaizala).
 
-## <a name="faqs"></a>FAQs
+## <a name="faqs"></a>Häufig gestellte Fragen (FAQs)
 
 ### <a name="what-does-it-mean-for-existing-enterprise-customers"></a>Was bedeutet dies für bestehende Unternehmenskunden?
 

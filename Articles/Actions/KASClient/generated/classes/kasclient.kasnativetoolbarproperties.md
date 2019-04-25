@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: bc1a670fc84102590cbb4ba65394a12faeac1b4a
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728088"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASNativeToolbarProperties](../classes/kasclient.kasnativetoolbarproperties.md)
 
 # <a name="class-kasnativetoolbarproperties"></a>Klasse: KASNativeToolbarProperties
@@ -20,7 +12,7 @@ ms.locfileid: "28728088"
 
 * [fixedUrl](kasclient.kasnativetoolbarproperties.md#fixedurl)
 * [icon](kasclient.kasnativetoolbarproperties.md#icon)
-* [Untertitel](kasclient.kasnativetoolbarproperties.md#subtitle)
+* [Subtitle](kasclient.kasnativetoolbarproperties.md#subtitle)
 * [title](kasclient.kasnativetoolbarproperties.md#title)
 * [urlAction](kasclient.kasnativetoolbarproperties.md#urlaction)
 * [urlType](kasclient.kasnativetoolbarproperties.md#urltype)
@@ -36,7 +28,7 @@ ms.locfileid: "28728088"
 
 ###  <a name="fixedurl"></a>fixedUrl
 
-**● FixedUrl**: *`string`* = Null
+**● fixedUrl**: *`string`* = NULL
 
 ___
 
@@ -44,15 +36,15 @@ ___
 
 ###  <a name="icon"></a>Symbol
 
-**● Symbol**: *`string`* = Null
+**● Icon**: *`string`* = NULL
 
 ___
 
 <a id="subtitle"></a>
 
-###  <a name="subtitle"></a>Untertitel
+###  <a name="subtitle"></a>Subtitle
 
-**● Untertitel**: *`string`* = Null
+**●**Untertitel *`string`* : = NULL
 
 ___
 
@@ -60,7 +52,7 @@ ___
 
 ###  <a name="title"></a>title
 
-**● Titel**: *`string`* = Null
+**● Title**: *`string`* = NULL
 
 ___
 
@@ -68,7 +60,7 @@ ___
 
 ###  <a name="urlaction"></a>urlAction
 
-**● UrlAction**: *[UrlAction](../enums/kasclient.urlaction.md)* = UrlAction.None
+**● urlAction**: *[urlAction](../enums/kasclient.urlaction.md)* = urlAction. None
 
 ___
 
@@ -76,7 +68,7 @@ ___
 
 ###  <a name="urltype"></a>urlType
 
-**● UrlType**: *[UrlType](../enums/kasclient.urltype.md)* = UrlType.Current
+**● urlType**: *[urlType](../enums/kasclient.urltype.md)* = urlType. Current
 
 ___
 
@@ -86,9 +78,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 

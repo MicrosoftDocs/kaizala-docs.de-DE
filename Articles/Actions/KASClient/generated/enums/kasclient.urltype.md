@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 90bd0853d05a2cc9012362e8618b662faed7b481
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728053"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [UrlType](../enums/kasclient.urltype.md)
 
 # <a name="enumeration-urltype"></a>Enumeration: UrlType
@@ -25,7 +17,7 @@ ms.locfileid: "28728053"
 
 ###  <a name="current"></a>Current
 
-**Aktuelle**: 0 =
+**Current**: = 0
 
 ___
 
@@ -33,7 +25,7 @@ ___
 
 ###  <a name="fixed"></a>Fest
 
-**Feste**: = 1
+**Behoben**: = 1
 
 ___
 

@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 22eabf5d2b2239d7a5f14a9b2ffdcaf165af34bf
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728124"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormResultVisibility](../enums/kasclient.kasformresultvisibility.md)
 
 # <a name="enumeration-kasformresultvisibility"></a>Enumeration: KASFormResultVisibility
@@ -14,10 +6,10 @@ ms.locfileid: "28728124"
 
 ### <a name="enumeration-members"></a>Enumerationsmember
 
-* [Administrator](kasclient.kasformresultvisibility.md#admin)
+* [Admin](kasclient.kasformresultvisibility.md#admin)
 * [All](kasclient.kasformresultvisibility.md#all)
 * [MembersAndSubscribers](kasclient.kasformresultvisibility.md#membersandsubscribers)
-* [Absender](kasclient.kasformresultvisibility.md#sender)
+* [Sender](kasclient.kasformresultvisibility.md#sender)
 
 ---
 
@@ -29,7 +21,7 @@ ms.locfileid: "28728124"
 
 **Admin**: = 2
 
-Zusammenfassung ist für den-Administratoren der Unterhaltung sichtbar.
+Zusammenfassung ist für alle Administratoren der Unterhaltung sichtbar
 
 ___
 
@@ -37,9 +29,9 @@ ___
 
 ###  <a name="all"></a>Alle
 
-**Alle**: 0 =
+**All**: = 0
 
-Formular-Zusammenfassung ist für alle Benutzer in der Unterhaltung sichtbar
+Die formularzusammenfassung ist für alle Personen in der Unterhaltung sichtbar.
 
 ___
 
@@ -49,7 +41,7 @@ ___
 
 **MembersAndSubscribers**: = 3
 
-Zusammenfassung ist für das Element und die Abonnenten der Unterhaltung sichtbar.
+Zusammenfassung ist für alle Mitglieder und Abonnenten der Unterhaltung sichtbar
 
 ___
 
@@ -59,7 +51,7 @@ ___
 
 **Absender**: = 1
 
-Zusammenfassung ist für nur der Ersteller des Formulars sichtbar.
+Zusammenfassung ist nur für den Ersteller des Formulars sichtbar
 
 ___
 

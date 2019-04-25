@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: be34131e79e667166730ab5595a82f22d891d7d7
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728089"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASQuestionOption](../classes/kasclient.kasquestionoption.md)
 
 # <a name="class-kasquestionoption"></a>Klasse: KASQuestionOption
@@ -19,7 +11,7 @@ ms.locfileid: "28728089"
 ### <a name="properties"></a>Eigenschaften
 
 * [id](kasclient.kasquestionoption.md#id)
-* [Bild-URL](kasclient.kasquestionoption.md#pictureurl)
+* [pictureUrl](kasclient.kasquestionoption.md#pictureurl)
 * [text](kasclient.kasquestionoption.md#text)
 ### <a name="methods"></a>Methoden
 
@@ -36,15 +28,15 @@ ms.locfileid: "28728089"
 
 ###  <a name="id"></a>id
 
-**●-Id**: *`number`* = 0
+**● ID**: *`number`* = 0
 
 ___
 
 <a id="pictureurl"></a>
 
-###  <a name="pictureurl"></a>Bild-URL
+###  <a name="pictureurl"></a>pictureUrl
 
-**● Bild-URL**: *`string`* = Null
+**● pictureUrl**: *`string`* = NULL
 
 ___
 
@@ -62,9 +54,9 @@ ___
 
 ###  <a name="toapicompatiblejson"></a>toAPICompatibleJSON
 
-▸ **ToAPICompatibleJSON**():`JSON`
+▸ **toAPICompatibleJSON**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -72,9 +64,9 @@ ___
 
 ###  <a name="toclientjson"></a>toClientJSON
 
-▸ **ToClientJSON**():`JSON`
+▸ **toClientJSON**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -82,9 +74,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -92,15 +84,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*): [KASQuestionOption](kasclient.kasquestionoption.md)
+▸ **fromJSON**(Object: *`any`*): [KASQuestionOption](kasclient.kasquestionoption.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 
-**Gibt:** [KASQuestionOption](kasclient.kasquestionoption.md)
+**Gibt Folgendes zurück:** [KASQuestionOption](kasclient.kasquestionoption.md)
 
 ___
 

@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 45b9faa0ec2bde1b344f3fa24274c4a18c0c2c12
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728041"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormSubgroupSummary](../classes/kasclient.kasformsubgroupsummary.md)
 
 # <a name="class-kasformsubgroupsummary"></a>Klasse: KASFormSubgroupSummary
@@ -35,7 +27,7 @@ ms.locfileid: "28728041"
 
 **● GroupName**: *`string`* = ""
 
-Beispiel Untergruppe zusammenfassenden {"0c6207fc-39ce-4b74-b420-db2d52f2c388@1": {"n": "G22", "Rdc": 1, "Tc": 6}}
+Beispiel für eine Untergruppen Zusammenfassung {"0c6207fc-39ce-4b74-b420-db2d52f2c388 @ 1": {"n": "G22", "RDC": 1, "TC": 6}}
 
 ___
 
@@ -43,7 +35,7 @@ ___
 
 ###  <a name="respondercount"></a>responderCount
 
-**● ResponderCount**: *`number`* = 0
+**● responderCount**: *`number`* = 0
 
 ___
 
@@ -51,7 +43,7 @@ ___
 
 ###  <a name="targetcount"></a>targetCount
 
-**● TargetCount**: *`number`* = 0
+**● targetCount**: *`number`* = 0
 
 ___
 
@@ -61,15 +53,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*): [KASFormSubgroupSummary](kasclient.kasformsubgroupsummary.md)
+▸ **fromJSON**(Object: *`any`*): [KASFormSubgroupSummary](kasclient.kasformsubgroupsummary.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 
-**Gibt:** [KASFormSubgroupSummary](kasclient.kasformsubgroupsummary.md)
+**Gibt Folgendes zurück:** [KASFormSubgroupSummary](kasclient.kasformsubgroupsummary.md)
 
 ___
 

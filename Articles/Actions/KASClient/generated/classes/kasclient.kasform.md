@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: a2550fdcf4a5d37ac751dd188ae3cf1338962e57
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728115"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASForm](../classes/kasclient.kasform.md)
 
 # <a name="class-kasform"></a>Klasse: KASForm
@@ -21,7 +13,7 @@ ms.locfileid: "28728115"
 * [allowSendReminder](kasclient.kasform.md#allowsendreminder)
 * [conversationId](kasclient.kasform.md#conversationid)
 * [creatorId](kasclient.kasform.md#creatorid)
-* [Kennwortablauf](kasclient.kasform.md#expiry)
+* [Ablauf](kasclient.kasform.md#expiry)
 * [id](kasclient.kasform.md#id)
 * [isAnonymous](kasclient.kasform.md#isanonymous)
 * [isGroupLevelAggregationRequired](kasclient.kasform.md#isgrouplevelaggregationrequired)
@@ -31,11 +23,11 @@ ms.locfileid: "28728115"
 * [packageId](kasclient.kasform.md#packageid)
 * [properties](kasclient.kasform.md#properties)
 * [Fragen](kasclient.kasform.md#questions)
-* [Definition](kasclient.kasform.md#reporttype)
+* [reportType](kasclient.kasform.md#reporttype)
 * [title](kasclient.kasform.md#title)
 * [type](kasclient.kasform.md#type)
 * [version](kasclient.kasform.md#version)
-* [visibility](kasclient.kasform.md#visibility)
+* [Sicht](kasclient.kasform.md#visibility)
 ### <a name="methods"></a>Methoden
 
 * [getAPICompatibleVisibilityType](kasclient.kasform.md#getapicompatiblevisibilitytype)
@@ -53,9 +45,9 @@ ms.locfileid: "28728115"
 
 ###  <a name="allowsendreminder"></a>allowSendReminder
 
-**● AllowSendReminder**: *[KASFormResultVisibility](../enums/kasclient.kasformresultvisibility.md)* = KASFormResultVisibility.Sender
+**● allowSendReminder**: *[KASFormResultVisibility](../enums/kasclient.kasformresultvisibility.md)* = KASFormResultVisibility. Sender
 
-Wer kann Erinnerung erhalten, Standardwert Absender
+Wer Erinnerungen senden kann, Standardwert ist Absender
 
 ___
 
@@ -63,9 +55,9 @@ ___
 
 ###  <a name="conversationid"></a>conversationId
 
-**● ConversationId**: *`string`* = ""
+**● Konversations**- *`string`* Nr.: = ""
 
-Zugehörige Konversations-Id, sollte nicht geändert werden
+Zugeordnete Unterhaltungs-ID sollte nicht geändert werden
 
 ___
 
@@ -73,15 +65,15 @@ ___
 
 ###  <a name="creatorid"></a>creatorId
 
-**● CreatorId**: *`string`* = ""
+**● Creator**-Nr *`string`* .: = ""
 
-Benutzer-Id, die das Formular erstellt hat, sollte nicht geändert werden
+Benutzer-ID, die das Formular erstellt hat, sollte nicht geändert werden
 
 ___
 
 <a id="expiry"></a>
 
-###  <a name="expiry"></a>Kennwortablauf
+###  <a name="expiry"></a>Ablauf
 
 **● Ablauf**: *`number`* = 0
 
@@ -93,9 +85,9 @@ ___
 
 ###  <a name="id"></a>id
 
-**●-Id**: *`string`* = ""
+**● ID**: *`string`* = ""
 
-Id bilden, sollte nicht geändert werden
+Formular-ID, sollte nicht geändert werden
 
 ___
 
@@ -103,9 +95,9 @@ ___
 
 ###  <a name="isanonymous"></a>isAnonymous
 
-**● IsAnonymous**: *`boolean`* = False
+**● IsAnonymous**: *`boolean`* = false
 
-Wenn das Formular anonyme ist, ist die Standardeinstellung "false"
+Wenn das Formular anonym ist, lautet der Standardwert false.
 
 ___
 
@@ -113,9 +105,9 @@ ___
 
 ###  <a name="isgrouplevelaggregationrequired"></a>isGroupLevelAggregationRequired
 
-**● IsGroupLevelAggregationRequired**: *`boolean`* = False
+**● isGroupLevelAggregationRequired**: *`boolean`* = false
 
-Gibt an, ob die Server Untergruppe Level Aggregation auf Ergebnisse für diese Aktionsinstanz geschehen soll
+ob der Server die Aggregation Untergruppenebene auf Ergebnisse für diese Aktionsinstanz ausführen sollte
 
 ___
 
@@ -123,9 +115,9 @@ ___
 
 ###  <a name="islocationrequested"></a>isLocationRequested
 
-**● IsLocationRequested**: *`boolean`* = False
+**● isLocationRequested**: *`boolean`* = false
 
-Gibt die Teilnehmer Speicherort mit der Antwort oder nicht angeschlossen ist, standardmäßig false ist
+Gibt an, ob die Position der Teilnehmer mit der Antwort verbunden ist, und der Standardwert ist false.
 
 ___
 
@@ -133,9 +125,9 @@ ___
 
 ###  <a name="isresponseappended"></a>isResponseAppended
 
-**● IsResponseAppended**: *`boolean`* = False
+**● isResponseAppended**: *`boolean`* = false
 
-Gibt an, wenn mehrere Antworten von einem Benutzer oder nicht zugelassen sind, standardmäßig false ist
+Gibt an, ob mehrere Antworten eines Benutzers zulässig sind oder nicht, der Standardwert ist false.
 
 ___
 
@@ -143,7 +135,7 @@ ___
 
 ###  <a name="json"></a>json
 
-**● Json**:*`JSON`*
+**● JSON**:*`JSON`*
 
 ___
 
@@ -151,9 +143,9 @@ ___
 
 ###  <a name="packageid"></a>packageId
 
-**● PackageId**: *`string`* = ""
+**● Paket**-Nr *`string`* .: = ""
 
-Konfigurationspaket-Id von der MiniApp, sollte nicht geändert werden
+Paket-ID des MiniApp, sollte nicht geändert werden
 
 ___
 
@@ -161,7 +153,7 @@ ___
 
 ###  <a name="properties"></a>properties
 
-**● Eigenschaften**: * [KASFormProperty](kasclient.kasformproperty.md)[]* =]
+**● Eigenschaften**: * [KASFormProperty](kasclient.kasformproperty.md)[]* = []
 
 Eine Liste der dem Formular zugeordneten Metadaten
 
@@ -171,19 +163,19 @@ ___
 
 ###  <a name="questions"></a>Fragen
 
-**● Fragen**: * [KASQuestion](kasclient.kasquestion.md)[]* =]
+**● Fragen**: * [KASQuestion](kasclient.kasquestion.md)[]* = []
 
-Alle dem Formular zugeordneten Fragen
+Alle Fragen im Zusammenhang mit dem Formular
 
 ___
 
 <a id="reporttype"></a>
 
-###  <a name="reporttype"></a>Definition
+###  <a name="reporttype"></a>reportType
 
-**● Definition**: *`number`* = 0
+**● reportType**: *`number`* = 0
 
-Berichtstyp Umfrage, Standard ist 0, für den Auftrag wird 1
+Berichttyp der Umfrage, Standardwert ist 0, für Job sollte es 1 sein
 
 ___
 
@@ -191,7 +183,7 @@ ___
 
 ###  <a name="title"></a>title
 
-**● Titel**: *`string`* = ""
+**● Title**: *`string`* = ""
 
 Formulartitel
 
@@ -199,11 +191,11 @@ ___
 
 <a id="type"></a>
 
-###  <a name="type"></a>type
+###  <a name="type"></a>Typ
 
 **● Typ**: *`number`* = 20
 
-Typ des Formulars Standardeinstellung ist 20, sollte nicht geändert werden
+Formulartyp, Standardwert: 20, sollte nicht geändert werden
 
 ___
 
@@ -213,7 +205,7 @@ ___
 
 **● Version**: *`number`* = 2
 
-Version des Formulars, der Standardwert ist 2, sollte nicht geändert werden
+Version des Formulars, Standardwert ist 2, sollte nicht geändert werden
 
 ___
 
@@ -221,9 +213,9 @@ ___
 
 ###  <a name="visibility"></a>visibility
 
-**● Sichtbarkeit**: *[KASFormResultVisibility](../enums/kasclient.kasformresultvisibility.md)* = KASFormResultVisibility.All
+**● Sichtbarkeit**: *[KASFormResultVisibility](../enums/kasclient.kasformresultvisibility.md)* = KASFormResultVisibility. all
 
-Wem die Zusammenfassung des Formulars angezeigt werden, ist mit Standardwert alle
+Wer die Zusammenfassung des Formulars sehen kann, der Standardwert ist "All"
 
 ___
 
@@ -233,15 +225,15 @@ ___
 
 ###  <a name="getapicompatiblevisibilitytype"></a>getAPICompatibleVisibilityType
 
-▸ **GetAPICompatibleVisibilityType**(VisibilityType: *[KASFormResultVisibility](../enums/kasclient.kasformresultvisibility.md)*):`string`
+▸- **getAPICompatibleVisibilityType**(visibilitytype: *[KASFormResultVisibility](../enums/kasclient.kasformresultvisibility.md)*):`string`
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| visibilityType | [KASFormResultVisibility](../enums/kasclient.kasformresultvisibility.md) |
+| visibilitytype | [KASFormResultVisibility](../enums/kasclient.kasformresultvisibility.md) |
 
-**Gibt:**`string`
+**Gibt Folgendes zurück:**`string`
 
 ___
 
@@ -249,9 +241,9 @@ ___
 
 ###  <a name="toapicompatiblejson"></a>toAPICompatibleJSON
 
-▸ **ToAPICompatibleJSON**():`JSON`
+▸ **toAPICompatibleJSON**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -259,9 +251,9 @@ ___
 
 ###  <a name="toclientjson"></a>toClientJSON
 
-▸ **ToClientJSON**():`JSON`
+▸ **toClientJSON**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -269,9 +261,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -279,7 +271,7 @@ ___
 
 ### <a name="static-addresponsenotificationforaddrow"></a>`<Static>`addResponseNotificationForAddRow
 
-▸ **AddResponseNotificationForAddRow**(Formular: *[KASForm](kasclient.kasform.md)*, NotificationSpec: *[KASFormResponseNotificationModel](kasclient.kasformresponsenotificationmodel.md)*):`void`
+▸ **addResponseNotificationForAddRow**(Form: *[KASForm](kasclient.kasform.md)*, notificationSpec: *[KASFormResponseNotificationModel](kasclient.kasformresponsenotificationmodel.md)*):`void`
 
 **Parameter:**
 
@@ -288,7 +280,7 @@ ___
 | Formular | [KASForm](kasclient.kasform.md) |
 | notificationSpec | [KASFormResponseNotificationModel](kasclient.kasformresponsenotificationmodel.md) |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -296,15 +288,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`JSON`*): [KASForm](kasclient.kasform.md)
+▸ **fromJSON**(Object: *`JSON`*): [KASForm](kasclient.kasform.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `JSON` |
+| Objekt | `JSON` |
 
-**Gibt:** [KASForm](kasclient.kasform.md)
+**Gibt Folgendes zurück:** [KASForm](kasclient.kasform.md)
 
 ___
 

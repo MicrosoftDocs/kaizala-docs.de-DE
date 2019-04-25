@@ -1,23 +1,15 @@
----
-ms.openlocfilehash: ea8282e27388f48c78a7e4d0f353da991999af51
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728070"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormConversationType](../enums/kasclient.kasformconversationtype.md)
 
 # <a name="enumeration-kasformconversationtype"></a>Enumeration: KASFormConversationType
 
-Enum für Unterhaltung-Typ
+Enumeration für Unterhaltungstyp
 ## <a name="index"></a>Index 
 
 ### <a name="enumeration-members"></a>Enumerationsmember
 
 * [FLAT_GROUP](kasclient.kasformconversationtype.md#flat_group)
 * [FORUM](kasclient.kasformconversationtype.md#forum)
-* [NONE](kasclient.kasformconversationtype.md#none)
+* [KEINE](kasclient.kasformconversationtype.md#none)
 * [ONE_ON_ONE](kasclient.kasformconversationtype.md#one_on_one)
 * [PUBLIC_GROUP](kasclient.kasformconversationtype.md#public_group)
 
@@ -37,15 +29,15 @@ ___
 
 ###  <a name="forum"></a>FORUM
 
-**FORUM**: = 2
+**Forum**: = 2
 
 ___
 
 <a id="none"></a>
 
-###  <a name="none"></a>NONE
+###  <a name="none"></a>KEINE
 
-**NONE**: =-1
+**None**: =-1
 
 ___
 
@@ -53,7 +45,7 @@ ___
 
 ###  <a name="oneonone"></a>ONE_ON_ONE
 
-**ONE_ON_ONE**: 0 =
+**ONE_ON_ONE**: = 0
 
 ___
 

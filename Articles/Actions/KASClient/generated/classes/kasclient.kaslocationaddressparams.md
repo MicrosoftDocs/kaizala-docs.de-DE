@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 19f0ef9a49fe489c52bb69505ff742e2aaebd7da
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728040"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASLocationAddressParams](../classes/kasclient.kaslocationaddressparams.md)
 
 # <a name="class-kaslocationaddressparams"></a>Klasse: KASLocationAddressParams
@@ -18,7 +10,7 @@ ms.locfileid: "28728040"
 
 ### <a name="properties"></a>Eigenschaften
 
-* [Sprache](kasclient.kaslocationaddressparams.md#language)
+* [language](kasclient.kaslocationaddressparams.md#language)
 * [latitude](kasclient.kaslocationaddressparams.md#latitude)
 * [longitude](kasclient.kaslocationaddressparams.md#longitude)
 ### <a name="methods"></a>Methoden
@@ -41,7 +33,7 @@ ___
 
 ###  <a name="latitude"></a>latitude
 
-**● Breitengrad**:*`number`*
+**● Latitude**:*`number`*
 
 ___
 
@@ -49,7 +41,7 @@ ___
 
 ###  <a name="longitude"></a>longitude
 
-**● Längengrad**:*`number`*
+**● Länge**:*`number`*
 
 ___
 
@@ -59,9 +51,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 

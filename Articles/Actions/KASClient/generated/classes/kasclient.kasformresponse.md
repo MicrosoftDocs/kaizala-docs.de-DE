@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 84e9530593e8850a0cf354ae2e07c77e0b68db75
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728059"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormResponse](../classes/kasclient.kasformresponse.md)
 
 # <a name="class-kasformresponse"></a>Klasse: KASFormResponse
@@ -25,7 +17,7 @@ ms.locfileid: "28728059"
 * [responderId](kasclient.kasformresponse.md#responderid)
 * [responderName](kasclient.kasformresponse.md#respondername)
 * [sendStatus](kasclient.kasformresponse.md#sendstatus)
-* [<ui>sendTime</ui>](kasclient.kasformresponse.md#sendtime)
+* [Sendezeit](kasclient.kasformresponse.md#sendtime)
 * [serverToLocalAssetUrlMap](kasclient.kasformresponse.md#servertolocalasseturlmap)
 ### <a name="methods"></a>Methoden
 
@@ -39,9 +31,9 @@ ms.locfileid: "28728059"
 
 ###  <a name="groupid"></a>groupId
 
-**● GroupId**: *`string`* = ""
+**● Groupi**: *`string`* = ""
 
-Gruppen-id
+Gruppen-ID
 
 ___
 
@@ -51,7 +43,7 @@ ___
 
 **● GroupName**: *`string`* = ""
 
-Gruppenname
+Group Name
 
 ___
 
@@ -59,9 +51,9 @@ ___
 
 ###  <a name="id"></a>id
 
-**●-Id**: *`string`* = ""
+**● ID**: *`string`* = ""
 
-Eine eindeutige Antwort-Id, die im Fall eines WAN-aktualisieren eine vorhandene Antwort erforderlich
+Eine eindeutige Antwort-ID, die bei der Aktualisierung einer vorhandenen Antwort erforderlich ist
 
 ___
 
@@ -69,9 +61,9 @@ ___
 
 ###  <a name="questiontoanswermap"></a>questionToAnswerMap
 
-**● QuestionToAnswerMap**:*`object`*
+**● questionToAnswerMap**:*`object`*
 
-Eine Zuordnung der Frage Id Dictionary<QuestionId beantworten: number, Antwort: String>
+Eine Karte der Frage-ID zur Antwort Dictionary<QuestionId: Number, Answer: string>
 #### <a name="type-declaration"></a>Typdeklaration
 
 ___
@@ -80,9 +72,9 @@ ___
 
 ###  <a name="responderid"></a>responderId
 
-**● ResponderId**: *`string`* = ""
+**● responderId**: *`string`* = ""
 
-Responder-id
+Responder-ID
 
 ___
 
@@ -90,9 +82,9 @@ ___
 
 ###  <a name="respondername"></a>responderName
 
-**● ResponderName**: *`string`* = ""
+**● responderName**: *`string`* = ""
 
-Responder name
+Respondername
 
 ___
 
@@ -100,19 +92,19 @@ ___
 
 ###  <a name="sendstatus"></a>sendStatus
 
-**● SendStatus**: *[KASFormMessageSendStatus](../enums/kasclient.kasformmessagesendstatus.md)* = KASFormMessageSendStatus.Unknown
+**● sendStatus**: *[KASFormMessageSendStatus](../enums/kasclient.kasformmessagesendstatus.md)* = KASFormMessageSendStatus. Unknown
 
-Status der Antwort-Nachricht senden
+Sendestatus der Antwortnachricht
 
 ___
 
 <a id="sendtime"></a>
 
-###  <a name="sendtime"></a>sendTime
+###  <a name="sendtime"></a>Sendezeit
 
-**● SendTime**: *`number`* = 0
+**● Sendezeit**: *`number`* = 0
 
-Antwortzeit senden
+Uhrzeit der Antwort Übermittlung
 
 ___
 
@@ -120,9 +112,9 @@ ___
 
 ###  <a name="servertolocalasseturlmap"></a>serverToLocalAssetUrlMap
 
-**● ServerToLocalAssetUrlMap**:*`object`*
+**● serverToLocalAssetUrlMap**:*`object`*
 
-Eine Zuordnung für ServerUrl gegen localURL im aller Anlagen Bild für eine Antwort Dictionary<ServerUrl: string, localURL im: String>
+Eine Zuordnung für serverUrl für localUrl aller Bildanlagen an eine Antwort Dictionary<ServerUrl: String, LocalUrl: string>
 #### <a name="type-declaration"></a>Typdeklaration
 
 ___
@@ -133,15 +125,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*): [KASFormResponse](kasclient.kasformresponse.md)
+▸ **fromJSON**(Object: *`any`*): [KASFormResponse](kasclient.kasformresponse.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 
-**Gibt:** [KASFormResponse](kasclient.kasformresponse.md)
+**Gibt Folgendes zurück:** [KASFormResponse](kasclient.kasformresponse.md)
 
 ___
 

@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: a9a9a2cd7e5b561360668982dfcbba4e74bfe834
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728079"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASImageAttachment](../classes/kasclient.kasimageattachment.md)
 
 # <a name="class-kasimageattachment"></a>Klasse: KASImageAttachment
@@ -27,7 +19,7 @@ ms.locfileid: "28728079"
 * [height](kasclient.kasimageattachment.md#height)
 * [localPath](kasclient.kasimageattachment.md#localpath)
 * [requireHighResThumbnail](kasclient.kasimageattachment.md#requirehighresthumbnail)
-* [serverPath](kasclient.kasimageattachment.md#serverpath)
+* [Direktive ServerPath existiert](kasclient.kasimageattachment.md#serverpath)
 * [size](kasclient.kasimageattachment.md#size)
 * [thumbnail](kasclient.kasimageattachment.md#thumbnail)
 * [thumbnailServerUrl](kasclient.kasimageattachment.md#thumbnailserverurl)
@@ -49,7 +41,7 @@ ms.locfileid: "28728079"
 
 ###  <a name="attachmentid"></a>attachmentId
 
-**● AttachmentId**: *`string`* = ""
+**● Attachment**-Nr *`string`* .: = ""
 
 ___
 
@@ -57,7 +49,7 @@ ___
 
 ###  <a name="filename"></a>fileName
 
-**● FileName**: *`string`* = ""
+**● filename**: *`string`* = ""
 
 ___
 
@@ -65,7 +57,7 @@ ___
 
 ###  <a name="generatethumbnailserverurl"></a>generateThumbnailServerUrl
 
-**● GenerateThumbnailServerUrl**: *`boolean`* = False
+**● generateThumbnailServerUrl**: *`boolean`* = false
 
 ___
 
@@ -73,7 +65,7 @@ ___
 
 ###  <a name="hassetthumbnail"></a>hasSetThumbnail
 
-**● HasSetThumbnail**: *`boolean`* = False
+**● hasSetThumbnail**: *`boolean`* = false
 
 ___
 
@@ -97,15 +89,15 @@ ___
 
 ###  <a name="requirehighresthumbnail"></a>requireHighResThumbnail
 
-**● RequireHighResThumbnail**: *`boolean`* = False
+**● requireHighResThumbnail**: *`boolean`* = false
 
 ___
 
 <a id="serverpath"></a>
 
-###  <a name="serverpath"></a>serverPath
+###  <a name="serverpath"></a>Direktive ServerPath existiert
 
-**● ServerPath**: *`string`* = ""
+**● Direktive ServerPath existiert**: *`string`* = ""
 
 ___
 
@@ -129,15 +121,15 @@ ___
 
 ###  <a name="thumbnailserverurl"></a>thumbnailServerUrl
 
-**● ThumbnailServerUrl**: *`string`* = ""
+**● thumbnailServerUrl**: *`string`* = ""
 
 ___
 
 <a id="type"></a>
 
-###  <a name="type"></a>type
+###  <a name="type"></a>Typ
 
-**● Typ**: *[KASAttachmentType](../enums/kasclient.kasattachmenttype.md)* = KASAttachmentType.Image
+**● Typ**: *[KASAttachmentType](../enums/kasclient.kasattachmenttype.md)* = KASAttachmentType. Image
 
 ___
 
@@ -155,9 +147,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 
@@ -165,15 +157,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*): [KASImageAttachment](kasclient.kasimageattachment.md)
+▸ **fromJSON**(Object: *`any`*): [KASImageAttachment](kasclient.kasimageattachment.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 
-**Gibt:** [KASImageAttachment](kasclient.kasimageattachment.md)
+**Gibt Folgendes zurück:** [KASImageAttachment](kasclient.kasimageattachment.md)
 
 ___
 
@@ -181,7 +173,7 @@ ___
 
 ### <a name="static-haslocalpath"></a>`<Static>`hasLocalPath
 
-▸ **HasLocalPath**(Obj: *[KASAttachment](kasclient.kasattachment.md)*):`boolean`
+▸ **hasLocalPath**(obj: *[KASAttachment](kasclient.kasattachment.md)*):`boolean`
 
 **Parameter:**
 
@@ -189,7 +181,7 @@ ___
 | ------ | ------ |
 | obj | [KASAttachment](kasclient.kasattachment.md) |
 
-**Gibt:**`boolean`
+**Gibt Folgendes zurück:**`boolean`
 
 ___
 
@@ -197,7 +189,7 @@ ___
 
 ### <a name="static-hasserverpath"></a>`<Static>`hasServerPath
 
-▸ **HasServerPath**(Obj: *[KASAttachment](kasclient.kasattachment.md)*):`boolean`
+▸ **hasServerPath**(obj: *[KASAttachment](kasclient.kasattachment.md)*):`boolean`
 
 **Parameter:**
 
@@ -205,7 +197,7 @@ ___
 | ------ | ------ |
 | obj | [KASAttachment](kasclient.kasattachment.md) |
 
-**Gibt:**`boolean`
+**Gibt Folgendes zurück:**`boolean`
 
 ___
 
@@ -213,16 +205,16 @@ ___
 
 ### <a name="static-populatemodelfromjson"></a>`<Static>`populateModelFromJSON
 
-▸ **PopulateModelFromJSON**(Anlage: *[KASImageAttachment](kasclient.kasimageattachment.md)*, Object: *`JSON`*):`void`
+▸ **populateModelFromJSON**(Attachment: *[KASImageAttachment](kasclient.kasimageattachment.md)*, Object: *`JSON`*):`void`
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| Anlage | [KASImageAttachment](kasclient.kasimageattachment.md) |
-| object | `JSON` |
+| attachment | [KASImageAttachment](kasclient.kasimageattachment.md) |
+| Objekt | `JSON` |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 

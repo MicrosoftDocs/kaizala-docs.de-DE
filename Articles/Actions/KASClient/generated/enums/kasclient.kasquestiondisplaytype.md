@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 8481a6b14062087ed925d9f31f5fdd42a83d3316
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728076"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASQuestionDisplayType](../enums/kasclient.kasquestiondisplaytype.md)
 
 # <a name="enumeration-kasquestiondisplaytype"></a>Enumeration: KASQuestionDisplayType
@@ -16,7 +8,7 @@ ms.locfileid: "28728076"
 
 * [DropDown](kasclient.kasquestiondisplaytype.md#dropdown)
 * [None](kasclient.kasquestiondisplaytype.md#none)
-* [RadioButton](kasclient.kasquestiondisplaytype.md#radiobutton)
+* [Button](kasclient.kasquestiondisplaytype.md#radiobutton)
 
 ---
 
@@ -26,13 +18,13 @@ ms.locfileid: "28728076"
 
 ###  <a name="dropdown"></a>DropDown
 
-**DropDown**: 0 =
+**Dropdown**: = 0
 
 ___
 
 <a id="none"></a>
 
-###  <a name="none"></a>Keines
+###  <a name="none"></a>Keine
 
 **None**: =-1
 
@@ -40,7 +32,7 @@ ___
 
 <a id="radiobutton"></a>
 
-###  <a name="radiobutton"></a>RadioButton
+###  <a name="radiobutton"></a>Button
 
 **RadioButton**: = 1
 

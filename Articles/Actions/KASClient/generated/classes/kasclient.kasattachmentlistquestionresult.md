@@ -1,16 +1,8 @@
----
-ms.openlocfilehash: 84017de85cac36d49be86fe3a7a2aca9bb9b4d34
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728068"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASAttachmentListQuestionResult](../classes/kasclient.kasattachmentlistquestionresult.md)
 
 # <a name="class-kasattachmentlistquestionresult"></a>Klasse: KASAttachmentListQuestionResult
 
-Dieses Modell enthält Daten für jede Antwort auf eine Frage Listentyp Anlage.
+Dieses Modell enthält Daten für jede Antwort auf eine Frage zum Anlagen Listentyp.
 ## <a name="hierarchy"></a>Hierarchie
 
  [KASQuestionResult](kasclient.kasquestionresult.md)
@@ -23,9 +15,9 @@ Dieses Modell enthält Daten für jede Antwort auf eine Frage Listentyp Anlage.
 
 * [attachmentListType](kasclient.kasattachmentlistquestionresult.md#attachmentlisttype)
 * [attachmentsResponseJSONStrings](kasclient.kasattachmentlistquestionresult.md#attachmentsresponsejsonstrings)
-* [questionId](kasclient.kasattachmentlistquestionresult.md#questionid)
+* [Frag-Nr.](kasclient.kasattachmentlistquestionresult.md#questionid)
 * [questionTitle](kasclient.kasattachmentlistquestionresult.md#questiontitle)
-* [questionType](kasclient.kasattachmentlistquestionresult.md#questiontype)
+* [questiontype](kasclient.kasattachmentlistquestionresult.md#questiontype)
 * [Zeitstempel](kasclient.kasattachmentlistquestionresult.md#timestamps)
 * [userInfo](kasclient.kasattachmentlistquestionresult.md#userinfo)
 ### <a name="methods"></a>Methoden
@@ -40,9 +32,9 @@ Dieses Modell enthält Daten für jede Antwort auf eine Frage Listentyp Anlage.
 
 ###  <a name="attachmentlisttype"></a>attachmentListType
 
-**● AttachmentListType**: *[AttachmentListResponseType](../enums/kasclient.attachmentlistresponsetype.md)* = AttachmentListResponseType.GENERIC
+**● attachmentListType**: *[AttachmentListResponseType](../enums/kasclient.attachmentlistresponsetype.md)* = AttachmentListResponseType. Generic
 
-AttachmentListType: enthält den Typ der Anlage Liste Antwort
+attachmentListType: enthält den Typ der Antwort der Anlagenliste.
 
 ___
 
@@ -50,17 +42,17 @@ ___
 
 ###  <a name="attachmentsresponsejsonstrings"></a>attachmentsResponseJSONStrings
 
-**● AttachmentsResponseJSONStrings**: * `string`[]* =]
+**● attachmentsResponseJSONStrings**: * `string`[]* = []
 
-AttachmentsResponseJSONStrings: enthält die Liste der Anlagen, die jeder Antwort als eine JSON-Zeichenfolge, die direkt in der QuestionIdToAnswerMap verfügbar ist, entspricht.
+attachmentsResponseJSONStrings: enthält die Liste der Anlagen, die jeder Antwort als JSON-Zeichenfolge entspricht, die in der questionIdToAnswerMap direkt verfügbar ist.
 
 ___
 
 <a id="questionid"></a>
 
-###  <a name="questionid"></a>questionId
+###  <a name="questionid"></a>Frag-Nr.
 
-**● QuestionId**: *`number`* = 0
+**● Frage**-Nr *`number`* .: = 0
 
 Index der Frage
 
@@ -70,17 +62,17 @@ ___
 
 ###  <a name="questiontitle"></a>questionTitle
 
-**● QuestionTitle**: *`string`* = ""
+**● questionTitle**: *`string`* = ""
 
-Titel der Frage
+Der Titel der Frage
 
 ___
 
 <a id="questiontype"></a>
 
-###  <a name="questiontype"></a>questionType
+###  <a name="questiontype"></a>questiontype
 
-**● QuestionType**: *[KASQuestionType](../enums/kasclient.kasquestiontype.md)* = KASQuestionType.None
+**● questiontype**: *[KASQuestionType](../enums/kasclient.kasquestiontype.md)* = KASQuestionType. None
 
 Typ der Frage
 
@@ -90,9 +82,9 @@ ___
 
 ###  <a name="timestamps"></a>Zeitstempel
 
-**● Zeitstempel**: * `string`[]* =]
+**● Zeitstempel**: * `string`[]* = []
 
-Zeitstempel: der Zeitstempel der Antwort für jede Antwort enthält.
+Timestamps: enthält die Antwortzeit Stempel für jede Antwort.
 
 ___
 
@@ -100,9 +92,9 @@ ___
 
 ###  <a name="userinfo"></a>userInfo
 
-**● UserInfo**: * [KASUser](kasclient.kasuser.md)[]* =]
+**●**info info: * [KASUser](kasclient.kasuser.md)[]* = []
 
-UserInfo: enthält die Instanzen von KASUser mit Details für die Teilnehmer für die bestimmten Antwort, damit das Bild Name und Profil des Befragten angezeigt werden können.
+Benutzerinfo: enthält Instanzen von KASUser mit Details für den Beklagten für die jeweilige Antwort, sodass der Name und das Profilbild des Befragten angezeigt werden können.
 
 ___
 
@@ -112,15 +104,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`any`*): [KASQuestionResult](kasclient.kasquestionresult.md)
+▸ **fromJSON**(Object: *`any`*): [KASQuestionResult](kasclient.kasquestionresult.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `any` |
+| Objekt | `any` |
 
-**Gibt:** [KASQuestionResult](kasclient.kasquestionresult.md)
+**Gibt Folgendes zurück:** [KASQuestionResult](kasclient.kasquestionresult.md)
 
 ___
 

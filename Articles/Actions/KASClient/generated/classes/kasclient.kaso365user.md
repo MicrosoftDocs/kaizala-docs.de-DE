@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 772f983399b4c0361536a38ff5363bac9ba08e54
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728047"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASO365User](../classes/kasclient.kaso365user.md)
 
 # <a name="class-kaso365user"></a>Klasse: KASO365User
@@ -37,7 +29,7 @@ ms.locfileid: "28728047"
 
 ###  <a name="businessphones"></a>businessPhones
 
-**● BusinessPhones**: * `string`[]* =]
+**● businessPhones**: * `string`[]* = []
 
 ___
 
@@ -51,7 +43,7 @@ ___
 
 <a id="email"></a>
 
-###  <a name="email"></a>E-Mail
+###  <a name="email"></a>email
 
 **● e-Mail**: *`string`* = ""
 
@@ -61,7 +53,7 @@ ___
 
 ###  <a name="givenname"></a>givenName
 
-**● Vorname**: *`string`* = ""
+**● givenName**: *`string`* = ""
 
 ___
 
@@ -77,7 +69,7 @@ ___
 
 ###  <a name="mobilephone"></a>mobilePhone
 
-**● MobilePhone**: *`string`* = ""
+**● Handy**: *`string`* = ""
 
 ___
 
@@ -85,7 +77,7 @@ ___
 
 ###  <a name="surname"></a>surname
 
-**● Surname**: *`string`* = ""
+**● Nachname**: *`string`* = ""
 
 ___
 
@@ -95,15 +87,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`JSON`*): [KASO365User](kasclient.kaso365user.md)
+▸ **fromJSON**(Object: *`JSON`*): [KASO365User](kasclient.kaso365user.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `JSON` |
+| Objekt | `JSON` |
 
-**Gibt:** [KASO365User](kasclient.kaso365user.md)
+**Gibt Folgendes zurück:** [KASO365User](kasclient.kaso365user.md)
 
 ___
 

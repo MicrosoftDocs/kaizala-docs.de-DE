@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 7530bbe49e390c185f8814b204c9cb1dec1bcfbe
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728083"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [NotificationPriority](../enums/kasclient.notificationpriority.md)
 
 # <a name="enumeration-notificationpriority"></a>Enumeration: NotificationPriority
@@ -14,7 +6,7 @@ ms.locfileid: "28728083"
 
 ### <a name="enumeration-members"></a>Enumerationsmember
 
-* [Hoch](kasclient.notificationpriority.md#high)
+* [High](kasclient.notificationpriority.md#high)
 * [Niedrig](kasclient.notificationpriority.md#low)
 * [Mittel](kasclient.notificationpriority.md#medium)
 
@@ -26,7 +18,7 @@ ms.locfileid: "28728083"
 
 ###  <a name="high"></a>Hoch
 
-**Hoch**: 0 =
+**Hoch**: = 0
 
 ___
 

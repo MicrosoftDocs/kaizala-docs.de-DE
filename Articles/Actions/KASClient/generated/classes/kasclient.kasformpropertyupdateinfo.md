@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 0b376f957db6d02ac186546d0ca5ba11ffb33a15
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728057"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormPropertyUpdateInfo](../classes/kasclient.kasformpropertyupdateinfo.md)
 
 # <a name="class-kasformpropertyupdateinfo"></a>Klasse: KASFormPropertyUpdateInfo
@@ -40,17 +32,17 @@ ___
 
 <a id="operation"></a>
 
-###  <a name="operation"></a>Operation
+###  <a name="operation"></a>Vorgang
 
-**● Vorgang**: *[KASFormPropertyUpdateOperation](../enums/kasclient.kasformpropertyupdateoperation.md)* = KASFormPropertyUpdateOperation.UpdateValue
+**● Operation**: *[KASFormPropertyUpdateOperation](../enums/kasclient.kasformpropertyupdateoperation.md)* = KASFormPropertyUpdateOperation. UpdateValue
 
 ___
 
 <a id="type"></a>
 
-###  <a name="type"></a>type
+###  <a name="type"></a>Typ
 
-**● Typ**: *[KASFormPropertyType](../enums/kasclient.kasformpropertytype.md)* = KASFormPropertyType.Text
+**● Typ**: *[KASFormPropertyType](../enums/kasclient.kasformpropertytype.md)* = KASFormPropertyType. Text
 
 ___
 
@@ -68,9 +60,9 @@ ___
 
 ###  <a name="tojson"></a>toJSON
 
-▸ **ToJSON**():`JSON`
+▸ **tojson**():`JSON`
 
-**Gibt:**`JSON`
+**Gibt Folgendes zurück:**`JSON`
 
 ___
 

@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 1b4a3a6805310a9a0eb7c63701c367d96aa5fe61
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728077"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormAggregatedSummary](../classes/kasclient.kasformaggregatedsummary.md)
 
 # <a name="class-kasformaggregatedsummary"></a>Klasse: KASFormAggregatedSummary
@@ -21,7 +13,7 @@ ms.locfileid: "28728077"
 * [formId](kasclient.kasformaggregatedsummary.md#formid)
 * [formStatus](kasclient.kasformaggregatedsummary.md#formstatus)
 * [JSON](kasclient.kasformaggregatedsummary.md#json)
-* [Ergebnis](kasclient.kasformaggregatedsummary.md#result)
+* [result](kasclient.kasformaggregatedsummary.md#result)
 * [targetResponderCount](kasclient.kasformaggregatedsummary.md#targetrespondercount)
 * [totalParticipantsCount](kasclient.kasformaggregatedsummary.md#totalparticipantscount)
 * [totalResponseCount](kasclient.kasformaggregatedsummary.md#totalresponsecount)
@@ -37,7 +29,7 @@ ms.locfileid: "28728077"
 
 ###  <a name="formid"></a>formId
 
-**● FormId**: *`string`* = ""
+**● Formular**-Nr *`string`* .: = ""
 
 ___
 
@@ -45,7 +37,7 @@ ___
 
 ###  <a name="formstatus"></a>formStatus
 
-**● FormStatus**: *[FormStatus](../enums/kasclient.formstatus.md)* = FormStatus.Active
+**● formStatus**: *[formStatus](../enums/kasclient.formstatus.md)* = formStatus. Active
 
 ___
 
@@ -53,7 +45,7 @@ ___
 
 ###  <a name="json"></a>json
 
-**● Json**:*`JSON`*
+**● JSON**:*`JSON`*
 
 ___
 
@@ -61,7 +53,7 @@ ___
 
 ###  <a name="result"></a>result
 
-**● Ergebnis**: * `any`[]* =]
+**● Ergebnis**: * `any`[]* = []
 
 ___
 
@@ -69,7 +61,7 @@ ___
 
 ###  <a name="targetrespondercount"></a>targetResponderCount
 
-**● TargetResponderCount**: *`number`* = 0
+**● targetResponderCount**: *`number`* = 0
 
 ___
 
@@ -77,7 +69,7 @@ ___
 
 ###  <a name="totalparticipantscount"></a>totalParticipantsCount
 
-**● TotalParticipantsCount**: *`number`* = 0
+**● totalParticipantsCount**: *`number`* = 0
 
 ___
 
@@ -85,7 +77,7 @@ ___
 
 ###  <a name="totalresponsecount"></a>totalResponseCount
 
-**● TotalResponseCount**: *`number`* = 0
+**● totalResponseCount**: *`number`* = 0
 
 ___
 
@@ -95,16 +87,16 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`JSON`*, Fragen: * [KASQuestion](kasclient.kasquestion.md)[]*): [KASFormAggregatedSummary](kasclient.kasformaggregatedsummary.md)
+▸ **fromJSON**(Object: *`JSON`*, questions: * [KASQuestion](kasclient.kasquestion.md)[]*): [KASFormAggregatedSummary](kasclient.kasformaggregatedsummary.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `JSON` |
+| Objekt | `JSON` |
 | Fragen | [KASQuestion](kasclient.kasquestion.md) [] |
 
-**Gibt:** [KASFormAggregatedSummary](kasclient.kasformaggregatedsummary.md)
+**Gibt Folgendes zurück:** [KASFormAggregatedSummary](kasclient.kasformaggregatedsummary.md)
 
 ___
 

@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 7d76c2a5eae67bd6c1063b2595561e299f9f9160
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728052"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormProcessedSummary](../classes/kasclient.kasformprocessedsummary.md)
 
 # <a name="class-kasformprocessedsummary"></a>Klasse: KASFormProcessedSummary
@@ -35,7 +27,7 @@ ms.locfileid: "28728052"
 
 ###  <a name="json"></a>json
 
-**● Json**:*`JSON`*
+**● JSON**:*`JSON`*
 
 ___
 
@@ -43,19 +35,19 @@ ___
 
 ###  <a name="nonrespondersinconversation"></a>nonRespondersInConversation
 
-**● NonRespondersInConversation**: * `string`[]* =]
+**● nonRespondersInConversation**: * `string`[]* = []
 
-Wie viele in der Unterhaltung hat nicht geantwortet
+Wie viele in der Unterhaltung nicht reagierten
 
 ___
 
 <a id="results"></a>
 
-###  <a name="results"></a>Ergebnisse
+###  <a name="results"></a>results
 
 **● Ergebnisse**:*`object`*
 
-Ergebnis für aggregative Fragen Dictionary<QuestionId aggregiert: number, Ergebnis: KASQuestionResult>
+Aggregiertes Ergebnis für aggregierte Fragen Dictionary<QuestionId: Number, result: KASQuestionResult>
 #### <a name="type-declaration"></a>Typdeklaration
 
 ___
@@ -64,7 +56,7 @@ ___
 
 ###  <a name="targetrespondercount"></a>targetResponderCount
 
-**● TargetResponderCount**: *`number`* = 0
+**● targetResponderCount**: *`number`* = 0
 
 Wie viele in der Unterhaltung zugewiesen wurden, um auf dieses Formular zu reagieren
 
@@ -74,9 +66,9 @@ ___
 
 ###  <a name="totalresponsecount"></a>totalResponseCount
 
-**● TotalResponseCount**: *`number`* = 0
+**● totalResponseCount**: *`number`* = 0
 
-Wie viele gesamtantworten für das Formular, erwägen mehrere Antworten von einer Person empfangen wurden
+Wie viele Gesamt Antworten wurden für das Formular empfangen, wenn mehrere Antworten von einer Person berücksichtigt werden
 
 ___
 
@@ -86,15 +78,15 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **FromJSON**(Objekt: *`JSON`*): [KASFormProcessedSummary](kasclient.kasformprocessedsummary.md)
+▸ **fromJSON**(Object: *`JSON`*): [KASFormProcessedSummary](kasclient.kasformprocessedsummary.md)
 
 **Parameter:**
 
 | Name | Typ |
 | ------ | ------ |
-| object | `JSON` |
+| Objekt | `JSON` |
 
-**Gibt:** [KASFormProcessedSummary](kasclient.kasformprocessedsummary.md)
+**Gibt Folgendes zurück:** [KASFormProcessedSummary](kasclient.kasformprocessedsummary.md)
 
 ___
 

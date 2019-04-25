@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 85637909c5bca0d1362114c74f53fa4bd00c69d0
-ms.sourcegitcommit: 1482683c0fde70600ce3b2948cbba8856935d91e
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28728061"
----
 [](../README.md) > [KASClient](../modules/kasclient.md) > [KASFormPropertyUpdateOperation](../enums/kasclient.kasformpropertyupdateoperation.md)
 
 # <a name="enumeration-kasformpropertyupdateoperation"></a>Enumeration: KASFormPropertyUpdateOperation
@@ -69,7 +61,7 @@ ___
 
 ###  <a name="updatevalue"></a>UpdateValue
 
-**UpdateValue**: 0 =
+**UpdateValue**: = 0
 
 ___
 

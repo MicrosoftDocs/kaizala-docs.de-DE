@@ -1,18 +1,10 @@
----
-ms.openlocfilehash: f33333ae61040460dc0386fee6a1f1cc118128be
-ms.sourcegitcommit: 04ef38ff8e68cf1697371551aed1ffb254a69649
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2019
-ms.locfileid: "29379429"
----
-[](../README.md) > [KASClient](../modules/kasclient.md) > [Formular](../modules/kasclient.form.md)
+[](../README.md) > [KASClient](../modules/kasclient.md) > -[Formular](../modules/kasclient.form.md)
 
-# <a name="module-form"></a>Modul: Formular
+# <a name="module-form"></a>Modul: Form
 
 ## <a name="index"></a>Index 
 
-### <a name="creation"></a>Erstellen
+### <a name="creation"></a>Erstellung
 
 * [initFormAsync](kasclient.form.md#initformasync)
 * [submitFormRequestV2](kasclient.form.md#submitformrequestv2)
@@ -51,17 +43,17 @@ ms.locfileid: "29379429"
 
 ---
 
-## <a name="creation"></a>Erstellen
+## <a name="creation"></a>Erstellung
 
 <a id="initformasync"></a>
 
 ###  <a name="initformasync"></a>initFormAsync
 
-▸ **InitFormAsync**(Rückruf: *`function`*):`void`
+▸ **initFormAsync**(Callback: *`function`*):`void`
 
-Initialisiert und gibt ein leeres Formular-Objekt auf der Standard-Datei in das Paket vorhanden basieren
+Initialisiert und gibt ein leeres Form-Objekt basierend auf der im Paket vorhandenen Standardformular Datei zurück.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 KASClient.Form.initFormAsync(function (form, error) {
@@ -75,9 +67,9 @@ KASClient.Form.initFormAsync(function (form, error) {
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{KASForm} @param Formular kann bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {KASForm}-Formular kann im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -85,19 +77,19 @@ ___
 
 ###  <a name="submitformrequestv2"></a>submitFormRequestV2
 
-▸ **submitFormRequestV2**(Formular: *[KASForm](../classes/kasclient.kasform.md)*, ShouldDismiss?: *`boolean`*, ShouldSendToSubscribers?: *`boolean`*):`void`
+▸ **submitFormRequestV2**(Form: *[KASForm](../classes/kasclient.kasform.md)*, shouldDismiss?: *`boolean`*, shouldSendToSubscribers?: *`boolean`*):`void`
 
-Sendet das neu erstellte Formular als Anforderung. Dies führt zu eine neuen Unterhaltung Karte
+Übermittelt das neu erstellte Formular als Anforderung. Dies führt zu einer neuen Unterhaltungs Karte
 
 **Parameter:**
 
 | Name | Typ | Standardwert | Beschreibung |
 | ------ | ------ | ------ | ------ |
 | Formular | [KASForm](../classes/kasclient.kasform.md) | - |  \- |
-| `Default value`shouldDismiss | `boolean` | false |  True, wenn das Formular muss beim Absenden geschlossen werden; False, andernfalls |
+| `Default value`shouldDismiss | `boolean` | false |  true, wenn das Formular bei der Übermittlung zurückgewiesen werden muss; false andernfalls |
 | `Default value`shouldSendToSubscribers | `boolean` | true |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -105,18 +97,18 @@ ___
 
 ###  <a name="submitformrequestwithoutdismiss"></a>submitFormRequestWithoutDismiss
 
-▸ **SubmitFormRequestWithoutDismiss**(Formular: *[KASForm](../classes/kasclient.kasform.md)*, ShouldInflate: *`boolean`*):`void`
+▸ **submitFormRequestWithoutDismiss**(Form: *[KASForm](../classes/kasclient.kasform.md)*, shouldInflate: *`boolean`*):`void`
 
-Sendet das neu erstellte Formular als Anforderung. Dies führt zu eine neuen Unterhaltung Karte
+Übermittelt das neu erstellte Formular als Anforderung. Dies führt zu einer neuen Unterhaltungs Karte
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
 | Formular | [KASForm](../classes/kasclient.kasform.md) |  \- |
-| shouldInflate | `boolean` |  Boolean – sollten vergrößert werden soll oder nicht |
+| shouldInflate | `boolean` |  Boolean – sollte aufblasen/nicht |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -124,11 +116,11 @@ ___
 
 ###  <a name="updateform"></a>updateForm
 
-▸ **UpdateForm**(Felder: *`string`*, ShouldInflate: *`boolean`*, Rückruf: *`function`*):`void`
+▸ **updateForm**(Fields *`string`*:, shouldInflate *`boolean`*:, Callback *`function`*:):`void`
 
-Verwenden Sie für die Änderung in Formularfeldern wie Titel, Beschreibung und Einstellungen.
+Verwenden Sie, um Änderungen an Formularfeldern wie Titel, Beschreibung und Einstellungen vorzunehmen.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
   var fieldsToUpdate = {"title" : "<updated title", "exp" : "<expiry time>",
@@ -144,11 +136,11 @@ Verwenden Sie für die Änderung in Formularfeldern wie Titel, Beschreibung und 
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| fields | `string` |  JSON-Zeichenfolge der Felder, die aktualisiert werden müssen |
-| shouldInflate | `boolean` |  Boolean – sollten vergrößert werden soll oder nicht |
-| callback | `function` |  mit unten Params:<br><br>\*{Boolean} @param Erfolg true zurück, wenn Aktualisierung erfolgreich abgeschlossen wurde; False, andernfalls |
+| fields | `string` |  JSON-Zeichenfolge von Feldern, die updation erfordern |
+| shouldInflate | `boolean` |  Boolean – sollte aufblasen/nicht |
+| callback | `function` |  unter params:<br><br>\*@param {Boolean} Success true, wenn Update erfolgreich war; false andernfalls |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -158,17 +150,17 @@ ___
 
 ###  <a name="canrespondtoformasync"></a>canRespondToFormAsync
 
-▸ **CanRespondToFormAsync**(Rückruf: *`function`*):`void`
+▸ **canRespondToFormAsync**(Callback: *`function`*):`void`
 
-Ruft ab, ob der aktuelle Benutzer beantwortet werden können
+Ruft ab, ob der aktuelle Benutzer auf das Formularantworten kann.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Boolean} @param CanRespond True, wenn der aktuelle Benutzer reagieren |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {Boolean} canRespond true, wenn der aktuelle Benutzer Antworten darf |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -176,17 +168,17 @@ ___
 
 ###  <a name="getformasync"></a>getFormAsync
 
-▸ **GetFormAsync**(Rückruf: *`function`*):`void`
+▸ **getFormAsync**(Callback: *`function`*):`void`
 
-Dient zum Abrufen der Unterhaltung Karte zugeordneten Form-Objekts
+Ruft das Formularobjekt ab, das der Unterhaltungs Karte zugeordnet ist.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{KASForm} @param Formular kann bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {KASForm}-Formular kann im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -194,17 +186,17 @@ ___
 
 ###  <a name="getformstatusasync"></a>getFormStatusAsync
 
-▸ **GetFormStatusAsync**(Rückruf: *`function`*):`void`
+▸ **getFormStatusAsync**(Callback: *`function`*):`void`
 
-Ruft den Status des Formulars der Unterhaltung Karte zugeordnete ab
+Ruft den Status des Formulars ab, das der Unterhaltungs Karte zugeordnet ist.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Boolean} @param IsActive true zurück, wenn das Formular noch nicht abgelaufen ist<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {Boolean} IsActive true, wenn das Formular noch nicht abgelaufen ist<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -212,18 +204,18 @@ ___
 
 ###  <a name="getmyformresponsesasync"></a>getMyFormResponsesAsync
 
-▸ **GetMyFormResponsesAsync**(Rückruf: *`function`*, OnlyCurrentResponse?: *`boolean`*):`void`
+▸ **getMyFormResponsesAsync**(Callback: *`function`*, onlyCurrentResponse?: *`boolean`*):`void`
 
-Dient zum Abrufen aller Antworten des aktuellen Benutzers für das Formular
+Ruft alle Antworten des aktuellen Benutzers anhand des Formulars ab.
 
 **Parameter:**
 
 | Name | Typ | Standardwert | Beschreibung |
 | ------ | ------ | ------ | ------ |
-| callback | `function` | - |  mit folgenden Parameter:<br><br>\*@param {KASFormResponse\[\]} Antworten können bei einem Fehler null sein<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
-| `Default value`onlyCurrentResponse | `boolean` | true |  Anwendbar für Antwortaktionen, in dem diese Methode nur die aktuelle Antwort im Kontext, gibt, legen Sie dieses Flag auf "false", um alle Antworten stattdessen abzurufen. Der Standardwert ist true |
+| callback | `function` | - |  mit folgenden Parametern:<br><br>\*@param {KASFormResponse\[\]}-antworten können im fehlerfall null sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
+| `Default value`onlyCurrentResponse | `boolean` | true |  Gilt für Antwort Aktionen, bei denen diese Methode nur die aktuelle Antwort im Kontext zurückgibt, legen Sie dieses Flag auf false fest, um stattdessen alle Antworten abzurufen. Der Standardwert ist true. |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -231,11 +223,11 @@ ___
 
 ###  <a name="sumbitformresponse"></a>sumbitFormResponse
 
-▸ **SumbitFormResponse**(QuestionToAnswerMap: *`JSON`*, ResponseId: *`string`*, IsEdit: *`boolean`*, ShowInChatCanvas: *`boolean`*, IsAnonymous: *`boolean`*):`void`
+▸ **sumbitFormResponse**(questionToAnswerMap: *`JSON`*, Response-Nr *`string`*.:, IsEdit: *`boolean`*, *`boolean`* showInChatCanvas:, IsAnonymous: *`boolean`*):`void`
 
-Sendet eine neue Antwort für das Formular, das die Unterhaltung Karte zugeordnet wird dies zu den aktuellen Bildschirm schließen
+Übermittelt eine neue Antwort auf das Formular, das der Unterhaltungs Karte zugeordnet ist. Dadurch wird der aktuelle Bildschirm ausgeblendet.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 var questionToAnswerMap = JSON.parse("{}");
@@ -264,13 +256,13 @@ Now questionToAnswerMap for this should look like this {1: "<answer>"}
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| questionToAnswerMap | `JSON` |  Frage Id Zuordnung zu beantworten. |
-| responseId | `string` |  Wenn die aktuelle Antwort ein bearbeiten/Update mit einer früheren ist gefüllt werden soll |
-| isEdit | `boolean` |  Gibt an, ob die aktuelle Antwort ein bearbeiten/Update mit einer früheren ist |
-| showInChatCanvas | `boolean` |  Gibt an, ob eine separate Chat Karte für diese Antwort oder nicht erstellt werden soll |
-| isAnonymous | `boolean` |  Gibt an, ob die Antwort als anonym erfasst werden sollen |
+| questionToAnswerMap | `JSON` |  Frage-ID zur Antwort Zuordnung |
+| Antwort-Nr. | `string` |  ausgefüllt werden, wenn die aktuelle Antwort eine Bearbeitung/Aktualisierung einer vorherigen ist |
+| isEdit | `boolean` |  Gibt an, ob es sich bei der aktuellen Antwort um eine Bearbeitung/Aktualisierung zu einem vorherigen handelt. |
+| showInChatCanvas | `boolean` |  Gibt an, ob für diese Antwort eine separate Chat Karte erstellt werden muss oder nicht. |
+| isAnonymous | `boolean` |  Gibt an, ob die Antwort als anonym registriert werden soll oder nicht. |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -278,11 +270,11 @@ ___
 
 ###  <a name="sumbitformresponsewithoutdismiss"></a>sumbitFormResponseWithoutDismiss
 
-▸ **SumbitFormResponseWithoutDismiss**(QuestionToAnswerMap: *`JSON`*, ResponseId: *`string`*, IsEdit: *`boolean`*, ShowInChatCanvas: *`boolean`*, IsAnonymous: *`boolean`*):`void`
+▸ **sumbitFormResponseWithoutDismiss**(questionToAnswerMap: *`JSON`*, Response-Nr *`string`*.:, IsEdit: *`boolean`*, *`boolean`* showInChatCanvas:, IsAnonymous: *`boolean`*):`void`
 
-Sendet eine neue Antwort für das Formular, das die Unterhaltung Karte zugeordnet wird nicht dadurch den aktuellen Bildschirm schließen
+Übermittelt eine neue Antwort auf das Formular, das der Unterhaltungs Karte zugeordnet ist.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 var questionToAnswerMap = JSON.parse("{}");
@@ -298,13 +290,13 @@ KASClient.Form.sumbitFormResponseWithoutDismiss(questionToAnswerMap,
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| questionToAnswerMap | `JSON` |  Frage Id Zuordnung zu beantworten. |
-| responseId | `string` |  Wenn die aktuelle Antwort ein bearbeiten/Update mit einer früheren ist gefüllt werden soll |
-| isEdit | `boolean` |  Gibt an, ob die aktuelle Antwort ein bearbeiten/Update mit einer früheren ist |
-| showInChatCanvas | `boolean` |  Gibt an, ob eine separate Chat Karte für diese Antwort oder nicht erstellt werden soll |
-| isAnonymous | `boolean` |  Gibt an, ob die Antwort als anonym erfasst werden sollen |
+| questionToAnswerMap | `JSON` |  Frage-ID zur Antwort Zuordnung |
+| Antwort-Nr. | `string` |  ausgefüllt werden, wenn die aktuelle Antwort eine Bearbeitung/Aktualisierung einer vorherigen ist |
+| isEdit | `boolean` |  Gibt an, ob es sich bei der aktuellen Antwort um eine Bearbeitung/Aktualisierung zu einem vorherigen handelt. |
+| showInChatCanvas | `boolean` |  Gibt an, ob für diese Antwort eine separate Chat Karte erstellt werden muss oder nicht. |
+| isAnonymous | `boolean` |  Gibt an, ob die Antwort als anonym registriert werden soll oder nicht. |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -317,7 +309,7 @@ ___
 **Ƭ FormSummaryCallback**:*`function`*
 
 #### <a name="type-declaration"></a>Typdeklaration
-▸ (FlatSummary: *[KASFormFlatSummary](../classes/kasclient.kasformflatsummary.md)*, ProcessedSummary: *[KASFormProcessedSummary](../classes/kasclient.kasformprocessedsummary.md)*, Fehler: *`string`*):`void`
+▸ (flatSummary: *[KASFormFlatSummary](../classes/kasclient.kasformflatsummary.md)*, ProcessedSummary: *[KASFormProcessedSummary](../classes/kasclient.kasformprocessedsummary.md)*, Error: *`string`*):`void`
 
 **Parameter:**
 
@@ -327,7 +319,7 @@ ___
 | processedSummary | [KASFormProcessedSummary](../classes/kasclient.kasformprocessedsummary.md) |
 | error | `string` |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -335,9 +327,9 @@ ___
 
 ###  <a name="addcommentonform"></a>addCommentOnForm
 
-▸ **AddCommentOnForm**(Kommentar: *`string`*):`void`
+▸ **addCommentOnForm**(comment: *`string`*):`void`
 
-Anforderungen an einen Kommentar zu einem Formular hinzufügen
+Anforderungen zum Hinzufügen eines Kommentars zu einem Formular
 
 **Parameter:**
 
@@ -345,7 +337,7 @@ Anforderungen an einen Kommentar zu einem Formular hinzufügen
 | ------ | ------ |
 | Kommentar | `string` |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -353,11 +345,11 @@ ___
 
 ###  <a name="closeform"></a>closeForm
 
-▸ **CloseForm**():`void`
+▸ **closeForm**():`void`
 
-Schließt das Formular der Karte zugeordnete keine Antworten Weitere zulässig
+Schließt das der Karte zugeordnete Formular, es werden jedoch keine weiteren Antworten zugelassen.
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -365,11 +357,11 @@ ___
 
 ###  <a name="copyformandforward"></a>copyFormAndForward
 
-▸ **CopyFormAndForward**():`void`
+▸ **copyFormAndForward**():`void`
 
-Startet die Unterhaltung Auswahl um eine Kopie des Formulars als eine neue Unterhaltung Karte weiterzuleiten
+Startet die Unterhaltungs Auswahl, um eine Kopie des vorhandenen Formulars als neue Unterhaltungs Karte weiterzuleiten.
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -377,14 +369,14 @@ ___
 
 ###  <a name="getactioninstancelocaldatacacheasync"></a>getActionInstanceLocalDataCacheAsync
 
-▸ **GetActionInstanceLocalDataCacheAsync**(Rückruf: *`function`*):`void`
+▸ **getActionInstanceLocalDataCacheAsync**(Callback: *`function`*):`void`
 
-Level-Instanz abgerufen, die ActionInstance Eigenschaften aus dem lokalen Datencache, sofern diese Eigenschaften vorhanden, eine Aktion gespeichert werden. Damit die lokalen Daten gespeichert, die für die jeweilige Aktion, die Instanz von dieser API zurückgegeben werden.
+Ruft die ActionInstance-Eigenschaften aus dem lokalen Datencache ab, sofern vorhanden, dass diese Eigenschaften auf der Ebene der Aktionsinstanz gespeichert werden. Daher werden die für die jeweilige Aktionsinstanz gespeicherten lokalen Daten von dieser API zurückgegeben.
 #### <a name="note"></a>Hinweis
 
-Diese API funktioniert nicht wie erwartet im Fall eines WAN-älterer Nachrichten.
+Diese API funktioniert bei historischen Nachrichten nicht erwartungsgemäß.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 KASClient.Form.getActionInstanceLocalDataCacheAsync(function (actionPackageProperties, error) {
@@ -400,9 +392,9 @@ KASClient.Form.getActionInstanceLocalDataCacheAsync(function (actionPackagePrope
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{KASActionProperties} @param ActionProperties ActionInstance/Formulareigenschaften<br><br>\*{Zeichenfolge} @param Json Fehlerzeichenfolge für das KASError-Objekt, das mit Fehlercode und/oder Beschreibung. |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {KASActionProperties} Aktioneigenschaften-ActionInstance/-Formulareigenschaften<br><br>\*@param {String}-Fehler-JSON-Zeichenfolge für das KASError-Objekt mit Fehlercode und/oder Beschreibung. |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -410,14 +402,14 @@ ___
 
 ###  <a name="getactionpackagelocaldatacacheasync"></a>getActionPackageLocalDataCacheAsync
 
-▸ **GetActionPackageLocalDataCacheAsync**(Rückruf: *`function`*):`void`
+▸ **getActionPackageLocalDataCacheAsync**(Callback: *`function`*):`void`
 
-Ruft die Aktion Paketeigenschaften aus dem lokalen Datencache, sofern diese Eigenschaften vorhanden sind auf der Ebene der Aktion Paket gespeichert werden. Damit alle Action-Instanzen aus diesem Paket Aktion erstellt erhält die gleichen Daten.
+Ruft die Aktionspaket Eigenschaften aus dem lokalen Datencache ab, sofern vorhanden, dass diese Eigenschaften auf der Ebene des Aktionspakets gespeichert werden. Daher erhalten alle Aktionsinstanzen, die aus diesem Aktionspaket erstellt wurden, dieselben Daten.
 #### <a name="note"></a>Hinweis
 
-Diese API funktioniert nicht wie erwartet im Fall eines WAN-älterer Nachrichten.
+Diese API funktioniert bei historischen Nachrichten nicht erwartungsgemäß.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 KASClient.Form.getActionPackageLocalDataCacheAsync(function (actionPackageProperties, error) {
@@ -433,9 +425,9 @@ KASClient.Form.getActionPackageLocalDataCacheAsync(function (actionPackageProper
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{KASActionPackageProperties} @param ActionPackageProperties Aktion-Paket-Eigenschaften<br><br>\*{Zeichenfolge} @param Json Fehlerzeichenfolge für das KASError-Objekt, das mit Fehlercode und/oder Beschreibung. |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {KASActionPackageProperties} actionPackageProperties-Aktionspaket Eigenschaften<br><br>\*@param {String}-Fehler-JSON-Zeichenfolge für das KASError-Objekt mit Fehlercode und/oder Beschreibung. |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -443,17 +435,17 @@ ___
 
 ###  <a name="getformreactionasync"></a>getFormReactionAsync
 
-▸ **GetFormReactionAsync**(Rückruf: *`function`*):`void`
+▸ **getFormReactionAsync**(Callback: *`function`*):`void`
 
-Dient zum Abrufen der konsolidierten Reaktion der dem Formular zugeordneten Unterhaltung Karte ("gefällt mir" und Kommentare)
+Ruft die konsolidierte Reaktion (likes und comments) der Unterhaltungs Karte ab, die dem Formular zugeordnet ist.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{KASFormReaction} @param Reaktion kann bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {KASFormReaction}-Reaktion kann im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -461,14 +453,14 @@ ___
 
 ###  <a name="getformsummaryasync"></a>getFormSummaryAsync
 
-▸ **GetFormSummaryAsync**(MostUpdatedCallback: *[FormSummaryCallback](kasclient.form.md#formsummarycallback)*, NotifyCallback: *[FormSummaryCallback](kasclient.form.md#formsummarycallback)*):`void`
+▸ **getFormSummaryAsync**(MostUpdatedCallback: *[FormSummaryCallback](kasclient.form.md#formsummarycallback)*, notifyCallback: *[FormSummaryCallback](kasclient.form.md#formsummarycallback)*):`void`
 
-Ruft in flache Antworten von allen Benutzern und Übersicht über alle dem Formular zugeordneten Antworten verarbeitet. Es erfordert zwei Rückrufe:
+Ruft flache Antworten aller Benutzer ab und verarbeitet eine Zusammenfassung aller Antworten, die dem Formular zugeordnet sind. Sie erfordert zwei Rückrufe:
 #### <a name="note"></a>Hinweis
 
-Dies ist nützlich, wenn das Netzwerk arbeitende/getrennt ist, damit diese Zusammenfassung sofort angezeigt werden kann, mit der präsentieren von Daten, die wir, wobei jedoch eine Option, um sie später Ankunft von neuesten Daten vom Server aktualisieren! Keiner der Rückrufe ist obligatorisch, wenn 1. ist NULL, diese Methode kann immer abzurufenden Zusammenfassung vom Server verwendet werden und wenn 2. ist NULL, dies kann immer abzurufenden Zusammenfassung aus lokalen Datenbank verwendet werden!
+Dies ist nützlich, wenn das Netzwerk flockig/getrennt ist, sodass die Zusammenfassung sofort mit den aktuellen Daten angezeigt werden kann, die wir haben, aber mit der Option, Sie später beim Eintreffen der neuesten Daten vom Server zu aktualisieren. Keines der Rückrufe ist obligatorisch, wenn 1 also NULL ist, kann diese Methode verwendet werden, um eine Zusammenfassung immer vom Server abzurufen, und wenn 2nd NULL ist, kann dies verwendet werden, um eine Zusammenfassung aus der lokalen Datenbank abzurufen.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 KASClient.Form.getFormSummaryAsync(
@@ -488,10 +480,10 @@ KASClient.Form.getFormSummaryAsync(
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| mostUpdatedCallback | [FormSummaryCallback](kasclient.form.md#formsummarycallback) |  um die aktuellste Zusammenfassung aus lokalen Datenbank sofort zu erhalten. Es besteht aus folgenden Parameter:<br><br>\*{KASFormFlatSummary} @param FlatSummary kann bei einem Fehler null sein.<br><br>\*{KASFormProcessedSummary} @param ProcessedSummary kann bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
-| notifyCallback | [FormSummaryCallback](kasclient.form.md#formsummarycallback) |  um benachrichtigt zu werden, mit der neuesten Zusammenfassung vom Server abgerufen. Es besteht aus folgenden Parameter:<br><br>\*{KASFormFlatSummary} @param FlatSummary kann bei einem Fehler null sein.<br><br>\*{KASFormProcessedSummary} @param ProcessedSummary kann bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| mostUpdatedCallback | [FormSummaryCallback](kasclient.form.md#formsummarycallback) |  , um sofort die aktuellste Zusammenfassung aus der lokalen Datenbank abzurufen. Sie hat folgende Parameter:<br><br>\*@param {KASFormFlatSummary} flatSummary kann im Fehlerfall NULL sein<br><br>\*@param {KASFormProcessedSummary} processedSummary kann im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
+| notifyCallback | [FormSummaryCallback](kasclient.form.md#formsummarycallback) |  um mit der neuesten Zusammenfassung benachrichtigt zu werden, die vom Server abgerufen wurde. Sie hat folgende Parameter:<br><br>\*@param {KASFormFlatSummary} flatSummary kann im Fehlerfall NULL sein<br><br>\*@param {KASFormProcessedSummary} processedSummary kann im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -499,17 +491,17 @@ ___
 
 ###  <a name="getformurlasync"></a>getFormURLAsync
 
-▸ **GetFormURLAsync**(Rückruf: *`function`*):`void`
+▸ **getFormURLAsync**(Callback: *`function`*):`void`
 
-Ruft die Url der Datei vom Server, die mit dem Formular zugeordnete flache Antworten enthält
+Ruft die Datei-URL vom Server ab, die flache Antworten enthält, die dem Formular zugeordnet sind.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*@param {Zeichenfolge} Url kann bei einem Fehler null sein.<br><br>\*{Zeichenfolge} @param Fehlermeldung bei einem Fehler, null, andernfalls |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {String}-URL kann im Fehlerfall NULL sein<br><br>\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -517,11 +509,11 @@ ___
 
 ###  <a name="getformusercapabilitiesasync"></a>getFormUserCapabilitiesAsync
 
-▸ **GetFormUserCapabilitiesAsync**(Rückruf: *`function`*):`void`
+▸ **getFormUserCapabilitiesAsync**(Callback: *`function`*):`void`
 
-Ruft bilden Berechtigungen
+Ruft Formular Berechtigungen ab.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 KASClient.Form.getFormUserCapabilitiesAsync(function (permissions, error) {
@@ -537,9 +529,9 @@ KASClient.Form.getFormUserCapabilitiesAsync(function (permissions, error) {
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{KASFormUserCapabilities} @param Berechtigungen<br><br>\*{Zeichenfolge} @param Fehler Fehlerzeichenfolge bei einem Fehler; andernfalls NULL |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {KASFormUserCapabilities}-Berechtigungen<br><br>\*@param {string} Error Error String im Fehlerfall; andernfalls NULL |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -547,17 +539,17 @@ ___
 
 ###  <a name="issubscribed"></a>isSubscribed
 
-▸ **IsSubscribed**(Rückruf: *`function`*):`void`
+▸ **** IsSubscribed (Callback: *`function`*):`void`
 
-Ruft ab, ob der aktuelle Benutzer Abonnenten oder nicht ist
+Ruft ab, ob der aktuelle Benutzer Abonnent ist oder nicht
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Boolean} @param IsSubscribed True, wenn der aktuelle Benutzer Abonnenten |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {Boolean} isSubscribed true, wenn der aktuelle Benutzer Abonnent |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -565,11 +557,11 @@ ___
 
 ###  <a name="likeform"></a>likeForm
 
-▸ **LikeForm**():`void`
+▸ **likeForm**():`void`
 
-Anfragen eines Formulars, die Anzahl der like Anzahl hinzuzufügende können sinken, wenn der aktuelle Benutzer das Formular bereits gefallen hat
+Anforderungen zum Hinzufügen einer like-Anzahl zu einem Formular kann die Anzahl verringert werden, wenn der aktuelle Benutzer das Formular bereits gemocht hat.
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -577,11 +569,11 @@ ___
 
 ###  <a name="sendreminderstorespond"></a>sendRemindersToRespond
 
-▸ **SendRemindersToRespond**():`void`
+▸ **sendRemindersToRespond**():`void`
 
-Sendet eine Erinnerung (eine neue Unterhaltung Karte) gegen die vorhandene Karte
+Sendet eine Erinnerung (eine neue Unterhaltungs Karte) an die vorhandene Karte
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -589,17 +581,17 @@ ___
 
 ###  <a name="shareformurl"></a>shareFormURL
 
-▸ **ShareFormURL**(Url: *`string`*):`void`
+▸ **shareFormURL**(URL: *`string`*):`void`
 
-Die Ergebnis-Url vom Server - abgerufene freigeben startet systemeigene Bildschirmfreigabe für die Formular-Url
+Freigeben der vom Server abgerufenen Ergebnis-URL-startet systemeigener Freigabe Bildschirm für die Formular-URL
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| url | `string` |  gemeinsam genutzt werden |
+| url | `string` |  freigegeben werden |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -607,17 +599,17 @@ ___
 
 ###  <a name="showallreactions"></a>showAllReactions
 
-▸ **ShowAllReactions**(ShowComments?: *`boolean`*):`void`
+▸ **showAllReactions**(showComments?: *`boolean`*):`void`
 
-Zeigt alle den Reaktion Bildschirm ("gefällt mir" und Kommentare) für das Formular
+Zeigt den gesamten Reaktions Bildschirm (likes und comments) für das Formular an.
 
 **Parameter:**
 
 | Name | Typ | Standardwert | Beschreibung |
 | ------ | ------ | ------ | ------ |
-| `Default value`showComments | `boolean` | true |  True, wenn Kommentare müssen auch angezeigt werden soll; False, andernfalls |
+| `Default value`showComments | `boolean` | true |  true, wenn Kommentare auch angezeigt werden müssen; false andernfalls |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -625,11 +617,11 @@ ___
 
 ###  <a name="updateactioninstancelocaldatacacheasync"></a>updateActionInstanceLocalDataCacheAsync
 
-▸ **UpdateActionInstanceLocalDataCacheAsync**(ActionProperties: *[KASActionProperties](../classes/kasclient.kasactionproperties.md)*, Rückruf: *`function`*):`void`
+▸ **updateActionInstanceLocalDataCacheAsync**(Aktioneigenschaften: *[KASActionProperties](../classes/kasclient.kasactionproperties.md)*, Callback: *`function`*):`void`
 
-Updates/speichert den angegebenen ActionInstance-Eigenschaften auf den lokalen Datencache, die, den diese Eigenschaften auf eine Aktion Instanzebene gespeichert sind. Jede Aktionsinstanz kann also einige lokalen Daten im Cache speichern und es werden nur in der betreffenden Instanz zugreifen können
+Aktualisiert/speichert die angegebenen ActionInstance-Eigenschaften im lokalen Datencache diese Eigenschaften werden auf der Ebene der Aktionsinstanz gespeichert. Jede Aktionsinstanz kann also einige lokale Daten im Cache speichern und nur von dieser bestimmten Instanz aus zugänglich sein.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 var actionPackageProperties = KASClient.KASActionPackageProperties.fromJSON(JSON.parse("{}"));
@@ -642,16 +634,16 @@ KASClient.Form.updateActionInstanceLocalDataCacheAsync(actionPackageProperties, 
 ```
 #### <a name="note"></a>Hinweis
 
-Diese API funktioniert nicht wie erwartet im Fall eines WAN-älterer Nachrichten.
+Diese API funktioniert bei historischen Nachrichten nicht erwartungsgemäß.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| actionProperties | [KASActionProperties](../classes/kasclient.kasactionproperties.md) |  ActionInstance/Formulareigenschaften aktualisiert/gespeichert werden |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Boolean} @param Success gibt an, ob die Aktualisierung erfolgreich ist.<br><br>\*{Zeichenfolge} @param Json Fehlerzeichenfolge für das KASError-Objekt, das mit Fehlercode und/oder Beschreibung. |
+| Aktioneigenschaften | [KASActionProperties](../classes/kasclient.kasactionproperties.md) |  ActionInstance/Formulareigenschaften, die aktualisiert/gespeichert werden sollen |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {Boolean} Success gibt an, ob das Update erfolgreich ist oder nicht<br><br>\*@param {String}-Fehler-JSON-Zeichenfolge für das KASError-Objekt mit Fehlercode und/oder Beschreibung. |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -659,11 +651,11 @@ ___
 
 ###  <a name="updateactionpackagelocaldatacacheasync"></a>updateActionPackageLocalDataCacheAsync
 
-▸ **UpdateActionPackageLocalDataCacheAsync**(ActionPackageProperties: *[KASActionPackageProperties](../classes/kasclient.kasactionpackageproperties.md)*, Rückruf: *`function`*):`void`
+▸ **updateActionPackageLocalDataCacheAsync**(ActionPackageProperties: *[KASActionPackageProperties](../classes/kasclient.kasactionpackageproperties.md)*, Callback: *`function`*):`void`
 
-Updates/speichert den angegebenen Eigenschaften der Aktion Paket an den lokalen Datencache, wenn, den diese Eigenschaften auf der Ebene der Aktion Paket gespeichert werden. So werden die Daten von allen Aktionsinstanzen aus diesem Paket Aktion erstellt freigegeben.
+Aktualisiert/speichert die angegebenen Eigenschaften des Aktionspakets im lokalen Datencache diese Eigenschaften werden auf der Ebene des Aktionspakets gespeichert. Daher werden die Daten für alle Aktionsinstanzen freigegeben, die aus diesem Aktionspaket erstellt wurden.
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 var actionPackageProperties = KASClient.KASActionPackageProperties.fromJSON(JSON.parse("{}"));
@@ -676,16 +668,16 @@ KASClient.Form.updateActionPackageLocalDataCacheAsync(actionPackageProperties, f
 ```
 #### <a name="note"></a>Hinweis
 
-Diese API funktioniert nicht wie erwartet im Fall eines WAN-älterer Nachrichten.
+Diese API funktioniert bei historischen Nachrichten nicht erwartungsgemäß.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| actionPackageProperties | [KASActionPackageProperties](../classes/kasclient.kasactionpackageproperties.md) |  Eigenschaften der Aktion Paket aktualisiert/gespeichert werden |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Boolean} @param Success gibt an, ob die Aktualisierung erfolgreich ist.<br><br>\*{Zeichenfolge} @param Json Fehlerzeichenfolge für das KASError-Objekt, das mit Fehlercode und/oder Beschreibung. |
+| actionPackageProperties | [KASActionPackageProperties](../classes/kasclient.kasactionpackageproperties.md) |  Aktionspaket Eigenschaften, die aktualisiert/gespeichert werden sollen |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {Boolean} Success gibt an, ob das Update erfolgreich ist oder nicht<br><br>\*@param {String}-Fehler-JSON-Zeichenfolge für das KASError-Objekt mit Fehlercode und/oder Beschreibung. |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
@@ -693,11 +685,11 @@ ___
 
 ###  <a name="updateformpropertiesasync"></a>updateFormPropertiesAsync
 
-▸ **UpdateFormPropertiesAsync**(PropertyUpdates: * [KASFormPropertyUpdateInfo](../classes/kasclient.kasformpropertyupdateinfo.md)[]*, NotifyUsers: * `string`[]*, NotificationMessage: *`string`*, Rückruf: *`function`*):`void`
+▸ **updateFormPropertiesAsync**(propertyUpdates: * [KASFormPropertyUpdateInfo](../classes/kasclient.kasformpropertyupdateinfo.md)[]*, notifyUsers: * `string`[]*, notificationMessage: *`string`*, Callback: *`function`*):`void`
 
-Buchen Sie eine Anforderung zum Aktualisieren der dem Formular zugeordneten Eigenschaften
+Bereitstelleneiner Anforderung zum Aktualisieren der dem Formular zugeordneten Eigenschaften
 
-#### <a name="sample-usage"></a>Beispiel für die Verwendung
+#### <a name="sample-usage"></a>Beispiel Verwendung
 
 ```
 var updateProperties = [];
@@ -719,12 +711,12 @@ KASClient.Form.updateFormPropertiesAsync(updateProperties, notifyUsersList, noti
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
-| propertyUpdates | [KASFormPropertyUpdateInfo](../classes/kasclient.kasformpropertyupdateinfo.md) [] |  ein Array von allen Update Ereignisinfos hinzu, die erforderlich sind, ausgeführt werden, können Update Ereignisinfos hinzu mit erstellt werden KASFormPropertyUpdateFactory |
-| notifyUsers | `string`[] |  Senden von Pushbenachrichtigungen an diese Benutzer-Ids zu diesem update |
+| propertyUpdates | [KASFormPropertyUpdateInfo](../classes/kasclient.kasformpropertyupdateinfo.md) [] |  ein Array aller Update-Informationen, die benötigt werden, um durchgeführt werden, Update-Infos können erstellt werden, mit KASFormPropertyUpdateFactory |
+| notifyUsers | `string`[] |  Senden von Push-Benachrichtigungen an diese Benutzer-IDs zu diesem Update |
 | notificationMessage | `string` |  Push-Benachrichtigung |
-| callback | `function` |  mit folgenden Parameter:<br><br>\*{Boolean} @param Success gibt an, ob die Aktualisierung erfolgreich ist. |
+| callback | `function` |  mit folgenden Parametern:<br><br>\*@param {Boolean} Success gibt an, ob das Update erfolgreich ist oder nicht |
 
-**Gibt:**`void`
+**Gibt Folgendes zurück:**`void`
 
 ___
 
