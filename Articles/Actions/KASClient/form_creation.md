@@ -1,11 +1,11 @@
-#   <a name="form-creation-flow-apis"></a>Bilden Sie Erstellung Fluss APIs:
+#   <a name="form-creation-flow-apis"></a>Formular Erstellungs Fluss-APIs:
 
-| **API** | Beschreibung | Anforderungsparameter | Antwort-Ausgabe |
+| **API** | Beschreibung | Anforderungs Parameter | Antwort Ausgabe |
 | :---: | :---: | :---: | :--- |
-| **initFormAsync** | Initialisiert und gibt ein leeres Formular-Objekt auf der Standard-Datei in das Paket vorhanden basieren |  | Form-Objekt |
-| **submitFormRequest** | Sendet das neu erstellte Formular als Anforderung. Dies führt zu eine neuen Unterhaltung Karte | <ul><li>Formular</li><li>Boolean – sollten vergrößert werden soll oder nicht</li></ul>| |
-| **submitFormRequestWithoutDismiss** | Sendet das neu erstellte Formular als Anforderung. Dies führt zu eine neuen Unterhaltung Karte |<ul><li>Formular</li><li>Boolean – sollten vergrößert werden soll oder nicht</li></ul>| |
-| **updateForm** | Verwendet für die Änderung in Formularfeldern wie Titel, Beschreibung und Einstellungen | <ul><li>Felder, die aktualisiert werden müssen</li><li>Boolean – sollten vergrößert werden soll oder nicht</li></ul> | |
+| **initFormAsync** | Initialisiert und gibt ein leeres Form-Objekt basierend auf der im Paket vorhandenen Standardformular Datei zurück. |  | Form-Objekt |
+| **submitFormRequest** | Übermittelt das neu erstellte Formular als Anforderung. Dies führt zu einer neuen Unterhaltungs Karte | <ul><li>Formular</li><li>Boolean – sollte aufblasen/nicht</li></ul>| |
+| **submitFormRequestWithoutDismiss** | Übermittelt das neu erstellte Formular als Anforderung. Dies führt zu einer neuen Unterhaltungs Karte |<ul><li>Formular</li><li>Boolean – sollte aufblasen/nicht</li></ul>| |
+| **updateForm** | Wird zum vornehmen von Änderungen an Formularfeldern wie Titel, Beschreibung und Einstellungen verwendet. | <ul><li>Felder, die updation erfordern</li><li>Boolean – sollte aufblasen/nicht</li></ul> | |
 
 ##  <a name="initialize-a-form"></a>Initialisieren eines Formulars
 
@@ -19,7 +19,7 @@
   function initFormAsync(callback: function(form: KASForm, error: string))
 ```
 
-##  <a name="submit-the-newly-created-form"></a>Das neu erstellte Formular übermitteln
+##  <a name="submit-the-newly-created-form"></a>ÜberMitteln des neu erstellten Formulars
 
 ```typescript
 /**
@@ -38,7 +38,7 @@
   ```
 
 
-##  <a name="update-form"></a>Formular für das Aktualisieren
+##  <a name="update-form"></a>Formular aktualisieren
 
 ```typescript
 
