@@ -65,7 +65,6 @@
 ## [Leben am Arbeitsplatz](BusinessSolutions/Life%40Work/Life%40Work.md)
 ### [Mitarbeiter-Helpdesk](BusinessSolutions/Life%40Work/EmployeeHelpDesk/EmployeeHelpDesk.md)
 ### [Leistungssteigerung mit Leaderboard](BusinessSolutions/Life%40Work/Leaderboard/Leaderboard.md)
-## [Ticket System](PartnerDocs/Customerticketingsolution.md)
 ## [Integrieren von Kaizala-Daten in Ihre benutzerdefinierten Dashboards](PartnerDocs/IntegratingKaizalaData.md)
 
 
