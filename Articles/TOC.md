@@ -1,5 +1,3 @@
-
-
     
 # Erste Schritte
 ## [Übersicht über die Kaizala-App](PartnerDocs/Kaizala_overview.md)
@@ -28,12 +26,12 @@
 
 ## API-Verweise
 
-### Kaizala-REST-APIs
+### Kaizala-Rest-APIs
 #### [Authentifizierungs-APIs](https://docs.microsoft.com/en-us/rest/api/kaizala.microsoft.com/authentication%20apis)
 #### [Inhalts Erstellungs-APIs](https://docs.microsoft.com/en-us/rest/api/kaizala.microsoft.com/content%20creation%20apis)
 #### [Inhaltsabfrage-APIs](https://docs.microsoft.com/en-us/rest/api/kaizala.microsoft.com/content%20query%20apis)
 #### [Gruppen Verwaltungs-APIs](https://docs.microsoft.com/en-us/rest/api/kaizala.microsoft.com/group%20management%20apis)
-#### [Abonnement-webHooks](https://docs.microsoft.com/en-us/rest/api/kaizala.microsoft.com/subscription%20webhooks)
+#### [Abonnement-webhooks](https://docs.microsoft.com/en-us/rest/api/kaizala.microsoft.com/subscription%20webhooks)
 
 ### APIs für benutzerdefinierte Aktionen
 #### [Formular Erstellungs-APIs](Actions/KASClient/generated/modules/kasclient.form.md#creation)
@@ -70,7 +68,7 @@
 
 # Sicherheit, Datenschutz und Compliance
 ## [Übersicht](PartnerDocs/SecurityOverview.md)
-## [Sicherheit für endKunden](PartnerDocs/SecurityFeaturesforendcustomers.md)
+## [Sicherheit für Endkunden](PartnerDocs/SecurityFeaturesforendcustomers.md)
 ## [Sicherheit](PartnerDocs/Security.md)
 ## [Datenschutz](PartnerDocs/Privacy.md)
 ## [Compliance](PartnerDocs/Compliance.md)
@@ -78,7 +76,7 @@
 
 
 # Schulung und Support
-## [EndBenutzerschulungen](PartnerDocs/EndUserTrainings.md)
+## [Endbenutzerschulungen](https://support.office.com/en-us/article/Kaizala-training-987b5e60-e32a-44e8-8c71-c891a2a3d8f0)
 ## [IT-Administrator-&-Entwicklerschulungen](PartnerDocs/PartnerTrainings.md)
 ## [FAQs für Entwickler](FAQ.md)
 ## [Wichtige Änderungen](BreakingChanges.md)
