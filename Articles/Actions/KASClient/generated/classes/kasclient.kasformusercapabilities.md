@@ -32,7 +32,6 @@
 **● canRespond**: *`boolean`* = false
 
 ___
-
 <a id="cansendreminder"></a>
 
 ###  <a name="cansendreminder"></a>canSendReminder
@@ -40,7 +39,6 @@ ___
 **● canSendReminder**: *`boolean`* = false
 
 ___
-
 <a id="json"></a>
 
 ###  <a name="json"></a>json
@@ -48,7 +46,6 @@ ___
 **● JSON**:*`JSON`*
 
 ___
-
 <a id="shouldseesummary"></a>
 
 ###  <a name="shouldseesummary"></a>shouldSeeSummary
@@ -68,7 +65,6 @@ ___
 **Gibt Folgendes zurück:**`JSON`
 
 ___
-
 <a id="toclientjson"></a>
 
 ###  <a name="toclientjson"></a>toClientJSON
@@ -78,7 +74,6 @@ ___
 **Gibt Folgendes zurück:**`JSON`
 
 ___
-
 <a id="tojson"></a>
 
 ###  <a name="tojson"></a>toJSON
@@ -88,12 +83,11 @@ ___
 **Gibt Folgendes zurück:**`JSON`
 
 ___
-
 <a id="fromjson"></a>
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`JSON`*): [KASFormUserCapabilities](kasclient.kasformusercapabilities.md)
+▸- **fromJSON**(Objekt *`JSON`*:): [KASFormUserCapabilities](kasclient.kasformusercapabilities.md)
 
 **Parameter:**
 

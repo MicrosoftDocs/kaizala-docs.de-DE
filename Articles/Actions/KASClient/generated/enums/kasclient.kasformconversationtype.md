@@ -2,20 +2,20 @@
 
 # <a name="enumeration-kasformconversationtype"></a>Enumeration: KASFormConversationType
 
-Enumeration für Unterhaltungstyp
+Aufzählung für unter Haltungs Typen
 ## <a name="index"></a>Index 
 
-### <a name="enumeration-members"></a>Enumerationsmember
+### <a name="enumeration-members"></a>Aufzählungselemente
 
 * [FLAT_GROUP](kasclient.kasformconversationtype.md#flat_group)
-* [FORUM](kasclient.kasformconversationtype.md#forum)
-* [KEINE](kasclient.kasformconversationtype.md#none)
+* [Forum](kasclient.kasformconversationtype.md#forum)
+* [Keine](kasclient.kasformconversationtype.md#none)
 * [ONE_ON_ONE](kasclient.kasformconversationtype.md#one_on_one)
 * [PUBLIC_GROUP](kasclient.kasformconversationtype.md#public_group)
 
 ---
 
-## <a name="enumeration-members"></a>Enumerationsmember
+## <a name="enumeration-members"></a>Aufzählungselemente
 
 <a id="flat_group"></a>
 
@@ -24,23 +24,20 @@ Enumeration für Unterhaltungstyp
 **FLAT_GROUP**: = 1
 
 ___
-
 <a id="forum"></a>
 
-###  <a name="forum"></a>FORUM
+###  <a name="forum"></a>Forum
 
 **Forum**: = 2
 
 ___
-
 <a id="none"></a>
 
-###  <a name="none"></a>KEINE
+###  <a name="none"></a>Keine
 
 **None**: =-1
 
 ___
-
 <a id="one_on_one"></a>
 
 ###  <a name="oneonone"></a>ONE_ON_ONE
@@ -48,7 +45,6 @@ ___
 **ONE_ON_ONE**: = 0
 
 ___
-
 <a id="public_group"></a>
 
 ###  <a name="publicgroup"></a>PUBLIC_GROUP

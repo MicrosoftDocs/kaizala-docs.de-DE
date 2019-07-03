@@ -16,7 +16,7 @@
 * [duration](kasclient.kasvideoattachment.md#duration)
 * [fileName](kasclient.kasvideoattachment.md#filename)
 * [hasSetThumbnail](kasclient.kasvideoattachment.md#hassetthumbnail)
-* [localPath](kasclient.kasvideoattachment.md#localpath)
+* [LocalPath](kasclient.kasvideoattachment.md#localpath)
 * [requireHighResThumbnail](kasclient.kasvideoattachment.md#requirehighresthumbnail)
 * [Direktive ServerPath existiert](kasclient.kasvideoattachment.md#serverpath)
 * [size](kasclient.kasvideoattachment.md#size)
@@ -39,10 +39,9 @@
 
 ###  <a name="attachmentid"></a>attachmentId
 
-**● Attachment**-Nr *`string`* .: = ""
+**● Attachment**-Nr *`string`* : = ""
 
 ___
-
 <a id="duration"></a>
 
 ###  <a name="duration"></a>duration
@@ -50,7 +49,6 @@ ___
 **● Dauer**: *`number`* = 0
 
 ___
-
 <a id="filename"></a>
 
 ###  <a name="filename"></a>fileName
@@ -58,7 +56,6 @@ ___
 **● filename**: *`string`* = ""
 
 ___
-
 <a id="hassetthumbnail"></a>
 
 ###  <a name="hassetthumbnail"></a>hasSetThumbnail
@@ -66,15 +63,13 @@ ___
 **● hasSetThumbnail**: *`boolean`* = false
 
 ___
-
 <a id="localpath"></a>
 
-###  <a name="localpath"></a>localPath
+###  <a name="localpath"></a>LocalPath
 
 **● LocalPath**: *`string`* = ""
 
 ___
-
 <a id="requirehighresthumbnail"></a>
 
 ###  <a name="requirehighresthumbnail"></a>requireHighResThumbnail
@@ -82,7 +77,6 @@ ___
 **● requireHighResThumbnail**: *`boolean`* = false
 
 ___
-
 <a id="serverpath"></a>
 
 ###  <a name="serverpath"></a>Direktive ServerPath existiert
@@ -90,7 +84,6 @@ ___
 **● Direktive ServerPath existiert**: *`string`* = ""
 
 ___
-
 <a id="size"></a>
 
 ###  <a name="size"></a>size
@@ -98,7 +91,6 @@ ___
 **● Größe**: *`number`* = 0
 
 ___
-
 <a id="streamingpath"></a>
 
 ###  <a name="streamingpath"></a>streamingPath
@@ -106,18 +98,16 @@ ___
 **● streamingPath**: *`string`* = ""
 
 ___
-
 <a id="thumbnail"></a>
 
 ###  <a name="thumbnail"></a>Miniaturansicht
 
-**● Miniaturansicht**: *`string`* = ""
+**● Thumbnail**: *`string`* = ""
 
 ___
-
 <a id="type"></a>
 
-###  <a name="type"></a>Typ
+###  <a name="type"></a>type
 
 **● Typ**: *[KASAttachmentType](../enums/kasclient.kasattachmenttype.md)* = KASAttachmentType. Image
 
@@ -134,12 +124,11 @@ ___
 **Gibt Folgendes zurück:**`JSON`
 
 ___
-
 <a id="fromjson"></a>
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`any`*): [KASAttachment](kasclient.kasattachment.md)
+▸- **fromJSON**(Objekt *`any`*:): [KASAttachment](kasclient.kasattachment.md)
 
 **Parameter:**
 
@@ -150,7 +139,6 @@ ___
 **Gibt Folgendes zurück:** [KASAttachment](kasclient.kasattachment.md)
 
 ___
-
 <a id="haslocalpath"></a>
 
 ### <a name="static-haslocalpath"></a>`<Static>`hasLocalPath
@@ -166,7 +154,6 @@ ___
 **Gibt Folgendes zurück:**`boolean`
 
 ___
-
 <a id="hasserverpath"></a>
 
 ### <a name="static-hasserverpath"></a>`<Static>`hasServerPath
@@ -182,7 +169,6 @@ ___
 **Gibt Folgendes zurück:**`boolean`
 
 ___
-
 <a id="populatemodelfromjson"></a>
 
 ### <a name="static-populatemodelfromjson"></a>`<Static>`populateModelFromJSON

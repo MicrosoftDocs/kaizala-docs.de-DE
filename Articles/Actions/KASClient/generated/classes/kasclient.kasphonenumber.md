@@ -18,7 +18,7 @@
 ### <a name="methods"></a>Methoden
 
 * [toJSON](kasclient.kasphonenumber.md#tojson)
-* [toString](kasclient.kasphonenumber.md#tostring)
+* [ToString](kasclient.kasphonenumber.md#tostring)
 * [fromJSON](kasclient.kasphonenumber.md#fromjson)
 
 ---
@@ -29,7 +29,7 @@
 
 ###  <a name="constructor"></a>constructor
 
-⊕ **New KASPhoneNumber**(countryPhoneCode?: *`number`*, phoneNumber?: *`string`*): [KASPhoneNumber](kasclient.kasphonenumber.md)
+⊕ **neue KASPhoneNumber**(countryPhoneCode?: *`number`*, Faxnummer?: *`string`*): [KASPhoneNumber](kasclient.kasphonenumber.md)
 
 **Parameter:**
 
@@ -51,7 +51,6 @@ ___
 **● countryPhoneCode**: *`number`* = 0
 
 ___
-
 <a id="phonenumber"></a>
 
 ###  <a name="phonenumber"></a>PhoneNumber
@@ -71,17 +70,15 @@ ___
 **Gibt Folgendes zurück:**`JSON`
 
 ___
-
 <a id="tostring"></a>
 
-###  <a name="tostring"></a>toString
+###  <a name="tostring"></a>ToString
 
-▸- **ToString**():`string`
+▸ **ToString**():`string`
 
 **Gibt Folgendes zurück:**`string`
 
 ___
-
 <a id="fromjson"></a>
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON

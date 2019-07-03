@@ -27,10 +27,9 @@
 
 ###  <a name="actionid"></a>actionId
 
-**● Action**-Nr *`string`* .: = ""
+**● Aktions**-Nr *`string`* : = ""
 
 ___
-
 <a id="actionpackageid"></a>
 
 ###  <a name="actionpackageid"></a>actionPackageId
@@ -38,7 +37,6 @@ ___
 **● actionPackageId**: *`string`* = ""
 
 ___
-
 <a id="actionpropertytype"></a>
 
 ###  <a name="actionpropertytype"></a>actionPropertyType
@@ -46,7 +44,6 @@ ___
 **● actionPropertyType**: *[KASActionPropertyType](../enums/kasclient.kasactionpropertytype.md)* = KASActionPropertyType. local
 
 ___
-
 <a id="json"></a>
 
 ###  <a name="json"></a>json
@@ -54,7 +51,6 @@ ___
 **● JSON**:*`JSON`*
 
 ___
-
 <a id="properties"></a>
 
 ###  <a name="properties"></a>properties
@@ -69,7 +65,7 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`JSON`*): [KASActionProperties](kasclient.kasactionproperties.md)
+▸- **fromJSON**(Objekt *`JSON`*:): [KASActionProperties](kasclient.kasactionproperties.md)
 
 **Parameter:**
 

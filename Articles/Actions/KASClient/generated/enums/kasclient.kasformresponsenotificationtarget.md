@@ -4,24 +4,23 @@
 
 ## <a name="index"></a>Index 
 
-### <a name="enumeration-members"></a>Enumerationsmember
+### <a name="enumeration-members"></a>Aufzählungselemente
 
-* [CREATOR](kasclient.kasformresponsenotificationtarget.md#creator)
-* [Gruppe](kasclient.kasformresponsenotificationtarget.md#group)
+* [Schöpfer](kasclient.kasformresponsenotificationtarget.md#creator)
+* [GROUP](kasclient.kasformresponsenotificationtarget.md#group)
 * [Besitzer](kasclient.kasformresponsenotificationtarget.md#owners)
 
 ---
 
-## <a name="enumeration-members"></a>Enumerationsmember
+## <a name="enumeration-members"></a>Aufzählungselemente
 
 <a id="creator"></a>
 
-###  <a name="creator"></a>CREATOR
+###  <a name="creator"></a>Schöpfer
 
 **** Ersteller: = 1
 
 ___
-
 <a id="group"></a>
 
 ###  <a name="group"></a>Gruppe
@@ -29,7 +28,6 @@ ___
 **Gruppe**: = 3
 
 ___
-
 <a id="owners"></a>
 
 ###  <a name="owners"></a>Besitzer

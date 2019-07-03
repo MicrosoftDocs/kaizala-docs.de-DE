@@ -4,7 +4,7 @@
 
 ## <a name="index"></a>Index 
 
-### <a name="enumeration-members"></a>Enumerationsmember
+### <a name="enumeration-members"></a>Aufzählungselemente
 
 * [None](kasclient.urlaction.md#none)
 * [OpenInBrowser](kasclient.urlaction.md#openinbrowser)
@@ -12,7 +12,7 @@
 
 ---
 
-## <a name="enumeration-members"></a>Enumerationsmember
+## <a name="enumeration-members"></a>Aufzählungselemente
 
 <a id="none"></a>
 
@@ -21,7 +21,6 @@
 **None**: = 0
 
 ___
-
 <a id="openinbrowser"></a>
 
 ###  <a name="openinbrowser"></a>OpenInBrowser
@@ -29,7 +28,6 @@ ___
 **OpenInBrowser**: = 2
 
 ___
-
 <a id="share"></a>
 
 ###  <a name="share"></a>Freigeben

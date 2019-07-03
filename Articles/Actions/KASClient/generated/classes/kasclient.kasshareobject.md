@@ -27,10 +27,9 @@
 **● Data**: *`string`* = ""
 
 ___
-
 <a id="type"></a>
 
-###  <a name="type"></a>Typ
+###  <a name="type"></a>type
 
 **● Typ**: *[KASShareObjectType](../enums/kasclient.kasshareobjecttype.md)* = KASShareObjectType. Image
 

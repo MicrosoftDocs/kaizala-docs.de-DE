@@ -17,6 +17,8 @@ Definiert Details der Host-und Quell Unterhaltung
 * [hostConversationParticipantsMap](kasclient.kasconversationdetails.md#hostconversationparticipantsmap)
 * [hostConversationTitle](kasclient.kasconversationdetails.md#hostconversationtitle)
 * [hostConversationType](kasclient.kasconversationdetails.md#hostconversationtype)
+* [isHostGroupDiscoverable](kasclient.kasconversationdetails.md#ishostgroupdiscoverable)
+* [isSourceGroupDiscoverable](kasclient.kasconversationdetails.md#issourcegroupdiscoverable)
 * [sourceConversationId](kasclient.kasconversationdetails.md#sourceconversationid)
 * [sourceConversationTitle](kasclient.kasconversationdetails.md#sourceconversationtitle)
 * [sourceConversationType](kasclient.kasconversationdetails.md#sourceconversationtype)
@@ -35,7 +37,6 @@ Definiert Details der Host-und Quell Unterhaltung
 **● currentUserId**: *`string`* = ""
 
 ___
-
 <a id="currentuserroleinhostconversation"></a>
 
 ###  <a name="currentuserroleinhostconversation"></a>currentUserRoleInHostConversation
@@ -43,7 +44,6 @@ ___
 **● currentUserRoleInHostConversation**: *[KASParticipantRole](../enums/kasclient.kasparticipantrole.md)* = KASParticipantRole. None
 
 ___
-
 <a id="hostconversationid"></a>
 
 ###  <a name="hostconversationid"></a>hostConversationId
@@ -51,7 +51,6 @@ ___
 **● hostConversationId**: *`string`* = ""
 
 ___
-
 <a id="hostconversationparticipantsmap"></a>
 
 ###  <a name="hostconversationparticipantsmap"></a>hostConversationParticipantsMap
@@ -61,7 +60,6 @@ ___
 #### <a name="type-declaration"></a>Typdeklaration
 
 ___
-
 <a id="hostconversationtitle"></a>
 
 ###  <a name="hostconversationtitle"></a>hostConversationTitle
@@ -69,7 +67,6 @@ ___
 **● hostConversationTitle**: *`string`* = ""
 
 ___
-
 <a id="hostconversationtype"></a>
 
 ###  <a name="hostconversationtype"></a>hostConversationType
@@ -77,7 +74,20 @@ ___
 **● hostConversationType**: *[KASFormConversationType](../enums/kasclient.kasformconversationtype.md)* = KASFormConversationType. None
 
 ___
+<a id="ishostgroupdiscoverable"></a>
 
+###  <a name="ishostgroupdiscoverable"></a>isHostGroupDiscoverable
+
+**● isHostGroupDiscoverable**: *`boolean`* = false
+
+___
+<a id="issourcegroupdiscoverable"></a>
+
+###  <a name="issourcegroupdiscoverable"></a>isSourceGroupDiscoverable
+
+**● isSourceGroupDiscoverable**: *`boolean`* = false
+
+___
 <a id="sourceconversationid"></a>
 
 ###  <a name="sourceconversationid"></a>sourceConversationId
@@ -85,7 +95,6 @@ ___
 **● sourceConversationId**: *`string`* = ""
 
 ___
-
 <a id="sourceconversationtitle"></a>
 
 ###  <a name="sourceconversationtitle"></a>sourceConversationTitle
@@ -93,7 +102,6 @@ ___
 **● sourceConversationTitle**: *`string`* = ""
 
 ___
-
 <a id="sourceconversationtype"></a>
 
 ###  <a name="sourceconversationtype"></a>sourceConversationType
@@ -108,7 +116,7 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`any`*): [KASConversationDetails](kasclient.kasconversationdetails.md)
+▸- **fromJSON**(Objekt *`any`*:): [KASConversationDetails](kasclient.kasconversationdetails.md)
 
 **Parameter:**
 

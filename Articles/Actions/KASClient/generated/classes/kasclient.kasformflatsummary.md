@@ -30,22 +30,20 @@
 
 ###  <a name="conversationid"></a>conversationId
 
-**● Konversations**- *`string`* Nr.: = ""
+**● Conversation**-Nr *`string`* : = ""
 
-Die ID der zugeordneten Unterhaltung sollte nicht geändert werden.
+Die ID der zugeordneten Unterhaltung sollte nicht geändert werden
 
 ___
-
 <a id="formid"></a>
 
 ###  <a name="formid"></a>formId
 
-**● Formular**-Nr *`string`* .: = ""
+**● Formular**-Nr *`string`* : = ""
 
 Die ID des zugeordneten Formulars sollte nicht geändert werden.
 
 ___
-
 <a id="json"></a>
 
 ###  <a name="json"></a>json
@@ -67,26 +65,24 @@ Ruft alle Antworten aller Benutzer ab.
 **Gibt Folgendes zurück:**`__type`
 
 ___
-
 <a id="getquestionresponsesforuserid"></a>
 
 ###  <a name="getquestionresponsesforuserid"></a>getQuestionResponsesForUserId
 
-▸ **getQuestionResponsesForUserId**(UserID: *`string`*, questionable: *`number`*): `string`[]
+▸ **getQuestionResponsesForUserId**(UserID: *`string`*, question ID: *`number`*): `string`[]
 
-Ruft alle Antworten eines Benutzers für eine bestimmte Frage ab.
+Ruft alle Antworten eines Benutzers gegen eine bestimmte Frage ab.
 
 **Parameter:**
 
 | Name | Typ | Beschreibung |
 | ------ | ------ | ------ |
 | userId | `string` |  die eindeutige ID des Benutzers |
-| Frag-Nr. | `number` |  die ID der Frage |
+| Fragen-Nr | `number` |  die ID der Frage |
 
-**Gibt Folgendes zurück:** `string`[] Liste aller Antworten, die der Benutzer für diese Frage erteilt hat
+**Gibt Folgendes zurück:** `string`[] Liste aller Antworten, die der Benutzer für diese Frage angegeben hat.
 
 ___
-
 <a id="getrespondeduserids"></a>
 
 ###  <a name="getrespondeduserids"></a>getRespondedUserIds
@@ -95,17 +91,16 @@ ___
 
 Ruft alle Benutzer-IDs ab, die auf das Formular geantwortet haben.
 
-**Gibt Folgendes zurück:** `string`[] Liste aller geantwortten Benutzer-IDs
+**Gibt Folgendes zurück:** `string`[] Liste aller geantworteten Benutzer-IDs
 
 ___
-
 <a id="getresponsesforuserid"></a>
 
 ###  <a name="getresponsesforuserid"></a>getResponsesForUserId
 
 ▸ **getResponsesForUserId**(UserID: *`string`*):`__type`
 
-Ruft alle Antworten eines Benutzers auf ein Formular ab.
+Ruft alle Antworten eines Benutzers in ein Formular ab.
 
 **Parameter:**
 
@@ -116,7 +111,6 @@ Ruft alle Antworten eines Benutzers auf ein Formular ab.
 **Gibt Folgendes zurück:** `__type` Frage-ID zur Liste der Antworten
 
 ___
-
 <a id="gettotalresponsecount"></a>
 
 ###  <a name="gettotalresponsecount"></a>getTotalResponseCount
@@ -128,7 +122,6 @@ Ruft die Anzahl aller Antworten aller Benutzer ab.
 **Gibt Folgendes zurück:** `number` Anzahl aller Antworten
 
 ___
-
 <a id="fromjson"></a>
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON

@@ -11,8 +11,8 @@
 ### <a name="properties"></a>Eigenschaften
 
 * [attributes](kasclient.kasvalidationrule.md#attributes)
-* [errorString](kasclient.kasvalidationrule.md#errorstring)
-* [helpText](kasclient.kasvalidationrule.md#helptext)
+* [ErrorString](kasclient.kasvalidationrule.md#errorstring)
+* [HelpText](kasclient.kasvalidationrule.md#helptext)
 * [Regel](kasclient.kasvalidationrule.md#rule)
 ### <a name="methods"></a>Methoden
 
@@ -30,23 +30,20 @@
 **● Attribute**:*`any`*
 
 ___
-
 <a id="errorstring"></a>
 
-###  <a name="errorstring"></a>errorString
+###  <a name="errorstring"></a>ErrorString
 
-**● Fehler**String: *`string`* = NULL
+**● Error**String: *`string`* = NULL
 
 ___
-
 <a id="helptext"></a>
 
-###  <a name="helptext"></a>helpText
+###  <a name="helptext"></a>HelpText
 
 **● HelpText**: *`string`* = NULL
 
 ___
-
 <a id="rule"></a>
 
 ###  <a name="rule"></a>Regel
@@ -66,12 +63,11 @@ ___
 **Gibt Folgendes zurück:**`JSON`
 
 ___
-
 <a id="fromjson"></a>
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`any`*): [KASValidationRule](kasclient.kasvalidationrule.md)
+▸- **fromJSON**(Objekt *`any`*:): [KASValidationRule](kasclient.kasvalidationrule.md)
 
 **Parameter:**
 

@@ -28,7 +28,6 @@
 **● Sprache**:*`string`*
 
 ___
-
 <a id="latitude"></a>
 
 ###  <a name="latitude"></a>latitude
@@ -36,12 +35,11 @@ ___
 **● Latitude**:*`number`*
 
 ___
-
 <a id="longitude"></a>
 
 ###  <a name="longitude"></a>longitude
 
-**● Länge**:*`number`*
+**● Längengrad**:*`number`*
 
 ___
 

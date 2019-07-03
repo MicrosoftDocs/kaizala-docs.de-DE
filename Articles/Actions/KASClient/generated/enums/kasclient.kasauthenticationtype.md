@@ -4,7 +4,7 @@
 
 ## <a name="index"></a>Index 
 
-### <a name="enumeration-members"></a>Enumerationsmember
+### <a name="enumeration-members"></a>Aufzählungselemente
 
 * [FaceRecognition](kasclient.kasauthenticationtype.md#facerecognition)
 * [Fingerabdruck](kasclient.kasauthenticationtype.md#fingerprint)
@@ -15,7 +15,7 @@
 
 ---
 
-## <a name="enumeration-members"></a>Enumerationsmember
+## <a name="enumeration-members"></a>Aufzählungselemente
 
 <a id="facerecognition"></a>
 
@@ -24,7 +24,6 @@
 **FaceRecognition**: = 5
 
 ___
-
 <a id="fingerprint"></a>
 
 ###  <a name="fingerprint"></a>Fingerabdruck
@@ -32,7 +31,6 @@ ___
 **Fingerabdruck**: = 4
 
 ___
-
 <a id="none"></a>
 
 ###  <a name="none"></a>Keine
@@ -40,7 +38,6 @@ ___
 **None**: =-1
 
 ___
-
 <a id="password"></a>
 
 ###  <a name="password"></a>Kennwort
@@ -48,7 +45,6 @@ ___
 **Kennwort**: = 3
 
 ___
-
 <a id="pattern"></a>
 
 ###  <a name="pattern"></a>Muster
@@ -56,7 +52,6 @@ ___
 **Muster**: = 1
 
 ___
-
 <a id="pin"></a>
 
 ###  <a name="pin"></a>PIN

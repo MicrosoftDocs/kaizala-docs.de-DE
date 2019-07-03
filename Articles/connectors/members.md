@@ -1,34 +1,34 @@
 ---
-title: /Members
-description: Referenzartikel für API zum Abfragen von Gruppenmitglieder Daten
+title: /members
+description: Referenzartikel zur API für Abfragegruppen Mitgliederdaten
 topic: Reference
 author: nitinjms
-ms.openlocfilehash: a2bbbc19e74140737e768b55f296f2463004d2fa
-ms.sourcegitcommit: 973f754fdb7c93381f808632f47fe66a46cc069e
+ms.openlocfilehash: d4f71858cfd58a4d6dd33f3d3d14b5ac855a757a
+ms.sourcegitcommit: 7f642489150d68013f55d6ad11a6bd6dde185036
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/24/2019
-ms.locfileid: "33190792"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35535774"
 ---
-# <a name="members"></a>/Members
-API-Endpunkt zum Hinzufügen oder Löschen von Mitgliedern aus Konversationsgruppen innerhalb von Kaizala.
+# <a name="members"></a>/members
+API-Endpunkt zum Hinzufügen oder Löschen von Mitgliedern aus unterhaltungsgruppen in Kaizala.
 
 ## <a name="get-members"></a>/Members abrufen
 
     GET {endpoint-url}/v1/groups/{groupId}/members
 
-### <a name="request-parameters"></a>AnforderungsParameter
+### <a name="request-parameters"></a>Anforderungsparameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| URL-Pfad Parameter | groupId | String | Nein | GUID, die die Gruppen-ID der bestimmten Gruppenressource darstellt |
-| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| URL-Pfad-Parameter | groupId | String | Nein | GUID, die die Gruppen-ID der bestimmten Gruppenressource darstellt. |
+| HTTP-Header | accessToken | String | Nein | Vom auth-Endpunkt empfangenes Zugriffs Token |
 
 ### <a name="response-body"></a>Antworttext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| members | JSON-Array | Array von JSON-Objekten, die jeweils ein Mitglied der Gruppe darstellen |
+| Elemente | JSON-Array | Array von JSON-Objekten, die jeweils ein Mitglied der Gruppe darstellen |
 
 #### <a name="sample-json-response"></a>JSON-Beispielantwort
 
@@ -51,23 +51,23 @@ API-Endpunkt zum Hinzufügen oder Löschen von Mitgliedern aus Konversationsgrup
 }
 ```
 
-## <a name="put-members"></a>PUT/Members
+## <a name="put-members"></a>Put/Members
 
     PUT {endpoint-url}/v1/groups/{groupId}/members
 
-### <a name="request-parameters"></a>AnforderungsParameter
+### <a name="request-parameters"></a>Anforderungsparameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| URL-Pfad Parameter | groupId | String | Nein | GUID, die die Gruppen-ID der bestimmten Gruppenressource darstellt |
-| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| URL-Pfad-Parameter | groupId | String | Nein | GUID, die die Gruppen-ID der bestimmten Gruppenressource darstellt. |
+| HTTP-Header | accessToken | String | Nein | Vom auth-Endpunkt empfangenes Zugriffs Token |
 | HTTP-Header | Content-Type | String | Nein | Wert: Application/JSON |
 
 ### <a name="request-body"></a>Anforderungstext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| members | Zeichenfolgenarray | Array von formatierten Telefonnummern neuer Mitglieder, die hinzugefügt werden sollen |
+| Elemente | Zeichenfolgenarray | Array mit gut formatierten Telefonnummern neuer Mitglieder, die hinzugefügt werden sollen |
 
 #### <a name="sample-json-request"></a>JSON-Beispielanforderung
 
@@ -84,7 +84,7 @@ API-Endpunkt zum Hinzufügen oder Löschen von Mitgliedern aus Konversationsgrup
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| result | Boolean | True, wenn alle Telefonnummern erfolgreich der Gruppe hinzugefügt wurden |
+| result | Boolesch | True, wenn alle Telefonnummern erfolgreich der Gruppe hinzugefügt wurden |
 
 #### <a name="sample-json-response"></a>JSON-Beispielantwort
 
@@ -98,19 +98,19 @@ API-Endpunkt zum Hinzufügen oder Löschen von Mitgliedern aus Konversationsgrup
 
     DELETE {endpoint-url}/v1/groups/{groupId}/members/{memberId}
 
-### <a name="request-parameters"></a>AnforderungsParameter
+### <a name="request-parameters"></a>Anforderungsparameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| URL-Pfad Parameter | groupId | String | Nein | GUID, die die Gruppen-ID der bestimmten Gruppenressource darstellt |
-| URL-Pfad Parameter | memberId | String | Nein | GUID, die die Member-ID des bestimmten Members darstellt |
-| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| URL-Pfad-Parameter | groupId | String | Nein | GUID, die die Gruppen-ID der bestimmten Gruppenressource darstellt. |
+| URL-Pfad-Parameter | memberId | String | Nein | GUID, die die Mitglieds-ID des bestimmten Members darstellt |
+| HTTP-Header | accessToken | String | Nein | Vom auth-Endpunkt empfangenes Zugriffs Token |
 
 ### <a name="response-body"></a>Antworttext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| result | Boolean | True, wenn das angegebene Element erfolgreich aus der Gruppe entfernt wurde |
+| result | Boolesch | True, wenn das angegebene Element erfolgreich aus der Gruppe entfernt wurde |
 
 #### <a name="sample-json-response"></a>JSON-Beispielantwort
 

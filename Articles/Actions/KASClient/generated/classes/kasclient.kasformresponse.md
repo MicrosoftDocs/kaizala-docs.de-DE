@@ -11,7 +11,7 @@
 ### <a name="properties"></a>Eigenschaften
 
 * [groupId](kasclient.kasformresponse.md#groupid)
-* [groupName](kasclient.kasformresponse.md#groupname)
+* [GroupName](kasclient.kasformresponse.md#groupname)
 * [id](kasclient.kasformresponse.md#id)
 * [questionToAnswerMap](kasclient.kasformresponse.md#questiontoanswermap)
 * [responderId](kasclient.kasformresponse.md#responderid)
@@ -31,43 +31,39 @@
 
 ###  <a name="groupid"></a>groupId
 
-**● Groupi**: *`string`* = ""
+**● Gruppen**-Nr *`string`* : = ""
 
 Gruppen-ID
 
 ___
-
 <a id="groupname"></a>
 
-###  <a name="groupname"></a>groupName
+###  <a name="groupname"></a>GroupName
 
 **● GroupName**: *`string`* = ""
 
 Group Name
 
 ___
-
 <a id="id"></a>
 
 ###  <a name="id"></a>id
 
 **● ID**: *`string`* = ""
 
-Eine eindeutige Antwort-ID, die bei der Aktualisierung einer vorhandenen Antwort erforderlich ist
+Eine eindeutige Antwort-ID, die für den Fall einer Aktualisierung einer vorhandenen Antwort erforderlich ist
 
 ___
-
 <a id="questiontoanswermap"></a>
 
 ###  <a name="questiontoanswermap"></a>questionToAnswerMap
 
 **● questionToAnswerMap**:*`object`*
 
-Eine Karte der Frage-ID zur Antwort Dictionary<QuestionId: Number, Answer: string>
+Eine Zuordnung der Frage-ID zum beantworten des Wörterbuchs<fragwürdig: Number, Answer: String>
 #### <a name="type-declaration"></a>Typdeklaration
 
 ___
-
 <a id="responderid"></a>
 
 ###  <a name="responderid"></a>responderId
@@ -77,44 +73,40 @@ ___
 Responder-ID
 
 ___
-
 <a id="respondername"></a>
 
 ###  <a name="respondername"></a>responderName
 
 **● responderName**: *`string`* = ""
 
-Respondername
+Name des Responders
 
 ___
-
 <a id="sendstatus"></a>
 
 ###  <a name="sendstatus"></a>sendStatus
 
 **● sendStatus**: *[KASFormMessageSendStatus](../enums/kasclient.kasformmessagesendstatus.md)* = KASFormMessageSendStatus. Unknown
 
-Sendestatus der Antwortnachricht
+Status der Antwortnachricht senden
 
 ___
-
 <a id="sendtime"></a>
 
 ###  <a name="sendtime"></a>Sendezeit
 
 **● Sendezeit**: *`number`* = 0
 
-Uhrzeit der Antwort Übermittlung
+Antwort Sende Zeit
 
 ___
-
 <a id="servertolocalasseturlmap"></a>
 
 ###  <a name="servertolocalasseturlmap"></a>serverToLocalAssetUrlMap
 
 **● serverToLocalAssetUrlMap**:*`object`*
 
-Eine Zuordnung für serverUrl für localUrl aller Bildanlagen an eine Antwort Dictionary<ServerUrl: String, LocalUrl: string>
+Eine Zuordnung für serverUrl gegen localUrl aller Bildanlagen zu einem Antwort Wörterbuch<serverUrl: String, localUrl: String>
 #### <a name="type-declaration"></a>Typdeklaration
 
 ___
@@ -125,7 +117,7 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`any`*): [KASFormResponse](kasclient.kasformresponse.md)
+▸- **fromJSON**(Objekt *`any`*:): [KASFormResponse](kasclient.kasformresponse.md)
 
 **Parameter:**
 

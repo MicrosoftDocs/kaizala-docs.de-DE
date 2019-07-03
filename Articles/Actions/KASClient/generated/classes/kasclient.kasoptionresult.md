@@ -26,12 +26,11 @@
 
 ###  <a name="optionid"></a>optionId
 
-**● options**-Nr *`number`* .: = 0
+**● options**-Nr *`number`* : = 0
 
 Index der Option
 
 ___
-
 <a id="optiontitle"></a>
 
 ###  <a name="optiontitle"></a>optionTitle
@@ -41,18 +40,16 @@ ___
 Titel der Option
 
 ___
-
 <a id="respondertoresponsecount"></a>
 
 ###  <a name="respondertoresponsecount"></a>responderToResponseCount
 
 **● responderToResponseCount**:*`object`*
 
-Eine Zuordnung von Benutzer-IDs mit ihrer Antwort Anzahl Dictionary<UserId: String, ResponseCount: number>
+Eine Zuordnung von Benutzer-IDs für Ihr Antwort zählungs Wörterbuch<UserID: String, ResponseCount: Number>
 #### <a name="type-declaration"></a>Typdeklaration
 
 ___
-
 <a id="totalresponsescount"></a>
 
 ###  <a name="totalresponsescount"></a>totalResponsesCount
@@ -69,7 +66,7 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`any`*): [KASOptionResult](kasclient.kasoptionresult.md)
+▸- **fromJSON**(Objekt *`any`*:): [KASOptionResult](kasclient.kasoptionresult.md)
 
 **Parameter:**
 

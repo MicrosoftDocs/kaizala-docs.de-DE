@@ -13,7 +13,7 @@
 ### <a name="properties"></a>Eigenschaften
 
 * [durchschnittliche](kasclient.kasnumericquestionresult.md#average)
-* [Frag-Nr.](kasclient.kasnumericquestionresult.md#questionid)
+* [Fragen-Nr](kasclient.kasnumericquestionresult.md#questionid)
 * [questionTitle](kasclient.kasnumericquestionresult.md#questiontitle)
 * [questiontype](kasclient.kasnumericquestionresult.md#questiontype)
 * [Summe](kasclient.kasnumericquestionresult.md#sum)
@@ -32,27 +32,24 @@
 **● Durchschnitt**: *`number`* = 0
 
 ___
-
 <a id="questionid"></a>
 
-###  <a name="questionid"></a>Frag-Nr.
+###  <a name="questionid"></a>Fragen-Nr
 
-**● Frage**-Nr *`number`* .: = 0
+**● Frag**-Nr *`number`* : = 0
 
 Index der Frage
 
 ___
-
 <a id="questiontitle"></a>
 
 ###  <a name="questiontitle"></a>questionTitle
 
 **● questionTitle**: *`string`* = ""
 
-Der Titel der Frage
+Titel der Frage
 
 ___
-
 <a id="questiontype"></a>
 
 ###  <a name="questiontype"></a>questiontype
@@ -62,14 +59,13 @@ ___
 Typ der Frage
 
 ___
-
 <a id="sum"></a>
 
 ###  <a name="sum"></a>Summe
 
 **● Sum**: *`number`* = 0
 
-Für numerische Fragen ist das aggregierte Ergebnis Sum und der Mittelwert aller Antworten
+Bei numerischen Fragen wird das aggregierte Ergebnis als Summe und Durchschnitt aller Antworten
 
 ___
 
@@ -79,7 +75,7 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`any`*): [KASNumericQuestionResult](kasclient.kasnumericquestionresult.md)
+▸- **fromJSON**(Objekt *`any`*:): [KASNumericQuestionResult](kasclient.kasnumericquestionresult.md)
 
 **Parameter:**
 

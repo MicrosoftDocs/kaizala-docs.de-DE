@@ -4,7 +4,7 @@
 
 ## <a name="index"></a>Index 
 
-### <a name="enumeration-members"></a>Enumerationsmember
+### <a name="enumeration-members"></a>Aufzählungselemente
 
 * [Active](kasclient.formstatus.md#active)
 * [Closed](kasclient.formstatus.md#closed)
@@ -12,7 +12,7 @@
 
 ---
 
-## <a name="enumeration-members"></a>Enumerationsmember
+## <a name="enumeration-members"></a>Aufzählungselemente
 
 <a id="active"></a>
 
@@ -21,7 +21,6 @@
 **Aktiv**: = 0
 
 ___
-
 <a id="closed"></a>
 
 ###  <a name="closed"></a>Geschlossen
@@ -29,12 +28,11 @@ ___
 **Geschlossen**: = 1
 
 ___
-
 <a id="expired"></a>
 
 ###  <a name="expired"></a>Abgelaufen
 
-**Expired**: = 2
+**Abgelaufen**: = 2
 
 ___
 

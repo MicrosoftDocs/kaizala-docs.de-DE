@@ -29,15 +29,13 @@
 **● dependencyQuestionId**: *`string`* = ""
 
 ___
-
 <a id="optionid"></a>
 
 ###  <a name="optionid"></a>optionId
 
-**● options**-Nr *`string`* .: = ""
+**● options**-Nr *`string`* : = ""
 
 ___
-
 <a id="rule"></a>
 
 ###  <a name="rule"></a>Regel
@@ -57,12 +55,11 @@ ___
 **Gibt Folgendes zurück:**`JSON`
 
 ___
-
 <a id="fromjson"></a>
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`any`*): [KASVisibilityRule](kasclient.kasvisibilityrule.md)
+▸- **fromJSON**(Objekt *`any`*:): [KASVisibilityRule](kasclient.kasvisibilityrule.md)
 
 **Parameter:**
 

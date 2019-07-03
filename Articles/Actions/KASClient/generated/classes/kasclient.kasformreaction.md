@@ -11,7 +11,7 @@
 ### <a name="properties"></a>Eigenschaften
 
 * [commentsCount](kasclient.kasformreaction.md#commentscount)
-* [didIComment](kasclient.kasformreaction.md#didicomment)
+* [didicomment](kasclient.kasformreaction.md#didicomment)
 * [didILike](kasclient.kasformreaction.md#didilike)
 * [hideComments](kasclient.kasformreaction.md#hidecomments)
 * [hideLikes](kasclient.kasformreaction.md#hidelikes)
@@ -31,30 +31,27 @@
 
 **● commentsCount**: *`number`* = 0
 
-Anzahl der empfangenen Kommentare für das Formular
+Anzahl der für das Formular empfangenen Kommentare
 
 ___
-
 <a id="didicomment"></a>
 
-###  <a name="didicomment"></a>didIComment
+###  <a name="didicomment"></a>didicomment
 
 **●**didicomment: *`boolean`* = false
 
-Gibt an, ob der aktuelle Benutzer bereits gemocht hat oder nicht.
+Gibt an, ob der aktuelle Benutzer bereits gefallen hat oder nicht.
 
 ___
-
 <a id="didilike"></a>
 
 ###  <a name="didilike"></a>didILike
 
 **● didILike**: *`boolean`* = false
 
-Gibt an, ob der aktuelle Benutzer bereits gemocht hat oder nicht.
+Gibt an, ob der aktuelle Benutzer bereits gefallen hat oder nicht.
 
 ___
-
 <a id="hidecomments"></a>
 
 ###  <a name="hidecomments"></a>hideComments
@@ -64,34 +61,31 @@ ___
 Gibt an, ob Kommentare angezeigt werden sollen oder nicht.
 
 ___
-
 <a id="hidelikes"></a>
 
 ###  <a name="hidelikes"></a>hideLikes
 
 **● hideLikes**: *`boolean`* = false
 
-Gibt an, ob Vorlieben angezeigt werden sollen oder nicht.
+Zeigt an, ob Sie likes anzeigen möchten
 
 ___
-
 <a id="hidelikesdetails"></a>
 
 ###  <a name="hidelikesdetails"></a>hideLikesDetails
 
 **● hideLikesDetails**: *`boolean`* = false
 
-Zeigt an, ob likes imeersive-Ansicht angezeigt werden soll oder nicht
+Zeigt an, ob likes imeersive View angezeigt wird oder nicht
 
 ___
-
 <a id="likescount"></a>
 
 ###  <a name="likescount"></a>likesCount
 
 **● likesCount**: *`number`* = 0
 
-Anzahl der für das Formular erhaltenen Vorlieben
+Anzahl der für das Formular erhaltenen likes
 
 ___
 
@@ -101,7 +95,7 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`JSON`*): [KASFormReaction](kasclient.kasformreaction.md)
+▸- **fromJSON**(Objekt *`JSON`*:): [KASFormReaction](kasclient.kasformreaction.md)
 
 **Parameter:**
 

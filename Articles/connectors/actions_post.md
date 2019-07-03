@@ -1,38 +1,38 @@
 ---
 title: /Actions_post
-description: Referenzartikel zur API zum Nachschlagen von Aktionen in einer Kaizala-Gruppe
+description: Referenzartikel zur API zur Post-Aktion in einer Kaizala-Gruppe
 topic: Reference
 author: nitinjms
-ms.openlocfilehash: 5ca7c92f76a0e0e18025dda2526b53515a003e90
-ms.sourcegitcommit: 973f754fdb7c93381f808632f47fe66a46cc069e
+ms.openlocfilehash: 8a5e6e3c4d2f294e7c507e661ec8e5df7c717ec6
+ms.sourcegitcommit: 7f642489150d68013f55d6ad11a6bd6dde185036
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/24/2019
-ms.locfileid: "33190742"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35535776"
 ---
-# <a name="post-a-action-in-a-group"></a>Veröffentlichen einer Aktion in einer Gruppe
-## <a name="post-actions"></a>POST/Actions
+# <a name="post-a-action-in-a-group"></a>Posten einer Aktion in einer Gruppe
+## <a name="post-actions"></a>Post/Actions
 
     POST {endpoint-url}/groups/{groupId}/actions
 
-### <a name="request-parameters"></a>AnforderungsParameter
+### <a name="request-parameters"></a>Anforderungsparameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| URL-Pfad Parameter | groupId | String | Nein | Gruppenbezeichner |
-| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
+| URL-Pfad-Parameter | groupId | String | Nein | Gruppenbezeichner |
+| HTTP-Header | accessToken | String | Nein | Vom auth-Endpunkt empfangenes Zugriffs Token |
 | HTTP-Header | Content-Type | String | Nein | Wert: Application/JSON |
 
 ### <a name="request-body"></a>Anforderungstext
 
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
-| id | Zeichenfolge | ID des Kaizala-Aktionspakets. Entweder von ActionType oder ID sollte angegeben werden |
-| actionType | String | Enum "Survey"/"Job". Entweder von ActionType oder ID sollte angegeben werden |
-| actionBody | JSON-Objekt | Objekt, das die für die jeweilige Aktion erforderlichen Daten darstellt. Die unten definierten Parameter für jede der unterstützten Aktionen. |
+| id | Zeichenfolge | ID des Kaizala-Aktionspakets. Entweder von Action Type oder ID sollte angegeben werden |
+| actionType | String | Enum "Survey"/"Job". Entweder von Action Type oder ID sollte angegeben werden |
+| actionBody | JSON-Objekt | Objekt, das für die jeweilige Aktion erforderliche Daten darstellt. Für jede der unterstützten Aktionen definierte Parameter. |
 
 
-#### <a name="actionbody-for-an-announcement-action"></a>actionBody für eine Ansage Aktion
+#### <a name="actionbody-for-an-announcement-action"></a>actionBody für eine Ankündigungs Aktion
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
@@ -40,7 +40,7 @@ ms.locfileid: "33190742"
 | MediaResources | String [] | Ja | Array von Medienressourcen |
 | Nachricht | String | Nein | Nachrichtentext |
 
-#### <a name="sample-json-request-for-an-announcement-action"></a>JSON-Beispielanforderung für eine Ansage Aktion
+#### <a name="sample-json-request-for-an-announcement-action"></a>JSON-Beispielanforderung für eine Ankündigungs Aktion
 
 ```javascript
 {
@@ -64,7 +64,7 @@ ms.locfileid: "33190742"
 | :---: | :---: | :---: | :--- |
 | title | String | Nein | Titel des Auftrags |
 | assignedTo | String [] | Nein | Titel des Auftrags |
-| dueDate | long | Ja | Standard: 24 Stunden. Anzahl der Stunden, die vor der Ausführung des Auftrags ausgeführt werden sollen |
+| DueDate | long | Ja | Standard: 24 Stunden. Anzahl der Stunden vor dem Abschluss des Auftrags |
 
 ##### <a name="sample-json-request-for-a-job-action"></a>JSON-Beispielanforderung für eine Auftragsaktion
 
@@ -85,8 +85,8 @@ ms.locfileid: "33190742"
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
 | Frage | String | Nein | Umfrage Frage |
-| Auswahlmöglichkeiten | JSON-Array | Nein | Auswahlmöglichkeiten für die Umfrage. Jede Auswahl hat die folgende Komponente: <ol><li>Title (obligatorische & im Zeichenfolgenformat) </li><li>Bild (optional)</li></ol> |
-| expiryInHours | Ganze Zahl | Ja | Standard: 720. Anzahl der Stunden, in denen eine Reformprogramms große-Umfrage abläuft |
+| Auswahlmöglichkeiten | JSON-Array | Nein | Verfügbare Auswahlmöglichkeiten für die Umfrage. Jede Auswahl ist Unterkomponente: <ol><li>Title (obligatorisch #a0 im Zeichenfolgenformat) </li><li>Image (optional)</li></ol> |
+| expiryInHours | Ganze Zahl | Ja | Standard: 720. Anzahl der Stunden, in denen eine bestimmte Umfrage ablaufen würde |
 
 ##### <a name="sample-json-request-for-a-poll-action"></a>JSON-Beispielanforderung für eine Abfrage Aktion
 
@@ -106,10 +106,10 @@ ms.locfileid: "33190742"
 | :---: | :---: | :---: | :--- |
 | title | String | Nein | Titel der Besprechungsanfrage  |
 | Startzeit | DateTime | Nein | Startzeit für die Besprechung |
-| DurationInMins | Ganze Zahl | Nein | Standard: 30 Minuten. Die Anzahl der Minuten, für die eine Besprechung durchgeführt werden soll. |
-| Compliance | JSON-Objekt | Ja | Besprechungs Speicherort. Enthält 3 Komponenten: Breite, Länge, Name  |
-| Agendas | String | Ja | Agenda für die Besprechung/Beschreibung der Besprechung |
-| isSenderOnly | Boolescher Wert | Ja | Nur für Absender, um die Zusammenfassung der Let es Meet anzuzeigen. Standard: false |
+| DurationInMins | Ganze Zahl | Nein | Standard: 30 Minuten. Anzahl der Minuten, für die eine Besprechung durchgeführt wurde |
+| Ort | JSON-Objekt | Ja | Besprechungs Standort. Enthält 3 Komponenten: Latitude, Längengrad, Name  |
+| Agendas | String | Ja | Agenda für die Besprechung/Beschreibung für die Besprechung |
+| isSenderOnly | Boolescher Wert | Ja | Damit nur Absender die Zusammenfassung von Let es Meet anzeigen können. Standard: false |
 
 ##### <a name="sample-json-request-for-a-lets-meet-action"></a>JSON-Beispielanforderung für eine Let es Meet-Aktion
 
@@ -123,10 +123,10 @@ ms.locfileid: "33190742"
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
 | title | String | Nein | Titel des Auftrags |
-| dueDate | long | Ja | Standard: 24 Stunden. Anzahl der Stunden, die vor der Ausführung des Auftrags ausgeführt werden sollen |
-| isAnonymous | Boolescher Wert | Ja | Für die Gewährung anonymer Umfrage Antworten. Standard: false |
-| isSenderOnly | Boolescher Wert | Ja | Nur für Absender, um die Umfragezusammenfassung anzuzeigen. Standard: false |
-| acceptMultipleResponses | Boolescher Wert | Ja | Für das Zulassen von mehreren Antworten vom gleichen Responder. Standard: false |
+| DueDate | long | Ja | Standard: 24 Stunden. Anzahl der Stunden vor dem Abschluss des Auftrags |
+| isAnonymous | Boolescher Wert | Ja | Für das zulassen anonymer Umfrage Antworten. Standard: false |
+| isSenderOnly | Boolescher Wert | Ja | Für die Möglichkeit, dass nur Absender die Umfragezusammenfassung anzeigen können. Standard: false |
+| acceptMultipleResponses | Boolescher Wert | Ja | Für das Zulassen mehrerer Antworten von demselben Responder. Standard: false |
 | Fragen | object[] | Nein | Jedes Element von Object [] wird im folgenden als Question-Objekt beschrieben. |
 | properties | object[] | Nein | Jedes Element von Object [] wird im folgenden als Property-Objekt beschrieben. Nur gültig zum Erstellen einer Aktionspaket Instanz |
 
@@ -134,12 +134,12 @@ ms.locfileid: "33190742"
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
-| title | String | Nein | Der Titel der Frage |
-| type | String | Nein | Typ der Frage. Enumeration: SingleOption/multiOption/Text/Image/numeric/Date/Location/Attachmentlist |
-| isUnsichtbar | Boolescher Wert | Ja | Standard: false. So steuern Sie die Sichtbarkeit der Frage |
-| options | object[] | Ja | Obligatorisch für SingleOption-und multiOption-Fragentyp. jedes Element von Object [] wird im folgenden als Option-Objekt beschrieben. |
+| title | String | Nein | Titel der Frage |
+| type | Zeichenfolge | Nein | Der Typ der Frage. Enumeration: SingleOption/multioption/Text/Image/numerisch/Datum/Ort/Anlage Liste |
+| isunsichtbar | Boolescher Wert | Ja | Default: false. So steuern Sie die Sichtbarkeit der Frage |
+| options | object[] | Ja | Obligatorisch für SingleOption und multioption-Fragentyp. jedes Element von Object [] wird im folgenden als Optionsobjekt beschrieben. |
 
-###### <a name="structure-for-option-object"></a>Struktur für Option-Objekt
+###### <a name="structure-for-option-object"></a>Struktur für Optionsobjekt
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
@@ -149,8 +149,8 @@ ms.locfileid: "33190742"
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :--- |
-| name | String | Nein | Name der Eigenschaft |
-| type | String | Nein | Typ der Eigenschaft. Enum: Text, numeric, Location, DateTime, Stringlist, Attachment, Stringset, Attachmentlist |
+| name | Zeichenfolge | Nein | Name der Eigenschaft |
+| type | String | Nein | Typ der Eigenschaft. Enum: Text, numeric, Location, DateTime, stringlist, Attachment, stringset, attachmentlist |
 | value | String | Nein | Wert der Eigenschaft |
 
 ##### <a name="sample-json-request-for-a-survey-action"></a>JSON-Beispielanforderung für eine Umfrageaktion
@@ -205,7 +205,7 @@ ms.locfileid: "33190742"
 | Parameter | Typ | Beschreibung |
 | :---: | :---: | :--- |
 | referenceId | String | Anforderungs-ID |
-| actionId | String | Aktionsbezeichner |
+| actionId | String | Aktions-ID |
 
 ```javascript
 {

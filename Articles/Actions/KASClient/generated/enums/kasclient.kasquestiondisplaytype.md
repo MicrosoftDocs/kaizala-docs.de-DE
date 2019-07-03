@@ -4,7 +4,7 @@
 
 ## <a name="index"></a>Index 
 
-### <a name="enumeration-members"></a>Enumerationsmember
+### <a name="enumeration-members"></a>Aufzählungselemente
 
 * [DropDown](kasclient.kasquestiondisplaytype.md#dropdown)
 * [None](kasclient.kasquestiondisplaytype.md#none)
@@ -12,7 +12,7 @@
 
 ---
 
-## <a name="enumeration-members"></a>Enumerationsmember
+## <a name="enumeration-members"></a>Aufzählungselemente
 
 <a id="dropdown"></a>
 
@@ -21,7 +21,6 @@
 **Dropdown**: = 0
 
 ___
-
 <a id="none"></a>
 
 ###  <a name="none"></a>Keine
@@ -29,7 +28,6 @@ ___
 **None**: =-1
 
 ___
-
 <a id="radiobutton"></a>
 
 ###  <a name="radiobutton"></a>Button

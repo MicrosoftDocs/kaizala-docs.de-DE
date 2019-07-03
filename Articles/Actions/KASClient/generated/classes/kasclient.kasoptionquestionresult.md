@@ -13,7 +13,7 @@
 ### <a name="properties"></a>Eigenschaften
 
 * [optionResults](kasclient.kasoptionquestionresult.md#optionresults)
-* [Frag-Nr.](kasclient.kasoptionquestionresult.md#questionid)
+* [Fragen-Nr](kasclient.kasoptionquestionresult.md#questionid)
 * [questionTitle](kasclient.kasoptionquestionresult.md#questiontitle)
 * [questiontype](kasclient.kasoptionquestionresult.md#questiontype)
 ### <a name="methods"></a>Methoden
@@ -31,31 +31,28 @@
 
 **● optionResults**:*`object`*
 
-Für SingleSelect/multiSelect question ist das Ergebnis die Option ID im Vergleich zu ihren Anzahlen Dictionary<OptionId: Number, OptionResult: KASOptionResult>
+Für SingleSelect/MultiSelect-Frage ist das Ergebnis die Options-ID im Vergleich zu Ihrem Counts-Wörterbuch<Optionskennung: Number, OptionResult: KASOptionResult>
 #### <a name="type-declaration"></a>Typdeklaration
 
 ___
-
 <a id="questionid"></a>
 
-###  <a name="questionid"></a>Frag-Nr.
+###  <a name="questionid"></a>Fragen-Nr
 
-**● Frage**-Nr *`number`* .: = 0
+**● Frag**-Nr *`number`* : = 0
 
 Index der Frage
 
 ___
-
 <a id="questiontitle"></a>
 
 ###  <a name="questiontitle"></a>questionTitle
 
 **● questionTitle**: *`string`* = ""
 
-Der Titel der Frage
+Titel der Frage
 
 ___
-
 <a id="questiontype"></a>
 
 ###  <a name="questiontype"></a>questiontype
@@ -74,17 +71,16 @@ ___
 
 ▸ **getResultsOrder**(): `number`[]
 
-Ruft alle Options-IDs ab, die in der Anzahl der Gesamt Antworten sortiert sind (absteigend)
+Ruft alle Options-IDs ab, die in der Gesamtanzahl der Antworten sortiert sind (absteigend).
 
 **Gibt Folgendes zurück:** `number`[] Liste aller Options-IDs
 
 ___
-
 <a id="fromjson"></a>
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`any`*): [KASOptionQuestionResult](kasclient.kasoptionquestionresult.md)
+▸- **fromJSON**(Objekt *`any`*:): [KASOptionQuestionResult](kasclient.kasoptionquestionresult.md)
 
 **Parameter:**
 

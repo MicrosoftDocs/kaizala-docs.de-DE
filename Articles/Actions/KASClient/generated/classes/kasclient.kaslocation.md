@@ -16,6 +16,8 @@
 * [Ortsname](kasclient.kaslocation.md#placename)
 ### <a name="methods"></a>Methoden
 
+* [IsEmpty](kasclient.kaslocation.md#isempty)
+* [IsEqual](kasclient.kaslocation.md#isequal)
 * [toJSON](kasclient.kaslocation.md#tojson)
 * [fromJSON](kasclient.kaslocation.md#fromjson)
 
@@ -29,42 +31,63 @@
 
 **● Latitude**: *`number`* = 0
 
-Breitengrad des Standorts
+Breite des Speicherorts
 
 ___
-
 <a id="longitude"></a>
 
 ###  <a name="longitude"></a>longitude
 
-**● Länge**: *`number`* = 0
+**● Längengrad**: *`number`* = 0
 
-Länge des Standorts
+Längengrad des Standorts
 
 ___
-
 <a id="placeaddress"></a>
 
 ###  <a name="placeaddress"></a>placeAddress
 
 **● placeAddress**: *`string`* = ""
 
-Adresse des Standorts
+Adresse des Speicherorts
 
 ___
-
 <a id="placename"></a>
 
 ###  <a name="placename"></a>Ortsname
 
 **● Ortsname**: *`string`* = ""
 
-Name des Standorts
+Name des Speicherorts
 
 ___
 
 ## <a name="methods"></a>Methoden
 
+<a id="isempty"></a>
+
+###  <a name="isempty"></a>IsEmpty
+
+▸ **IsEmpty**():`boolean`
+
+**Gibt Folgendes zurück:**`boolean`
+
+___
+<a id="isequal"></a>
+
+###  <a name="isequal"></a>IsEqual
+
+▸ **IsEqual**(Location: *[KASLocation](kasclient.kaslocation.md)*):`boolean`
+
+**Parameter:**
+
+| Name | Typ |
+| ------ | ------ |
+| location | [KASLocation](kasclient.kaslocation.md) |
+
+**Gibt Folgendes zurück:**`boolean`
+
+___
 <a id="tojson"></a>
 
 ###  <a name="tojson"></a>toJSON
@@ -74,12 +97,11 @@ ___
 **Gibt Folgendes zurück:**`JSON`
 
 ___
-
 <a id="fromjson"></a>
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`JSON`*): [KASLocation](kasclient.kaslocation.md)
+▸- **fromJSON**(Objekt *`JSON`*:): [KASLocation](kasclient.kaslocation.md)
 
 **Parameter:**
 

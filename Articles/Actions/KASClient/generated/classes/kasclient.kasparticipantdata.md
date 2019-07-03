@@ -2,7 +2,7 @@
 
 # <a name="class-kasparticipantdata"></a>Klasse: KASParticipantData
 
-Definiert die Eigenschaften eines Unterhaltungs Teilnehmers.
+Definiert Eigenschaften eines Unterhaltung-Teilnehmers
 ## <a name="hierarchy"></a>Hierarchie
 
 **KASParticipantData**
@@ -11,7 +11,7 @@ Definiert die Eigenschaften eines Unterhaltungs Teilnehmers.
 
 ### <a name="properties"></a>Eigenschaften
 
-* [Teilnehmer-Nr.](kasclient.kasparticipantdata.md#participantid)
+* [Teilnehmer-Nr](kasclient.kasparticipantdata.md#participantid)
 * [participantRole](kasclient.kasparticipantdata.md#participantrole)
 * [Teilnehmertyp](kasclient.kasparticipantdata.md#participanttype)
 ### <a name="methods"></a>Methoden
@@ -24,12 +24,11 @@ Definiert die Eigenschaften eines Unterhaltungs Teilnehmers.
 
 <a id="participantid"></a>
 
-###  <a name="participantid"></a>Teilnehmer-Nr.
+###  <a name="participantid"></a>Teilnehmer-Nr
 
-**● Teilnehmer**-Nr *`string`* .: = ""
+**● Teilnehmer**-Nr *`string`* : = ""
 
 ___
-
 <a id="participantrole"></a>
 
 ###  <a name="participantrole"></a>participantRole
@@ -37,7 +36,6 @@ ___
 **● participantRole**: *[KASParticipantRole](../enums/kasclient.kasparticipantrole.md)* = KASParticipantRole. None
 
 ___
-
 <a id="participanttype"></a>
 
 ###  <a name="participanttype"></a>Teilnehmertyp
@@ -52,7 +50,7 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`any`*): [KASParticipantData](kasclient.kasparticipantdata.md)
+▸- **fromJSON**(Objekt *`any`*:): [KASParticipantData](kasclient.kasparticipantdata.md)
 
 **Parameter:**
 

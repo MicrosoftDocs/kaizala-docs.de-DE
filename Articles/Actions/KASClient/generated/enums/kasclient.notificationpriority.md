@@ -4,7 +4,7 @@
 
 ## <a name="index"></a>Index 
 
-### <a name="enumeration-members"></a>Enumerationsmember
+### <a name="enumeration-members"></a>Aufzählungselemente
 
 * [High](kasclient.notificationpriority.md#high)
 * [Niedrig](kasclient.notificationpriority.md#low)
@@ -12,7 +12,7 @@
 
 ---
 
-## <a name="enumeration-members"></a>Enumerationsmember
+## <a name="enumeration-members"></a>Aufzählungselemente
 
 <a id="high"></a>
 
@@ -21,7 +21,6 @@
 **Hoch**: = 0
 
 ___
-
 <a id="low"></a>
 
 ###  <a name="low"></a>Niedrig
@@ -29,7 +28,6 @@ ___
 **Niedrig**: = 2
 
 ___
-
 <a id="medium"></a>
 
 ###  <a name="medium"></a>Mittel

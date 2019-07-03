@@ -30,45 +30,41 @@
 **● JSON**:*`JSON`*
 
 ___
-
 <a id="nonrespondersinconversation"></a>
 
 ###  <a name="nonrespondersinconversation"></a>nonRespondersInConversation
 
 **● nonRespondersInConversation**: * `string`[]* = []
 
-Wie viele in der Unterhaltung nicht reagierten
+Wie viele in der Unterhaltung nicht antworteten
 
 ___
-
 <a id="results"></a>
 
 ###  <a name="results"></a>results
 
 **● Ergebnisse**:*`object`*
 
-Aggregiertes Ergebnis für aggregierte Fragen Dictionary<QuestionId: Number, result: KASQuestionResult>
+Aggregiertes Ergebnis für das Wörterbuch<fragwürdigen Aggregations Fragen: Number, result: KASQuestionResult>
 #### <a name="type-declaration"></a>Typdeklaration
 
 ___
-
 <a id="targetrespondercount"></a>
 
 ###  <a name="targetrespondercount"></a>targetResponderCount
 
 **● targetResponderCount**: *`number`* = 0
 
-Wie viele in der Unterhaltung zugewiesen wurden, um auf dieses Formular zu reagieren
+Wie viele in der Unterhaltung zugewiesen wurden, um auf dieses Formular zu Antworten
 
 ___
-
 <a id="totalresponsecount"></a>
 
 ###  <a name="totalresponsecount"></a>totalResponseCount
 
 **● totalResponseCount**: *`number`* = 0
 
-Wie viele Gesamt Antworten wurden für das Formular empfangen, wenn mehrere Antworten von einer Person berücksichtigt werden
+Wie viele Antworten insgesamt für das Formular empfangen wurden, wobei mehrere Antworten von einer Person berücksichtigt wurden
 
 ___
 
@@ -78,7 +74,7 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`JSON`*): [KASFormProcessedSummary](kasclient.kasformprocessedsummary.md)
+▸- **fromJSON**(Objekt *`JSON`*:): [KASFormProcessedSummary](kasclient.kasformprocessedsummary.md)
 
 **Parameter:**
 

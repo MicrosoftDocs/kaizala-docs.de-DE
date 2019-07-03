@@ -4,7 +4,7 @@
 
 ## <a name="index"></a>Index 
 
-### <a name="enumeration-members"></a>Enumerationsmember
+### <a name="enumeration-members"></a>Aufzählungselemente
 
 * [Error](kasclient.kasformmessagesendstatus.md#error)
 * [InProgress](kasclient.kasformmessagesendstatus.md#inprogress)
@@ -13,7 +13,7 @@
 
 ---
 
-## <a name="enumeration-members"></a>Enumerationsmember
+## <a name="enumeration-members"></a>Aufzählungselemente
 
 <a id="error"></a>
 
@@ -22,7 +22,6 @@
 **Fehler**: = 2
 
 ___
-
 <a id="inprogress"></a>
 
 ###  <a name="inprogress"></a>InProgress
@@ -30,7 +29,6 @@ ___
 **InProgress**: = 1
 
 ___
-
 <a id="success"></a>
 
 ###  <a name="success"></a>Erfolg
@@ -38,7 +36,6 @@ ___
 **Erfolg**: = 3
 
 ___
-
 <a id="unknown"></a>
 
 ###  <a name="unknown"></a>Unbekannt

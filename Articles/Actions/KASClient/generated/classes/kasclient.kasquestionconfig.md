@@ -43,12 +43,11 @@ ___
 **Gibt Folgendes zurück:**`JSON`
 
 ___
-
 <a id="fromjson"></a>
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`any`*): [KASQuestionConfig](kasclient.kasquestionconfig.md)
+▸- **fromJSON**(Objekt *`any`*:): [KASQuestionConfig](kasclient.kasquestionconfig.md)
 
 **Parameter:**
 

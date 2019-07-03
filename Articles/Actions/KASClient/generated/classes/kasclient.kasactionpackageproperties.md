@@ -28,7 +28,6 @@
 **● actionPackageId**: *`string`* = ""
 
 ___
-
 <a id="json"></a>
 
 ###  <a name="json"></a>json
@@ -36,7 +35,6 @@ ___
 **● JSON**:*`JSON`*
 
 ___
-
 <a id="properties"></a>
 
 ###  <a name="properties"></a>properties
@@ -51,7 +49,7 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`JSON`*): [KASActionPackageProperties](kasclient.kasactionpackageproperties.md)
+▸- **fromJSON**(Objekt *`JSON`*:): [KASActionPackageProperties](kasclient.kasactionpackageproperties.md)
 
 **Parameter:**
 

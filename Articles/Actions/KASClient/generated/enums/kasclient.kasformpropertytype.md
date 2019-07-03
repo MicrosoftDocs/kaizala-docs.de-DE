@@ -4,7 +4,7 @@
 
 ## <a name="index"></a>Index 
 
-### <a name="enumeration-members"></a>Enumerationsmember
+### <a name="enumeration-members"></a>Aufzählungselemente
 
 * [Array](kasclient.kasformpropertytype.md#array)
 * [Anlage](kasclient.kasformpropertytype.md#attachment)
@@ -17,7 +17,7 @@
 
 ---
 
-## <a name="enumeration-members"></a>Enumerationsmember
+## <a name="enumeration-members"></a>Aufzählungselemente
 
 <a id="array"></a>
 
@@ -25,70 +25,63 @@
 
 **Array**: = 4
 
-Array von Zeichenfolgen als Metadatenwert
+Array von Zeichenfolgen als Metadaten-Wert
 
 ___
-
 <a id="attachment"></a>
 
 ###  <a name="attachment"></a>Attachment
 
 **Anlage**: = 5
 
-Anlagen Pfad als Metadatenwert
+Anlagen Pfad als Metadaten-Wert
 
 ___
-
 <a id="attachmentlist"></a>
 
 ###  <a name="attachmentlist"></a>Attachmentlist
 
 **Attachmentlist**: = 7
 
-Liste der KASAttachment als Metadatenwert
+Liste der KASAttachment als Metadaten-Wert
 
 ___
-
 <a id="datetime"></a>
 
 ###  <a name="datetime"></a>DateTime
 
 **DateTime**: = 3
 
-Datum Uhrzeit als Metadatenwert
+Datum und Uhrzeit als Metadatenwert
 
 ___
-
 <a id="location"></a>
 
-###  <a name="location"></a>Ort
+###  <a name="location"></a>Standort
 
 **Ort**: = 2
 
-Speicherorttyp als Metadatenwert
+Location-Typ als Metadaten-Wert
 
 ___
-
 <a id="numeric"></a>
 
 ###  <a name="numeric"></a>Numeric
 
 **Numerisch**: = 1
 
-Nur Zahlen sind als Metadatenwert zulässig
+Als Metadatenwert sind nur Zahlen zulässig.
 
 ___
-
 <a id="set"></a>
 
 ###  <a name="set"></a>Set
 
-**Set**: = 6
+**Menge**: = 6
 
-Festlegen (eindeutige Liste) von Zeichenfolgen als Metadatenwert
+Festlegen (eindeutige Liste) von Zeichenfolgen als Metadaten-Wert
 
 ___
-
 <a id="text"></a>
 
 ###  <a name="text"></a>Text

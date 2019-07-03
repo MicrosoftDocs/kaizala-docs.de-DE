@@ -33,7 +33,6 @@
 **● Sprache**:*`string`*
 
 ___
-
 <a id="latitude"></a>
 
 ###  <a name="latitude"></a>latitude
@@ -41,15 +40,13 @@ ___
 **● Latitude**:*`number`*
 
 ___
-
 <a id="longitude"></a>
 
 ###  <a name="longitude"></a>longitude
 
-**● Länge**:*`number`*
+**● Längengrad**:*`number`*
 
 ___
-
 <a id="maptype"></a>
 
 ###  <a name="maptype"></a>mapType
@@ -57,7 +54,6 @@ ___
 **● maptype**:*`string`*
 
 ___
-
 <a id="markercolor"></a>
 
 ###  <a name="markercolor"></a>markerColor
@@ -65,7 +61,6 @@ ___
 **● markerColor**: *`string`* = "rot"
 
 ___
-
 <a id="sizex"></a>
 
 ###  <a name="sizex"></a>sizeX
@@ -73,15 +68,13 @@ ___
 **● sizeX**: *`number`* = 360
 
 ___
-
 <a id="sizey"></a>
 
 ###  <a name="sizey"></a>sizeY
 
-**● sizey**: *`number`* = 170
+**● Größe**: *`number`* = 170
 
 ___
-
 <a id="zoom"></a>
 
 ###  <a name="zoom"></a>Zoom

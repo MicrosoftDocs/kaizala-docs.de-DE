@@ -31,7 +31,6 @@
 **● ID**: *`number`* = 0
 
 ___
-
 <a id="pictureurl"></a>
 
 ###  <a name="pictureurl"></a>pictureUrl
@@ -39,7 +38,6 @@ ___
 **● pictureUrl**: *`string`* = NULL
 
 ___
-
 <a id="text"></a>
 
 ###  <a name="text"></a>text
@@ -59,7 +57,6 @@ ___
 **Gibt Folgendes zurück:**`JSON`
 
 ___
-
 <a id="toclientjson"></a>
 
 ###  <a name="toclientjson"></a>toClientJSON
@@ -69,7 +66,6 @@ ___
 **Gibt Folgendes zurück:**`JSON`
 
 ___
-
 <a id="tojson"></a>
 
 ###  <a name="tojson"></a>toJSON
@@ -79,12 +75,11 @@ ___
 **Gibt Folgendes zurück:**`JSON`
 
 ___
-
 <a id="fromjson"></a>
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`any`*): [KASQuestionOption](kasclient.kasquestionoption.md)
+▸- **fromJSON**(Objekt *`any`*:): [KASQuestionOption](kasclient.kasquestionoption.md)
 
 **Parameter:**
 

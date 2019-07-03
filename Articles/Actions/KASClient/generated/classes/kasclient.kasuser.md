@@ -34,7 +34,6 @@
 Eindeutige Benutzer-ID
 
 ___
-
 <a id="name"></a>
 
 ###  <a name="name"></a>name
@@ -44,17 +43,15 @@ ___
 Name des Benutzers ("Sie" für den aktuellen Benutzer)
 
 ___
-
 <a id="originalname"></a>
 
 ###  <a name="originalname"></a>Originalname
 
 **● Originalname**: *`string`* = ""
 
-"Sie" nicht in Betracht ziehen
+Nicht in Betracht ziehen "Sie"
 
 ___
-
 <a id="phonenumber"></a>
 
 ###  <a name="phonenumber"></a>PhoneNumber
@@ -64,17 +61,15 @@ ___
 Telefonnummer des Benutzers
 
 ___
-
 <a id="picturebgcolor"></a>
 
 ###  <a name="picturebgcolor"></a>pictureBGColor
 
 **● pictureBGColor**: *`string`* = ""
 
-Falls das PictureUrl nicht vorhanden ist, sollten wir die Benutzerinitialen als Profilbild verwenden, darunter zwei Mitglieder sind dafür
+Falls das PictureUrl nicht vorhanden ist, sollten wir die Initialen des Benutzers als Profil pic verwenden, darunter zwei Mitglieder.
 
 ___
-
 <a id="pictureinitials"></a>
 
 ###  <a name="pictureinitials"></a>pictureInitials
@@ -82,7 +77,6 @@ ___
 **● pictureInitials**: *`string`* = ""
 
 ___
-
 <a id="pictureurl"></a>
 
 ###  <a name="pictureurl"></a>pictureUrl
@@ -99,7 +93,7 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`JSON`*): [KASUser](kasclient.kasuser.md)
+▸- **fromJSON**(Objekt *`JSON`*:): [KASUser](kasclient.kasuser.md)
 
 **Parameter:**
 

@@ -34,17 +34,15 @@
 Name der Metadaten
 
 ___
-
 <a id="type"></a>
 
-###  <a name="type"></a>Typ
+###  <a name="type"></a>type
 
 **● Typ**: *[KASFormPropertyType](../enums/kasclient.kasformpropertytype.md)* = KASFormPropertyType. Text
 
 Typ der Metadaten
 
 ___
-
 <a id="value"></a>
 
 ###  <a name="value"></a>Wert
@@ -67,12 +65,11 @@ ___
 
 | Name | Typ |
 | ------ | ------ |
-| Typ | `string` |
+| type | `string` |
 
 **Gibt Folgendes zurück:**`string`
 
 ___
-
 <a id="toapicompatiblejson"></a>
 
 ###  <a name="toapicompatiblejson"></a>toAPICompatibleJSON
@@ -82,7 +79,6 @@ ___
 **Gibt Folgendes zurück:**`JSON`
 
 ___
-
 <a id="toclientjson"></a>
 
 ###  <a name="toclientjson"></a>toClientJSON
@@ -92,7 +88,6 @@ ___
 **Gibt Folgendes zurück:**`JSON`
 
 ___
-
 <a id="tojson"></a>
 
 ###  <a name="tojson"></a>toJSON
@@ -102,12 +97,11 @@ ___
 **Gibt Folgendes zurück:**`JSON`
 
 ___
-
 <a id="fromjson"></a>
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`JSON`*): [KASFormProperty](kasclient.kasformproperty.md)
+▸- **fromJSON**(Objekt *`JSON`*:): [KASFormProperty](kasclient.kasformproperty.md)
 
 **Parameter:**
 

@@ -4,16 +4,16 @@
 
 ## <a name="index"></a>Index 
 
-### <a name="enumeration-members"></a>Enumerationsmember
+### <a name="enumeration-members"></a>Aufzählungselemente
 
 * [Visitenkarten](kasclient.camerafiltermode.md#businesscard)
-* [Dokument](kasclient.camerafiltermode.md#document)
-* [Photo](kasclient.camerafiltermode.md#photo)
-* [WhiteBoard](kasclient.camerafiltermode.md#whiteboard)
+* [Document](kasclient.camerafiltermode.md#document)
+* [Foto](kasclient.camerafiltermode.md#photo)
+* [Whiteboard](kasclient.camerafiltermode.md#whiteboard)
 
 ---
 
-## <a name="enumeration-members"></a>Enumerationsmember
+## <a name="enumeration-members"></a>Aufzählungselemente
 
 <a id="businesscard"></a>
 
@@ -22,15 +22,13 @@
 **Visitenkarten**: = "Visitenkarten"
 
 ___
-
 <a id="document"></a>
 
 ###  <a name="document"></a>Dokument
 
-**Document**: = "Document"
+**Document**: = "Dokument"
 
 ___
-
 <a id="photo"></a>
 
 ###  <a name="photo"></a>Foto
@@ -38,10 +36,9 @@ ___
 **Foto**: = "Foto"
 
 ___
-
 <a id="whiteboard"></a>
 
-###  <a name="whiteboard"></a>WhiteBoard
+###  <a name="whiteboard"></a>Whiteboard
 
 **Whiteboard**: = "Whiteboard"
 

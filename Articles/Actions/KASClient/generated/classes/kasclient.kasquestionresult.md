@@ -16,7 +16,7 @@
 
 ### <a name="properties"></a>Eigenschaften
 
-* [Frag-Nr.](kasclient.kasquestionresult.md#questionid)
+* [Fragen-Nr](kasclient.kasquestionresult.md#questionid)
 * [questionTitle](kasclient.kasquestionresult.md#questiontitle)
 * [questiontype](kasclient.kasquestionresult.md#questiontype)
 ### <a name="methods"></a>Methoden
@@ -29,24 +29,22 @@
 
 <a id="questionid"></a>
 
-###  <a name="questionid"></a>Frag-Nr.
+###  <a name="questionid"></a>Fragen-Nr
 
-**● Frage**-Nr *`number`* .: = 0
+**● Frag**-Nr *`number`* : = 0
 
 Index der Frage
 
 ___
-
 <a id="questiontitle"></a>
 
 ###  <a name="questiontitle"></a>questionTitle
 
 **● questionTitle**: *`string`* = ""
 
-Der Titel der Frage
+Titel der Frage
 
 ___
-
 <a id="questiontype"></a>
 
 ###  <a name="questiontype"></a>questiontype
@@ -63,7 +61,7 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`any`*): [KASQuestionResult](kasclient.kasquestionresult.md)
+▸- **fromJSON**(Objekt *`any`*:): [KASQuestionResult](kasclient.kasquestionresult.md)
 
 **Parameter:**
 

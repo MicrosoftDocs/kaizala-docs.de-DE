@@ -32,7 +32,6 @@
 **● businessPhones**: * `string`[]* = []
 
 ___
-
 <a id="displayname"></a>
 
 ###  <a name="displayname"></a>displayName
@@ -40,7 +39,6 @@ ___
 **● DisplayName**: *`string`* = ""
 
 ___
-
 <a id="email"></a>
 
 ###  <a name="email"></a>email
@@ -48,7 +46,6 @@ ___
 **● e-Mail**: *`string`* = ""
 
 ___
-
 <a id="givenname"></a>
 
 ###  <a name="givenname"></a>givenName
@@ -56,7 +53,6 @@ ___
 **● givenName**: *`string`* = ""
 
 ___
-
 <a id="jobtitle"></a>
 
 ###  <a name="jobtitle"></a>jobTitle
@@ -64,15 +60,13 @@ ___
 **● JobTitle**: *`string`* = ""
 
 ___
-
 <a id="mobilephone"></a>
 
 ###  <a name="mobilephone"></a>mobilePhone
 
-**● Handy**: *`string`* = ""
+**● mobilePhone**: *`string`* = ""
 
 ___
-
 <a id="surname"></a>
 
 ###  <a name="surname"></a>surname
@@ -87,7 +81,7 @@ ___
 
 ### <a name="static-fromjson"></a>`<Static>`fromJSON
 
-▸ **fromJSON**(Object: *`JSON`*): [KASO365User](kasclient.kaso365user.md)
+▸- **fromJSON**(Objekt *`JSON`*:): [KASO365User](kasclient.kaso365user.md)
 
 **Parameter:**
 

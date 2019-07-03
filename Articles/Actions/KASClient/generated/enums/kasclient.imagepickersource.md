@@ -4,7 +4,7 @@
 
 ## <a name="index"></a>Index 
 
-### <a name="enumeration-members"></a>Enumerationsmember
+### <a name="enumeration-members"></a>Aufzählungselemente
 
 * [All](kasclient.imagepickersource.md#all)
 * [CameraBack](kasclient.imagepickersource.md#cameraback)
@@ -12,7 +12,7 @@
 
 ---
 
-## <a name="enumeration-members"></a>Enumerationsmember
+## <a name="enumeration-members"></a>Aufzählungselemente
 
 <a id="all"></a>
 
@@ -21,7 +21,6 @@
 **All**: = 0
 
 ___
-
 <a id="cameraback"></a>
 
 ###  <a name="cameraback"></a>CameraBack
@@ -29,7 +28,6 @@ ___
 **CameraBack**: = 2
 
 ___
-
 <a id="camerafront"></a>
 
 ###  <a name="camerafront"></a>CameraFront

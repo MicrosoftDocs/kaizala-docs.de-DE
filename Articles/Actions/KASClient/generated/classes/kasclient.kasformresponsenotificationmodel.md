@@ -29,7 +29,7 @@
 
 ###  <a name="constructor"></a>constructor
 
-⊕ **New KASFormResponseNotificationModel**(MessageTarget?: * [KASFormResponseNotificationTarget](../enums/kasclient.kasformresponsenotificationtarget.md)[]*, pushTarget?: * [KASFormResponseNotificationTarget](../enums/kasclient.kasformresponsenotificationtarget.md)[]*, messagePreview?: *`String`*): [ KASFormResponseNotificationModel](kasclient.kasformresponsenotificationmodel.md)
+⊕ **neue KASFormResponseNotificationModel**(messageTarget?: * [KASFormResponseNotificationTarget](../enums/kasclient.kasformresponsenotificationtarget.md)[]*, pushTarget?: * [KASFormResponseNotificationTarget](../enums/kasclient.kasformresponsenotificationtarget.md)[]*, messagePreview?: *`String`*): [ KASFormResponseNotificationModel](kasclient.kasformresponsenotificationmodel.md)
 
 **Parameter:**
 
@@ -52,7 +52,6 @@ ___
 **● messagePreview**: *`String`* = ""
 
 ___
-
 <a id="messagetarget"></a>
 
 ###  <a name="messagetarget"></a>messageTarget
@@ -60,7 +59,6 @@ ___
 **● messageTarget**: * [KASFormResponseNotificationTarget](../enums/kasclient.kasformresponsenotificationtarget.md)[]*
 
 ___
-
 <a id="pushtarget"></a>
 
 ###  <a name="pushtarget"></a>pushTarget
@@ -80,12 +78,11 @@ ___
 **Gibt Folgendes zurück:**`JSON`
 
 ___
-
 <a id="fromjson"></a>
 
 ### <a name="static-fromjson"></a>`<Static>`fromJson
 
-▸ **fromJson**(Object: *`JSON`*): [KASFormResponseNotificationModel](kasclient.kasformresponsenotificationmodel.md)
+▸- **fromJson**(Objekt *`JSON`*:): [KASFormResponseNotificationModel](kasclient.kasformresponsenotificationmodel.md)
 
 **Parameter:**
 

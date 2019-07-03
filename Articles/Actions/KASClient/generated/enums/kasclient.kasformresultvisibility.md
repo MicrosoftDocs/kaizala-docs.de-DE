@@ -4,7 +4,7 @@
 
 ## <a name="index"></a>Index 
 
-### <a name="enumeration-members"></a>Enumerationsmember
+### <a name="enumeration-members"></a>Aufzählungselemente
 
 * [Admin](kasclient.kasformresultvisibility.md#admin)
 * [All](kasclient.kasformresultvisibility.md#all)
@@ -13,7 +13,7 @@
 
 ---
 
-## <a name="enumeration-members"></a>Enumerationsmember
+## <a name="enumeration-members"></a>Aufzählungselemente
 
 <a id="admin"></a>
 
@@ -24,17 +24,15 @@
 Zusammenfassung ist für alle Administratoren der Unterhaltung sichtbar
 
 ___
-
 <a id="all"></a>
 
 ###  <a name="all"></a>Alle
 
 **All**: = 0
 
-Die formularzusammenfassung ist für alle Personen in der Unterhaltung sichtbar.
+Die formularzusammenfassung ist für alle Benutzer in der Unterhaltung sichtbar. Für Broadcast Group umfasst dies keine Abonnenten.
 
 ___
-
 <a id="membersandsubscribers"></a>
 
 ###  <a name="membersandsubscribers"></a>MembersAndSubscribers
@@ -44,7 +42,6 @@ ___
 Zusammenfassung ist für alle Mitglieder und Abonnenten der Unterhaltung sichtbar
 
 ___
-
 <a id="sender"></a>
 
 ###  <a name="sender"></a>Absender

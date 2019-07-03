@@ -10,7 +10,7 @@
 
 ### <a name="properties"></a>Eigenschaften
 
-* [errorMsg](kasclient.kasquestionvalidationresponse.md#errormsg)
+* [ERRORMSG](kasclient.kasquestionvalidationresponse.md#errormsg)
 * [success](kasclient.kasquestionvalidationresponse.md#success)
 
 ---
@@ -19,17 +19,16 @@
 
 <a id="errormsg"></a>
 
-###  <a name="errormsg"></a>errorMsg
+###  <a name="errormsg"></a>ERRORMSG
 
 **● errorMsg**: *`string`* = NULL
 
 ___
-
 <a id="success"></a>
 
 ###  <a name="success"></a>Erfolgreich
 
-**● Erfolg**: *`boolean`* = false
+**● Success**: *`boolean`* = false
 
 ___
 

@@ -29,23 +29,20 @@
 **● Name**: *`string`* = ""
 
 ___
-
 <a id="operation"></a>
 
-###  <a name="operation"></a>Vorgang
+###  <a name="operation"></a>Betrieb
 
 **● Operation**: *[KASFormPropertyUpdateOperation](../enums/kasclient.kasformpropertyupdateoperation.md)* = KASFormPropertyUpdateOperation. UpdateValue
 
 ___
-
 <a id="type"></a>
 
-###  <a name="type"></a>Typ
+###  <a name="type"></a>type
 
 **● Typ**: *[KASFormPropertyType](../enums/kasclient.kasformpropertytype.md)* = KASFormPropertyType. Text
 
 ___
-
 <a id="value"></a>
 
 ###  <a name="value"></a>Wert

@@ -12,7 +12,7 @@
 
 * [fixedUrl](kasclient.kasnativetoolbarproperties.md#fixedurl)
 * [icon](kasclient.kasnativetoolbarproperties.md#icon)
-* [Subtitle](kasclient.kasnativetoolbarproperties.md#subtitle)
+* [unter](kasclient.kasnativetoolbarproperties.md#subtitle)
 * [title](kasclient.kasnativetoolbarproperties.md#title)
 * [urlAction](kasclient.kasnativetoolbarproperties.md#urlaction)
 * [urlType](kasclient.kasnativetoolbarproperties.md#urltype)
@@ -31,23 +31,20 @@
 **● fixedUrl**: *`string`* = NULL
 
 ___
-
 <a id="icon"></a>
 
 ###  <a name="icon"></a>Symbol
 
-**● Icon**: *`string`* = NULL
+**● Symbol**: *`string`* = NULL
 
 ___
-
 <a id="subtitle"></a>
 
-###  <a name="subtitle"></a>Subtitle
+###  <a name="subtitle"></a>unter
 
 **●**Untertitel *`string`* : = NULL
 
 ___
-
 <a id="title"></a>
 
 ###  <a name="title"></a>title
@@ -55,7 +52,6 @@ ___
 **● Title**: *`string`* = NULL
 
 ___
-
 <a id="urlaction"></a>
 
 ###  <a name="urlaction"></a>urlAction
@@ -63,7 +59,6 @@ ___
 **● urlAction**: *[urlAction](../enums/kasclient.urlaction.md)* = urlAction. None
 
 ___
-
 <a id="urltype"></a>
 
 ###  <a name="urltype"></a>urlType
