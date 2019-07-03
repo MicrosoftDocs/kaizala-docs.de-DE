@@ -1,73 +1,82 @@
-<span data-ttu-id="ba8a5-101">[](../README.md) > [KASClient](../modules/kasclient.md) > -[App](../modules/kasclient.app.md)</span><span class="sxs-lookup"><span data-stu-id="ba8a5-101">[](../README.md) > [KASClient](../modules/kasclient.md) > [App](../modules/kasclient.app.md)</span></span>
+<span data-ttu-id="c3025-101">[](../README.md) > [KASClient](../modules/kasclient.md) > -[App](../modules/kasclient.app.md)</span><span class="sxs-lookup"><span data-stu-id="c3025-101">[](../README.md) > [KASClient](../modules/kasclient.md) > [App](../modules/kasclient.app.md)</span></span>
 
-# <a name="module-app"></a><span data-ttu-id="ba8a5-102">Modul: App</span><span class="sxs-lookup"><span data-stu-id="ba8a5-102">Module: App</span></span>
+# <a name="module-app"></a><span data-ttu-id="c3025-102">Modul: App</span><span class="sxs-lookup"><span data-stu-id="c3025-102">Module: App</span></span>
 
-## <a name="index"></a><span data-ttu-id="ba8a5-103">Index </span><span class="sxs-lookup"><span data-stu-id="ba8a5-103">Index</span></span>
+## <a name="index"></a><span data-ttu-id="c3025-103">Index </span><span class="sxs-lookup"><span data-stu-id="c3025-103">Index</span></span>
 
-### <a name="functions"></a><span data-ttu-id="ba8a5-104">Funktionen</span><span class="sxs-lookup"><span data-stu-id="ba8a5-104">Functions</span></span>
+### <a name="functions"></a><span data-ttu-id="c3025-104">Funktionen</span><span class="sxs-lookup"><span data-stu-id="c3025-104">Functions</span></span>
 
-* [<span data-ttu-id="ba8a5-105">cancelAttachmentDownloadAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-105">cancelAttachmentDownloadAsync</span></span>](kasclient.app.md#cancelattachmentdownloadasync)
-* [<span data-ttu-id="ba8a5-106">dismissCurrentScreen</span><span class="sxs-lookup"><span data-stu-id="ba8a5-106">dismissCurrentScreen</span></span>](kasclient.app.md#dismisscurrentscreen)
-* [<span data-ttu-id="ba8a5-107">downloadAttachmentAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-107">downloadAttachmentAsync</span></span>](kasclient.app.md#downloadattachmentasync)
-* [<span data-ttu-id="ba8a5-108">generateBase64ThumbnailAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-108">generateBase64ThumbnailAsync</span></span>](kasclient.app.md#generatebase64thumbnailasync)
-* [<span data-ttu-id="ba8a5-109">generateUUIDAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-109">generateUUIDAsync</span></span>](kasclient.app.md#generateuuidasync)
-* [<span data-ttu-id="ba8a5-110">getAppLocaleAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-110">getAppLocaleAsync</span></span>](kasclient.app.md#getapplocaleasync)
-* [<span data-ttu-id="ba8a5-111">getCalendarNameAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-111">getCalendarNameAsync</span></span>](kasclient.app.md#getcalendarnameasync)
-* [<span data-ttu-id="ba8a5-112">getConversationDetailsAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-112">getConversationDetailsAsync</span></span>](kasclient.app.md#getconversationdetailsasync)
-* [<span data-ttu-id="ba8a5-113">getCurrentDeviceLocationAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-113">getCurrentDeviceLocationAsync</span></span>](kasclient.app.md#getcurrentdevicelocationasync)
-* [<span data-ttu-id="ba8a5-114">getCurrentLocale</span><span class="sxs-lookup"><span data-stu-id="ba8a5-114">getCurrentLocale</span></span>](kasclient.app.md#getcurrentlocale)
-* [<span data-ttu-id="ba8a5-115">getDeviceIdAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-115">getDeviceIdAsync</span></span>](kasclient.app.md#getdeviceidasync)
-* [<span data-ttu-id="ba8a5-116">getDeviceLocationAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-116">getDeviceLocationAsync</span></span>](kasclient.app.md#getdevicelocationasync)
-* [<span data-ttu-id="ba8a5-117">getFontSizeMultiplierAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-117">getFontSizeMultiplierAsync</span></span>](kasclient.app.md#getfontsizemultiplierasync)
-* [<span data-ttu-id="ba8a5-118">getForwardContextAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-118">getForwardContextAsync</span></span>](kasclient.app.md#getforwardcontextasync)
-* [<span data-ttu-id="ba8a5-119">getIsAppTimeFormat24HoursAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-119">getIsAppTimeFormat24HoursAsync</span></span>](kasclient.app.md#getisapptimeformat24hoursasync)
-* [<span data-ttu-id="ba8a5-120">getLocalizedStringsAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-120">getLocalizedStringsAsync</span></span>](kasclient.app.md#getlocalizedstringsasync)
-* [<span data-ttu-id="ba8a5-121">getLocationAddressAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-121">getLocationAddressAsync</span></span>](kasclient.app.md#getlocationaddressasync)
-* [<span data-ttu-id="ba8a5-122">getMapImageAsBase64Async</span><span class="sxs-lookup"><span data-stu-id="ba8a5-122">getMapImageAsBase64Async</span></span>](kasclient.app.md#getmapimageasbase64async)
-* [<span data-ttu-id="ba8a5-123">getO365UserDetailsAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-123">getO365UserDetailsAsync</span></span>](kasclient.app.md#geto365userdetailsasync)
-* [<span data-ttu-id="ba8a5-124">getPackageCustomSettingsAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-124">getPackageCustomSettingsAsync</span></span>](kasclient.app.md#getpackagecustomsettingsasync)
-* [<span data-ttu-id="ba8a5-125">getUsersDetailsAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-125">getUsersDetailsAsync</span></span>](kasclient.app.md#getusersdetailsasync)
-* [<span data-ttu-id="ba8a5-126">hideProgressBar</span><span class="sxs-lookup"><span data-stu-id="ba8a5-126">hideProgressBar</span></span>](kasclient.app.md#hideprogressbar)
-* [<span data-ttu-id="ba8a5-127">isAttachmentDownloadingAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-127">isAttachmentDownloadingAsync</span></span>](kasclient.app.md#isattachmentdownloadingasync)
-* [<span data-ttu-id="ba8a5-128">isAuthenticationTyepSupportedAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-128">isAuthenticationTyepSupportedAsync</span></span>](kasclient.app.md#isauthenticationtyepsupportedasync)
-* [<span data-ttu-id="ba8a5-129">isTalkBackEnabledAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-129">isTalkBackEnabledAsync</span></span>](kasclient.app.md#istalkbackenabledasync)
-* [<span data-ttu-id="ba8a5-130">logToReport</span><span class="sxs-lookup"><span data-stu-id="ba8a5-130">logToReport</span></span>](kasclient.app.md#logtoreport)
-* [<span data-ttu-id="ba8a5-131">openAttachmentImmersiveView</span><span class="sxs-lookup"><span data-stu-id="ba8a5-131">openAttachmentImmersiveView</span></span>](kasclient.app.md#openattachmentimmersiveview)
-* [<span data-ttu-id="ba8a5-132">openImmersiveViewForAttachmentList</span><span class="sxs-lookup"><span data-stu-id="ba8a5-132">openImmersiveViewForAttachmentList</span></span>](kasclient.app.md#openimmersiveviewforattachmentlist)
-* [<span data-ttu-id="ba8a5-133">performAuthenticationAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-133">performAuthenticationAsync</span></span>](kasclient.app.md#performauthenticationasync)
-* [<span data-ttu-id="ba8a5-134">performHTTPRequest</span><span class="sxs-lookup"><span data-stu-id="ba8a5-134">performHTTPRequest</span></span>](kasclient.app.md#performhttprequest)
-* [<span data-ttu-id="ba8a5-135">printf</span><span class="sxs-lookup"><span data-stu-id="ba8a5-135">printf</span></span>](kasclient.app.md#printf)
-* [<span data-ttu-id="ba8a5-136">readTalkBackMessage</span><span class="sxs-lookup"><span data-stu-id="ba8a5-136">readTalkBackMessage</span></span>](kasclient.app.md#readtalkbackmessage)
-* [<span data-ttu-id="ba8a5-137">registerHardwareBackPressCallback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-137">registerHardwareBackPressCallback</span></span>](kasclient.app.md#registerhardwarebackpresscallback)
-* [<span data-ttu-id="ba8a5-138">setNativeToolbarProperties</span><span class="sxs-lookup"><span data-stu-id="ba8a5-138">setNativeToolbarProperties</span></span>](kasclient.app.md#setnativetoolbarproperties)
-* [<span data-ttu-id="ba8a5-139">setUserStrings</span><span class="sxs-lookup"><span data-stu-id="ba8a5-139">setUserStrings</span></span>](kasclient.app.md#setuserstrings)
-* [<span data-ttu-id="ba8a5-140">showAttachmentPickerAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-140">showAttachmentPickerAsync</span></span>](kasclient.app.md#showattachmentpickerasync)
-* [<span data-ttu-id="ba8a5-141">showBarcodeScannerAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-141">showBarcodeScannerAsync</span></span>](kasclient.app.md#showbarcodescannerasync)
-* [<span data-ttu-id="ba8a5-142">showContactPickerAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-142">showContactPickerAsync</span></span>](kasclient.app.md#showcontactpickerasync)
-* [<span data-ttu-id="ba8a5-143">showDurationPickerAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-143">showDurationPickerAsync</span></span>](kasclient.app.md#showdurationpickerasync)
-* [<span data-ttu-id="ba8a5-144">showImageImmersiveView</span><span class="sxs-lookup"><span data-stu-id="ba8a5-144">showImageImmersiveView</span></span>](kasclient.app.md#showimageimmersiveview)
-* [<span data-ttu-id="ba8a5-145">showImagePickerAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-145">showImagePickerAsync</span></span>](kasclient.app.md#showimagepickerasync)
-* [<span data-ttu-id="ba8a5-146">showLocationOnMap</span><span class="sxs-lookup"><span data-stu-id="ba8a5-146">showLocationOnMap</span></span>](kasclient.app.md#showlocationonmap)
-* [<span data-ttu-id="ba8a5-147">showNativeErrorMessage</span><span class="sxs-lookup"><span data-stu-id="ba8a5-147">showNativeErrorMessage</span></span>](kasclient.app.md#shownativeerrormessage)
-* [<span data-ttu-id="ba8a5-148">showPlacePickerAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-148">showPlacePickerAsync</span></span>](kasclient.app.md#showplacepickerasync)
-* [<span data-ttu-id="ba8a5-149">showProgressBar</span><span class="sxs-lookup"><span data-stu-id="ba8a5-149">showProgressBar</span></span>](kasclient.app.md#showprogressbar)
-* [<span data-ttu-id="ba8a5-150">showQRcodeScannerAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-150">showQRcodeScannerAsync</span></span>](kasclient.app.md#showqrcodescannerasync)
-* [<span data-ttu-id="ba8a5-151">showUserProfileAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-151">showUserProfileAsync</span></span>](kasclient.app.md#showuserprofileasync)
-* [<span data-ttu-id="ba8a5-152">startChatAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-152">startChatAsync</span></span>](kasclient.app.md#startchatasync)
+* [<span data-ttu-id="c3025-105">cancelAttachmentDownloadAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-105">cancelAttachmentDownloadAsync</span></span>](kasclient.app.md#cancelattachmentdownloadasync)
+* [<span data-ttu-id="c3025-106">deleteActionLocalCacheAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-106">deleteActionLocalCacheAsync</span></span>](kasclient.app.md#deleteactionlocalcacheasync)
+* [<span data-ttu-id="c3025-107">deleteDataFromTmpDirAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-107">deleteDataFromTmpDirAsync</span></span>](kasclient.app.md#deletedatafromtmpdirasync)
+* [<span data-ttu-id="c3025-108">dismissCurrentScreen</span><span class="sxs-lookup"><span data-stu-id="c3025-108">dismissCurrentScreen</span></span>](kasclient.app.md#dismisscurrentscreen)
+* [<span data-ttu-id="c3025-109">downloadAttachmentAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-109">downloadAttachmentAsync</span></span>](kasclient.app.md#downloadattachmentasync)
+* [<span data-ttu-id="c3025-110">fetchTenantUserAttributeDetailsAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-110">fetchTenantUserAttributeDetailsAsync</span></span>](kasclient.app.md#fetchtenantuserattributedetailsasync)
+* [<span data-ttu-id="c3025-111">fetchTenantUserProfilesAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-111">fetchTenantUserProfilesAsync</span></span>](kasclient.app.md#fetchtenantuserprofilesasync)
+* [<span data-ttu-id="c3025-112">generateBase64ThumbnailAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-112">generateBase64ThumbnailAsync</span></span>](kasclient.app.md#generatebase64thumbnailasync)
+* [<span data-ttu-id="c3025-113">generateUUIDAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-113">generateUUIDAsync</span></span>](kasclient.app.md#generateuuidasync)
+* [<span data-ttu-id="c3025-114">getActionLocalCacheAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-114">getActionLocalCacheAsync</span></span>](kasclient.app.md#getactionlocalcacheasync)
+* [<span data-ttu-id="c3025-115">getAppLocaleAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-115">getAppLocaleAsync</span></span>](kasclient.app.md#getapplocaleasync)
+* [<span data-ttu-id="c3025-116">getCalendarNameAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-116">getCalendarNameAsync</span></span>](kasclient.app.md#getcalendarnameasync)
+* [<span data-ttu-id="c3025-117">getConversationDetailsAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-117">getConversationDetailsAsync</span></span>](kasclient.app.md#getconversationdetailsasync)
+* [<span data-ttu-id="c3025-118">getCurrentDeviceLocationAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-118">getCurrentDeviceLocationAsync</span></span>](kasclient.app.md#getcurrentdevicelocationasync)
+* [<span data-ttu-id="c3025-119">getCurrentLocale</span><span class="sxs-lookup"><span data-stu-id="c3025-119">getCurrentLocale</span></span>](kasclient.app.md#getcurrentlocale)
+* [<span data-ttu-id="c3025-120">getDeviceIdAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-120">getDeviceIdAsync</span></span>](kasclient.app.md#getdeviceidasync)
+* [<span data-ttu-id="c3025-121">getDeviceLocationAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-121">getDeviceLocationAsync</span></span>](kasclient.app.md#getdevicelocationasync)
+* [<span data-ttu-id="c3025-122">getFontSizeMultiplierAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-122">getFontSizeMultiplierAsync</span></span>](kasclient.app.md#getfontsizemultiplierasync)
+* [<span data-ttu-id="c3025-123">getForwardContextAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-123">getForwardContextAsync</span></span>](kasclient.app.md#getforwardcontextasync)
+* [<span data-ttu-id="c3025-124">getIsAppTimeFormat24HoursAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-124">getIsAppTimeFormat24HoursAsync</span></span>](kasclient.app.md#getisapptimeformat24hoursasync)
+* [<span data-ttu-id="c3025-125">getLocalizedStringsAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-125">getLocalizedStringsAsync</span></span>](kasclient.app.md#getlocalizedstringsasync)
+* [<span data-ttu-id="c3025-126">getLocationAddressAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-126">getLocationAddressAsync</span></span>](kasclient.app.md#getlocationaddressasync)
+* [<span data-ttu-id="c3025-127">getMapImageAsBase64Async</span><span class="sxs-lookup"><span data-stu-id="c3025-127">getMapImageAsBase64Async</span></span>](kasclient.app.md#getmapimageasbase64async)
+* [<span data-ttu-id="c3025-128">getO365UserDetailsAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-128">getO365UserDetailsAsync</span></span>](kasclient.app.md#geto365userdetailsasync)
+* [<span data-ttu-id="c3025-129">getPackageCustomSettingsAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-129">getPackageCustomSettingsAsync</span></span>](kasclient.app.md#getpackagecustomsettingsasync)
+* [<span data-ttu-id="c3025-130">getUsersDetailsAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-130">getUsersDetailsAsync</span></span>](kasclient.app.md#getusersdetailsasync)
+* [<span data-ttu-id="c3025-131">hideProgressBar</span><span class="sxs-lookup"><span data-stu-id="c3025-131">hideProgressBar</span></span>](kasclient.app.md#hideprogressbar)
+* [<span data-ttu-id="c3025-132">isAttachmentDownloadingAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-132">isAttachmentDownloadingAsync</span></span>](kasclient.app.md#isattachmentdownloadingasync)
+* [<span data-ttu-id="c3025-133">isAuthenticationTyepSupportedAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-133">isAuthenticationTyepSupportedAsync</span></span>](kasclient.app.md#isauthenticationtyepsupportedasync)
+* [<span data-ttu-id="c3025-134">isTalkBackEnabledAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-134">isTalkBackEnabledAsync</span></span>](kasclient.app.md#istalkbackenabledasync)
+* [<span data-ttu-id="c3025-135">logToReport</span><span class="sxs-lookup"><span data-stu-id="c3025-135">logToReport</span></span>](kasclient.app.md#logtoreport)
+* [<span data-ttu-id="c3025-136">openAttachmentImmersiveView</span><span class="sxs-lookup"><span data-stu-id="c3025-136">openAttachmentImmersiveView</span></span>](kasclient.app.md#openattachmentimmersiveview)
+* [<span data-ttu-id="c3025-137">openImmersiveViewForAttachmentList</span><span class="sxs-lookup"><span data-stu-id="c3025-137">openImmersiveViewForAttachmentList</span></span>](kasclient.app.md#openimmersiveviewforattachmentlist)
+* [<span data-ttu-id="c3025-138">performAuthenticationAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-138">performAuthenticationAsync</span></span>](kasclient.app.md#performauthenticationasync)
+* [<span data-ttu-id="c3025-139">performHTTPRequest</span><span class="sxs-lookup"><span data-stu-id="c3025-139">performHTTPRequest</span></span>](kasclient.app.md#performhttprequest)
+* [<span data-ttu-id="c3025-140">printf</span><span class="sxs-lookup"><span data-stu-id="c3025-140">printf</span></span>](kasclient.app.md#printf)
+* [<span data-ttu-id="c3025-141">readDataFromTmpDirAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-141">readDataFromTmpDirAsync</span></span>](kasclient.app.md#readdatafromtmpdirasync)
+* [<span data-ttu-id="c3025-142">readTalkBackMessage</span><span class="sxs-lookup"><span data-stu-id="c3025-142">readTalkBackMessage</span></span>](kasclient.app.md#readtalkbackmessage)
+* [<span data-ttu-id="c3025-143">registerHardwareBackPressCallback</span><span class="sxs-lookup"><span data-stu-id="c3025-143">registerHardwareBackPressCallback</span></span>](kasclient.app.md#registerhardwarebackpresscallback)
+* [<span data-ttu-id="c3025-144">saveDataInTmpDirAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-144">saveDataInTmpDirAsync</span></span>](kasclient.app.md#savedataintmpdirasync)
+* [<span data-ttu-id="c3025-145">setNativeToolbarProperties</span><span class="sxs-lookup"><span data-stu-id="c3025-145">setNativeToolbarProperties</span></span>](kasclient.app.md#setnativetoolbarproperties)
+* [<span data-ttu-id="c3025-146">setUserStrings</span><span class="sxs-lookup"><span data-stu-id="c3025-146">setUserStrings</span></span>](kasclient.app.md#setuserstrings)
+* [<span data-ttu-id="c3025-147">showAttachmentPickerAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-147">showAttachmentPickerAsync</span></span>](kasclient.app.md#showattachmentpickerasync)
+* [<span data-ttu-id="c3025-148">showBarcodeScannerAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-148">showBarcodeScannerAsync</span></span>](kasclient.app.md#showbarcodescannerasync)
+* [<span data-ttu-id="c3025-149">showContactPickerAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-149">showContactPickerAsync</span></span>](kasclient.app.md#showcontactpickerasync)
+* [<span data-ttu-id="c3025-150">showDurationPickerAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-150">showDurationPickerAsync</span></span>](kasclient.app.md#showdurationpickerasync)
+* [<span data-ttu-id="c3025-151">showImageImmersiveView</span><span class="sxs-lookup"><span data-stu-id="c3025-151">showImageImmersiveView</span></span>](kasclient.app.md#showimageimmersiveview)
+* [<span data-ttu-id="c3025-152">showImagePickerAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-152">showImagePickerAsync</span></span>](kasclient.app.md#showimagepickerasync)
+* [<span data-ttu-id="c3025-153">showLocationOnMap</span><span class="sxs-lookup"><span data-stu-id="c3025-153">showLocationOnMap</span></span>](kasclient.app.md#showlocationonmap)
+* [<span data-ttu-id="c3025-154">showNativeErrorMessage</span><span class="sxs-lookup"><span data-stu-id="c3025-154">showNativeErrorMessage</span></span>](kasclient.app.md#shownativeerrormessage)
+* [<span data-ttu-id="c3025-155">showPlacePickerAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-155">showPlacePickerAsync</span></span>](kasclient.app.md#showplacepickerasync)
+* [<span data-ttu-id="c3025-156">showProgressBar</span><span class="sxs-lookup"><span data-stu-id="c3025-156">showProgressBar</span></span>](kasclient.app.md#showprogressbar)
+* [<span data-ttu-id="c3025-157">showQRcodeScannerAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-157">showQRcodeScannerAsync</span></span>](kasclient.app.md#showqrcodescannerasync)
+* [<span data-ttu-id="c3025-158">showUserProfileAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-158">showUserProfileAsync</span></span>](kasclient.app.md#showuserprofileasync)
+* [<span data-ttu-id="c3025-159">startChatAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-159">startChatAsync</span></span>](kasclient.app.md#startchatasync)
+* [<span data-ttu-id="c3025-160">updateActionLocalCacheAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-160">updateActionLocalCacheAsync</span></span>](kasclient.app.md#updateactionlocalcacheasync)
+* [<span data-ttu-id="c3025-161">updateTenantUserProfileAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-161">updateTenantUserProfileAsync</span></span>](kasclient.app.md#updatetenantuserprofileasync)
 
 ---
 
-## <a name="functions"></a><span data-ttu-id="ba8a5-153">Funktionen</span><span class="sxs-lookup"><span data-stu-id="ba8a5-153">Functions</span></span>
+## <a name="functions"></a><span data-ttu-id="c3025-162">Funktionen</span><span class="sxs-lookup"><span data-stu-id="c3025-162">Functions</span></span>
 
 <a id="cancelattachmentdownloadasync"></a>
 
-###  <a name="cancelattachmentdownloadasync"></a><span data-ttu-id="ba8a5-154">cancelAttachmentDownloadAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-154">cancelAttachmentDownloadAsync</span></span>
+###  <a name="cancelattachmentdownloadasync"></a><span data-ttu-id="c3025-163">cancelAttachmentDownloadAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-163">cancelAttachmentDownloadAsync</span></span>
 
-<span data-ttu-id="ba8a5-155">▸ **cancelAttachmentDownloadAsync**(Attachment: *[KASAttachment](../classes/kasclient.kasattachment.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-155">▸ **cancelAttachmentDownloadAsync**(attachment: *[KASAttachment](../classes/kasclient.kasattachment.md)*, callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-164">▸ **cancelAttachmentDownloadAsync**(Attachment: *[KASAttachment](../classes/kasclient.kasattachment.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-164">▸ **cancelAttachmentDownloadAsync**(attachment: *[KASAttachment](../classes/kasclient.kasattachment.md)*, callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-156">Abbrechen eines in der Warteschlange befindlichen Downloadvorgangs für eine Anlage</span><span class="sxs-lookup"><span data-stu-id="ba8a5-156">Cancel a download operation queued for an attachment</span></span>
+<span data-ttu-id="c3025-165">Abbrechen eines Downloadvorgangs in der Warteschlange für eine Anlage</span><span class="sxs-lookup"><span data-stu-id="c3025-165">Cancel a download operation queued for an attachment</span></span>
 
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-157">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-157">Sample Usage</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-166">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-166">Sample Usage</span></span>
 
 ```
  var attachmentsList = JSON.parse(form.properties[0].value);
@@ -79,38 +88,82 @@
  }
 ```
 
-<span data-ttu-id="ba8a5-158">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-158">**Parameters:**</span></span>
+<span data-ttu-id="c3025-167">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-167">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-159">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-159">Name</span></span> | <span data-ttu-id="ba8a5-160">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-160">Type</span></span> | <span data-ttu-id="ba8a5-161">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-161">Description</span></span> |
+| <span data-ttu-id="c3025-168">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-168">Name</span></span> | <span data-ttu-id="c3025-169">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-169">Type</span></span> | <span data-ttu-id="c3025-170">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-170">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-162">attachment</span><span class="sxs-lookup"><span data-stu-id="ba8a5-162">attachment</span></span> | [<span data-ttu-id="ba8a5-163">KASAttachment</span><span class="sxs-lookup"><span data-stu-id="ba8a5-163">KASAttachment</span></span>](../classes/kasclient.kasattachment.md) |  \- |
-| <span data-ttu-id="ba8a5-164">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-164">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-165">mit Fehler-param-Error-Zeichenfolge im Fehlerfall; andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-165">with error param - error string in case of error; null otherwise</span></span> |
+| <span data-ttu-id="c3025-171">attachment</span><span class="sxs-lookup"><span data-stu-id="c3025-171">attachment</span></span> | [<span data-ttu-id="c3025-172">KASAttachment</span><span class="sxs-lookup"><span data-stu-id="c3025-172">KASAttachment</span></span>](../classes/kasclient.kasattachment.md) |  \- |
+| <span data-ttu-id="c3025-173">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-173">callback</span></span> | `function` |  <span data-ttu-id="c3025-174">mit Fehler-param-Error-Zeichenfolge im Falle eines Fehlers; andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-174">with error param - error string in case of error; null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-166">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-166">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-175">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-175">**Returns:** `void`</span></span>
 
 ___
+<a id="deleteactionlocalcacheasync"></a>
 
+###  <a name="deleteactionlocalcacheasync"></a><span data-ttu-id="c3025-176">deleteActionLocalCacheAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-176">deleteActionLocalCacheAsync</span></span>
+
+<span data-ttu-id="c3025-177">▸ **deleteActionLocalCacheAsync**(actionLocalCacheProps: *[KASActionLocalCacheProp](../classes/kasclient.kasactionlocalcacheprop.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-177">▸ **deleteActionLocalCacheAsync**(actionLocalCacheProps: *[KASActionLocalCacheProp](../classes/kasclient.kasactionlocalcacheprop.md)*, callback: *`function`*): `void`</span></span>
+
+<span data-ttu-id="c3025-178">Löschen des angegebenen Schlüssels aus dem lokalen Datencache</span><span class="sxs-lookup"><span data-stu-id="c3025-178">Delete the given key form the local data cache</span></span>
+
+<span data-ttu-id="c3025-179">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-179">**Parameters:**</span></span>
+
+| <span data-ttu-id="c3025-180">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-180">Name</span></span> | <span data-ttu-id="c3025-181">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-181">Type</span></span> | <span data-ttu-id="c3025-182">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-182">Description</span></span> |
+| ------ | ------ | ------ |
+| <span data-ttu-id="c3025-183">actionLocalCacheProps</span><span class="sxs-lookup"><span data-stu-id="c3025-183">actionLocalCacheProps</span></span> | [<span data-ttu-id="c3025-184">KASActionLocalCacheProp</span><span class="sxs-lookup"><span data-stu-id="c3025-184">KASActionLocalCacheProp</span></span>](../classes/kasclient.kasactionlocalcacheprop.md) |  <span data-ttu-id="c3025-185">Eigenschaft von Daten, die aus dem Cache gelöscht werden sollen</span><span class="sxs-lookup"><span data-stu-id="c3025-185">property of data to be deleted from cache</span></span> |
+| <span data-ttu-id="c3025-186">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-186">callback</span></span> | `function` |  <span data-ttu-id="c3025-187">Rückruf mit den folgenden para \* \* Metern: @param {Boolean} Success gibt an, ob das Update \* \* erfolgreich war oder nicht @param {string} Error JSON String for the KASError-Objekt mit Fehlercode und/oder Beschreibung.</span><span class="sxs-lookup"><span data-stu-id="c3025-187">callback with below parameters: \*\* @param {boolean} success indicates if the update is successful or not \*\* @param {string} error json string for the KASError object containing error code and/or description.</span></span> |
+
+<span data-ttu-id="c3025-188">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-188">**Returns:** `void`</span></span>
+
+___
+<a id="deletedatafromtmpdirasync"></a>
+
+###  <a name="deletedatafromtmpdirasync"></a><span data-ttu-id="c3025-189">deleteDataFromTmpDirAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-189">deleteDataFromTmpDirAsync</span></span>
+
+<span data-ttu-id="c3025-190">▸ **deleteDataFromTmpDirAsync**(filePath: *`string`*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-190">▸ **deleteDataFromTmpDirAsync**(filePath: *`string`*, callback: *`function`*): `void`</span></span>
+
+<span data-ttu-id="c3025-191">Löscht die Datei aus dem temporären Cachespeicher.</span><span class="sxs-lookup"><span data-stu-id="c3025-191">Deletes file from temporary cache storage.</span></span> <span data-ttu-id="c3025-192">Wird in Verbindung mit API-saveDataInTmpDirAsync für die Dateien verwendet, die mit dieser API gespeichert werden.</span><span class="sxs-lookup"><span data-stu-id="c3025-192">Used in conjunction with API saveDataInTmpDirAsync for the files stored using this API.</span></span>
+
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-193">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-193">Sample Usage</span></span>
+
+```
+KASClient.App.deleteDataFromTmpDirAsync(filePath, function (success, error) {
+    if (error == null && success) {
+       // Action's code in success case
+     }
+});
+```
+
+<span data-ttu-id="c3025-194">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-194">**Parameters:**</span></span>
+
+| <span data-ttu-id="c3025-195">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-195">Name</span></span> | <span data-ttu-id="c3025-196">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-196">Type</span></span> | <span data-ttu-id="c3025-197">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-197">Description</span></span> |
+| ------ | ------ | ------ |
+| <span data-ttu-id="c3025-198">FilePath</span><span class="sxs-lookup"><span data-stu-id="c3025-198">filePath</span></span> | `string` |  <span data-ttu-id="c3025-199">Dateipfad, der gelesen werden sollte</span><span class="sxs-lookup"><span data-stu-id="c3025-199">filepath which should be read</span></span> |
+| <span data-ttu-id="c3025-200">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-200">callback</span></span> | `function` |  <span data-ttu-id="c3025-201">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-201">with below parameters:</span></span> |
+
+<span data-ttu-id="c3025-202">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-202">**Returns:** `void`</span></span>
+
+___
 <a id="dismisscurrentscreen"></a>
 
-###  <a name="dismisscurrentscreen"></a><span data-ttu-id="ba8a5-167">dismissCurrentScreen</span><span class="sxs-lookup"><span data-stu-id="ba8a5-167">dismissCurrentScreen</span></span>
+###  <a name="dismisscurrentscreen"></a><span data-ttu-id="c3025-203">dismissCurrentScreen</span><span class="sxs-lookup"><span data-stu-id="c3025-203">dismissCurrentScreen</span></span>
 
-<span data-ttu-id="ba8a5-168">▸ **dismissCurrentScreen**():`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-168">▸ **dismissCurrentScreen**(): `void`</span></span>
+<span data-ttu-id="c3025-204">▸ **dismissCurrentScreen**():`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-204">▸ **dismissCurrentScreen**(): `void`</span></span>
 
-<span data-ttu-id="ba8a5-169">Schließen des Bildschirms der aktuell geöffneten Aktion (Erstellung, Antwort oder Zusammenfassung)</span><span class="sxs-lookup"><span data-stu-id="ba8a5-169">Dismiss the current opened Action's screen (Creation, Response, or Summary)</span></span>
+<span data-ttu-id="c3025-205">Schließen des Bildschirms der aktuell geöffneten Aktion (Erstellung, Antwort oder Zusammenfassung)</span><span class="sxs-lookup"><span data-stu-id="c3025-205">Dismiss the current opened Action's screen (Creation, Response, or Summary)</span></span>
 
-<span data-ttu-id="ba8a5-170">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-170">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-206">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-206">**Returns:** `void`</span></span>
 
 ___
-
 <a id="downloadattachmentasync"></a>
 
-###  <a name="downloadattachmentasync"></a><span data-ttu-id="ba8a5-171">downloadAttachmentAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-171">downloadAttachmentAsync</span></span>
+###  <a name="downloadattachmentasync"></a><span data-ttu-id="c3025-207">downloadAttachmentAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-207">downloadAttachmentAsync</span></span>
 
-<span data-ttu-id="ba8a5-172">▸ **downloadAttachmentAsync**(Attachment: *[KASAttachment](../classes/kasclient.kasattachment.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-172">▸ **downloadAttachmentAsync**(attachment: *[KASAttachment](../classes/kasclient.kasattachment.md)*, callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-208">▸ **downloadAttachmentAsync**(Attachment: *[KASAttachment](../classes/kasclient.kasattachment.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-208">▸ **downloadAttachmentAsync**(attachment: *[KASAttachment](../classes/kasclient.kasattachment.md)*, callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-173">Herunterladen der angegebenen Anlage</span><span class="sxs-lookup"><span data-stu-id="ba8a5-173">Download the attachment specified</span></span>
+<span data-ttu-id="c3025-209">Herunterladen der angegebenen Anlage</span><span class="sxs-lookup"><span data-stu-id="c3025-209">Download the attachment specified</span></span>
 
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-174">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-174">Sample Usage</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-210">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-210">Sample Usage</span></span>
 
 ```
 var imageAttachment =  new KASClient.KASAttachment();
@@ -124,26 +177,90 @@ KASClient.App.downloadAttachmentAsync(imageAttachment, function(downloadedAttach
 });
 ```
 
-<span data-ttu-id="ba8a5-175">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-175">**Parameters:**</span></span>
+<span data-ttu-id="c3025-211">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-211">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-176">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-176">Name</span></span> | <span data-ttu-id="ba8a5-177">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-177">Type</span></span> | <span data-ttu-id="ba8a5-178">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-178">Description</span></span> |
+| <span data-ttu-id="c3025-212">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-212">Name</span></span> | <span data-ttu-id="c3025-213">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-213">Type</span></span> | <span data-ttu-id="c3025-214">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-214">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-179">attachment</span><span class="sxs-lookup"><span data-stu-id="ba8a5-179">attachment</span></span> | [<span data-ttu-id="ba8a5-180">KASAttachment</span><span class="sxs-lookup"><span data-stu-id="ba8a5-180">KASAttachment</span></span>](../classes/kasclient.kasattachment.md) |  <span data-ttu-id="ba8a5-181">Anlage mit einem gültigen Serverpfad zum herunterladen</span><span class="sxs-lookup"><span data-stu-id="ba8a5-181">attachment with a valid server path to download</span></span> |
-| <span data-ttu-id="ba8a5-182">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-182">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-183">Rückruf beim Herunterladen mit unter params</span><span class="sxs-lookup"><span data-stu-id="ba8a5-183">callback on download completion with below params</span></span><br><br><span data-ttu-id="ba8a5-184">\*@param {KASAttachment} downloadedAttachment die heruntergeladene Anlage</span><span class="sxs-lookup"><span data-stu-id="ba8a5-184">\* @param {KASAttachment} downloadedAttachment the attachment that got downloaded</span></span><br><br><span data-ttu-id="ba8a5-185">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-185">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-215">attachment</span><span class="sxs-lookup"><span data-stu-id="c3025-215">attachment</span></span> | [<span data-ttu-id="c3025-216">KASAttachment</span><span class="sxs-lookup"><span data-stu-id="c3025-216">KASAttachment</span></span>](../classes/kasclient.kasattachment.md) |  <span data-ttu-id="c3025-217">Anlage mit einem gültigen Serverpfad zum herunterladen</span><span class="sxs-lookup"><span data-stu-id="c3025-217">attachment with a valid server path to download</span></span> |
+| <span data-ttu-id="c3025-218">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-218">callback</span></span> | `function` |  <span data-ttu-id="c3025-219">Rückruf beim Herunterladen abgeschlossen mit unter Parameter</span><span class="sxs-lookup"><span data-stu-id="c3025-219">callback on download completion with below params</span></span><br><br><span data-ttu-id="c3025-220">\*@param {KASAttachment} downloadedAttachment der Anlage, die heruntergeladen wurde</span><span class="sxs-lookup"><span data-stu-id="c3025-220">\* @param {KASAttachment} downloadedAttachment the attachment that got downloaded</span></span><br><br><span data-ttu-id="c3025-221">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-221">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-186">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-186">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-222">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-222">**Returns:** `void`</span></span>
 
 ___
+<a id="fetchtenantuserattributedetailsasync"></a>
 
+###  <a name="fetchtenantuserattributedetailsasync"></a><span data-ttu-id="c3025-223">fetchTenantUserAttributeDetailsAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-223">fetchTenantUserAttributeDetailsAsync</span></span>
+
+<span data-ttu-id="c3025-224">▸ **fetchTenantUserAttributeDetailsAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-224">▸ **fetchTenantUserAttributeDetailsAsync**(callback: *`function`*): `void`</span></span>
+
+<span data-ttu-id="c3025-225">Ruft die Details des Mandanten Attributs ab.</span><span class="sxs-lookup"><span data-stu-id="c3025-225">Fetches the tenant attribute details.</span></span> <span data-ttu-id="c3025-226">Der Mandant der Unterhaltung im Kontext wird hierfür verwendet.</span><span class="sxs-lookup"><span data-stu-id="c3025-226">Tenant of the conversation in context will be used for this.</span></span>
+#### <a name="note"></a><span data-ttu-id="c3025-227">Hinweis</span><span class="sxs-lookup"><span data-stu-id="c3025-227">Note</span></span>
+
+<span data-ttu-id="c3025-228">Die Aktion sollte zum gleichen Mandanten der Unterhaltung gehören, und der Benutzer muss bei diesem Mandanten angemeldet sein, damit diese API funktioniert.</span><span class="sxs-lookup"><span data-stu-id="c3025-228">The Action should belong to the same tenant of the conversation and the user needs to be logged into that tenant for this api to work</span></span>
+
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-229">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-229">Sample Usage</span></span>
+
+```
+KASClient.App.fetchTenantUserAttributeDetailsAsync(function(tenantAttributes, error) {
+    if (error == null && tenantAttributes.length > 0) {
+        var tenantAttribute = tenantAttributes[0]; // TenantAttribute
+        console.log(tenantAttribute.id + " : " + tenantAttribute.name);
+    }
+});
+```
+
+<span data-ttu-id="c3025-230">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-230">**Parameters:**</span></span>
+
+| <span data-ttu-id="c3025-231">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-231">Name</span></span> | <span data-ttu-id="c3025-232">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-232">Type</span></span> | <span data-ttu-id="c3025-233">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-233">Description</span></span> |
+| ------ | ------ | ------ |
+| <span data-ttu-id="c3025-234">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-234">callback</span></span> | `function` |  <span data-ttu-id="c3025-235">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-235">with below parameters:</span></span><br><br><span data-ttu-id="c3025-236">\*@param {mandantattribute\[\]} tenantAttributes Array von Mandanten Attributen</span><span class="sxs-lookup"><span data-stu-id="c3025-236">\* @param {TenantAttribute\[\]} tenantAttributes array of tenant attributes</span></span><br><br><span data-ttu-id="c3025-237">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-237">\* @param {string} error message in case of error, null otherwise</span></span> |
+
+<span data-ttu-id="c3025-238">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-238">**Returns:** `void`</span></span>
+
+___
+<a id="fetchtenantuserprofilesasync"></a>
+
+###  <a name="fetchtenantuserprofilesasync"></a><span data-ttu-id="c3025-239">fetchTenantUserProfilesAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-239">fetchTenantUserProfilesAsync</span></span>
+
+<span data-ttu-id="c3025-240">▸ **fetchTenantUserProfilesAsync**(userids: \* `string`[]\*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-240">▸ **fetchTenantUserProfilesAsync**(userIds: *`string`[]*, callback: *`function`*): `void`</span></span>
+
+<span data-ttu-id="c3025-241">Ruft die Mandanten Attribute der angegebenen Benutzer ab.</span><span class="sxs-lookup"><span data-stu-id="c3025-241">Fetches the tenant attributes of the given users.</span></span> <span data-ttu-id="c3025-242">Der Mandant der Unterhaltung im Kontext wird hierfür verwendet.</span><span class="sxs-lookup"><span data-stu-id="c3025-242">Tenant of the conversation in context will be used for this.</span></span>
+#### <a name="note"></a><span data-ttu-id="c3025-243">Hinweis</span><span class="sxs-lookup"><span data-stu-id="c3025-243">Note</span></span>
+
+<span data-ttu-id="c3025-244">Die Aktion sollte zum gleichen Mandanten der Unterhaltung gehören, und der Benutzer muss bei diesem Mandanten angemeldet sein, damit diese API funktioniert.</span><span class="sxs-lookup"><span data-stu-id="c3025-244">The Action should belong to the same tenant of the conversation and the user needs to be logged into that tenant for this api to work</span></span>
+
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-245">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-245">Sample Usage</span></span>
+
+```
+// Fetch current user's tenant profile
+KASClient.App.fetchTenantUserProfilesAsync(null, function(tenantUserProfiles, error) {
+    if (error == null && tenantUserProfiles.length > 0) {
+        var userProfile = tenantUserProfiles[0]; // TenantUserProfile
+        var tenantAttributeData = userProfile.tenantAttributeDataList[0]; // TenantAttributeData
+        console.log(tenantAttributeData.attributeId + " : " + tenantAttributeData.attributeValue);
+    }
+});
+```
+
+<span data-ttu-id="c3025-246">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-246">**Parameters:**</span></span>
+
+| <span data-ttu-id="c3025-247">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-247">Name</span></span> | <span data-ttu-id="c3025-248">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-248">Type</span></span> | <span data-ttu-id="c3025-249">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-249">Description</span></span> |
+| ------ | ------ | ------ |
+| <span data-ttu-id="c3025-250">UserIds</span><span class="sxs-lookup"><span data-stu-id="c3025-250">userIds</span></span> | <span data-ttu-id="c3025-251">`string`[]</span><span class="sxs-lookup"><span data-stu-id="c3025-251"></span></span> |  <span data-ttu-id="c3025-252">Array von Benutzer-IDs; Wenn er NULL oder leer ist, wird das Mandanten Profil des aktuellen Benutzers abgerufen.</span><span class="sxs-lookup"><span data-stu-id="c3025-252">array of user ids; if it's null or empty, current user's tenant profile will be fetched</span></span> |
+| <span data-ttu-id="c3025-253">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-253">callback</span></span> | `function` |  <span data-ttu-id="c3025-254">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-254">with below parameters:</span></span><br><br><span data-ttu-id="c3025-255">\*@param {TenantUserProfile\[\]} tenantUserProfiles-Array der Mandanten Profile der Benutzer (Attribut-ID-Wert-Paare)</span><span class="sxs-lookup"><span data-stu-id="c3025-255">\* @param {TenantUserProfile\[\]} tenantUserProfiles array of users' tenant profiles (attribute id-value pairs)</span></span><br><br><span data-ttu-id="c3025-256">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-256">\* @param {string} error message in case of error, null otherwise</span></span> |
+
+<span data-ttu-id="c3025-257">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-257">**Returns:** `void`</span></span>
+
+___
 <a id="generatebase64thumbnailasync"></a>
 
-###  <a name="generatebase64thumbnailasync"></a><span data-ttu-id="ba8a5-187">generateBase64ThumbnailAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-187">generateBase64ThumbnailAsync</span></span>
+###  <a name="generatebase64thumbnailasync"></a><span data-ttu-id="c3025-258">generateBase64ThumbnailAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-258">generateBase64ThumbnailAsync</span></span>
 
-<span data-ttu-id="ba8a5-188">▸ **generateBase64ThumbnailAsync**(LocalPath: *`string`*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-188">▸ **generateBase64ThumbnailAsync**(localPath: *`string`*, callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-259">▸ **generateBase64ThumbnailAsync**(LocalPath: *`string`*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-259">▸ **generateBase64ThumbnailAsync**(localPath: *`string`*, callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-189">Erstellt eine Base64-Miniaturansicht für ein Bild, dessen localPath angegeben ist.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-189">Generates Base64 thumbnail for an image whose localPath is given</span></span>
+<span data-ttu-id="c3025-260">Generiert eine Base64-Miniaturansicht für ein Bild, dessen LocalPath angegeben ist.</span><span class="sxs-lookup"><span data-stu-id="c3025-260">Generates Base64 thumbnail for an image whose localPath is given</span></span>
 
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-190">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-190">Sample Usage</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-261">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-261">Sample Usage</span></span>
 
 ```
 KASClient.App.generateBase64ThumbnailAsync(localPath, function (thumbnail, error) {
@@ -153,26 +270,25 @@ KASClient.App.generateBase64ThumbnailAsync(localPath, function (thumbnail, error
 });
 ```
 
-<span data-ttu-id="ba8a5-191">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-191">**Parameters:**</span></span>
+<span data-ttu-id="c3025-262">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-262">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-192">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-192">Name</span></span> | <span data-ttu-id="ba8a5-193">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-193">Type</span></span> | <span data-ttu-id="ba8a5-194">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-194">Description</span></span> |
+| <span data-ttu-id="c3025-263">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-263">Name</span></span> | <span data-ttu-id="c3025-264">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-264">Type</span></span> | <span data-ttu-id="c3025-265">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-265">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-195">localPath</span><span class="sxs-lookup"><span data-stu-id="ba8a5-195">localPath</span></span> | `string` |  <span data-ttu-id="ba8a5-196">localPath für die imageAttachment, deren Miniaturansicht generiert werden muss</span><span class="sxs-lookup"><span data-stu-id="ba8a5-196">localPath for the imageAttachment whose thumbnail needs to be generated</span></span> |
-| <span data-ttu-id="ba8a5-197">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-197">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-198">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-198">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-199">\*@param {string} Thumbnail der Base64-Wert</span><span class="sxs-lookup"><span data-stu-id="ba8a5-199">\* @param {string} thumbnail the base64 value</span></span><br><br><span data-ttu-id="ba8a5-200">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-200">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-266">LocalPath</span><span class="sxs-lookup"><span data-stu-id="c3025-266">localPath</span></span> | `string` |  <span data-ttu-id="c3025-267">LocalPath für die imageattachment, deren Miniaturansicht generiert werden muss</span><span class="sxs-lookup"><span data-stu-id="c3025-267">localPath for the imageAttachment whose thumbnail needs to be generated</span></span> |
+| <span data-ttu-id="c3025-268">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-268">callback</span></span> | `function` |  <span data-ttu-id="c3025-269">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-269">with below parameters:</span></span><br><br><span data-ttu-id="c3025-270">\*@param {string} Thumbnail der Base64-Wert</span><span class="sxs-lookup"><span data-stu-id="c3025-270">\* @param {string} thumbnail the base64 value</span></span><br><br><span data-ttu-id="c3025-271">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-271">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-201">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-201">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-272">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-272">**Returns:** `void`</span></span>
 
 ___
-
 <a id="generateuuidasync"></a>
 
-###  <a name="generateuuidasync"></a><span data-ttu-id="ba8a5-202">generateUUIDAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-202">generateUUIDAsync</span></span>
+###  <a name="generateuuidasync"></a><span data-ttu-id="c3025-273">generateUUIDAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-273">generateUUIDAsync</span></span>
 
-<span data-ttu-id="ba8a5-203">▸ **generateUUIDAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-203">▸ **generateUUIDAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-274">▸ **generateUUIDAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-274">▸ **generateUUIDAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-204">Ruft die neue UUID ab.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-204">Gets the new UUID</span></span>
+<span data-ttu-id="c3025-275">Ruft die neue UUID ab.</span><span class="sxs-lookup"><span data-stu-id="c3025-275">Gets the new UUID</span></span>
 
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-205">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-205">Sample Usage</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-276">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-276">Sample Usage</span></span>
 
 ```
  KASClient.App.generateUUIDAsync(function (uuid, error) {
@@ -181,79 +297,93 @@ ___
  });
 ```
 
-<span data-ttu-id="ba8a5-206">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-206">**Parameters:**</span></span>
+<span data-ttu-id="c3025-277">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-277">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-207">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-207">Name</span></span> | <span data-ttu-id="ba8a5-208">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-208">Type</span></span> | <span data-ttu-id="ba8a5-209">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-209">Description</span></span> |
+| <span data-ttu-id="c3025-278">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-278">Name</span></span> | <span data-ttu-id="c3025-279">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-279">Type</span></span> | <span data-ttu-id="c3025-280">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-280">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-210">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-210">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-211">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-211">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-212">\*@param {string} UUID neu generierte UUID</span><span class="sxs-lookup"><span data-stu-id="ba8a5-212">\* @param {string} uuid newly generated uuid</span></span><br><br><span data-ttu-id="ba8a5-213">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-213">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-281">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-281">callback</span></span> | `function` |  <span data-ttu-id="c3025-282">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-282">with below parameters:</span></span><br><br><span data-ttu-id="c3025-283">\*@param {string} UUID neu generierte UUID</span><span class="sxs-lookup"><span data-stu-id="c3025-283">\* @param {string} uuid newly generated uuid</span></span><br><br><span data-ttu-id="c3025-284">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-284">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-214">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-214">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-285">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-285">**Returns:** `void`</span></span>
 
 ___
+<a id="getactionlocalcacheasync"></a>
 
+###  <a name="getactionlocalcacheasync"></a><span data-ttu-id="c3025-286">getActionLocalCacheAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-286">getActionLocalCacheAsync</span></span>
+
+<span data-ttu-id="c3025-287">▸ **getActionLocalCacheAsync**(actionLocalCacheProps: *[KASActionLocalCacheProp](../classes/kasclient.kasactionlocalcacheprop.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-287">▸ **getActionLocalCacheAsync**(actionLocalCacheProps: *[KASActionLocalCacheProp](../classes/kasclient.kasactionlocalcacheprop.md)*, callback: *`function`*): `void`</span></span>
+
+<span data-ttu-id="c3025-288">Ruft den angegebenen Schlüssel für den lokalen Datencache Wert wird auf der in KASActionLocalCacheProp genannten Ebene entsprechend gespeichert.</span><span class="sxs-lookup"><span data-stu-id="c3025-288">Retrieves the given key to the local data cache Value is saved at the level mentioned in KASActionLocalCacheProp accordingly</span></span>
+
+<span data-ttu-id="c3025-289">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-289">**Parameters:**</span></span>
+
+| <span data-ttu-id="c3025-290">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-290">Name</span></span> | <span data-ttu-id="c3025-291">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-291">Type</span></span> | <span data-ttu-id="c3025-292">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-292">Description</span></span> |
+| ------ | ------ | ------ |
+| <span data-ttu-id="c3025-293">actionLocalCacheProps</span><span class="sxs-lookup"><span data-stu-id="c3025-293">actionLocalCacheProps</span></span> | [<span data-ttu-id="c3025-294">KASActionLocalCacheProp</span><span class="sxs-lookup"><span data-stu-id="c3025-294">KASActionLocalCacheProp</span></span>](../classes/kasclient.kasactionlocalcacheprop.md) |  <span data-ttu-id="c3025-295">Eigenschaft von Daten, die aus dem Cache abgerufen werden sollen</span><span class="sxs-lookup"><span data-stu-id="c3025-295">property of data to be retrieved from cache</span></span> |
+| <span data-ttu-id="c3025-296">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-296">callback</span></span> | `function` |  <span data-ttu-id="c3025-297">Rückruf mit den folgenden para \* \* Metern: @param {KASActionLocalCacheProp} actionLocalCacheProps gibt an, ob das Update \* \* erfolgreich war oder nicht @param {string} Error JSON String for the KASError-Objekt mit Fehlercode und/ oder Beschreibung.</span><span class="sxs-lookup"><span data-stu-id="c3025-297">callback with below parameters: \*\* @param {KASActionLocalCacheProp} actionLocalCacheProps indicates if the update is successful or not \*\* @param {string} error json string for the KASError object containing error code and/or description.</span></span> |
+
+<span data-ttu-id="c3025-298">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-298">**Returns:** `void`</span></span>
+
+___
 <a id="getapplocaleasync"></a>
 
-###  <a name="getapplocaleasync"></a><span data-ttu-id="ba8a5-215">getAppLocaleAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-215">getAppLocaleAsync</span></span>
+###  <a name="getapplocaleasync"></a><span data-ttu-id="c3025-299">getAppLocaleAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-299">getAppLocaleAsync</span></span>
 
-<span data-ttu-id="ba8a5-216">▸ **getAppLocaleAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-216">▸ **getAppLocaleAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-300">▸ **getAppLocaleAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-300">▸ **getAppLocaleAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-217">Ruft das aktuelle App-Gebietsschema, die Sprache, in der die APP gerendert wird, zur Lokalisierung von MiniApp-Zeichenfolgen ab.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-217">Gets the current app locale, the language in which the app is rendered, useful for localizing MiniApp's strings</span></span>
+<span data-ttu-id="c3025-301">Ruft das aktuelle App-Gebietsschema ab, die Sprache, in der die APP gerendert wird, nützlich zum Lokalisieren von MiniApp-Zeichenfolgen.</span><span class="sxs-lookup"><span data-stu-id="c3025-301">Gets the current app locale, the language in which the app is rendered, useful for localizing MiniApp's strings</span></span>
 
-<span data-ttu-id="ba8a5-218">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-218">**Parameters:**</span></span>
+<span data-ttu-id="c3025-302">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-302">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-219">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-219">Name</span></span> | <span data-ttu-id="ba8a5-220">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-220">Type</span></span> | <span data-ttu-id="ba8a5-221">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-221">Description</span></span> |
+| <span data-ttu-id="c3025-303">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-303">Name</span></span> | <span data-ttu-id="c3025-304">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-304">Type</span></span> | <span data-ttu-id="c3025-305">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-305">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-222">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-222">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-223">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-223">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-224">\*@param {string}-Gebietsschema kann im Fehlerfall NULL sein</span><span class="sxs-lookup"><span data-stu-id="ba8a5-224">\* @param {string} locale can be null in case of error</span></span><br><br><span data-ttu-id="ba8a5-225">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-225">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-306">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-306">callback</span></span> | `function` |  <span data-ttu-id="c3025-307">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-307">with below parameters:</span></span><br><br><span data-ttu-id="c3025-308">\*@param {Zeichenfolgen} Gebietsschema kann im Falle eines Fehlers NULL sein</span><span class="sxs-lookup"><span data-stu-id="c3025-308">\* @param {string} locale can be null in case of error</span></span><br><br><span data-ttu-id="c3025-309">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-309">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-226">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-226">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-310">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-310">**Returns:** `void`</span></span>
 
 ___
-
 <a id="getcalendarnameasync"></a>
 
-###  <a name="getcalendarnameasync"></a><span data-ttu-id="ba8a5-227">getCalendarNameAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-227">getCalendarNameAsync</span></span>
+###  <a name="getcalendarnameasync"></a><span data-ttu-id="c3025-311">getCalendarNameAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-311">getCalendarNameAsync</span></span>
 
-<span data-ttu-id="ba8a5-228">▸ **getCalendarNameAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-228">▸ **getCalendarNameAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-312">▸ **getCalendarNameAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-312">▸ **getCalendarNameAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-229">Ruft die aktuelle Systemkalender Einstellung ab.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-229">Gets the current system calendar setting.</span></span> <span data-ttu-id="ba8a5-230">Dies ist hauptsächlich für iOS, um den in der Telefoneinstellung festgelegten Kalendernamen wie gregorianisches oder japanisches oder Buddhisten zu identifizieren.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-230">This is mainly for iOS to identify the calendar name set in phone setting like Gregorian or Japanese or Buddhists.</span></span>
+<span data-ttu-id="c3025-313">Ruft die aktuelle Systemkalender Einstellung ab.</span><span class="sxs-lookup"><span data-stu-id="c3025-313">Gets the current system calendar setting.</span></span> <span data-ttu-id="c3025-314">Dies ist vor allem für IOS, um den Kalendernamen festzulegen, der in der Telefoneinstellung wie gregorianisches oder Japanisch oder Buddhisten festgelegt wurde.</span><span class="sxs-lookup"><span data-stu-id="c3025-314">This is mainly for iOS to identify the calendar name set in phone setting like Gregorian or Japanese or Buddhists.</span></span>
 
-<span data-ttu-id="ba8a5-231">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-231">**Parameters:**</span></span>
+<span data-ttu-id="c3025-315">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-315">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-232">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-232">Name</span></span> | <span data-ttu-id="ba8a5-233">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-233">Type</span></span> | <span data-ttu-id="ba8a5-234">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-234">Description</span></span> |
+| <span data-ttu-id="c3025-316">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-316">Name</span></span> | <span data-ttu-id="c3025-317">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-317">Type</span></span> | <span data-ttu-id="c3025-318">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-318">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-235">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-235">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-236">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-236">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-237">\*@param {string} calendarname kann im Fehlerfall NULL sein</span><span class="sxs-lookup"><span data-stu-id="ba8a5-237">\* @param {string} calendarName can be null in case of error</span></span><br><br><span data-ttu-id="ba8a5-238">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-238">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-319">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-319">callback</span></span> | `function` |  <span data-ttu-id="c3025-320">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-320">with below parameters:</span></span><br><br><span data-ttu-id="c3025-321">\*@param {string} calendarname kann im Fehlerfall NULL sein</span><span class="sxs-lookup"><span data-stu-id="c3025-321">\* @param {string} calendarName can be null in case of error</span></span><br><br><span data-ttu-id="c3025-322">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-322">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-239">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-239">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-323">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-323">**Returns:** `void`</span></span>
 
 ___
-
 <a id="getconversationdetailsasync"></a>
 
-###  <a name="getconversationdetailsasync"></a><span data-ttu-id="ba8a5-240">getConversationDetailsAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-240">getConversationDetailsAsync</span></span>
+###  <a name="getconversationdetailsasync"></a><span data-ttu-id="c3025-324">getConversationDetailsAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-324">getConversationDetailsAsync</span></span>
 
-<span data-ttu-id="ba8a5-241">▸ **getConversationDetailsAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-241">▸ **getConversationDetailsAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-325">▸ **getConversationDetailsAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-325">▸ **getConversationDetailsAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-242">Ruft Konversations bezogene Eigenschaften ab.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-242">Gets conversation related properties</span></span>
+<span data-ttu-id="c3025-326">Ruft Konversations bezogene Eigenschaften ab.</span><span class="sxs-lookup"><span data-stu-id="c3025-326">Gets conversation related properties</span></span>
 
-<span data-ttu-id="ba8a5-243">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-243">**Parameters:**</span></span>
+<span data-ttu-id="c3025-327">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-327">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-244">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-244">Name</span></span> | <span data-ttu-id="ba8a5-245">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-245">Type</span></span> | <span data-ttu-id="ba8a5-246">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-246">Description</span></span> |
+| <span data-ttu-id="c3025-328">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-328">Name</span></span> | <span data-ttu-id="c3025-329">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-329">Type</span></span> | <span data-ttu-id="c3025-330">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-330">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-247">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-247">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-248">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-248">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-249">\*@param {KASConversationDetails} Ergebnis Unterhaltung-Eigenschaften</span><span class="sxs-lookup"><span data-stu-id="ba8a5-249">\* @param {KASConversationDetails} result conversation properties</span></span><br><br><span data-ttu-id="ba8a5-250">\*@param {String}-Fehler-JSON-Zeichenfolge für das KASError-Objekt mit Fehlercode und/oder Beschreibung.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-250">\* @param {string} error json string for the KASError object containing error code and/or description.</span></span> |
+| <span data-ttu-id="c3025-331">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-331">callback</span></span> | `function` |  <span data-ttu-id="c3025-332">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-332">with below parameters:</span></span><br><br><span data-ttu-id="c3025-333">\*@param {KASConversationDetails} Ergebnis Unterhaltungseigenschaften</span><span class="sxs-lookup"><span data-stu-id="c3025-333">\* @param {KASConversationDetails} result conversation properties</span></span><br><br><span data-ttu-id="c3025-334">\*@param {string} Error JSON-Zeichenfolge für das KASError-Objekt, das den Fehlercode und/oder die Beschreibung enthält.</span><span class="sxs-lookup"><span data-stu-id="c3025-334">\* @param {string} error json string for the KASError object containing error code and/or description.</span></span> |
 
-<span data-ttu-id="ba8a5-251">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-251">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-335">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-335">**Returns:** `void`</span></span>
 
 ___
-
 <a id="getcurrentdevicelocationasync"></a>
 
-###  <a name="getcurrentdevicelocationasync"></a><span data-ttu-id="ba8a5-252">getCurrentDeviceLocationAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-252">getCurrentDeviceLocationAsync</span></span>
+###  <a name="getcurrentdevicelocationasync"></a><span data-ttu-id="c3025-336">getCurrentDeviceLocationAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-336">getCurrentDeviceLocationAsync</span></span>
 
-<span data-ttu-id="ba8a5-253">▸ **getCurrentDeviceLocationAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-253">▸ **getCurrentDeviceLocationAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-337">▸ **getCurrentDeviceLocationAsync**(Callback: *`function`*, canUseCachedLocation?: *`boolean`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-337">▸ **getCurrentDeviceLocationAsync**(callback: *`function`*, canUseCachedLocation?: *`boolean`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-254">Ruft den aktuellen Geräte Speicherort ab.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-254">Gets the current device location</span></span>
+<span data-ttu-id="c3025-338">Ruft den aktuellen Geräte Speicherort ab.</span><span class="sxs-lookup"><span data-stu-id="c3025-338">Gets the current device location</span></span>
 
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-255">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-255">Sample Usage</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-339">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-339">Sample Usage</span></span>
 
 ```
  KASClient.App.getCurrentDeviceLocationAsync(function (location, error){
@@ -261,128 +391,122 @@ ___
           return;
      }
      //use location(KASLocation) as the device location
- });
+ }, false);
 ```
 
-<span data-ttu-id="ba8a5-256">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-256">**Parameters:**</span></span>
+<span data-ttu-id="c3025-340">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-340">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-257">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-257">Name</span></span> | <span data-ttu-id="ba8a5-258">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-258">Type</span></span> | <span data-ttu-id="ba8a5-259">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-259">Description</span></span> |
-| ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-260">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-260">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-261">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-261">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-262">\*@param {string} Speicherort kann im Fehlerfall NULL sein</span><span class="sxs-lookup"><span data-stu-id="ba8a5-262">\* @param {string} location can be null in case of error</span></span><br><br><span data-ttu-id="ba8a5-263">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-263">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-341">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-341">Name</span></span> | <span data-ttu-id="c3025-342">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-342">Type</span></span> | <span data-ttu-id="c3025-343">Standardwert</span><span class="sxs-lookup"><span data-stu-id="c3025-343">Default value</span></span> | <span data-ttu-id="c3025-344">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-344">Description</span></span> |
+| ------ | ------ | ------ | ------ |
+| <span data-ttu-id="c3025-345">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-345">callback</span></span> | `function` | - |  <span data-ttu-id="c3025-346">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-346">with below parameters:</span></span><br><br><span data-ttu-id="c3025-347">\*@param {Zeichenfolge} Speicherort kann im Falle eines Fehlers NULL sein</span><span class="sxs-lookup"><span data-stu-id="c3025-347">\* @param {string} location can be null in case of error</span></span><br><br><span data-ttu-id="c3025-348">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-348">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-349">`Default value`canUseCachedLocation</span><span class="sxs-lookup"><span data-stu-id="c3025-349">`Default value` canUseCachedLocation</span></span> | `boolean` | <span data-ttu-id="c3025-350">false</span><span class="sxs-lookup"><span data-stu-id="c3025-350">false</span></span> |  <span data-ttu-id="c3025-351">(optional, Standard, wenn false) Wenn dieses Flag auf true festgelegt ist, kann Platform einen zwischengespeicherten Speicherort von bis zu 30Min alt zurückgeben, falls beim Abrufen des aktuellen Standorts ein Fehler auftritt.</span><span class="sxs-lookup"><span data-stu-id="c3025-351">(optional, default if false) if this flag is true, platform may choose to return a cached location of upto 30min old in case there's an error while fetching current location</span></span> |
 
-<span data-ttu-id="ba8a5-264">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-264">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-352">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-352">**Returns:** `void`</span></span>
 
 ___
-
 <a id="getcurrentlocale"></a>
 
-###  <a name="getcurrentlocale"></a><span data-ttu-id="ba8a5-265">getCurrentLocale</span><span class="sxs-lookup"><span data-stu-id="ba8a5-265">getCurrentLocale</span></span>
+###  <a name="getcurrentlocale"></a><span data-ttu-id="c3025-353">getCurrentLocale</span><span class="sxs-lookup"><span data-stu-id="c3025-353">getCurrentLocale</span></span>
 
-<span data-ttu-id="ba8a5-266">▸ **getCurrentLocale**():`string`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-266">▸ **getCurrentLocale**(): `string`</span></span>
+<span data-ttu-id="c3025-354">▸ **getCurrentLocale**():`string`</span><span class="sxs-lookup"><span data-stu-id="c3025-354">▸ **getCurrentLocale**(): `string`</span></span>
 
-<span data-ttu-id="ba8a5-267">**Gibt Folgendes zurück:**`string`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-267">**Returns:** `string`</span></span>
+<span data-ttu-id="c3025-355">**Gibt Folgendes zurück:**`string`</span><span class="sxs-lookup"><span data-stu-id="c3025-355">**Returns:** `string`</span></span>
 
 ___
-
 <a id="getdeviceidasync"></a>
 
-###  <a name="getdeviceidasync"></a><span data-ttu-id="ba8a5-268">getDeviceIdAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-268">getDeviceIdAsync</span></span>
+###  <a name="getdeviceidasync"></a><span data-ttu-id="c3025-356">getDeviceIdAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-356">getDeviceIdAsync</span></span>
 
-<span data-ttu-id="ba8a5-269">▸ **getDeviceIdAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-269">▸ **getDeviceIdAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-357">▸ **getDeviceIdAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-357">▸ **getDeviceIdAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-270">Ruft die Geräte-Nr ab.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-270">Gets deviceId</span></span>
+<span data-ttu-id="c3025-358">Ruft die Geräte-Nr ab.</span><span class="sxs-lookup"><span data-stu-id="c3025-358">Gets deviceId</span></span>
 
-<span data-ttu-id="ba8a5-271">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-271">**Parameters:**</span></span>
+<span data-ttu-id="c3025-359">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-359">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-272">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-272">Name</span></span> | <span data-ttu-id="ba8a5-273">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-273">Type</span></span> | <span data-ttu-id="ba8a5-274">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-274">Description</span></span> |
+| <span data-ttu-id="c3025-360">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-360">Name</span></span> | <span data-ttu-id="c3025-361">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-361">Type</span></span> | <span data-ttu-id="c3025-362">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-362">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-275">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-275">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-276">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-276">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-277">\*@param {string}-Geräte-Nr. vom ganzzahligen Dienst</span><span class="sxs-lookup"><span data-stu-id="ba8a5-277">\* @param {string} deviceId got from integeration service</span></span><br><br><span data-ttu-id="ba8a5-278">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-278">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-363">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-363">callback</span></span> | `function` |  <span data-ttu-id="c3025-364">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-364">with below parameters:</span></span><br><br><span data-ttu-id="c3025-365">\*@param {Zeichenfolge} Device-Wert aus dem ganzzahligen Dienst erhalten</span><span class="sxs-lookup"><span data-stu-id="c3025-365">\* @param {string} deviceId got from integeration service</span></span><br><br><span data-ttu-id="c3025-366">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-366">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-279">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-279">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-367">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-367">**Returns:** `void`</span></span>
 
 ___
-
 <a id="getdevicelocationasync"></a>
 
-###  <a name="getdevicelocationasync"></a><span data-ttu-id="ba8a5-280">getDeviceLocationAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-280">getDeviceLocationAsync</span></span>
+###  <a name="getdevicelocationasync"></a><span data-ttu-id="c3025-368">getDeviceLocationAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-368">getDeviceLocationAsync</span></span>
 
-<span data-ttu-id="ba8a5-281">▸ **getDeviceLocationAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-281">▸ **getDeviceLocationAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-369">▸ **getDeviceLocationAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-369">▸ **getDeviceLocationAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-282">Ruft den Speicherort des zuvor gespeicherten Geräts ab.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-282">Gets the previously stored device location</span></span>
+<span data-ttu-id="c3025-370">Ruft den Speicherort des zuvor gespeicherten Geräts ab.</span><span class="sxs-lookup"><span data-stu-id="c3025-370">Gets the previously stored device location</span></span>
 
-<span data-ttu-id="ba8a5-283">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-283">**Parameters:**</span></span>
+<span data-ttu-id="c3025-371">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-371">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-284">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-284">Name</span></span> | <span data-ttu-id="ba8a5-285">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-285">Type</span></span> | <span data-ttu-id="ba8a5-286">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-286">Description</span></span> |
+| <span data-ttu-id="c3025-372">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-372">Name</span></span> | <span data-ttu-id="c3025-373">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-373">Type</span></span> | <span data-ttu-id="c3025-374">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-374">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-287">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-287">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-288">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-288">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-289">\*@param {string} Speicherort kann im Fehlerfall NULL sein</span><span class="sxs-lookup"><span data-stu-id="ba8a5-289">\* @param {string} location can be null in case of error</span></span><br><br><span data-ttu-id="ba8a5-290">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-290">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-375">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-375">callback</span></span> | `function` |  <span data-ttu-id="c3025-376">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-376">with below parameters:</span></span><br><br><span data-ttu-id="c3025-377">\*@param {Zeichenfolge} Speicherort kann im Falle eines Fehlers NULL sein</span><span class="sxs-lookup"><span data-stu-id="c3025-377">\* @param {string} location can be null in case of error</span></span><br><br><span data-ttu-id="c3025-378">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-378">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-291">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-291">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-379">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-379">**Returns:** `void`</span></span>
 
 ___
-
 <a id="getfontsizemultiplierasync"></a>
 
-###  <a name="getfontsizemultiplierasync"></a><span data-ttu-id="ba8a5-292">getFontSizeMultiplierAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-292">getFontSizeMultiplierAsync</span></span>
+###  <a name="getfontsizemultiplierasync"></a><span data-ttu-id="c3025-380">getFontSizeMultiplierAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-380">getFontSizeMultiplierAsync</span></span>
 
-<span data-ttu-id="ba8a5-293">▸ **getFontSizeMultiplierAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-293">▸ **getFontSizeMultiplierAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-381">▸ **getFontSizeMultiplierAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-381">▸ **getFontSizeMultiplierAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-294">Ruft den Schriftgrad Multiplikator für großen Text ab.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-294">Gets the font size multiplier for large text.</span></span> <span data-ttu-id="ba8a5-295">Current nur für iOS erforderlich.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-295">Current only required by iOS.</span></span>
+<span data-ttu-id="c3025-382">Ruft den Schriftgrad Multiplikator für großen Text ab.</span><span class="sxs-lookup"><span data-stu-id="c3025-382">Gets the font size multiplier for large text.</span></span> <span data-ttu-id="c3025-383">Aktuell nur für IOS erforderlich.</span><span class="sxs-lookup"><span data-stu-id="c3025-383">Current only required by iOS.</span></span>
 
-<span data-ttu-id="ba8a5-296">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-296">**Parameters:**</span></span>
+<span data-ttu-id="c3025-384">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-384">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-297">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-297">Name</span></span> | <span data-ttu-id="ba8a5-298">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-298">Type</span></span> | <span data-ttu-id="ba8a5-299">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-299">Description</span></span> |
+| <span data-ttu-id="c3025-385">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-385">Name</span></span> | <span data-ttu-id="c3025-386">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-386">Type</span></span> | <span data-ttu-id="c3025-387">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-387">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-300">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-300">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-301">mit unter params</span><span class="sxs-lookup"><span data-stu-id="ba8a5-301">with below params</span></span><br><br><span data-ttu-id="ba8a5-302">\*@param {string} Multiplikator</span><span class="sxs-lookup"><span data-stu-id="ba8a5-302">\* @param {string} multiplier</span></span><br><br><span data-ttu-id="ba8a5-303">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-303">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-388">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-388">callback</span></span> | `function` |  <span data-ttu-id="c3025-389">mit unter Parameter</span><span class="sxs-lookup"><span data-stu-id="c3025-389">with below params</span></span><br><br><span data-ttu-id="c3025-390">\*@param {string}-Multiplikator</span><span class="sxs-lookup"><span data-stu-id="c3025-390">\* @param {string} multiplier</span></span><br><br><span data-ttu-id="c3025-391">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-391">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-304">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-304">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-392">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-392">**Returns:** `void`</span></span>
 
 ___
-
 <a id="getforwardcontextasync"></a>
 
-###  <a name="getforwardcontextasync"></a><span data-ttu-id="ba8a5-305">getForwardContextAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-305">getForwardContextAsync</span></span>
+###  <a name="getforwardcontextasync"></a><span data-ttu-id="c3025-393">getForwardContextAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-393">getForwardContextAsync</span></span>
 
-<span data-ttu-id="ba8a5-306">▸ **getForwardContextAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-306">▸ **getForwardContextAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-394">▸ **getForwardContextAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-394">▸ **getForwardContextAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-307">Ruft vorwärts Kontext Details wie: Kartenerstellung befindet sich im weitergeleiteten Modus</span><span class="sxs-lookup"><span data-stu-id="ba8a5-307">Gets Forward Context details such as : Card Creation is in forwarded mode</span></span>
+<span data-ttu-id="c3025-395">Ruft vorwärts Kontext Details wie: Kartenerstellung befindet sich im weitergeleiteten Modus</span><span class="sxs-lookup"><span data-stu-id="c3025-395">Gets Forward Context details such as : Card Creation is in forwarded mode</span></span>
 
-<span data-ttu-id="ba8a5-308">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-308">**Parameters:**</span></span>
+<span data-ttu-id="c3025-396">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-396">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-309">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-309">Name</span></span> | <span data-ttu-id="ba8a5-310">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-310">Type</span></span> | <span data-ttu-id="ba8a5-311">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-311">Description</span></span> |
+| <span data-ttu-id="c3025-397">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-397">Name</span></span> | <span data-ttu-id="c3025-398">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-398">Type</span></span> | <span data-ttu-id="c3025-399">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-399">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-312">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-312">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-313">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-313">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-314">\*@param {JSON} gibt die Kontext Details in der JSON-Struktur zurück.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-314">\* @param {Json} returns the Context Details in Json structure</span></span> |
+| <span data-ttu-id="c3025-400">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-400">callback</span></span> | `function` |  <span data-ttu-id="c3025-401">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-401">with below parameters:</span></span><br><br><span data-ttu-id="c3025-402">\*@param {JSON} gibt die Kontext Details in der JSON-Struktur zurück.</span><span class="sxs-lookup"><span data-stu-id="c3025-402">\* @param {Json} returns the Context Details in Json structure</span></span> |
 
-<span data-ttu-id="ba8a5-315">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-315">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-403">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-403">**Returns:** `void`</span></span>
 
 ___
-
 <a id="getisapptimeformat24hoursasync"></a>
 
-###  <a name="getisapptimeformat24hoursasync"></a><span data-ttu-id="ba8a5-316">getIsAppTimeFormat24HoursAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-316">getIsAppTimeFormat24HoursAsync</span></span>
+###  <a name="getisapptimeformat24hoursasync"></a><span data-ttu-id="c3025-404">getIsAppTimeFormat24HoursAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-404">getIsAppTimeFormat24HoursAsync</span></span>
 
-<span data-ttu-id="ba8a5-317">▸ **getIsAppTimeFormat24HoursAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-317">▸ **getIsAppTimeFormat24HoursAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-405">▸ **getIsAppTimeFormat24HoursAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-405">▸ **getIsAppTimeFormat24HoursAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-318">Ruft das aktuelle App-Zeitformat ist 24 Stunden oder nicht, das vom Benutzer ausgewählte Zeitformat, nützlich für die Formatierung von Datum Zeichenfolgen ordnungsgemäß</span><span class="sxs-lookup"><span data-stu-id="ba8a5-318">Gets the current app time format is 24hours or not, the time format selected by user, useful for formatting date time strings properly</span></span>
+<span data-ttu-id="c3025-406">Ruft das aktuelle App-Zeitformat ist 24 Stunden oder nicht, das vom Benutzer ausgewählte Zeitformat, nützlich für die Formatierung von Datum Uhrzeit Zeichenfolgen ordnungsgemäß</span><span class="sxs-lookup"><span data-stu-id="c3025-406">Gets the current app time format is 24hours or not, the time format selected by user, useful for formatting date time strings properly</span></span>
 
-<span data-ttu-id="ba8a5-319">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-319">**Parameters:**</span></span>
+<span data-ttu-id="c3025-407">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-407">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-320">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-320">Name</span></span> | <span data-ttu-id="ba8a5-321">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-321">Type</span></span> | <span data-ttu-id="ba8a5-322">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-322">Description</span></span> |
+| <span data-ttu-id="c3025-408">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-408">Name</span></span> | <span data-ttu-id="c3025-409">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-409">Type</span></span> | <span data-ttu-id="c3025-410">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-410">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-323">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-323">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-324">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-324">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-325">\*@param {string} isAppTimeFormat24Hours kann im Fehlerfall NULL sein</span><span class="sxs-lookup"><span data-stu-id="ba8a5-325">\* @param {string} isAppTimeFormat24Hours can be null in case of error</span></span><br><br><span data-ttu-id="ba8a5-326">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-326">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-411">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-411">callback</span></span> | `function` |  <span data-ttu-id="c3025-412">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-412">with below parameters:</span></span><br><br><span data-ttu-id="c3025-413">\*@param {string} isAppTimeFormat24Hours kann im Falle eines Fehlers NULL sein</span><span class="sxs-lookup"><span data-stu-id="c3025-413">\* @param {string} isAppTimeFormat24Hours can be null in case of error</span></span><br><br><span data-ttu-id="c3025-414">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-414">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-327">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-327">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-415">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-415">**Returns:** `void`</span></span>
 
 ___
-
 <a id="getlocalizedstringsasync"></a>
 
-###  <a name="getlocalizedstringsasync"></a><span data-ttu-id="ba8a5-328">getLocalizedStringsAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-328">getLocalizedStringsAsync</span></span>
+###  <a name="getlocalizedstringsasync"></a><span data-ttu-id="c3025-416">getLocalizedStringsAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-416">getLocalizedStringsAsync</span></span>
 
-<span data-ttu-id="ba8a5-329">▸ **getLocalizedStringsAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-329">▸ **getLocalizedStringsAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-417">▸ **getLocalizedStringsAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-417">▸ **getLocalizedStringsAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-330">Ruft das Wörterbuch der lokalisierten Zeichenfolgen basierend auf dem aktuellen App-Gebietsschema ab.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-330">Gets the localized strings' dictionary based on current app locale.</span></span> <span data-ttu-id="ba8a5-331">Zeichenfolgen müssen innerhalb des Pakets mit Namen wie: Strings\_en. JSON, Strings\_Hi. JSON usw. angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-331">Strings must be provided inside the package with names like: strings\_en.json, strings\_hi.json, etc.</span></span>
+<span data-ttu-id="c3025-418">Ruft das lokalisierte Zeichenfolgenwörterbuch basierend auf dem aktuellen App-Gebietsschema ab.</span><span class="sxs-lookup"><span data-stu-id="c3025-418">Gets the localized strings' dictionary based on current app locale.</span></span> <span data-ttu-id="c3025-419">Zeichenfolgen müssen innerhalb des Pakets mit Namen wie: Strings\_en. JSON, Strings\_Hi. JSON, etc. bereitgestellt werden.</span><span class="sxs-lookup"><span data-stu-id="c3025-419">Strings must be provided inside the package with names like: strings\_en.json, strings\_hi.json, etc.</span></span>
 
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-332">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-332">Sample Usage</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-420">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-420">Sample Usage</span></span>
 
 ```
 KASClient.App.getLocalizedStringsAsync(function (strings, error) {
@@ -393,25 +517,24 @@ KASClient.App.getLocalizedStringsAsync(function (strings, error) {
 });
 ```
 
-<span data-ttu-id="ba8a5-333">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-333">**Parameters:**</span></span>
+<span data-ttu-id="c3025-421">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-421">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-334">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-334">Name</span></span> | <span data-ttu-id="ba8a5-335">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-335">Type</span></span> | <span data-ttu-id="ba8a5-336">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-336">Description</span></span> |
+| <span data-ttu-id="c3025-422">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-422">Name</span></span> | <span data-ttu-id="c3025-423">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-423">Type</span></span> | <span data-ttu-id="c3025-424">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-424">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-337">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-337">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-338">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-338">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-339">\*@param {JSON}-Zeichenfolgen können im Fehlerfall NULL sein</span><span class="sxs-lookup"><span data-stu-id="ba8a5-339">\* @param {JSON} strings can be null in case of error</span></span><br><br><span data-ttu-id="ba8a5-340">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-340">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-425">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-425">callback</span></span> | `function` |  <span data-ttu-id="c3025-426">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-426">with below parameters:</span></span><br><br><span data-ttu-id="c3025-427">\*@param {JSON} Zeichenfolgen können im Falle eines Fehlers NULL sein</span><span class="sxs-lookup"><span data-stu-id="c3025-427">\* @param {JSON} strings can be null in case of error</span></span><br><br><span data-ttu-id="c3025-428">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-428">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-341">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-341">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-429">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-429">**Returns:** `void`</span></span>
 
 ___
-
 <a id="getlocationaddressasync"></a>
 
-###  <a name="getlocationaddressasync"></a><span data-ttu-id="ba8a5-342">getLocationAddressAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-342">getLocationAddressAsync</span></span>
+###  <a name="getlocationaddressasync"></a><span data-ttu-id="c3025-430">getLocationAddressAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-430">getLocationAddressAsync</span></span>
 
-<span data-ttu-id="ba8a5-343">▸ **getLocationAddressAsync**(params: *[KASLocationAddressParams](../classes/kasclient.kaslocationaddressparams.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-343">▸ **getLocationAddressAsync**(params: *[KASLocationAddressParams](../classes/kasclient.kaslocationaddressparams.md)*, callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-431">▸ **getLocationAddressAsync**(params: *[KASLocationAddressParams](../classes/kasclient.kaslocationaddressparams.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-431">▸ **getLocationAddressAsync**(params: *[KASLocationAddressParams](../classes/kasclient.kaslocationaddressparams.md)*, callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-344">Adresszeichenfolge für angegebene Koordinaten abrufen</span><span class="sxs-lookup"><span data-stu-id="ba8a5-344">Get address string for specified coordinates</span></span>
+<span data-ttu-id="c3025-432">Abrufen der Adresszeichenfolge für angegebene Koordinaten</span><span class="sxs-lookup"><span data-stu-id="c3025-432">Get address string for specified coordinates</span></span>
 
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-345">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-345">Sample Usage</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-433">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-433">Sample Usage</span></span>
 
 ```
 var params = new KASClient.KASLocationAddressParams();
@@ -426,26 +549,25 @@ KASClient.App.getLocationAddressAsync(params,
 });
 ```
 
-<span data-ttu-id="ba8a5-346">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-346">**Parameters:**</span></span>
+<span data-ttu-id="c3025-434">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-434">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-347">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-347">Name</span></span> | <span data-ttu-id="ba8a5-348">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-348">Type</span></span> | <span data-ttu-id="ba8a5-349">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-349">Description</span></span> |
+| <span data-ttu-id="c3025-435">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-435">Name</span></span> | <span data-ttu-id="c3025-436">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-436">Type</span></span> | <span data-ttu-id="c3025-437">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-437">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-350">params</span><span class="sxs-lookup"><span data-stu-id="ba8a5-350">params</span></span> | [<span data-ttu-id="ba8a5-351">KASLocationAddressParams</span><span class="sxs-lookup"><span data-stu-id="ba8a5-351">KASLocationAddressParams</span></span>](../classes/kasclient.kaslocationaddressparams.md) |  <span data-ttu-id="ba8a5-352">KASLocationAddressParams</span><span class="sxs-lookup"><span data-stu-id="ba8a5-352">KASLocationAddressParams</span></span> |
-| <span data-ttu-id="ba8a5-353">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-353">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-354">Callback on Address FETCH with below params</span><span class="sxs-lookup"><span data-stu-id="ba8a5-354">callback on address fetch with below params</span></span><br><br><span data-ttu-id="ba8a5-355">\*@param {JSON} Speicherort eine JSON mit latitute Längen-und anderen Informaion</span><span class="sxs-lookup"><span data-stu-id="ba8a5-355">\* @param {JSON} location a json containing latitute longitude and other informaion</span></span><br><br><span data-ttu-id="ba8a5-356">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-356">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-438">params</span><span class="sxs-lookup"><span data-stu-id="c3025-438">params</span></span> | [<span data-ttu-id="c3025-439">KASLocationAddressParams</span><span class="sxs-lookup"><span data-stu-id="c3025-439">KASLocationAddressParams</span></span>](../classes/kasclient.kaslocationaddressparams.md) |  <span data-ttu-id="c3025-440">KASLocationAddressParams</span><span class="sxs-lookup"><span data-stu-id="c3025-440">KASLocationAddressParams</span></span> |
+| <span data-ttu-id="c3025-441">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-441">callback</span></span> | `function` |  <span data-ttu-id="c3025-442">Rückruf bei Adress Abruf mit unter Parameter</span><span class="sxs-lookup"><span data-stu-id="c3025-442">callback on address fetch with below params</span></span><br><br><span data-ttu-id="c3025-443">\*@param {JSON} Speicherort eine JSON, die latitute Längengrad und andere informaungen enthält</span><span class="sxs-lookup"><span data-stu-id="c3025-443">\* @param {JSON} location a json containing latitute longitude and other informaion</span></span><br><br><span data-ttu-id="c3025-444">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-444">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-357">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-357">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-445">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-445">**Returns:** `void`</span></span>
 
 ___
-
 <a id="getmapimageasbase64async"></a>
 
-###  <a name="getmapimageasbase64async"></a><span data-ttu-id="ba8a5-358">getMapImageAsBase64Async</span><span class="sxs-lookup"><span data-stu-id="ba8a5-358">getMapImageAsBase64Async</span></span>
+###  <a name="getmapimageasbase64async"></a><span data-ttu-id="c3025-446">getMapImageAsBase64Async</span><span class="sxs-lookup"><span data-stu-id="c3025-446">getMapImageAsBase64Async</span></span>
 
-<span data-ttu-id="ba8a5-359">▸ **getMapImageAsBase64Async**(params: *[KASLocationStaticMapImageParams](../classes/kasclient.kaslocationstaticmapimageparams.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-359">▸ **getMapImageAsBase64Async**(params: *[KASLocationStaticMapImageParams](../classes/kasclient.kaslocationstaticmapimageparams.md)*, callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-447">▸ **getMapImageAsBase64Async**(params: *[KASLocationStaticMapImageParams](../classes/kasclient.kaslocationstaticmapimageparams.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-447">▸ **getMapImageAsBase64Async**(params: *[KASLocationStaticMapImageParams](../classes/kasclient.kaslocationstaticmapimageparams.md)*, callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-360">Herunterladen des Basis 64-Bild der Karte für die angegebenen Koordinaten</span><span class="sxs-lookup"><span data-stu-id="ba8a5-360">Download the base 64 image of map for the coordinates specified</span></span>
+<span data-ttu-id="c3025-448">Laden Sie das Base 64-Image von Map für die angegebenen Koordinaten herunter.</span><span class="sxs-lookup"><span data-stu-id="c3025-448">Download the base 64 image of map for the coordinates specified</span></span>
 
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-361">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-361">Sample Usage</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-449">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-449">Sample Usage</span></span>
 
 ```
 KASClient.App.getMapImageAsBase64Async(params, function (attachmentString, error) {
@@ -456,44 +578,42 @@ KASClient.App.getMapImageAsBase64Async(params, function (attachmentString, error
  });
 ```
 
-<span data-ttu-id="ba8a5-362">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-362">**Parameters:**</span></span>
+<span data-ttu-id="c3025-450">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-450">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-363">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-363">Name</span></span> | <span data-ttu-id="ba8a5-364">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-364">Type</span></span> | <span data-ttu-id="ba8a5-365">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-365">Description</span></span> |
+| <span data-ttu-id="c3025-451">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-451">Name</span></span> | <span data-ttu-id="c3025-452">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-452">Type</span></span> | <span data-ttu-id="c3025-453">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-453">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-366">params</span><span class="sxs-lookup"><span data-stu-id="ba8a5-366">params</span></span> | [<span data-ttu-id="ba8a5-367">KASLocationStaticMapImageParams</span><span class="sxs-lookup"><span data-stu-id="ba8a5-367">KASLocationStaticMapImageParams</span></span>](../classes/kasclient.kaslocationstaticmapimageparams.md) |  <span data-ttu-id="ba8a5-368">KASLocationStaticMapImageParams</span><span class="sxs-lookup"><span data-stu-id="ba8a5-368">KASLocationStaticMapImageParams</span></span> |
-| <span data-ttu-id="ba8a5-369">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-369">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-370">beim Herunterladen mit unter params</span><span class="sxs-lookup"><span data-stu-id="ba8a5-370">on download completion with below params</span></span><br><br><span data-ttu-id="ba8a5-371">\*@param {string} AttachmentType Base64-Wert der Anlage</span><span class="sxs-lookup"><span data-stu-id="ba8a5-371">\* @param {string} attachmentString base64 value of the attachment</span></span><br><br><span data-ttu-id="ba8a5-372">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-372">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-454">params</span><span class="sxs-lookup"><span data-stu-id="c3025-454">params</span></span> | [<span data-ttu-id="c3025-455">KASLocationStaticMapImageParams</span><span class="sxs-lookup"><span data-stu-id="c3025-455">KASLocationStaticMapImageParams</span></span>](../classes/kasclient.kaslocationstaticmapimageparams.md) |  <span data-ttu-id="c3025-456">KASLocationStaticMapImageParams</span><span class="sxs-lookup"><span data-stu-id="c3025-456">KASLocationStaticMapImageParams</span></span> |
+| <span data-ttu-id="c3025-457">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-457">callback</span></span> | `function` |  <span data-ttu-id="c3025-458">beim Herunterladen abgeschlossen mit unter Parameter</span><span class="sxs-lookup"><span data-stu-id="c3025-458">on download completion with below params</span></span><br><br><span data-ttu-id="c3025-459">\*@param {string} Attachment String Base64-Wert der Anlage</span><span class="sxs-lookup"><span data-stu-id="c3025-459">\* @param {string} attachmentString base64 value of the attachment</span></span><br><br><span data-ttu-id="c3025-460">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-460">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-373">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-373">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-461">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-461">**Returns:** `void`</span></span>
 
 ___
-
 <a id="geto365userdetailsasync"></a>
 
-###  <a name="geto365userdetailsasync"></a><span data-ttu-id="ba8a5-374">getO365UserDetailsAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-374">getO365UserDetailsAsync</span></span>
+###  <a name="geto365userdetailsasync"></a><span data-ttu-id="c3025-462">getO365UserDetailsAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-462">getO365UserDetailsAsync</span></span>
 
-<span data-ttu-id="ba8a5-375">▸ **getO365UserDetailsAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-375">▸ **getO365UserDetailsAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-463">▸ **getO365UserDetailsAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-463">▸ **getO365UserDetailsAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-376">Ruft Details des aktuellen angemeldeten O365-Benutzers ab.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-376">Gets details of current logged-in O365 user</span></span>
+<span data-ttu-id="c3025-464">Ruft Details des aktuellen angemeldeten O365-Benutzers ab.</span><span class="sxs-lookup"><span data-stu-id="c3025-464">Gets details of current logged-in O365 user</span></span>
 
-<span data-ttu-id="ba8a5-377">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-377">**Parameters:**</span></span>
+<span data-ttu-id="c3025-465">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-465">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-378">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-378">Name</span></span> | <span data-ttu-id="ba8a5-379">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-379">Type</span></span> | <span data-ttu-id="ba8a5-380">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-380">Description</span></span> |
+| <span data-ttu-id="c3025-466">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-466">Name</span></span> | <span data-ttu-id="c3025-467">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-467">Type</span></span> | <span data-ttu-id="c3025-468">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-468">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-381">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-381">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-382">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-382">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-383">\*@param {JSON} gibt die UserDetails in der JSON-Struktur zurück.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-383">\* @param {Json} returns the UserDetails in Json structure</span></span> |
+| <span data-ttu-id="c3025-469">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-469">callback</span></span> | `function` |  <span data-ttu-id="c3025-470">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-470">with below parameters:</span></span><br><br><span data-ttu-id="c3025-471">\*@param {JSON} gibt die UserDetails in der JSON-Struktur zurück.</span><span class="sxs-lookup"><span data-stu-id="c3025-471">\* @param {Json} returns the UserDetails in Json structure</span></span> |
 
-<span data-ttu-id="ba8a5-384">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-384">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-472">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-472">**Returns:** `void`</span></span>
 
 ___
-
 <a id="getpackagecustomsettingsasync"></a>
 
-###  <a name="getpackagecustomsettingsasync"></a><span data-ttu-id="ba8a5-385">getPackageCustomSettingsAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-385">getPackageCustomSettingsAsync</span></span>
+###  <a name="getpackagecustomsettingsasync"></a><span data-ttu-id="c3025-473">getPackageCustomSettingsAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-473">getPackageCustomSettingsAsync</span></span>
 
-<span data-ttu-id="ba8a5-386">▸ **getPackageCustomSettingsAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-386">▸ **getPackageCustomSettingsAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-474">▸ **getPackageCustomSettingsAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-474">▸ **getPackageCustomSettingsAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-387">Ruft alle Anpassungseinstellungen für ein Paket ab (wird bei Type-4-Paketen und deren Basis verwendet).</span><span class="sxs-lookup"><span data-stu-id="ba8a5-387">Gets all the customization settings for a package (Used in case of Type-4 packages and their base).</span></span>
+<span data-ttu-id="c3025-475">Ruft alle Anpassungseinstellungen für ein Paket ab (wird für den Fall von Typ-4-Paketen und deren Basis verwendet).</span><span class="sxs-lookup"><span data-stu-id="c3025-475">Gets all the customization settings for a package (Used in case of Type-4 packages and their base).</span></span>
 
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-388">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-388">Sample Usage</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-476">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-476">Sample Usage</span></span>
 
 ```
 KASClient.App.getPackageCustomSettingsAsync(function (settings, error) {
@@ -504,25 +624,24 @@ KASClient.App.getPackageCustomSettingsAsync(function (settings, error) {
 });
 ```
 
-<span data-ttu-id="ba8a5-389">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-389">**Parameters:**</span></span>
+<span data-ttu-id="c3025-477">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-477">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-390">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-390">Name</span></span> | <span data-ttu-id="ba8a5-391">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-391">Type</span></span> | <span data-ttu-id="ba8a5-392">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-392">Description</span></span> |
+| <span data-ttu-id="c3025-478">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-478">Name</span></span> | <span data-ttu-id="c3025-479">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-479">Type</span></span> | <span data-ttu-id="c3025-480">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-480">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-393">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-393">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-394">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-394">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-395">\*@param {JSON}-Einstellungen können im Fehlerfall NULL sein</span><span class="sxs-lookup"><span data-stu-id="ba8a5-395">\* @param {JSON} settings can be null in case of error</span></span><br><br><span data-ttu-id="ba8a5-396">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-396">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-481">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-481">callback</span></span> | `function` |  <span data-ttu-id="c3025-482">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-482">with below parameters:</span></span><br><br><span data-ttu-id="c3025-483">\*@param {JSON}-Einstellungen können im Falle eines Fehlers NULL sein</span><span class="sxs-lookup"><span data-stu-id="c3025-483">\* @param {JSON} settings can be null in case of error</span></span><br><br><span data-ttu-id="c3025-484">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-484">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-397">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-397">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-485">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-485">**Returns:** `void`</span></span>
 
 ___
-
 <a id="getusersdetailsasync"></a>
 
-###  <a name="getusersdetailsasync"></a><span data-ttu-id="ba8a5-398">getUsersDetailsAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-398">getUsersDetailsAsync</span></span>
+###  <a name="getusersdetailsasync"></a><span data-ttu-id="c3025-486">getUsersDetailsAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-486">getUsersDetailsAsync</span></span>
 
-<span data-ttu-id="ba8a5-399">▸- **getUsersDetailsAsync**(userids: \* `string`[]\*, Callback *`function`*:):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-399">▸ **getUsersDetailsAsync**(userIds: *`string`[]*, callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-487">▸ **getUsersDetailsAsync**(userids: \* `string`[]\*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-487">▸ **getUsersDetailsAsync**(userIds: *`string`[]*, callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-400">Ruft Benutzer Details (Name, PIC, Telefonnummer usw.) gegen ihre IDs ab.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-400">Gets users' details (name, pic, phone number, etc.) against their ids</span></span>
+<span data-ttu-id="c3025-488">Ruft die Details der Benutzer (Name, PIC, Telefonnummer, usw.) anhand ihrer IDs ab.</span><span class="sxs-lookup"><span data-stu-id="c3025-488">Gets users' details (name, pic, phone number, etc.) against their ids</span></span>
 
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-401">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-401">Sample Usage</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-489">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-489">Sample Usage</span></span>
 
 ```
 var userIds = ["<uid1>", "<uid2>",...];
@@ -536,38 +655,36 @@ KASClient.App.getUsersDetailsAsync(userIds, function (users, error) {
   });
 ```
 
-<span data-ttu-id="ba8a5-402">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-402">**Parameters:**</span></span>
+<span data-ttu-id="c3025-490">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-490">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-403">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-403">Name</span></span> | <span data-ttu-id="ba8a5-404">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-404">Type</span></span> | <span data-ttu-id="ba8a5-405">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-405">Description</span></span> |
+| <span data-ttu-id="c3025-491">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-491">Name</span></span> | <span data-ttu-id="c3025-492">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-492">Type</span></span> | <span data-ttu-id="c3025-493">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-493">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-406">UserIds</span><span class="sxs-lookup"><span data-stu-id="ba8a5-406">userIds</span></span> | <span data-ttu-id="ba8a5-407">`string`[]</span><span class="sxs-lookup"><span data-stu-id="ba8a5-407"></span></span> |  <span data-ttu-id="ba8a5-408">Array von Benutzer-IDs</span><span class="sxs-lookup"><span data-stu-id="ba8a5-408">array of user ids</span></span> |
-| <span data-ttu-id="ba8a5-409">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-409">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-410">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-410">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-411">\*@param {Dictionary<UserId: String, Infor: KASUser>} userIdToInfoMap (Benutzer Details gegen ihre IDs) können im Fehlerfall NULL sein.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-411">\* @param {Dictionary<UserId: string, UserInfo: KASUser>} userIdToInfoMap (users' details against their ids) can be null in case of error</span></span><br><br><span data-ttu-id="ba8a5-412">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-412">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-494">UserIds</span><span class="sxs-lookup"><span data-stu-id="c3025-494">userIds</span></span> | <span data-ttu-id="c3025-495">`string`[]</span><span class="sxs-lookup"><span data-stu-id="c3025-495"></span></span> |  <span data-ttu-id="c3025-496">Array von Benutzer-IDs</span><span class="sxs-lookup"><span data-stu-id="c3025-496">array of user ids</span></span> |
+| <span data-ttu-id="c3025-497">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-497">callback</span></span> | `function` |  <span data-ttu-id="c3025-498">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-498">with below parameters:</span></span><br><br><span data-ttu-id="c3025-499">\*@param {Wörterbuch<UserID: String, InfoInfo: KASUser>} userIdToInfoMap (Benutzer Details mit Ihren IDs) können im Falle eines Fehlers NULL sein.</span><span class="sxs-lookup"><span data-stu-id="c3025-499">\* @param {Dictionary<UserId: string, UserInfo: KASUser>} userIdToInfoMap (users' details against their ids) can be null in case of error</span></span><br><br><span data-ttu-id="c3025-500">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-500">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-413">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-413">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-501">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-501">**Returns:** `void`</span></span>
 
 ___
-
 <a id="hideprogressbar"></a>
 
-###  <a name="hideprogressbar"></a><span data-ttu-id="ba8a5-414">hideProgressBar</span><span class="sxs-lookup"><span data-stu-id="ba8a5-414">hideProgressBar</span></span>
+###  <a name="hideprogressbar"></a><span data-ttu-id="c3025-502">hideProgressBar</span><span class="sxs-lookup"><span data-stu-id="c3025-502">hideProgressBar</span></span>
 
-<span data-ttu-id="ba8a5-415">▸ **hideProgressBar**():`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-415">▸ **hideProgressBar**(): `void`</span></span>
+<span data-ttu-id="c3025-503">▸ **hideProgressBar**():`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-503">▸ **hideProgressBar**(): `void`</span></span>
 
-<span data-ttu-id="ba8a5-416">Blendet die aktuelle Statusanzeige aus, falls vorhanden.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-416">Hides the current progress bar, if any</span></span>
+<span data-ttu-id="c3025-504">Blendet den aktuellen Statusbalken aus, falls vorhanden</span><span class="sxs-lookup"><span data-stu-id="c3025-504">Hides the current progress bar, if any</span></span>
 
-<span data-ttu-id="ba8a5-417">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-417">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-505">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-505">**Returns:** `void`</span></span>
 
 ___
-
 <a id="isattachmentdownloadingasync"></a>
 
-###  <a name="isattachmentdownloadingasync"></a><span data-ttu-id="ba8a5-418">isAttachmentDownloadingAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-418">isAttachmentDownloadingAsync</span></span>
+###  <a name="isattachmentdownloadingasync"></a><span data-ttu-id="c3025-506">isAttachmentDownloadingAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-506">isAttachmentDownloadingAsync</span></span>
 
-<span data-ttu-id="ba8a5-419">▸ **isAttachmentDownloadingAsync**(Attachment: *[KASAttachment](../classes/kasclient.kasattachment.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-419">▸ **isAttachmentDownloadingAsync**(attachment: *[KASAttachment](../classes/kasclient.kasattachment.md)*, callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-507">▸ **isAttachmentDownloadingAsync**(Attachment: *[KASAttachment](../classes/kasclient.kasattachment.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-507">▸ **isAttachmentDownloadingAsync**(attachment: *[KASAttachment](../classes/kasclient.kasattachment.md)*, callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-420">Herunterladen der angegebenen Anlage</span><span class="sxs-lookup"><span data-stu-id="ba8a5-420">Download the attachment specified</span></span>
+<span data-ttu-id="c3025-508">Herunterladen der angegebenen Anlage</span><span class="sxs-lookup"><span data-stu-id="c3025-508">Download the attachment specified</span></span>
 
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-421">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-421">Sample Usage</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-509">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-509">Sample Usage</span></span>
 
 ```
 var attachmentJson = {
@@ -586,118 +703,112 @@ KASClient.App.isAttachmentDownloadingAsync(attachment, function(isAttachmentDown
 });
 ```
 
-<span data-ttu-id="ba8a5-422">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-422">**Parameters:**</span></span>
+<span data-ttu-id="c3025-510">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-510">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-423">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-423">Name</span></span> | <span data-ttu-id="ba8a5-424">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-424">Type</span></span> | <span data-ttu-id="ba8a5-425">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-425">Description</span></span> |
+| <span data-ttu-id="c3025-511">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-511">Name</span></span> | <span data-ttu-id="c3025-512">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-512">Type</span></span> | <span data-ttu-id="c3025-513">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-513">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-426">attachment</span><span class="sxs-lookup"><span data-stu-id="ba8a5-426">attachment</span></span> | [<span data-ttu-id="ba8a5-427">KASAttachment</span><span class="sxs-lookup"><span data-stu-id="ba8a5-427">KASAttachment</span></span>](../classes/kasclient.kasattachment.md) |  <span data-ttu-id="ba8a5-428">Anlage mit einem gültigen Serverpfad zum herunterladen</span><span class="sxs-lookup"><span data-stu-id="ba8a5-428">attachment with a valid server path to download</span></span> |
-| <span data-ttu-id="ba8a5-429">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-429">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-430">Rückruf beim Herunterladen mit unter params</span><span class="sxs-lookup"><span data-stu-id="ba8a5-430">callback on download completion with below params</span></span><br><br><span data-ttu-id="ba8a5-431">\*@param {Boolean} isAttachmentDownloadingOrDownLoaded-Flag, das angibt, ob die Anlage heruntergeladen</span><span class="sxs-lookup"><span data-stu-id="ba8a5-431">\* @param {boolean} isAttachmentDownloadingOrDownLoaded flag representing if attachment is downloading/downloaded</span></span><br><br><span data-ttu-id="ba8a5-432">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-432">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-514">attachment</span><span class="sxs-lookup"><span data-stu-id="c3025-514">attachment</span></span> | [<span data-ttu-id="c3025-515">KASAttachment</span><span class="sxs-lookup"><span data-stu-id="c3025-515">KASAttachment</span></span>](../classes/kasclient.kasattachment.md) |  <span data-ttu-id="c3025-516">Anlage mit einem gültigen Serverpfad zum herunterladen</span><span class="sxs-lookup"><span data-stu-id="c3025-516">attachment with a valid server path to download</span></span> |
+| <span data-ttu-id="c3025-517">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-517">callback</span></span> | `function` |  <span data-ttu-id="c3025-518">Rückruf beim Herunterladen abgeschlossen mit unter Parameter</span><span class="sxs-lookup"><span data-stu-id="c3025-518">callback on download completion with below params</span></span><br><br><span data-ttu-id="c3025-519">\*@param {Boolean} isAttachmentDownloadingOrDownLoaded-Flag, das angibt, ob Attachment heruntergeladen/heruntergeladen wird</span><span class="sxs-lookup"><span data-stu-id="c3025-519">\* @param {boolean} isAttachmentDownloadingOrDownLoaded flag representing if attachment is downloading/downloaded</span></span><br><br><span data-ttu-id="c3025-520">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-520">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-433">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-433">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-521">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-521">**Returns:** `void`</span></span>
 
 ___
-
 <a id="isauthenticationtyepsupportedasync"></a>
 
-###  <a name="isauthenticationtyepsupportedasync"></a><span data-ttu-id="ba8a5-434">isAuthenticationTyepSupportedAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-434">isAuthenticationTyepSupportedAsync</span></span>
+###  <a name="isauthenticationtyepsupportedasync"></a><span data-ttu-id="c3025-522">isAuthenticationTyepSupportedAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-522">isAuthenticationTyepSupportedAsync</span></span>
 
-<span data-ttu-id="ba8a5-435">▸ **isAuthenticationTyepSupportedAsync**(AuthenticationType?: *[KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-435">▸ **isAuthenticationTyepSupportedAsync**(authenticationType?: *[KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md)*, callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-523">▸ **isAuthenticationTyepSupportedAsync**(AuthenticationType?: *[KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-523">▸ **isAuthenticationTyepSupportedAsync**(authenticationType?: *[KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md)*, callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-436">Überprüft, ob die Authentifizierung vom Typ möglich ist oder nicht.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-436">Checks if authentication of type is possible or not.</span></span>
+<span data-ttu-id="c3025-524">Überprüft, ob die Authentifizierung vom Typ möglich ist oder nicht.</span><span class="sxs-lookup"><span data-stu-id="c3025-524">Checks if authentication of type is possible or not.</span></span>
 
-<span data-ttu-id="ba8a5-437">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-437">**Parameters:**</span></span>
+<span data-ttu-id="c3025-525">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-525">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-438">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-438">Name</span></span> | <span data-ttu-id="ba8a5-439">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-439">Type</span></span> | <span data-ttu-id="ba8a5-440">Standardwert</span><span class="sxs-lookup"><span data-stu-id="ba8a5-440">Default value</span></span> | <span data-ttu-id="ba8a5-441">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-441">Description</span></span> |
+| <span data-ttu-id="c3025-526">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-526">Name</span></span> | <span data-ttu-id="c3025-527">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-527">Type</span></span> | <span data-ttu-id="c3025-528">Standardwert</span><span class="sxs-lookup"><span data-stu-id="c3025-528">Default value</span></span> | <span data-ttu-id="c3025-529">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-529">Description</span></span> |
 | ------ | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-442">`Default value`authenticationType</span><span class="sxs-lookup"><span data-stu-id="ba8a5-442">`Default value` authenticationType</span></span> | [<span data-ttu-id="ba8a5-443">KASAuthenticationType</span><span class="sxs-lookup"><span data-stu-id="ba8a5-443">KASAuthenticationType</span></span>](../enums/kasclient.kasauthenticationtype.md) |  <span data-ttu-id="ba8a5-444">KASAuthenticationType. None</span><span class="sxs-lookup"><span data-stu-id="ba8a5-444">KASAuthenticationType.None</span></span> |  <span data-ttu-id="ba8a5-445">Typ der Authentifizierung.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-445">type of authentication.</span></span> |
-| <span data-ttu-id="ba8a5-446">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-446">callback</span></span> | `function` | - |  <span data-ttu-id="ba8a5-447">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-447">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-448">\*@param {Boolean} isSuccessable true, wenn Fingerdruck möglich ist</span><span class="sxs-lookup"><span data-stu-id="ba8a5-448">\* @param {boolean} isSuccessful true if finger printing is possible</span></span><br><br><span data-ttu-id="ba8a5-449">\*@param {string} reasonCode Reason Code Why Fingerprint is not possible</span><span class="sxs-lookup"><span data-stu-id="ba8a5-449">\* @param {string} reasonCode reason code why finger print is not possible</span></span> |
+| <span data-ttu-id="c3025-530">`Default value`AuthenticationType</span><span class="sxs-lookup"><span data-stu-id="c3025-530">`Default value` authenticationType</span></span> | [<span data-ttu-id="c3025-531">KASAuthenticationType</span><span class="sxs-lookup"><span data-stu-id="c3025-531">KASAuthenticationType</span></span>](../enums/kasclient.kasauthenticationtype.md) |  <span data-ttu-id="c3025-532">KASAuthenticationType. None</span><span class="sxs-lookup"><span data-stu-id="c3025-532">KASAuthenticationType.None</span></span> |  <span data-ttu-id="c3025-533">Typ der Authentifizierung.</span><span class="sxs-lookup"><span data-stu-id="c3025-533">type of authentication.</span></span> |
+| <span data-ttu-id="c3025-534">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-534">callback</span></span> | `function` | - |  <span data-ttu-id="c3025-535">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-535">with below parameters:</span></span><br><br><span data-ttu-id="c3025-536">\*@param {Boolean} issuccessable true, wenn Fingerabdruck möglich ist</span><span class="sxs-lookup"><span data-stu-id="c3025-536">\* @param {boolean} isSuccessful true if finger printing is possible</span></span><br><br><span data-ttu-id="c3025-537">\*@param {string} reasonCode Ursachencode Warum Fingerabdruck nicht möglich</span><span class="sxs-lookup"><span data-stu-id="c3025-537">\* @param {string} reasonCode reason code why finger print is not possible</span></span> |
 
-<span data-ttu-id="ba8a5-450">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-450">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-538">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-538">**Returns:** `void`</span></span>
 
 ___
-
 <a id="istalkbackenabledasync"></a>
 
-###  <a name="istalkbackenabledasync"></a><span data-ttu-id="ba8a5-451">isTalkBackEnabledAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-451">isTalkBackEnabledAsync</span></span>
+###  <a name="istalkbackenabledasync"></a><span data-ttu-id="c3025-539">isTalkBackEnabledAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-539">isTalkBackEnabledAsync</span></span>
 
-<span data-ttu-id="ba8a5-452">▸ **isTalkBackEnabledAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-452">▸ **isTalkBackEnabledAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-540">▸ **isTalkBackEnabledAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-540">▸ **isTalkBackEnabledAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-453">Ruft ab, ob die Kommandofunktion aktiviert ist oder nicht</span><span class="sxs-lookup"><span data-stu-id="ba8a5-453">Gets whether talkback is enabled or not</span></span>
+<span data-ttu-id="c3025-541">Ruft ab, ob die Kommandofunktion aktiviert ist oder nicht</span><span class="sxs-lookup"><span data-stu-id="c3025-541">Gets whether talkback is enabled or not</span></span>
 
-<span data-ttu-id="ba8a5-454">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-454">**Parameters:**</span></span>
+<span data-ttu-id="c3025-542">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-542">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-455">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-455">Name</span></span> | <span data-ttu-id="ba8a5-456">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-456">Type</span></span> | <span data-ttu-id="ba8a5-457">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-457">Description</span></span> |
+| <span data-ttu-id="c3025-543">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-543">Name</span></span> | <span data-ttu-id="c3025-544">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-544">Type</span></span> | <span data-ttu-id="c3025-545">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-545">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-458">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-458">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-459">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-459">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-460">\*@param {Boolean} talkBackEnabled true, wenn die Kommandos aktiviert ist</span><span class="sxs-lookup"><span data-stu-id="ba8a5-460">\* @param {boolean} talkBackEnabled true if talkback is enabled</span></span> |
+| <span data-ttu-id="c3025-546">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-546">callback</span></span> | `function` |  <span data-ttu-id="c3025-547">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-547">with below parameters:</span></span><br><br><span data-ttu-id="c3025-548">\*@param {Boolean} talkBackEnabled true, wenn die Kommandooption aktiviert ist</span><span class="sxs-lookup"><span data-stu-id="c3025-548">\* @param {boolean} talkBackEnabled true if talkback is enabled</span></span> |
 
-<span data-ttu-id="ba8a5-461">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-461">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-549">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-549">**Returns:** `void`</span></span>
 
 ___
-
 <a id="logtoreport"></a>
 
-###  <a name="logtoreport"></a><span data-ttu-id="ba8a5-462">logToReport</span><span class="sxs-lookup"><span data-stu-id="ba8a5-462">logToReport</span></span>
+###  <a name="logtoreport"></a><span data-ttu-id="c3025-550">logToReport</span><span class="sxs-lookup"><span data-stu-id="c3025-550">logToReport</span></span>
 
-<span data-ttu-id="ba8a5-463">▸ **logToReport**(Data: *`string`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-463">▸ **logToReport**(data: *`string`*): `void`</span></span>
+<span data-ttu-id="c3025-551">▸ **logToReport**(Data: *`string`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-551">▸ **logToReport**(data: *`string`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-464">Protokolliert Daten für "Bericht senden".</span><span class="sxs-lookup"><span data-stu-id="ba8a5-464">Logs data for "Send report"</span></span>
+<span data-ttu-id="c3025-552">Protokolliert Daten für "Bericht senden".</span><span class="sxs-lookup"><span data-stu-id="c3025-552">Logs data for "Send report"</span></span>
 
-<span data-ttu-id="ba8a5-465">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-465">**Parameters:**</span></span>
+<span data-ttu-id="c3025-553">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-553">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-466">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-466">Name</span></span> | <span data-ttu-id="ba8a5-467">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-467">Type</span></span> | <span data-ttu-id="ba8a5-468">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-468">Description</span></span> |
+| <span data-ttu-id="c3025-554">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-554">Name</span></span> | <span data-ttu-id="c3025-555">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-555">Type</span></span> | <span data-ttu-id="c3025-556">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-556">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-469">data</span><span class="sxs-lookup"><span data-stu-id="ba8a5-469">data</span></span> | `string` |  <span data-ttu-id="ba8a5-470">string</span><span class="sxs-lookup"><span data-stu-id="ba8a5-470">string</span></span> |
+| <span data-ttu-id="c3025-557">data</span><span class="sxs-lookup"><span data-stu-id="c3025-557">data</span></span> | `string` |  <span data-ttu-id="c3025-558">string</span><span class="sxs-lookup"><span data-stu-id="c3025-558">string</span></span> |
 
-<span data-ttu-id="ba8a5-471">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-471">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-559">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-559">**Returns:** `void`</span></span>
 
 ___
-
 <a id="openattachmentimmersiveview"></a>
 
-###  <a name="openattachmentimmersiveview"></a><span data-ttu-id="ba8a5-472">openAttachmentImmersiveView</span><span class="sxs-lookup"><span data-stu-id="ba8a5-472">openAttachmentImmersiveView</span></span>
+###  <a name="openattachmentimmersiveview"></a><span data-ttu-id="c3025-560">openAttachmentImmersiveView</span><span class="sxs-lookup"><span data-stu-id="c3025-560">openAttachmentImmersiveView</span></span>
 
-<span data-ttu-id="ba8a5-473">▸ **openAttachmentImmersiveView**(AttachmentObj: *[KASAttachment](../classes/kasclient.kasattachment.md)*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-473">▸ **openAttachmentImmersiveView**(attachmentObj: *[KASAttachment](../classes/kasclient.kasattachment.md)*): `void`</span></span>
+<span data-ttu-id="c3025-561">▸ **openAttachmentImmersiveView**(attachmentObj: *[KASAttachment](../classes/kasclient.kasattachment.md)*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-561">▸ **openAttachmentImmersiveView**(attachmentObj: *[KASAttachment](../classes/kasclient.kasattachment.md)*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-474">Anlage in immersiver Ansicht öffnen.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-474">Open attachment in Immersive view.</span></span>
+<span data-ttu-id="c3025-562">Öffnen Sie die Anlage in der immersiven Ansicht.</span><span class="sxs-lookup"><span data-stu-id="c3025-562">Open attachment in Immersive view.</span></span>
 
-<span data-ttu-id="ba8a5-475">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-475">**Parameters:**</span></span>
+<span data-ttu-id="c3025-563">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-563">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-476">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-476">Name</span></span> | <span data-ttu-id="ba8a5-477">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-477">Type</span></span> | <span data-ttu-id="ba8a5-478">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-478">Description</span></span> |
+| <span data-ttu-id="c3025-564">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-564">Name</span></span> | <span data-ttu-id="c3025-565">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-565">Type</span></span> | <span data-ttu-id="c3025-566">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-566">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-479">attachmentObj</span><span class="sxs-lookup"><span data-stu-id="ba8a5-479">attachmentObj</span></span> | [<span data-ttu-id="ba8a5-480">KASAttachment</span><span class="sxs-lookup"><span data-stu-id="ba8a5-480">KASAttachment</span></span>](../classes/kasclient.kasattachment.md) |   |
+| <span data-ttu-id="c3025-567">attachmentObj</span><span class="sxs-lookup"><span data-stu-id="c3025-567">attachmentObj</span></span> | [<span data-ttu-id="c3025-568">KASAttachment</span><span class="sxs-lookup"><span data-stu-id="c3025-568">KASAttachment</span></span>](../classes/kasclient.kasattachment.md) |   |
 
-<span data-ttu-id="ba8a5-481">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-481">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-569">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-569">**Returns:** `void`</span></span>
 
 ___
-
 <a id="openimmersiveviewforattachmentlist"></a>
 
-###  <a name="openimmersiveviewforattachmentlist"></a><span data-ttu-id="ba8a5-482">openImmersiveViewForAttachmentList</span><span class="sxs-lookup"><span data-stu-id="ba8a5-482">openImmersiveViewForAttachmentList</span></span>
+###  <a name="openimmersiveviewforattachmentlist"></a><span data-ttu-id="c3025-570">openImmersiveViewForAttachmentList</span><span class="sxs-lookup"><span data-stu-id="c3025-570">openImmersiveViewForAttachmentList</span></span>
 
-<span data-ttu-id="ba8a5-483">▸ **openImmersiveViewForAttachmentList**(attachmentlist: \* [KASAttachment](../classes/kasclient.kasattachment.md)[]\*, atIndex?: *`number`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-483">▸ **openImmersiveViewForAttachmentList**(attachmentList: *[KASAttachment](../classes/kasclient.kasattachment.md)[]*, atIndex?: *`number`*): `void`</span></span>
+<span data-ttu-id="c3025-571">▸ **openImmersiveViewForAttachmentList**(attachmentlist: \* [KASAttachment](../classes/kasclient.kasattachment.md)[]\*, atIndex?: *`number`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-571">▸ **openImmersiveViewForAttachmentList**(attachmentList: *[KASAttachment](../classes/kasclient.kasattachment.md)[]*, atIndex?: *`number`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-484">Anlage in immersiver Ansicht öffnen.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-484">Open attachment in Immersive view.</span></span>
+<span data-ttu-id="c3025-572">Öffnen Sie die Anlage in der immersiven Ansicht.</span><span class="sxs-lookup"><span data-stu-id="c3025-572">Open attachment in Immersive view.</span></span>
 
-<span data-ttu-id="ba8a5-485">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-485">**Parameters:**</span></span>
+<span data-ttu-id="c3025-573">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-573">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-486">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-486">Name</span></span> | <span data-ttu-id="ba8a5-487">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-487">Type</span></span> | <span data-ttu-id="ba8a5-488">Standardwert</span><span class="sxs-lookup"><span data-stu-id="ba8a5-488">Default value</span></span> |
+| <span data-ttu-id="c3025-574">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-574">Name</span></span> | <span data-ttu-id="c3025-575">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-575">Type</span></span> | <span data-ttu-id="c3025-576">Standardwert</span><span class="sxs-lookup"><span data-stu-id="c3025-576">Default value</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-489">attachmentlist</span><span class="sxs-lookup"><span data-stu-id="ba8a5-489">attachmentList</span></span> | <span data-ttu-id="ba8a5-490">[KASAttachment](../classes/kasclient.kasattachment.md) []</span><span class="sxs-lookup"><span data-stu-id="ba8a5-490">[KASAttachment](../classes/kasclient.kasattachment.md)[]</span></span> | - |
-| <span data-ttu-id="ba8a5-491">`Default value`atIndex</span><span class="sxs-lookup"><span data-stu-id="ba8a5-491">`Default value` atIndex</span></span> | `number` | <span data-ttu-id="ba8a5-492">0</span><span class="sxs-lookup"><span data-stu-id="ba8a5-492">0</span></span> |
+| <span data-ttu-id="c3025-577">attachmentlist</span><span class="sxs-lookup"><span data-stu-id="c3025-577">attachmentList</span></span> | <span data-ttu-id="c3025-578">[KASAttachment](../classes/kasclient.kasattachment.md) []</span><span class="sxs-lookup"><span data-stu-id="c3025-578">[KASAttachment](../classes/kasclient.kasattachment.md)[]</span></span> | - |
+| <span data-ttu-id="c3025-579">`Default value`atIndex</span><span class="sxs-lookup"><span data-stu-id="c3025-579">`Default value` atIndex</span></span> | `number` | <span data-ttu-id="c3025-580">0</span><span class="sxs-lookup"><span data-stu-id="c3025-580">0</span></span> |
 
-<span data-ttu-id="ba8a5-493">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-493">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-581">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-581">**Returns:** `void`</span></span>
 
 ___
-
 <a id="performauthenticationasync"></a>
 
-###  <a name="performauthenticationasync"></a><span data-ttu-id="ba8a5-494">performAuthenticationAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-494">performAuthenticationAsync</span></span>
+###  <a name="performauthenticationasync"></a><span data-ttu-id="c3025-582">performAuthenticationAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-582">performAuthenticationAsync</span></span>
 
-<span data-ttu-id="ba8a5-495">▸ **performAuthenticationAsync**(AuthenticationType?: *[KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-495">▸ **performAuthenticationAsync**(authenticationType?: *[KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md)*, callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-583">▸ **performAuthenticationAsync**(AuthenticationType?: *[KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-583">▸ **performAuthenticationAsync**(authenticationType?: *[KASAuthenticationType](../enums/kasclient.kasauthenticationtype.md)*, callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-496">Wenn der Authentifizierungstyp zulässig ist, führt diese API die Authentifizierung durch und gibt Success/false Status else zurück, wobei eine Fehlerzeichenfolge mit der Ursache für die Authentifizierung nicht möglich ist.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-496">If authentication type is allowed, this API performs the authentication and returns success/false status else it returns an error string with reason why authentication is not possible.</span></span>
+<span data-ttu-id="c3025-584">Wenn der Authentifizierungstyp zulässig ist, führt diese API die Authentifizierung durch und gibt Success/false zurück, andernfalls wird eine Fehlerzeichenfolge mit dem Grund zurückgegeben, warum die Authentifizierung nicht möglich ist.</span><span class="sxs-lookup"><span data-stu-id="c3025-584">If authentication type is allowed, this API performs the authentication and returns success/false status else it returns an error string with reason why authentication is not possible.</span></span>
 
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-497">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-497">Sample Usage</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-585">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-585">Sample Usage</span></span>
 
 ```
 KASClient.App.performAuthenticationAsync(KASAuthenticationType.Password, function (isSuccessful, reasonCode) {
@@ -707,26 +818,25 @@ KASClient.App.performAuthenticationAsync(KASAuthenticationType.Password, functio
 });
 ```
 
-<span data-ttu-id="ba8a5-498">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-498">**Parameters:**</span></span>
+<span data-ttu-id="c3025-586">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-586">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-499">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-499">Name</span></span> | <span data-ttu-id="ba8a5-500">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-500">Type</span></span> | <span data-ttu-id="ba8a5-501">Standardwert</span><span class="sxs-lookup"><span data-stu-id="ba8a5-501">Default value</span></span> | <span data-ttu-id="ba8a5-502">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-502">Description</span></span> |
+| <span data-ttu-id="c3025-587">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-587">Name</span></span> | <span data-ttu-id="c3025-588">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-588">Type</span></span> | <span data-ttu-id="c3025-589">Standardwert</span><span class="sxs-lookup"><span data-stu-id="c3025-589">Default value</span></span> | <span data-ttu-id="c3025-590">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-590">Description</span></span> |
 | ------ | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-503">`Default value`authenticationType</span><span class="sxs-lookup"><span data-stu-id="ba8a5-503">`Default value` authenticationType</span></span> | [<span data-ttu-id="ba8a5-504">KASAuthenticationType</span><span class="sxs-lookup"><span data-stu-id="ba8a5-504">KASAuthenticationType</span></span>](../enums/kasclient.kasauthenticationtype.md) |  <span data-ttu-id="ba8a5-505">KASAuthenticationType. None</span><span class="sxs-lookup"><span data-stu-id="ba8a5-505">KASAuthenticationType.None</span></span> |  <span data-ttu-id="ba8a5-506">Typ der Authentifizierung.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-506">type of authentication.</span></span> |
-| <span data-ttu-id="ba8a5-507">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-507">callback</span></span> | `function` | - |  <span data-ttu-id="ba8a5-508">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-508">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-509">\*@param {Boolean} isSuccessable true, wenn das Formular noch nicht abgelaufen ist</span><span class="sxs-lookup"><span data-stu-id="ba8a5-509">\* @param {boolean} isSuccessful true if the form is not yet expired</span></span><br><br><span data-ttu-id="ba8a5-510">\*@param {string} reasonCode-Grund Code im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-510">\* @param {string} reasonCode reason code in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-591">`Default value`AuthenticationType</span><span class="sxs-lookup"><span data-stu-id="c3025-591">`Default value` authenticationType</span></span> | [<span data-ttu-id="c3025-592">KASAuthenticationType</span><span class="sxs-lookup"><span data-stu-id="c3025-592">KASAuthenticationType</span></span>](../enums/kasclient.kasauthenticationtype.md) |  <span data-ttu-id="c3025-593">KASAuthenticationType. None</span><span class="sxs-lookup"><span data-stu-id="c3025-593">KASAuthenticationType.None</span></span> |  <span data-ttu-id="c3025-594">Typ der Authentifizierung.</span><span class="sxs-lookup"><span data-stu-id="c3025-594">type of authentication.</span></span> |
+| <span data-ttu-id="c3025-595">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-595">callback</span></span> | `function` | - |  <span data-ttu-id="c3025-596">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-596">with below parameters:</span></span><br><br><span data-ttu-id="c3025-597">\*@param {Boolean} issuccessable true, wenn das Formular noch nicht abgelaufen ist</span><span class="sxs-lookup"><span data-stu-id="c3025-597">\* @param {boolean} isSuccessful true if the form is not yet expired</span></span><br><br><span data-ttu-id="c3025-598">\*@param {string} reasonCode Reason Code im Fall eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-598">\* @param {string} reasonCode reason code in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-511">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-511">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-599">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-599">**Returns:** `void`</span></span>
 
 ___
-
 <a id="performhttprequest"></a>
 
-###  <a name="performhttprequest"></a><span data-ttu-id="ba8a5-512">performHTTPRequest</span><span class="sxs-lookup"><span data-stu-id="ba8a5-512">performHTTPRequest</span></span>
+###  <a name="performhttprequest"></a><span data-ttu-id="c3025-600">performHTTPRequest</span><span class="sxs-lookup"><span data-stu-id="c3025-600">performHTTPRequest</span></span>
 
-<span data-ttu-id="ba8a5-513">▸ **performHTTPRequest**(URL: *`string`*, parametersJSON: *`string`*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-513">▸ **performHTTPRequest**(url: *`string`*, parametersJSON: *`string`*, callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-601">▸ **performHTTPRequest**(URL: *`string`*, parametersJSON: *`string`*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-601">▸ **performHTTPRequest**(url: *`string`*, parametersJSON: *`string`*, callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-514">führt eine HTTP-Anforderung aus und gibt die Antwort wie folgt zurück:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-514">performs an http request and returns the response as specified below:</span></span>
+<span data-ttu-id="c3025-602">führt eine HTTP-Anforderung aus und gibt die Antwort wie unten angegeben zurück:</span><span class="sxs-lookup"><span data-stu-id="c3025-602">performs an http request and returns the response as specified below:</span></span>
 
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-515">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-515">Sample Usage</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-603">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-603">Sample Usage</span></span>
 
 ```
 var url = "<url>";
@@ -738,82 +848,135 @@ KASClient.App.performHTTPRequest(url, parametersJson, function (response, error)
 });
 ```
 
-<span data-ttu-id="ba8a5-516">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-516">**Parameters:**</span></span>
+<span data-ttu-id="c3025-604">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-604">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-517">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-517">Name</span></span> | <span data-ttu-id="ba8a5-518">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-518">Type</span></span> | <span data-ttu-id="ba8a5-519">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-519">Description</span></span> |
+| <span data-ttu-id="c3025-605">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-605">Name</span></span> | <span data-ttu-id="c3025-606">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-606">Type</span></span> | <span data-ttu-id="c3025-607">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-607">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-520">url</span><span class="sxs-lookup"><span data-stu-id="ba8a5-520">url</span></span> | `string` |  <span data-ttu-id="ba8a5-521">zu öffnende Basis-URL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-521">base url to open</span></span> |
-| <span data-ttu-id="ba8a5-522">parametersJSON</span><span class="sxs-lookup"><span data-stu-id="ba8a5-522">parametersJSON</span></span> | `string` |  <span data-ttu-id="ba8a5-523">JSON String mit Parametern kann als NULL angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-523">jsonstring containing parameters can be given as null.</span></span><br><br> <span data-ttu-id="ba8a5-524">Bei Angabe von NULL wird eine Anforderung an die oben angegebene URL gestellt.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-524">If given as null a request to the url provided above will be made.</span></span> <span data-ttu-id="ba8a5-525">Zu den Parametern gehört der Anforderungsheader, die Abfrageparameter (standardmäßig leer), die Request-Methode (Standard Abruf) und der Anforderungstext (der Text, der bereitgestellt wird, wenn die Request-Methode POST ist.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-525">Parameters include request header,query parameters(default blank), request method(default GET) and request body(The body to be posted if request method is POST.</span></span> <span data-ttu-id="ba8a5-526">Standard leer.) Die Schlüssel für Parameter sind:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-526">default blank.) The keys for parameters are:</span></span><br><br> <span data-ttu-id="ba8a5-527">a.) "Methode": Request-Methode.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-527">a.) "method" : request method.</span></span> <span data-ttu-id="ba8a5-528">Beispiel: "POST".</span><span class="sxs-lookup"><span data-stu-id="ba8a5-528">example: "POST".</span></span> <span data-ttu-id="ba8a5-529">Standardwert ist "GET".</span><span class="sxs-lookup"><span data-stu-id="ba8a5-529">defaults to "GET".</span></span><br><br> <span data-ttu-id="ba8a5-530">b.) "requestBody": Text der Anforderung im Fall von "POST".</span><span class="sxs-lookup"><span data-stu-id="ba8a5-530">b.) "requestBody": body of request in case of "POST".</span></span> <span data-ttu-id="ba8a5-531">Standardwert ist leer.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-531">defaults to blank.</span></span><br><br> <span data-ttu-id="ba8a5-532">c.) "requestHeaders": Kopfzeilen, die mit der Anforderung gesendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-532">c.) "requestHeaders": headers to be sent with request.</span></span> <span data-ttu-id="ba8a5-533">sollte eine JSON mit</span><span class="sxs-lookup"><span data-stu-id="ba8a5-533">should be a json with</span></span><br> <span data-ttu-id="ba8a5-534">Schlüssel als Anforderungsheader und-Wert als den gewünschten Wert.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-534">key as request header and value as the desired value.</span></span> <span data-ttu-id="ba8a5-535">Standardwert ist leer.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-535">defaults to blank.</span></span><br><br> <span data-ttu-id="ba8a5-536">d.) "queryParameters": Abfrageparameter.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-536">d.) "queryParameters": query parameters.</span></span> <span data-ttu-id="ba8a5-537">wird in der URL codiert.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-537">will be encoded in url.</span></span> <span data-ttu-id="ba8a5-538">sollte eine JSON mit</span><span class="sxs-lookup"><span data-stu-id="ba8a5-538">should be a json with</span></span><br> <span data-ttu-id="ba8a5-539">Schlüssel als Parameter Name und Wert als Wert.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-539">key as parameter name and value as its value.</span></span> <span data-ttu-id="ba8a5-540">Standardwert ist leer.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-540">defaults to blank.</span></span><br><br> <span data-ttu-id="ba8a5-541">e.) "requestResourcePath": wird der Basis-URL angefügt.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-541">e.) "requestResourcePath": will be appended to base url.</span></span> <span data-ttu-id="ba8a5-542">der Standardwert ist leer.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-542">default is blank.</span></span> |
-| <span data-ttu-id="ba8a5-543">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-543">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-544">Callback mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-544">callback with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-545">\*@param {string} Antworttext zurückgegeben</span><span class="sxs-lookup"><span data-stu-id="ba8a5-545">\* @param {string} response response body returned</span></span><br><br> <span data-ttu-id="ba8a5-546">Dies kann zwei mögliche Konfigurationsmöglichkeiten haben:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-546">This could have two possible config:</span></span><br><br> <span data-ttu-id="ba8a5-547">Wenn die Anforderung erfolgreich war, wird JSON mit den folgenden Schlüsseln zurückgegeben:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-547">If request was a success it returns jsonstring with following keys:</span></span><br><br> <span data-ttu-id="ba8a5-548">a.) "HttpResponseCode": der Antwortcode der Anforderung.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-548">a.) "HttpResponseCode" : The response code of request.</span></span><br><br> <span data-ttu-id="ba8a5-549">b.) "HttpResponseHeader": die Antwort-HTTP-Header</span><span class="sxs-lookup"><span data-stu-id="ba8a5-549">b.) "HttpResponseHeader": The response HTTP headers</span></span><br><br> <span data-ttu-id="ba8a5-550">c.) "HttpResponseBody": der für die Anforderung zurückgegebene Antworttext.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-550">c.) "HttpResponseBody": The response body returned for request.</span></span><br><br> <span data-ttu-id="ba8a5-551">Wenn ein Netzwerkfehler vorliegt, wird Folgendes zurückgegeben:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-551">If there was a Network error then it returns:</span></span><br><br> <span data-ttu-id="ba8a5-552">a.) "HttpErrorCode": der Fehlercode</span><span class="sxs-lookup"><span data-stu-id="ba8a5-552">a.) "HttpErrorCode": The error code</span></span><br><br> <span data-ttu-id="ba8a5-553">b.) "HttpErrorMessage": die Fehlermeldung EG.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-553">b.) "HttpErrorMessage": The error message eg.</span></span> <span data-ttu-id="ba8a5-554">Ungültige URL, keine Verbindung zum Host etc.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-554">Malformed URL, Cannot connect to host etc.</span></span><br><br><span data-ttu-id="ba8a5-555">\*@param {string} Error Error if any: Dies umfasst den standardmäßigen Fehlercode, der in der KASClient-Dokumentation definiert ist.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-555">\* @param {string} error error if any : This includes the standard error code defined in KASClient documentation.</span></span> |
+| <span data-ttu-id="c3025-608">url</span><span class="sxs-lookup"><span data-stu-id="c3025-608">url</span></span> | `string` |  <span data-ttu-id="c3025-609">zu öffnende Basis-URL</span><span class="sxs-lookup"><span data-stu-id="c3025-609">base url to open</span></span> |
+| <span data-ttu-id="c3025-610">parametersJSON</span><span class="sxs-lookup"><span data-stu-id="c3025-610">parametersJSON</span></span> | `string` |  <span data-ttu-id="c3025-611">JSON String mit Parametern kann als NULL angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="c3025-611">jsonstring containing parameters can be given as null.</span></span><br><br> <span data-ttu-id="c3025-612">Bei Angabe als NULL wird eine Anforderung an die oben angegebene URL gestellt.</span><span class="sxs-lookup"><span data-stu-id="c3025-612">If given as null a request to the url provided above will be made.</span></span> <span data-ttu-id="c3025-613">Parameter umfassen Anforderungsheader, Abfrageparameter (Standard leer), Anforderungsmethode (Standard Get) und Anforderungstext (der Text, der bereitgestellt werden soll, wenn die Anforderungsmethode bereit ist.</span><span class="sxs-lookup"><span data-stu-id="c3025-613">Parameters include request header,query parameters(default blank), request method(default GET) and request body(The body to be posted if request method is POST.</span></span> <span data-ttu-id="c3025-614">Standard leer.) Die Schlüssel für Parameter sind:</span><span class="sxs-lookup"><span data-stu-id="c3025-614">default blank.) The keys for parameters are:</span></span><br><br> <span data-ttu-id="c3025-615">a.) "Method": Request-Methode.</span><span class="sxs-lookup"><span data-stu-id="c3025-615">a.) "method" : request method.</span></span> <span data-ttu-id="c3025-616">Beispiel: "Post".</span><span class="sxs-lookup"><span data-stu-id="c3025-616">example: "POST".</span></span> <span data-ttu-id="c3025-617">Standardwert "Get".</span><span class="sxs-lookup"><span data-stu-id="c3025-617">defaults to "GET".</span></span><br><br> <span data-ttu-id="c3025-618">b.) "requestBody": Anforderungstext im Fall von "Post".</span><span class="sxs-lookup"><span data-stu-id="c3025-618">b.) "requestBody": body of request in case of "POST".</span></span> <span data-ttu-id="c3025-619">Standardwert ist leer.</span><span class="sxs-lookup"><span data-stu-id="c3025-619">defaults to blank.</span></span><br><br> <span data-ttu-id="c3025-620">c.) "requestHeaders": Kopfzeilen, die mit Request gesendet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="c3025-620">c.) "requestHeaders": headers to be sent with request.</span></span> <span data-ttu-id="c3025-621">sollte eine JSON mit</span><span class="sxs-lookup"><span data-stu-id="c3025-621">should be a json with</span></span><br> <span data-ttu-id="c3025-622">Key als Anforderungsheader und Wert als den gewünschten Wert.</span><span class="sxs-lookup"><span data-stu-id="c3025-622">key as request header and value as the desired value.</span></span> <span data-ttu-id="c3025-623">Standardwert ist leer.</span><span class="sxs-lookup"><span data-stu-id="c3025-623">defaults to blank.</span></span><br><br> <span data-ttu-id="c3025-624">d.) "queryParameters": Abfrageparameter.</span><span class="sxs-lookup"><span data-stu-id="c3025-624">d.) "queryParameters": query parameters.</span></span> <span data-ttu-id="c3025-625">wird in der URL codiert.</span><span class="sxs-lookup"><span data-stu-id="c3025-625">will be encoded in url.</span></span> <span data-ttu-id="c3025-626">sollte eine JSON mit</span><span class="sxs-lookup"><span data-stu-id="c3025-626">should be a json with</span></span><br> <span data-ttu-id="c3025-627">Key als Parameter Name und Wert als Wert.</span><span class="sxs-lookup"><span data-stu-id="c3025-627">key as parameter name and value as its value.</span></span> <span data-ttu-id="c3025-628">Standardwert ist leer.</span><span class="sxs-lookup"><span data-stu-id="c3025-628">defaults to blank.</span></span><br><br> <span data-ttu-id="c3025-629">e.) "requestResourcePath": wird an die Basis-URL angehängt.</span><span class="sxs-lookup"><span data-stu-id="c3025-629">e.) "requestResourcePath": will be appended to base url.</span></span> <span data-ttu-id="c3025-630">der Standardwert ist leer.</span><span class="sxs-lookup"><span data-stu-id="c3025-630">default is blank.</span></span> |
+| <span data-ttu-id="c3025-631">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-631">callback</span></span> | `function` |  <span data-ttu-id="c3025-632">Rückruf mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-632">callback with below parameters:</span></span><br><br><span data-ttu-id="c3025-633">\*@param {string} Antwort Antworttext zurückgegeben</span><span class="sxs-lookup"><span data-stu-id="c3025-633">\* @param {string} response response body returned</span></span><br><br> <span data-ttu-id="c3025-634">Dies könnte zwei mögliche Konfigurationen haben:</span><span class="sxs-lookup"><span data-stu-id="c3025-634">This could have two possible config:</span></span><br><br> <span data-ttu-id="c3025-635">Wenn die Anforderung erfolgreich verlaufen ist, wird JsonType mit den folgenden Schlüsseln zurückgegeben:</span><span class="sxs-lookup"><span data-stu-id="c3025-635">If request was a success it returns jsonstring with following keys:</span></span><br><br> <span data-ttu-id="c3025-636">a.) "HttpResponseCode": der Antwortcode der Anforderung.</span><span class="sxs-lookup"><span data-stu-id="c3025-636">a.) "HttpResponseCode" : The response code of request.</span></span><br><br> <span data-ttu-id="c3025-637">b.) "HttpResponseHeader": die Antwort-HTTP-Header</span><span class="sxs-lookup"><span data-stu-id="c3025-637">b.) "HttpResponseHeader": The response HTTP headers</span></span><br><br> <span data-ttu-id="c3025-638">c.) "HttpResponseBody": der Antworttext, der für die Anforderung zurückgegeben wurde.</span><span class="sxs-lookup"><span data-stu-id="c3025-638">c.) "HttpResponseBody": The response body returned for request.</span></span><br><br> <span data-ttu-id="c3025-639">Wenn ein Netzwerkfehler aufgetreten ist, wird Folgendes zurückgegeben:</span><span class="sxs-lookup"><span data-stu-id="c3025-639">If there was a Network error then it returns:</span></span><br><br> <span data-ttu-id="c3025-640">a.) "HttpErrorCode": der Fehlercode</span><span class="sxs-lookup"><span data-stu-id="c3025-640">a.) "HttpErrorCode": The error code</span></span><br><br> <span data-ttu-id="c3025-641">b.) "HttpErrorMessage": die Fehlermeldung zB.</span><span class="sxs-lookup"><span data-stu-id="c3025-641">b.) "HttpErrorMessage": The error message eg.</span></span> <span data-ttu-id="c3025-642">Fehlerhafte URL, keine Verbindung zum Host usw.</span><span class="sxs-lookup"><span data-stu-id="c3025-642">Malformed URL, Cannot connect to host etc.</span></span><br><br><span data-ttu-id="c3025-643">\*@param {string} Error Error if any: Dies schließt den in der KASClient-Dokumentation definierten Standardfehler Code ein.</span><span class="sxs-lookup"><span data-stu-id="c3025-643">\* @param {string} error error if any : This includes the standard error code defined in KASClient documentation.</span></span> |
 
-<span data-ttu-id="ba8a5-556">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-556">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-644">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-644">**Returns:** `void`</span></span>
 
 ___
-
 <a id="printf"></a>
 
-###  <a name="printf"></a><span data-ttu-id="ba8a5-557">printf</span><span class="sxs-lookup"><span data-stu-id="ba8a5-557">printf</span></span>
+###  <a name="printf"></a><span data-ttu-id="c3025-645">printf</span><span class="sxs-lookup"><span data-stu-id="c3025-645">printf</span></span>
 
-<span data-ttu-id="ba8a5-558">▸ **printf**(Main: *`string`*,... args: \* `any`[]\*):`string`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-558">▸ **printf**(main: *`string`*, ...args: *`any`[]*): `string`</span></span>
+<span data-ttu-id="c3025-646">▸ **printf**(Main: *`string`*,... args: \* `any`[]\*):`string`</span><span class="sxs-lookup"><span data-stu-id="c3025-646">▸ **printf**(main: *`string`*, ...args: *`any`[]*): `string`</span></span>
 
-<span data-ttu-id="ba8a5-559">Gibt eine Zeichenfolge zurück.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-559">Returns a string.</span></span>
+<span data-ttu-id="c3025-647">Gibt eine Zeichenfolge zurück.</span><span class="sxs-lookup"><span data-stu-id="c3025-647">Returns a string.</span></span>
 
-<span data-ttu-id="ba8a5-560">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-560">**Parameters:**</span></span>
+<span data-ttu-id="c3025-648">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-648">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-561">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-561">Name</span></span> | <span data-ttu-id="ba8a5-562">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-562">Type</span></span> | <span data-ttu-id="ba8a5-563">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-563">Description</span></span> |
+| <span data-ttu-id="c3025-649">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-649">Name</span></span> | <span data-ttu-id="c3025-650">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-650">Type</span></span> | <span data-ttu-id="c3025-651">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-651">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-564">Haupt</span><span class="sxs-lookup"><span data-stu-id="ba8a5-564">main</span></span> | `string` |
-| <span data-ttu-id="ba8a5-565">`Rest`args</span><span class="sxs-lookup"><span data-stu-id="ba8a5-565">`Rest` args</span></span> | <span data-ttu-id="ba8a5-566">`any`[]</span><span class="sxs-lookup"><span data-stu-id="ba8a5-566"></span></span> |  <span data-ttu-id="ba8a5-567">Array von Argumenten.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-567">array of arguments.</span></span> |
+| <span data-ttu-id="c3025-652">Haupt</span><span class="sxs-lookup"><span data-stu-id="c3025-652">main</span></span> | `string` |
+| <span data-ttu-id="c3025-653">`Rest`args</span><span class="sxs-lookup"><span data-stu-id="c3025-653">`Rest` args</span></span> | <span data-ttu-id="c3025-654">`any`[]</span><span class="sxs-lookup"><span data-stu-id="c3025-654"></span></span> |  <span data-ttu-id="c3025-655">Array von Argumenten.</span><span class="sxs-lookup"><span data-stu-id="c3025-655">array of arguments.</span></span> |
 
-<span data-ttu-id="ba8a5-568">**Gibt Folgendes zurück:**`string`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-568">**Returns:** `string`</span></span>
+<span data-ttu-id="c3025-656">**Gibt Folgendes zurück:**`string`</span><span class="sxs-lookup"><span data-stu-id="c3025-656">**Returns:** `string`</span></span>
 
 ___
+<a id="readdatafromtmpdirasync"></a>
 
+###  <a name="readdatafromtmpdirasync"></a><span data-ttu-id="c3025-657">readDataFromTmpDirAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-657">readDataFromTmpDirAsync</span></span>
+
+<span data-ttu-id="c3025-658">▸ **readDataFromTmpDirAsync**(filePath: *`string`*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-658">▸ **readDataFromTmpDirAsync**(filePath: *`string`*, callback: *`function`*): `void`</span></span>
+
+<span data-ttu-id="c3025-659">Liest Dateiinhalt als Base64 aus dem temporären Cachespeicher.</span><span class="sxs-lookup"><span data-stu-id="c3025-659">Reads file content as base64 from temporary cache storage.</span></span> <span data-ttu-id="c3025-660">Wird in Verbindung mit API-saveDataInAppCacheAsync für die Dateien verwendet, die mit dieser API gespeichert werden.</span><span class="sxs-lookup"><span data-stu-id="c3025-660">Used in conjunction with API saveDataInAppCacheAsync for the files stored using this API.</span></span>
+
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-661">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-661">Sample Usage</span></span>
+
+```
+KASClient.App.readDataFromTmpDirAsync(filePath, function (base64Data, error) {
+    if (error == null) {
+       // Action's code in success case
+     }
+});
+```
+
+<span data-ttu-id="c3025-662">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-662">**Parameters:**</span></span>
+
+| <span data-ttu-id="c3025-663">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-663">Name</span></span> | <span data-ttu-id="c3025-664">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-664">Type</span></span> | <span data-ttu-id="c3025-665">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-665">Description</span></span> |
+| ------ | ------ | ------ |
+| <span data-ttu-id="c3025-666">FilePath</span><span class="sxs-lookup"><span data-stu-id="c3025-666">filePath</span></span> | `string` |  <span data-ttu-id="c3025-667">Dateipfad, der gelesen werden sollte</span><span class="sxs-lookup"><span data-stu-id="c3025-667">filepath which should be read</span></span> |
+| <span data-ttu-id="c3025-668">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-668">callback</span></span> | `function` |  <span data-ttu-id="c3025-669">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-669">with below parameters:</span></span> |
+
+<span data-ttu-id="c3025-670">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-670">**Returns:** `void`</span></span>
+
+___
 <a id="readtalkbackmessage"></a>
 
-###  <a name="readtalkbackmessage"></a><span data-ttu-id="ba8a5-569">readTalkBackMessage</span><span class="sxs-lookup"><span data-stu-id="ba8a5-569">readTalkBackMessage</span></span>
+###  <a name="readtalkbackmessage"></a><span data-ttu-id="c3025-671">readTalkBackMessage</span><span class="sxs-lookup"><span data-stu-id="c3025-671">readTalkBackMessage</span></span>
 
-<span data-ttu-id="ba8a5-570">▸ **readTalkBackMessage**(talkBackMessage: *`string`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-570">▸ **readTalkBackMessage**(talkBackMessage: *`string`*): `void`</span></span>
+<span data-ttu-id="c3025-672">▸ **readTalkBackMessage**(talkBackMessage: *`string`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-672">▸ **readTalkBackMessage**(talkBackMessage: *`string`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-571">Liest den Text, wenn die Kommandozeile/VoiceOver aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-571">Reads the text if TalkBack/VoiceOver enabled</span></span>
+<span data-ttu-id="c3025-673">Liest den Text, wenn der Link für "VoiceOver" aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="c3025-673">Reads the text if TalkBack/VoiceOver enabled</span></span>
 
-<span data-ttu-id="ba8a5-572">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-572">**Parameters:**</span></span>
+<span data-ttu-id="c3025-674">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-674">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-573">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-573">Name</span></span> | <span data-ttu-id="ba8a5-574">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-574">Type</span></span> |
+| <span data-ttu-id="c3025-675">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-675">Name</span></span> | <span data-ttu-id="c3025-676">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-676">Type</span></span> |
 | ------ | ------ |
-| <span data-ttu-id="ba8a5-575">talkBackMessage</span><span class="sxs-lookup"><span data-stu-id="ba8a5-575">talkBackMessage</span></span> | `string` |
+| <span data-ttu-id="c3025-677">talkBackMessage</span><span class="sxs-lookup"><span data-stu-id="c3025-677">talkBackMessage</span></span> | `string` |
 
-<span data-ttu-id="ba8a5-576">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-576">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-678">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-678">**Returns:** `void`</span></span>
 
 ___
-
 <a id="registerhardwarebackpresscallback"></a>
 
-###  <a name="registerhardwarebackpresscallback"></a><span data-ttu-id="ba8a5-577">registerHardwareBackPressCallback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-577">registerHardwareBackPressCallback</span></span>
+###  <a name="registerhardwarebackpresscallback"></a><span data-ttu-id="c3025-679">registerHardwareBackPressCallback</span><span class="sxs-lookup"><span data-stu-id="c3025-679">registerHardwareBackPressCallback</span></span>
 
-<span data-ttu-id="ba8a5-578">▸ **registerHardwareBackPressCallback**(callback?: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-578">▸ **registerHardwareBackPressCallback**(callback?: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-680">▸ **registerHardwareBackPressCallback**(Callback?: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-680">▸ **registerHardwareBackPressCallback**(callback?: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-579">Registriert einen Rückruf, der auf Hardware-Schaltflächen drücken (für Android) ausgeführt werden soll</span><span class="sxs-lookup"><span data-stu-id="ba8a5-579">Registers a callback to be executed on hardware back button press (for Android)</span></span>
+<span data-ttu-id="c3025-681">Registriert einen Rückruf für die Ausführung auf der Hardware-Back-Schaltfläche (für Android)</span><span class="sxs-lookup"><span data-stu-id="c3025-681">Registers a callback to be executed on hardware back button press (for Android)</span></span>
 
-<span data-ttu-id="ba8a5-580">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-580">**Parameters:**</span></span>
+<span data-ttu-id="c3025-682">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-682">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-581">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-581">Name</span></span> | <span data-ttu-id="ba8a5-582">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-582">Type</span></span> | <span data-ttu-id="ba8a5-583">Standardwert</span><span class="sxs-lookup"><span data-stu-id="ba8a5-583">Default value</span></span> | <span data-ttu-id="ba8a5-584">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-584">Description</span></span> |
+| <span data-ttu-id="c3025-683">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-683">Name</span></span> | <span data-ttu-id="c3025-684">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-684">Type</span></span> | <span data-ttu-id="c3025-685">Standardwert</span><span class="sxs-lookup"><span data-stu-id="c3025-685">Default value</span></span> | <span data-ttu-id="c3025-686">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-686">Description</span></span> |
 | ------ | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-585">`Default value`Rückruf</span><span class="sxs-lookup"><span data-stu-id="ba8a5-585">`Default value` callback</span></span> | `function` |  <span data-ttu-id="ba8a5-586">null</span><span class="sxs-lookup"><span data-stu-id="ba8a5-586">null</span></span> |  <span data-ttu-id="ba8a5-587">auszuführende Methode</span><span class="sxs-lookup"><span data-stu-id="ba8a5-587">method to be executed</span></span> |
+| <span data-ttu-id="c3025-687">`Default value`Rückruf</span><span class="sxs-lookup"><span data-stu-id="c3025-687">`Default value` callback</span></span> | `function` |  <span data-ttu-id="c3025-688">null</span><span class="sxs-lookup"><span data-stu-id="c3025-688">null</span></span> |  <span data-ttu-id="c3025-689">auszuführende Methode</span><span class="sxs-lookup"><span data-stu-id="c3025-689">method to be executed</span></span> |
 
-<span data-ttu-id="ba8a5-588">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-588">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-690">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-690">**Returns:** `void`</span></span>
 
 ___
+<a id="savedataintmpdirasync"></a>
 
+###  <a name="savedataintmpdirasync"></a><span data-ttu-id="c3025-691">saveDataInTmpDirAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-691">saveDataInTmpDirAsync</span></span>
+
+<span data-ttu-id="c3025-692">▸ **saveDataInTmpDirAsync**(base64Data: *`string`*, filename: *`string`*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-692">▸ **saveDataInTmpDirAsync**(base64Data: *`string`*, fileName: *`string`*, callback: *`function`*): `void`</span></span>
+
+<span data-ttu-id="c3025-693">Speichert Base64-Daten auf dem Gerät mit dem angegebenen Dateinamen.</span><span class="sxs-lookup"><span data-stu-id="c3025-693">Saves base64 data on device with given filename.</span></span> <span data-ttu-id="c3025-694">Aktionen können diese API verwenden, um Daten temporär auf dem Gerätespeicher zu speichern, die in der Aktualisierungs Nutzlast von Form/Antwort/Eigenschaften in dieser Sitzung referenziert werden können.</span><span class="sxs-lookup"><span data-stu-id="c3025-694">Actions can use this API to store data temporarily on device storage which can be referred in form/response/properties update payloads in that session.</span></span> <span data-ttu-id="c3025-695">Beachten Sie, dass diese Daten im lokalen Temp-Cacheverzeichnis gespeichert werden und von einem Gerätebetriebssystem ohne Warnung in Szenarien mit geringem Speicherplatz gelöscht werden können.</span><span class="sxs-lookup"><span data-stu-id="c3025-695">Note that this data is stored on local temp cache directory and can be deleted by device OS without warning in low storage scenarios.</span></span> <span data-ttu-id="c3025-696">Die maximale Lebensdauer dieses Speichers befindet sich innerhalb einer Sitzung der Aktion.</span><span class="sxs-lookup"><span data-stu-id="c3025-696">The maximum lifetime for this storage is within one session of the action.</span></span> <span data-ttu-id="c3025-697">Sobald der Bildschirm geschlossen wird, werden diese Daten deaktiviert.</span><span class="sxs-lookup"><span data-stu-id="c3025-697">Once the screen dismisses, this data is cleared off.</span></span> <span data-ttu-id="c3025-698">Normalerweise kann Action diesen Speicher zum Speichern von Base64-Bild-/-Audiodaten auf dem Speicher verwenden und diesen Pfad in der Umfrage JSON/Response und Client wird sicherstellen, dass es hochgeladen wird, um in den Nachrichten Sende Fluss in Dienst zu finden.</span><span class="sxs-lookup"><span data-stu-id="c3025-698">Typically, action can use this storage to save base64 image/ audio data on storage and refer that path in survey json/ response and client will make sure that it gets uploaded to service in message sending flow.</span></span>
+
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-699">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-699">Sample Usage</span></span>
+
+```
+KASClient.App.saveDataInTmpDirAsync(base64Data, fileName, function (filePath, error) {
+    if (error == null) {
+       // Action's code in success case
+     }
+});
+```
+
+<span data-ttu-id="c3025-700">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-700">**Parameters:**</span></span>
+
+| <span data-ttu-id="c3025-701">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-701">Name</span></span> | <span data-ttu-id="c3025-702">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-702">Type</span></span> | <span data-ttu-id="c3025-703">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-703">Description</span></span> |
+| ------ | ------ | ------ |
+| <span data-ttu-id="c3025-704">base64Data</span><span class="sxs-lookup"><span data-stu-id="c3025-704">base64Data</span></span> | `string` |  <span data-ttu-id="c3025-705">Base64-Daten, die gespeichert werden sollen.</span><span class="sxs-lookup"><span data-stu-id="c3025-705">base64 data to be stored.</span></span> |
+| <span data-ttu-id="c3025-706">fileName</span><span class="sxs-lookup"><span data-stu-id="c3025-706">fileName</span></span> | `string` |  <span data-ttu-id="c3025-707">fileName einschließlich der entsprechenden Erweiterung, die zum Speichern der Daten verwendet werden soll.</span><span class="sxs-lookup"><span data-stu-id="c3025-707">fileName including relevant extension which should be used to store the data.</span></span> <span data-ttu-id="c3025-708">Dateiname maximal zulässige Länge beträgt 15 und darf nur alphanumerische Zeichen, Unterstriche, hifen und Punkte enthalten, also "a-Za-z0-9\_.-".</span><span class="sxs-lookup"><span data-stu-id="c3025-708">File name maximum length allowed is 15 and it can only contain alphanumeric characters, underscores, hifen and dots i.e. "a-zA-Z0-9\_.-".</span></span> <span data-ttu-id="c3025-709">Beispiel: Datei1. MP3</span><span class="sxs-lookup"><span data-stu-id="c3025-709">For example, file1.mp3</span></span> |
+| <span data-ttu-id="c3025-710">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-710">callback</span></span> | `function` |  <span data-ttu-id="c3025-711">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-711">with below parameters:</span></span> |
+
+<span data-ttu-id="c3025-712">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-712">**Returns:** `void`</span></span>
+
+___
 <a id="setnativetoolbarproperties"></a>
 
-###  <a name="setnativetoolbarproperties"></a><span data-ttu-id="ba8a5-589">setNativeToolbarProperties</span><span class="sxs-lookup"><span data-stu-id="ba8a5-589">setNativeToolbarProperties</span></span>
+###  <a name="setnativetoolbarproperties"></a><span data-ttu-id="c3025-713">setNativeToolbarProperties</span><span class="sxs-lookup"><span data-stu-id="c3025-713">setNativeToolbarProperties</span></span>
 
-<span data-ttu-id="ba8a5-590">▸ **setNativeToolbarProperties**(Properties: *[KASNativeToolbarProperties](../classes/kasclient.kasnativetoolbarproperties.md)*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-590">▸ **setNativeToolbarProperties**(properties: *[KASNativeToolbarProperties](../classes/kasclient.kasnativetoolbarproperties.md)*): `void`</span></span>
+<span data-ttu-id="c3025-714">▸ **setNativeToolbarProperties**(Properties: *[KASNativeToolbarProperties](../classes/kasclient.kasnativetoolbarproperties.md)*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-714">▸ **setNativeToolbarProperties**(properties: *[KASNativeToolbarProperties](../classes/kasclient.kasnativetoolbarproperties.md)*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-591">Legt wenige Eigenschaften fest, wenn die systemeigene Symbolleiste verwendet wird</span><span class="sxs-lookup"><span data-stu-id="ba8a5-591">Sets few properties when using native toolbar</span></span>
+<span data-ttu-id="c3025-715">Legt bei Verwendung der systemeigenen Symbolleiste einige Eigenschaften fest</span><span class="sxs-lookup"><span data-stu-id="c3025-715">Sets few properties when using native toolbar</span></span>
 
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-592">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-592">Sample Usage</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-716">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-716">Sample Usage</span></span>
 
 ```
 var nativeToolbarProps = new KASClient.KASNativeToolbarProperties();
@@ -823,41 +986,39 @@ nativeToolbarProps.subtitle = "<subtitle>";
 KASClient.App.setNativeToolbarProperties(nativeToolbarProps);
 ```
 
-<span data-ttu-id="ba8a5-593">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-593">**Parameters:**</span></span>
+<span data-ttu-id="c3025-717">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-717">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-594">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-594">Name</span></span> | <span data-ttu-id="ba8a5-595">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-595">Type</span></span> | <span data-ttu-id="ba8a5-596">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-596">Description</span></span> |
+| <span data-ttu-id="c3025-718">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-718">Name</span></span> | <span data-ttu-id="c3025-719">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-719">Type</span></span> | <span data-ttu-id="c3025-720">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-720">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-597">properties</span><span class="sxs-lookup"><span data-stu-id="ba8a5-597">properties</span></span> | [<span data-ttu-id="ba8a5-598">KASNativeToolbarProperties</span><span class="sxs-lookup"><span data-stu-id="ba8a5-598">KASNativeToolbarProperties</span></span>](../classes/kasclient.kasnativetoolbarproperties.md) |   |
+| <span data-ttu-id="c3025-721">properties</span><span class="sxs-lookup"><span data-stu-id="c3025-721">properties</span></span> | [<span data-ttu-id="c3025-722">KASNativeToolbarProperties</span><span class="sxs-lookup"><span data-stu-id="c3025-722">KASNativeToolbarProperties</span></span>](../classes/kasclient.kasnativetoolbarproperties.md) |   |
 
-<span data-ttu-id="ba8a5-599">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-599">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-723">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-723">**Returns:** `void`</span></span>
 
 ___
-
 <a id="setuserstrings"></a>
 
-###  <a name="setuserstrings"></a><span data-ttu-id="ba8a5-600">setUserStrings</span><span class="sxs-lookup"><span data-stu-id="ba8a5-600">setUserStrings</span></span>
+###  <a name="setuserstrings"></a><span data-ttu-id="c3025-724">setUserStrings</span><span class="sxs-lookup"><span data-stu-id="c3025-724">setUserStrings</span></span>
 
-<span data-ttu-id="ba8a5-601">▸ **setUserStrings**(strings?: *`JSON`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-601">▸ **setUserStrings**(strings?: *`JSON`*): `void`</span></span>
+<span data-ttu-id="c3025-725">▸ **setUserStrings**(Strings? *`JSON`*:):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-725">▸ **setUserStrings**(strings?: *`JSON`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-602">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-602">**Parameters:**</span></span>
+<span data-ttu-id="c3025-726">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-726">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-603">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-603">Name</span></span> | <span data-ttu-id="ba8a5-604">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-604">Type</span></span> | <span data-ttu-id="ba8a5-605">Standardwert</span><span class="sxs-lookup"><span data-stu-id="ba8a5-605">Default value</span></span> |
+| <span data-ttu-id="c3025-727">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-727">Name</span></span> | <span data-ttu-id="c3025-728">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-728">Type</span></span> | <span data-ttu-id="c3025-729">Standardwert</span><span class="sxs-lookup"><span data-stu-id="c3025-729">Default value</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-606">`Default value`Strings</span><span class="sxs-lookup"><span data-stu-id="ba8a5-606">`Default value` strings</span></span> | `JSON` |  <span data-ttu-id="ba8a5-607">null</span><span class="sxs-lookup"><span data-stu-id="ba8a5-607">null</span></span> |
+| <span data-ttu-id="c3025-730">`Default value`Zeichenfolgen</span><span class="sxs-lookup"><span data-stu-id="c3025-730">`Default value` strings</span></span> | `JSON` |  <span data-ttu-id="c3025-731">null</span><span class="sxs-lookup"><span data-stu-id="c3025-731">null</span></span> |
 
-<span data-ttu-id="ba8a5-608">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-608">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-732">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-732">**Returns:** `void`</span></span>
 
 ___
-
 <a id="showattachmentpickerasync"></a>
 
-###  <a name="showattachmentpickerasync"></a><span data-ttu-id="ba8a5-609">showAttachmentPickerAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-609">showAttachmentPickerAsync</span></span>
+###  <a name="showattachmentpickerasync"></a><span data-ttu-id="c3025-733">showAttachmentPickerAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-733">showAttachmentPickerAsync</span></span>
 
-<span data-ttu-id="ba8a5-610">▸ **showAttachmentPickerAsync**(SupportedTypes: \* [KASAttachmentType](../enums/kasclient.kasattachmenttype.md)[]\*, Props *`JSON`*:, Callback *`function`*:):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-610">▸ **showAttachmentPickerAsync**(supportedTypes: *[KASAttachmentType](../enums/kasclient.kasattachmenttype.md)[]*, props: *`JSON`*, callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-734">▸ **showAttachmentPickerAsync**(supportedTypes: \* [KASAttachmentType](../enums/kasclient.kasattachmenttype.md)[]\*, Props *`JSON`*:, Callback *`function`*:):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-734">▸ **showAttachmentPickerAsync**(supportedTypes: *[KASAttachmentType](../enums/kasclient.kasattachmenttype.md)[]*, props: *`JSON`*, callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-611">Zeigt eine Anlagenauswahl in der systemeigenen Ebene an.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-611">Displays an attachment picker in the native layer</span></span>
+<span data-ttu-id="c3025-735">Zeigt eine Anlagenauswahl auf der systemeigenen Ebene an.</span><span class="sxs-lookup"><span data-stu-id="c3025-735">Displays an attachment picker in the native layer</span></span>
 
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-612">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-612">Sample Usage</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-736">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-736">Sample Usage</span></span>
 
 ```
 var attachmentsTypesToShow = [];
@@ -879,56 +1040,54 @@ KASClient.App.showAttachmentPickerAsync(attachmentsTypesToShow, null, function (
 });
 ```
 
-<span data-ttu-id="ba8a5-613">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-613">**Parameters:**</span></span>
+<span data-ttu-id="c3025-737">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-737">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-614">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-614">Name</span></span> | <span data-ttu-id="ba8a5-615">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-615">Type</span></span> | <span data-ttu-id="ba8a5-616">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-616">Description</span></span> |
+| <span data-ttu-id="c3025-738">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-738">Name</span></span> | <span data-ttu-id="c3025-739">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-739">Type</span></span> | <span data-ttu-id="c3025-740">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-740">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-617">supportedTypes</span><span class="sxs-lookup"><span data-stu-id="ba8a5-617">supportedTypes</span></span> | <span data-ttu-id="ba8a5-618">[KASAttachmentType](../enums/kasclient.kasattachmenttype.md) []</span><span class="sxs-lookup"><span data-stu-id="ba8a5-618">[KASAttachmentType](../enums/kasclient.kasattachmenttype.md)[]</span></span> |  <span data-ttu-id="ba8a5-619">Array unterstützter Anlagentypen für die Auswahl.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-619">array of supported attachment types for the picker.</span></span> |
-| <span data-ttu-id="ba8a5-620">Eigenschaften</span><span class="sxs-lookup"><span data-stu-id="ba8a5-620">props</span></span> | `JSON` |  <span data-ttu-id="ba8a5-621">zusätzliche Requisiten zum Konfigurieren der Auswahl</span><span class="sxs-lookup"><span data-stu-id="ba8a5-621">additional props to configure the picker</span></span> |
-| <span data-ttu-id="ba8a5-622">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-622">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-623">mit den folgenden Parametern</span><span class="sxs-lookup"><span data-stu-id="ba8a5-623">with below parameters</span></span><br><br><span data-ttu-id="ba8a5-624">\*@param {KASAttachment\[\]} selectedAttachments-zeichenfolge ausgewählter anlagen</span><span class="sxs-lookup"><span data-stu-id="ba8a5-624">\* @param {KASAttachment\[\]} selectedAttachments string of selected attachments</span></span><br><br><span data-ttu-id="ba8a5-625">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-625">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-741">supportedTypes</span><span class="sxs-lookup"><span data-stu-id="c3025-741">supportedTypes</span></span> | <span data-ttu-id="c3025-742">[KASAttachmentType](../enums/kasclient.kasattachmenttype.md) []</span><span class="sxs-lookup"><span data-stu-id="c3025-742">[KASAttachmentType](../enums/kasclient.kasattachmenttype.md)[]</span></span> |  <span data-ttu-id="c3025-743">Array unterstützter Anlagentypen für die Auswahl.</span><span class="sxs-lookup"><span data-stu-id="c3025-743">array of supported attachment types for the picker.</span></span> |
+| <span data-ttu-id="c3025-744">Eigenschaften</span><span class="sxs-lookup"><span data-stu-id="c3025-744">props</span></span> | `JSON` |  <span data-ttu-id="c3025-745">zusätzliche Requisiten zum Konfigurieren der Auswahl</span><span class="sxs-lookup"><span data-stu-id="c3025-745">additional props to configure the picker</span></span> |
+| <span data-ttu-id="c3025-746">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-746">callback</span></span> | `function` |  <span data-ttu-id="c3025-747">mit den folgenden Parametern</span><span class="sxs-lookup"><span data-stu-id="c3025-747">with below parameters</span></span><br><br><span data-ttu-id="c3025-748">\*@param {KASAttachment\[\]} selectedAttachments-Zeichenfolge ausgewählter Anlagen</span><span class="sxs-lookup"><span data-stu-id="c3025-748">\* @param {KASAttachment\[\]} selectedAttachments string of selected attachments</span></span><br><br><span data-ttu-id="c3025-749">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-749">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-626">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-626">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-750">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-750">**Returns:** `void`</span></span>
 
 ___
-
 <a id="showbarcodescannerasync"></a>
 
-###  <a name="showbarcodescannerasync"></a><span data-ttu-id="ba8a5-627">showBarcodeScannerAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-627">showBarcodeScannerAsync</span></span>
+###  <a name="showbarcodescannerasync"></a><span data-ttu-id="c3025-751">showBarcodeScannerAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-751">showBarcodeScannerAsync</span></span>
 
-<span data-ttu-id="ba8a5-628">▸ **showBarcodeScannerAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-628">▸ **showBarcodeScannerAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-752">▸ **showBarcodeScannerAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-752">▸ **showBarcodeScannerAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-629">Starten des Barcodescanners und Zurückgeben des gescannten Objekts</span><span class="sxs-lookup"><span data-stu-id="ba8a5-629">Launches the barcode scanner and returns the scanned object</span></span>
+<span data-ttu-id="c3025-753">Startet den Barcode Scanner und gibt das überprüfte Objekt zurück.</span><span class="sxs-lookup"><span data-stu-id="c3025-753">Launches the barcode scanner and returns the scanned object</span></span>
 
-<span data-ttu-id="ba8a5-630">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-630">**Parameters:**</span></span>
+<span data-ttu-id="c3025-754">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-754">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-631">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-631">Name</span></span> | <span data-ttu-id="ba8a5-632">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-632">Type</span></span> | <span data-ttu-id="ba8a5-633">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-633">Description</span></span> |
+| <span data-ttu-id="c3025-755">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-755">Name</span></span> | <span data-ttu-id="c3025-756">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-756">Type</span></span> | <span data-ttu-id="c3025-757">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-757">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-634">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-634">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-635">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-635">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-636">\*@param {string} barcodeInfo kann im Fehlerfall NULL sein</span><span class="sxs-lookup"><span data-stu-id="ba8a5-636">\* @param {string} barcodeInfo can be null in case of error</span></span><br><br><span data-ttu-id="ba8a5-637">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-637">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-758">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-758">callback</span></span> | `function` |  <span data-ttu-id="c3025-759">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-759">with below parameters:</span></span><br><br><span data-ttu-id="c3025-760">\*@param {string} barcodeInfo kann im Falle eines Fehlers NULL sein</span><span class="sxs-lookup"><span data-stu-id="c3025-760">\* @param {string} barcodeInfo can be null in case of error</span></span><br><br><span data-ttu-id="c3025-761">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-761">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-638">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-638">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-762">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-762">**Returns:** `void`</span></span>
 
 ___
-
 <a id="showcontactpickerasync"></a>
 
-###  <a name="showcontactpickerasync"></a><span data-ttu-id="ba8a5-639">showContactPickerAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-639">showContactPickerAsync</span></span>
+###  <a name="showcontactpickerasync"></a><span data-ttu-id="c3025-763">showContactPickerAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-763">showContactPickerAsync</span></span>
 
-<span data-ttu-id="ba8a5-640">▸ **showContactPickerAsync**(Title: *`string`*, selectedMutableUser: \* `string`[]*, selectedImmutableUser: \* `string`[]*, isSingleSelection: *`boolean`*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-640">▸ **showContactPickerAsync**(title: *`string`*, selectedMutableUser: *`string`[]*, selectedImmutableUser: *`string`[]*, isSingleSelection: *`boolean`*, callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-764">▸ **showContactPickerAsync**(Title: *`string`*, selectedMutableUser: \* `string`[]*, selectedImmutableUser: \* `string`[]*, isSingleSelection: *`boolean`*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-764">▸ **showContactPickerAsync**(title: *`string`*, selectedMutableUser: *`string`[]*, selectedImmutableUser: *`string`[]*, isSingleSelection: *`boolean`*, callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-641">Zeigt eine systemeigene Kontaktauswahl an und gibt ein Array mit allen Details der ausgewählten Benutzer zurück.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-641">Shows a native contact picker, and returns an array of all the selected users' details</span></span>
+<span data-ttu-id="c3025-765">Zeigt eine systemeigene Kontaktauswahl an und gibt ein Array aller Details der ausgewählten Benutzer zurück.</span><span class="sxs-lookup"><span data-stu-id="c3025-765">Shows a native contact picker, and returns an array of all the selected users' details</span></span>
 
-<span data-ttu-id="ba8a5-642">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-642">**Parameters:**</span></span>
+<span data-ttu-id="c3025-766">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-766">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-643">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-643">Name</span></span> | <span data-ttu-id="ba8a5-644">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-644">Type</span></span> | <span data-ttu-id="ba8a5-645">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-645">Description</span></span> |
+| <span data-ttu-id="c3025-767">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-767">Name</span></span> | <span data-ttu-id="c3025-768">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-768">Type</span></span> | <span data-ttu-id="c3025-769">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-769">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-646">title</span><span class="sxs-lookup"><span data-stu-id="ba8a5-646">title</span></span> | `string` |  <span data-ttu-id="ba8a5-647">der Kontaktauswahl</span><span class="sxs-lookup"><span data-stu-id="ba8a5-647">of Contact Picker</span></span> |
-| <span data-ttu-id="ba8a5-648">selectedMutableUser</span><span class="sxs-lookup"><span data-stu-id="ba8a5-648">selectedMutableUser</span></span> | <span data-ttu-id="ba8a5-649">`string`[]</span><span class="sxs-lookup"><span data-stu-id="ba8a5-649"></span></span> |  <span data-ttu-id="ba8a5-650">Array ausgewählter Benutzer-IDs</span><span class="sxs-lookup"><span data-stu-id="ba8a5-650">array of selected userIds</span></span> |
-| <span data-ttu-id="ba8a5-651">selectedImmutableUser</span><span class="sxs-lookup"><span data-stu-id="ba8a5-651">selectedImmutableUser</span></span> | <span data-ttu-id="ba8a5-652">`string`[]</span><span class="sxs-lookup"><span data-stu-id="ba8a5-652"></span></span> |  <span data-ttu-id="ba8a5-653">Array fester ausgewählter Benutzer-IDs</span><span class="sxs-lookup"><span data-stu-id="ba8a5-653">array of fixed selected userIds</span></span> |
-| <span data-ttu-id="ba8a5-654">isSingleSelection</span><span class="sxs-lookup"><span data-stu-id="ba8a5-654">isSingleSelection</span></span> | `boolean` |  <span data-ttu-id="ba8a5-655">einzelne Auswahl in der Kontaktauswahl</span><span class="sxs-lookup"><span data-stu-id="ba8a5-655">single selection in Contact Picker</span></span> |
-| <span data-ttu-id="ba8a5-656">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-656">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-657">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-657">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-658">\*@param {KASUser\[\]} selectedUsers (array von benutzer details) kann im fehlerfall null sein</span><span class="sxs-lookup"><span data-stu-id="ba8a5-658">\* @param {KASUser\[\]} selectedUsers (array of user details) can be null in case of error</span></span><br><br><span data-ttu-id="ba8a5-659">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-659">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-770">title</span><span class="sxs-lookup"><span data-stu-id="c3025-770">title</span></span> | `string` |  <span data-ttu-id="c3025-771">der Kontaktauswahl</span><span class="sxs-lookup"><span data-stu-id="c3025-771">of Contact Picker</span></span> |
+| <span data-ttu-id="c3025-772">selectedMutableUser</span><span class="sxs-lookup"><span data-stu-id="c3025-772">selectedMutableUser</span></span> | <span data-ttu-id="c3025-773">`string`[]</span><span class="sxs-lookup"><span data-stu-id="c3025-773"></span></span> |  <span data-ttu-id="c3025-774">Array ausgewählter userids</span><span class="sxs-lookup"><span data-stu-id="c3025-774">array of selected userIds</span></span> |
+| <span data-ttu-id="c3025-775">selectedImmutableUser</span><span class="sxs-lookup"><span data-stu-id="c3025-775">selectedImmutableUser</span></span> | <span data-ttu-id="c3025-776">`string`[]</span><span class="sxs-lookup"><span data-stu-id="c3025-776"></span></span> |  <span data-ttu-id="c3025-777">Array fester ausgewählter userids</span><span class="sxs-lookup"><span data-stu-id="c3025-777">array of fixed selected userIds</span></span> |
+| <span data-ttu-id="c3025-778">isSingleSelection</span><span class="sxs-lookup"><span data-stu-id="c3025-778">isSingleSelection</span></span> | `boolean` |  <span data-ttu-id="c3025-779">einzelne Auswahl in der Kontaktauswahl</span><span class="sxs-lookup"><span data-stu-id="c3025-779">single selection in Contact Picker</span></span> |
+| <span data-ttu-id="c3025-780">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-780">callback</span></span> | `function` |  <span data-ttu-id="c3025-781">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-781">with below parameters:</span></span><br><br><span data-ttu-id="c3025-782">\*@param {KASUser\[\]} selectedUsers (Array von Benutzer Details) kann im Falle eines Fehlers NULL sein</span><span class="sxs-lookup"><span data-stu-id="c3025-782">\* @param {KASUser\[\]} selectedUsers (array of user details) can be null in case of error</span></span><br><br><span data-ttu-id="c3025-783">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-783">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-660">**Gibt Folgendes zurück:** `void` Array aller Details der ausgewählten Benutzer (Array von JSON)</span><span class="sxs-lookup"><span data-stu-id="ba8a5-660">**Returns:** `void` Array of all the selected users' details (Array of JSON)</span></span>
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-661">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-661">Sample Usage</span></span>
+<span data-ttu-id="c3025-784">**Gibt Folgendes zurück:** `void` Array aller Details der ausgewählten Benutzer (Array von JSON)</span><span class="sxs-lookup"><span data-stu-id="c3025-784">**Returns:** `void` Array of all the selected users' details (Array of JSON)</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-785">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-785">Sample Usage</span></span>
 ```
 var alreadySelectedUserIds = [];
 KASClient.App.showContactPickerAsync("<picker title>", alreadySelectedUserIds, [], true, function (selectedUsers, error) {
@@ -940,196 +1099,239 @@ KASClient.App.showContactPickerAsync("<picker title>", alreadySelectedUserIds, [
 ```
 
 ___
-
 <a id="showdurationpickerasync"></a>
 
-###  <a name="showdurationpickerasync"></a><span data-ttu-id="ba8a5-662">showDurationPickerAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-662">showDurationPickerAsync</span></span>
+###  <a name="showdurationpickerasync"></a><span data-ttu-id="c3025-786">showDurationPickerAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-786">showDurationPickerAsync</span></span>
 
-<span data-ttu-id="ba8a5-663">▸ **showDurationPickerAsync**(defaultDurationInMinutes: *`number`*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-663">▸ **showDurationPickerAsync**(defaultDurationInMinutes: *`number`*, callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-787">▸ **showDurationPickerAsync**(defaultDurationInMinutes: *`number`*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-787">▸ **showDurationPickerAsync**(defaultDurationInMinutes: *`number`*, callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-664">Zeigt eine systemeigene Dauer Auswahl mit Tag/Stunde/Minute an.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-664">Shows a native duration picker with day/hour/minute</span></span>
+<span data-ttu-id="c3025-788">Zeigt eine systemeigene Dauer Auswahl mit Tag/Stunde/Minute</span><span class="sxs-lookup"><span data-stu-id="c3025-788">Shows a native duration picker with day/hour/minute</span></span>
 
-<span data-ttu-id="ba8a5-665">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-665">**Parameters:**</span></span>
+<span data-ttu-id="c3025-789">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-789">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-666">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-666">Name</span></span> | <span data-ttu-id="ba8a5-667">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-667">Type</span></span> | <span data-ttu-id="ba8a5-668">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-668">Description</span></span> |
+| <span data-ttu-id="c3025-790">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-790">Name</span></span> | <span data-ttu-id="c3025-791">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-791">Type</span></span> | <span data-ttu-id="c3025-792">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-792">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-669">defaultDurationInMinutes</span><span class="sxs-lookup"><span data-stu-id="ba8a5-669">defaultDurationInMinutes</span></span> | `number` |  <span data-ttu-id="ba8a5-670">die Standarddauer, die bei der Auswahl angezeigt werden soll.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-670">the default duration to be shown on picker</span></span> |
-| <span data-ttu-id="ba8a5-671">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-671">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-672">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-672">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-673">\*@param {Zahl} durationInMinutes ausgewählte Dauer in Minuten</span><span class="sxs-lookup"><span data-stu-id="ba8a5-673">\* @param {number} durationInMinutes selected duration in minutes</span></span><br><br><span data-ttu-id="ba8a5-674">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-674">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-793">defaultDurationInMinutes</span><span class="sxs-lookup"><span data-stu-id="c3025-793">defaultDurationInMinutes</span></span> | `number` |  <span data-ttu-id="c3025-794">die Standarddauer, die für die Auswahl angezeigt werden soll.</span><span class="sxs-lookup"><span data-stu-id="c3025-794">the default duration to be shown on picker</span></span> |
+| <span data-ttu-id="c3025-795">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-795">callback</span></span> | `function` |  <span data-ttu-id="c3025-796">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-796">with below parameters:</span></span><br><br><span data-ttu-id="c3025-797">\*@param {Number} durationInMinutes ausgewählte Dauer in Minuten</span><span class="sxs-lookup"><span data-stu-id="c3025-797">\* @param {number} durationInMinutes selected duration in minutes</span></span><br><br><span data-ttu-id="c3025-798">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-798">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-675">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-675">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-799">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-799">**Returns:** `void`</span></span>
 
 ___
-
 <a id="showimageimmersiveview"></a>
 
-###  <a name="showimageimmersiveview"></a><span data-ttu-id="ba8a5-676">showImageImmersiveView</span><span class="sxs-lookup"><span data-stu-id="ba8a5-676">showImageImmersiveView</span></span>
+###  <a name="showimageimmersiveview"></a><span data-ttu-id="c3025-800">showImageImmersiveView</span><span class="sxs-lookup"><span data-stu-id="c3025-800">showImageImmersiveView</span></span>
 
-<span data-ttu-id="ba8a5-677">▸ **showImageImmersiveView**(urls?: \* `string`[]\*, currentImageIndex?: *`number`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-677">▸ **showImageImmersiveView**(urls?: *`string`[]*, currentImageIndex?: *`number`*): `void`</span></span>
+<span data-ttu-id="c3025-801">▸ **showImageImmersiveView**(URLs?: \* `string`[]\*, currentImageIndex?: *`number`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-801">▸ **showImageImmersiveView**(urls?: *`string`[]*, currentImageIndex?: *`number`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-678">Zeigt das Bild in der immersiven Ansicht an.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-678">Shows Image in Immersive view.</span></span>
+<span data-ttu-id="c3025-802">Zeigt das Bild in der immersiven Ansicht an.</span><span class="sxs-lookup"><span data-stu-id="c3025-802">Shows Image in Immersive view.</span></span>
 
-#### <a name="sample-usage"></a><span data-ttu-id="ba8a5-679">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-679">Sample Usage</span></span>
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-803">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-803">Sample Usage</span></span>
 
 ```
 var urlArray = ["path1", "path2"];
 KASClient.App.showImageImmersiveView(urlArray);
 ```
 
-<span data-ttu-id="ba8a5-680">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-680">**Parameters:**</span></span>
+<span data-ttu-id="c3025-804">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-804">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-681">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-681">Name</span></span> | <span data-ttu-id="ba8a5-682">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-682">Type</span></span> | <span data-ttu-id="ba8a5-683">Standardwert</span><span class="sxs-lookup"><span data-stu-id="ba8a5-683">Default value</span></span> | <span data-ttu-id="ba8a5-684">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-684">Description</span></span> |
+| <span data-ttu-id="c3025-805">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-805">Name</span></span> | <span data-ttu-id="c3025-806">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-806">Type</span></span> | <span data-ttu-id="c3025-807">Standardwert</span><span class="sxs-lookup"><span data-stu-id="c3025-807">Default value</span></span> | <span data-ttu-id="c3025-808">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-808">Description</span></span> |
 | ------ | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-685">`Default value`URLs</span><span class="sxs-lookup"><span data-stu-id="ba8a5-685">`Default value` urls</span></span> | <span data-ttu-id="ba8a5-686">`string`[]</span><span class="sxs-lookup"><span data-stu-id="ba8a5-686"></span></span> |  <span data-ttu-id="ba8a5-687">[]</span><span class="sxs-lookup"><span data-stu-id="ba8a5-687"></span></span> |  <span data-ttu-id="ba8a5-688">Array der Bild-URL:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-688">Array of images url:</span></span> |
-| <span data-ttu-id="ba8a5-689">`Default value`currentImageIndex</span><span class="sxs-lookup"><span data-stu-id="ba8a5-689">`Default value` currentImageIndex</span></span> | `number` | <span data-ttu-id="ba8a5-690">0</span><span class="sxs-lookup"><span data-stu-id="ba8a5-690">0</span></span> |
+| <span data-ttu-id="c3025-809">`Default value`URLs</span><span class="sxs-lookup"><span data-stu-id="c3025-809">`Default value` urls</span></span> | <span data-ttu-id="c3025-810">`string`[]</span><span class="sxs-lookup"><span data-stu-id="c3025-810"></span></span> |  <span data-ttu-id="c3025-811">[]</span><span class="sxs-lookup"><span data-stu-id="c3025-811"></span></span> |  <span data-ttu-id="c3025-812">Array der Bilder-URL:</span><span class="sxs-lookup"><span data-stu-id="c3025-812">Array of images url:</span></span> |
+| <span data-ttu-id="c3025-813">`Default value`currentImageIndex</span><span class="sxs-lookup"><span data-stu-id="c3025-813">`Default value` currentImageIndex</span></span> | `number` | <span data-ttu-id="c3025-814">0</span><span class="sxs-lookup"><span data-stu-id="c3025-814">0</span></span> |
 
-<span data-ttu-id="ba8a5-691">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-691">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-815">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-815">**Returns:** `void`</span></span>
 
 ___
-
 <a id="showimagepickerasync"></a>
 
-###  <a name="showimagepickerasync"></a><span data-ttu-id="ba8a5-692">showImagePickerAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-692">showImagePickerAsync</span></span>
+###  <a name="showimagepickerasync"></a><span data-ttu-id="c3025-816">showImagePickerAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-816">showImagePickerAsync</span></span>
 
-<span data-ttu-id="ba8a5-693">▸ **showImagePickerAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-693">▸ **showImagePickerAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-817">▸ **showImagePickerAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-817">▸ **showImagePickerAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-694">Zeigt eine systemeigene Bildauswahl an und gibt den ausgewählten Bild Pfad zurück.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-694">Shows a native image picker, and returns the selected image path</span></span>
+<span data-ttu-id="c3025-818">Zeigt eine systemeigene Bildauswahl und gibt den ausgewählten Bild Pfad zurück.</span><span class="sxs-lookup"><span data-stu-id="c3025-818">Shows a native image picker, and returns the selected image path</span></span>
 
-<span data-ttu-id="ba8a5-695">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-695">**Parameters:**</span></span>
+<span data-ttu-id="c3025-819">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-819">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-696">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-696">Name</span></span> | <span data-ttu-id="ba8a5-697">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-697">Type</span></span> | <span data-ttu-id="ba8a5-698">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-698">Description</span></span> |
+| <span data-ttu-id="c3025-820">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-820">Name</span></span> | <span data-ttu-id="c3025-821">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-821">Type</span></span> | <span data-ttu-id="c3025-822">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-822">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-699">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-699">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-700">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-700">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-701">\*@param {string} selectedImagePath kann im Fehlerfall NULL sein</span><span class="sxs-lookup"><span data-stu-id="ba8a5-701">\* @param {string} selectedImagePath can be null in case of error</span></span><br><br><span data-ttu-id="ba8a5-702">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-702">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-823">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-823">callback</span></span> | `function` |  <span data-ttu-id="c3025-824">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-824">with below parameters:</span></span><br><br><span data-ttu-id="c3025-825">\*@param {string} selectedImagePath kann im Falle eines Fehlers NULL sein</span><span class="sxs-lookup"><span data-stu-id="c3025-825">\* @param {string} selectedImagePath can be null in case of error</span></span><br><br><span data-ttu-id="c3025-826">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-826">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-703">**Gibt Folgendes zurück:** `void` Ausgewählte Bildposition</span><span class="sxs-lookup"><span data-stu-id="ba8a5-703">**Returns:** `void` Selected image location</span></span>
+<span data-ttu-id="c3025-827">**Gibt Folgendes zurück:** `void` Ausgewählter Bildspeicherort</span><span class="sxs-lookup"><span data-stu-id="c3025-827">**Returns:** `void` Selected image location</span></span>
 
 ___
-
 <a id="showlocationonmap"></a>
 
-###  <a name="showlocationonmap"></a><span data-ttu-id="ba8a5-704">showLocationOnMap</span><span class="sxs-lookup"><span data-stu-id="ba8a5-704">showLocationOnMap</span></span>
+###  <a name="showlocationonmap"></a><span data-ttu-id="c3025-828">showLocationOnMap</span><span class="sxs-lookup"><span data-stu-id="c3025-828">showLocationOnMap</span></span>
 
-<span data-ttu-id="ba8a5-705">▸ **showLocationOnMap**(Location: *[KASLocation](../classes/kasclient.kaslocation.md)*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-705">▸ **showLocationOnMap**(location: *[KASLocation](../classes/kasclient.kaslocation.md)*): `void`</span></span>
+<span data-ttu-id="c3025-829">▸ **showLocationOnMap**(Location: *[KASLocation](../classes/kasclient.kaslocation.md)*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-829">▸ **showLocationOnMap**(location: *[KASLocation](../classes/kasclient.kaslocation.md)*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-706">zeigt einen bestimmten Speicherort an, wie in KASLocation</span><span class="sxs-lookup"><span data-stu-id="ba8a5-706">shows a particular location as mentioned in KASLocation</span></span>
+<span data-ttu-id="c3025-830">zeigt einen bestimmten Standort wie in KASLocation erwähnt</span><span class="sxs-lookup"><span data-stu-id="c3025-830">shows a particular location as mentioned in KASLocation</span></span>
 
-<span data-ttu-id="ba8a5-707">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-707">**Parameters:**</span></span>
+<span data-ttu-id="c3025-831">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-831">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-708">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-708">Name</span></span> | <span data-ttu-id="ba8a5-709">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-709">Type</span></span> | <span data-ttu-id="ba8a5-710">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-710">Description</span></span> |
+| <span data-ttu-id="c3025-832">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-832">Name</span></span> | <span data-ttu-id="c3025-833">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-833">Type</span></span> | <span data-ttu-id="c3025-834">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-834">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-711">location</span><span class="sxs-lookup"><span data-stu-id="ba8a5-711">location</span></span> | [<span data-ttu-id="ba8a5-712">KASLocation</span><span class="sxs-lookup"><span data-stu-id="ba8a5-712">KASLocation</span></span>](../classes/kasclient.kaslocation.md) |   |
+| <span data-ttu-id="c3025-835">location</span><span class="sxs-lookup"><span data-stu-id="c3025-835">location</span></span> | [<span data-ttu-id="c3025-836">KASLocation</span><span class="sxs-lookup"><span data-stu-id="c3025-836">KASLocation</span></span>](../classes/kasclient.kaslocation.md) |   |
 
-<span data-ttu-id="ba8a5-713">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-713">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-837">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-837">**Returns:** `void`</span></span>
 
 ___
-
 <a id="shownativeerrormessage"></a>
 
-###  <a name="shownativeerrormessage"></a><span data-ttu-id="ba8a5-714">showNativeErrorMessage</span><span class="sxs-lookup"><span data-stu-id="ba8a5-714">showNativeErrorMessage</span></span>
+###  <a name="shownativeerrormessage"></a><span data-ttu-id="c3025-838">showNativeErrorMessage</span><span class="sxs-lookup"><span data-stu-id="c3025-838">showNativeErrorMessage</span></span>
 
-<span data-ttu-id="ba8a5-715">▸ **showNativeErrorMessage**(Message: *`string`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-715">▸ **showNativeErrorMessage**(message: *`string`*): `void`</span></span>
+<span data-ttu-id="c3025-839">▸ **showNativeErrorMessage**(Nachricht: *`string`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-839">▸ **showNativeErrorMessage**(message: *`string`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-716">Zeigt eine systemeigene Warnung (für iOS) oder einen Toast (für Android) mit der Nachricht</span><span class="sxs-lookup"><span data-stu-id="ba8a5-716">Shows a native alert (for iOS) or a toast (for Android) with the message</span></span>
+<span data-ttu-id="c3025-840">Zeigt eine systemeigene Warnung (für IOS) oder einen Toast (für Android) mit der Nachricht</span><span class="sxs-lookup"><span data-stu-id="c3025-840">Shows a native alert (for iOS) or a toast (for Android) with the message</span></span>
 
-<span data-ttu-id="ba8a5-717">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-717">**Parameters:**</span></span>
+<span data-ttu-id="c3025-841">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-841">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-718">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-718">Name</span></span> | <span data-ttu-id="ba8a5-719">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-719">Type</span></span> | <span data-ttu-id="ba8a5-720">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-720">Description</span></span> |
+| <span data-ttu-id="c3025-842">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-842">Name</span></span> | <span data-ttu-id="c3025-843">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-843">Type</span></span> | <span data-ttu-id="c3025-844">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-844">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-721">message</span><span class="sxs-lookup"><span data-stu-id="ba8a5-721">message</span></span> | `string` |   |
+| <span data-ttu-id="c3025-845">message</span><span class="sxs-lookup"><span data-stu-id="c3025-845">message</span></span> | `string` |   |
 
-<span data-ttu-id="ba8a5-722">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-722">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-846">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-846">**Returns:** `void`</span></span>
 
 ___
-
 <a id="showplacepickerasync"></a>
 
-###  <a name="showplacepickerasync"></a><span data-ttu-id="ba8a5-723">showPlacePickerAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-723">showPlacePickerAsync</span></span>
+###  <a name="showplacepickerasync"></a><span data-ttu-id="c3025-847">showPlacePickerAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-847">showPlacePickerAsync</span></span>
 
-<span data-ttu-id="ba8a5-724">▸ **showPlacePickerAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-724">▸ **showPlacePickerAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-848">▸ **showPlacePickerAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-848">▸ **showPlacePickerAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-725">Zeigt eine systemeigene Ortsauswahl an und gibt die ausgewählte Stelle zurück (lt, LG, n)</span><span class="sxs-lookup"><span data-stu-id="ba8a5-725">Shows a native place picker, and returns the selected place (lt, lg, n)</span></span>
+<span data-ttu-id="c3025-849">Zeigt eine systemeigene Ortsauswahl an und gibt die ausgewählte Stelle (lt, LG, n) zurück.</span><span class="sxs-lookup"><span data-stu-id="c3025-849">Shows a native place picker, and returns the selected place (lt, lg, n)</span></span>
 
-<span data-ttu-id="ba8a5-726">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-726">**Parameters:**</span></span>
+<span data-ttu-id="c3025-850">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-850">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-727">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-727">Name</span></span> | <span data-ttu-id="ba8a5-728">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-728">Type</span></span> | <span data-ttu-id="ba8a5-729">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-729">Description</span></span> |
+| <span data-ttu-id="c3025-851">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-851">Name</span></span> | <span data-ttu-id="c3025-852">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-852">Type</span></span> | <span data-ttu-id="c3025-853">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-853">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-730">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-730">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-731">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-731">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-732">\*@param {KASLocation} selectedLocation kann im Fehlerfall NULL sein</span><span class="sxs-lookup"><span data-stu-id="ba8a5-732">\* @param {KASLocation} selectedLocation can be null in case of error</span></span><br><br><span data-ttu-id="ba8a5-733">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-733">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-854">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-854">callback</span></span> | `function` |  <span data-ttu-id="c3025-855">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-855">with below parameters:</span></span><br><br><span data-ttu-id="c3025-856">\*@param {KASLocation} selectedLocation kann im Falle eines Fehlers NULL sein</span><span class="sxs-lookup"><span data-stu-id="c3025-856">\* @param {KASLocation} selectedLocation can be null in case of error</span></span><br><br><span data-ttu-id="c3025-857">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-857">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-734">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-734">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-858">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-858">**Returns:** `void`</span></span>
 
 ___
-
 <a id="showprogressbar"></a>
 
-###  <a name="showprogressbar"></a><span data-ttu-id="ba8a5-735">showProgressBar</span><span class="sxs-lookup"><span data-stu-id="ba8a5-735">showProgressBar</span></span>
+###  <a name="showprogressbar"></a><span data-ttu-id="c3025-859">showProgressBar</span><span class="sxs-lookup"><span data-stu-id="c3025-859">showProgressBar</span></span>
 
-<span data-ttu-id="ba8a5-736">▸ **showProgressBar**(Text: *`string`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-736">▸ **showProgressBar**(text: *`string`*): `void`</span></span>
+<span data-ttu-id="c3025-860">▸ **showProgressBar**(Text: *`string`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-860">▸ **showProgressBar**(text: *`string`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-737">Zeigt eine systemeigene vollständige Sreen-Statusanzeige mit dem angegebenen Text an.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-737">Shows a native full sreen progress bar with the given text</span></span>
+<span data-ttu-id="c3025-861">Zeigt eine systemeigene vollständige Sreen-Statusleiste mit dem angegebenen Text an.</span><span class="sxs-lookup"><span data-stu-id="c3025-861">Shows a native full sreen progress bar with the given text</span></span>
 
-<span data-ttu-id="ba8a5-738">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-738">**Parameters:**</span></span>
+<span data-ttu-id="c3025-862">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-862">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-739">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-739">Name</span></span> | <span data-ttu-id="ba8a5-740">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-740">Type</span></span> | <span data-ttu-id="ba8a5-741">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-741">Description</span></span> |
+| <span data-ttu-id="c3025-863">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-863">Name</span></span> | <span data-ttu-id="c3025-864">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-864">Type</span></span> | <span data-ttu-id="c3025-865">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-865">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-742">text</span><span class="sxs-lookup"><span data-stu-id="ba8a5-742">text</span></span> | `string` |   |
+| <span data-ttu-id="c3025-866">text</span><span class="sxs-lookup"><span data-stu-id="c3025-866">text</span></span> | `string` |   |
 
-<span data-ttu-id="ba8a5-743">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-743">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-867">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-867">**Returns:** `void`</span></span>
 
 ___
-
 <a id="showqrcodescannerasync"></a>
 
-###  <a name="showqrcodescannerasync"></a><span data-ttu-id="ba8a5-744">showQRcodeScannerAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-744">showQRcodeScannerAsync</span></span>
+###  <a name="showqrcodescannerasync"></a><span data-ttu-id="c3025-868">showQRcodeScannerAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-868">showQRcodeScannerAsync</span></span>
 
-<span data-ttu-id="ba8a5-745">▸ **showQRcodeScannerAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-745">▸ **showQRcodeScannerAsync**(callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-869">▸ **showQRcodeScannerAsync**(Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-869">▸ **showQRcodeScannerAsync**(callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-746">Startet den QR-Code Scanner und gibt das gescannte Objekt zurück.</span><span class="sxs-lookup"><span data-stu-id="ba8a5-746">Launches the QR code scanner and returns the scanned object</span></span>
+<span data-ttu-id="c3025-870">Startet den QR-Code Scanner und gibt das überprüfte Objekt zurück.</span><span class="sxs-lookup"><span data-stu-id="c3025-870">Launches the QR code scanner and returns the scanned object</span></span>
 
-<span data-ttu-id="ba8a5-747">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-747">**Parameters:**</span></span>
+<span data-ttu-id="c3025-871">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-871">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-748">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-748">Name</span></span> | <span data-ttu-id="ba8a5-749">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-749">Type</span></span> | <span data-ttu-id="ba8a5-750">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-750">Description</span></span> |
+| <span data-ttu-id="c3025-872">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-872">Name</span></span> | <span data-ttu-id="c3025-873">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-873">Type</span></span> | <span data-ttu-id="c3025-874">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-874">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-751">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-751">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-752">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-752">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-753">\*@param {string} qrCodeInfo kann im Fehlerfall NULL sein</span><span class="sxs-lookup"><span data-stu-id="ba8a5-753">\* @param {string} qrCodeInfo can be null in case of error</span></span><br><br><span data-ttu-id="ba8a5-754">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-754">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-875">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-875">callback</span></span> | `function` |  <span data-ttu-id="c3025-876">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-876">with below parameters:</span></span><br><br><span data-ttu-id="c3025-877">\*@param {string} qrCodeInfo kann im Falle eines Fehlers NULL sein</span><span class="sxs-lookup"><span data-stu-id="c3025-877">\* @param {string} qrCodeInfo can be null in case of error</span></span><br><br><span data-ttu-id="c3025-878">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-878">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-755">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-755">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-879">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-879">**Returns:** `void`</span></span>
 
 ___
-
 <a id="showuserprofileasync"></a>
 
-###  <a name="showuserprofileasync"></a><span data-ttu-id="ba8a5-756">showUserProfileAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-756">showUserProfileAsync</span></span>
+###  <a name="showuserprofileasync"></a><span data-ttu-id="c3025-880">showUserProfileAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-880">showUserProfileAsync</span></span>
 
-<span data-ttu-id="ba8a5-757">▸ **showUserProfileAsync**(UserID: *`string`*, isMiniProfile: *`boolean`*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-757">▸ **showUserProfileAsync**(userId: *`string`*, isMiniProfile: *`boolean`*, callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-881">▸ **showUserProfileAsync**(UserID: *`string`*, isMiniProfile: *`boolean`*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-881">▸ **showUserProfileAsync**(userId: *`string`*, isMiniProfile: *`boolean`*, callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-758">Zeigt die Profilseite/Details eines Benutzers</span><span class="sxs-lookup"><span data-stu-id="ba8a5-758">Shows profile page/details of a user</span></span>
+<span data-ttu-id="c3025-882">Zeigt die Profilseite/Details eines Benutzers an.</span><span class="sxs-lookup"><span data-stu-id="c3025-882">Shows profile page/details of a user</span></span>
 
-<span data-ttu-id="ba8a5-759">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-759">**Parameters:**</span></span>
+<span data-ttu-id="c3025-883">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-883">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-760">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-760">Name</span></span> | <span data-ttu-id="ba8a5-761">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-761">Type</span></span> | <span data-ttu-id="ba8a5-762">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-762">Description</span></span> |
+| <span data-ttu-id="c3025-884">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-884">Name</span></span> | <span data-ttu-id="c3025-885">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-885">Type</span></span> | <span data-ttu-id="c3025-886">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-886">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-763">userId</span><span class="sxs-lookup"><span data-stu-id="ba8a5-763">userId</span></span> | `string` |  <span data-ttu-id="ba8a5-764">des Benutzers, dessen Profil angezeigt werden soll</span><span class="sxs-lookup"><span data-stu-id="ba8a5-764">of the user whose profile is to be shown</span></span> |
-| <span data-ttu-id="ba8a5-765">isMiniProfile</span><span class="sxs-lookup"><span data-stu-id="ba8a5-765">isMiniProfile</span></span> | `boolean` |  <span data-ttu-id="ba8a5-766">ob das Miniprofil zuerst angezeigt werden soll</span><span class="sxs-lookup"><span data-stu-id="ba8a5-766">whether to show mini-profile first</span></span> |
-| <span data-ttu-id="ba8a5-767">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-767">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-768">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-768">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-769">\*@param {Boolean} Erfolg true, wenn erfolgreich, andernfalls false</span><span class="sxs-lookup"><span data-stu-id="ba8a5-769">\* @param {boolean} success true if successful, false otherwise</span></span><br><br><span data-ttu-id="ba8a5-770">\*@param {string}-Fehlermeldung im Fehlerfall, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="ba8a5-770">\* @param {string} error message in case of error, null otherwise</span></span> |
+| <span data-ttu-id="c3025-887">userId</span><span class="sxs-lookup"><span data-stu-id="c3025-887">userId</span></span> | `string` |  <span data-ttu-id="c3025-888">des Benutzers, dessen Profil angezeigt werden soll</span><span class="sxs-lookup"><span data-stu-id="c3025-888">of the user whose profile is to be shown</span></span> |
+| <span data-ttu-id="c3025-889">isMiniProfile</span><span class="sxs-lookup"><span data-stu-id="c3025-889">isMiniProfile</span></span> | `boolean` |  <span data-ttu-id="c3025-890">ob das Miniprofil zuerst angezeigt werden soll</span><span class="sxs-lookup"><span data-stu-id="c3025-890">whether to show mini-profile first</span></span> |
+| <span data-ttu-id="c3025-891">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-891">callback</span></span> | `function` |  <span data-ttu-id="c3025-892">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-892">with below parameters:</span></span><br><br><span data-ttu-id="c3025-893">\*@param {Boolean} Success true, wenn erfolgreich, andernfalls false</span><span class="sxs-lookup"><span data-stu-id="c3025-893">\* @param {boolean} success true if successful, false otherwise</span></span><br><br><span data-ttu-id="c3025-894">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-894">\* @param {string} error message in case of error, null otherwise</span></span> |
 
-<span data-ttu-id="ba8a5-771">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-771">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-895">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-895">**Returns:** `void`</span></span>
 
 ___
-
 <a id="startchatasync"></a>
 
-###  <a name="startchatasync"></a><span data-ttu-id="ba8a5-772">startChatAsync</span><span class="sxs-lookup"><span data-stu-id="ba8a5-772">startChatAsync</span></span>
+###  <a name="startchatasync"></a><span data-ttu-id="c3025-896">startChatAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-896">startChatAsync</span></span>
 
-<span data-ttu-id="ba8a5-773">▸ **startChatAsync**(UserID: *`string`*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-773">▸ **startChatAsync**(userId: *`string`*, callback: *`function`*): `void`</span></span>
+<span data-ttu-id="c3025-897">▸ **startChatAsync**(UserID: *`string`*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-897">▸ **startChatAsync**(userId: *`string`*, callback: *`function`*): `void`</span></span>
 
-<span data-ttu-id="ba8a5-774">Startet den Chat mit einem Benutzer</span><span class="sxs-lookup"><span data-stu-id="ba8a5-774">Starts chat with a user</span></span>
+<span data-ttu-id="c3025-898">Startet den Chat mit einem Benutzer</span><span class="sxs-lookup"><span data-stu-id="c3025-898">Starts chat with a user</span></span>
 
-<span data-ttu-id="ba8a5-775">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="ba8a5-775">**Parameters:**</span></span>
+<span data-ttu-id="c3025-899">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-899">**Parameters:**</span></span>
 
-| <span data-ttu-id="ba8a5-776">Name</span><span class="sxs-lookup"><span data-stu-id="ba8a5-776">Name</span></span> | <span data-ttu-id="ba8a5-777">Typ</span><span class="sxs-lookup"><span data-stu-id="ba8a5-777">Type</span></span> | <span data-ttu-id="ba8a5-778">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="ba8a5-778">Description</span></span> |
+| <span data-ttu-id="c3025-900">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-900">Name</span></span> | <span data-ttu-id="c3025-901">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-901">Type</span></span> | <span data-ttu-id="c3025-902">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-902">Description</span></span> |
 | ------ | ------ | ------ |
-| <span data-ttu-id="ba8a5-779">userId</span><span class="sxs-lookup"><span data-stu-id="ba8a5-779">userId</span></span> | `string` |  <span data-ttu-id="ba8a5-780">des Benutzers</span><span class="sxs-lookup"><span data-stu-id="ba8a5-780">of the user</span></span> |
-| <span data-ttu-id="ba8a5-781">callback</span><span class="sxs-lookup"><span data-stu-id="ba8a5-781">callback</span></span> | `function` |  <span data-ttu-id="ba8a5-782">mit folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="ba8a5-782">with below parameters:</span></span><br><br><span data-ttu-id="ba8a5-783">\*@param {Boolean} Erfolg</span><span class="sxs-lookup"><span data-stu-id="ba8a5-783">\* @param {boolean} success</span></span><br><br><span data-ttu-id="ba8a5-784">\*@param {String}-Fehler</span><span class="sxs-lookup"><span data-stu-id="ba8a5-784">\* @param {string} error</span></span> |
+| <span data-ttu-id="c3025-903">userId</span><span class="sxs-lookup"><span data-stu-id="c3025-903">userId</span></span> | `string` |  <span data-ttu-id="c3025-904">des Benutzers</span><span class="sxs-lookup"><span data-stu-id="c3025-904">of the user</span></span> |
+| <span data-ttu-id="c3025-905">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-905">callback</span></span> | `function` |  <span data-ttu-id="c3025-906">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-906">with below parameters:</span></span><br><br><span data-ttu-id="c3025-907">\*@param {Boolean} Success</span><span class="sxs-lookup"><span data-stu-id="c3025-907">\* @param {boolean} success</span></span><br><br><span data-ttu-id="c3025-908">\*@param {String}-Fehler</span><span class="sxs-lookup"><span data-stu-id="c3025-908">\* @param {string} error</span></span> |
 
-<span data-ttu-id="ba8a5-785">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="ba8a5-785">**Returns:** `void`</span></span>
+<span data-ttu-id="c3025-909">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-909">**Returns:** `void`</span></span>
+
+___
+<a id="updateactionlocalcacheasync"></a>
+
+###  <a name="updateactionlocalcacheasync"></a><span data-ttu-id="c3025-910">updateActionLocalCacheAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-910">updateActionLocalCacheAsync</span></span>
+
+<span data-ttu-id="c3025-911">▸ **updateActionLocalCacheAsync**(actionLocalCacheProps: *[KASActionLocalCacheProp](../classes/kasclient.kasactionlocalcacheprop.md)*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-911">▸ **updateActionLocalCacheAsync**(actionLocalCacheProps: *[KASActionLocalCacheProp](../classes/kasclient.kasactionlocalcacheprop.md)*, callback: *`function`*): `void`</span></span>
+
+<span data-ttu-id="c3025-912">Aktualisiert/speichert den angegebenen Wert für den Schlüssel in den lokalen Datencache</span><span class="sxs-lookup"><span data-stu-id="c3025-912">Updates/saves the given value against key to the local data cache</span></span>
+
+<span data-ttu-id="c3025-913">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-913">**Parameters:**</span></span>
+
+| <span data-ttu-id="c3025-914">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-914">Name</span></span> | <span data-ttu-id="c3025-915">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-915">Type</span></span> | <span data-ttu-id="c3025-916">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-916">Description</span></span> |
+| ------ | ------ | ------ |
+| <span data-ttu-id="c3025-917">actionLocalCacheProps</span><span class="sxs-lookup"><span data-stu-id="c3025-917">actionLocalCacheProps</span></span> | [<span data-ttu-id="c3025-918">KASActionLocalCacheProp</span><span class="sxs-lookup"><span data-stu-id="c3025-918">KASActionLocalCacheProp</span></span>](../classes/kasclient.kasactionlocalcacheprop.md) |  <span data-ttu-id="c3025-919">Eigenschaft der Daten, die im Cache gespeichert werden sollen</span><span class="sxs-lookup"><span data-stu-id="c3025-919">property of data to be saved in cache</span></span> |
+| <span data-ttu-id="c3025-920">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-920">callback</span></span> | `function` |  <span data-ttu-id="c3025-921">Rückruf mit den folgenden para \* \* Metern: @param {Boolean} Success gibt an, ob das Update \* \* erfolgreich war oder nicht @param {string} Error JSON String for the KASError-Objekt mit Fehlercode und/oder Beschreibung.</span><span class="sxs-lookup"><span data-stu-id="c3025-921">callback with below parameters: \*\* @param {boolean} success indicates if the update is successful or not \*\* @param {string} error json string for the KASError object containing error code and/or description.</span></span> |
+
+<span data-ttu-id="c3025-922">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-922">**Returns:** `void`</span></span>
+
+___
+<a id="updatetenantuserprofileasync"></a>
+
+###  <a name="updatetenantuserprofileasync"></a><span data-ttu-id="c3025-923">updateTenantUserProfileAsync</span><span class="sxs-lookup"><span data-stu-id="c3025-923">updateTenantUserProfileAsync</span></span>
+
+<span data-ttu-id="c3025-924">▸ **updateTenantUserProfileAsync**(attributeDataList: \* [TenantAttributeData](../classes/kasclient.tenantattributedata.md)[]\*, Callback: *`function`*):`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-924">▸ **updateTenantUserProfileAsync**(attributeDataList: *[TenantAttributeData](../classes/kasclient.tenantattributedata.md)[]*, callback: *`function`*): `void`</span></span>
+
+<span data-ttu-id="c3025-925">Aktualisiert die Mandanten Attribute des aktuellen Benutzers.</span><span class="sxs-lookup"><span data-stu-id="c3025-925">Updates the tenant attributes of the current user.</span></span> <span data-ttu-id="c3025-926">Der Mandant der Unterhaltung im Kontext wird hierfür verwendet.</span><span class="sxs-lookup"><span data-stu-id="c3025-926">Tenant of the conversation in context will be used for this.</span></span>
+#### <a name="note"></a><span data-ttu-id="c3025-927">Hinweis</span><span class="sxs-lookup"><span data-stu-id="c3025-927">Note</span></span>
+
+<span data-ttu-id="c3025-928">Die Aktion sollte zum gleichen Mandanten der Unterhaltung gehören, und der Benutzer muss bei diesem Mandanten angemeldet sein, damit diese API funktioniert.</span><span class="sxs-lookup"><span data-stu-id="c3025-928">The Action should belong to the same tenant of the conversation and the user needs to be logged into that tenant for this api to work</span></span>
+
+#### <a name="sample-usage"></a><span data-ttu-id="c3025-929">Beispiel Verwendung</span><span class="sxs-lookup"><span data-stu-id="c3025-929">Sample Usage</span></span>
+
+```
+var tenantAttributeDataList = [
+    new KASClient.TenantAttributeData("attribute_id_1", "AttributeValue1"),
+    new KASClient.TenantAttributeData("attribute_id_2", "AttributeValue2")
+];
+KASClient.App.updateTenantUserProfileAsync(tenantAttributeDataList, function(success, error) {
+    if (error == null && success) {
+        console.log("SUCCESS");
+    }
+});
+```
+
+<span data-ttu-id="c3025-930">**Parameter:**</span><span class="sxs-lookup"><span data-stu-id="c3025-930">**Parameters:**</span></span>
+
+| <span data-ttu-id="c3025-931">Name</span><span class="sxs-lookup"><span data-stu-id="c3025-931">Name</span></span> | <span data-ttu-id="c3025-932">Typ</span><span class="sxs-lookup"><span data-stu-id="c3025-932">Type</span></span> | <span data-ttu-id="c3025-933">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="c3025-933">Description</span></span> |
+| ------ | ------ | ------ |
+| <span data-ttu-id="c3025-934">attributeDataList</span><span class="sxs-lookup"><span data-stu-id="c3025-934">attributeDataList</span></span> | <span data-ttu-id="c3025-935">[TenantAttributeData](../classes/kasclient.tenantattributedata.md) []</span><span class="sxs-lookup"><span data-stu-id="c3025-935">[TenantAttributeData](../classes/kasclient.tenantattributedata.md)[]</span></span> |  <span data-ttu-id="c3025-936">Mandanten Attribut-ID-Wert-Paare</span><span class="sxs-lookup"><span data-stu-id="c3025-936">tenant attribute id-value pairs</span></span> |
+| <span data-ttu-id="c3025-937">callback</span><span class="sxs-lookup"><span data-stu-id="c3025-937">callback</span></span> | `function` |  <span data-ttu-id="c3025-938">mit den folgenden Parametern:</span><span class="sxs-lookup"><span data-stu-id="c3025-938">with below parameters:</span></span><br><br><span data-ttu-id="c3025-939">\*@param {Boolean} Success true, wenn erfolgreich, andernfalls false</span><span class="sxs-lookup"><span data-stu-id="c3025-939">\* @param {boolean} success true if successful, false otherwise</span></span><br><br><span data-ttu-id="c3025-940">\*@param {string} Fehlermeldung im Falle eines Fehlers, andernfalls NULL</span><span class="sxs-lookup"><span data-stu-id="c3025-940">\* @param {string} error message in case of error, null otherwise</span></span> |
+
+<span data-ttu-id="c3025-941">**Gibt Folgendes zurück:**`void`</span><span class="sxs-lookup"><span data-stu-id="c3025-941">**Returns:** `void`</span></span>
 
 ___
 
