@@ -1,53 +1,53 @@
 # <a name="data-residency-and-go-local-support-in-microsoft-kaizala"></a>Daten Wohnsitz und lokale Unterstützung in Microsoft Kaizala
 
-Ab April 2019 wird Microsoft Kaizala den regionalen Daten-Residency-Support über die Rechenzentren in Europa (EU), Asien-Pazifik (APAC), USA (USA) und Indien (IN) bereitstellen. Dies hat zur Folge, dass Kaizala-Kundendaten im Zusammenhang mit [Organisations Chats und Gruppen](https://support.office.com/article/organization-chats-and-groups-in-kaizala-c8a7855c-d232-4914-811c-f6708734dcc3) wie Nachrichten, Anlagen und Kaizala-Aktionen haben, die im Rechenzentrum ihrer Abrechnungs Region gespeichert werden.
+Derzeit bietet Microsoft Kaizala den regionalen Daten Wohnsitz Unterstützung über die Rechenzentren in Europa (EU), den asiatisch-pazifischen Raum (APAC), USA (USA) und Indien (in). Dies bedeutet, dass Kaizala-Kunden über Daten im Zusammenhang mit [Organisations Chats und Gruppen](https://support.office.com/article/organization-chats-and-groups-in-kaizala-c8a7855c-d232-4914-811c-f6708734dcc3) wie Nachrichten, Anlagen und Kaizala-Aktionen verfügen, die im Rechenzentrum ihrer Abrechnungs Region gespeichert sind.
 
-Zusätzlich zur Unterstützung der Ziele von Data Residency innerhalb der Region können Kaizala-Dienst Datencenter auch Failover-und Notfallwiederherstellung über die Rechenzentren erleichtern.
+Zusätzlich zur Unterstützung der Ziele des Daten Aufenthalts innerhalb der Region erleichtern Kaizala-Dienst-Rechenzentren auch das Failover und die Notfallwiederherstellung über die Rechenzentren.
 
-## <a name="global-datacenter-footprint-with-data-residency-support"></a>Globaler Datencenter-Footprint mit Data Residency-Unterstützung
+## <a name="global-datacenter-footprint-with-data-residency-support"></a>Globales Rechenzentrums-Footprint mit Unterstützung für Daten Residency
 
-Derzeit verfügt Kaizala über acht Rechenzentren (Primary und Backup) in drei Regionen und einem Land:
+Derzeit verfügt Kaizala über acht Rechenzentren (Primär und Sicherung) in drei Regionen und einem Land:
 
-- APAC (bedient Asien-Pazifik außer Indien)-Rechenzentren in Singapur und Hongkong
-- EMEA (EU, MEA)-Rechenzentren in Dublin und Amsterdam
-- AMER (Nord-und Südamerika)-Rechenzentren in Texas und Illinois
-- Indien (go-local)-Rechenzentren in Chennai und Pune
+- APAC (dient dem asiatisch-pazifischen Raum außer Indien)-Rechenzentren in Singapur und Hong Kong
+- EMEA (EU, MEA) – Rechenzentren in Dublin und Amsterdam
+- Amer (North and South Americas) – Rechenzentren in Texas und Illinois
+- Indien (go-local) – Rechenzentren in Chennai und Pune
 
-Neben der Bereitstellung von COMPUTE und Storage bietet Kaizala auch Unterstützung für Daten Residency, robustes Failover und Notfallwiederherstellung für Unternehmenskunden. Außerdem können diese Skalierungseinheiten sowohl für Unternehmens-als auch für allgemeine Kunden eine verbesserte Konnektivität und Messagingleistung sicherstellen. 
+Neben der Bereitstellung von COMPUTE und Speicher bietet Kaizala auch Daten Wohnsitz Unterstützung, robustes Failover und Unterstützung für die Notfallwiederherstellung für Unternehmenskunden. Diese Skalierungseinheiten ermöglichen außerdem eine verbesserte Konnektivität und Messagingleistung für Unternehmens-und allgemeine Kunden. 
 
-![Grafik mit Daten Wohnsitz und lokalen Geo-Begrenzungen in Kaizala](Images/data-residency-geo-boundaries.png)
+![Grafik mit Daten Wohnsitz und lokalen Geo-Grenzen in Kaizala](Images/data-residency-geo-boundaries.png)
 
 ## <a name="how-is-data-stored-in-kaizala"></a>Wie werden Daten in Kaizala gespeichert?
 
-Kaizala speichert Daten basierend auf den Datentypen der Nachrichten unterschiedlich.
+Kaizala speichert Daten basierend auf den Datentypen der Nachrichten anders.
 
-- **Chats, likes und comments** -alle Nachrichten, Vorlieben und Kommentardaten, die zu Organisationsgruppen-oder org 1:1-Chats gehören, werden in einem sicheren Office 365-und Azure powered Chat-Dienst gespeichert, der auf der Grundlage ihres Abrechnungs Landes Regional begrenzt ist.
-- **Attachments** – alle Anlagen befinden sich zusammen mit Chatnachrichten in derselben Daten Grenze.
-- **Kaizala Action Cards** -alle Kaizala-Aktionskarten Daten, die Metadaten, Aktionspaket und Antwort Berichtsdaten enthalten, sind mit Chatdienst in derselben Daten Grenze zusammengefunden.
-- **Calling** -Transient, Kaizala-Anrufdaten werden nicht in Rechenzentren gespeichert. Anrufprotokolle folgen jedoch denselben Daten Wohnsitz wie Chats.
+- **Chats, likes und Kommentare** – alle Nachrichten, Vorlieben und Kommentardaten, die zu Organisationsgruppen-oder org 1:1-Chats gehören, werden in einem sicheren Office 365-und Azure powered-Chatdienst gespeichert, der basierend auf dem jeweiligen Abrechnungs Land für Mandanten begrenzt ist.
+- **Attachments** -alle Anlagen befinden sich zusammen mit Chatnachrichten in derselben Daten Grenze.
+- **Kaizala-Aktionskarten** -alle Kaizala-Aktionskarten Daten, die Metadaten, Aktionspakete und Antwort Berichtsdaten enthalten, werden mit dem Chatdienst in derselben Daten Grenze zusammengefunden.
+- **** Kaizala-Anrufdaten werden vorübergehend nicht in Rechenzentren gespeichert. Anrufprotokolle verfolgen jedoch dieselben Daten wie Chats.
 
 ### <a name="example"></a>Beispiel
 
-Contoso hat sein Office 365-Abrechnungs Land in der EU. Contoso hat sich auf Kaizala im April 2019 angemeldet, und alle Kern Daten, einschließlich Chats, Anlagen und Aktionskarten, werden in Ruhe ausschließlich in EU-Einheiten (Dublin und Amsterdam) gespeichert.
+Contoso verfügt über ein Office 365-Abrechnungs Land in der EU. Contoso hat sich im April 2019 bei Kaizala angemeldet, und alle seine Kern Daten einschließlich Chats, Anlagen und Aktionskarten werden in Rest ausschließlich in EU-Skaleneinheiten (Dublin und Amsterdam) gespeichert.
 
-## <a name="what-is-in-store-in-future"></a>Was ist in der Zukunft?
+## <a name="what-is-in-store-in-future"></a>Was wird in Zukunft gespeichert?
 
-- Onboarding auf der Seite für die **Datenspeicherort** -für Unternehmen ist der Datenspeicherort für unterschiedliche Arbeitsauslastungen von Office 365 unter dem Office 365-Administratorportal unter Home\Organizational-Profil sichtbar. Die Möglichkeit zur Onboarding-Kaizala auf der Seite Datenspeicherort im Administratorportal wird angezeigt. In diesem Abschnitt finden Sie Updates.
-- **Neue Rechenzentren** – das Kaizala-Team beruht ständig auf der Erweiterung der Benutzerfreundlichkeit. Wenn Sie einen geschäftlichen Fall haben, veröffentlichen Sie Ihre Fragen in unserer [TechNet-Community](https://techcommunity.microsoft.com/t5/Microsoft-Kaizala/ct-p/MicrosoftKaizala).
+- **Onboarding auf der Seite "Datenspeicherort"** – für Unternehmen ist der Datenspeicherort für unterschiedliche Arbeitsauslastungen von Office 365 unter Office 365 Verwaltungsportal unter Home\Organizational-Profil sichtbar. Die Möglichkeit zum Onboarding von Kaizala auf der Seite "Datenspeicherort" im Verwaltungsportal wird demnächst angezeigt. Sehen Sie sich diesen Abschnitt für Updates an.
+- **Neue Rechenzentren** : das Kaizala-Team untersucht kontinuierlich die Erweiterung, basierend auf der Bereitstellung der besten Benutzeroberfläche für Benutzer. Wenn Sie einen Geschäftsfall haben, veröffentlichen Sie Ihre Fragen in unserer [TechNet-Community](https://techcommunity.microsoft.com/t5/Microsoft-Kaizala/ct-p/MicrosoftKaizala).
 
-## <a name="faqs"></a>Häufig gestellte Fragen (FAQs)
+## <a name="faqs"></a>FAQs
 
-### <a name="what-does-it-mean-for-existing-enterprise-customers"></a>Was bedeutet dies für bestehende Unternehmenskunden?
+### <a name="what-does-it-mean-for-existing-enterprise-customers"></a>Was bedeutet es für vorhandene Unternehmenskunden?
 
-Bestehende Kunden in Indien haben bereits Ihren Daten Wohnsitz in Indien. Daten für alle nicht von Indien bestehenden Mandanten bleiben jedoch weiterhin am Gruppen Standort (basierend auf dem Landescode des Erstellers). Nach dem 2019. April beginnen jedoch alle neueren Organisationsgruppen und Nachrichten vorhandener Organisationsgruppen oder Chats nach Daten Wohnsitz basierend auf der Abrechnungs Region des Mandanten.
+Bestehende Kunden in Indien haben bereits Ihren Daten Wohnsitz in Indien. Daten für alle nicht in Indien vorhandenen Mandanten bleiben jedoch weiterhin am Gruppen Standort (basierend auf dem Landescode des Erstellers). Nach dem 2019. April beginnen jedoch alle neueren Organisationsgruppen und Nachrichten vorhandener Organisationsgruppen oder Chats mit dem folgenden Daten Wohnsitz basierend auf der Abrechnungs Region des Mandanten.
 
-### <a name="what-does-it-mean-for-new-enterprise-customers"></a>Was bedeutet dies für neue Enterprise-Kunden?
+### <a name="what-does-it-mean-for-new-enterprise-customers"></a>Was bedeutet es für neue Unternehmenskunden?
 
-Der Daten Wohnsitz wird automatisch für alle Kunden angewendet, die sich nach April 2019 auf Kaizala registrieren. Darüber hinaus sollte auf den neuesten Android-oder iOS-App-Versionen der Daten Wohnsitz auf Aktionskarten angewendet werden.
+Der Daten Wohnsitz wird automatisch für alle Kunden, die sich bei Kaizala nach April 2019 registrieren, angewendet. Außerdem sollte der Daten Wohnsitz auf Aktionskarten auf den neuesten Android-oder IOS-App-Versionen anwendbar sein.
  
-### <a name="i-do-have-more-questions-who-do-i-reach-out-to"></a>Ich habe noch weitere Fragen. An wen kann ich mich wenden?
+### <a name="i-do-have-more-questions-who-do-i-reach-out-to"></a>Ich habe noch weitere Fragen. Wen kann ich erreichen?
 
-Wenn Sie weitere Fragen haben, wenden Sie sich an Ihr Account-Team oder unsere [TechNet-Community](https://techcommunity.microsoft.com/t5/Microsoft-Kaizala/ct-p/MicrosoftKaizala). Darüber hinaus können Sie in [Kaizalafeedback@microsoft.com](mailto:kaizalafeedback@microsoft.com)schreiben.
+Wenn Sie weitere Fragen haben, wenden Sie sich an Ihr Konto Team oder unsere [TechNet-Community](https://techcommunity.microsoft.com/t5/Microsoft-Kaizala/ct-p/MicrosoftKaizala). Darüber hinaus können Sie in [Kaizalafeedback@Microsoft.com](mailto:kaizalafeedback@microsoft.com)schreiben.
 
 
 
