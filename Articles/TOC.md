@@ -11,8 +11,8 @@
 ### [Connectors](connectors/README.md)
 ### [Kaizala-Aktionen](Actions/README.md)
 
-## QuickStarts
-### Verwenden von Connectors für die Integration in Kaizala
+## Quick Starts
+### Verwenden von Connectors zur Integration in Kaizala
 #### [Einrichten von Connectors](connectors/setup.md)
 #### [Generieren von Zugriffstoken](connectors/Tokens.md)
 #### [Rest-APIs](connectors/API.md)
@@ -24,7 +24,7 @@
 #### [Entwickeln](Actions/develop.md)
 #### [Publish](Actions/publish.md)
 
-## API-Verweise
+## API-Referenzen
 
 ### Kaizala-Rest-APIs
 #### [Authentifizierungs-APIs](https://docs.microsoft.com/en-us/rest/api/kaizala.microsoft.com/authentication%20apis)
@@ -48,27 +48,28 @@
 ### [Erstellen einer Aktion mithilfe von Aktions Vorlagen](https://support.office.com/en-us/article/Kaizala-Actions-1eacc59a-dd14-43e9-b6b0-3c78773d5496?ui=en-US&rs=en-US&ad=US)
 ### [Entwickeln einer benutzerdefinierten Aktion](Actions/tutorial.md)
 ### [Erstellen eines Flusses mithilfe von Kaizala](https://support.office.com/en-us/article/Integrate-your-workflow-in-Kaizala-using-Microsoft-Flow-883343d0-6b16-4725-a23d-bc69fb264356?ui=en-US&rs=en-US&ad=US)
-### [Verwenden des Kaizala-Office-Add-ins](https://support.office.com/en-us/article/Kaizala-Office-Add-in-4cd01439-5da2-4a9f-b493-8f2e23e2fd91)
+### [Verwenden von Kaizala Office-Add-ins](https://support.office.com/en-us/article/Kaizala-Office-Add-in-4cd01439-5da2-4a9f-b493-8f2e23e2fd91)
 
-# Connectors & Add-Ins für die Integration in andere Geschäfts-apps
+# Connectors #a0-Add-Ins zur Integration in andere Business-Apps
 ## [Erstellen von Geschäftsworkflows mithilfe von Flow Connector und Kaizala](PartnerDocs/IntegrateKaizalaandMailflow.md)
-## [PowerBI-Inhaltspaket für Kaizala](https://support.office.com/en-us/article/Kaizala-content-pack-c8f9ab98-e840-4fd9-9afd-415474db8fd9)
-## [Kaizala Office-AddIn](PartnerDocs/ExcelAddinforKaizala.md)
+## [PowerBI Content Pack für Kaizala](https://support.office.com/en-us/article/Kaizala-content-pack-c8f9ab98-e840-4fd9-9afd-415474db8fd9)
+## [Kaizala-Office-AddIn](PartnerDocs/ExcelAddinforKaizala.md)
 
 # Geschäftslösungen mit Kaizala
 ## [Unternehmenskommunikation](BusinessSolutions/CorporateCommunications/CorporateCommunications.md)
 ### [Anzeigen von RSS-Feeds in Kaizala-Gruppen](BusinessSolutions/CorporateCommunications/GetRSSFeedsonKaizala/DisplayRSSFeedsinKaizalagroups.md)
-### [Anzeigen von SharePoint-Ansagen in Kaizala-Gruppen](BusinessSolutions/CorporateCommunications/SharepointAnnouncementsonKaizala/DisplaySharepointAnnouncements.md)
-### [Automatisches Veröffentlichen von Twitter-Updates für Kaizala](BusinessSolutions/CorporateCommunications/AutoPostTwitterUpdatesToKaizala/AutoPostTwitterUpdatesToKaizala.md)
+### [Anzeigen von SharePoint-Ankündigungen in Kaizala-Gruppen](BusinessSolutions/CorporateCommunications/SharepointAnnouncementsonKaizala/DisplaySharepointAnnouncements.md)
+### [Auto-Post Twitter Updates to Kaizala](BusinessSolutions/CorporateCommunications/AutoPostTwitterUpdatesToKaizala/AutoPostTwitterUpdatesToKaizala.md)
 ## [Leben am Arbeitsplatz](BusinessSolutions/Life%40Work/Life%40Work.md)
 ### [Mitarbeiter-Helpdesk](BusinessSolutions/Life%40Work/EmployeeHelpDesk/EmployeeHelpDesk.md)
-### [Leistungssteigerung mit Leaderboard](BusinessSolutions/Life%40Work/Leaderboard/Leaderboard.md)
+### [Drive Performance mit Leaderboard](BusinessSolutions/Life%40Work/Leaderboard/Leaderboard.md)
+### [Strukturierte Antworten auf Ihre Fragen von Kollegen erhalten](BusinessSolutions/Life%40Work/QnA/QnA.md)
 ## [Integrieren von Kaizala-Daten in Ihre benutzerdefinierten Dashboards](PartnerDocs/IntegratingKaizalaData.md)
 
 
 # Sicherheit, Datenschutz und Compliance
 ## [Übersicht](PartnerDocs/SecurityOverview.md)
-## [Sicherheit für Endkunden](PartnerDocs/SecurityFeaturesforendcustomers.md)
+## [Sicherheit für Endbenutzer](PartnerDocs/SecurityFeaturesforendcustomers.md)
 ## [Sicherheit](PartnerDocs/Security.md)
 ## [Datenschutz](PartnerDocs/Privacy.md)
 ## [Compliance](PartnerDocs/Compliance.md)
@@ -76,10 +77,10 @@
 
 
 # Schulung und Support
-## [Endbenutzerschulungen](https://support.office.com/en-us/article/Kaizala-training-987b5e60-e32a-44e8-8c71-c891a2a3d8f0)
-## [IT-Administrator-&-Entwicklerschulungen](PartnerDocs/PartnerTrainings.md)
+## [Schulungen für Endbenutzer](https://support.office.com/en-us/article/Kaizala-training-987b5e60-e32a-44e8-8c71-c891a2a3d8f0)
+## [IT-Administrator #a0 Entwicklerschulungen](PartnerDocs/PartnerTrainings.md)
 ## [FAQs für Entwickler](FAQ.md)
 ## [Wichtige Änderungen](BreakingChanges.md)
-## [Entwickler Changelist](DevChangelist.md)
-## [Support für Feedback &](feedback.md)
+## [Entwickler Änderungsliste](DevChangelist.md)
+## [Feedback #a0 Support](feedback.md)
 ## [Nutzungsbedingungen](Licenses.md)
