@@ -63,7 +63,7 @@
 ## [Leben am Arbeitsplatz](BusinessSolutions/Life%40Work/Life%40Work.md)
 ### [Mitarbeiter-Helpdesk](BusinessSolutions/Life%40Work/EmployeeHelpDesk/EmployeeHelpDesk.md)
 ### [Drive Performance mit Leaderboard](BusinessSolutions/Life%40Work/Leaderboard/Leaderboard.md)
-### [Strukturierte Antworten auf Ihre Fragen von Kollegen erhalten](BusinessSolutions/Life%40Work/QnA/QnA.md)
+### [Strukturierte Antworten auf Ihre Fragen von Kollegen erhalten](https://docs.microsoft.com/en-us/kaizala/businesssolutions/life@work/qna/qna)
 ## [Integrieren von Kaizala-Daten in Ihre benutzerdefinierten Dashboards](PartnerDocs/IntegratingKaizalaData.md)
 
 
