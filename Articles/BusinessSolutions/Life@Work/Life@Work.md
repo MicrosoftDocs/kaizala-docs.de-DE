@@ -7,4 +7,4 @@ Unter Lösungen können Sie eine integrative Community erstellen:
 
 1. [Mitarbeiter-Helpdesk](https://docs.microsoft.com/en-us/kaizala/businesssolutions/life%40work/employeehelpdesk/employeehelpdesk)
 2. [Drive Performance mit Leaderboard](https://docs.microsoft.com/en-us/kaizala/businesssolutions/life%40work/leaderboard/leaderboard)
-3. [Strukturierte Antworten auf Ihre Fragen von Kollegen erhalten](https://docs.microsoft.com/en-us/kaizala/businesssolutionslife%40work/QnA/QnA)
+3. [Strukturierte Antworten auf Ihre Fragen von Kollegen erhalten](https://docs.microsoft.com/en-us/kaizala/businesssolutions/life@work/qna/qna)
