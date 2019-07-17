@@ -1,8 +1,10 @@
 # <a name="get-structured-answers-to-your-questions-from-co-workers"></a>Strukturierte Antworten auf Ihre Fragen von Kollegen erhalten
 
-Gruppenchats können manchmal verwirrend sein, vor allem dann, wenn es sich um eine große Community handelt, die gleichzeitig kommuniziert. Die Antworten auf Fragen können den Fluss unterbrechen und Endbenutzer würden Informationen verpassen, vor allem dann, wenn die Fragen mit Unternehmensrichtlinien, Zielen und Projekten zusammenhängen, um nur einige zu nennen.
+Das Erhöhen der Mitarbeiterbindung ist für den Erfolg jeder Organisation entscheidend – sei es ein kleiner Startup oder ein großes Unternehmen, das über mehrere Standorte hinweg betrieben wird. Es kann für Führungskräfte und Führungskräfte eine Herausforderung sein, zu erfahren, wie die Mitarbeiter über Unternehmensrichtlinien, Projekte, Aufträge und zugewiesene Aufgaben informiert sind.
 
-Mit der QnA-Karte können Benutzer Fragen an den Rest der Community stellen und alle Antworten in einem strukturierten Format anzeigen.
+Mit dem Zuwachs an mobilen Mitarbeitern, die solche QnA-Sitzungen mit Managern durchführen, können Sie unterwegs noch schwieriger sein. Wenn Sie auf QnA-Sitzung im mobilen Chat zurückgreifen, können die Antworten auf Fragen den Fluss unterbrechen, und Endbenutzer können Informationen nicht verpassen.
+
+Mit der QnA-Karte können Benutzer Fragen an Vorgesetzte und Rest der Community stellen. alle Antworten werden in einem strukturierten Format angezeigt.
 
 Dies ist eine einfache Karte mit einer Erstellungsansicht, die es dem Benutzer ermöglicht, eine Frage, eine Kartenansicht für Benutzer zu übermitteln, um den neuesten Kommentar anzuzeigen, sowie eine Zusammenfassungsansicht, mit der Benutzer die Diskussion anzeigen und daran teilnehmen können.
 
