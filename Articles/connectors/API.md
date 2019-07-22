@@ -3,12 +3,12 @@ title: Kaizala-APIs
 description: Liste der APIs, die von Kaizala verfügbar gemacht werden, um die Integration mit Drittanbietersystemen zu ermöglichen
 topic: Reference
 author: nitinjms
-ms.openlocfilehash: 221d421feeeb2528f185fa205c7cfa81207a8478
-ms.sourcegitcommit: 7f642489150d68013f55d6ad11a6bd6dde185036
+ms.openlocfilehash: c46e15ec9bd88ebbaf1d0d1a1241f1bfd892c00a
+ms.sourcegitcommit: 19e8481e67d9178efb7ea6ca19831ee7a9fa4a8b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "35535684"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "35811960"
 ---
 # <a name="kaizala-api-documentation"></a>Kaizala-API-Dokumentation
 
@@ -24,7 +24,9 @@ Die Stammdomäne zum Aufrufen der Kaizala-APIs lautet:
 | :---: | :---: | :---: | :---: | :--- |
 | Endpunkt-URL  | `endpoint-url`        | String    | Nein            | Bei erfolgreicher Authentifizierung beim Generieren von Zugriffstoken wird eine Endpunkt-URL zurückgegeben, die als API-base-URL für nachfolgende API-Aufrufe verwendet werden sollte.    |
 
-Beachten Sie, dass Sie beim Treffen einer beliebigen Kaizala-API den HTTP-Statuscode: 308 abrufen können, der angibt, dass die Endpunkt-URL des Benutzers geändert wurde. In diesem Fall wird der Speicherort der Antwort Kopfzeile die neue Endpunkt-URL enthalten.
+> Während Sie auf eine beliebige Kaizala-API treffen, können Sie den HTTP-Statuscode: 308 abrufen, der angibt, dass die Endpunkt-URL des Benutzers geändert wurde. In diesem Fall wird der Speicherort der Antwort Kopfzeile die neue Endpunkt-URL enthalten.
+
+> **Anregung:** Clients können Timeout für den Empfang von Antworten von Kaizala-APIs bei 1 min konfigurieren.
 
 ### <a name="api-end-points"></a>End-Points-API
 
