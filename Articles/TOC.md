@@ -1,10 +1,8 @@
     
 # Erste Schritte
-## [Übersicht über die Kaizala-App](PartnerDocs/Kaizala_overview.md)
-## [Übersicht über das Kaizala-Verwaltungs Portal](PartnerDocs/KaizalaManagementPortal.md)
-## [Kaizala-Gruppen](PartnerDocs/GroupsinKaizala.md)
-## [Kaizala-Aktionen](PartnerDocs/KaizalaActionCards.md)
-## [Kaizala-Verfügbarkeit und Download Links](PartnerDocs/KaizalaDownloadlinks.md)
+## [Übersicht über die Kaizala-App](https://support.office.com/en-us/article/get-to-know-kaizala-22700f1d-274f-4533-8956-247c733f6ae6)
+## [Übersicht über das Kaizala-Verwaltungs Portal](https://docs.microsoft.com/en-us/Office365/Kaizala/kaizala-management-portal)
+## [Kaizala-Verfügbarkeit und Download Links](https://docs.microsoft.com/en-us/Office365/Kaizala/regional-availability)
 
 # Entwicklerplattform
 ## [Informationen zur Microsoft Kaizala-Entwicklerplattform](developer-platform.md)
