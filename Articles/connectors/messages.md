@@ -1,38 +1,38 @@
 ---
-title: /Messages
-description: Referenzartikel zur API zum Abfragen von Nachrichten, die an Ina Group gesendet wurden
+title: /messages
+description: Referenzartikel zur API zum Abfragen von Nachrichten, die von Ina Group gesendet werden
 topic: Reference
 author: nitinjms
-ms.openlocfilehash: 8efad3236e852276e11c3052f98ac6f1d5541b0a
-ms.sourcegitcommit: 973f754fdb7c93381f808632f47fe66a46cc069e
+ms.openlocfilehash: 64d694e067336a7da0c08ea116498086ee5650ce
+ms.sourcegitcommit: 9e57984827280ed977019d33dd78b1ce5e3097fc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/24/2019
-ms.locfileid: "33190712"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40809431"
 ---
-# <a name="messages"></a>/Messages
+# <a name="messages"></a>/messages
 
-API-Endpunkt zum Senden von Nachrichten an unterhaltungsgruppen innerhalb von Kaizala.
+API-Endpunkt zum Senden von Nachrichten an unterhaltungsgruppen in Kaizala.
 
-## <a name="post-messages"></a>POST/Messages
+## <a name="post-messages"></a>Post/Messages
 
     POST {endpoint-url}/v1/groups/{groupId}/messages
 
-### <a name="request-parameters"></a>AnforderungsParameter
+### <a name="request-parameters"></a>Anforderungsparameter
 
 |  | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :---: | :---: | :--- |
-| URL-Pfad Parameter | groupId | String | Nein | GUID, die die Gruppen-ID der bestimmten Gruppenressource darstellt |
-| HTTP-Header | accessToken | String | Nein | Vom Endpunkt auth empfangenes Zugriffs Token |
-| HTTP-Header | Content-Type | String | Nein | Wert: Application/JSON |
+| URL-Pfad-Parameter | groupId | String | Nein | GUID, die die Gruppen-ID der bestimmten Gruppenressource darstellt. |
+| HTTP-Header | accessToken | String | Nein | Vom auth-Endpunkt empfangenes Zugriffs Token |
+| HTTP-Header | Content-Type | Zeichenfolge | Nein | Wert: Application/JSON |
 
 ### <a name="request-body"></a>Anforderungstext
 
 | Parameter | Typ | Optional? | Beschreibung |
 | :---: | :---: | :--- | :--- |
-| message | String | Nein | Zu sendende Text Nachricht (maximale Grenze von 1000 Zeichen) |
-| sendToAllSubscribers | Boolescher Wert | Ja | Standard: false. Gilt nur für den Fall, dass die Gruppen-zu einer öffentlichen Gruppe gehört. True, um die Textnachricht an alle Abonnenten zu senden, für die der Benutzer des Tokens als Administrator der öffentlichen Gruppe erforderlich ist. |
-| Abonnenten | String [] | Ja | Jedes Element entspricht einer Mobiltelefonnummer (mit Landesvorwahl. EG. + 911999999999). Text Nachricht wird nur an die ausgewählten Abonnenten gesendet. Zur selektiven Kommunikation mit Abonnenten im Kontext einer öffentlichen Gruppe |
+| message | String | Nein | Zu sendende Text Nachricht (maximale Grenze von 4000 Zeichen) |
+| sendToAllSubscribers | Boolescher Wert | Ja | Default: false. Gilt nur für den Fall, dass die Gruppen-Nr zu einer öffentlichen Gruppe gehört. True, wenn die Textnachricht an alle Abonnenten gesendet werden soll, für die der Benutzer des Tokens Administrator der öffentlichen Gruppe sein muss. |
+| Abonnenten | String [] | Ja | Jedes Element entspricht einer Mobiltelefonnummer (mit Landesvorwahl). EG. + 911999999999). Die Text Nachricht wird nur an die ausgewählten Abonnenten gesendet. Für die selektive Kommunikation mit Teilnehmern im Kontext einer öffentlichen Gruppe verwendet werden |
 
 #### <a name="sample-json-request"></a>JSON-Beispielanforderung
 

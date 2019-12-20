@@ -3,16 +3,16 @@ title: Kaizala-APIs
 description: Liste der APIs, die von Kaizala verfügbar gemacht werden, um die Integration mit Drittanbietersystemen zu ermöglichen
 topic: Reference
 author: nitinjms
-ms.openlocfilehash: c46e15ec9bd88ebbaf1d0d1a1241f1bfd892c00a
-ms.sourcegitcommit: 19e8481e67d9178efb7ea6ca19831ee7a9fa4a8b
+ms.openlocfilehash: a271b34747cd849227702765787dfe7c9b0b99fa
+ms.sourcegitcommit: 9e57984827280ed977019d33dd78b1ce5e3097fc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "35811960"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40809429"
 ---
 # <a name="kaizala-api-documentation"></a>Kaizala-API-Dokumentation
 
-Lesen Sie vor dem ersten Start die Informationen unter [Setup für die Verwendung der Kaizala](setup.md) -Connectors.
+Lesen Sie vor dem ersten Start die Informationen unter [Setup für die Verwendung der Kaizala-Connectors](setup.md) .
 
 ## <a name="root-domain"></a>Stammdomäne
 
@@ -41,6 +41,8 @@ Die API funktioniert mit den folgenden Kaizala-Ressourcen:
 *   [/actions](actions.md)
 *   [/subscribers](subscribers.md)
 *    [/reaction](reactions.md)
+
+> Die Kaizala-API hat den einschränkungsgrenzwert von **100 Anrufen pro Minute pro Connector**. Wenn die Einschränkungs Grenze überschritten wird, gibt die API den Wert "Retry-after" zusammen mit HTTP-Statuscode: 429 zurück. Der Wert "Retry-after" gibt an, wie viele Sekunden gewartet werden soll, bevor eine weitere Anforderung vorgenommen wird.
 
 ### <a name="webhooks"></a>WebHooks
 
