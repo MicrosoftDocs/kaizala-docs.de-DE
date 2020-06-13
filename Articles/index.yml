@@ -1,0 +1,44 @@
+### YamlMime:Hub
+title: Microsoft Kaizala
+summary: Übersicht über Microsoft Kaizala
+brand: m365
+metadata:
+  title: Microsoft Kaizala
+  description: Übersicht über Microsoft Kaizala
+  ms.service: kaizala
+  ms.topic: hub-page
+  audience: ITPro
+  author: samanro
+  ms.author: samanro
+  ms.date: 07/03/2019
+  localization_priority: Priority
+  ms.openlocfilehash: c890801cc99fc822319c564163f50b2d5706c4bf
+  ms.sourcegitcommit: f008ae5ab8d9152ad059ee5cb120dda1081dd4c7
+  ms.translationtype: MT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 06/12/2020
+  ms.locfileid: "44710842"
+additionalContent:
+  sections:
+  - title: Für IT-Experten
+    items:
+    - title: Administratoren
+      summary: Erhalten Sie die praktischen Anleitungen, die Sie benötigen, um Kaizala in Ihrer Organisation optimal zu nutzen.
+      url: /Office365/Kaizala/kaizala-overview
+    - title: Business-Lösungen
+      summary: Hier erfahren Sie, wie Sie Ticketing-System, Salesforce oder andere Lösungen mithilfe von Kaizala erstellen.
+      url: /kaizala/partnerdocs/customerticketingsolution
+    - title: Integration in andere Business-Apps
+      summary: Erkunden Sie die Möglichkeiten zur Integration von Kaizala in beliebte Geschäftsanwendungen.
+      url: /kaizala/partnerdocs/integratekaizalaandmailflow
+    - title: Sicherheit, Datenschutz und Compliance
+      summary: Kaizala ist auf Office 365 aufgebaut. Erfahren Sie, wie Sie Sicherheit und Compliance in Unternehmen gewährleistet.
+      url: /kaizala/partnerdocs/securityoverview
+  - title: Für andere Benutzergruppen
+    items:
+    - title: Entwickler
+      summary: Entdecken Sie bewährte Methoden und Anleitungen für Entwickler.
+      url: /kaizala/developer-platform
+    - title: Endbenutzer
+      summary: Hier finden Sie Hilfe, Schulungen und technischen Support für Kaizala-Benutzer in Support.Office.com.
+      url: https://support.office.com/kaizala
