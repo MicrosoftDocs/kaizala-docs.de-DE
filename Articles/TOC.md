@@ -9,7 +9,7 @@
 ### [Connectors](connectors/README.md)
 ### [Kaizala-Aktionen](Actions/README.md)
 
-## Quick Starts
+## Schnellstarts
 ### Verwenden von Connectors zur Integration in Kaizala
 #### [Einrichten von Connectors](connectors/setup.md)
 #### [Generieren von Zugriffstoken](connectors/Tokens.md)
@@ -47,8 +47,9 @@
 ### [Entwickeln einer benutzerdefinierten Aktion](Actions/tutorial.md)
 ### [Erstellen eines Flusses mithilfe von Kaizala](https://support.office.com/en-us/article/Integrate-your-workflow-in-Kaizala-using-Microsoft-Flow-883343d0-6b16-4725-a23d-bc69fb264356?ui=en-US&rs=en-US&ad=US)
 ### [Verwenden von Kaizala Office-Add-ins](https://support.office.com/en-us/article/Kaizala-Office-Add-in-4cd01439-5da2-4a9f-b493-8f2e23e2fd91)
+### [Erstellen einer Aktion mithilfe von Komponenten Karten-Steuerelementen](Actions/componentcardtutorial.md)
 
-# Connectors #a0-Add-Ins zur Integration in andere Business-Apps
+# Connectors &-Add-Ins zur Integration in andere Business-Apps
 ## [Erstellen von Geschäftsworkflows mithilfe von Flow Connector und Kaizala](PartnerDocs/IntegrateKaizalaandMailflow.md)
 ## [PowerBI Content Pack für Kaizala](https://support.office.com/en-us/article/Kaizala-content-pack-c8f9ab98-e840-4fd9-9afd-415474db8fd9)
 ## [Kaizala-Office-AddIn](PartnerDocs/ExcelAddinforKaizala.md)
@@ -76,9 +77,9 @@
 
 # Schulung und Support
 ## [Schulungen für Endbenutzer](https://support.office.com/en-us/article/Kaizala-training-987b5e60-e32a-44e8-8c71-c891a2a3d8f0)
-## [IT-Administrator #a0 Entwicklerschulungen](PartnerDocs/PartnerTrainings.md)
+## [IT-Administrator & Entwicklerschulungen](PartnerDocs/PartnerTrainings.md)
 ## [FAQs für Entwickler](FAQ.md)
 ## [Wichtige Änderungen](BreakingChanges.md)
 ## [Entwickler Änderungsliste](DevChangelist.md)
-## [Feedback #a0 Support](feedback.md)
+## [Feedback & Support](feedback.md)
 ## [Nutzungsbedingungen](Licenses.md)
